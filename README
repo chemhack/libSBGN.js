@@ -7,3 +7,7 @@ This will pull in the google closure library and compiler:
 
 	git submodule init
 	git submodule update
+
+Run 'ant build-deps' to generate necessary dependency mapping for development, then you can access html/dummy.html
+
+Run 'ant compile' to compile all js files into one, then you can access html/dummy_compiled.html
