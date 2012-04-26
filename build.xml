@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="sb" default="usage">
+    <property name="base.dir" location="."/>
+    <property name="build.dir" value="${base.dir}/build"/>
+    <property name="closure-library.dir" value="${base.dir}/third-party/closure-library"/>
+    <property name="closure-compiler.jar" value="${base.dir}/third-party/closure-compiler/compiler.jar"/>
+    <property name="js-src.dir" value="${base.dir}/src"/>
+
+    <path id="input-files">
+
+        <filelist dir="${js-src.dir}/dummy">
+            <file name="parser.js"/>
+        </filelist>
+
+    </path>
+
+    <pathconvert pathsep=' -i ' property="jsfiles" refid="input-files"/>
+
+    <macrodef name="calcdeps">
+        <attribute name="inputfiles" default="${jsfiles}"/>
+        <attribute name="outputfile"/>
+        <attribute name="compilerjarfile" default="${closure-compiler.jar}"/>
+        <attribute name="compilationlevel" default="ADVANCED_OPTIMIZATIONS"/>
+        <attribute name="outputmode" default="compiled"/>
+        <element name="extraflags" optional="yes"/>
+        <sequential>
+            <mkdir dir="${build.dir}"/>
+            <exec executable="python" failonerror="true" logError="true" output="${build.dir}/@{outputfile}">
+                <arg value="${closure-library.dir}/closure/bin/calcdeps.py"/>
+                <arg line='-i @{inputfiles}'/>
+                <arg line='-p ${closure-library.dir}'/>
+                <arg line='-p ${js-src.dir}'/>
+                <arg line="-o @{outputmode}"/>
+                <arg line='-c "@{compilerjarfile}"'/>
+                <arg line='-f "--compilation_level=@{compilationlevel}"'/>
+                <arg line='-f "--debug=false"'/>
+                <arg line='-f "--jscomp_warning=checkTypes"'/>
+                <arg line='-f "--jscomp_warning=accessControls"'/>
+                <arg line='-f "--jscomp_warning=missingProperties"'/>
+                <arg line='-f "--jscomp_warning=unknownDefines"'/>
+                <arg line='-f "--jscomp_warning=strictModuleDepCheck"'/>
+                <extraflags/>
+            </exec>
+        </sequential>
+    </macrodef>
+
+
+    <target name="clean" description="delete generated files">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="build-deps" description="rebuild deps.js file, should be executed when namespace changed">
+        <exec executable="python" failonerror="true" logError="true" output="${build.dir}/deps.js">
+            <arg value="${closure-library.dir}/closure/bin/calcdeps.py"/>
+            <arg line='-p "${closure-library.dir}"'/>
+            <arg line='-p "${js-src.dir}"'/>
+            <arg line="-o deps"/>
+        </exec>
+    </target>
+
+    <target name='compile-check' description='check by compiling all js files'>
+        <mkdir dir="${build.dir}"/>
+        <exec executable="python" failonerror="true" logError="true" output="${build.dir}/compile-check.js">
+            <arg value="${closure-library.dir}/closure/bin/calcdeps.py"/>
+            <arg line='-i ${js-src.dir}'/>
+            <arg line='-p ${closure-library.dir}'/>
+            <arg line='-p ${js-src.dir}'/>
+            <arg line="-o compiled"/>
+            <arg line='-c "${closure-compiler.jar}"'/>
+            <arg line='-f "--compilation_level=ADVANCED_OPTIMIZATIONS"'/>
+            <arg line='-f "--jscomp_warning=checkTypes"'/>
+        </exec>
+    </target>
+
+    <!-- Default Google Closure Compiler compilation levels -->
+
+    <target name="compile-advanced" description="Compile with ADVANCED_OPTIMIZATIONS setting">
+        <calcdeps outputfile="compiled-advanced.js"/>
+    </target>
+
+    <target name="compile-simple" description="Compile with SIMPLE_OPTIMIZATIONS setting">
+        <calcdeps outputfile="compiled-simple.js" compilationlevel="SIMPLE_OPTIMIZATIONS"/>
+    </target>
+
+    <target name="compile-whitespace-only" description="Compile with WHITESPACE_ONLY setting">
+        <calcdeps outputfile="compiled-whitespace-only.js" compilationlevel="WHITESPACE_ONLY"/>
+    </target>
+    <target name="compile" depends="compile-advanced" description="Compile with default settings">
+    </target>
+
+    <target name="usage" description="Display main targets by running 'ant -projecthelp'">
+        <java classname="org.apache.tools.ant.Main">
+            <arg value="-projecthelp"/>
+        </java>
+    </target>
+
+</project>
