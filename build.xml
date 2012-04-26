@@ -13,6 +13,10 @@
             <file name="parser.js"/>
         </filelist>
 
+        <filelist dir="${js-src.dir}/api">
+            <file name="api.js"/>
+        </filelist>
+
     </path>
 
     <pathconvert pathsep=' -i ' property="jsfiles" refid="input-files"/>
@@ -35,6 +39,7 @@
                 <arg line='-c "@{compilerjarfile}"'/>
                 <arg line='-f "--compilation_level=@{compilationlevel}"'/>
                 <arg line='-f "--debug=false"'/>
+                <arg line='-f "--generate_exports"'/>
                 <arg line='-f "--jscomp_warning=checkTypes"'/>
                 <arg line='-f "--jscomp_warning=accessControls"'/>
                 <arg line='-f "--jscomp_warning=missingProperties"'/>
