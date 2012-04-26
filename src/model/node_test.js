@@ -10,13 +10,13 @@ function setUp(){
 }
 
 function testNodeId(){
-    var node=doc.createNode('glyph01');
+    var node=doc.addNode('glyph01');
     assertEquals('glyph01',node.id);
     node.id='glyph02';
     assertEquals('glyph02',node.id);
 }
 function testEmptyNodeId(){
-    var node=doc.createNode();
+    var node=doc.addNode();
     assertEquals(null,node.id);
     node.id='glyph02';
     assertEquals('glyph02',node.id);
@@ -27,14 +27,14 @@ function testNodeTypeHelper(){
     assertFalse(sb.NodeTypeHelper.isNodeTypeSupported(123412));
 }
 function testNodeType(){
-    var node=doc.createNode('glyph01');
+    var node=doc.addNode('glyph01');
     node.type(sb.NodeType.SimpleChemical);
     assertEquals(sb.NodeType.SimpleChemical,node.type());
     node.type('macromolecule');
     assertEquals(sb.NodeType.Macromolecule,node.type());
 }
 function testNonExistNodeType(){
-    var node=doc.createNode('glyph01');
+    var node=doc.addNode('glyph01');
     assertThrows(function(){
        node.setType('not supported type')
     });
