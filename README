@@ -1,0 +1,9 @@
+To get started, you need to checkout the repository:
+
+	git clone git://github.com/chemhack/lib-sb.git
+	cd lib-sb
+
+This will pull in the google closure library and compiler:
+
+	git submodule init
+	git submodule update
