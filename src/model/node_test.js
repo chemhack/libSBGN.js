@@ -3,14 +3,20 @@ goog.provide('sb.model.nodeTest');
 goog.require('goog.testing.jsunit');
 goog.require('sb.Node');
 
+var doc;
+
+function setUp(){
+    doc=new sb.Document();
+}
+
 function testNodeId(){
-    var node=new sb.Node('glyph01');
+    var node=doc.createNode('glyph01');
     assertEquals('glyph01',node.id);
     node.id='glyph02';
     assertEquals('glyph02',node.id);
 }
 function testEmptyNodeId(){
-    var node=new sb.Node();
+    var node=doc.createNode();
     assertEquals(null,node.id);
     node.id='glyph02';
     assertEquals('glyph02',node.id);
@@ -21,14 +27,14 @@ function testNodeTypeHelper(){
     assertFalse(sb.NodeTypeHelper.isNodeTypeSupported(123412));
 }
 function testNodeType(){
-    var node=new sb.Node('glyph01');
-    node.setType(sb.NodeType.SimpleChemical);
-    assertEquals(sb.NodeType.SimpleChemical,node.getType());
-    node.setType('macromolecule');
-    assertEquals(sb.NodeType.Macromolecule,node.getType());
+    var node=doc.createNode('glyph01');
+    node.type(sb.NodeType.SimpleChemical);
+    assertEquals(sb.NodeType.SimpleChemical,node.type());
+    node.type('macromolecule');
+    assertEquals(sb.NodeType.Macromolecule,node.type());
 }
 function testNonExistNodeType(){
-    var node=new sb.Node('glyph01');
+    var node=doc.createNode('glyph01');
     assertThrows(function(){
        node.setType('not supported type')
     });

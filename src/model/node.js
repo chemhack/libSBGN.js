@@ -1,14 +1,20 @@
 goog.provide('sb.Node');
 
+goog.require('sb.Document');
 goog.require('sb.NodeType');
 
 /**
- * Class for the nodes.
+ * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
+ * @param {!sb.Document} document the document to bind
  * @param {string=} opt_id Optional id of the node.
  * @constructor
- * @export
  */
-sb.Node = function (opt_id) {
+sb.Node = function (document, opt_id) {
+    /**
+     * @private
+     * @type {sb.Document}
+     */
+    this.document_ = document;
     /**
      * @public
      * @type {?string}
@@ -19,25 +25,21 @@ sb.Node = function (opt_id) {
      * @private
      * @type {sb.NodeType}
      */
-    this.type = sb.NodeType.UnspecifiedEntity;
+    this.type_ = sb.NodeType.UnspecifiedEntity;
 };
 
 /**
- * Returns the node type
- * @return {sb.NodeType}
- * @export
- */
-sb.Node.prototype.getType = function () {
-    return this.type;
-};
-/**
- * Set node type, a error will be thrown if the node type is invalid, see sb.NodeType
+ * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.NodeType
  * @param {sb.NodeType|string} type
+ * @return {sb.NodeType} always return current node type
  * @export
  */
-sb.Node.prototype.setType = function (type) {
-    if (!sb.NodeTypeHelper.isNodeTypeSupported(type)) {
-        throw new Error('Given node type ' + type + ' is not supported.');
+sb.Node.prototype.type = function (type) {
+    if (goog.isDef(type)) {
+        if (!sb.NodeTypeHelper.isNodeTypeSupported(type)) {
+            throw new Error('Given node type ' + type + ' is not supported.');
+        }
+        this.type_ = /** @type{sb.NodeType} */ (type); //make sure node type is checked
     }
-    this.type = /** @type{sb.NodeType} */ (type); //make sure node type is checked
+    return this.type_;
 };
