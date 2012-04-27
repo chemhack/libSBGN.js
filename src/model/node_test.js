@@ -17,7 +17,7 @@ function testNodeId(){
 }
 function testEmptyNodeId(){
     var node=doc.createNode();
-    assertEquals(null,node.id());
+    assertEquals(undefined,node.id());
     node.id('glyph02');
     assertEquals('glyph02',node.id());
 }

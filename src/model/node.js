@@ -3,6 +3,7 @@ goog.provide('sb.Node');
 goog.require('sb.Document');
 goog.require('sb.NodeType');
 goog.require('sb.util.property');
+goog.require('goog.structs.Map');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
@@ -16,11 +17,7 @@ sb.Node = function (document) {
      * @type {sb.Document}
      */
     this.document_ = document;
-    /**
-     * @private
-     * @type {?string}
-     */
-    this.id_ = null;
+
     /**
      * The type of the node, see sb.NodeType
      * @private
@@ -29,11 +26,11 @@ sb.Node = function (document) {
     this.type_ = sb.NodeType.UnspecifiedEntity;
 
     /**
-     * Label of the node
-     * @type {string}
+     * Internal attribute map
+     * @type {goog.structs.Map}
      * @private
      */
-    this.label_ = null;
+    this.attrs_=new goog.structs.Map();
 };
 
 /**
@@ -60,12 +57,7 @@ sb.Node.prototype.type = function (type) {
  * @return {string|sb.Node} current id or sb.Node instance for chaining
  */
 sb.Node.prototype.id = function (opt_id) {
-    if (goog.isDef(opt_id)) {
-        this.id_=opt_id;
-        return this;
-    } else {
-        return this.id_;
-    }
+    return this.attr('id',opt_id);
 };
 
 /**
@@ -74,11 +66,20 @@ sb.Node.prototype.id = function (opt_id) {
  * @return {string|sb.Node} current label or sb.Node instance for chaining
  */
 sb.Node.prototype.label = function (opt_label) {
-    if (goog.isDef(opt_label)) {
-        this.label_=opt_label;
-        return this;
-    } else {
-        return this.label_;
-    }
+    return this.attr('label',opt_label);
 };
 
+/**
+ * Setter/getter of attribute.
+ * @param {string} key key
+ * @param {*=} opt_value label value to set
+ * @return {*|sb.Node} current label or sb.Node instance for chaining
+ */
+sb.Node.prototype.attr=function(key,opt_value){
+    if(goog.isDef(opt_value)){
+        this.attrs_.set(key,opt_value);
+        return this;
+    }else{
+        return this.attrs_.get(key);
+    }
+};
