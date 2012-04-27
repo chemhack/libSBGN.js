@@ -10,16 +10,16 @@ function setUp(){
 }
 
 function testNodeId(){
-    var node=doc.addNode('glyph01');
-    assertEquals('glyph01',node.id);
-    node.id='glyph02';
-    assertEquals('glyph02',node.id);
+    var node=doc.createNode().id('glyph01');
+    assertEquals('glyph01',node.id());
+    node.id('glyph02');
+    assertEquals('glyph02',node.id());
 }
 function testEmptyNodeId(){
-    var node=doc.addNode();
-    assertEquals(null,node.id);
-    node.id='glyph02';
-    assertEquals('glyph02',node.id);
+    var node=doc.createNode();
+    assertEquals(null,node.id());
+    node.id('glyph02');
+    assertEquals('glyph02',node.id());
 }
 function testNodeTypeHelper(){
     assertTrue(sb.NodeTypeHelper.isNodeTypeSupported(sb.NodeType.SimpleChemical));
@@ -27,15 +27,20 @@ function testNodeTypeHelper(){
     assertFalse(sb.NodeTypeHelper.isNodeTypeSupported(123412));
 }
 function testNodeType(){
-    var node=doc.addNode('glyph01');
+    var node=doc.createNode().id('glyph01');
     node.type(sb.NodeType.SimpleChemical);
     assertEquals(sb.NodeType.SimpleChemical,node.type());
     node.type('macromolecule');
     assertEquals(sb.NodeType.Macromolecule,node.type());
 }
 function testNonExistNodeType(){
-    var node=doc.addNode('glyph01');
+    var node=doc.createNode().id('glyph01');
     assertThrows(function(){
        node.setType('not supported type')
     });
+}
+function testChaining(){
+    var node=doc.createNode().id('glyph01').type(sb.NodeType.SimpleChemical).label('ethanol');
+    assertEquals('ethanol',node.label());
+    assertEquals(sb.NodeType.SimpleChemical,node.type());
 }
