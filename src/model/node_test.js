@@ -44,3 +44,8 @@ function testChaining(){
     assertEquals('ethanol',node.label());
     assertEquals(sb.NodeType.SimpleChemical,node.type());
 }
+function testAttribute(){
+    var node=doc.createNode().id('glyph01').type(sb.NodeType.SimpleChemical).label('ethanol');
+    assertEquals('glyph01',node.attr('id'));
+    assertEquals('ethanol',node.attr('label'));
+}
