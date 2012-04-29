@@ -1,6 +1,13 @@
 goog.provide('sb.model.AttributeObject');
 
+goog.require('goog.structs.Map');
+
+/**
+ * Base class for attribute support
+ * @constructor
+ */
 sb.model.AttributeObject=function(){
+
     /**
      * Internal attribute map
      * @type {goog.structs.Map}

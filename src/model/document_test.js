@@ -31,7 +31,7 @@ function testArcIdSeq(){
     assertEquals('arc2',arc2.id());
     arc1.id('arc3');
     var arc3=doc.createArc();
-    assertEquals('arc3',arc3.id());
+    assertEquals('arc4',arc3.id());
 }
 
 function testArcIdRename(){

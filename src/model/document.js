@@ -9,6 +9,7 @@ goog.require('goog.structs.Map');
  * Class for the root structure of a system biology document.
  * @param {string=} opt_id Optional id of the document.
  * @constructor
+ * @export
  */
 sb.Document = function (opt_id) {
     this.id = opt_id;
@@ -29,14 +30,14 @@ sb.Document = function (opt_id) {
 
     /**
      * Node map
-     * @type {goog.structs.Map}
+     * @type {Object.<string, sb.Node>}
      * @private
      */
     this.nodes_ = new goog.structs.Map();
 
     /**
      * Arc map
-     * @type {goog.structs.Map}
+     * @type {Object.<string, sb.Arc>}
      * @private
      */
     this.arcs_ = new goog.structs.Map();
@@ -46,12 +47,13 @@ sb.Document = function (opt_id) {
  * Create a new node within the document.
  * @param {string=} opt_id Optional id of node.
  * @return {sb.Node}
+ * @export
  */
 sb.Document.prototype.createNode = function (opt_id) {
     var id = opt_id ? opt_id : this.nextNodeId_();
-    if (this.nodes_.containsKey(id)) {
-        throw new Error("Given id " + id + " already exists.");
-    }
+//    if (this.nodes_.containsKey(id)) {
+//        throw new Error("Given id " + id + " already exists.");
+//    }
     return /** @type{sb.Node} */(new sb.Node(this).id(id));
 };
 
@@ -72,6 +74,7 @@ sb.Document.prototype.nextNodeId_ = function () {
 /**
  * Readonly. Get all nodes within the document.
  * @return {Array.<sb.Node>}
+ * @export
  */
 sb.Document.prototype.nodes = function () {
     return this.nodes_.getValues();
@@ -81,6 +84,7 @@ sb.Document.prototype.nodes = function () {
  * Return the node of given id.
  * @param id
  * @return {sb.Node}
+ * @export
  */
 sb.Document.prototype.node = function (id) {
     return this.nodes_.get(id);
@@ -90,12 +94,13 @@ sb.Document.prototype.node = function (id) {
  * Create a new arc within the document.
  * @param {string=} opt_id Optional id of arc.
  * @return {sb.Arc}
+ * @export
  */
 sb.Document.prototype.createArc = function (opt_id) {
     var id = opt_id ? opt_id : this.nextArcId_();
-    if (this.arcs_.containsKey(id)) {
-        throw new Error("Given id " + id + " already exists.");
-    }
+//    if (this.arcs_.containsKey(id)) {
+//        throw new Error("Given id " + id + " already exists.");
+//    }
     return /** @type{sb.Arc}*/(new sb.Arc(this).id(id));
 };
 
@@ -106,7 +111,7 @@ sb.Document.prototype.createArc = function (opt_id) {
  */
 sb.Document.prototype.nextArcId_ = function () {
     var nextArcId_ = "arc" + this.arcIdSeq_++;
-    if (this.node(nextArcId_)) {
+    if (this.arc(nextArcId_)) {
         return this.nextArcId_();
     } else {
         return nextArcId_;
@@ -117,6 +122,7 @@ sb.Document.prototype.nextArcId_ = function () {
 /**
  * Readonly. Get all arcs within the document.
  * @return {Array.<sb.Arc>}
+ * @export
  */
 sb.Document.prototype.arcs = function () {
     return this.arcs_.getValues();
@@ -126,6 +132,7 @@ sb.Document.prototype.arcs = function () {
  * Return the arc of given id.
  * @param id
  * @return {sb.Arc}
+ * @export
  */
 sb.Document.prototype.arc = function (id) {
     return this.arcs_.get(id);
