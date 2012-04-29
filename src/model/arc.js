@@ -23,16 +23,16 @@ goog.inherits(sb.Arc, sb.model.AttributeObject);
  * @private
  */
 sb.Arc.prototype.assertIdUnique_ = function (arcId) {
-    var node = this.document_.arc(arcId);
-    if (node && node != this) {
+    var arc = this.document_.arc(arcId);
+    if (arc && arc != this) {
         throw new Error('Given arc id ' + arcId + ' already existed');
     }
 };
 
 /**
- * Setter/getter of node id.
+ * Setter/getter of arc id.
  * @param {string=} opt_id id value to set
- * @return {string|sb.Arc} current id or sb.Node instance for chaining
+ * @return {string|sb.Arc} current id or sb.Arc instance for chaining
  * @export
  */
 sb.Arc.prototype.id = function (opt_id) {
@@ -42,3 +42,24 @@ sb.Arc.prototype.id = function (opt_id) {
     return /** @type{string|sb.Arc}*/this.attr('id', opt_id, this.document_);
 };
 
+/**
+ * Setter/getter of arc source.
+ * @param {sb.Node=} opt_source
+ * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
+ * @export
+ */
+
+sb.Arc.prototype.source=function(opt_source){
+    return /** @type{sb.Node|sb.Arc}*/this.attr('source', opt_source);
+};
+
+/**
+ * Setter/getter of arc target.
+ * @param {sb.Node=} opt_target
+ * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
+ * @export
+ */
+
+sb.Arc.prototype.target=function(opt_target){
+    return /** @type{sb.Node|sb.Arc}*/this.attr('target', opt_target);
+};

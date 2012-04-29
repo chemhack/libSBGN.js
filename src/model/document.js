@@ -98,10 +98,19 @@ sb.Document.prototype.node = function (id) {
  */
 sb.Document.prototype.createArc = function (opt_id) {
     var id = opt_id ? opt_id : this.nextArcId_();
-//    if (this.arcs_.containsKey(id)) {
-//        throw new Error("Given id " + id + " already exists.");
-//    }
     return /** @type{sb.Arc}*/(new sb.Arc(this).id(id));
+};
+
+/**
+ * Create an arc from two nodes
+ * @param {sb.Node} source
+ * @param {sb.Node} target
+ * @return {sb.Arc}
+ */
+sb.Document.prototype.connect=function(source,target){
+    var arc=this.createArc();
+    arc.source(source).target(target);
+    return arc;
 };
 
 /**
