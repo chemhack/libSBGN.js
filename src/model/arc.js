@@ -1,5 +1,10 @@
 goog.provide('sb.Arc');
 
+goog.require('sb.ArcType');
+goog.require('sb.ArcTypeHelper');
+goog.require('sb.model.AttributeObject');
+
+
 /**
  * Class for the arcs. Do not use the constructor, use sb.Document.prototype.createArc instead.
  * @param {!sb.Document} document the document to bind
@@ -16,6 +21,22 @@ sb.Arc = function (document) {
 };
 
 goog.inherits(sb.Arc, sb.model.AttributeObject);
+
+/**
+ * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.ArcType
+ * @param {sb.ArcType|string=} opt_type
+ * @return {sb.ArcType|sb.Arc} current node type or sb.Node instance for chaining
+ * @export
+ */
+sb.Arc.prototype.type = function (opt_type) {
+    if (goog.isDef(opt_type)) {
+        if (!sb.ArcTypeHelper.isArcTypeSupported(opt_type)) {
+            throw new Error('Given arc type ' + opt_type + ' is not supported.');
+        }
+    }
+    return /** @type{sb.ArcType|sb.Arc}*/this.attr('type', opt_type);
+};
+
 
 /**
  * Make sure no other arc has the same id.

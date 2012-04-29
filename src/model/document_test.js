@@ -24,6 +24,7 @@ function testNodeIdRename(){
     node1.id('node2');
     assertEquals(node1,doc.node('node2'));
 }
+
 function testArcIdSeq(){
     var arc1=doc.createArc();
     assertEquals('arc1',arc1.id());

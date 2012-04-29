@@ -30,7 +30,7 @@ function testNodeType(){
 function testNonExistNodeType(){
     var node=doc.createNode().id('glyph01');
     assertThrows(function(){
-       node.setType('not supported type')
+       node.type('not supported type');
     });
 }
 function testChaining(){

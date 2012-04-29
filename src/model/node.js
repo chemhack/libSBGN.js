@@ -1,6 +1,7 @@
 goog.provide('sb.Node');
 
 goog.require('sb.NodeType');
+goog.require('sb.NodeTypeHelper');
 goog.require('sb.model.AttributeObject');
 
 /**
