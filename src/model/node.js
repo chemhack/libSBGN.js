@@ -1,8 +1,8 @@
 goog.provide('sb.Node');
 
-goog.require('sb.Document');
 goog.require('sb.NodeType');
 goog.require('goog.structs.Map');
+goog.require('sb.model.AttributeObject');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
@@ -10,6 +10,7 @@ goog.require('goog.structs.Map');
  * @constructor
  */
 sb.Node = function (document) {
+    goog.base(this);
     /**
      * @private
      * @type {sb.Document}
@@ -22,14 +23,9 @@ sb.Node = function (document) {
      * @type {sb.NodeType}
      */
     this.type_ = sb.NodeType.UnspecifiedEntity;
-
-    /**
-     * Internal attribute map
-     * @type {goog.structs.Map}
-     * @private
-     */
-    this.attrs_ = new goog.structs.Map();
 };
+
+goog.inherits(sb.Node,sb.model.AttributeObject);
 
 /**
  * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.NodeType
@@ -79,23 +75,4 @@ sb.Node.prototype.label = function (opt_label) {
     return this.attr('label', opt_label);
 };
 
-/**
- * Setter/getter of attribute.
- * @param {string} key key
- * @param {*=} opt_value label value to set
- * @param {*=} opt_notifyObject object to notify, the object should implement onAttrChange(object, key, oldValue, newValue) method.
- * @return {*|sb.Node} current label or sb.Node instance for chaining
- */
-sb.Node.prototype.attr = function (key, opt_value, opt_notifyObject) {
-    if (goog.isDef(opt_value)) {
-        var oldValue = this.attrs_.get(key);
-        this.attrs_.set(key, opt_value);
-        if(opt_notifyObject){
-            opt_notifyObject.onAttrChange(this, key, oldValue, opt_value);
-        }
-        return this;
-    } else {
-        return this.attrs_.get(key);
-    }
-};
 

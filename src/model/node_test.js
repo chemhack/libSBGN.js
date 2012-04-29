@@ -1,7 +1,7 @@
 goog.provide('sb.model.nodeTest');
 
 goog.require('goog.testing.jsunit');
-goog.require('sb.Node');
+goog.require('sb.Document');
 
 var doc;
 
