@@ -15,12 +15,6 @@ function testNodeId(){
     node.id('glyph02');
     assertEquals('glyph02',node.id());
 }
-function testEmptyNodeId(){
-    var node=doc.createNode();
-    assertEquals(undefined,node.id());
-    node.id('glyph02');
-    assertEquals('glyph02',node.id());
-}
 function testNodeTypeHelper(){
     assertTrue(sb.NodeTypeHelper.isNodeTypeSupported(sb.NodeType.SimpleChemical));
     assertFalse(sb.NodeTypeHelper.isNodeTypeSupported('other irrelevant things'));
@@ -48,4 +42,12 @@ function testAttribute(){
     var node=doc.createNode().id('glyph01').type(sb.NodeType.SimpleChemical).label('ethanol');
     assertEquals('glyph01',node.attr('id'));
     assertEquals('ethanol',node.attr('label'));
+}
+function testNodeIdDuplication(){
+    doc.createNode().id('glyph01');
+    var node2=doc.createNode().id('glyph02');
+    assertThrows(function(){
+        node2.id('glyph01');
+    });
+
 }
