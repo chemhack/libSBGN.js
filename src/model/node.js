@@ -2,14 +2,17 @@ goog.provide('sb.Node');
 
 goog.require('sb.Document');
 goog.require('sb.NodeType');
+goog.require('sb.FuckingAttribute');
 goog.require('goog.structs.Map');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
+ * @extends {sb.AttributeObject}
  */
 sb.Node = function (document) {
+    sb.FuckingAttribute.call(this);
     /**
      * @private
      * @type {sb.Document}
@@ -23,13 +26,9 @@ sb.Node = function (document) {
      */
     this.type_ = sb.NodeType.UnspecifiedEntity;
 
-    /**
-     * Internal attribute map
-     * @type {goog.structs.Map}
-     * @private
-     */
-    this.attrs_ = new goog.structs.Map();
 };
+
+goog.inherits(sb.Node,sb.FuckingAttribute);
 
 /**
  * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.NodeType
@@ -43,7 +42,7 @@ sb.Node.prototype.type = function (opt_type) {
             throw new Error('Given node type ' + opt_type + ' is not supported.');
         }
     }
-    return this.attr('type', opt_type);
+    return sb.FuckingAttribute.prototype.attr.call(this,'type', opt_type);
 };
 
 /**
@@ -67,7 +66,7 @@ sb.Node.prototype.id = function (opt_id) {
     if (goog.isDef(opt_id)) {
         this.assertIdUnique_(opt_id);
     }
-    return this.attr('id', opt_id, this.document_);
+    return sb.FuckingAttribute.prototype.attr.call(this,'id', opt_id, this.document_);
 };
 
 /**
@@ -76,26 +75,8 @@ sb.Node.prototype.id = function (opt_id) {
  * @return {*|sb.Node} current label or sb.Node instance for chaining
  */
 sb.Node.prototype.label = function (opt_label) {
-    return this.attr('label', opt_label);
+    return sb.FuckingAttribute.prototype.attr.call(this,'label', opt_label);
 };
 
-/**
- * Setter/getter of attribute.
- * @param {string} key key
- * @param {*=} opt_value label value to set
- * @param {*=} opt_notifyObject object to notify, the object should implement onAttrChange(object, key, oldValue, newValue) method.
- * @return {*|sb.Node} current label or sb.Node instance for chaining
- */
-sb.Node.prototype.attr = function (key, opt_value, opt_notifyObject) {
-    if (goog.isDef(opt_value)) {
-        var oldValue = this.attrs_.get(key);
-        this.attrs_.set(key, opt_value);
-        if(opt_notifyObject){
-            opt_notifyObject.onAttrChange(this, key, oldValue, opt_value);
-        }
-        return this;
-    } else {
-        return this.attrs_.get(key);
-    }
-};
+
 
