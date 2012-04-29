@@ -39,3 +39,12 @@ function testArcIdRename(){
     arc1.id('arc2');
     assertEquals(arc1,doc.arc('arc2'));
 }
+
+function testConnectNodes(){
+    var node1=doc.createNode('node1');
+    var node2=doc.createNode('node2');
+    var arc1=doc.connect(node1,node2);
+    assertEquals(node1,arc1.source());
+    assertEquals(node2,arc1.target());
+
+}

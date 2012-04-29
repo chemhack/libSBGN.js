@@ -106,6 +106,7 @@ sb.Document.prototype.createArc = function (opt_id) {
  * @param {sb.Node} source
  * @param {sb.Node} target
  * @return {sb.Arc}
+ * @export
  */
 sb.Document.prototype.connect=function(source,target){
     var arc=this.createArc();

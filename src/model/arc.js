@@ -44,22 +44,29 @@ sb.Arc.prototype.id = function (opt_id) {
 
 /**
  * Setter/getter of arc source.
- * @param {sb.Node=} opt_source
+ * @param {string|sb.Node=} opt_source node or its id
  * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
  * @export
  */
 
-sb.Arc.prototype.source=function(opt_source){
+sb.Arc.prototype.source = function (opt_source) {
+    if (opt_source && goog.isString(opt_source)) {
+        var node = this.document_.node(opt_source);
+        if (!node) {
+            throw new Error('Node ' + opt_source + ' do not exist.');
+        }
+        opt_source=node;
+    }
     return /** @type{sb.Node|sb.Arc}*/this.attr('source', opt_source);
 };
 
 /**
  * Setter/getter of arc target.
- * @param {sb.Node=} opt_target
+ * @param {string|sb.Node=} opt_target
  * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
  * @export
  */
 
-sb.Arc.prototype.target=function(opt_target){
+sb.Arc.prototype.target = function (opt_target) {
     return /** @type{sb.Node|sb.Arc}*/this.attr('target', opt_target);
 };
