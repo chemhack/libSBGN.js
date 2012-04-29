@@ -22,6 +22,7 @@ sb.model.AttributeObject=function(){
  * @param {*=} opt_value label value to set
  * @param {*=} opt_notifyObject object to notify, the object should implement onAttrChange(object, key, oldValue, newValue) method.
  * @return {*} current attributeValue or class instance for chaining
+ * @export
  */
 sb.model.AttributeObject.prototype.attr = function (key, opt_value, opt_notifyObject) {
     if (goog.isDef(opt_value)) {
