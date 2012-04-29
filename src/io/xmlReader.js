@@ -16,5 +16,7 @@ sb.io.XmlReader = function () {
  * @return {*}
  */
 sb.io.XmlReader.prototype.parseXmlText = function (xmlText) {
-    return goog.dom.xml.loadXml(xmlText);
+    var document = goog.dom.xml.loadXml(xmlText);
+    console.log('document'+document);
+    return document;
 };

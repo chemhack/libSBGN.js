@@ -8,8 +8,3 @@ function setUp(){
 
 }
 
-function testNodeIdSeq(){
-    var ao=new sb.FuckingAttribute();
-    sb.FuckingAttribute.prototype;
-}
-

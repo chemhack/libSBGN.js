@@ -13,3 +13,7 @@ sb.io.SbgnReader = function () {
 
 goog.inherits(sb.io.SbgnReader, sb.io.XmlReader);
 
+
+sb.io.SbgnReader.prototype.readText = function (text) {
+
+};

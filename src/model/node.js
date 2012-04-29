@@ -75,5 +75,5 @@ sb.Node.prototype.id = function (opt_id) {
  * @export
  */
 sb.Node.prototype.label = function (opt_label) {
-    return sb.FuckingAttribute.prototype.attr.call(this,'label', opt_label);
+    return this.attr('label', opt_label);
 };
