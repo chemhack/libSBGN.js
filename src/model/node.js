@@ -1,18 +1,17 @@
 goog.provide('sb.Node');
 
-goog.require('sb.Document');
 goog.require('sb.NodeType');
-goog.require('sb.FuckingAttribute');
-goog.require('goog.structs.Map');
+goog.require('sb.NodeTypeHelper');
+goog.require('sb.model.AttributeObject');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends {sb.AttributeObject}
+ * @extends {sb.model.AttributeObject}
  */
 sb.Node = function (document) {
-    sb.FuckingAttribute.call(this);
+    goog.base(this);
     /**
      * @private
      * @type {sb.Document}
@@ -25,10 +24,9 @@ sb.Node = function (document) {
      * @type {sb.NodeType}
      */
     this.type_ = sb.NodeType.UnspecifiedEntity;
-
 };
 
-goog.inherits(sb.Node,sb.FuckingAttribute);
+goog.inherits(sb.Node, sb.model.AttributeObject);
 
 /**
  * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.NodeType
@@ -42,7 +40,7 @@ sb.Node.prototype.type = function (opt_type) {
             throw new Error('Given node type ' + opt_type + ' is not supported.');
         }
     }
-    return sb.FuckingAttribute.prototype.attr.call(this,'type', opt_type);
+    return /** @type{sb.NodeType|sb.Node}*/this.attr('type', opt_type);
 };
 
 /**
@@ -60,23 +58,22 @@ sb.Node.prototype.assertIdUnique_ = function (nodeId) {
 /**
  * Setter/getter of node id.
  * @param {string=} opt_id id value to set
- * @return {*|sb.Node} current id or sb.Node instance for chaining
+ * @return {string|sb.Node} current id or sb.Node instance for chaining
+ * @export
  */
 sb.Node.prototype.id = function (opt_id) {
     if (goog.isDef(opt_id)) {
         this.assertIdUnique_(opt_id);
     }
-    return sb.FuckingAttribute.prototype.attr.call(this,'id', opt_id, this.document_);
+    return /** @type{string|sb.Node}*/this.attr('id', opt_id, this.document_);
 };
 
 /**
  * Setter/getter of node label.
  * @param {string=} opt_label label value to set
  * @return {*|sb.Node} current label or sb.Node instance for chaining
+ * @export
  */
 sb.Node.prototype.label = function (opt_label) {
     return sb.FuckingAttribute.prototype.attr.call(this,'label', opt_label);
 };
-
-
-

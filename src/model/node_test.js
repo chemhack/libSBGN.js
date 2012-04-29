@@ -1,7 +1,7 @@
 goog.provide('sb.model.nodeTest');
 
 goog.require('goog.testing.jsunit');
-goog.require('sb.Node');
+goog.require('sb.Document');
 
 var doc;
 
@@ -30,7 +30,7 @@ function testNodeType(){
 function testNonExistNodeType(){
     var node=doc.createNode().id('glyph01');
     assertThrows(function(){
-       node.setType('not supported type')
+       node.type('not supported type');
     });
 }
 function testChaining(){

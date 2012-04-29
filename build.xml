@@ -9,10 +9,6 @@
 
     <path id="input-files">
 
-        <filelist dir="${js-src.dir}/dummy">
-            <file name="parser.js"/>
-        </filelist>
-
         <filelist dir="${js-src.dir}/api">
             <file name="api.js"/>
         </filelist>
@@ -45,6 +41,7 @@
                 <arg line='-f "--jscomp_warning=missingProperties"'/>
                 <arg line='-f "--jscomp_warning=unknownDefines"'/>
                 <arg line='-f "--jscomp_warning=strictModuleDepCheck"'/>
+                <arg line='-f "--manage_closure_dependencies"'/>
                 <extraflags/>
             </exec>
         </sequential>

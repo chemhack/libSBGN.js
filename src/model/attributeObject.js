@@ -3,10 +3,11 @@ goog.provide('sb.FuckingAttribute');
 goog.require('goog.structs.Map');
 
 /**
- *
+ * Base class for attribute support
  * @constructor
  */
-sb.FuckingAttribute = function () {
+sb.model.AttributeObject=function(){
+
     /**
      * Internal attribute map
      * @type {goog.structs.Map}
@@ -20,13 +21,14 @@ sb.FuckingAttribute = function () {
  * @param {string} key key
  * @param {*=} opt_value label value to set
  * @param {*=} opt_notifyObject object to notify, the object should implement onAttrChange(object, key, oldValue, newValue) method.
- * @return {*|sb.Node} current label or sb.Node instance for chaining
+ * @return {*} current attributeValue or class instance for chaining
+ * @export
  */
-sb.FuckingAttribute.prototype.attr = function (key, opt_value, opt_notifyObject) {
+sb.model.AttributeObject.prototype.attr = function (key, opt_value, opt_notifyObject) {
     if (goog.isDef(opt_value)) {
         var oldValue = this.attrs_.get(key);
         this.attrs_.set(key, opt_value);
-        if (opt_notifyObject) {
+        if(opt_notifyObject){
             opt_notifyObject.onAttrChange(this, key, oldValue, opt_value);
         }
         return this;
