@@ -1,4 +1,4 @@
-goog.provide('sb.FuckingAttribute');
+goog.provide('sb.model.AttributeObject');
 
 goog.require('goog.structs.Map');
 
