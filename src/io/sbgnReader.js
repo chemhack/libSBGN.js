@@ -5,7 +5,7 @@ goog.require('sb.io.XmlReader');
 /**
  * Reader of sbgn class
  * @constructor
- * @extends {sb.io.SbgnReader}
+ * @extends sb.io.SbgnReader
  */
 sb.io.SbgnReader = function () {
     goog.base(this);

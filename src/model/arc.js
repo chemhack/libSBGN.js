@@ -9,7 +9,7 @@ goog.require('sb.model.AttributeObject');
  * Class for the arcs. Do not use the constructor, use sb.Document.prototype.createArc instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends {sb.model.AttributeObject}
+ * @extends sb.model.AttributeObject
  */
 sb.Arc = function (document) {
     goog.base(this);
@@ -66,7 +66,7 @@ sb.Arc.prototype.id = function (opt_id) {
 /**
  * Setter/getter of arc source.
  * @param {string|sb.Node=} opt_source node or its id
- * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
+ * @return {sb.Node|sb.Arc} current source or sb.Arc instance for chaining
  * @export
  */
 
@@ -84,7 +84,7 @@ sb.Arc.prototype.source = function (opt_source) {
 /**
  * Setter/getter of arc target.
  * @param {string|sb.Node=} opt_target
- * @return {sb.Node|sb.Arc} current id or sb.Arc instance for chaining
+ * @return {sb.Node|sb.Arc} current target or sb.Arc instance for chaining
  * @export
  */
 

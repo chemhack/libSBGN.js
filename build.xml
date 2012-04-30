@@ -6,6 +6,9 @@
     <property name="closure-library.dir" value="${base.dir}/third-party/closure-library"/>
     <property name="closure-compiler.jar" value="${base.dir}/third-party/closure-compiler/compiler.jar"/>
     <property name="js-src.dir" value="${base.dir}/src"/>
+    <property name="jsdoc.dir" value="${base.dir}/third-party/jsdoc-toolkit" />
+    <property name="jsdoc-template.dir" value="${base.dir}/third-party/jsdoc-template" />
+    <property name="doc.dir" value="${base.dir}/docs" />
 
     <path id="input-files">
 
@@ -60,6 +63,12 @@
             <arg line="-o deps"/>
         </exec>
     </target>
+
+    <target name="build-docs" description="build the JsDoc documentation">
+   		<exec executable="java" failonerror="true" logError="true" output="${base.dir}/jsdoc.log">
+   			<arg line="-jar ${jsdoc.dir}/jsrun.jar ${jsdoc.dir}/app/run.js -r=10 ${js-src.dir} -t=${jsdoc-template.dir} -d=${doc.dir}" />
+   		</exec>
+   	</target>
 
     <target name='compile-check' description='check by compiling all js files'>
         <mkdir dir="${build.dir}"/>

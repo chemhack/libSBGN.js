@@ -8,7 +8,7 @@ goog.require('sb.model.AttributeObject');
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends {sb.model.AttributeObject}
+ * @extends sb.model.AttributeObject
  */
 sb.Node = function (document) {
     goog.base(this);
