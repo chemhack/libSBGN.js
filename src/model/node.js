@@ -18,12 +18,20 @@ sb.Node = function (document) {
      */
     this.document_ = document;
 
-//    /**
-//     * The type of the node, see sb.NodeType
-//     * @private
-//     * @type {sb.NodeType}
-//     */
-//    this.type_ = sb.NodeType.UnspecifiedEntity;
+    /**
+     *
+     * @type {Array.<sb.Node>}
+     * @private
+     */
+    this.children_ = [];
+
+    /**
+     * The parent node.
+     * @type {sb.Node}
+     */
+    this.parent = null;
+    //TODO: discuss about multiple parents
+
 };
 
 goog.inherits(sb.Node, sb.model.AttributeObject);
@@ -76,4 +84,46 @@ sb.Node.prototype.id = function (opt_id) {
  */
 sb.Node.prototype.label = function (opt_label) {
     return this.attr('label', opt_label);
+};
+
+/**
+ * Create a new node as a sub node of current node.
+ * @param opt_id Optional id of node.
+ * @return {sb.Node}
+ * @export
+ */
+sb.Node.prototype.createSubNode = function (opt_id) {
+    var node = this.document_.createNode(opt_id);
+    this.addChild(node);
+    return node;
+};
+
+/**
+ * The node to be added as child.
+ * @param {sb.Node} node
+ * @export
+ */
+sb.Node.prototype.addChild = function (node) {
+    if (node.parent) {
+        node.parent.removeChild(node);
+    }
+    goog.array.insert(this.children_, node);
+};
+
+/**
+ * Remove child node from current node.
+ * @param node
+ * @export
+ */
+sb.Node.prototype.removeChild = function (node) {
+    goog.array.remove(this.children_, node);
+    node.parent = null;
+};
+
+/**
+ * Return array of child nodes. The array should be treated as read-only. Use sb.Node.prototype.addChild and sb.Node.prototype.removeChild to modify the child nodes.
+ * @return {Array.<sb.Node>}
+ */
+sb.Node.prototype.children=function(){
+    return this.children_;
 };

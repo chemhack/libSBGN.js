@@ -49,7 +49,8 @@ sb.NodeType={
     Delay:'delay',
     Existence:'existence',
     Location:'location',
-    Cardinality:'cardinality'
+    Cardinality:'cardinality',
+    Port:'port' //Special node type for sbgn-ml port. TODO: discuss about the implementation
 };
 
 /**

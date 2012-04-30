@@ -36,26 +36,35 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     return this.document_;
 };
 
+sb.io.SbgnReader.glyphPropertyMap_={
+
+};
+
 /**
  * @inheritDoc
  * @override
  */
 sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
     var tagName = xmlNode.tagName;
+    var nodeId = xmlNode.getAttribute('id');
     this.logger.finer('xmlNode open: ' + tagName);
+    var topElementInStack = this.objStack_.peek();
     if (tagName == 'glyph') {
-        var glyph_id = xmlNode.getAttribute('id');
-        this.logger.finest('glyph glyph_id: ' + glyph_id);
-        var node = this.document_.createNode(glyph_id);
+        this.logger.finest('glyph glyph_id: ' + nodeId);
+        var node = (topElementInStack instanceof sb.Node) ? topElementInStack.createSubNode(nodeId) : this.document_.createNode(nodeId);
         var glyph_class = xmlNode.getAttribute('class');
         this.logger.finest('glyph glyph_class: ' + glyph_class);
         node.type(glyph_class);
         this.objStack_.push(node);
+    } else if (tagName == 'port') {
+        this.logger.finest('port port_id: ' + nodeId);
+        if (topElementInStack instanceof sb.Node) {
+            topElementInStack.createSubNode(nodeId).type(sb.NodeType.Port);
+        }
     }
     if (tagName == 'arc') {
-        var arc_id = xmlNode.getAttribute('id');
-        this.logger.finest('arc arc_id: ' + arc_id);
-        var arc = this.document_.createArc(arc_id);
+        this.logger.finest('arc arc_id: ' + nodeId);
+        var arc = this.document_.createArc(nodeId);
         var arc_class = xmlNode.getAttribute('class');
         this.logger.finest('arc arc_class: ' + arc_class);
         arc.type(arc_class);
@@ -67,7 +76,7 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
         this.objStack_.push(arc);
     }
     else if (tagName == 'label') {
-        this.objStack_.peek().label(xmlNode.getAttribute('text'));
+        topElementInStack.label(xmlNode.getAttribute('text'));
     }
 };
 
