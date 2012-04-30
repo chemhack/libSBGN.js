@@ -5,11 +5,8 @@ goog.require('goog.dom.NodeType');
 goog.require('goog.array');
 goog.require('goog.debug');
 goog.require('goog.debug.Logger');
-goog.require('goog.debug.FancyWindow');
+goog.require('sb.util.log');
 
-var logWindow=new goog.debug.FancyWindow('main');
-logWindow.setEnabled(true);
-logWindow.init();
 
 /**
  * Base class for xml-based format file reader
@@ -41,14 +38,27 @@ sb.io.XmlReader.prototype.parseXmlText = function (xmlText) {
 
 /**
  *
- * @param {Element} node
+ * @param {Element} xmlNode
  */
-sb.io.XmlReader.prototype.traverse = function (node) {
-    goog.array.forEach(node.childNodes, function (child) {
+sb.io.XmlReader.prototype.traverse = function (xmlNode) {
+    this.onNodeOpen(xmlNode);
+    goog.array.forEach(xmlNode.childNodes, function (child) {
         if (child.nodeType == goog.dom.NodeType.ELEMENT) {
             this.traverse(child);
         }
     }, this);
+    this.onNodeClose(xmlNode);
 };
 
+/**
+ * @param {Node} xmlNode
+ * @protected
+ */
+sb.io.XmlReader.prototype.onNodeOpen=goog.abstractMethod;
 
+/**
+ * Called on nodeOpen
+ * @param {Node} xmlNode
+ * @protected
+ */
+sb.io.XmlReader.prototype.onNodeClose=goog.abstractMethod;

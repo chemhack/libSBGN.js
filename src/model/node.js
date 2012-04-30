@@ -18,12 +18,12 @@ sb.Node = function (document) {
      */
     this.document_ = document;
 
-    /**
-     * The type of the node, see sb.NodeType
-     * @private
-     * @type {sb.NodeType}
-     */
-    this.type_ = sb.NodeType.UnspecifiedEntity;
+//    /**
+//     * The type of the node, see sb.NodeType
+//     * @private
+//     * @type {sb.NodeType}
+//     */
+//    this.type_ = sb.NodeType.UnspecifiedEntity;
 };
 
 goog.inherits(sb.Node, sb.model.AttributeObject);

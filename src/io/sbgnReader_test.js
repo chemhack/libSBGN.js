@@ -11,5 +11,5 @@ function setUp() {
 
 function testSbgnReader() {
     var reader = new sb.io.SbgnReader();
-    reader.parseXmlText(sb.io.sbgnReaderTest.data.sbgnXML1);
+    reader.parseText(sb.io.sbgnReaderTest.data.sbgnXML1);
 }
