@@ -108,8 +108,8 @@ sb.Document.prototype.createArc = function (opt_id) {
  * @return {sb.Arc}
  * @export
  */
-sb.Document.prototype.connect=function(source,target){
-    var arc=this.createArc();
+sb.Document.prototype.connect = function (source, target) {
+    var arc = this.createArc();
     arc.source(source).target(target);
     return arc;
 };
@@ -157,12 +157,16 @@ sb.Document.prototype.arc = function (id) {
  * @protected
  */
 sb.Document.prototype.onAttrChange = function (object, key, oldValue, newValue) {
-    if (key == 'id' && oldValue) {
+    if (key == 'id') {
         if (object instanceof sb.Node) {
-            this.nodes_.remove(oldValue);
+            if (oldValue) {
+                this.nodes_.remove(oldValue);
+            }
             this.nodes_.set(newValue, object);
         } else if (object instanceof sb.Arc) {
-            this.arcs_.remove(oldValue);
+            if (oldValue) {
+                this.arcs_.remove(oldValue);
+            }
             this.arcs_.set(newValue, object);
         }
     }
