@@ -9,6 +9,7 @@ goog.require('sb.model.AttributeObject');
  * @param {!sb.Document} document the document to bind
  * @constructor
  * @extends sb.model.AttributeObject
+ * @export
  */
 sb.Node = function (document) {
     goog.base(this);
