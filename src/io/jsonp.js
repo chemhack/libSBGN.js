@@ -1,4 +1,4 @@
-//Although closure library has jsonp itself, and the implementation is very robust, but has a large dependency. We will go for our own little dirty jsonp implementation.
+//Although closure library has jsonp itself, and the implementation is very robust, but has a large dependency. We will go for our own little dirty jsonp implementation, to save 10KB.
 goog.provide('sb.io.Jsonp');
 
 
@@ -30,7 +30,7 @@ sb.io.Jsonp = function (url, params, callback) {
 };
 
 sb.io.Jsonp.prototype.generateCallback = function () {
-    var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz$_';
+    var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     var randomName = '';
 
     for (var i = 0; i < 15; i++) {
