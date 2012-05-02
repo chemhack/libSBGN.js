@@ -4,7 +4,7 @@
     <property name="base.dir" location="."/>
     <property name="build.dir" value="${base.dir}/build"/>
     <property name="closure-library.dir" value="${base.dir}/third-party/closure-library"/>
-    <property name="closure-compiler.jar" value="${base.dir}/third-party/closure-compiler/compiler.jar"/>
+    <property name="closure-compiler.jar" value="${base.dir}/third-party/closure-compiler/compiler-extra.jar"/>
     <property name="js-src.dir" value="${base.dir}/src"/>
     <property name="jsdoc.dir" value="${base.dir}/third-party/jsdoc-toolkit" />
     <property name="jsdoc-template.dir" value="${base.dir}/third-party/jsdoc-template" />
