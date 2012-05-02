@@ -5,7 +5,6 @@ goog.require('goog.dom.NodeType');
 goog.require('goog.array');
 goog.require('goog.debug');
 goog.require('goog.debug.Logger');
-goog.require('sb.util.log');
 
 
 /**
@@ -26,14 +25,12 @@ sb.io.XmlReader.prototype.logger = goog.debug.Logger.getLogger('sb.io.XmlReader'
 /**
  *
  * @param xmlText
- * @return {*}
  */
 sb.io.XmlReader.prototype.parseXmlText = function (xmlText) {
     this.logger.info('Parsing xml size:' + xmlText.length);
     var document = goog.dom.xml.loadXml(xmlText);
     var rootElement = document.documentElement;
     this.traverse(rootElement);
-    return document;
 };
 
 /**

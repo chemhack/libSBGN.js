@@ -4,6 +4,7 @@ goog.require('sb.Node');
 goog.require('sb.Arc');
 
 goog.require('goog.structs.Map');
+goog.require('goog.array');
 
 /**
  * Class for the root structure of a system biology document.
@@ -73,12 +74,20 @@ sb.Document.prototype.nextNodeId_ = function () {
 
 /**
  * Readonly. Get all nodes within the document.
+ * @param {boolean=} opt_noSubNodes If set to true, only nodes without a parent node will be returned.
  * @return {Array.<sb.Node>}
  * @export
  */
-sb.Document.prototype.nodes = function () {
-    return this.nodes_.getValues();
+sb.Document.prototype.nodes = function (opt_noSubNodes) {
+    var nodes = this.nodes_.getValues();
+    if (opt_noSubNodes) {
+        return goog.array.filter(nodes, function (node, idx, arr) {
+            return node.parent ? false : true;
+        });
+    }
+    return nodes;
 };
+
 
 /**
  * Return the node of given id.

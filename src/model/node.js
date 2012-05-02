@@ -109,6 +109,7 @@ sb.Node.prototype.addChild = function (node) {
         node.parent.removeChild(node);
     }
     goog.array.insert(this.children_, node);
+    node.parent = this;
 };
 
 /**
@@ -124,7 +125,8 @@ sb.Node.prototype.removeChild = function (node) {
 /**
  * Return array of child nodes. The array should be treated as read-only. Use sb.Node.prototype.addChild and sb.Node.prototype.removeChild to modify the child nodes.
  * @return {Array.<sb.Node>}
+ * @export
  */
-sb.Node.prototype.children=function(){
+sb.Node.prototype.children = function () {
     return this.children_;
 };

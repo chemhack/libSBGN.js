@@ -2,14 +2,15 @@ goog.provide('sb.io.SbgnReader');
 
 goog.require('sb.io.XmlReader');
 goog.require('sb.Document');
-goog.require('sb.util.log');
 goog.require('sb.util.Stack');
 goog.require('goog.array');
+goog.require('sb.Box');
 
 /**
  * Reader of sbgn class
  * @constructor
- * @extends sb.io.SbgnReader
+ * @extends sb.io.XmlReader
+ * @export
  */
 sb.io.SbgnReader = function () {
     goog.base(this);
@@ -40,6 +41,12 @@ goog.inherits(sb.io.SbgnReader, sb.io.XmlReader);
 
 sb.io.SbgnReader.prototype.logger = goog.debug.Logger.getLogger('sb.io.SbgnReader');
 
+/**
+ *
+ * @param text
+ * @return {sb.Document}
+ * @export
+ */
 sb.io.SbgnReader.prototype.parseText = function (text) {
     this.objStack_ = new sb.util.Stack();
     this.document_ = new sb.Document();
@@ -76,13 +83,11 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
         if (glyph_class == 'compartment') {
             goog.array.insert(this.compartments_, node);
         }
-
     } else if (tagName == 'port') {
         this.logger.finest('port port_id: ' + nodeId);
         if (topElementInStack instanceof sb.Node) {
             topElementInStack.createSubNode(nodeId).type(sb.NodeType.Port);
         }
-
     } else if (tagName == 'arc') {
         this.logger.finest('arc arc_id: ' + nodeId);
         var arc = this.document_.createArc(nodeId);
@@ -98,6 +103,16 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
 
     } else if (tagName == 'label') {
         topElementInStack.label(xmlNode.getAttribute('text'));
+    } else if (tagName == 'bbox') {
+        var box = new sb.Box(Number(xmlNode.getAttribute('x')), Number(xmlNode.getAttribute('y')), Number(xmlNode.getAttribute('w')), Number(xmlNode.getAttribute('h')));
+        topElementInStack.attr('box', box);
+        if (topElementInStack.type() != sb.NodeType.Compartment) {
+            goog.array.forEach(this.compartments_, function (compartment) {
+                if (compartment.attr('box').contains(box)) {
+                    compartment.addChild(topElementInStack);
+                }
+            }, this);
+        }
     }
 };
 

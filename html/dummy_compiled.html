@@ -5,8 +5,35 @@
     <title>Dummy Test of Google Closure XML Parsing</title>
     <script type="text/javascript" src="dummy_data.js"></script>
     <script type="text/javascript" src="../build/compiled-advanced.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://mkhudon.com/treeview/js/jquery.simpletreeview.min.js"></script>
 </head>
-<body onload="sb.dummy.onload(sbgnXML)">
-
+<body>
+<ul id='tree' class="treeview">Tree:
+    <li id='nodes'>Nodes:</li>
+    <li id='arcs'>Arcs:</li>
+</ul>
+<script type="text/javascript">
+    var reader = new sb.io.SbgnReader();
+    var doc = reader.parseText(sbgnXML);
+    var nodes = doc.nodes(true);
+    for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        displayNode(node, $('#nodes'));
+    }
+    function displayNode(node, htmlElement) {
+        var li = $('<li>' + node.type() + ': ' + node.id() + '</li>');
+        htmlElement.append(li);
+        var children = node.children();
+        if (children.length > 0) {
+            var ul = $('<ul> </ul>');
+            li.append(ul);
+            for (var i = 0; i < children.length; i++) {
+                var child = children[i];
+                displayNode(child, ul);
+            }
+        }
+    }
+</script>
 </body>
 </html>

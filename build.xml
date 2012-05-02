@@ -38,6 +38,7 @@
                 <arg line='-c "@{compilerjarfile}"'/>
                 <arg line='-f "--compilation_level=@{compilationlevel}"'/>
                 <arg line='-f "--debug=false"'/>
+                <arg line='-f "--define=goog.DEBUG=false"'/>
                 <arg line='-f "--generate_exports"'/>
                 <arg line='-f "--jscomp_warning=checkTypes"'/>
                 <arg line='-f "--jscomp_warning=accessControls"'/>
