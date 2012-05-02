@@ -24,7 +24,7 @@ sb.io.XmlReader.prototype.logger = goog.debug.Logger.getLogger('sb.io.XmlReader'
 
 /**
  *
- * @param xmlText
+ * @param {string} xmlText
  */
 sb.io.XmlReader.prototype.parseXmlText = function (xmlText) {
     this.logger.info('Parsing xml size:' + xmlText.length);

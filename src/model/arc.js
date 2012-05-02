@@ -77,7 +77,7 @@ sb.Arc.prototype.source = function (opt_source) {
         if (!node) {
             throw new Error('Node ' + opt_source + ' do not exist.');
         }
-        opt_source=node;
+        opt_source = node;
     }
     return /** @type{sb.Node|sb.Arc}*/this.attr('source', opt_source);
 };
@@ -90,5 +90,12 @@ sb.Arc.prototype.source = function (opt_source) {
  */
 
 sb.Arc.prototype.target = function (opt_target) {
+    if (opt_target && goog.isString(opt_target)) {
+        var node = this.document_.node(opt_target);
+        if (!node) {
+            throw new Error('Node ' + opt_source + ' do not exist.');
+        }
+        opt_target = node;
+    }
     return /** @type{sb.Node|sb.Arc}*/this.attr('target', opt_target);
 };

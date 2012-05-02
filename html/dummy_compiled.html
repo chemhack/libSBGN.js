@@ -14,13 +14,19 @@
     <li id='arcs'>Arcs:</li>
 </ul>
 <script type="text/javascript">
-    var reader = new sb.io.SbgnReader();
-    var doc = reader.parseText(sbgnXML);
-    var nodes = doc.nodes(true);
-    for (var i = 0; i < nodes.length; i++) {
-        var node = nodes[i];
-        displayNode(node, $('#nodes'));
-    }
+    sb.io.readUrl('https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/mapk_cascade.sbgn', 'sbgn', function (doc) {
+        var nodes = doc.nodes(true);
+        for (var i = 0; i < nodes.length; i++) {
+            var node = nodes[i];
+            displayNode(node, $('#nodes'));
+        }
+        var arcs = doc.arcs(true);
+        for (var i = 0; i < arcs.length; i++) {
+            var arc = arcs[i];
+            displayArcs(arc, $('#arcs'));
+        }
+    });
+
     function displayNode(node, htmlElement) {
         var li = $('<li>' + node.type() + ': ' + node.id() + '</li>');
         htmlElement.append(li);
@@ -34,6 +40,12 @@
             }
         }
     }
+
+    function displayArcs(arc, htmlElement) {
+        var li = $('<li>' + arc.type() + ': ' + arc.id() + ' From: ' + arc.source().id() + ' To: ' + arc.target().id() + '</li>');
+        htmlElement.append(li);
+    }
+
 </script>
 </body>
 </html>

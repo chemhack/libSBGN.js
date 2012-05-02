@@ -5,6 +5,8 @@ goog.require('sb.Document');
 goog.require('sb.util.Stack');
 goog.require('goog.array');
 goog.require('sb.Box');
+goog.require('goog.asserts');
+goog.require('goog.debug.Logger');
 
 /**
  * Reader of sbgn class
@@ -48,13 +50,12 @@ sb.io.SbgnReader.prototype.logger = goog.debug.Logger.getLogger('sb.io.SbgnReade
  * @export
  */
 sb.io.SbgnReader.prototype.parseText = function (text) {
+    this.logger.info('Parsing xml size:' + text.length);
     this.objStack_ = new sb.util.Stack();
     this.document_ = new sb.Document();
     this.compartments_ = [];
     this.parseXmlText(text);
-//    if(goog.DEBUG){
-//      TODO: validate stack is empty
-//    }
+    goog.asserts.assert(this.objStack_.array().length == 0);
     return this.document_;
 };
 
@@ -112,6 +113,10 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
                     compartment.addChild(topElementInStack);
                 }
             }, this);
+        }
+    } else if (tagName == 'start' || tagName == 'end') {
+        if (topElementInStack instanceof sb.Arc) {
+            topElementInStack.attr(tagName, new sb.Point(Number(xmlNode.getAttribute('x')), Number(xmlNode.getAttribute('y'))));
         }
     }
 };
