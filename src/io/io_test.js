@@ -16,10 +16,3 @@ function testJsonpProxy(){
 
 }
 
-function testAlwaysFail(){
-    fail("Always fail");
-}
-
-function testAlwaysFail2(){
-    fail("Always fail2");
-}

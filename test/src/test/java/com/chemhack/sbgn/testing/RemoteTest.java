@@ -50,7 +50,7 @@ public class RemoteTest {
         data.add(new Object[]{"internet explorer", "7", Platform.XP, url});
         data.add(new Object[]{"firefox", "3", Platform.LINUX, url});
         data.add(new Object[]{"firefox", "3", Platform.XP, url});
-        data.add(new Object[]{"firefox", "11", Platform.LINUX, url});
+        data.add(new Object[]{"firefox", "10", Platform.LINUX, url});
         data.add(new Object[]{"chrome", "", Platform.LINUX, url});
 
         return data;
