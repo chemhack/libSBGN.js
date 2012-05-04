@@ -803,6 +803,7 @@ goog.addDependency("../../third_party/closure/goog/silverlight/clipboardbutton.j
 goog.addDependency("../../third_party/closure/goog/silverlight/silverlight.js", ['goog.silverlight'], []);
 goog.addDependency("../../third_party/closure/goog/silverlight/supporteduseragent.js", ['goog.silverlight.supportedUserAgent'], []);
 goog.addDependency("../../../../src/all_tests.js", [], []);
+goog.addDependency("../../../../src/deps.js", [], []);
 goog.addDependency("../../../../src/api/api.js", [], ['sb.Document', 'sb.Node', 'sb.NodeType', 'sb.Arc', 'sb.ArcType', 'sb.Point', 'sb.Box', 'sb.io', 'sb.util.log']);
 goog.addDependency("../../../../src/dummy/parser.js", ['sb.dummy'], ['goog.array', 'goog.dom.xml']);
 goog.addDependency("../../../../src/io/io.js", ['sb.io'], ['sb.io.SbgnReader', 'sb.io.Jsonp', 'goog.debug.Logger', 'goog.json']);

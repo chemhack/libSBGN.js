@@ -65,7 +65,7 @@
     </target>
 
     <target name="build-deps" description="rebuild deps.js file, should be executed when namespace changed">
-        <exec executable="python" failonerror="true" logError="true" output="${build.dir}/deps.js">
+        <exec executable="python" failonerror="true" logError="true" output="${js-src.dir}/deps.js">
             <arg value="${closure-library.dir}/closure/bin/calcdeps.py"/>
             <arg line='-p "${closure-library.dir}"'/>
             <arg line='-p "${js-src.dir}"'/>
