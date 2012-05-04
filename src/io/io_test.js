@@ -11,6 +11,6 @@ function setUp() {
 
 function testJsonpProxy(){
     sb.io.readUrl('https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/glycolysis.sbgn','sbgn',function(doc){
-        console.log(doc);
+        
     });
 }
