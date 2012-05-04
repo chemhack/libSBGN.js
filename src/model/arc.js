@@ -14,6 +14,7 @@ goog.require('sb.model.AttributeObject');
  */
 sb.Arc = function (document) {
     goog.base(this);
+
     /**
      * @private
      * @type {sb.Document}
@@ -99,3 +100,25 @@ sb.Arc.prototype.target = function (opt_target) {
     }
     return /** @type{sb.Node|sb.Arc}*/this.attr('target', opt_target);
 };
+
+/**
+ * Setter/getter of arc start point.
+ * @param {sb.Point=} opt_startPoint
+ * @return {sb.Point|sb.Arc}
+ */
+//TODO: support start(x,y)
+sb.Arc.prototype.start=function(opt_startPoint){
+    return /** @type{sb.Point|sb.Arc}*/this.attr('start', opt_startPoint);
+};
+
+/**
+ * Setter/getter of arc end point.
+ * @param {sb.Point=} opt_endPoint
+ * @return {sb.Point|sb.Arc}
+ */
+//TODO: support start(x,y)
+sb.Arc.prototype.end=function(opt_endPoint){
+    return /** @type{sb.Point|sb.Arc}*/this.attr('end', opt_endPoint);
+};
+
+//TODO: add middle point support

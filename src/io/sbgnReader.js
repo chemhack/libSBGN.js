@@ -5,6 +5,7 @@ goog.require('sb.Document');
 goog.require('sb.util.Stack');
 goog.require('goog.array');
 goog.require('sb.Box');
+goog.require('sb.Point');
 goog.require('goog.asserts');
 goog.require('goog.debug.Logger');
 
@@ -106,13 +107,17 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
         topElementInStack.label(xmlNode.getAttribute('text'));
     } else if (tagName == 'bbox') {
         var box = new sb.Box(Number(xmlNode.getAttribute('x')), Number(xmlNode.getAttribute('y')), Number(xmlNode.getAttribute('w')), Number(xmlNode.getAttribute('h')));
-        topElementInStack.attr('box', box);
-        if (topElementInStack.type() != sb.NodeType.Compartment) {
-            goog.array.forEach(this.compartments_, function (compartment) {
-                if (compartment.attr('box').contains(box)) {
-                    compartment.addChild(topElementInStack);
-                }
-            }, this);
+        if (xmlNode.parentNode.tagName.toLocaleLowerCase() == 'label') {
+            topElementInStack.attr('label.pos', box);
+        } else {
+            topElementInStack.attr('box', box);
+            if (topElementInStack.type() != sb.NodeType.Compartment) {
+                goog.array.forEach(this.compartments_, function (compartment) {
+                    if (compartment.attr('box').contains(box)) {
+                        compartment.addChild(topElementInStack);
+                    }
+                }, this);
+            }
         }
     } else if (tagName == 'start' || tagName == 'end') {
         if (topElementInStack instanceof sb.Arc) {

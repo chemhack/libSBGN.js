@@ -57,6 +57,13 @@
         <delete dir="${build.dir}"/>
     </target>
 
+    <target name="build-tests" description="rebuilt all_tests.js, should be executed when new unit test added">
+        <exec executable="python" failonerror="true" logError="true" dir="${js-src.dir}" output="${js-src.dir}/all_tests.js">
+            <arg value="${base.dir}/script/list_all_tests.py"/>
+            <arg line='.'/>
+        </exec>
+    </target>
+
     <target name="build-deps" description="rebuild deps.js file, should be executed when namespace changed">
         <exec executable="python" failonerror="true" logError="true" output="${build.dir}/deps.js">
             <arg value="${closure-library.dir}/closure/bin/calcdeps.py"/>
