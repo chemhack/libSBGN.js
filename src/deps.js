@@ -811,10 +811,9 @@ goog.addDependency("../../../../src/io/io_test.js", ['sb.io.ioTest'], ['goog.tes
 goog.addDependency("../../../../src/io/jsbgnReader.js", ['sb.io.JsbgnReader'], ['sb.Document', 'goog.array', 'sb.Box', 'sb.Point', 'goog.asserts', 'goog.debug.Logger']);
 goog.addDependency("../../../../src/io/jsonp.js", ['sb.io.Jsonp'], []);
 goog.addDependency("../../../../src/io/sbgnReader.js", ['sb.io.SbgnReader'], ['sb.io.XmlReader', 'sb.Document', 'sb.util.Stack', 'goog.array', 'sb.Box', 'sb.Point', 'goog.asserts', 'goog.debug.Logger']);
-goog.addDependency("../../../../src/io/sbgnReader_test.js", ['sb.io.sbgnReaderTest'], ['goog.testing.jsunit', 'sb.io.SbgnReader', 'sb.io.sbgnReaderTest.data', 'goog.dom', 'goog.array', 'goog.ui.tree.TreeControl', 'sb.util.log']);
-goog.addDependency("../../../../src/io/sbgnReader_test_data.js", ['sb.io.sbgnReaderTest.data'], []);
-goog.addDependency("../../../../src/io/xmlReader.js", ['sb.io.XmlReader'], ['goog.dom.xml', 'goog.dom.NodeType', 'goog.array', 'goog.debug', 'goog.debug.Logger']);
-goog.addDependency("../../../../src/model/arc.js", ['sb.Arc'], ['sb.ArcType', 'sb.ArcTypeHelper', 'sb.model.AttributeObject']);
+goog.addDependency("../../../../src/io/sbgnReader_test.js", ['sb.io.sbgnReaderTest'], ['goog.testing.jsunit', 'sb.io.SbgnReader', 'goog.dom', 'goog.array', 'goog.object', 'goog.string', 'goog.ui.tree.TreeControl', 'sb.util.log', 'sb.NodeType']);
+goog.addDependency("../../../../src/io/xmlReader.js", ['sb.io.XmlReader'], ['goog.dom.xml', 'goog.dom.NodeType', 'goog.array', 'goog.structs.Map', 'goog.debug', 'goog.debug.Logger']);
+goog.addDependency("../../../../src/model/arc.js", ['sb.Arc'], ['sb.ArcType', 'sb.ArcTypeHelper', 'sb.model.Element']);
 goog.addDependency("../../../../src/model/arc_test.js", ['sb.model.arcTest'], ['goog.testing.jsunit', 'sb.Document']);
 goog.addDependency("../../../../src/model/arcGroup.js", ['sb.ArcGroup'], ['sb.Arc', 'sb.ArcType', 'sb.ArcTypeHelper', 'sb.model.AttributeObject']);
 goog.addDependency("../../../../src/model/arcType.js", ['sb.ArcType', 'sb.ArcTypeHelper'], ['goog.object']);
@@ -824,10 +823,12 @@ goog.addDependency("../../../../src/model/box.js", ['sb.Box'], ['goog.math.Box']
 goog.addDependency("../../../../src/model/box_test.js", ['sb.model.boxTest'], ['goog.testing.jsunit', 'sb.Box']);
 goog.addDependency("../../../../src/model/document.js", ['sb.Document'], ['sb.Node', 'sb.Arc', 'goog.structs.Map', 'goog.array']);
 goog.addDependency("../../../../src/model/document_test.js", ['sb.model.documentTest'], ['goog.testing.jsunit', 'sb.Document']);
-goog.addDependency("../../../../src/model/node.js", ['sb.Node'], ['sb.NodeType', 'sb.NodeTypeHelper', 'sb.model.AttributeObject']);
+goog.addDependency("../../../../src/model/element.js", ['sb.model.Element'], ['sb.model.AttributeObject', 'sb.Port']);
+goog.addDependency("../../../../src/model/node.js", ['sb.Node'], ['sb.NodeType', 'sb.NodeTypeHelper', 'sb.model.Element']);
 goog.addDependency("../../../../src/model/node_test.js", ['sb.model.nodeTest'], ['goog.testing.jsunit', 'sb.Document']);
 goog.addDependency("../../../../src/model/nodeType.js", ['sb.NodeType', 'sb.NodeTypeHelper'], ['goog.object']);
 goog.addDependency("../../../../src/model/point.js", ['sb.Point'], []);
+goog.addDependency("../../../../src/model/port.js", ['sb.Port'], ['sb.model.Element']);
 goog.addDependency("../../../../src/sbo/term.js", ['sb.sbo.Term'], []);
 goog.addDependency("../../../../src/util/dump.js", ['sb.util.dump'], []);
 goog.addDependency("../../../../src/util/log.js", ['sb.util.log'], ['goog.debug.FancyWindow']);

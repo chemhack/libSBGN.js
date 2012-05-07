@@ -25,6 +25,13 @@ sb.io.SbgnReader = function () {
     this.objStack_ = null;
 
     /**
+     * Array used to hold arcs elements in order to set reference after all glyphs are read in.
+     * @type {Array.<Element>}
+     * @private
+     */
+    this.delayedArcArray_ = null;
+
+    /**
      * The sb.Document to work on.
      * @type {sb.Document}
      * @private
@@ -55,8 +62,18 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     this.objStack_ = new sb.util.Stack();
     this.document_ = new sb.Document();
     this.compartments_ = [];
-    this.parseXmlText(text);
+    this.delayedArcArray_ = [];
+    var xmlDocument = this.parseXmlText(text);
+    this.traverse(xmlDocument.documentElement);
     goog.asserts.assert(this.objStack_.array().length == 0);
+    goog.array.forEach(this.delayedArcArray_, function (xmlElement) {
+        var arc = this.document_.arc(xmlElement.getAttribute('id'));
+        var arc_target = xmlElement.getAttribute('target');
+        this.logger.finest('arc arc_target: ' + arc_target);
+        var arc_source = xmlElement.getAttribute('source');
+        this.logger.finest('arc arc_source: ' + arc_source);
+        arc.source(arc_source).target(arc_target);
+    }, this);
     return this.document_;
 };
 
@@ -64,21 +81,25 @@ sb.io.SbgnReader.glyphPropertyMap_ = {
 
 };
 
+//TODO: refactor the reader to make it independent of the order of XML elements
+
+//TODO: arcgroup??
+
 /**
  * @inheritDoc
  * @override
  */
-sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
-    var tagName = xmlNode.tagName;
+sb.io.SbgnReader.prototype.onElementOpen = function (xmlElement) {
+    var tagName = xmlElement.tagName;
     tagName = tagName ? tagName.toLocaleLowerCase() : null;
-    var nodeId = xmlNode.getAttribute('id');
-    this.logger.finer('xmlNode open: ' + tagName);
+    var nodeId = xmlElement.getAttribute('id');
+    this.logger.finer('xmlElement open: ' + tagName);
     var topElementInStack = this.objStack_.peek();
 
     if (tagName == 'glyph') {
         this.logger.finest('glyph glyph_id: ' + nodeId);
         var node = (topElementInStack instanceof sb.Node) ? topElementInStack.createSubNode(nodeId) : this.document_.createNode(nodeId);
-        var glyph_class = xmlNode.getAttribute('class');
+        var glyph_class = xmlElement.getAttribute('class');
         this.logger.finest('glyph glyph_class: ' + glyph_class);
         node.type(glyph_class);
         this.objStack_.push(node);
@@ -87,31 +108,26 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
         }
     } else if (tagName == 'port') {
         this.logger.finest('port port_id: ' + nodeId);
-        if (topElementInStack instanceof sb.Node) {
-            topElementInStack.createSubNode(nodeId).type(sb.NodeType.Port);
+        if (topElementInStack instanceof sb.Node || topElementInStack instanceof sb.Arc) {
+            topElementInStack.createPort(nodeId);
         }
     } else if (tagName == 'arc') {
         this.logger.finest('arc arc_id: ' + nodeId);
         var arc = this.document_.createArc(nodeId);
-        var arc_class = xmlNode.getAttribute('class');
+        var arc_class = xmlElement.getAttribute('class');
         this.logger.finest('arc arc_class: ' + arc_class);
         arc.type(arc_class);
-        var arc_target = xmlNode.getAttribute('target');
-        this.logger.finest('arc arc_target: ' + arc_target);
-        var arc_source = xmlNode.getAttribute('source');
-        this.logger.finest('arc arc_source: ' + arc_source);
-        arc.source(arc_source).target(arc_target);
         this.objStack_.push(arc);
-
+        goog.array.insert(this.delayedArcArray_, xmlElement);
     } else if (tagName == 'label') {
-        topElementInStack.label(xmlNode.getAttribute('text'));
+        topElementInStack.label(xmlElement.getAttribute('text'));
     } else if (tagName == 'bbox') {
-        var box = new sb.Box(Number(xmlNode.getAttribute('x')), Number(xmlNode.getAttribute('y')), Number(xmlNode.getAttribute('w')), Number(xmlNode.getAttribute('h')));
-        if (xmlNode.parentNode.tagName.toLocaleLowerCase() == 'label') {
+        var box = new sb.Box(Number(xmlElement.getAttribute('x')), Number(xmlElement.getAttribute('y')), Number(xmlElement.getAttribute('w')), Number(xmlElement.getAttribute('h')));
+        if (xmlElement.parentNode.tagName.toLocaleLowerCase() == 'label') {
             topElementInStack.attr('label.pos', box);
         } else {
             topElementInStack.attr('box', box);
-            if (topElementInStack.type() != sb.NodeType.Compartment) {
+            if ((topElementInStack instanceof sb.Node) && (topElementInStack.type() != sb.NodeType.Compartment)) {
                 goog.array.forEach(this.compartments_, function (compartment) {
                     if (compartment.attr('box').contains(box)) {
                         compartment.addChild(topElementInStack);
@@ -121,8 +137,14 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
         }
     } else if (tagName == 'start' || tagName == 'end') {
         if (topElementInStack instanceof sb.Arc) {
-            topElementInStack.attr(tagName, new sb.Point(Number(xmlNode.getAttribute('x')), Number(xmlNode.getAttribute('y'))));
+            topElementInStack.attr(tagName, new sb.Point(Number(xmlElement.getAttribute('x')), Number(xmlElement.getAttribute('y'))));
         }
+    } else if (tagName == 'map') {
+        var language = xmlElement.getAttribute('language');
+        if (language) {
+            this.document_.attr('language', language);
+        }
+        this.objStack_.push(this.document_);
     }
 };
 
@@ -130,10 +152,10 @@ sb.io.SbgnReader.prototype.onNodeOpen = function (xmlNode) {
  * @inheritDoc
  * @override
  */
-sb.io.SbgnReader.prototype.onNodeClose = function (xmlNode) {
-    var tagName = xmlNode.tagName;
+sb.io.SbgnReader.prototype.onElementClose = function (xmlElement) {
+    var tagName = xmlElement.tagName;
     this.logger.finer('node close: ' + tagName);
-    if (tagName == 'glyph' || tagName == 'arc') {
+    if (tagName == 'glyph' || tagName == 'arc' || tagName == 'map') {
         this.objStack_.pop();
     }
 };

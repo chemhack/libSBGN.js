@@ -2,41 +2,22 @@ goog.provide('sb.Node');
 
 goog.require('sb.NodeType');
 goog.require('sb.NodeTypeHelper');
-goog.require('sb.model.AttributeObject');
+goog.require('sb.model.Element');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.
  * @see sb.Document#createNode
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends sb.model.AttributeObject
+ * @extends sb.model.Element
  * @export
  */
 sb.Node = function (document) {
-    goog.base(this);
-    /**
-     * @private
-     * @type {sb.Document}
-     */
-    this.document_ = document;
-
-    /**
-     *
-     * @type {Array.<sb.Node>}
-     * @private
-     */
-    this.children_ = [];
-
-    /**
-     * The parent node.
-     * @type {sb.Node}
-     */
-    this.parent = null;
-    //TODO: discuss about multiple parents
+    goog.base(this,document);
 
 };
 
-goog.inherits(sb.Node, sb.model.AttributeObject);
+goog.inherits(sb.Node, sb.model.Element);
 
 /**
  * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.NodeType
@@ -51,31 +32,6 @@ sb.Node.prototype.type = function (opt_type) {
         }
     }
     return /** @type{sb.NodeType|sb.Node}*/this.attr('type', opt_type);
-};
-
-/**
- * Make sure no other node has the same id.
- * @param nodeId Id to check.
- * @private
- */
-sb.Node.prototype.assertIdUnique_ = function (nodeId) {
-    var node = this.document_.node(nodeId);
-    if (node && node != this) {
-        throw new Error('Given node id ' + nodeId + ' already existed');
-    }
-};
-
-/**
- * Setter/getter of node id.
- * @param {string=} opt_id id value to set
- * @return {string|sb.Node} current id or sb.Node instance for chaining
- * @export
- */
-sb.Node.prototype.id = function (opt_id) {
-    if (goog.isDef(opt_id)) {
-        this.assertIdUnique_(opt_id);
-    }
-    return /** @type{string|sb.Node}*/this.attr('id', opt_id, this.document_);
 };
 
 /**
@@ -100,34 +56,3 @@ sb.Node.prototype.createSubNode = function (opt_id) {
     return node;
 };
 
-/**
- * The node to be added as child.
- * @param {sb.Node} node
- * @export
- */
-sb.Node.prototype.addChild = function (node) {
-    if (node.parent) {
-        node.parent.removeChild(node);
-    }
-    goog.array.insert(this.children_, node);
-    node.parent = this;
-};
-
-/**
- * Remove child node from current node.
- * @param node
- * @export
- */
-sb.Node.prototype.removeChild = function (node) {
-    goog.array.remove(this.children_, node);
-    node.parent = null;
-};
-
-/**
- * Return array of child nodes. The array should be treated as read-only. Use sb.Node.prototype.addChild and sb.Node.prototype.removeChild to modify the child nodes.
- * @return {Array.<sb.Node>}
- * @export
- */
-sb.Node.prototype.children = function () {
-    return this.children_;
-};

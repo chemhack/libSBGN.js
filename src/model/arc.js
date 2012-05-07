@@ -2,27 +2,21 @@ goog.provide('sb.Arc');
 
 goog.require('sb.ArcType');
 goog.require('sb.ArcTypeHelper');
-goog.require('sb.model.AttributeObject');
+goog.require('sb.model.Element');
 
 
 /**
  * Class for the arcs. Do not use the constructor, use sb.Document.prototype.createArc instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends sb.model.AttributeObject
+ * @extends sb.model.Element
  * @export
  */
 sb.Arc = function (document) {
-    goog.base(this);
-
-    /**
-     * @private
-     * @type {sb.Document}
-     */
-    this.document_ = document;
+    goog.base(this, document);
 };
 
-goog.inherits(sb.Arc, sb.model.AttributeObject);
+goog.inherits(sb.Arc, sb.model.Element);
 
 /**
  * Setter/getter of node type. An error will be thrown if the node type is invalid, see sb.ArcType
@@ -41,64 +35,39 @@ sb.Arc.prototype.type = function (opt_type) {
 
 
 /**
- * Make sure no other arc has the same id.
- * @param arcId Id to check.
- * @private
- */
-sb.Arc.prototype.assertIdUnique_ = function (arcId) {
-    var arc = this.document_.arc(arcId);
-    if (arc && arc != this) {
-        throw new Error('Given arc id ' + arcId + ' already existed');
-    }
-};
-
-/**
- * Setter/getter of arc id.
- * @param {string=} opt_id id value to set
- * @return {string|sb.Arc} current id or sb.Arc instance for chaining
- * @export
- */
-sb.Arc.prototype.id = function (opt_id) {
-    if (goog.isDef(opt_id)) {
-        this.assertIdUnique_(opt_id);
-    }
-    return /** @type{string|sb.Arc}*/this.attr('id', opt_id, this.document_);
-};
-
-/**
  * Setter/getter of arc source.
- * @param {string|sb.Node=} opt_source node or its id
- * @return {sb.Node|sb.Arc} current source or sb.Arc instance for chaining
+ * @param {string|sb.model.Element=} opt_source node or its id
+ * @return {sb.model.Element|sb.Arc} current source or sb.Arc instance for chaining
  * @export
  */
 
 sb.Arc.prototype.source = function (opt_source) {
     if (opt_source && goog.isString(opt_source)) {
-        var node = this.document_.node(opt_source);
-        if (!node) {
-            throw new Error('Node ' + opt_source + ' do not exist.');
+        var element = this.document_.element(opt_source);
+        if (!element) {
+            throw new Error('Element ' + opt_source + ' do not exist.');
         }
-        opt_source = node;
+        opt_source = element;
     }
-    return /** @type{sb.Node|sb.Arc}*/this.attr('source', opt_source);
+    return /** @type{sb.model.Element|sb.Arc}*/this.attr('source', opt_source);
 };
 
 /**
  * Setter/getter of arc target.
- * @param {string|sb.Node=} opt_target
- * @return {sb.Node|sb.Arc} current target or sb.Arc instance for chaining
+ * @param {string|sb.model.Element=} opt_target
+ * @return {sb.model.Element|sb.Arc} current target or sb.Arc instance for chaining
  * @export
  */
 
 sb.Arc.prototype.target = function (opt_target) {
     if (opt_target && goog.isString(opt_target)) {
-        var node = this.document_.node(opt_target);
-        if (!node) {
-            throw new Error('Node ' + opt_source + ' do not exist.');
+        var element = this.document_.element(opt_target);
+        if (!element) {
+            throw new Error('Element ' + opt_target + ' do not exist.');
         }
-        opt_target = node;
+        opt_target = element;
     }
-    return /** @type{sb.Node|sb.Arc}*/this.attr('target', opt_target);
+    return /** @type{sb.model.Element|sb.Arc}*/this.attr('target', opt_target);
 };
 
 /**
@@ -107,7 +76,7 @@ sb.Arc.prototype.target = function (opt_target) {
  * @return {sb.Point|sb.Arc}
  */
 //TODO: support start(x,y)
-sb.Arc.prototype.start=function(opt_startPoint){
+sb.Arc.prototype.start = function (opt_startPoint) {
     return /** @type{sb.Point|sb.Arc}*/this.attr('start', opt_startPoint);
 };
 
@@ -117,7 +86,7 @@ sb.Arc.prototype.start=function(opt_startPoint){
  * @return {sb.Point|sb.Arc}
  */
 //TODO: support start(x,y)
-sb.Arc.prototype.end=function(opt_endPoint){
+sb.Arc.prototype.end = function (opt_endPoint) {
     return /** @type{sb.Point|sb.Arc}*/this.attr('end', opt_endPoint);
 };
 

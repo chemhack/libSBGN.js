@@ -10,9 +10,12 @@ goog.require('goog.array');
  * Class for the root structure of a system biology document.
  * @param {string=} opt_id Optional id of the document.
  * @constructor
+ * @extends sb.model.AttributeObject
  * @export
  */
 sb.Document = function (opt_id) {
+    goog.base(this);
+
     this.id = opt_id;
 
     /**
@@ -30,19 +33,35 @@ sb.Document = function (opt_id) {
     this.arcIdSeq_ = 1;
 
     /**
-     * Node map
-     * @type {Object.<string, sb.Node>}
+     * The sequence variable used to name port id.
+     * @type {number}
      * @private
      */
-    this.nodes_ = new goog.structs.Map();
+    this.portIdSeq_ = 1;
+
+    /**
+     * Id-Object map of all elements.
+     * @type {goog.structs.Map}
+     * @private
+     */
+    this.elementMap_ = new goog.structs.Map();
+
+    /**
+     * Node map
+     * @type {Array.<sb.Node>}
+     * @private
+     */
+    this.nodes_ = [];
 
     /**
      * Arc map
-     * @type {Object.<string, sb.Arc>}
+     * @type {Array.<sb.Arc>}
      * @private
      */
-    this.arcs_ = new goog.structs.Map();
+    this.arcs_ = [];
 };
+
+goog.inherits(sb.Document,sb.model.AttributeObject);
 
 /**
  * Create a new node within the document.
@@ -52,10 +71,9 @@ sb.Document = function (opt_id) {
  */
 sb.Document.prototype.createNode = function (opt_id) {
     var id = opt_id ? opt_id : this.nextNodeId_();
-//    if (this.nodes_.containsKey(id)) {
-//        throw new Error("Given id " + id + " already exists.");
-//    }
-    return /** @type{sb.Node} */(new sb.Node(this).id(id));
+    var node = /** @type{sb.Node} */ new sb.Node(this).id(id);
+    goog.array.insert(this.nodes_,node);
+    return node;
 };
 
 /**
@@ -65,7 +83,7 @@ sb.Document.prototype.createNode = function (opt_id) {
  */
 sb.Document.prototype.nextNodeId_ = function () {
     var nextNodeId_ = "node" + this.nodeIdSeq_++;
-    if (this.node(nextNodeId_)) {
+    if (this.element(nextNodeId_)) {
         return this.nextNodeId_();
     } else {
         return nextNodeId_;
@@ -79,15 +97,13 @@ sb.Document.prototype.nextNodeId_ = function () {
  * @export
  */
 sb.Document.prototype.nodes = function (opt_noSubNodes) {
-    var nodes = this.nodes_.getValues();
     if (opt_noSubNodes) {
-        return goog.array.filter(nodes, function (node, idx, arr) {
+        return goog.array.filter(this.nodes_, function (node, idx, arr) {
             return node.parent ? false : true;
         });
     }
-    return nodes;
+    return this.nodes_;
 };
-
 
 /**
  * Return the node of given id.
@@ -96,7 +112,20 @@ sb.Document.prototype.nodes = function (opt_noSubNodes) {
  * @export
  */
 sb.Document.prototype.node = function (id) {
-    return this.nodes_.get(id);
+    var element = this.element(id);
+    if(element instanceof sb.Node){
+        return element;
+    }
+    return null;
+};
+
+/**
+ * Return the element of given id.
+ * @param id
+ * @return {sb.model.Element}
+ */
+sb.Document.prototype.element = function (id) {
+    return  /** @type{sb.model.Element}*/ this.elementMap_.get(id);
 };
 
 /**
@@ -107,7 +136,9 @@ sb.Document.prototype.node = function (id) {
  */
 sb.Document.prototype.createArc = function (opt_id) {
     var id = opt_id ? opt_id : this.nextArcId_();
-    return /** @type{sb.Arc}*/(new sb.Arc(this).id(id));
+    var arc = /** @type{sb.Arc}*/ new sb.Arc(this).id(id);
+    goog.array.insert(this.arcs_,arc);
+    return arc;
 };
 
 /**
@@ -130,7 +161,7 @@ sb.Document.prototype.connect = function (source, target) {
  */
 sb.Document.prototype.nextArcId_ = function () {
     var nextArcId_ = "arc" + this.arcIdSeq_++;
-    if (this.arc(nextArcId_)) {
+    if (this.element(nextArcId_)) {
         return this.nextArcId_();
     } else {
         return nextArcId_;
@@ -144,7 +175,7 @@ sb.Document.prototype.nextArcId_ = function () {
  * @export
  */
 sb.Document.prototype.arcs = function () {
-    return this.arcs_.getValues();
+    return this.arcs_;
 };
 
 /**
@@ -154,12 +185,16 @@ sb.Document.prototype.arcs = function () {
  * @export
  */
 sb.Document.prototype.arc = function (id) {
-    return this.arcs_.get(id);
+    var element = this.element(id);
+    if(element instanceof sb.Arc){
+        return element;
+    }
+    return null;
 };
 
 /**
- * sb.Node and sb.Arc will call this method when attribute of their value is changed.
- * @param object{sb.Node|sb.Arc} The object(sb.Node or sb.Arc) which attribute is changed.
+ * sb.model.Element will call this method when attribute of their value is changed.
+ * @param object{sb.model.Element} The object which attribute is changed.
  * @param key{string} Attribute name
  * @param oldValue{string} The old value of attribute
  * @param newValue{string} The new value of attribute
@@ -167,16 +202,36 @@ sb.Document.prototype.arc = function (id) {
  */
 sb.Document.prototype.onAttrChange = function (object, key, oldValue, newValue) {
     if (key == 'id') {
-        if (object instanceof sb.Node) {
-            if (oldValue) {
-                this.nodes_.remove(oldValue);
-            }
-            this.nodes_.set(newValue, object);
-        } else if (object instanceof sb.Arc) {
-            if (oldValue) {
-                this.arcs_.remove(oldValue);
-            }
-            this.arcs_.set(newValue, object);
+        if (oldValue) {
+            this.elementMap_.remove(oldValue);
         }
+        this.elementMap_.set(newValue, object);
     }
+};
+
+/**
+ * Get next unused port id.
+ * @return {string}
+ * @private
+ */
+sb.Document.prototype.nextPortId_ = function () {
+    var nextPortId_ = "port" + this.portIdSeq_++;
+    if (this.element(nextPortId_)) {
+        return this.nextPortId_();
+    } else {
+        return nextPortId_;
+    }
+};
+
+/**
+ * Create a new port within the document.
+ * @param {string=} opt_id Optional id of port.
+ * @return {sb.Port}
+ * @export
+ */
+sb.Document.prototype.createPort = function (opt_id) {
+    var id = opt_id ? opt_id : this.nextPortId_();
+    var port = /** @type{sb.Port} */ new sb.Port(this).id(id);
+//    goog.array.insert(this.nodes_,node); TODO: decide if a this.ports_ is needed
+    return port;
 };
