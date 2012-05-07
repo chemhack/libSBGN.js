@@ -9,6 +9,7 @@
     <property name="jsdoc.dir" value="${base.dir}/third-party/jsdoc-toolkit"/>
     <property name="jsdoc-template.dir" value="${base.dir}/third-party/jsdoc-template"/>
     <property name="doc.dir" value="${base.dir}/docs"/>
+    <property name="test-data.dir" value="${base.dir}/test/data"/>
 
     <path id="input-files">
 
@@ -70,6 +71,13 @@
             <arg line='-p "${closure-library.dir}"'/>
             <arg line='-p "${js-src.dir}"'/>
             <arg line="-o deps"/>
+        </exec>
+    </target>
+
+    <target name="build-test-data" description="rebuild all_data.js, should be executed when test data changed">
+        <exec executable="python" failonerror="true" logError="true" dir="${test-data.dir}" output="${test-data.dir}/all_data.js">
+            <arg value="${base.dir}/script/wrap_test_data.py"/>
+            <arg line="."/>
         </exec>
     </target>
 
