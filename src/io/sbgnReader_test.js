@@ -27,16 +27,16 @@ function testER1() {
 }
 
 function testAllFilesHasNoError() {
-//    var reader = new sb.io.SbgnReader();
-//    goog.object.forEach(_allData, function (value, key, object) {
-//        if (goog.string.startsWith(key, "sbgn/")) {
-//            try {
-//                reader.parseText(value.content);
-//            } catch (ex) {
-//                fail(key + "\t" + ex);
-//            }
-//        }
-//    }, this);
+    var reader = new sb.io.SbgnReader();
+    goog.object.forEach(_allData, function (value, key, object) {
+        if (goog.string.startsWith(key, "sbgn/")) {
+            try {
+                reader.parseText(value.content);
+            } catch (ex) {
+                fail(key + "\t" + ex);
+            }
+        }
+    }, this);
 }
 
 
