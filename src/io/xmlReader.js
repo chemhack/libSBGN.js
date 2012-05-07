@@ -35,6 +35,9 @@ sb.io.XmlReader.prototype.logger = goog.debug.Logger.getLogger('sb.io.XmlReader'
  */
 sb.io.XmlReader.prototype.parseXmlText = function (xmlText) {
     this.logger.info('Parsing xml size:' + xmlText.length);
+    if(xmlText.charAt(0)=='\ufeff'){
+        xmlText=xmlText.substr(1,xmlText.length);
+    }
     this.idMap_=new goog.structs.Map();
     return goog.dom.xml.loadXml(xmlText);
 };

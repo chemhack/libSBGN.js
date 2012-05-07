@@ -26,6 +26,12 @@ function testER1() {
     dumpDocument(doc);
 }
 
+
+function testSubmapExpanded(){
+    var reader = new sb.io.SbgnReader();
+    var doc = reader.parseText(_allData['sbgn/AF/submap_expanded.sbgn'].content);
+}
+
 function testAllFilesHasNoError() {
     var reader = new sb.io.SbgnReader();
     goog.object.forEach(_allData, function (value, key, object) {
