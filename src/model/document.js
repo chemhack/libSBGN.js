@@ -193,7 +193,7 @@ sb.Document.prototype.arc = function (id) {
 };
 
 /**
- * sb.model.Element will call this method when attribute of their value is changed.
+ * sb.model.Element will call this method when attribute of their value is changed. This is primiarly used to maintain id-element maps.
  * @param object{sb.model.Element} The object which attribute is changed.
  * @param key{string} Attribute name
  * @param oldValue{string} The old value of attribute

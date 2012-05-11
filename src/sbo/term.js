@@ -1,4 +1,5 @@
 goog.provide('sb.sbo.NodeTypeMapping');
+goog.provide('sb.sbo.ArcTypeMapping');
 
 /**
  * Node type to sbo id mapping
@@ -50,4 +51,8 @@ sb.sbo.NodeTypeMapping = {
     'positive influence':170,
     'negative influence':169,
     'perturbation':405
+};
+
+sb.sbo.ArcTypeMapping={
+   //TODO
 };

@@ -31,32 +31,33 @@ sb.io.JsbgnWriter.prototype.write = function (document) {
     goog.array.forEach(document.nodes(), function (node) {
         var nodeObj = {};
         nodeObj['id'] = node.id();
-        nodeObj['type'] = this.toJsbgnTypeString(node.type());
         nodeObj['sbo']=sb.sbo.NodeTypeMapping[node.type()];
+        nodeObj['is_abstract']=false;
+        var nodeData={};
+        nodeObj['data']=nodeData;
+
+        if(node.clone()){
+            nodeData['clone']=true;
+        }
+        if(node.label()){
+            nodeData['label']=node.label();
+        }
+        if(node.children().length>0){
+
+        }
         goog.array.insert(jsbgn['nodes'],nodeObj);
+    }, this);
+    goog.array.forEach(document.arcs(), function (arc) {
+        var arcObj = {};
+        arcObj['id'] = arc.id();
+        arcObj['sbo']= 0; //TODO: do the sbo mapping
+        arcObj['source']=arc.source().id();
+        arcObj['target']=arc.target().id(); //TODO: deal with state vars, etc
+        var arcData={};
+        arcObj['data']=arcData;
+
+        goog.array.insert(jsbgn['edges'],arcObj);
     }, this);
     return "var network = " + goog.json.serialize(jsbgn);
 };
 
-/**
- *
- * @param {sb.NodeType} nodeType
- */
-sb.io.JsbgnWriter.prototype.toJsbgnTypeString = function (nodeType) {
-    switch (nodeType) {
-        case sb.NodeType.SimpleChemical:
-        case sb.NodeType.SimpleChemicalMultimer:
-        case sb.NodeType.Macromolecule:
-        case sb.NodeType.MacromoleculeMultimer:
-            return 'simple_species';
-        case sb.NodeType.Complex:
-        case sb.NodeType.ComplexMultimer:
-            return 'complex_species';
-        case sb.NodeType.Compartment:
-            return 'compartment';
-        case sb.NodeType.And:
-        case sb.NodeType.Or:
-        case sb.NodeType.Not:
-            return 'info';
-    }
-};

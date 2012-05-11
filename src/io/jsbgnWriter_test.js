@@ -2,7 +2,6 @@ goog.provide('sb.io.jsbgnWriterTest');
 
 goog.require('goog.testing.jsunit');
 goog.require('sb.io.JsbgnWriter');
-goog.require('sb.util.log');
 
 var writer;
 function setUp() {
@@ -11,7 +10,7 @@ function setUp() {
 
 function testWriteDocument(){
     var doc=new sb.Document();
-    doc.createNode('node1').type(sb.NodeType.Compartment);
+    doc.createNode('node1').type(sb.NodeType.SimpleChemical).label('a simple chemical');
     var jsbgnText=writer.write(doc);
     document.write(jsbgnText);
 }
