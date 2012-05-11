@@ -6,9 +6,8 @@ goog.provide('sb.io.Jsonp');
  * Class for cross-domain jsonp requests.
  * @param {string} url
  * @param {Object} params
- * @param {function} callback
+ * @param {Function} callback
  * @constructor
- * @export
  */
 sb.io.Jsonp = function (url, params, callback) {
     this.url = url;
@@ -27,6 +26,16 @@ sb.io.Jsonp = function (url, params, callback) {
     }
     script.setAttribute('src', url + '?' + query + 'callback=sb.io.Jsonp.' + this.internalCallback);
     this.script = document.getElementsByTagName('head')[0].appendChild(script);
+};
+/**
+ * Fire a jsonp request
+ * @param {string} url
+ * @param {Object} params
+ * @param {Function} callback
+ * @export
+ */
+sb.io.Jsonp.call=function(url,params,callback){
+   new sb.io.Jsono(url,params,callback);
 };
 
 sb.io.Jsonp.prototype.generateCallback = function () {

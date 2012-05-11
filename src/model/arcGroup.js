@@ -10,7 +10,7 @@ goog.require('sb.model.AttributeObject');
  * Class for arc groups. Do not use the constructor, use sb.Document.prototype.createArcGroup instead.
  * @param {!sb.Document} document the document to bind
  * @constructor
- * @extends sb.model.AttributeObject
+ * @extends sb.model.Element
  * @export
  */
 sb.ArcGroup = function (document) {
@@ -22,6 +22,6 @@ sb.ArcGroup = function (document) {
     this.document_ = document;
 };
 
-goog.inherits(sb.ArcGroup, sb.model.AttributeObject);
+goog.inherits(sb.ArcGroup, sb.model.Element);
 
 //TODO: finish the class, add relevant methods in document

@@ -26,7 +26,9 @@ function testER1() {
     dumpDocument(doc);
 }
 
-
+/**
+ * This file has a BOM(Byte Order Mask which is for IE<9)
+ */
 function testSubmapExpanded(){
     var reader = new sb.io.SbgnReader();
     var doc = reader.parseText(_allData['sbgn/AF/submap_expanded.sbgn'].content);
@@ -52,7 +54,7 @@ function dumpDocument(doc) {
     tree.add(nodeNode);
     var arcNode = tree.createNode('');
     arcNode.setText('Arcs:');
-    dumpArcs_(tree, arcNode, doc.arcs());
+    dumpElements_(tree, arcNode, doc.arcs());
     tree.add(arcNode);
     tree.render(goog.dom.getElement('dump'));
     tree.expandAll();
@@ -71,16 +73,7 @@ function dumpElements_(tree, treeNode, nodes) {
 
         treeNode.add(treeChildNode);
         dumpElements_(tree, treeChildNode, element.children());
-    });
+    },this);
 }
-
-function dumpArcs_(tree, treeNode, arcs) {
-    goog.array.forEach(arcs, function (arc) {
-        var treeChildNode = tree.createNode('');
-        treeNode.add(treeChildNode);
-        dumpElements_(tree, treeChildNode, arc.children());
-    });
-}
-
 
 

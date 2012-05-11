@@ -64,6 +64,7 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     this.compartments_ = [];
     this.delayedArcArray_ = [];
     var xmlDocument = this.parseXmlText(text);
+    goog.assert(xmlDocument.documentElement);
     this.traverse(xmlDocument.documentElement);
     goog.asserts.assert(this.objStack_.array().length == 0);
     goog.array.forEach(this.delayedArcArray_, function (xmlElement) {
@@ -80,8 +81,6 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
 sb.io.SbgnReader.glyphPropertyMap_ = {
 
 };
-
-//TODO: refactor the reader to make it independent of the order of XML elements
 
 //TODO: arcgroup??
 

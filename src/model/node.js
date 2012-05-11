@@ -37,12 +37,23 @@ sb.Node.prototype.type = function (opt_type) {
 /**
  * Setter/getter of node label.
  * @param {string=} opt_label label value to set
- * @return {*|sb.Node} current label or sb.Node instance for chaining
+ * @return {string|sb.Node} current label or sb.Node instance for chaining
  * @export
  */
 sb.Node.prototype.label = function (opt_label) {
-    return this.attr('label', opt_label);
+    return /** @type{string|sb.Node}*/this.attr('label', opt_label);
 };
+
+/**
+ * Setter/getter of clone marker attribute.
+ * @param {boolean=} opt_clone boolean value to set
+ * @return {boolean|sb.Node} current clone marker attribute value or sb.Node instance for chaining
+ * @export
+ */
+sb.Node.prototype.clone = function (opt_clone) {
+    return /** @type{boolean|sb.Node}*/this.attr('clone', opt_clone);
+};
+
 
 /**
  * Create a new node as a sub node of current node.
@@ -56,3 +67,14 @@ sb.Node.prototype.createSubNode = function (opt_id) {
     return node;
 };
 
+/**
+ * Create a port as a child of current node.
+ * @param opt_id Optional id of node.
+ * @return {sb.Port}
+ * @export
+ */
+sb.Node.prototype.createPort = function (opt_id) {
+    var port = this.document_.createPort(opt_id);
+    this.addChild(port);
+    return port;
+};

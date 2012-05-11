@@ -1,15 +1,14 @@
-goog.provide('sb.io.ioTest');
+goog.provide('sb.io.jsonpTest');
 
 goog.require('goog.testing.jsunit');
 goog.require('sb.util.log');
-goog.require('sb.io');
 
 
 function setUp() {
 
 }
 
-function testJsonpProxy(){
-
+function testJsonp(){
+    
 }
 

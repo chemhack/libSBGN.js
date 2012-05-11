@@ -11,7 +11,6 @@ goog.require('sb.model.Element');
  */
 sb.Port = function (document) {
     goog.base(this,document);
-
 };
 
 goog.inherits(sb.Port, sb.model.Element);
