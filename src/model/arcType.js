@@ -8,24 +8,72 @@ goog.require('goog.object');
  * @enum {string}
  * @export
  */
-sb.ArcType = {
-    Production:'production',
-    Consumption:'consumption',
-    Catalysis:'catalysis',
-    Modulation:'modulation',
-    Stimulation:'stimulation',
-    Inhibition:'inhibition',
-    Assignment:'assignment',
-    Interaction:'interaction',
-    AbsoluteInhibition:'absolute inhibition',
-    AbsoluteStimulation:'absolute stimulation',
-    PositiveInfluence:'positive influence',
-    NegativeInfluence:'negative influence',
-    UnknownInfluence:'unknown influence',
-    EquivalenceArc:'equivalence arc',
-    NecessaryStimulation:'necessary stimulation',
-    LogicArc:'logic arc'
-};
+sb.ArcType = {};
+
+/**
+ * @export
+ */
+sb.ArcType.Production = 'production';
+/**
+ * @export
+ */
+sb.ArcType.Consumption = 'consumption';
+/**
+ * @export
+ */
+sb.ArcType.Catalysis = 'catalysis';
+/**
+ * @export
+ */
+sb.ArcType.Modulation = 'modulation';
+/**
+ * @export
+ */
+sb.ArcType.Stimulation = 'stimulation';
+/**
+ * @export
+ */
+sb.ArcType.Inhibition = 'inhibition';
+/**
+ * @export
+ */
+sb.ArcType.Assignment = 'assignment';
+/**
+ * @export
+ */
+sb.ArcType.Interaction = 'interaction';
+/**
+ * @export
+ */
+sb.ArcType.AbsoluteInhibition = 'absolute inhibition';
+/**
+ * @export
+ */
+sb.ArcType.AbsoluteStimulation = 'absolute stimulation';
+/**
+ * @export
+ */
+sb.ArcType.PositiveInfluence = 'positive influence';
+/**
+ * @export
+ */
+sb.ArcType.NegativeInfluence = 'negative influence';
+/**
+ * @export
+ */
+sb.ArcType.UnknownInfluence = 'unknown influence';
+/**
+ * @export
+ */
+sb.ArcType.EquivalenceArc = 'equivalence arc';
+/**
+ * @export
+ */
+sb.ArcType.NecessaryStimulation = 'necessary stimulation';
+/**
+ * @export
+ */
+sb.ArcType.LogicArc = 'logic arc';
 
 /**
  * Helper method to check if the arc type is supported;
