@@ -1,0 +1,94 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"> <style>
+	.KEYW {color: #933;}
+	.COMM {color: #bbb; font-style: italic;}
+	.NUMB {color: #393;}
+	.STRN {color: #393;}
+	.REGX {color: #339;}
+	.line {border-right: 1px dotted #666; color: #666; font-style: normal;}
+	</style></head><body><pre><span class='line'>  1</span> <span class="NAME">goog.provide</span><span class="PUNC">(</span><span class="STRN">'sb.ArcType'</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>  2</span> </span><span class="NAME">goog.provide</span><span class="PUNC">(</span><span class="STRN">'sb.ArcTypeHelper'</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>  3</span> 
+<span class='line'>  4</span> </span><span class="NAME">goog.require</span><span class="PUNC">(</span><span class="STRN">'goog.object'</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>  5</span> 
+<span class='line'>  6</span> </span><span class="COMM">/**
+<span class='line'>  7</span>  * The enum of support arc type.
+<span class='line'>  8</span>  * @enum {string}
+<span class='line'>  9</span>  * @export
+<span class='line'> 10</span>  */</span><span class="WHIT">
+<span class='line'> 11</span> </span><span class="NAME">sb.ArcType</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 12</span> 
+<span class='line'> 13</span> </span><span class="COMM">/**
+<span class='line'> 14</span>  * @export
+<span class='line'> 15</span>  */</span><span class="WHIT">
+<span class='line'> 16</span> </span><span class="NAME">sb.ArcType.Production</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'production'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 17</span> </span><span class="COMM">/**
+<span class='line'> 18</span>  * @export
+<span class='line'> 19</span>  */</span><span class="WHIT">
+<span class='line'> 20</span> </span><span class="NAME">sb.ArcType.Consumption</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'consumption'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 21</span> </span><span class="COMM">/**
+<span class='line'> 22</span>  * @export
+<span class='line'> 23</span>  */</span><span class="WHIT">
+<span class='line'> 24</span> </span><span class="NAME">sb.ArcType.Catalysis</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'catalysis'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 25</span> </span><span class="COMM">/**
+<span class='line'> 26</span>  * @export
+<span class='line'> 27</span>  */</span><span class="WHIT">
+<span class='line'> 28</span> </span><span class="NAME">sb.ArcType.Modulation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'modulation'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 29</span> </span><span class="COMM">/**
+<span class='line'> 30</span>  * @export
+<span class='line'> 31</span>  */</span><span class="WHIT">
+<span class='line'> 32</span> </span><span class="NAME">sb.ArcType.Stimulation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'stimulation'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 33</span> </span><span class="COMM">/**
+<span class='line'> 34</span>  * @export
+<span class='line'> 35</span>  */</span><span class="WHIT">
+<span class='line'> 36</span> </span><span class="NAME">sb.ArcType.Inhibition</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'inhibition'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 37</span> </span><span class="COMM">/**
+<span class='line'> 38</span>  * @export
+<span class='line'> 39</span>  */</span><span class="WHIT">
+<span class='line'> 40</span> </span><span class="NAME">sb.ArcType.Assignment</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'assignment'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 41</span> </span><span class="COMM">/**
+<span class='line'> 42</span>  * @export
+<span class='line'> 43</span>  */</span><span class="WHIT">
+<span class='line'> 44</span> </span><span class="NAME">sb.ArcType.Interaction</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'interaction'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 45</span> </span><span class="COMM">/**
+<span class='line'> 46</span>  * @export
+<span class='line'> 47</span>  */</span><span class="WHIT">
+<span class='line'> 48</span> </span><span class="NAME">sb.ArcType.AbsoluteInhibition</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'absolute inhibition'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 49</span> </span><span class="COMM">/**
+<span class='line'> 50</span>  * @export
+<span class='line'> 51</span>  */</span><span class="WHIT">
+<span class='line'> 52</span> </span><span class="NAME">sb.ArcType.AbsoluteStimulation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'absolute stimulation'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 53</span> </span><span class="COMM">/**
+<span class='line'> 54</span>  * @export
+<span class='line'> 55</span>  */</span><span class="WHIT">
+<span class='line'> 56</span> </span><span class="NAME">sb.ArcType.PositiveInfluence</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'positive influence'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 57</span> </span><span class="COMM">/**
+<span class='line'> 58</span>  * @export
+<span class='line'> 59</span>  */</span><span class="WHIT">
+<span class='line'> 60</span> </span><span class="NAME">sb.ArcType.NegativeInfluence</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'negative influence'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 61</span> </span><span class="COMM">/**
+<span class='line'> 62</span>  * @export
+<span class='line'> 63</span>  */</span><span class="WHIT">
+<span class='line'> 64</span> </span><span class="NAME">sb.ArcType.UnknownInfluence</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'unknown influence'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 65</span> </span><span class="COMM">/**
+<span class='line'> 66</span>  * @export
+<span class='line'> 67</span>  */</span><span class="WHIT">
+<span class='line'> 68</span> </span><span class="NAME">sb.ArcType.EquivalenceArc</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'equivalence arc'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 69</span> </span><span class="COMM">/**
+<span class='line'> 70</span>  * @export
+<span class='line'> 71</span>  */</span><span class="WHIT">
+<span class='line'> 72</span> </span><span class="NAME">sb.ArcType.NecessaryStimulation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'necessary stimulation'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 73</span> </span><span class="COMM">/**
+<span class='line'> 74</span>  * @export
+<span class='line'> 75</span>  */</span><span class="WHIT">
+<span class='line'> 76</span> </span><span class="NAME">sb.ArcType.LogicArc</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">'logic arc'</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 77</span> 
+<span class='line'> 78</span> </span><span class="COMM">/**
+<span class='line'> 79</span>  * Helper method to check if the arc type is supported;
+<span class='line'> 80</span>  * @param arcType {string} String presentation of node type.
+<span class='line'> 81</span>  * @return {boolean} true if supported
+<span class='line'> 82</span>  * @export
+<span class='line'> 83</span>  */</span><span class="WHIT">
+<span class='line'> 84</span> </span><span class="NAME">sb.ArcTypeHelper.isArcTypeSupported</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">arcType</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 85</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">goog.object.containsValue</span><span class="PUNC">(</span><span class="NAME">sb.ArcType</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">arcType</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 86</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 87</span> </span></pre></body></html>
