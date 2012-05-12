@@ -4,55 +4,64 @@ goog.provide('sb.sbo.ArcTypeMapping');
 /**
  * Node type to sbo id mapping
  * @type {Object}
+ * @export
  */
-sb.sbo.NodeTypeMapping = {
-    'compartment':290,
-    'macromolecule':245,
-    'macromolecule multimer':245, //FIXME
-    'simple chemical':247,
-    'simple chemical multimer':247, //FIXME
-    'complex':253,
-    'process':375,
-    'omitted process':379,
-    'uncertain process':396,
-    'annotation':110003,
-    'phenotype':358,
-    'nucleic acid feature':250,
-    'nucleic acid feature multimer':250, //FIXME
-    'association':177,
-    'dissociation':180,
-    'entity':245,
-    'submap':395,
-    'terminal':110004,
-    'perturbing agent':405,
-    'variable value':110001,
-    'implicit xor':-1,
-    'tag':110002,
-    'and':173,
-    'or':174,
-    'not':238,
-    'delay':225,
-    'source and sink':291,
-    'stimulation':459,
-    'consumption':15,
-    'production':393,
-    'catalysis':13,
-    'equivalence arc':15,
-    'logic arc':15,
-    'necessary stimulation':461,
-    'assignment':464,
-    'interaction':342,
-    'absolute inhibition':407,
-    'modulation':168,
-    'inhibition':169,
-    'absolute stimulation':411,
-    'biological activity':412,
-    'unknown influence':168,
-    'positive influence':170,
-    'negative influence':169,
-    'perturbation':405
-};
+sb.sbo.NodeTypeMapping = {};
 
-sb.sbo.ArcTypeMapping={
-   //TODO
-};
+sb.sbo.NodeTypeMapping[sb.NodeType.UnspecifiedEntity] = 285;
+sb.sbo.NodeTypeMapping[sb.NodeType.Compartment] = 290;
+sb.sbo.NodeTypeMapping[sb.NodeType.Macromolecule] = 245;
+sb.sbo.NodeTypeMapping[sb.NodeType.MacromoleculeMultimer] = 420;
+sb.sbo.NodeTypeMapping[sb.NodeType.SimpleChemical] = 247;
+sb.sbo.NodeTypeMapping[sb.NodeType.SimpleChemicalMultimer] = 421;
+sb.sbo.NodeTypeMapping[sb.NodeType.Complex] = 253;
+sb.sbo.NodeTypeMapping[sb.NodeType.ComplexMultimer] = 418;
+sb.sbo.NodeTypeMapping[sb.NodeType.Process] = 375;
+sb.sbo.NodeTypeMapping[sb.NodeType.OmittedProcess] = 379;
+sb.sbo.NodeTypeMapping[sb.NodeType.UncertainProcess] = 396;
+sb.sbo.NodeTypeMapping[sb.NodeType.Annotation] = 110003;
+sb.sbo.NodeTypeMapping[sb.NodeType.Phenotype] = 358;
+sb.sbo.NodeTypeMapping[sb.NodeType.NucleicAcidFeature] = 250; // should it be 354? http://precedings.nature.com/documents/3721/version/4/files/npre20113721-4.pdf 2.4.4 Glyph: Nucleic acid feature SBO:0000354 ! informational molecule segment
+sb.sbo.NodeTypeMapping[sb.NodeType.NucleicAcidFeatureMultimer] = 250;// should be SBO:0000419 ! multimer of informational molecule segments
+sb.sbo.NodeTypeMapping[sb.NodeType.Association] = 177;
+sb.sbo.NodeTypeMapping[sb.NodeType.Dissociation] = 180;
+sb.sbo.NodeTypeMapping[sb.NodeType.Entity] = 245;
+sb.sbo.NodeTypeMapping[sb.NodeType.Submap] = 395;
+sb.sbo.NodeTypeMapping[sb.NodeType.Terminal] = 110004; //?
+sb.sbo.NodeTypeMapping[sb.NodeType.PerturbingAgent] = 405;
+sb.sbo.NodeTypeMapping[sb.NodeType.VariableValue] = 110001; //?
+sb.sbo.NodeTypeMapping[sb.NodeType.ImplicitXor] = -1; // what's this? can't find in spec.
+sb.sbo.NodeTypeMapping[sb.NodeType.Tag] = 110002; //?
+sb.sbo.NodeTypeMapping[sb.NodeType.And] = 173;
+sb.sbo.NodeTypeMapping[sb.NodeType.Or] = 174;
+sb.sbo.NodeTypeMapping[sb.NodeType.Not] = 238;
+sb.sbo.NodeTypeMapping[sb.NodeType.Delay] = 225;
+sb.sbo.NodeTypeMapping[sb.NodeType.SourceAndSink] = 291;
+sb.sbo.NodeTypeMapping[sb.NodeType.Perturbation] = 405;
+sb.sbo.NodeTypeMapping[sb.NodeType.BiologicalActivity] = 412;
+
+/**
+ * Arc type to sbo id mapping
+ * @type {Object}
+ * @export
+ */
+sb.sbo.ArcTypeMapping = {};
+sb.sbo.ArcTypeMapping[sb.ArcType.Production] = 393;
+sb.sbo.ArcTypeMapping[sb.ArcType.EquivalenceArc] = 15; //in spec, SBO Term: Not applicable.
+sb.sbo.ArcTypeMapping[sb.ArcType.LogicArc] = 15; //should be SBO:0000398 ! logical relationship.
+sb.sbo.ArcTypeMapping[sb.ArcType.NecessaryStimulation] = 461; //should be SBO:0000171 ! necessary stimulation.
+sb.sbo.ArcTypeMapping[sb.ArcType.Assignment] = 464;
+sb.sbo.ArcTypeMapping[sb.ArcType.Interaction] = 342;
+sb.sbo.ArcTypeMapping[sb.ArcType.AbsoluteInhibition] = 407;
+sb.sbo.ArcTypeMapping[sb.ArcType.Modulation] = 168;
+sb.sbo.ArcTypeMapping[sb.ArcType.Inhibition] = 169;
+sb.sbo.ArcTypeMapping[sb.ArcType.AbsoluteStimulation] = 411;
+sb.sbo.ArcTypeMapping[sb.ArcType.UnknownInfluence] = 168;
+sb.sbo.ArcTypeMapping[sb.ArcType.PositiveInfluence] = 170; //?
+sb.sbo.ArcTypeMapping[sb.ArcType.NegativeInfluence] = 169;
+sb.sbo.ArcTypeMapping[sb.ArcType.Stimulation] = 170;
+sb.sbo.ArcTypeMapping[sb.ArcType.Catalysis] = 172;
+sb.sbo.ArcTypeMapping[sb.ArcType.Consumption] = 15;
+sb.sbo.ArcTypeMapping[sb.ArcType.Production] = 393;
+sb.sbo.ArcTypeMapping[sb.ArcType.Catalysis] = 13;
+

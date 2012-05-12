@@ -63,5 +63,11 @@ function testConnectNodes() {
     var arc1 = doc.connect(node1, node2);
     assertEquals(node1, arc1.source());
     assertEquals(node2, arc1.target());
+}
 
+function testPort(){
+    var port1 = doc.createPort();
+    var port2 = doc.createPort();
+    var port3 = doc.createPort();
+    port1.id('port4');
 }

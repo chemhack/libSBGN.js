@@ -1,5 +1,6 @@
 goog.provide('sb.Port');
 
+goog.require('sb.model.Element');
 /**
  * Class for port.
  * @param {!sb.Document} document the document to bind

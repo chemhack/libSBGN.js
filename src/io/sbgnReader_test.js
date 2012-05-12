@@ -26,12 +26,16 @@ function testER1() {
     dumpDocument(doc);
 }
 
-/**
- * This file has a BOM(Byte Order Mask which is for IE<9)
- */
+// This file has a BOM(Byte Order Mask which is for IE<9)
 function testSubmapExpanded(){
     var reader = new sb.io.SbgnReader();
     var doc = reader.parseText(_allData['sbgn/AF/submap_expanded.sbgn'].content);
+}
+
+// This file has arcs without id
+function testMapk(){
+    var reader = new sb.io.SbgnReader();
+    var doc = reader.parseText(_allData['sbgn/libSBGN-examples/mapk_cascade.sbgn'].content);
 }
 
 function testAllFilesHasNoError() {

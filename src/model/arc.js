@@ -3,6 +3,7 @@ goog.provide('sb.Arc');
 goog.require('sb.ArcType');
 goog.require('sb.ArcTypeHelper');
 goog.require('sb.model.Element');
+goog.require('sb.Port');
 
 
 /**
@@ -68,6 +69,19 @@ sb.Arc.prototype.target = function (opt_target) {
         opt_target = element;
     }
     return /** @type{sb.model.Element|sb.Arc}*/this.attr('target', opt_target);
+};
+
+/**
+ * Create a port as a child of current arc.
+ * @param opt_id Optional id of arc.
+ * @return {sb.Port}
+ * @export
+ */
+//This method is implemented twice in both sb.Arc and sb.Node to avoid circular dependency problem. You will know what the bug is if you move this method to sb.model.Element.
+sb.Arc.prototype.createPort = function (opt_id) {
+    var port = this.document_.createPort(opt_id);
+    this.addChild(port);
+    return port;
 };
 
 /**

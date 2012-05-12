@@ -64,11 +64,13 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     this.compartments_ = [];
     this.delayedArcArray_ = [];
     var xmlDocument = this.parseXmlText(text);
-    goog.assert(xmlDocument.documentElement);
+    goog.asserts.assert(xmlDocument.documentElement);
     this.traverse(xmlDocument.documentElement);
     goog.asserts.assert(this.objStack_.array().length == 0);
     goog.array.forEach(this.delayedArcArray_, function (xmlElement) {
-        var arc = this.document_.arc(xmlElement.getAttribute('id'));
+        var arc_id = xmlElement.getAttribute('id');
+        var arc = this.document_.arc(arc_id);
+        this.logger.finest('arc id: ' + arc_id);
         var arc_target = xmlElement.getAttribute('target');
         this.logger.finest('arc arc_target: ' + arc_target);
         var arc_source = xmlElement.getAttribute('source');
@@ -113,6 +115,10 @@ sb.io.SbgnReader.prototype.onElementOpen = function (xmlElement) {
     } else if (tagName == 'arc') {
         this.logger.finest('arc arc_id: ' + nodeId);
         var arc = this.document_.createArc(nodeId);
+        if(!nodeId){
+            xmlElement.setAttribute('id',arc.id());
+            this.logger.finest('no arc id, arc_id automatically set to: ' + xmlElement.getAttribute('id'));
+        }
         var arc_class = xmlElement.getAttribute('class');
         this.logger.finest('arc arc_class: ' + arc_class);
         arc.type(arc_class);
@@ -141,9 +147,11 @@ sb.io.SbgnReader.prototype.onElementOpen = function (xmlElement) {
     } else if (tagName == 'map') {
         var language = xmlElement.getAttribute('language');
         if (language) {
-            this.document_.attr('language', language);
+            this.document_.lang(language);
         }
         this.objStack_.push(this.document_);
+    } else if (tagName == 'entity') {
+        topElementInStack.attr('entity', xmlElement.getAttribute('name'));
     }
 };
 

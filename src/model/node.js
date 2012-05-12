@@ -3,6 +3,7 @@ goog.provide('sb.Node');
 goog.require('sb.NodeType');
 goog.require('sb.NodeTypeHelper');
 goog.require('sb.model.Element');
+goog.require('sb.Port');
 
 /**
  * Class for the nodes. Do not use the constructor, use sb.Document.prototype.createNode instead.

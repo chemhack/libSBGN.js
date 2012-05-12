@@ -1,7 +1,9 @@
 goog.provide('sb.Document');
+goog.provide('sb.Language');
 
 goog.require('sb.Node');
 goog.require('sb.Arc');
+goog.require('sb.Port');
 
 goog.require('goog.structs.Map');
 goog.require('goog.array');
@@ -234,4 +236,29 @@ sb.Document.prototype.createPort = function (opt_id) {
     var port = /** @type{sb.Port} */ new sb.Port(this).id(id);
 //    goog.array.insert(this.nodes_,node); TODO: decide if a this.ports_ is needed
     return port;
+};
+
+/**
+ * Getter/Setter of SBGN language type
+ * @param {sb.Language=} opt_lang
+ * @return {sb.Language|sb.Document} language type or sb.Document for chaining
+ */
+sb.Document.prototype.lang=function(opt_lang){
+    if (goog.isDef(opt_lang)) {
+        if (!goog.object.containsValue(sb.Language,opt_lang)) {
+            throw new Error('Given SBGN language type ' + opt_lang + ' is not supported.');
+        }
+    }
+    return /** @type{sb.Language|sb.Document} */ this.attr('language',opt_lang);
+};
+
+/**
+ * SBGN languages
+ * @enum {string}
+ * @export
+ */
+sb.Language={
+    AF:'activity flow',
+    ER:'entity relationship',
+    PD:'process description'
 };

@@ -6,46 +6,37 @@
     <script type="text/javascript" src="dummy_data.js"></script>
     <script type="text/javascript" src="../build/compiled-advanced.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://mkhudon.com/treeview/js/jquery.simpletreeview.min.js"></script>
+    <script type="text/javascript" src="http://www.netgrow.com.au/assets/files/jquery_plugins/jquery.dump.js"></script>
 </head>
 <body>
-<ul id='tree' class="treeview">Tree:
-    <li id='nodes'>Nodes:</li>
-    <li id='arcs'>Arcs:</li>
-</ul>
+<h2>SBGN-ML to jSBGN converter</h2>
+<label>
+    SBGN-ML URL:
+    <input id='url' type="text"
+           value="https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone2/example-files/activated_stat1alpha_induction_of_the_irf1_gene.sbgn"/>
+</label>
+<input id="convert" type="button" value="Convert"/>
+<input id="dump" type="button" value="Visualize JSON" disabled/>
+
+<div id="jsbgn"></div>
 <script type="text/javascript">
-    sb.io.readUrl('https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/mapk_cascade.sbgn', 'sbgn', function (doc) {
-        var nodes = doc.nodes(true);
-        for (var i = 0; i < nodes.length; i++) {
-            var node = nodes[i];
-            displayNode(node, $('#nodes'));
-        }
-        var arcs = doc.arcs(true);
-        for (var i = 0; i < arcs.length; i++) {
-            var arc = arcs[i];
-            displayArcs(arc, $('#arcs'));
+    var jsbgn;
+    $('#convert').click(function () {
+        jsbgn=null;
+        $('#dump').attr('disabled', '');
+        var url = $('#url').attr('value');
+        $('#jsbgn').text("Fetching " + url);
+        sb.io.readUrl(url, 'sbgn', function (doc) {
+            $('#dump').removeAttr('disabled');
+            jsbgn = sb.io.write(doc, 'jsbgn');
+            $('#jsbgn').text(jsbgn);
+        });
+    });
+    $('#dump').click(function () {
+        if(jsbgn){
+            $.dump($.parseJSON(jsbgn));
         }
     });
-
-    function displayNode(node, htmlElement) {
-        var li = $('<li>' + node.type() + ': ' + node.id() + '</li>');
-        htmlElement.append(li);
-        var children = node.children();
-        if (children.length > 0) {
-            var ul = $('<ul> </ul>');
-            li.append(ul);
-            for (var i = 0; i < children.length; i++) {
-                var child = children[i];
-                displayNode(child, ul);
-            }
-        }
-    }
-
-    function displayArcs(arc, htmlElement) {
-        var li = $('<li>' + arc.type() + ': ' + arc.id() + ' From: ' + arc.source().id() + ' To: ' + arc.target().id() + '</li>');
-        htmlElement.append(li);
-    }
-
 </script>
 </body>
 </html>

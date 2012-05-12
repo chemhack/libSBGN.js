@@ -8,6 +8,7 @@ goog.provide('sb.io.Jsonp');
  * @param {Object} params
  * @param {Function} callback
  * @constructor
+ * @export
  */
 sb.io.Jsonp = function (url, params, callback) {
     this.url = url;
@@ -35,7 +36,7 @@ sb.io.Jsonp = function (url, params, callback) {
  * @export
  */
 sb.io.Jsonp.call=function(url,params,callback){
-   new sb.io.Jsono(url,params,callback);
+   new sb.io.Jsonp(url,params,callback);
 };
 
 sb.io.Jsonp.prototype.generateCallback = function () {

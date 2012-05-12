@@ -1,13 +1,13 @@
 goog.provide('sb.model.Element');
 
 goog.require('sb.model.AttributeObject');
-goog.require('sb.Port');
 
 /**
  * Base class for sb.Node and sb.Arc.
  * @extends sb.model.AttributeObject
  * @param {!sb.Document} document the document to bind
  * @constructor
+ * @export
  */
 sb.model.Element=function(document){
     goog.base(this);
@@ -92,14 +92,3 @@ sb.model.Element.prototype.children = function () {
     return this.children_;
 };
 
-/**
- * Create a new port as a child of current node.
- * @param opt_id Optional id of port.
- * @return {sb.Port}
- * @export
- */
-sb.model.Element.prototype.createPort = function (opt_id) {
-    var port = this.document_.createPort(opt_id);
-    this.addChild(port);
-    return port;
-};

@@ -2,8 +2,11 @@ goog.provide('sb.io');
 
 goog.require('sb.io.SbgnReader');
 goog.require('sb.io.Jsonp');
+goog.require('sb.io.JsbgnWriter');
 goog.require('goog.debug.Logger');
 goog.require('goog.json');
+
+sb.io.logger_ = goog.debug.Logger.getLogger('sb.io');
 
 /**
  * Read a sb.Document from file content
@@ -26,8 +29,6 @@ sb.io.read = function (text, format) {
     return reader.parseText(text);
 };
 
-sb.io.logger_ = goog.debug.Logger.getLogger('sb.io');
-
 /**
  * Load a document from a url. NOTE: The data will go through our proxy server.
  * @param {string} url URL of file to load. Only http and https is supported. Can be on any server.
@@ -44,4 +45,22 @@ sb.io.readUrl = function (url, format, callback_Success) {
             }
         }
     );
+};
+
+/**
+ * Write a sb.Document to text string
+ * @param {sb.Document} doc document to write
+ * @param {string} format currently only 'jsbgn' is supported
+ * @return {sb.Document}
+ * @export
+ */
+sb.io.write=function(doc,format){
+    var writer;
+    if (format == 'jsbgn') {
+        writer = new sb.io.JsbgnWriter();
+        sb.io.logger_.fine("using sb.io.JsbgnWriter");
+    } else {
+        throw new Error("Format " + format + " not supported");
+    }
+    return writer.write(doc);
 };
