@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="description" content="Libsbgn.js : "/>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Libsbgn.js</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <a id="forkme_banner" href="https://github.com/chemhack/libSBGN.js">View on GitHub</a>
+
+        <a href="index.html"><h1 id="project_title">libSBGN.js</h1></a>
+
+        <h2 id="project_tagline"></h2>
+
+    </header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <h3>General Information of libSBGN.js</h3>
+
+        <p>In general, libSBGN.js is modeled from SBGN(System Biology Graph Notation). All classes and functions of
+            libSBGN.js is prefixed with &ldquo;sb.&rdquo;. A system biology graph is represented as a sb.Document.
+            sb.Document contains instances of sb.Node and sb.Arc as well other objects like sb.ArcGroup and sb.Port. You
+            can have a look at the API reference.</p>
+
+        <h3>Tutorial 1: Operating sb.Document, sb.Node</h3>
+
+        <p>The following code snippet demonstrates how to create a sb.Node and access its attributes. You can
+            press &lsquo;+&rsquo; icon to play with the code.</p>
+
+        <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/d6Y5f/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
+        <h3>Tutorial 2: Operating sb.Arc</h3>
+
+        <p>sb.Arc could be created by using createArc method in sb.Document.</p>
+
+        <p>var doc=new sb.Document()
+            var arc=doc.createArc()
+            doc.createNode(&lsquo;node1&rsquo;)</p>
+
+        <h3>Tutorial 3: Reading a file</h3>
+
+        <p>Currently only SBGN-ML is supported by the file reader. But our goal is to support jSBGN, SBGN-ML, SBML and
+            BioPAX. You can either read a file from a string object which contains the file content or a URL points to
+            the file on the internet. If you use the URL, the file will go through our proxy which wraps the file
+            content with jsonp(to overcome cross domain HTTP request restrictions of web browsers). We will not either
+            log, store, or share the data go through our proxy. And you can easily setup your own proxy as well.</p>
+
+        <p>If you already obtained the file content, e.g. by AJAX request. You can use the following code to parse it to
+            a sb.Document.</p>
+
+        <h3>Tutorial 4: Write a file converter</h3>
+    </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p class="copyright">Libsbgn.js maintained by <a href="https://github.com/chemhack">chemhack</a></p>
+
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+    </footer>
+</div>
+
+
+</body>
+</html>
