@@ -1,0 +1,850 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "MAPKK", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "reaction_0000001", 
+         "target": "M_MAPKK_Y"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "M_MAPKK_Y", 
+         "target": "reaction_0000002"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "reaction_0000002", 
+         "target": "MpY"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_0000002", 
+         "target": "MAPKK"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "MpY", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "MAPKK", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_0000003", 
+         "target": "MpY_MAPKK"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "MpY_MAPKK", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction_0000004", 
+         "target": "Mpp"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_0000004", 
+         "target": "MAPKK"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "MAPKK", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "reaction_0000005", 
+         "target": "M_MAPKK_T"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "M_MAPKK_T", 
+         "target": "reaction_0000006"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_0000006", 
+         "target": "MpT"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "reaction_0000006", 
+         "target": "MAPKK"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "MpT", 
+         "target": "reaction_0000007"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "MAPKK", 
+         "target": "reaction_0000007"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "reaction_0000007", 
+         "target": "MpT_MAPKK"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "MpT_MAPKK", 
+         "target": "reaction_0000008"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "reaction_0000008", 
+         "target": "Mpp"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_0000008", 
+         "target": "MAPKK"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Mpp", 
+         "target": "reaction_0000009"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "MKP", 
+         "target": "reaction_0000009"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "reaction_0000009", 
+         "target": "Mpp_MKP_Y"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Mpp_MKP_Y", 
+         "target": "reaction_0000010"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_0000010", 
+         "target": "MpT_MKP_Y"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "MpT_MKP_Y", 
+         "target": "reaction_0000011"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction_0000011", 
+         "target": "MpT"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "reaction_0000011", 
+         "target": "MKP"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "MpT", 
+         "target": "reaction_0000013"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "MKP", 
+         "target": "reaction_0000013"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "reaction_0000013", 
+         "target": "MpT_MKP_T"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "MpT_MKP_T", 
+         "target": "reaction_0000012"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "reaction_0000012", 
+         "target": "M_MKP_T"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "M_MKP_T", 
+         "target": "reaction_0000015"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "reaction_0000015", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction_0000015", 
+         "target": "MKP"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "MpY", 
+         "target": "reaction_0000017"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "MKP", 
+         "target": "reaction_0000017"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "reaction_0000017", 
+         "target": "MpY_MKP_Y"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "MpY_MKP_Y", 
+         "target": "reaction_0000014"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "reaction_0000014", 
+         "target": "M_MKP_Y"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "M_MKP_Y", 
+         "target": "reaction_0000019"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "reaction_0000019", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "reaction_0000019", 
+         "target": "MKP"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Mpp", 
+         "target": "reaction_0000020"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "MKP", 
+         "target": "reaction_0000020"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "reaction_0000020", 
+         "target": "Mpp_MKP_T"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "Mpp_MKP_T", 
+         "target": "reaction_0000021"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "reaction_0000021", 
+         "target": "MpY_MKP_T"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "MpY_MKP_T", 
+         "target": "reaction_0000022"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "reaction_0000022", 
+         "target": "MpY"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "reaction_0000022", 
+         "target": "MKP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding MAPKK on Tyr site of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPKK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK_MAPKK_Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M_MAPKK_Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tyr phosphorylation of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000002", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PY", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpY", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPKK on MAPK-PY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PY_MAPKK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpY_MAPKK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "thr phosphorylation of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000004", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPKK on Thr site of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK_MAPKK_T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M_MAPKK_T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "thr phosphorylation of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000006", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding MAPK-PT and MAPKK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000007", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PT_MAPKK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpT_MAPKK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tyr phosphorylation of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000008", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MKP on Tyr site of MAPK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000009", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MKP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MKP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PP_MKP_T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mpp_MKP_Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of Tyr on MAPKK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000010", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PT_MKP_Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpT_MKP_Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation MAPK-PT and MKP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000011", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MKP on Thr site of MAPK-PT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000013", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PT_MKP_T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpT_MKP_T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MAPK-PT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000012", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK_MKP_T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M_MKP_T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation MAPK and MKP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000015", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MKP on the Tyr site of MAPK-PY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000017", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PY_MKP_Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpY_MKP_Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MAPK-PY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000014", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK_MKP_Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M_MKP_Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Dissociation MAPK and MKP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000019", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MKP on Thr site of MAPK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000020", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PP_MKP_Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mpp_MKP_T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of Thr on MAPKK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000021", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PY_MKP_T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpY_MKP_T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation MAPK-PY and MKP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000022", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "MpY_MAPKK", 
+               "reaction_0000019", 
+               "reaction_0000017", 
+               "reaction_0000015", 
+               "reaction_0000014", 
+               "reaction_0000013", 
+               "reaction_0000012", 
+               "reaction_0000011", 
+               "reaction_0000010", 
+               "MpT", 
+               "MKP", 
+               "MpY", 
+               "MpT_MKP_T", 
+               "MpT_MKP_Y", 
+               "Mpp_MKP_T", 
+               "Mpp", 
+               "reaction_0000005", 
+               "Mpp_MKP_Y", 
+               "M_MKP_Y", 
+               "reaction_0000008", 
+               "reaction_0000009", 
+               "reaction_0000004", 
+               "MAPKK", 
+               "reaction_0000006", 
+               "reaction_0000007", 
+               "M", 
+               "reaction_0000001", 
+               "reaction_0000002", 
+               "reaction_0000003", 
+               "reaction_0000022", 
+               "reaction_0000020", 
+               "reaction_0000021", 
+               "M_MAPKK_T", 
+               "MpY_MKP_T", 
+               "MpY_MKP_Y", 
+               "M_MAPKK_Y", 
+               "M_MKP_T", 
+               "MpT_MAPKK"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

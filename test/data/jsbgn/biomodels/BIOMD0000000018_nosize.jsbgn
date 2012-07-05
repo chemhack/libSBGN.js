@@ -1,0 +1,2094 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "FH4", 
+         "target": "SHMT"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "serine", 
+         "target": "SHMT"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "SHMT", 
+         "target": "CH2FH4"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CH2FH4", 
+         "target": "SHMTr"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "SHMTr", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "glycine", 
+         "target": "SHMTr"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "FH4", 
+         "target": "HCHOtoCH2FH4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "HCHO", 
+         "target": "HCHOtoCH2FH4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "HCHOtoCH2FH4", 
+         "target": "CH2FH4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "CH2FH4", 
+         "target": "CH2FH4toHCHO"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "CH2FH4toHCHO", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "CH2FH4toHCHO", 
+         "target": "HCHO"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "CH2FH4", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "NADPH", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "MTHFR", 
+         "target": "CH3FH4"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "FH2f", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "MTX1", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "MTX2", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "MTX3", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "MTX4", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "MTX5", 
+         "target": "MTHFR"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "CH3FH4", 
+         "target": "MTR"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "homocysteine", 
+         "target": "MTR"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "MTR", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "FH4", 
+         "target": "HCOOHtoCHOFH4"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "formate", 
+         "target": "HCOOHtoCHOFH4"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "HCOOHtoCHOFH4"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "HCOOHtoCHOFH4", 
+         "target": "CHOFH4"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "CHOFH4", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "GAR", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "GARFT", 
+         "target": "FGAR"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "GARFT", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "FH2f", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "FFH2", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "MTX1", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "MTX2", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "MTX3", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "MTX4", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "MTX5", 
+         "target": "GARFT"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "CHOFH4", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "AICAR", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "ATIC7", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "FH2f", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 168, 
+         "source": "FFH2", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "MTX1", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "MTX2", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "MTX3", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "MTX4", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "MTX5", 
+         "target": "ATIC7"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "CH2FH4", 
+         "target": "MTHFD"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "NADP", 
+         "target": "MTHFD"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "MTHFD", 
+         "target": "CHOFH4"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "CH2FH4", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "dUMP", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "TYMS", 
+         "target": "FH2f"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 168, 
+         "source": "FH2f", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "FFH2", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "MTX1", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 168, 
+         "source": "MTX2", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "MTX3", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 168, 
+         "source": "MTX4", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 168, 
+         "source": "MTX5", 
+         "target": "TYMS"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "FH2f", 
+         "target": "DHFReductase"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "DHFReductase", 
+         "target": "FH4"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "FH2b", 
+         "target": "DHFReductase"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "FH2f", 
+         "target": "FFH2syn"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "FFH2syn", 
+         "target": "FFH2"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "FFH2", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "AICAR", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "ATIC12", 
+         "target": "FH2f"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 168, 
+         "source": "FH2f", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 168, 
+         "source": "MTX1", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 168, 
+         "source": "MTX2", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 168, 
+         "source": "MTX3", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "MTX4", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 168, 
+         "source": "MTX5", 
+         "target": "ATIC12"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "FGAR", 
+         "target": "AICARsyn"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "AICARsyn", 
+         "target": "AICAR"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 168, 
+         "source": "glutamine", 
+         "target": "AICARsyn"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "MTX1", 
+         "target": "FPGS12"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "FPGS12", 
+         "target": "MTX2"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "MTX2", 
+         "target": "FPGS23"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "FPGS23", 
+         "target": "MTX3"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "MTX3", 
+         "target": "FPGS34"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "FPGS34", 
+         "target": "MTX4"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "MTX4", 
+         "target": "FPGS45"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "FPGS45", 
+         "target": "MTX5"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "MTX2", 
+         "target": "GGH21"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "GGH21", 
+         "target": "MTX1"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "MTX3", 
+         "target": "GGH32"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 393, 
+         "source": "GGH32", 
+         "target": "MTX2"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 394, 
+         "source": "MTX4", 
+         "target": "GGH43"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "GGH43", 
+         "target": "MTX3"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "MTX5", 
+         "target": "GGH54"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 393, 
+         "source": "GGH54", 
+         "target": "MTX4"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "EMTX", 
+         "target": "RFC"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "RFC", 
+         "target": "MTX1"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 394, 
+         "source": "MTX1", 
+         "target": "MTX1export"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "MTX1export", 
+         "target": "MTX1exportsink"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "MTX2", 
+         "target": "MTX2export"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "MTX2export", 
+         "target": "MTX2exportsink"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "MTX3", 
+         "target": "MTX3export"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "MTX3export", 
+         "target": "MTX3exportsink"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "MTX4", 
+         "target": "MTX4export"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "MTX4export", 
+         "target": "MTX4exportsink"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "MTX5", 
+         "target": "MTX5export"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "MTX5export", 
+         "target": "MTX5exportsink"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "MTX1", 
+         "target": "MTX1on"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "MTX1on"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "MTX1on", 
+         "target": "MTX1b"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "MTX2", 
+         "target": "MTX2on"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "MTX2on"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "MTX2on", 
+         "target": "MTX2b"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "MTX3", 
+         "target": "MTX3on"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "MTX3on"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "MTX3on", 
+         "target": "MTX3b"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 394, 
+         "source": "MTX4", 
+         "target": "MTX4on"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "MTX4on"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "MTX4on", 
+         "target": "MTX4b"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "MTX5", 
+         "target": "MTX5on"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "MTX5on"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 393, 
+         "source": "MTX5on", 
+         "target": "MTX5b"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "MTX1b", 
+         "target": "MTX1off"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "MTX1off", 
+         "target": "MTX1"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 393, 
+         "source": "MTX1off", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 394, 
+         "source": "MTX2b", 
+         "target": "MTX2off"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 393, 
+         "source": "MTX2off", 
+         "target": "MTX2"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "MTX2off", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 394, 
+         "source": "MTX3b", 
+         "target": "MTX3off"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 393, 
+         "source": "MTX3off", 
+         "target": "MTX3"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "MTX3off", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "MTX4b", 
+         "target": "MTX4off"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "MTX4off", 
+         "target": "MTX4"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 393, 
+         "source": "MTX4off", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 394, 
+         "source": "MTX5b", 
+         "target": "MTX5off"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 393, 
+         "source": "MTX5off", 
+         "target": "MTX5"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "MTX5off", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 394, 
+         "source": "DHFRfsynsink", 
+         "target": "DHFRfsyn"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "DHFRfsyn", 
+         "target": "DHFRf"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 168, 
+         "source": "EMTX", 
+         "target": "DHFRfsyn"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 394, 
+         "source": "DHFRf", 
+         "target": "DHFRdeg"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 393, 
+         "source": "DHFRdeg", 
+         "target": "DHFRdegsink"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 168, 
+         "source": "FH2b", 
+         "target": "DHFRdeg"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "FH2bdegsink", 
+         "target": "FH2bdeg"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 393, 
+         "source": "FH2bdeg", 
+         "target": "FH2f"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 168, 
+         "source": "FH2b", 
+         "target": "FH2bdeg"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 394, 
+         "source": "MTX1b", 
+         "target": "MTX1deg"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 393, 
+         "source": "MTX1deg", 
+         "target": "MTX1"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 394, 
+         "source": "MTX2b", 
+         "target": "MTX2deg"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 393, 
+         "source": "MTX2deg", 
+         "target": "MTX2"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 394, 
+         "source": "MTX3b", 
+         "target": "MTX3deg"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 393, 
+         "source": "MTX3deg", 
+         "target": "MTX3"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 394, 
+         "source": "MTX4b", 
+         "target": "MTX4deg"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 393, 
+         "source": "MTX4deg", 
+         "target": "MTX4"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 394, 
+         "source": "MTX5b", 
+         "target": "MTX5deg"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 393, 
+         "source": "MTX5deg", 
+         "target": "MTX5"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "SHMT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SHMT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "tetrahydrofolate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FH4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "serine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "serine", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "5,10-methylene-tetrahydrofolate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CH2FH4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SHMTr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SHMTr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glycine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "glycine", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HCHOtoCH2FH4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HCHOtoCH2FH4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HCHO", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HCHO", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CH2FH4toHCHO", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CH2FH4toHCHO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTHFR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTHFR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "5-methyl-tetrahydrofolate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CH3FH4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dihydrofolate free", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FH2f", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "homocysteine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "homocysteine", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HCOOHtoCHOFH4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HCOOHtoCHOFH4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "formate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "formate", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "10-formyl-tetrahydrofolate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CHOFH4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GARFT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GARFT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAR", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FGAR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FGAR", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "10-formyl-dihydrofolate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FFH2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATIC7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATIC7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AICAR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AICAR", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTHFD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTHFD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TYMS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TYMS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dUMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dUMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DHFReductase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFReductase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dihydrofolate bound", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FH2b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FFH2syn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FFH2syn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATIC12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATIC12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AICARsyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AICARsyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glutamine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "glutamine", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FPGS12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FPGS12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FPGS23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FPGS23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FPGS34", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FPGS34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FPGS45", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FPGS45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GGH21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GGH21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GGH32", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GGH32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GGH43", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GGH43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GGH54", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GGH54", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RFC", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RFC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EMTX", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EMTX", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX1export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1export", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1exportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX2export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2export", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2exportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX3export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3export", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3exportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX4export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4export", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4exportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX5export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5export", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5exportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX1on", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1on", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dihydrofolate reductase free", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFRf", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX1b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX2on", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2on", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX2b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX3on", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3on", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX3b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX4on", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4on", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX4b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX5on", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5on", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MTX5b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX1off", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1off", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX2off", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2off", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX3off", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3off", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX4off", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4off", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX5off", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5off", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DHFRfsyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFRfsyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFRfsynsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DHFRdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFRdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHFRdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FH2bdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FH2bdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FH2bdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX1deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX1deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX2deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX2deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX3deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX3deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX4deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX4deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MTX5deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MTX5deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ext", 
+            "subnodes": [
+               "RFC", 
+               "EMTX"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ext", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "glycine", 
+               "DHFRfsynsink", 
+               "MTX4deg", 
+               "MTX2export", 
+               "SHMTr", 
+               "homocysteine", 
+               "MTX4", 
+               "FPGS12", 
+               "MTX1on", 
+               "MTX1off", 
+               "SHMT", 
+               "MTX3on", 
+               "FFH2", 
+               "FGAR", 
+               "HCHOtoCH2FH4", 
+               "FPGS23", 
+               "MTX4on", 
+               "HCHO", 
+               "MTX3exportsink", 
+               "MTX4b", 
+               "MTX5deg", 
+               "CH3FH4", 
+               "FH2b", 
+               "FH2f", 
+               "MTX2off", 
+               "DHFReductase", 
+               "GGH43", 
+               "DHFRdegsink", 
+               "glutamine", 
+               "FPGS34", 
+               "MTX2exportsink", 
+               "MTX5b", 
+               "ATIC7", 
+               "MTX3export", 
+               "MTX4exportsink", 
+               "DHFRdeg", 
+               "RFC", 
+               "AICAR", 
+               "MTX2on", 
+               "FFH2syn", 
+               "MTX5exportsink", 
+               "FPGS45", 
+               "MTX4off", 
+               "AICARsyn", 
+               "ATP", 
+               "NADP", 
+               "GGH54", 
+               "GGH21", 
+               "MTX2b", 
+               "GARFT", 
+               "CHOFH4", 
+               "MTX1deg", 
+               "MTHFR", 
+               "NADPH", 
+               "MTHFD", 
+               "MTX2deg", 
+               "formate", 
+               "dUMP", 
+               "MTX4export", 
+               "GGH32", 
+               "MTX1export", 
+               "HCOOHtoCHOFH4", 
+               "MTX3b", 
+               "ATIC12", 
+               "MTX5export", 
+               "MTX3deg", 
+               "DHFRfsyn", 
+               "FH2bdegsink", 
+               "TYMS", 
+               "GAR", 
+               "MTX3off", 
+               "MTX5", 
+               "MTX1exportsink", 
+               "MTX3", 
+               "MTX2", 
+               "MTX1", 
+               "serine", 
+               "DHFRf", 
+               "MTR", 
+               "MTX5on", 
+               "CH2FH4toHCHO", 
+               "CH2FH4", 
+               "MTX5off", 
+               "FH2bdeg", 
+               "MTX1b", 
+               "FH4"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

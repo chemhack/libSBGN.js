@@ -1,0 +1,442 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "P_ii", 
+         "target": "Jsyn"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "ADPi", 
+         "target": "Jsyn"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "Jsyn", 
+         "target": "ATPi"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "ATPi", 
+         "target": "J_CK_Mi"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Cri", 
+         "target": "J_CK_Mi"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "J_CK_Mi", 
+         "target": "PCri"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "J_CK_Mi", 
+         "target": "ADPi"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Cr", 
+         "target": "J_CK_MM"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "J_CK_MM"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "J_CK_MM", 
+         "target": "PCr"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "J_CK_MM", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Jhyd_reaction"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "Jhyd_reaction", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Jhyd_reaction", 
+         "target": "P_i"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "P_ii", 
+         "target": "J_diff_Pi"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "J_diff_Pi", 
+         "target": "P_i"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "Cri", 
+         "target": "J_diff_Cr"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "J_diff_Cr", 
+         "target": "Cr"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "ADPi", 
+         "target": "J_diff_ADP"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "J_diff_ADP", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PCri", 
+         "target": "J_diff_PCr"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "J_diff_PCr", 
+         "target": "PCr"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ATPi", 
+         "target": "J_diff_ATP"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "J_diff_ATP", 
+         "target": "ATP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jsyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jsyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P_ii", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P_ii", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADPi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATPi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_CK_Mi", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_CK_Mi", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cri", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cri", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PCri", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PCri", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_CK_MM", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_CK_MM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PCr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PCr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jhyd_reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jhyd_reaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P_i", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P_i", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_diff_Pi", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_diff_Pi", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_diff_Cr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_diff_Cr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_diff_ADP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_diff_ADP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_diff_PCr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_diff_PCr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "J_diff_ATP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J_diff_ATP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "IMS", 
+            "subnodes": [
+               "P_ii", 
+               "ADPi", 
+               "J_diff_PCr", 
+               "J_diff_ATP", 
+               "J_CK_Mi", 
+               "PCri", 
+               "Jsyn", 
+               "J_diff_Cr", 
+               "ATPi", 
+               "J_diff_Pi", 
+               "J_diff_ADP", 
+               "Cri"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "IMS", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "CYT", 
+            "subnodes": [
+               "Jhyd_reaction", 
+               "ADP", 
+               "P_i", 
+               "PCr", 
+               "J_diff_ATP", 
+               "J_CK_MM", 
+               "J_diff_Cr", 
+               "ATP", 
+               "J_diff_Pi", 
+               "Cr", 
+               "J_diff_ADP", 
+               "J_diff_PCr"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "CYT", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

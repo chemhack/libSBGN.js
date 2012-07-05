@@ -1,0 +1,128 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Cdk2", 
+         "target": "Binding"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "CyclinA", 
+         "target": "Binding"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "Binding", 
+         "target": "CDK2cycA"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CDK2cycA", 
+         "target": "Activation"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Activation", 
+         "target": "CDK2cycA_star_"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdk2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdk2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CyclinA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CyclinA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CDK2cycA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CDK2cycA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CDK2cycA_star_", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CDK2cycA_star_", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "geometry", 
+            "subnodes": [
+               "CyclinA", 
+               "Activation", 
+               "Binding", 
+               "CDK2cycA", 
+               "Cdk2", 
+               "CDK2cycA_star_"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "geometry", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

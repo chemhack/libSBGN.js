@@ -1,0 +1,373 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "VIIa_TF", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "VIIa_TF_X"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "VIIa_TF_X", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "VIIa_TF_Xa"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "VIIa_TF_Xa", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "VIIa_TF"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "TFPI", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "Xa_TFPI"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "VIIa_TF", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Xa_TFPI", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "Xa_TFPI_VIIa_TF"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "VIIa_TF_Xa", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "TFPI", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "VIIa_TF_Xa_TFPI"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "VIIa_TF_Xa_TFPI", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "VIIa_TF"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "Xa_TFPI"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "VIIa_TF_Xa_TFPI", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "Xa_TFPI_VIIa_TF"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIa_TF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIa_TF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIa_TF_X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIa_TF_X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIa_TF_Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIa_TF_Xa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_TFPI_VIIa_TF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_TFPI_VIIa_TF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIa_TF_Xa_TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIa_TF_Xa_TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "Xa_TFPI", 
+               "TFPI", 
+               "Xa", 
+               "reaction_1", 
+               "VIIa_TF_Xa", 
+               "Xa_TFPI_VIIa_TF", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "VIIa_TF", 
+               "X", 
+               "reaction_8", 
+               "VIIa_TF_X", 
+               "VIIa_TF_Xa_TFPI"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

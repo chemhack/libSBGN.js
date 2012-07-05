@@ -1,0 +1,331 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ATPase"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "ATPase", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "OxidativePhosphorylation"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CTtis", 
+         "target": "OxidativePhosphorylation"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "OxidativePhosphorylation", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "OxidativePhosphorylation"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "CFtis", 
+         "target": "OxidativePhosphorylation"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "ConvectionTransportsink", 
+         "target": "ConvectionTransport"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "ConvectionTransport", 
+         "target": "CTcap"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "CTcap", 
+         "target": "DiffusionTransport"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "DiffusionTransport", 
+         "target": "CTtis"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "CFcap", 
+         "target": "DiffusionTransport"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "CFtis", 
+         "target": "DiffusionTransport"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "CreatineKinase"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "PCr", 
+         "target": "CreatineKinase"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "CreatineKinase", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "CreatineKinase", 
+         "target": "Cr"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "OxidativePhosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OxidativePhosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CTtis", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CTtis", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CFtis", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CFtis", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ConvectionTransport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ConvectionTransport", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ConvectionTransportsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CTcap", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CTcap", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DiffusionTransport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DiffusionTransport", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CFcap", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CFcap", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CreatineKinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CreatineKinase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PCr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PCr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Capillary", 
+            "subnodes": [
+               "ConvectionTransportsink", 
+               "CTcap", 
+               "ConvectionTransport", 
+               "DiffusionTransport", 
+               "CFcap"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Capillary", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Tissue", 
+            "subnodes": [
+               "ATP", 
+               "ADP", 
+               "PCr", 
+               "CTtis", 
+               "CFtis", 
+               "DiffusionTransport", 
+               "OxidativePhosphorylation", 
+               "ATPase", 
+               "Cr", 
+               "Pi", 
+               "CreatineKinase"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Tissue", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

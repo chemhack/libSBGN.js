@@ -1,0 +1,1965 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "cLm"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "R2sink", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "cLm"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "cXn", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "cP7n", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "cP9n", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "cLm", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "R3sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "R4sink", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "cLc"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "cLm", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "cLc", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "cLn"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "cLn", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "cLc"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "cLc", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "R7sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "cLn", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "R8sink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "R9sink", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "cTm"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "cYn", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "cTm", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "R10sink"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "R11sink", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "cTc"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "cTm", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "cTc", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "cTn"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "cTn", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "cTc"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "cTc", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "R14sink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "cTn", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "R15sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "R16sink", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "cXm"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "cTn", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "cXm", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "R17sink"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "R18sink", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "cXc"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "cXm", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "cXc", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "cXn"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "cXn", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "R20", 
+         "target": "cXc"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "cXc", 
+         "target": "R21"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "R21", 
+         "target": "R21sink"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "cXn", 
+         "target": "R22"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "R22", 
+         "target": "R22sink"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "R23sink", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "R23", 
+         "target": "cYm"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "cTn", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "cYm", 
+         "target": "R24"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "R24", 
+         "target": "R24sink"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "R25sink", 
+         "target": "R25"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "R25", 
+         "target": "cYc"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "cYm", 
+         "target": "R25"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "cYc", 
+         "target": "R26"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "R26", 
+         "target": "cYn"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "cYn", 
+         "target": "R27"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "R27", 
+         "target": "cYc"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "cYc", 
+         "target": "R28"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "R28", 
+         "target": "R28sink"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "cYn", 
+         "target": "R29"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "R29", 
+         "target": "R29sink"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "R30sink", 
+         "target": "R30"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "R30", 
+         "target": "cPn"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "cPn", 
+         "target": "R31a"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "R31a", 
+         "target": "R31asink"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "cPn", 
+         "target": "R31b"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "R31b", 
+         "target": "R31bsink"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "R32sink", 
+         "target": "R32"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "R32", 
+         "target": "cP7m"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "R32"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "cP7m", 
+         "target": "R33"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "R33", 
+         "target": "R33sink"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "R34sink", 
+         "target": "R34"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "R34", 
+         "target": "cP7c"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 168, 
+         "source": "cP7m", 
+         "target": "R34"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "cP7c", 
+         "target": "R35"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "R35", 
+         "target": "cP7n"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "cP7n", 
+         "target": "R36"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "R36", 
+         "target": "cP7c"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "cP7c", 
+         "target": "R37"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "R37", 
+         "target": "R37sink"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "cP7n", 
+         "target": "R38"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "R38", 
+         "target": "R38sink"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "R39sink", 
+         "target": "R39"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "R39", 
+         "target": "cP9m"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "R39"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "R39"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "cP9m", 
+         "target": "R40"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "R40", 
+         "target": "R40sink"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "R41sink", 
+         "target": "R41"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "R41", 
+         "target": "cP9c"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 168, 
+         "source": "cP9m", 
+         "target": "R41"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "cP9c", 
+         "target": "R42"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "R42", 
+         "target": "cP9n"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "cP9n", 
+         "target": "R43"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "R43", 
+         "target": "cP9c"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "cP9c", 
+         "target": "R44"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "R44", 
+         "target": "R44sink"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 394, 
+         "source": "cP9n", 
+         "target": "R45"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 393, 
+         "source": "R45", 
+         "target": "R45sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Light dependent cLm synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cLm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cPn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cPn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Light independent cLm synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cXn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP7n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP9n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLc synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cLc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLc transport into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cLn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLn transport into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cTm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cYn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTc synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cTc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTc transport into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cTn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTn transport into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cXm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXc transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cXc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXc transport into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXn transport into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R21sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R22sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R23sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cYm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R24sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYc transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cYc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYc transport to nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYn transport to cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R28sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R29sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cPn synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cPn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31a", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31asink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Light dependent cPn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31bsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7m transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R32sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP7m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7m degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R33sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7c synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R34sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP7c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7c transport to nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7n transport to cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7c degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R37sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7n degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9m transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP9m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP79m degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R40sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9c synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R41sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP9c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9c transport to nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9n transport to cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9c degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R44sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9n degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R45sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "R14sink", 
+               "R34sink", 
+               "R4sink", 
+               "R25sink", 
+               "cP9c", 
+               "cTc", 
+               "R14", 
+               "R12", 
+               "R13", 
+               "R11", 
+               "R18", 
+               "R19", 
+               "cXc", 
+               "R34", 
+               "R35", 
+               "R36", 
+               "R37", 
+               "R37sink", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R42", 
+               "R7sink", 
+               "cLc", 
+               "R44sink", 
+               "R25", 
+               "R41sink", 
+               "R28sink", 
+               "R21sink", 
+               "cYc", 
+               "R44", 
+               "cP7c", 
+               "R41", 
+               "R43", 
+               "R28", 
+               "R27", 
+               "R26", 
+               "R11sink", 
+               "R18sink", 
+               "R21", 
+               "R20"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "R22sink", 
+               "cPn", 
+               "R5", 
+               "R40sink", 
+               "R6", 
+               "R1sink", 
+               "R30sink", 
+               "cTm", 
+               "cTn", 
+               "R2sink", 
+               "cP9n", 
+               "R33sink", 
+               "cP9m", 
+               "R16", 
+               "R17", 
+               "R32", 
+               "R15", 
+               "R12", 
+               "R3sink", 
+               "R10", 
+               "R10sink", 
+               "R38sink", 
+               "R31asink", 
+               "R45sink", 
+               "R19", 
+               "R38", 
+               "R8sink", 
+               "R39", 
+               "R35", 
+               "R36", 
+               "R31a", 
+               "R30", 
+               "cXm", 
+               "cXn", 
+               "R33", 
+               "cLm", 
+               "cLn", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R9sink", 
+               "R39sink", 
+               "R8", 
+               "R9", 
+               "R43", 
+               "R31bsink", 
+               "R32sink", 
+               "R29sink", 
+               "R23sink", 
+               "R31b", 
+               "R29", 
+               "R13", 
+               "cP7m", 
+               "R17sink", 
+               "R40", 
+               "R22", 
+               "R24sink", 
+               "R16sink", 
+               "R45", 
+               "cYm", 
+               "R15sink", 
+               "R42", 
+               "R27", 
+               "R26", 
+               "R24", 
+               "R23", 
+               "cYn", 
+               "cP7n", 
+               "R20"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

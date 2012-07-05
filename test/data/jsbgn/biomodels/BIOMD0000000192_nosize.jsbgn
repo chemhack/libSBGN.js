@@ -1,0 +1,478 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RanGDP_nuc", 
+         "target": "RCC1_binding"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "RCC1", 
+         "target": "RCC1_binding"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "RCC1_binding", 
+         "target": "RCC1_RanGDP"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "RCC1_RanGDP", 
+         "target": "GDP_dissociation"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "GDP_dissociation", 
+         "target": "RCC1_Ran"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "GDP_dissociation", 
+         "target": "GDP"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "RCC1_Ran", 
+         "target": "GTP_binding"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "GTP", 
+         "target": "GTP_binding"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "GTP_binding", 
+         "target": "RCC1_RanGTP"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "RCC1_RanGTP", 
+         "target": "RanGTP_release"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "RanGTP_release", 
+         "target": "RanGTP_nuc"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "RanGTP_release", 
+         "target": "RCC1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "RanGTP_nuc", 
+         "target": "Cytoplasmic_transfer"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Cytoplasmic_transfer", 
+         "target": "RanGTP_cy"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "RanGDP_nuc", 
+         "target": "Nucleoplasmic_transfer"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "Nucleoplasmic_transfer", 
+         "target": "RanGDP_cy"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "RanGTP_cy", 
+         "target": "RanGTP_binding"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "RanBP1", 
+         "target": "RanGTP_binding"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "RanGTP_binding", 
+         "target": "RanGTP_RanBP1"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "RanGTP_RanBP1", 
+         "target": "RanBP1_RanGDP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "RanBP1_RanGDP", 
+         "target": "RanGDP_cy"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "RanBP1_RanGDP", 
+         "target": "RanBP1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "RanGAP", 
+         "target": "RanBP1_RanGDP"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "RanGTP_cy", 
+         "target": "RanGAP_RanGDP"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "RanGAP_RanGDP", 
+         "target": "RanGDP_cy"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "RanGAP", 
+         "target": "RanGAP_RanGDP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RCC1_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RCC1_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGDP_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGDP_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RCC1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RCC1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RCC1_RanGDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RCC1_RanGDP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GDP_dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GDP_dissociation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RCC1_Ran", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RCC1_Ran", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GDP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GTP_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GTP_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GTP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RCC1_RanGTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RCC1_RanGTP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RanGTP_release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGTP_release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGTP_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGTP_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cytoplasmic_transfer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cytoplasmic_transfer", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGTP_cy", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGTP_cy", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Nucleoplasmic_transfer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Nucleoplasmic_transfer", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGDP_cy", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGDP_cy", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RanGTP_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGTP_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanBP1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanBP1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGTP_RanBP1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGTP_RanBP1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RanBP1_RanGDP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanBP1_RanGDP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RanGAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGAP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RanGAP_RanGDP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RanGAP_RanGDP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "GDP", 
+               "RCC1", 
+               "Cytoplasmic_transfer", 
+               "RanGTP_nuc", 
+               "RCC1_RanGDP", 
+               "RanGDP_nuc", 
+               "GTP_binding", 
+               "GDP_dissociation", 
+               "GTP", 
+               "RCC1_Ran", 
+               "Nucleoplasmic_transfer", 
+               "RanGTP_release", 
+               "RCC1_binding", 
+               "RCC1_RanGTP"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "RanGAP_RanGDP", 
+               "RanBP1_RanGDP", 
+               "RanGTP_cy", 
+               "RanGTP_RanBP1", 
+               "RanGAP", 
+               "RanGTP_binding", 
+               "Nucleoplasmic_transfer", 
+               "Cytoplasmic_transfer", 
+               "RanGDP_cy", 
+               "RanBP1"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

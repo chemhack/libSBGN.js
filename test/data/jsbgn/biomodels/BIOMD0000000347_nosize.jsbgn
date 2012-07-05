@@ -1,0 +1,1594 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EpoRJAK2", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "EpoRpJAK2"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Epo", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "EpoRpJAK2", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "EpoRJAK2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "SHP1Act", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "EpoRpJAK2", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "p1EpoRpJAK2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "EpoRpJAK2", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "p2EpoRpJAK2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "EpoRJAK2_CIS", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "p12EpoRpJAK2"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "EpoRJAK2_CIS", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "p2EpoRpJAK2", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "p12EpoRpJAK2"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "EpoRJAK2"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "SHP1Act", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "p2EpoRpJAK2", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "EpoRJAK2"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "SHP1Act", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "p12EpoRpJAK2", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "EpoRJAK2"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "SHP1Act", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "EpoRJAK2_CIS", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "reaction_10sink"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "p12EpoRpJAK2", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "SHP1", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "SHP1Act"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "EpoRpJAK2", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "p12EpoRpJAK2", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "p2EpoRpJAK2", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "SHP1Act", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "SHP1"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "STAT5", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "pSTAT5"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "EpoRpJAK2", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "p12EpoRpJAK2", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "p2EpoRpJAK2", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "STAT5", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "pSTAT5"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "CIS", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "SOCS3", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "p12EpoRpJAK2", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "p1EpoRpJAK2", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "pSTAT5", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "reaction_15", 
+         "target": "npSTAT5"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "npSTAT5", 
+         "target": "reaction_16"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "reaction_16", 
+         "target": "STAT5"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "reaction_17sink", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "reaction_17", 
+         "target": "CISnRNA1"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 168, 
+         "source": "npSTAT5", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "CISnRNA1", 
+         "target": "reaction_18"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "reaction_18", 
+         "target": "CISnRNA2"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "CISnRNA2", 
+         "target": "reaction_19"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "reaction_19", 
+         "target": "CISnRNA3"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "CISnRNA3", 
+         "target": "reaction_20"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "reaction_20", 
+         "target": "CISnRNA4"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "CISnRNA4", 
+         "target": "reaction_21"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "reaction_21", 
+         "target": "CISnRNA5"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "CISnRNA5", 
+         "target": "reaction_22"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "reaction_22", 
+         "target": "CISRNA"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "CISRNA", 
+         "target": "reaction_23"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "reaction_23", 
+         "target": "reaction_23sink"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "reaction_24sink", 
+         "target": "reaction_24"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "reaction_24", 
+         "target": "CIS"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 168, 
+         "source": "CISRNA", 
+         "target": "reaction_24"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "CIS", 
+         "target": "reaction_25"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "reaction_25", 
+         "target": "reaction_25sink"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "reaction_26sink", 
+         "target": "reaction_26"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "reaction_26", 
+         "target": "CIS"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "reaction_27sink", 
+         "target": "reaction_27"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "reaction_27", 
+         "target": "SOCS3nRNA1"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 168, 
+         "source": "npSTAT5", 
+         "target": "reaction_27"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "SOCS3nRNA1", 
+         "target": "reaction_28"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "reaction_28", 
+         "target": "SOCS3nRNA2"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "SOCS3nRNA2", 
+         "target": "reaction_29"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "reaction_29", 
+         "target": "SOCS3nRNA3"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "SOCS3nRNA3", 
+         "target": "reaction_30"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "reaction_30", 
+         "target": "SOCS3nRNA4"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "SOCS3nRNA4", 
+         "target": "reaction_31"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "reaction_31", 
+         "target": "SOCS3nRNA5"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "SOCS3nRNA5", 
+         "target": "reaction_32"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "reaction_32", 
+         "target": "SOCS3RNA"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "SOCS3RNA", 
+         "target": "reaction_33"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "reaction_33", 
+         "target": "reaction_33sink"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "reaction_34sink", 
+         "target": "reaction_34"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "reaction_34", 
+         "target": "SOCS3"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 168, 
+         "source": "SOCS3RNA", 
+         "target": "reaction_34"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "SOCS3", 
+         "target": "reaction_35"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "reaction_35", 
+         "target": "reaction_35sink"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "reaction_36sink", 
+         "target": "reaction_36"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "reaction_36", 
+         "target": "SOCS3"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EpoRJAK2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EpoRJAK2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EpoRpJAK2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EpoRpJAK2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Epo", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Epo", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SHP1Act", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SHP1Act", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p1EpoRpJAK2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p1EpoRpJAK2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p2EpoRpJAK2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p2EpoRpJAK2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EpoRJAK2_CIS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EpoRJAK2_CIS", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p12EpoRpJAK2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p12EpoRpJAK2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SHP1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SHP1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "STAT5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "STAT5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSTAT5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pSTAT5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CIS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CIS", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "npSTAT5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "npSTAT5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISnRNA1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISnRNA1", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISnRNA2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISnRNA2", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISnRNA3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISnRNA3", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISnRNA4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISnRNA4", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISnRNA5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISnRNA5", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CISRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CISRNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_23sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_24sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_26sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_27", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_27sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3nRNA1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3nRNA1", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_28", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3nRNA2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3nRNA2", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_29", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3nRNA3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3nRNA3", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_30", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3nRNA4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3nRNA4", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_31", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3nRNA5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3nRNA5", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_32", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SOCS3RNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SOCS3RNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_33", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_33sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_34", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_34sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_35", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_35sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_36", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_36sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cyt", 
+            "subnodes": [
+               "EpoRJAK2", 
+               "p2EpoRpJAK2", 
+               "CIS", 
+               "reaction_23sink", 
+               "reaction_24sink", 
+               "reaction_36sink", 
+               "reaction_25sink", 
+               "STAT5", 
+               "reaction_22", 
+               "reaction_25", 
+               "reaction_24", 
+               "reaction_26", 
+               "CISRNA", 
+               "p12EpoRpJAK2", 
+               "pSTAT5", 
+               "SOCS3RNA", 
+               "EpoRpJAK2", 
+               "reaction_10sink", 
+               "SHP1Act", 
+               "SHP1", 
+               "reaction_35sink", 
+               "reaction_23", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1", 
+               "p1EpoRpJAK2", 
+               "reaction_33sink", 
+               "reaction_8", 
+               "reaction_9", 
+               "reaction_36", 
+               "reaction_34", 
+               "reaction_35", 
+               "reaction_32", 
+               "reaction_33", 
+               "SOCS3", 
+               "Epo", 
+               "reaction_14", 
+               "reaction_15", 
+               "EpoRJAK2_CIS", 
+               "reaction_10", 
+               "reaction_11", 
+               "reaction_12", 
+               "reaction_13", 
+               "reaction_34sink", 
+               "reaction_26sink", 
+               "reaction_16"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cyt", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nuc", 
+            "subnodes": [
+               "reaction_21", 
+               "reaction_20", 
+               "reaction_22", 
+               "reaction_27", 
+               "reaction_29", 
+               "reaction_28", 
+               "npSTAT5", 
+               "reaction_17sink", 
+               "reaction_32", 
+               "SOCS3nRNA2", 
+               "SOCS3nRNA3", 
+               "SOCS3nRNA1", 
+               "SOCS3nRNA4", 
+               "SOCS3nRNA5", 
+               "CISnRNA1", 
+               "CISnRNA2", 
+               "CISnRNA3", 
+               "CISnRNA4", 
+               "CISnRNA5", 
+               "reaction_18", 
+               "reaction_19", 
+               "reaction_30", 
+               "reaction_31", 
+               "reaction_15", 
+               "reaction_16", 
+               "reaction_17", 
+               "reaction_27sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nuc", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

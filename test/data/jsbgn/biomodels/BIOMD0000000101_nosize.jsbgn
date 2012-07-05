@@ -1,0 +1,527 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RII", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "RI", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "lRIRII"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "lRIRII", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "v2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "lRIRII", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "v3sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "lRIRII", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "lRIRII_endo"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "v5sink", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "RI"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "RI", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "v6sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "RI", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "RI_endo"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "RI_endo", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "RI"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "lRIRII_endo", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "RI"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "RII"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "v10sink", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "RII"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "RII", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "v11sink"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "RII", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "RII_endo"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "RII_endo", 
+         "target": "v13"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "v13", 
+         "target": "RII"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ligand receptor complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor 2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor 1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ligand receptor complex-plasma membrane", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "lRIRII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ligand receptor complex constitutive degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ligand independent complex degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ligand receptor complex internalization", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ligand receptor complex-endosome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "lRIRII_endo", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RI synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RI constitutive degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RI internalization", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor 1-endosome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RI_endo", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RI recycling", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ligand Receptor complex recycling", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RII synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RII constitutive degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RII internalization", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor 2 endosome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RII_endo", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RII recycling", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Plasma membrane", 
+            "subnodes": [
+               "v12", 
+               "v13", 
+               "v10", 
+               "v11", 
+               "RII", 
+               "RI", 
+               "v5sink", 
+               "v2sink", 
+               "v6sink", 
+               "v1", 
+               "v3sink", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "v2", 
+               "v11sink", 
+               "v10sink", 
+               "lRIRII"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "PM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Endosome", 
+            "subnodes": [
+               "lRIRII_endo", 
+               "v12", 
+               "RII_endo", 
+               "v13", 
+               "v4", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "RI_endo"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Endosome", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

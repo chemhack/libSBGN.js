@@ -1,0 +1,1181 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "RuBisCO", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "SBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "NADPH", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "DPGA"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "DPGA", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "NADPH", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "H", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "NADP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "TP_I"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "TP_I", 
+         "target": "DHAP"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "FBP_A"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "FBP_A"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "FBP_A", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "FBPase", 
+         "target": "F6P"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "FBPase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "F6P_TK", 
+         "target": "X5P"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "F6P_TK", 
+         "target": "E4P"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "SBP_A"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "E4P", 
+         "target": "SBP_A"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "SBP_A", 
+         "target": "SBP"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "SBP", 
+         "target": "SBPase"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "SBPase", 
+         "target": "S7P"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "SBPase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "SBPase"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "S7P", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "S7P_TK", 
+         "target": "X5P"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "S7P_TK", 
+         "target": "R5P"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "R5P", 
+         "target": "R5P_I"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "R5P_I", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "X5P", 
+         "target": "Ru5P_E"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "Ru5P_E", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "Ru5P", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "RuBP"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "RuBP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "PG_I"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "PG_I", 
+         "target": "G6P"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "PG_M"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "PG_M", 
+         "target": "G1P"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "G1P", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "Starch_S", 
+         "target": "Starch_Ssink"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "Starch_P"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "Starch_P", 
+         "target": "G1P"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "G1P", 
+         "target": "Starch_P"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "ATP_S", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "TPT_PGA", 
+         "target": "TPT_PGAsink"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "Pext", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "TPT_GAP", 
+         "target": "TPT_GAPsink"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "Pext", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "TPT_DHAP", 
+         "target": "TPT_DHAPsink"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 168, 
+         "source": "Pext", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "TPT_DHAP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisCo", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DPGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP_DH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TP isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TP_I", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DHAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBP aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP_A", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBP ase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6P transketolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P_TK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E4P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E4P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBP aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBP_A", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBP ase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S7P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S7P transketolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P_TK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R5P isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5P_I", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ru5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ru5P epimerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P_E", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ru5P kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PG isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PG_I", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PG mutase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PG_M", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G1P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G1P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "starch synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Starch_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Starch_Ssink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "starch phosphorylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Starch_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP synthetase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - PGA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_PGA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_PGAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pext", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pext", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_GAPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - DHAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_DHAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_DHAPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "chloroplast", 
+            "subnodes": [
+               "TPT_GAP", 
+               "RuBisCO", 
+               "Ru5P_K", 
+               "ATP", 
+               "PGA_K", 
+               "S7P_TK", 
+               "Ru5P_E", 
+               "NADP", 
+               "TP_I", 
+               "Ru5P", 
+               "R5P_I", 
+               "E4P", 
+               "Pi", 
+               "X5P", 
+               "PGA", 
+               "TPT_GAPsink", 
+               "Starch_P", 
+               "GAP", 
+               "GAP_DH", 
+               "F6P_TK", 
+               "FBPase", 
+               "RuBP", 
+               "ATP_S", 
+               "DPGA", 
+               "G1P", 
+               "TPT_PGA", 
+               "ADP", 
+               "H", 
+               "NADPH", 
+               "PG_I", 
+               "S7P", 
+               "R5P", 
+               "Starch_Ssink", 
+               "Starch_S", 
+               "SBP", 
+               "FBP", 
+               "PG_M", 
+               "SBP_A", 
+               "DHAP", 
+               "TPT_DHAPsink", 
+               "FBP_A", 
+               "G6P", 
+               "TPT_PGAsink", 
+               "SBPase", 
+               "TPT_DHAP", 
+               "F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "chloroplast", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "Pext"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

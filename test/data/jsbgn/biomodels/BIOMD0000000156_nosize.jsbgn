@@ -1,0 +1,244 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "x"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "R3sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "y", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "R4sink", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "y0"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "y0", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "y"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "y", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "R6sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "p53 production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p53", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2 dependent p53 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p53 dependent Mdm2 precursor production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "precursor Mdm2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "y0", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2 synthesis from precursor", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "R4", 
+               "R5", 
+               "R6", 
+               "R1", 
+               "R3sink", 
+               "R3", 
+               "R4sink", 
+               "R6sink", 
+               "R1sink", 
+               "y0", 
+               "y", 
+               "x"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

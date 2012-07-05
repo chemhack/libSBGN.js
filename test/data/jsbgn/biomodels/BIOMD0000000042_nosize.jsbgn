@@ -1,0 +1,1104 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "ATPflowsink", 
+         "target": "ATPflow"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "ATPflow", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "ADPflowsink", 
+         "target": "ADPflow"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "ADPflow", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "NADHflowsink", 
+         "target": "NADHflow"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "NADHflow", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "NADflowsink", 
+         "target": "NADflow"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "NADflow", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "GLCflowsink", 
+         "target": "GLCflow"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "GLCflow", 
+         "target": "GLC"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "F6Pflow"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "F6Pflow", 
+         "target": "F6Pflowsink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "FBPflow"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "FBPflow", 
+         "target": "FBPflowsink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "GAPflow"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "GAPflow", 
+         "target": "GAPflowsink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "DPG", 
+         "target": "DPGflow"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "DPGflow", 
+         "target": "DPGflowsink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "PEPflow"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "PEPflow", 
+         "target": "PEPflowsink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "PYRflow"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "PYRflow", 
+         "target": "PYRflowsink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ACA", 
+         "target": "ACAflow"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "ACAflow", 
+         "target": "ACAflowsink"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "EtOH", 
+         "target": "EtOHflow"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "EtOHflow", 
+         "target": "EtOHflowsink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "AMP", 
+         "target": "AMPflow"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "AMPflow", 
+         "target": "AMPflowsink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "Pflow"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Pflow", 
+         "target": "Pflowsink"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "GLC", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "F6P"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "AMP", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "DPG"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "DPG", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "PYR"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "ACA"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "ACA", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "EtOH"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "AMP", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "P"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ADPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADHflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADHflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADHflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLCflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLCflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLCflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6Pflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6Pflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6Pflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DPGflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPGflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DPG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPG", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPGflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PEPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PEP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PYRflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PYRflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PYR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PYR", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PYRflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ACAflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACAflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ACA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACAflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EtOHflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EtOHflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EtOH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EtOH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EtOHflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AMPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "ACA", 
+               "NADH", 
+               "DPGflow", 
+               "NAD", 
+               "GLC", 
+               "PEP", 
+               "NADflow", 
+               "DPG", 
+               "F6Pflow", 
+               "ATP", 
+               "Pflow", 
+               "FBPflowsink", 
+               "GAPflow", 
+               "F6Pflowsink", 
+               "GLCflowsink", 
+               "EtOHflow", 
+               "GAP", 
+               "PYRflowsink", 
+               "EtOH", 
+               "GLCflow", 
+               "AMP", 
+               "NADHflowsink", 
+               "ATPflow", 
+               "ACAflow", 
+               "ACAflowsink", 
+               "ADP", 
+               "ATPflowsink", 
+               "reaction_7", 
+               "ADPflowsink", 
+               "ADPflow", 
+               "FBPflow", 
+               "reaction_6", 
+               "DPGflowsink", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "EtOHflowsink", 
+               "AMPflowsink", 
+               "reaction_8", 
+               "reaction_9", 
+               "Pflowsink", 
+               "FBP", 
+               "PEPflowsink", 
+               "P", 
+               "PEPflow", 
+               "AMPflow", 
+               "PYR", 
+               "reaction_10", 
+               "NADHflow", 
+               "GAPflowsink", 
+               "NADflowsink", 
+               "PYRflow", 
+               "reaction_1", 
+               "F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

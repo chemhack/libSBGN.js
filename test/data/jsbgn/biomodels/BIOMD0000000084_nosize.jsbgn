@@ -1,0 +1,342 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Rin"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Rin", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "x1", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "x1p"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "R", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "x1p", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "x1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "x2", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "x2p"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "x1p", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "x2p", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "x2"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "x3p"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "x2p", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "x3p", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "x3"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rin", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-1 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x1p", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x1p", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-1 inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-2 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x2p", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x2p", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-2 inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-3 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "x3p", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x3p", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase-3 inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "x3p", 
+               "v8", 
+               "x2", 
+               "v3", 
+               "Rin", 
+               "v1", 
+               "v2", 
+               "R", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "x1p", 
+               "x3", 
+               "x1", 
+               "x2p"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

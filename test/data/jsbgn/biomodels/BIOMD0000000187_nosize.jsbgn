@@ -1,0 +1,454 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Mad1_CMad2", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "OMad2", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Mad1_CMad2_OMad2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Mad1_CMad2_OMad2", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Mad1_CMad2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Cdc20_CMad2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Cdc20_CMad2", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "Cdc20"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "OMad2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Cdc20_CMad2", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Bub3_BubR1", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "MCC"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Bub3_BubR1", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "Bub3_BubR1_Cdc20"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "OMad2", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "Cdc20_CMad2"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "MCC", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "APC", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "MCC_APC"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "MCC_APC", 
+         "target": "R7b"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "R7b", 
+         "target": "OMad2"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "R7b", 
+         "target": "Bub3_BubR1"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "R7b", 
+         "target": "APC_Cdc20"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "APC", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "APC_Cdc20"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mad1:C-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mad1_CMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "O-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mad1:C-Mad2:O-Mad2*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mad1_CMad2_OMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20:C-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20_CMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Bub3:BubR1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Bub3_BubR1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MCC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MCC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Bub3:BubR1:Cdc20", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Bub3_BubR1_Cdc20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "APC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "APC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MCC:APC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MCC_APC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "APC:Cdc20", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "APC_Cdc20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytoplasm", 
+            "subnodes": [
+               "R4", 
+               "R5", 
+               "OMad2", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "Mad1_CMad2", 
+               "Bub3_BubR1_Cdc20", 
+               "R3", 
+               "MCC", 
+               "R6", 
+               "R8", 
+               "Cdc20", 
+               "APC_Cdc20", 
+               "R7b", 
+               "MCC_APC", 
+               "APC", 
+               "Bub3_BubR1", 
+               "Cdc20_CMad2", 
+               "Mad1_CMad2_OMad2"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

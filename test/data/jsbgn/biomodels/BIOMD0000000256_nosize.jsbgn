@@ -1,0 +1,2399 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction1sink", 
+         "target": "reaction1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction1", 
+         "target": "PC3"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "reaction2sink", 
+         "target": "reaction2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction2", 
+         "target": "XIAP"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "PC3", 
+         "target": "reaction3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction3", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "reaction3", 
+         "target": "C9"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction4", 
+         "target": "C9P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction4", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "C9P", 
+         "target": "reaction5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "PC3", 
+         "target": "reaction5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "reaction5", 
+         "target": "C9P"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction5", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "PC3", 
+         "target": "reaction6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction6"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction6", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "XIAP", 
+         "target": "reaction7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction7", 
+         "target": "XIAP_C3"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction8"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "XIAP_C9", 
+         "target": "reaction8"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "reaction8", 
+         "target": "XIAP_C9_C3"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction9"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag", 
+         "target": "reaction9"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "reaction9", 
+         "target": "XIAP_p2frag_C3"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction10"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "BIR12", 
+         "target": "reaction10"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction10", 
+         "target": "BIR12_C3"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction11"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "XIAP", 
+         "target": "reaction11"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "reaction11", 
+         "target": "BIR12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "reaction11", 
+         "target": "BIR3R"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "reaction11", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction12"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "XIAP_C9", 
+         "target": "reaction12"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "reaction12", 
+         "target": "BIR12"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction12", 
+         "target": "BIR3R_C9"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "reaction12", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction13"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "XIAP_C3", 
+         "target": "reaction13"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction13", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "reaction13", 
+         "target": "BIR12_C3"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "reaction13", 
+         "target": "BIR3R"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction14"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag", 
+         "target": "reaction14"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "reaction14", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "reaction14", 
+         "target": "BIR12"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "reaction14", 
+         "target": "BIR3R_p2frag"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction15"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag_C3", 
+         "target": "reaction15"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "reaction15", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "reaction15", 
+         "target": "BIR12_C3"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "reaction15", 
+         "target": "BIR3R_p2frag"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction16"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "XIAP_C9_C3", 
+         "target": "reaction16"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "reaction16", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "reaction16", 
+         "target": "BIR12_C3"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "reaction16", 
+         "target": "BIR3R_C9"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction17"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "XIAP_2SMAC", 
+         "target": "reaction17"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "reaction17", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "reaction17", 
+         "target": "BIR12_SMAC"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "reaction17", 
+         "target": "BIR3R_SMAC"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction18"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "XIAP_C9_C3", 
+         "target": "reaction18"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "reaction18", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "reaction18", 
+         "target": "C9P"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "reaction18", 
+         "target": "XIAP_p2frag_C3"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction19"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "XIAP_C9", 
+         "target": "reaction19"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "reaction19", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "reaction19", 
+         "target": "C9P"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "reaction19", 
+         "target": "XIAP_p2frag"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction20"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "BIR3R_C9", 
+         "target": "reaction20"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "reaction20", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "reaction20", 
+         "target": "BIR3R_p2frag"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "reaction20", 
+         "target": "C9P"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction21"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "XIAP", 
+         "target": "reaction21"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "reaction21", 
+         "target": "XIAP_C9"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction22"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "XIAP_C3", 
+         "target": "reaction22"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "reaction22", 
+         "target": "XIAP_C9_C3"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction23"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "BIR3R", 
+         "target": "reaction23"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "reaction23", 
+         "target": "BIR3R_C9"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "BIR3R_p2frag", 
+         "target": "reaction24"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "reaction24", 
+         "target": "BIR3R"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag", 
+         "target": "reaction25"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "reaction25", 
+         "target": "XIAP"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "XIAP", 
+         "target": "reaction26"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction26"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "reaction26", 
+         "target": "XIAP_2SMAC"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 394, 
+         "source": "XIAP_C9", 
+         "target": "reaction27"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction27"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "reaction27", 
+         "target": "XIAP_2SMAC"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "reaction27", 
+         "target": "C9"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "XIAP_C3", 
+         "target": "reaction28"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction28"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "reaction28", 
+         "target": "XIAP_2SMAC"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "reaction28", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "XIAP_C9_C3", 
+         "target": "reaction29"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction29"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "reaction29", 
+         "target": "XIAP_2SMAC"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "reaction29", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "reaction29", 
+         "target": "C9"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "BIR12", 
+         "target": "reaction30"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction30"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "reaction30", 
+         "target": "BIR12_SMAC"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "BIR3R", 
+         "target": "reaction31"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction31"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "reaction31", 
+         "target": "BIR3R_SMAC"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 394, 
+         "source": "BIR12_C3", 
+         "target": "reaction32"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction32"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "reaction32", 
+         "target": "BIR12_SMAC"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 393, 
+         "source": "reaction32", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 394, 
+         "source": "BIR3R_C9", 
+         "target": "reaction33"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction33"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 393, 
+         "source": "reaction33", 
+         "target": "BIR3R_SMAC"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "reaction33", 
+         "target": "C9"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag", 
+         "target": "reaction34"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction34"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 393, 
+         "source": "reaction34", 
+         "target": "XIAP_p2frag_2SMAC"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 394, 
+         "source": "C9P", 
+         "target": "reaction35"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 393, 
+         "source": "reaction35", 
+         "target": "reaction35sink"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "C9", 
+         "target": "reaction36"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "reaction36", 
+         "target": "reaction36sink"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction37"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "reaction37", 
+         "target": "reaction37sink"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 394, 
+         "source": "XIAP_C3", 
+         "target": "reaction38"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 393, 
+         "source": "reaction38", 
+         "target": "reaction38sink"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "XIAP_C9_C3", 
+         "target": "reaction39"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "reaction39", 
+         "target": "reaction39sink"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 394, 
+         "source": "XIAP_C9", 
+         "target": "reaction40"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "reaction40", 
+         "target": "reaction40sink"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag", 
+         "target": "reaction41"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 393, 
+         "source": "reaction41", 
+         "target": "reaction41sink"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag_C3", 
+         "target": "reaction42"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "reaction42", 
+         "target": "reaction42sink"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "XIAP_p2frag_2SMAC", 
+         "target": "reaction43"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 393, 
+         "source": "reaction43", 
+         "target": "reaction43sink"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 394, 
+         "source": "XIAP_2SMAC", 
+         "target": "reaction44"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 393, 
+         "source": "reaction44", 
+         "target": "reaction44sink"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 394, 
+         "source": "BIR12", 
+         "target": "reaction45"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "reaction45", 
+         "target": "reaction45sink"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 394, 
+         "source": "BIR3R", 
+         "target": "reaction46"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 393, 
+         "source": "reaction46", 
+         "target": "reaction46sink"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 394, 
+         "source": "BIR12_SMAC", 
+         "target": "reaction47"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 393, 
+         "source": "reaction47", 
+         "target": "reaction47sink"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 394, 
+         "source": "BIR3R_SMAC", 
+         "target": "reaction48"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 393, 
+         "source": "reaction48", 
+         "target": "reaction48sink"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 394, 
+         "source": "BIR12_C3", 
+         "target": "reaction49"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 393, 
+         "source": "reaction49", 
+         "target": "reaction49sink"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 394, 
+         "source": "BIR3R_C9", 
+         "target": "reaction50"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 393, 
+         "source": "reaction50", 
+         "target": "reaction50sink"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 394, 
+         "source": "BIR3R_p2frag", 
+         "target": "reaction51"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 393, 
+         "source": "reaction51", 
+         "target": "reaction51sink"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 394, 
+         "source": "SMAC", 
+         "target": "reaction52"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "reaction52", 
+         "target": "reaction52sink"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 394, 
+         "source": "C3", 
+         "target": "reaction53"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 394, 
+         "source": "Substrate", 
+         "target": "reaction53"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 393, 
+         "source": "reaction53", 
+         "target": "C3"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 393, 
+         "source": "reaction53", 
+         "target": "ClvgPrds"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 394, 
+         "source": "SMAC_mito", 
+         "target": "SMAC_release"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 393, 
+         "source": "SMAC_release", 
+         "target": "SMAC"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 394, 
+         "source": "PC9", 
+         "target": "Apo_formation"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 394, 
+         "source": "APAF1", 
+         "target": "Apo_formation"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 393, 
+         "source": "Apo_formation", 
+         "target": "C9"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 394, 
+         "source": "CytC_mit", 
+         "target": "CytC_release"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 393, 
+         "source": "CytC_release", 
+         "target": "CytC_cell"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProCaspase3 Production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ProCasp3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PC3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "XIAP Production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Casp9(p35-p12)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Casp9(p35-p10)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C9P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-Casp3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_C3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-Casp9", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_C9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-Casp9-Casp3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_C9_C3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-p2 fragment", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_p2frag", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-p2frag-Casp3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_p2frag_C3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR12", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR12", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR12-Casp3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR12_C3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR3R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR3R", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR3R-Casp9", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR3R_C9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR3R-p2frag", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR3R_p2frag", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-2*SMAC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_2SMAC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR12-SMAC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR12_SMAC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BIR3R-SMAC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BIR3R_SMAC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SMAC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SMAC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction27", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction28", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction29", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction30", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction31", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction32", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction33", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction34", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "XIAP-p2frag-2*SMAC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "XIAP_p2frag_2SMAC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction35", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction35sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction36", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction36sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction37", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction37sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction38", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction39", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction40", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction40sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction41", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction41sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction42", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction42sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction43", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction43sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction44", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction44sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction45", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction45sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction46", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction46", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction46sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction47", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction47", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction47sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction48", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction48", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction48sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction49", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction49", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction49sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction50", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction50", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction50sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction51", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction51", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction51sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction52", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction52", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction52sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction53", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction53", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Casp3 Substrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Substrate", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clevage Products", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ClvgPrds", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SMAC_release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SMAC_release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SMAC in mitochondrium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SMAC_mito", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Apo_formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Apo_formation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ProCasp9", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PC9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "APAF1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "APAF1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CytC_release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CytC_release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytochrome C in mitochondrium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CytC_mit", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cytosolic Cytochrome C", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CytC_cell", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "reaction47", 
+               "reaction46", 
+               "reaction45", 
+               "reaction44", 
+               "reaction43", 
+               "reaction42", 
+               "reaction41", 
+               "reaction40", 
+               "reaction49", 
+               "reaction48", 
+               "reaction44sink", 
+               "reaction43sink", 
+               "reaction50sink", 
+               "XIAP_C9_C3", 
+               "Substrate", 
+               "XIAP_p2frag", 
+               "ClvgPrds", 
+               "reaction52sink", 
+               "reaction32", 
+               "reaction33", 
+               "reaction30", 
+               "reaction31", 
+               "reaction36", 
+               "reaction37", 
+               "reaction34", 
+               "reaction35", 
+               "reaction38", 
+               "reaction39", 
+               "reaction42sink", 
+               "BIR3R_C9", 
+               "BIR12_C3", 
+               "reaction41sink", 
+               "BIR12_SMAC", 
+               "CytC_cell", 
+               "reaction45sink", 
+               "reaction21", 
+               "reaction20", 
+               "reaction23", 
+               "reaction22", 
+               "reaction25", 
+               "reaction24", 
+               "reaction27", 
+               "reaction26", 
+               "reaction29", 
+               "reaction28", 
+               "reaction35sink", 
+               "reaction2", 
+               "reaction3", 
+               "XIAP_C9", 
+               "reaction1", 
+               "reaction6", 
+               "reaction7", 
+               "reaction4", 
+               "reaction5", 
+               "XIAP_C3", 
+               "reaction8", 
+               "reaction9", 
+               "SMAC", 
+               "XIAP_p2frag_2SMAC", 
+               "reaction36sink", 
+               "reaction14", 
+               "reaction15", 
+               "reaction16", 
+               "reaction17", 
+               "reaction10", 
+               "reaction11", 
+               "reaction12", 
+               "reaction13", 
+               "PC3", 
+               "reaction18", 
+               "reaction19", 
+               "CytC_release", 
+               "XIAP", 
+               "reaction49sink", 
+               "XIAP_p2frag_C3", 
+               "C9", 
+               "C3", 
+               "APAF1", 
+               "reaction1sink", 
+               "BIR12", 
+               "Apo_formation", 
+               "reaction37sink", 
+               "reaction47sink", 
+               "reaction48sink", 
+               "reaction40sink", 
+               "reaction51sink", 
+               "reaction2sink", 
+               "XIAP_2SMAC", 
+               "BIR3R", 
+               "reaction38sink", 
+               "C9P", 
+               "reaction39sink", 
+               "reaction50", 
+               "reaction51", 
+               "reaction52", 
+               "reaction53", 
+               "PC9", 
+               "reaction46sink", 
+               "BIR3R_SMAC", 
+               "SMAC_release", 
+               "BIR3R_p2frag"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mitochondrium", 
+            "subnodes": [
+               "CytC_release", 
+               "SMAC_release", 
+               "CytC_mit", 
+               "SMAC_mito"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "mito", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

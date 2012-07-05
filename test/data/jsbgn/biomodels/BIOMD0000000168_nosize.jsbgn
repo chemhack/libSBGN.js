@@ -1,0 +1,619 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "_1sink", 
+         "target": "_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "_1", 
+         "target": "D_1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "D_1", 
+         "target": "cyclinCDK4degradation_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "cyclinCDK4degradation_1", 
+         "target": "cyclinCDK4degradation_1sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "cyclinCDK4degradation_1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cyclinCDK4degradation_1"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "cyclin_1sink", 
+         "target": "cyclin_1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "cyclin_1", 
+         "target": "E_1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "E2F_1", 
+         "target": "cyclin_1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "E_1", 
+         "target": "cycECDK2degradation_1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "cycECDK2degradation_1", 
+         "target": "cycECDK2degradation_1sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cycECDK2degradation_1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cycECDK2degradation_1"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "pRBpdephosphorylation_1sink", 
+         "target": "pRBpdephosphorylation_1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "pRBpdephosphorylation_1", 
+         "target": "R_1"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "RP_1", 
+         "target": "pRBpdephosphorylation_1"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "pRBpdephosphorylation_1"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "RP_1", 
+         "target": "pRBpdephosphorylation_1"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "pRBpdephosphorylation_1"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "R_1", 
+         "target": "pRBE2Fcomplexassociation_1"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "pRBE2Fcomplexassociation_1", 
+         "target": "RS_1"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "pRBE2Fcomplexassociation_1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "R_1", 
+         "target": "pRBE2Fcomplexassociation_1"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "E2F_1", 
+         "target": "pRBE2Fcomplexassociation_1"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "RS_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "pRBE2FcomplexdeassociationviacycDCDK4_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1sink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "pRBE2FcomplexdeassociationviacycDCDK4_1"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "RS_1", 
+         "target": "_7"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "_7", 
+         "target": "_7sink"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "_7"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "_7"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "_7"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "_7"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "cycleprogression_1sink", 
+         "target": "cycleprogression_1"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "cycleprogression_1", 
+         "target": "X_1"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cycleprogression_1"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "E2F_1", 
+         "target": "cycleprogression_1"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cycleprogression_1"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cycleprogression_1"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "X_1", 
+         "target": "cyclebreak_1"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "cyclebreak_1", 
+         "target": "cyclebreak_1sink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cyclebreak_1"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycD/CDK4 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycD/CDK4 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinCDK4degradation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinCDK4degradation_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycE/CDK2 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclin_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclin_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E2F", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycE/CDK2 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cycECDK2degradation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cycECDK2degradation_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X_1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB-p dephosphorilation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpdephosphorylation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpdephosphorylation_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RP_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex association", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBE2Fcomplexassociation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RS_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex deassociation via cycD/CDK4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBE2FcomplexdeassociationviacycDCDK4_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBE2FcomplexdeassociationviacycDCDK4_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex deassociation via cycE/CDK2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycle progression", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cycleprogression_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cycleprogression_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cycle break", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclebreak_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclebreak_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "R_1", 
+               "E2F_1", 
+               "cyclebreak_1", 
+               "_1", 
+               "cycECDK2degradation_1", 
+               "pRBpdephosphorylation_1sink", 
+               "cyclin_1", 
+               "_1sink", 
+               "cycleprogression_1sink", 
+               "cyclinCDK4degradation_1", 
+               "E_1", 
+               "pRBpdephosphorylation_1", 
+               "cycleprogression_1", 
+               "D_1", 
+               "pRBE2FcomplexdeassociationviacycDCDK4_1", 
+               "cycECDK2degradation_1sink", 
+               "pRBE2Fcomplexassociation_1", 
+               "_7sink", 
+               "pRBE2FcomplexdeassociationviacycDCDK4_1sink", 
+               "RS_1", 
+               "_7", 
+               "cyclinCDK4degradation_1sink", 
+               "cyclebreak_1sink", 
+               "RP_1", 
+               "X_1", 
+               "cyclin_1sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell_1", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

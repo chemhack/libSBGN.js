@@ -1,0 +1,446 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EC", 
+         "target": "vin"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vin", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "A", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "Rkf"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Rkf", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "Rkz"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "Rkz", 
+         "target": "EC"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "R4sink", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "R5sink"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "Z", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "R6sink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "R7sink", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "GP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "Z", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "GP", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "R8sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium Influx", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vin", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium transport to internal store", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Intravesicular Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium transport to cytosol", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium leak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rkf", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium efflux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rkz", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Agonist stimulated production of IP3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca-dependant IP3 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca independent IP3 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylase kinase activity", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glycogen Phosphorylase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphatase activity", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "vin", 
+               "Rkz", 
+               "EC"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "A", 
+               "R4", 
+               "R6", 
+               "R7", 
+               "R2", 
+               "R3", 
+               "R4sink", 
+               "GP", 
+               "vin", 
+               "R7sink", 
+               "Rkz", 
+               "Rkf", 
+               "R8", 
+               "R8sink", 
+               "R5", 
+               "R6sink", 
+               "Z", 
+               "R5sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "intravesicular", 
+            "subnodes": [
+               "Y", 
+               "Rkf", 
+               "R2", 
+               "R3"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "intravesicular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

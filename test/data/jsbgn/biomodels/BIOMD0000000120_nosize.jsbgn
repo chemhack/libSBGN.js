@@ -1,0 +1,382 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "v1sink", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "lck_inactive"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "lck_active", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "lck_inactive"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "phosphatase_active", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "lck_inactive", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "lck_active"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "lck_inactive", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "lck_active"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "lck_inactive", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "v5sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "lck_active", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "v6sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "phosphatase_inactive", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "phosphatase_active"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "phosphatase_inactive", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "phosphatase_active"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "lck_active", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "phosphatase_active", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "phosphatase_inactive"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "phosphatase_active", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "v10sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase recruitment to T-cell receptor", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactive lck", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "lck_inactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Kinase inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active lck", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "lck_active", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active phosphatase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphatase_active", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Basal kinase activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Catalytic kinase activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactive kinase diffusion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Active kinase diffusion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Basal phosphatase activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactive phosphatase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphatase_inactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Catalyzed phosphatase activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphatase inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Active phosphatase diffusion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "v5sink", 
+               "lck_active", 
+               "v9", 
+               "phosphatase_inactive", 
+               "v10", 
+               "v6sink", 
+               "v1sink", 
+               "lck_inactive", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "phosphatase_active", 
+               "v10sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

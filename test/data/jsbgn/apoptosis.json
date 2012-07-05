@@ -1,0 +1,2920 @@
+{
+   "edges" : [
+      {
+         "id" : 0,
+         "sbo" : 15,
+         "source" : "CLONE:M3",
+         "sourceidx" : 1,
+         "target" : "MAN:R9",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 1,
+         "sbo" : 11,
+         "source" : "MAN:R9",
+         "sourceidx" : 0,
+         "target" : "MAN:C16",
+         "targetidx" : 2,
+         "type" : "Product"
+      },
+      {
+         "id" : 2,
+         "sbo" : 15,
+         "source" : "CLONE:M11",
+         "sourceidx" : 4,
+         "target" : "CLONE:M15",
+         "targetidx" : 3,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 3,
+         "sbo" : 11,
+         "source" : "CLONE:M15",
+         "sourceidx" : 3,
+         "target" : "CLONE:M14",
+         "targetidx" : 5,
+         "type" : "Product"
+      },
+      {
+         "id" : 4,
+         "sbo" : 13,
+         "source" : "MAN:C9",
+         "sourceidx" : 6,
+         "target" : "CLONE:M15",
+         "targetidx" : 3,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 5,
+         "sbo" : 15,
+         "source" : "MAN:C12",
+         "sourceidx" : 8,
+         "target" : "MAN:R5",
+         "targetidx" : 7,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 6,
+         "sbo" : 11,
+         "source" : "MAN:R5",
+         "sourceidx" : 7,
+         "target" : "CLONE:M1",
+         "targetidx" : 9,
+         "type" : "Product"
+      },
+      {
+         "id" : 7,
+         "sbo" : 13,
+         "source" : "MAN:C9",
+         "sourceidx" : 6,
+         "target" : "MAN:R5",
+         "targetidx" : 7,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 8,
+         "sbo" : 15,
+         "source" : "CLONE:M11",
+         "sourceidx" : 4,
+         "target" : "MAN:R16",
+         "targetidx" : 10,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 9,
+         "sbo" : 11,
+         "source" : "MAN:R16",
+         "sourceidx" : 10,
+         "target" : "CLONE:M14",
+         "targetidx" : 5,
+         "type" : "Product"
+      },
+      {
+         "id" : 10,
+         "sbo" : 13,
+         "source" : "MAN:C26",
+         "sourceidx" : 11,
+         "target" : "MAN:R16",
+         "targetidx" : 10,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 11,
+         "sbo" : 15,
+         "source" : "MAN:C21",
+         "sourceidx" : 13,
+         "target" : "MAN:R12",
+         "targetidx" : 12,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 12,
+         "sbo" : 11,
+         "source" : "MAN:R12",
+         "sourceidx" : 12,
+         "target" : "CLONE:M8",
+         "targetidx" : 14,
+         "type" : "Product"
+      },
+      {
+         "id" : 13,
+         "sbo" : 13,
+         "source" : "MAN:C17",
+         "sourceidx" : 15,
+         "target" : "MAN:R12",
+         "targetidx" : 12,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 14,
+         "sbo" : 15,
+         "source" : "MAN:C18",
+         "sourceidx" : 17,
+         "target" : "CLONE:M7",
+         "targetidx" : 16,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 15,
+         "sbo" : 15,
+         "source" : "MAN:C17",
+         "sourceidx" : 15,
+         "target" : "CLONE:M7",
+         "targetidx" : 16,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 16,
+         "sbo" : 11,
+         "source" : "CLONE:M7",
+         "sourceidx" : 16,
+         "target" : "CLONE:M6",
+         "targetidx" : 18,
+         "type" : "Product"
+      },
+      {
+         "id" : 17,
+         "sbo" : 15,
+         "source" : "MAN:C6",
+         "sourceidx" : 20,
+         "target" : "MAN:R4",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 18,
+         "sbo" : 15,
+         "source" : "MAN:C10",
+         "sourceidx" : 21,
+         "target" : "MAN:R4",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 19,
+         "sbo" : 11,
+         "source" : "MAN:R4",
+         "sourceidx" : 19,
+         "target" : "MAN:C11",
+         "targetidx" : 22,
+         "type" : "Product"
+      },
+      {
+         "id" : 20,
+         "sbo" : 15,
+         "source" : "MAN:C2",
+         "sourceidx" : 24,
+         "target" : "MAN:R1",
+         "targetidx" : 23,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 21,
+         "sbo" : 15,
+         "source" : "MAN:C1",
+         "sourceidx" : 25,
+         "target" : "MAN:R1",
+         "targetidx" : 23,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 22,
+         "sbo" : 11,
+         "source" : "MAN:R1",
+         "sourceidx" : 23,
+         "target" : "MAN:C3",
+         "targetidx" : 26,
+         "type" : "Product"
+      },
+      {
+         "id" : 23,
+         "sbo" : 15,
+         "source" : "CLONE:M2",
+         "sourceidx" : 28,
+         "target" : "MAN:R8",
+         "targetidx" : 27,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 24,
+         "sbo" : 11,
+         "source" : "MAN:R8",
+         "sourceidx" : 27,
+         "target" : "CLONE:M3",
+         "targetidx" : 1,
+         "type" : "Product"
+      },
+      {
+         "id" : 25,
+         "sbo" : 15,
+         "source" : "CLONE:M8",
+         "sourceidx" : 14,
+         "target" : "MAN:R14",
+         "targetidx" : 29,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 26,
+         "sbo" : 15,
+         "source" : "MAN:C23",
+         "sourceidx" : 30,
+         "target" : "MAN:R14",
+         "targetidx" : 29,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 27,
+         "sbo" : 11,
+         "source" : "MAN:R14",
+         "sourceidx" : 29,
+         "target" : "MAN:C24",
+         "targetidx" : 31,
+         "type" : "Product"
+      },
+      {
+         "id" : 28,
+         "sbo" : 15,
+         "source" : "MAN:C5",
+         "sourceidx" : 33,
+         "target" : "CLONE:M23",
+         "targetidx" : 32,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 29,
+         "sbo" : 11,
+         "source" : "CLONE:M23",
+         "sourceidx" : 32,
+         "target" : "MAN:C9",
+         "targetidx" : 6,
+         "type" : "Product"
+      },
+      {
+         "id" : 30,
+         "sbo" : 13,
+         "source" : "CLONE:M22",
+         "sourceidx" : 34,
+         "target" : "CLONE:M23",
+         "targetidx" : 32,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 31,
+         "sbo" : 15,
+         "source" : "MAN:C9",
+         "sourceidx" : 6,
+         "target" : "MAN:R20",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 32,
+         "sbo" : 15,
+         "source" : "MAN:C31",
+         "sourceidx" : 36,
+         "target" : "MAN:R20",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 33,
+         "sbo" : 11,
+         "source" : "MAN:R20",
+         "sourceidx" : 35,
+         "target" : "MAN:C32",
+         "targetidx" : 37,
+         "type" : "Product"
+      },
+      {
+         "id" : 34,
+         "sbo" : 15,
+         "source" : "MAN:C16",
+         "sourceidx" : 2,
+         "target" : "MAN:R10",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 35,
+         "sbo" : 11,
+         "source" : "MAN:R10",
+         "sourceidx" : 38,
+         "target" : "MAN:C17",
+         "targetidx" : 15,
+         "type" : "Product"
+      },
+      {
+         "id" : 36,
+         "sbo" : 15,
+         "source" : "MAN:C30",
+         "sourceidx" : 40,
+         "target" : "MAN:R19",
+         "targetidx" : 39,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 37,
+         "sbo" : 11,
+         "source" : "MAN:R19",
+         "sourceidx" : 39,
+         "target" : "CLONE:M24",
+         "targetidx" : 41,
+         "type" : "Product"
+      },
+      {
+         "id" : 38,
+         "sbo" : 13,
+         "source" : "CLONE:M14",
+         "sourceidx" : 5,
+         "target" : "MAN:R19",
+         "targetidx" : 39,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 39,
+         "sbo" : 15,
+         "source" : "MAN:C18",
+         "sourceidx" : 17,
+         "target" : "CLONE:M5",
+         "targetidx" : 42,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 40,
+         "sbo" : 15,
+         "source" : "MAN:C16",
+         "sourceidx" : 2,
+         "target" : "CLONE:M5",
+         "targetidx" : 42,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 41,
+         "sbo" : 11,
+         "source" : "CLONE:M5",
+         "sourceidx" : 42,
+         "target" : "CLONE:M4",
+         "targetidx" : 43,
+         "type" : "Product"
+      },
+      {
+         "id" : 42,
+         "sbo" : 15,
+         "source" : "MAN:C22",
+         "sourceidx" : 45,
+         "target" : "MAN:R13",
+         "targetidx" : 44,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 43,
+         "sbo" : 11,
+         "source" : "MAN:R13",
+         "sourceidx" : 44,
+         "target" : "CLONE:M9",
+         "targetidx" : 46,
+         "type" : "Product"
+      },
+      {
+         "id" : 44,
+         "sbo" : 13,
+         "source" : "MAN:C17",
+         "sourceidx" : 15,
+         "target" : "MAN:R13",
+         "targetidx" : 44,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 45,
+         "sbo" : 15,
+         "source" : "CLONE:M1",
+         "sourceidx" : 9,
+         "target" : "MAN:R6",
+         "targetidx" : 47,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 46,
+         "sbo" : 15,
+         "source" : "MAN:C13",
+         "sourceidx" : 48,
+         "target" : "MAN:R6",
+         "targetidx" : 47,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 47,
+         "sbo" : 11,
+         "source" : "MAN:R6",
+         "sourceidx" : 47,
+         "target" : "MAN:C14",
+         "targetidx" : 49,
+         "type" : "Product"
+      },
+      {
+         "id" : 48,
+         "sbo" : 15,
+         "source" : "MAN:C25",
+         "sourceidx" : 51,
+         "target" : "MAN:R15",
+         "targetidx" : 50,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 49,
+         "sbo" : 15,
+         "source" : "MAN:C24",
+         "sourceidx" : 31,
+         "target" : "MAN:R15",
+         "targetidx" : 50,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 50,
+         "sbo" : 11,
+         "source" : "MAN:R15",
+         "sourceidx" : 50,
+         "target" : "MAN:C26",
+         "targetidx" : 11,
+         "type" : "Product"
+      },
+      {
+         "id" : 51,
+         "sbo" : 15,
+         "source" : "MAN:C15",
+         "sourceidx" : 53,
+         "target" : "MAN:R7",
+         "targetidx" : 52,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 52,
+         "sbo" : 11,
+         "source" : "MAN:R7",
+         "sourceidx" : 52,
+         "target" : "CLONE:M2",
+         "targetidx" : 28,
+         "type" : "Product"
+      },
+      {
+         "id" : 53,
+         "sbo" : 13,
+         "source" : "CLONE:M1",
+         "sourceidx" : 9,
+         "target" : "MAN:R7",
+         "targetidx" : 52,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 54,
+         "sbo" : 15,
+         "source" : "MAN:C4",
+         "sourceidx" : 55,
+         "target" : "MAN:R2",
+         "targetidx" : 54,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 55,
+         "sbo" : 15,
+         "source" : "MAN:C3",
+         "sourceidx" : 26,
+         "target" : "MAN:R2",
+         "targetidx" : 54,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 56,
+         "sbo" : 11,
+         "source" : "MAN:R2",
+         "sourceidx" : 54,
+         "target" : "MAN:C6",
+         "targetidx" : 20,
+         "type" : "Product"
+      },
+      {
+         "id" : 57,
+         "sbo" : 15,
+         "source" : "CLONE:M14",
+         "sourceidx" : 5,
+         "target" : "CLONE:M19",
+         "targetidx" : 56,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 58,
+         "sbo" : 15,
+         "source" : "MAN:C27",
+         "sourceidx" : 57,
+         "target" : "CLONE:M19",
+         "targetidx" : 56,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 59,
+         "sbo" : 11,
+         "source" : "CLONE:M19",
+         "sourceidx" : 56,
+         "target" : "CLONE:M18",
+         "targetidx" : 58,
+         "type" : "Product"
+      },
+      {
+         "id" : 60,
+         "sbo" : 15,
+         "source" : "MAN:C26",
+         "sourceidx" : 11,
+         "target" : "MAN:R17",
+         "targetidx" : 59,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 61,
+         "sbo" : 15,
+         "source" : "MAN:C27",
+         "sourceidx" : 57,
+         "target" : "MAN:R17",
+         "targetidx" : 59,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 62,
+         "sbo" : 11,
+         "source" : "MAN:R17",
+         "sourceidx" : 59,
+         "target" : "MAN:C28",
+         "targetidx" : 60,
+         "type" : "Product"
+      },
+      {
+         "id" : 63,
+         "sbo" : 15,
+         "source" : "MAN:C18",
+         "sourceidx" : 17,
+         "target" : "MAN:R11",
+         "targetidx" : 61,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 64,
+         "sbo" : 15,
+         "source" : "CLONE:M3",
+         "sourceidx" : 1,
+         "target" : "MAN:R11",
+         "targetidx" : 61,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 65,
+         "sbo" : 11,
+         "source" : "MAN:R11",
+         "sourceidx" : 61,
+         "target" : "MAN:C20",
+         "targetidx" : 62,
+         "type" : "Product"
+      },
+      {
+         "id" : 66,
+         "sbo" : 15,
+         "source" : "CLONE:M9",
+         "sourceidx" : 46,
+         "target" : "CLONE:M17",
+         "targetidx" : 63,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 67,
+         "sbo" : 15,
+         "source" : "MAN:C27",
+         "sourceidx" : 57,
+         "target" : "CLONE:M17",
+         "targetidx" : 63,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 68,
+         "sbo" : 11,
+         "source" : "CLONE:M17",
+         "sourceidx" : 63,
+         "target" : "CLONE:M16",
+         "targetidx" : 64,
+         "type" : "Product"
+      },
+      {
+         "id" : 69,
+         "sbo" : 15,
+         "source" : "MAN:C5",
+         "sourceidx" : 33,
+         "target" : "MAN:R3",
+         "targetidx" : 65,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 70,
+         "sbo" : 11,
+         "source" : "MAN:R3",
+         "sourceidx" : 65,
+         "target" : "MAN:C9",
+         "targetidx" : 6,
+         "type" : "Product"
+      },
+      {
+         "id" : 71,
+         "sbo" : 13,
+         "source" : "MAN:C6",
+         "sourceidx" : 20,
+         "target" : "MAN:R3",
+         "targetidx" : 65,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 72,
+         "sbo" : 15,
+         "source" : "MAN:C29",
+         "sourceidx" : 67,
+         "target" : "MAN:R18",
+         "targetidx" : 66,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 73,
+         "sbo" : 11,
+         "source" : "MAN:R18",
+         "sourceidx" : 66,
+         "target" : "CLONE:M22",
+         "targetidx" : 34,
+         "type" : "Product"
+      },
+      {
+         "id" : 74,
+         "sbo" : 13,
+         "source" : "CLONE:M14",
+         "sourceidx" : 5,
+         "target" : "MAN:R18",
+         "targetidx" : 66,
+         "type" : "Catalyst"
+      }
+   ],
+   "nodes" : [
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX dimerization",
+            "ref" : "MAN:R9",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R9",
+         "index" : 0,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_mitochondrium"
+            ],
+            "label" : "mitochondria",
+            "ref" : "MAN:L4",
+            "subnodes" : [
+               "CLONE:M3",
+               "MAN:C16",
+               "MAN:C21",
+               "MAN:C17",
+               "MAN:C18",
+               "CLONE:M6",
+               "CLONE:M4",
+               "MAN:C22",
+               "MAN:C20",
+               "MAN:R9",
+               "CLONE:M7",
+               "MAN:R10",
+               "CLONE:M5",
+               "MAN:R11"
+            ]
+         },
+         "id" : "MAN:L4",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M3",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0",
+               "CLONE:M3_MAN:C16_1"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C16",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C3 activation",
+            "ref" : "CLONE:M15",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M15",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_cytosol"
+            ],
+            "label" : "cytosol",
+            "ref" : "MAN:L3",
+            "subnodes" : [
+               "CLONE:M11",
+               "CLONE:M14",
+               "MAN:C9",
+               "MAN:C12",
+               "CLONE:M1",
+               "MAN:C26",
+               "CLONE:M8",
+               "MAN:C10",
+               "CLONE:M2",
+               "MAN:C23",
+               "MAN:C24",
+               "MAN:C5",
+               "CLONE:M22",
+               "MAN:C31",
+               "MAN:C32",
+               "MAN:C30",
+               "CLONE:M24",
+               "CLONE:M9",
+               "MAN:C13",
+               "MAN:C14",
+               "MAN:C25",
+               "MAN:C15",
+               "MAN:C4",
+               "MAN:C27",
+               "CLONE:M18",
+               "MAN:C28",
+               "CLONE:M16",
+               "MAN:C29",
+               "CLONE:M15",
+               "MAN:R5",
+               "MAN:R16",
+               "MAN:R14",
+               "CLONE:M23",
+               "MAN:R20",
+               "MAN:R19",
+               "MAN:R6",
+               "MAN:R15",
+               "MAN:R7",
+               "CLONE:M19",
+               "MAN:R17",
+               "CLONE:M17",
+               "MAN:R18"
+            ]
+         },
+         "id" : "MAN:L3",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C3",
+            "modification" : [],
+            "ref" : "CLONE:M11",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M11",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C3 p17",
+            "modification" : [],
+            "ref" : "CLONE:M13"
+         },
+         "id" : "CLONE:M13_CLONE:M14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C3 p12",
+            "modification" : [],
+            "ref" : "CLONE:M12"
+         },
+         "id" : "CLONE:M12_CLONE:M14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C3 active",
+            "modification" : [],
+            "ref" : "CLONE:M14",
+            "subnodes" : [
+               "CLONE:M13_CLONE:M14_0",
+               "CLONE:M12_CLONE:M14_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M14",
+         "index" : 5,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C8p10",
+            "modification" : [],
+            "ref" : "MAN:C7"
+         },
+         "id" : "MAN:C7_MAN:C9_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C8p18",
+            "modification" : [],
+            "ref" : "MAN:C8"
+         },
+         "id" : "MAN:C8_MAN:C9_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C8 active",
+            "modification" : [],
+            "ref" : "MAN:C9",
+            "subnodes" : [
+               "MAN:C7_MAN:C9_0",
+               "MAN:C8_MAN:C9_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C9",
+         "index" : 6,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BID activation",
+            "ref" : "MAN:R5",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R5",
+         "index" : 7,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BID",
+            "modification" : [],
+            "ref" : "MAN:C12",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C12",
+         "index" : 8,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "tBID",
+            "modification" : [],
+            "ref" : "CLONE:M1",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M1",
+         "index" : 9,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C3 activation",
+            "ref" : "MAN:R16",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R16",
+         "index" : 10,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C9",
+            "modification" : [],
+            "ref" : "MAN:C25"
+         },
+         "id" : "MAN:C25_MAN:C26_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cyto c",
+            "modification" : [],
+            "ref" : "CLONE:M8"
+         },
+         "id" : "CLONE:M8_MAN:C24_0_MAN:C26_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APAF",
+            "modification" : [],
+            "ref" : "MAN:C23"
+         },
+         "id" : "MAN:C23_MAN:C24_0_MAN:C26_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APAF:Cyto c",
+            "modification" : [],
+            "ref" : "MAN:C24",
+            "subnodes" : [
+               "CLONE:M8_MAN:C24_0_MAN:C26_0",
+               "MAN:C23_MAN:C24_0_MAN:C26_0"
+            ]
+         },
+         "id" : "MAN:C24_MAN:C26_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome",
+            "modification" : [],
+            "ref" : "MAN:C26",
+            "subnodes" : [
+               "MAN:C25_MAN:C26_0",
+               "MAN:C24_MAN:C26_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C26",
+         "index" : 11,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Cytochrome c release",
+            "ref" : "MAN:R12",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R12",
+         "index" : 12,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Cyto c",
+            "modification" : [],
+            "ref" : "MAN:C21",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C21",
+         "index" : 13,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Cyto c",
+            "modification" : [],
+            "ref" : "CLONE:M8",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M8",
+         "index" : 14,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0_MAN:C17_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1_MAN:C17_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0_MAN:C17_0",
+               "CLONE:M3_MAN:C16_1_MAN:C17_0"
+            ]
+         },
+         "id" : "MAN:C16_MAN:C17_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0_MAN:C17_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1_MAN:C17_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0_MAN:C17_1",
+               "CLONE:M3_MAN:C16_1_MAN:C17_1"
+            ]
+         },
+         "id" : "MAN:C16_MAN:C17_1",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "M*pore",
+            "modification" : [],
+            "ref" : "MAN:C17",
+            "subnodes" : [
+               "MAN:C16_MAN:C17_0",
+               "MAN:C16_MAN:C17_1"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C17",
+         "index" : 15,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX inhibition by BCL-2",
+            "ref" : "CLONE:M7",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M7",
+         "index" : 16,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BCL-2",
+            "modification" : [
+               [
+                  216,
+                  "70"
+               ]
+            ],
+            "ref" : "MAN:C18",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C18",
+         "index" : 17,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BCL-2",
+            "modification" : [
+               [
+                  216,
+                  "70"
+               ]
+            ],
+            "ref" : "MAN:C18"
+         },
+         "id" : "MAN:C18_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0_MAN:C17_0_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1_MAN:C17_0_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0_MAN:C17_0_CLONE:M6_0",
+               "CLONE:M3_MAN:C16_1_MAN:C17_0_CLONE:M6_0"
+            ]
+         },
+         "id" : "MAN:C16_MAN:C17_0_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0_MAN:C17_1_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1_MAN:C17_1_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0_MAN:C17_1_CLONE:M6_0",
+               "CLONE:M3_MAN:C16_1_MAN:C17_1_CLONE:M6_0"
+            ]
+         },
+         "id" : "MAN:C16_MAN:C17_1_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "M*pore",
+            "modification" : [],
+            "ref" : "MAN:C17",
+            "subnodes" : [
+               "MAN:C16_MAN:C17_0_CLONE:M6_0",
+               "MAN:C16_MAN:C17_1_CLONE:M6_0"
+            ]
+         },
+         "id" : "MAN:C17_CLONE:M6_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX:BCL-2",
+            "modification" : [],
+            "ref" : "CLONE:M6",
+            "subnodes" : [
+               "MAN:C18_CLONE:M6_0",
+               "MAN:C17_CLONE:M6_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M6",
+         "index" : 18,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "DISC inhibition by FLIP",
+            "ref" : "MAN:R4",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R4",
+         "index" : 19,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_plasmamembrane"
+            ],
+            "label" : "plasmamembrane",
+            "ref" : "MAN:L2",
+            "subnodes" : [
+               "MAN:C6",
+               "MAN:C11",
+               "MAN:C1",
+               "MAN:C3"
+            ]
+         },
+         "id" : "MAN:L2",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "FADD",
+            "modification" : [],
+            "ref" : "MAN:C4"
+         },
+         "id" : "MAN:C4_MAN:C6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TRAIL",
+            "modification" : [],
+            "ref" : "MAN:C2"
+         },
+         "id" : "MAN:C2_MAN:C3_0_MAN:C6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "R",
+            "modification" : [],
+            "ref" : "MAN:C1"
+         },
+         "id" : "MAN:C1_MAN:C3_0_MAN:C6_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TRAIL:R",
+            "modification" : [],
+            "ref" : "MAN:C3",
+            "subnodes" : [
+               "MAN:C2_MAN:C3_0_MAN:C6_0",
+               "MAN:C1_MAN:C3_0_MAN:C6_0"
+            ]
+         },
+         "id" : "MAN:C3_MAN:C6_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L2",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "DISC",
+            "modification" : [],
+            "ref" : "MAN:C6",
+            "subnodes" : [
+               "MAN:C4_MAN:C6_0",
+               "MAN:C3_MAN:C6_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C6",
+         "index" : 20,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "FLIP",
+            "modification" : [],
+            "ref" : "MAN:C10",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C10",
+         "index" : 21,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "FADD",
+            "modification" : [],
+            "ref" : "MAN:C4"
+         },
+         "id" : "MAN:C4_MAN:C6_0_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TRAIL",
+            "modification" : [],
+            "ref" : "MAN:C2"
+         },
+         "id" : "MAN:C2_MAN:C3_0_MAN:C6_0_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "R",
+            "modification" : [],
+            "ref" : "MAN:C1"
+         },
+         "id" : "MAN:C1_MAN:C3_0_MAN:C6_0_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TRAIL:R",
+            "modification" : [],
+            "ref" : "MAN:C3",
+            "subnodes" : [
+               "MAN:C2_MAN:C3_0_MAN:C6_0_MAN:C11_0",
+               "MAN:C1_MAN:C3_0_MAN:C6_0_MAN:C11_0"
+            ]
+         },
+         "id" : "MAN:C3_MAN:C6_0_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DISC",
+            "modification" : [],
+            "ref" : "MAN:C6",
+            "subnodes" : [
+               "MAN:C4_MAN:C6_0_MAN:C11_0",
+               "MAN:C3_MAN:C6_0_MAN:C11_0"
+            ]
+         },
+         "id" : "MAN:C6_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "FLIP",
+            "modification" : [],
+            "ref" : "MAN:C10"
+         },
+         "id" : "MAN:C10_MAN:C11_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L2",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "DISC:FLIP",
+            "modification" : [],
+            "ref" : "MAN:C11",
+            "subnodes" : [
+               "MAN:C6_MAN:C11_0",
+               "MAN:C10_MAN:C11_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C11",
+         "index" : 22,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Receptor binds TRAIL",
+            "ref" : "MAN:R1",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R1",
+         "index" : 23,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_extracellular"
+            ],
+            "label" : "extracellular",
+            "ref" : "MAN:L1",
+            "subnodes" : [
+               "MAN:C2"
+            ]
+         },
+         "id" : "MAN:L1",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L1",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "TRAIL",
+            "modification" : [],
+            "ref" : "MAN:C2",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C2",
+         "index" : 24,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L2",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "R",
+            "modification" : [],
+            "ref" : "MAN:C1",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C1",
+         "index" : 25,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TRAIL",
+            "modification" : [],
+            "ref" : "MAN:C2"
+         },
+         "id" : "MAN:C2_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "R",
+            "modification" : [],
+            "ref" : "MAN:C1"
+         },
+         "id" : "MAN:C1_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L2",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "TRAIL:R",
+            "modification" : [],
+            "ref" : "MAN:C3",
+            "subnodes" : [
+               "MAN:C2_MAN:C3_0",
+               "MAN:C1_MAN:C3_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C3",
+         "index" : 26,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "BAX translocation",
+            "ref" : "MAN:R8",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R8",
+         "index" : 27,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M2",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M2",
+         "index" : 28,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "APAF binds Cyto c",
+            "ref" : "MAN:R14",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R14",
+         "index" : 29,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "APAF",
+            "modification" : [],
+            "ref" : "MAN:C23",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C23",
+         "index" : 30,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cyto c",
+            "modification" : [],
+            "ref" : "CLONE:M8"
+         },
+         "id" : "CLONE:M8_MAN:C24_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APAF",
+            "modification" : [],
+            "ref" : "MAN:C23"
+         },
+         "id" : "MAN:C23_MAN:C24_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "APAF:Cyto c",
+            "modification" : [],
+            "ref" : "MAN:C24",
+            "subnodes" : [
+               "CLONE:M8_MAN:C24_0",
+               "MAN:C23_MAN:C24_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C24",
+         "index" : 31,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Caspase 8 activation",
+            "ref" : "CLONE:M23",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M23",
+         "index" : 32,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C8",
+            "modification" : [],
+            "ref" : "MAN:C5",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C5",
+         "index" : 33,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C6 p18",
+            "modification" : [],
+            "ref" : "CLONE:M21"
+         },
+         "id" : "CLONE:M21_CLONE:M22_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C6 p11",
+            "modification" : [],
+            "ref" : "CLONE:M20"
+         },
+         "id" : "CLONE:M20_CLONE:M22_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C6 active",
+            "modification" : [],
+            "ref" : "CLONE:M22",
+            "subnodes" : [
+               "CLONE:M21_CLONE:M22_0",
+               "CLONE:M20_CLONE:M22_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M22",
+         "index" : 34,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "inhibition of C8",
+            "ref" : "MAN:R20",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R20",
+         "index" : 35,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BAR",
+            "modification" : [],
+            "ref" : "MAN:C31",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C31",
+         "index" : 36,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C8p10",
+            "modification" : [],
+            "ref" : "MAN:C7"
+         },
+         "id" : "MAN:C7_MAN:C9_0_MAN:C32_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C8p18",
+            "modification" : [],
+            "ref" : "MAN:C8"
+         },
+         "id" : "MAN:C8_MAN:C9_0_MAN:C32_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C8 active",
+            "modification" : [],
+            "ref" : "MAN:C9",
+            "subnodes" : [
+               "MAN:C7_MAN:C9_0_MAN:C32_0",
+               "MAN:C8_MAN:C9_0_MAN:C32_0"
+            ]
+         },
+         "id" : "MAN:C9_MAN:C32_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAR",
+            "modification" : [],
+            "ref" : "MAN:C31"
+         },
+         "id" : "MAN:C31_MAN:C32_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C8:BAR",
+            "modification" : [],
+            "ref" : "MAN:C32",
+            "subnodes" : [
+               "MAN:C9_MAN:C32_0",
+               "MAN:C31_MAN:C32_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C32",
+         "index" : 37,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "M*pore formation",
+            "ref" : "MAN:R10",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R10",
+         "index" : 38,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "cleavage of EC-S",
+            "ref" : "MAN:R19",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R19",
+         "index" : 39,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "EC-S",
+            "modification" : [],
+            "ref" : "MAN:C30",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C30",
+         "index" : 40,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "cEC-S",
+            "modification" : [],
+            "ref" : "CLONE:M24",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M24",
+         "index" : 41,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX inhibition by BCL-2",
+            "ref" : "CLONE:M5",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M5",
+         "index" : 42,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BCL-2",
+            "modification" : [
+               [
+                  216,
+                  "70"
+               ]
+            ],
+            "ref" : "MAN:C18"
+         },
+         "id" : "MAN:C18_CLONE:M4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_0_CLONE:M4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C16_1_CLONE:M4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX dimer",
+            "modification" : [],
+            "ref" : "MAN:C16",
+            "subnodes" : [
+               "CLONE:M3_MAN:C16_0_CLONE:M4_0",
+               "CLONE:M3_MAN:C16_1_CLONE:M4_0"
+            ]
+         },
+         "id" : "MAN:C16_CLONE:M4_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX:BCL-2",
+            "modification" : [],
+            "ref" : "CLONE:M4",
+            "subnodes" : [
+               "MAN:C18_CLONE:M4_0",
+               "MAN:C16_CLONE:M4_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M4",
+         "index" : 43,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "SMAC release",
+            "ref" : "MAN:R13",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R13",
+         "index" : 44,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "SMAC",
+            "modification" : [],
+            "ref" : "MAN:C22",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C22",
+         "index" : 45,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "SMAC",
+            "modification" : [],
+            "ref" : "CLONE:M9",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M9",
+         "index" : 46,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Inhibition of tBID",
+            "ref" : "MAN:R6",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R6",
+         "index" : 47,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "MCL1",
+            "modification" : [],
+            "ref" : "MAN:C13",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C13",
+         "index" : 48,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "tBID",
+            "modification" : [],
+            "ref" : "CLONE:M1"
+         },
+         "id" : "CLONE:M1_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "MCL1",
+            "modification" : [],
+            "ref" : "MAN:C13"
+         },
+         "id" : "MAN:C13_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "tBID:MCL1",
+            "modification" : [],
+            "ref" : "MAN:C14",
+            "subnodes" : [
+               "CLONE:M1_MAN:C14_0",
+               "MAN:C13_MAN:C14_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C14",
+         "index" : 49,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome formation",
+            "ref" : "MAN:R15",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R15",
+         "index" : 50,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C9",
+            "modification" : [],
+            "ref" : "MAN:C25",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C25",
+         "index" : 51,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BAX activation",
+            "ref" : "MAN:R7",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R7",
+         "index" : 52,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "BAX",
+            "modification" : [],
+            "ref" : "MAN:C15",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C15",
+         "index" : 53,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "DISC formation",
+            "ref" : "MAN:R2",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R2",
+         "index" : 54,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "FADD",
+            "modification" : [],
+            "ref" : "MAN:C4",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C4",
+         "index" : 55,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome inhibition by XIAM",
+            "ref" : "CLONE:M19",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M19",
+         "index" : 56,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "XIAP",
+            "modification" : [],
+            "ref" : "MAN:C27",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C27",
+         "index" : 57,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C3 p17",
+            "modification" : [],
+            "ref" : "CLONE:M13"
+         },
+         "id" : "CLONE:M13_CLONE:M14_0_CLONE:M18_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C3 p12",
+            "modification" : [],
+            "ref" : "CLONE:M12"
+         },
+         "id" : "CLONE:M12_CLONE:M14_0_CLONE:M18_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C3 active",
+            "modification" : [],
+            "ref" : "CLONE:M14",
+            "subnodes" : [
+               "CLONE:M13_CLONE:M14_0_CLONE:M18_0",
+               "CLONE:M12_CLONE:M14_0_CLONE:M18_0"
+            ]
+         },
+         "id" : "CLONE:M14_CLONE:M18_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "XIAP",
+            "modification" : [],
+            "ref" : "MAN:C27"
+         },
+         "id" : "MAN:C27_CLONE:M18_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C3:XIAP",
+            "modification" : [],
+            "ref" : "CLONE:M18",
+            "subnodes" : [
+               "CLONE:M14_CLONE:M18_0",
+               "MAN:C27_CLONE:M18_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M18",
+         "index" : 58,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome inhibition by XIAM",
+            "ref" : "MAN:R17",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R17",
+         "index" : 59,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "C9",
+            "modification" : [],
+            "ref" : "MAN:C25"
+         },
+         "id" : "MAN:C25_MAN:C26_0_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cyto c",
+            "modification" : [],
+            "ref" : "CLONE:M8"
+         },
+         "id" : "CLONE:M8_MAN:C24_0_MAN:C26_0_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APAF",
+            "modification" : [],
+            "ref" : "MAN:C23"
+         },
+         "id" : "MAN:C23_MAN:C24_0_MAN:C26_0_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APAF:Cyto c",
+            "modification" : [],
+            "ref" : "MAN:C24",
+            "subnodes" : [
+               "CLONE:M8_MAN:C24_0_MAN:C26_0_MAN:C28_0",
+               "MAN:C23_MAN:C24_0_MAN:C26_0_MAN:C28_0"
+            ]
+         },
+         "id" : "MAN:C24_MAN:C26_0_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Apoptosome",
+            "modification" : [],
+            "ref" : "MAN:C26",
+            "subnodes" : [
+               "MAN:C25_MAN:C26_0_MAN:C28_0",
+               "MAN:C24_MAN:C26_0_MAN:C28_0"
+            ]
+         },
+         "id" : "MAN:C26_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "XIAP",
+            "modification" : [],
+            "ref" : "MAN:C27"
+         },
+         "id" : "MAN:C27_MAN:C28_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome:XIAP",
+            "modification" : [],
+            "ref" : "MAN:C28",
+            "subnodes" : [
+               "MAN:C26_MAN:C28_0",
+               "MAN:C27_MAN:C28_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C28",
+         "index" : 60,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX inhibition by BCL-2",
+            "ref" : "MAN:R11",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R11",
+         "index" : 61,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BCL-2",
+            "modification" : [
+               [
+                  216,
+                  "70"
+               ]
+            ],
+            "ref" : "MAN:C18"
+         },
+         "id" : "MAN:C18_MAN:C20_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "BAX*",
+            "modification" : [
+               [
+                  111101,
+                  ""
+               ]
+            ],
+            "ref" : "CLONE:M3"
+         },
+         "id" : "CLONE:M3_MAN:C20_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L4",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "BAX:BCL-2",
+            "modification" : [],
+            "ref" : "MAN:C20",
+            "subnodes" : [
+               "MAN:C18_MAN:C20_0",
+               "CLONE:M3_MAN:C20_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C20",
+         "index" : 62,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Apoptosome inhibition by XIAM",
+            "ref" : "CLONE:M17",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M17",
+         "index" : 63,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SMAC",
+            "modification" : [],
+            "ref" : "CLONE:M9"
+         },
+         "id" : "CLONE:M9_CLONE:M16_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "XIAP",
+            "modification" : [],
+            "ref" : "MAN:C27"
+         },
+         "id" : "MAN:C27_CLONE:M16_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "SMAC:XIAP",
+            "modification" : [],
+            "ref" : "CLONE:M16",
+            "subnodes" : [
+               "CLONE:M9_CLONE:M16_0",
+               "MAN:C27_CLONE:M16_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M16",
+         "index" : 64,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Caspase 8 activation",
+            "ref" : "MAN:R3",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R3",
+         "index" : 65,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C6 activation",
+            "ref" : "MAN:R18",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R18",
+         "index" : 66,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAN:L3",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "C6",
+            "modification" : [],
+            "ref" : "MAN:C29",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C29",
+         "index" : 67,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      }
+   ]
+}

@@ -1,0 +1,299 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0sink", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Q", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "reaction_1sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "reaction_2sink", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "Q"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Q", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "reaction_3sink"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "R", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "reaction_4sink", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "P", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "reaction_5sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Increase of  P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Q", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Q", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Decrease of P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Increase of Q", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Decrease of Q", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Increase of R", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Decrease of R", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "body", 
+            "subnodes": [
+               "reaction_3sink", 
+               "reaction_5sink", 
+               "reaction_1sink", 
+               "reaction_5", 
+               "reaction_0sink", 
+               "reaction_2sink", 
+               "Q", 
+               "P", 
+               "reaction_4", 
+               "R", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_0", 
+               "reaction_1", 
+               "reaction_4sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "body", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

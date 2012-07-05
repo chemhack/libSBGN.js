@@ -1,0 +1,578 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Reaction1", 
+         "target": "Reaction1sink"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "Reaction2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Reaction2", 
+         "target": "Reaction2sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Reaction3", 
+         "target": "Reaction3sink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Reaction4sink", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Reaction4", 
+         "target": "PX"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Reaction5sink", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "Reaction5", 
+         "target": "PY"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "Y", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Reaction6sink", 
+         "target": "Reaction6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "PZ"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "Z", 
+         "target": "Reaction6"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "PX", 
+         "target": "Reaction7"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "Reaction7", 
+         "target": "Reaction7sink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "PY", 
+         "target": "Reaction8"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "Reaction8sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "PZ", 
+         "target": "Reaction9"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "Reaction9", 
+         "target": "Reaction9sink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Reaction10sink", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "Reaction10", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "PZ", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Reaction11sink", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Reaction11", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "PX", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Reaction12sink", 
+         "target": "Reaction12"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "PY", 
+         "target": "Reaction12"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of LacI transcripts", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LacI mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of TetR transcripts", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TetR mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of CI transcripts", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cI mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "translation of LacI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LacI protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PX", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "translation of TetR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TetR protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PY", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "translation of CI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cI protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PZ", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of LacI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of TetR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of CI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "transcription of LacI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "transcription of TetR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "transcription of CI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "Reaction9", 
+               "Reaction3sink", 
+               "Reaction2sink", 
+               "Reaction12sink", 
+               "Reaction5sink", 
+               "Reaction2", 
+               "Reaction3", 
+               "Reaction1", 
+               "Reaction6", 
+               "Reaction7", 
+               "Reaction4", 
+               "Reaction5", 
+               "PZ", 
+               "Reaction1sink", 
+               "PY", 
+               "Reaction10sink", 
+               "Reaction11sink", 
+               "Reaction10", 
+               "Reaction11", 
+               "Reaction12", 
+               "Reaction4sink", 
+               "PX", 
+               "Y", 
+               "X", 
+               "Z", 
+               "Reaction9sink", 
+               "Reaction6sink", 
+               "Reaction8sink", 
+               "Reaction7sink", 
+               "Reaction8"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

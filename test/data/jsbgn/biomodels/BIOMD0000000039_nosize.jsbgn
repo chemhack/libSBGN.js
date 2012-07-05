@@ -1,0 +1,323 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "CaER", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Ca_cyt", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CaER", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "CaER"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "CaM", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "Ca_cyt", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "CaM"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "Ca_cyt", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "CaPr", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "Pr"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "Pr", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "CaPr"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jch", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jleak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jpump", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jout", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of CaPr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaPr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaPr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pr", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of Ca on Pr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "Pr", 
+               "Ca_cyt", 
+               "v12", 
+               "v11", 
+               "CaPr", 
+               "v1", 
+               "v3", 
+               "v5", 
+               "v7", 
+               "v9"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Endoplasmic_Reticulum", 
+            "subnodes": [
+               "CaER", 
+               "v3", 
+               "v5", 
+               "v1"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Endoplasmic_Reticulum", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Mitochondria", 
+            "subnodes": [
+               "v9", 
+               "CaM", 
+               "v7"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Mitochondria", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

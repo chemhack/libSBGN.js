@@ -1,0 +1,428 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "atp", 
+         "target": "vak"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "asp", 
+         "target": "vak"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "vak", 
+         "target": "aspp"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "vak", 
+         "target": "adp"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "thr", 
+         "target": "vak"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "nadph", 
+         "target": "vasd"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "aspp", 
+         "target": "vasd"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "vasd", 
+         "target": "nadp"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "vasd", 
+         "target": "phos"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "vasd", 
+         "target": "asa"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "nadph", 
+         "target": "vhdh"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "asa", 
+         "target": "vhdh"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "vhdh", 
+         "target": "hs"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "vhdh", 
+         "target": "nadp"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "asp", 
+         "target": "vhdh"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "thr", 
+         "target": "vhdh"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "hsp", 
+         "target": "vtsy"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "vtsy", 
+         "target": "thr"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "vtsy", 
+         "target": "phos"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "hs", 
+         "target": "vhk"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "atp", 
+         "target": "vhk"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "vhk", 
+         "target": "hsp"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "vhk", 
+         "target": "adp"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "thr", 
+         "target": "vhk"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "nadph", 
+         "target": "vnadph_endo"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "vnadph_endo", 
+         "target": "nadp"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "atp", 
+         "target": "vatpase"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "vatpase", 
+         "target": "adp"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "vatpase", 
+         "target": "phos"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aspartate Kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vak", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "atp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Aspartate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "asp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Aspartyl phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aspp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "adp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Threonine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "thr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aspartate semialdehyde dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vasd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "nadph", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "nadp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phos", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phos", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Aspartate beta-semialdehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "asa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Homoserine dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vhdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Homoserine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "hs", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Threonine synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vtsy", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "O-Phospho-homoserine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "hsp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Homoserine kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vhk", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Endogenous consumption of NADPH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vnadph_endo", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vatpase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "vak", 
+               "phos", 
+               "asp", 
+               "vhk", 
+               "adp", 
+               "hs", 
+               "thr", 
+               "vasd", 
+               "vhdh", 
+               "nadph", 
+               "asa", 
+               "vnadph_endo", 
+               "aspp", 
+               "vtsy", 
+               "atp", 
+               "hsp", 
+               "nadp", 
+               "vatpase"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,248 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Hser", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Phser"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Phser", 
+         "target": "vCys"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Cys", 
+         "target": "vCys"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "vCys", 
+         "target": "Cystathionine"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "vCys", 
+         "target": "Phi"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "CGS", 
+         "target": "vCys"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Phser", 
+         "target": "vThr"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "vThr", 
+         "target": "Thr"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "vThr", 
+         "target": "Phi"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "AdoMet", 
+         "target": "vThr"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "TS", 
+         "target": "vThr"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphohomoserine synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Homoserine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hser", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphohomoserine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Phser", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cystathionine gamma-synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vCys", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cysteine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cys", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cystathionine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cystathionine", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inorganic phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Phi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cystathionine gamma-synthase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGS", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Threonine Synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vThr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Threonine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Thr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S-adenosylmethionine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AdoMet", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Threonine synthase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TS", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cell", 
+            "subnodes": [
+               "Cys", 
+               "Phi", 
+               "Cystathionine", 
+               "vThr", 
+               "Phser", 
+               "Thr", 
+               "TS", 
+               "v1", 
+               "AdoMet", 
+               "vCys", 
+               "Hser", 
+               "CGS"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

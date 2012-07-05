@@ -1,0 +1,2340 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "RuBisCO_CO2", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "SBP", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "NADPH", 
+         "target": "RuBisCO_CO2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "DPGA"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "DPGA", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "NADPH", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "TP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "NADP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "FBP_A"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "FBP_A", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "FBP_A"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "FBP_A"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "FBPase", 
+         "target": "HeP"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "FBPase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "FBPase"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "HeP", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "F6P_TK", 
+         "target": "E4P"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "F6P_TK", 
+         "target": "PeP"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "X5P", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "E4P", 
+         "target": "F6P_TK"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "SBP_A"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "E4P", 
+         "target": "SBP_A"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "SBP_A", 
+         "target": "SBP"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "SBP_A"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "SBP", 
+         "target": "SBPase"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "SBPase", 
+         "target": "S7P"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "SBPase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "SBPase"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "S7P", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "S7P_TK", 
+         "target": "PeP"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "X5P", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "R5P", 
+         "target": "S7P_TK"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "PeP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "RuBP"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "Ru5P", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "RuBP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "ATP_S", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "HeP", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "AGPase", 
+         "target": "AGPasesink"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "G1P", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "AGPase"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "TPT_PGA", 
+         "target": "PGAc"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 168, 
+         "source": "Pic", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "TPT_PGA"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "TPT_GAP", 
+         "target": "TPc"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 168, 
+         "source": "GAPc", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 168, 
+         "source": "Pic", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "TPT_GAP"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "TPT_DHAP", 
+         "target": "TPc"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 168, 
+         "source": "DHAP", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 168, 
+         "source": "DHAPc", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 168, 
+         "source": "Pic", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 168, 
+         "source": "GAP", 
+         "target": "TPT_DHAP"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 394, 
+         "source": "TPc", 
+         "target": "FBPc_A"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "FBPc_A", 
+         "target": "FBPc"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 168, 
+         "source": "GAPc", 
+         "target": "FBPc_A"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 168, 
+         "source": "DHAPc", 
+         "target": "FBPc_A"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "FBPc", 
+         "target": "FBPcase"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "FBPcase", 
+         "target": "HePc"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "FBPcase", 
+         "target": "Pic"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 168, 
+         "source": "F6Pc", 
+         "target": "FBPcase"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "HePc", 
+         "target": "UGPase"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "UTPc", 
+         "target": "UGPase"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "UGPase", 
+         "target": "UDPGc"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "UGPase", 
+         "target": "PiPic"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 168, 
+         "source": "G1Pc", 
+         "target": "UGPase"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 394, 
+         "source": "HePc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "UDPGc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "SucPc_S", 
+         "target": "SucPc"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "SucPc_S", 
+         "target": "UDPc"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 168, 
+         "source": "F6Pc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 168, 
+         "source": "FBPc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "UDPc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 168, 
+         "source": "SucPc", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 168, 
+         "source": "Succ", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "Pic", 
+         "target": "SucPc_S"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "SucPc", 
+         "target": "SucPc_P"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "SucPc_P", 
+         "target": "Succ"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 393, 
+         "source": "SucPc_P", 
+         "target": "Pic"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 168, 
+         "source": "Succ", 
+         "target": "SucPc_P"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 394, 
+         "source": "HePc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "ATPc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "F6Pc_K", 
+         "target": "F26BPc"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 393, 
+         "source": "F6Pc_K", 
+         "target": "ADPc"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 168, 
+         "source": "F6Pc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 168, 
+         "source": "F26BPc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 168, 
+         "source": "DHAPc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 168, 
+         "source": "ADPc", 
+         "target": "F6Pc_K"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 394, 
+         "source": "F26BPc", 
+         "target": "F26BPc_P"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "F26BPc_P", 
+         "target": "HePc"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 393, 
+         "source": "F26BPc_P", 
+         "target": "Pic"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 168, 
+         "source": "Pic", 
+         "target": "F26BPc_P"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 168, 
+         "source": "F6Pc", 
+         "target": "F26BPc_P"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "Succ", 
+         "target": "Succ_Deg"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "Succ_Deg", 
+         "target": "Succ_Degsink"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 394, 
+         "source": "PGAc", 
+         "target": "PGAc_Deg"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 393, 
+         "source": "PGAc_Deg", 
+         "target": "PGAc_Degsink"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "GCEAc", 
+         "target": "GPT_GCEAc"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "GPT_GCEAc", 
+         "target": "GCEA"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 168, 
+         "source": "GCAc", 
+         "target": "GPT_GCEAc"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 394, 
+         "source": "GCEA", 
+         "target": "GPT_GCEA"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 393, 
+         "source": "GPT_GCEA", 
+         "target": "GCEAc"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 168, 
+         "source": "GCA", 
+         "target": "GPT_GCEA"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 394, 
+         "source": "GCA", 
+         "target": "GPT_GCA"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "GPT_GCA", 
+         "target": "GCAc"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 168, 
+         "source": "GCEA", 
+         "target": "GPT_GCA"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 394, 
+         "source": "GCAc", 
+         "target": "GPT_GCAc"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 393, 
+         "source": "GPT_GCAc", 
+         "target": "GCA"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 168, 
+         "source": "GCEAc", 
+         "target": "GPT_GCAc"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "RuBisCO_O2", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 393, 
+         "source": "RuBisCO_O2", 
+         "target": "PGCA"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 168, 
+         "source": "SBP", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 168, 
+         "source": "NADPH", 
+         "target": "RuBisCO_O2"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 394, 
+         "source": "PGCA", 
+         "target": "PGCA_P"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 393, 
+         "source": "PGCA_P", 
+         "target": "GCA"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 168, 
+         "source": "GCA", 
+         "target": "PGCA_P"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "PGCA_P"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "GCEA_K"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 394, 
+         "source": "GCEA", 
+         "target": "GCEA_K"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 393, 
+         "source": "GCEA_K", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "GCEA_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 168, 
+         "source": "PGA", 
+         "target": "GCEA_K"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 394, 
+         "source": "GCAc", 
+         "target": "GCAc_Ox"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 393, 
+         "source": "GCAc_Ox", 
+         "target": "GOAc"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 394, 
+         "source": "SERc", 
+         "target": "SERcGOAc_AT"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 394, 
+         "source": "GOAc", 
+         "target": "SERcGOAc_AT"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 393, 
+         "source": "SERcGOAc_AT", 
+         "target": "HPRc"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 393, 
+         "source": "SERcGOAc_AT", 
+         "target": "GLYc"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 168, 
+         "source": "GLYc", 
+         "target": "SERcGOAc_AT"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 394, 
+         "source": "HPRc", 
+         "target": "GCEA_DH"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "GCEA_DH"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 393, 
+         "source": "GCEA_DH", 
+         "target": "GCEAc"
+      }, 
+      {
+         "id": "edge174", 
+         "sbo": 393, 
+         "source": "GCEA_DH", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge175", 
+         "sbo": 168, 
+         "source": "HPRc", 
+         "target": "GCEA_DH"
+      }, 
+      {
+         "id": "edge176", 
+         "sbo": 394, 
+         "source": "GLUc", 
+         "target": "GLUcGOAc_AT"
+      }, 
+      {
+         "id": "edge177", 
+         "sbo": 394, 
+         "source": "GOAc", 
+         "target": "GLUcGOAc_AT"
+      }, 
+      {
+         "id": "edge178", 
+         "sbo": 393, 
+         "source": "GLUcGOAc_AT", 
+         "target": "KGc"
+      }, 
+      {
+         "id": "edge179", 
+         "sbo": 393, 
+         "source": "GLUcGOAc_AT", 
+         "target": "GLYc"
+      }, 
+      {
+         "id": "edge180", 
+         "sbo": 168, 
+         "source": "GLYc", 
+         "target": "GLUcGOAc_AT"
+      }, 
+      {
+         "id": "edge181", 
+         "sbo": 394, 
+         "source": "GLYc", 
+         "target": "GLYc_DC"
+      }, 
+      {
+         "id": "edge182", 
+         "sbo": 393, 
+         "source": "GLYc_DC", 
+         "target": "SERc"
+      }, 
+      {
+         "id": "edge183", 
+         "sbo": 168, 
+         "source": "SERc", 
+         "target": "GLYc_DC"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisCO - CO2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO_CO2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DPGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP_DH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBP aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP_A", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DHAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HeP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HeP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6P transketolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P_TK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E4P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E4P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PeP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PeP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBP aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBP_A", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S7P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S7P transketolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P_TK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ru5P kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ru5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP synthetase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AGPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AGPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AGPasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G1P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G1P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - PGA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_PGA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGAc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGAc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pic", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pic", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TPT - DHAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT_DHAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DHAPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBPc aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPc_A", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBPcase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPcase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HePc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HePc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6Pc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6Pc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "UGPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UGPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UTPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UTPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UDPGc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UDPGc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PiPic", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PiPic", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G1Pc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G1Pc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SucPc synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SucPc_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SucPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SucPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UDPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UDPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Succ", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Succ", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SucPc phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SucPc_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6Pc kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6Pc_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F26BPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F26BPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F26BPc phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F26BPc_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Succ degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Succ_Deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Succ_Degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGAc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGAc_Deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGAc_Degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GPT - GCEAc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GPT_GCEAc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GCEAc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCEAc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GCEA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCEA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GCAc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCAc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GPT - GCEA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GPT_GCEA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GCA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GPT - GCA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GPT_GCA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GPT - GCAc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GPT_GCAc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisC0 - O2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO_O2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGCA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGCA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGCA phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGCA_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GCEA kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCEA_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GCAc oxidase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCAc_Ox", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GOAc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GOAc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SERc:GOAc aminotransferase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SERcGOAc_AT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SERc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SERc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HPRc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HPRc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLYc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLYc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GCEA dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GCEA_DH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLUc:GOAc aminotransferase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLUcGOAc_AT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLUc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLUc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "KGc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "KGc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLYc decarboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLYc_DC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "chloroplast", 
+            "subnodes": [
+               "TPT_GAP", 
+               "GPT_GCAc", 
+               "GPT_GCEA", 
+               "Ru5P_K", 
+               "ATP", 
+               "PGA_K", 
+               "S7P_TK", 
+               "NADP", 
+               "RuBisCO_CO2", 
+               "Ru5P", 
+               "TPT_DHAP", 
+               "E4P", 
+               "Pi", 
+               "HeP", 
+               "PGA", 
+               "PeP", 
+               "TP", 
+               "GAP", 
+               "GAP_DH", 
+               "F6P_TK", 
+               "FBPase", 
+               "RuBP", 
+               "ATP_S", 
+               "PGCA", 
+               "HPRc", 
+               "GPT_GCEAc", 
+               "DPGA", 
+               "GPT_GCA", 
+               "G1P", 
+               "GCA", 
+               "PGCA_P", 
+               "TPT_PGA", 
+               "ADP", 
+               "GCEA_DH", 
+               "AGPasesink", 
+               "NADPH", 
+               "S7P", 
+               "X5P", 
+               "R5P", 
+               "RuBisCO_O2", 
+               "GCEA", 
+               "SBP", 
+               "FBP", 
+               "GCEA_K", 
+               "AGPase", 
+               "SERcGOAc_AT", 
+               "SBP_A", 
+               "DHAP", 
+               "FBP_A", 
+               "SBPase", 
+               "F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "chloroplast", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "GLUcGOAc_AT", 
+               "NADH", 
+               "UDPc", 
+               "SucPc_S", 
+               "SucPc_P", 
+               "TPT_GAP", 
+               "PGAc", 
+               "GPT_GCAc", 
+               "GPT_GCEA", 
+               "DHAPc", 
+               "F26BPc", 
+               "PGAc_Deg", 
+               "ATPc", 
+               "GCEAc", 
+               "Succ_Deg", 
+               "GPT_GCEAc", 
+               "NAD", 
+               "SERcGOAc_AT", 
+               "SucPc", 
+               "F26BPc_P", 
+               "PGAc_Degsink", 
+               "Succ", 
+               "TPT_PGA", 
+               "GPT_GCA", 
+               "UDPGc", 
+               "FBPcase", 
+               "FBPc_A", 
+               "Succ_Degsink", 
+               "FBPc", 
+               "GCEA_DH", 
+               "GOAc", 
+               "PiPic", 
+               "GLYc", 
+               "HePc", 
+               "G1Pc", 
+               "UTPc", 
+               "F6Pc_K", 
+               "UGPase", 
+               "GAPc", 
+               "TPc", 
+               "ADPc", 
+               "Pic", 
+               "KGc", 
+               "GCAc", 
+               "GLUc", 
+               "TPT_DHAP", 
+               "GLYc_DC", 
+               "F6Pc", 
+               "GCAc_Ox", 
+               "SERc"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,520 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Galpha_GTP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "R2sink", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Galpha_GTP"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Galpha_GTP", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "R3sink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Galpha_GTP", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "R4sink"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "R5sink", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "APLC"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "PLC", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "APLC", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "R6sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "R7sink", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "IP3"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "APLC", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "IP3", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "R8sink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Ca_ER", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "Ca_Cyt"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "Ca_Cyt", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "R10sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "R11sink", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "Ca_Cyt"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Galpha_GTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Galpha_GTP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "APLC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "APLC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_ER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "R4sink", 
+               "R1sink", 
+               "IP3", 
+               "Galpha_GTP", 
+               "R6sink", 
+               "R2sink", 
+               "R5sink", 
+               "R7sink", 
+               "Ca_Cyt", 
+               "R3sink", 
+               "R10", 
+               "R10sink", 
+               "R8sink", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R8", 
+               "R9", 
+               "APLC", 
+               "R11", 
+               "PLC", 
+               "R11sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ER", 
+            "subnodes": [
+               "R9", 
+               "Ca_ER"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

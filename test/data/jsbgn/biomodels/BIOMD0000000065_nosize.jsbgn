@@ -1,0 +1,729 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r_m1sink", 
+         "target": "r_m1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r_m1", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "r_m2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "r_m2", 
+         "target": "r_m2sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "I1", 
+         "target": "r_m3_i1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "r_m3_i1", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "r_i1sink", 
+         "target": "r_i1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "r_i1", 
+         "target": "I1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "A", 
+         "target": "r_i1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "r_b1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "r_b1", 
+         "target": "r_b1sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "I2", 
+         "target": "r_b2_i2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "r_b2_i2", 
+         "target": "B"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "r_i2sink", 
+         "target": "r_i2"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "r_i2", 
+         "target": "I2"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "r_i2"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "r_a1"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "r_a1", 
+         "target": "r_a1sink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "r_a2"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "r_a2", 
+         "target": "r_a2sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "B", 
+         "target": "r_a2"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "L", 
+         "target": "r_a3_l1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "r_a3_l1", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "B", 
+         "target": "r_a3_l1"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "L", 
+         "target": "r_l2"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "r_l2", 
+         "target": "r_l2sink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "L", 
+         "target": "r_l3"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "r_l3", 
+         "target": "r_l3sink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "P", 
+         "target": "r_l3"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "r_l4sink", 
+         "target": "r_l4"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "r_l4", 
+         "target": "L"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "P", 
+         "target": "r_l4"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "L_e", 
+         "target": "r_l4"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "r_p1"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "r_p1", 
+         "target": "r_p1sink"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "I3", 
+         "target": "r_p2_i3"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "r_p2_i3", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "r_i3sink", 
+         "target": "r_i3"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "r_i3", 
+         "target": "I3"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "r_i3"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Basal_mRNA_Synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_m1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_m1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNA_Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_m2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_m2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "allolactose_controlled_mRNA_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_m3_i1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PartialmRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I1", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "allolactose_controlled_partial_mRNA_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "allolactose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Beta_galactosidase_Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_b1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Betagalactosidase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "B", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_b1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Beta_galactosidase_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_b2_i2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PartialBetagalactosidase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Partial_Beta_galactosidase_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Basal_Allolactose_Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_a1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_a1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Betagalactosidase_mediated_Allolactose_Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_a2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_a2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Beta_galactosidase_reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_a3_l1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "lactose_internal", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "L", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "lactose_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Lactose_transport_out", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "permease", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Lactose_transport_in", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_l4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "External_Lactose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "L_e", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "permease_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_p1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_p1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "permease_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_p2_i3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PartialPermease", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "partial_permease_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r_i3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "r_m2sink", 
+               "r_b2_i2", 
+               "L_e", 
+               "r_a2sink", 
+               "r_m2", 
+               "r_m1", 
+               "r_a2", 
+               "r_a1", 
+               "r_i2", 
+               "r_i3", 
+               "r_i1", 
+               "I1", 
+               "r_a3_l1", 
+               "I2", 
+               "r_m3_i1", 
+               "r_b1sink", 
+               "A", 
+               "r_m1sink", 
+               "B", 
+               "r_p2_i3", 
+               "M", 
+               "L", 
+               "r_l2sink", 
+               "P", 
+               "r_l3", 
+               "r_l2", 
+               "r_l4", 
+               "r_l4sink", 
+               "r_b1", 
+               "r_l3sink", 
+               "r_p1sink", 
+               "r_i3sink", 
+               "r_p1", 
+               "r_i2sink", 
+               "r_a1sink", 
+               "I3", 
+               "r_i1sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

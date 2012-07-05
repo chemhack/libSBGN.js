@@ -1,0 +1,917 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "source", 
+         "target": "proteinSynthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "proteinSynthesis", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "NatP", 
+         "target": "misfolding"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "misfolding"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "misfolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "misfolding", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Hsp90MisPBinding"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90MisPBinding"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Hsp90MisPBinding", 
+         "target": "MCom"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "MCom", 
+         "target": "unsuccessulRefolding"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "unsuccessulRefolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "unsuccessulRefolding", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "MCom", 
+         "target": "refolding"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "refolding"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "refolding", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "refolding", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "refolding", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "proteinDegradation"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "proteinDegradation"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "proteinDegradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "proteinAggregation1"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "proteinAggregation1", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "proteinAggregation2"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "proteinAggregation2"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "proteinAggregation2", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90HSF1Binding"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "HSF1", 
+         "target": "Hsp90HSF1Binding"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Binding", 
+         "target": "HCom"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "HCom", 
+         "target": "Hsp90HSF1Release"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Release", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Release", 
+         "target": "HSF1"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "HSF1", 
+         "target": "dimerisation"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "dimerisation", 
+         "target": "DiH"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "HSF1", 
+         "target": "trimerisation"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "DiH", 
+         "target": "trimerisation"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "trimerisation", 
+         "target": "TriH"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "TriH", 
+         "target": "deTrimerisation"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "deTrimerisation", 
+         "target": "HSF1"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "deTrimerisation", 
+         "target": "DiH"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "DiH", 
+         "target": "deDimerisation"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "deDimerisation", 
+         "target": "HSF1"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "TriH", 
+         "target": "HSETriHBinding"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "HSE", 
+         "target": "HSETriHBinding"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "HSETriHBinding", 
+         "target": "HSETriH"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "HSETriH", 
+         "target": "HSETriHRelease"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "HSETriHRelease", 
+         "target": "HSE"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "HSETriHRelease", 
+         "target": "TriH"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "HSETriH", 
+         "target": "Hsp90Transcription"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "Hsp90Transcription", 
+         "target": "HSETriH"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "Hsp90Transcription", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90Degradation"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Hsp90Degradation"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "Hsp90Degradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "source", 
+         "target": "countTime"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "countTime", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "ATPformation"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "ATPformation", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ATPconsumption"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "ATPconsumption", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "source", 
+         "target": "radicalFormation"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "radicalFormation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "radicalScavenging"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "radicalScavenging", 
+         "target": "radicalScavengingsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "proteinSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "proteinSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "source", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "source", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NatP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NatP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "misfolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "misfolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ROS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90MisPBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90MisPBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MCom", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MCom", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "unsuccessfulRefolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "unsuccessulRefolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "refolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "refolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "proteinDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "proteinDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "proteinAggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "proteinAggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "proteinAggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "proteinAggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90HSF1Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90HSF1Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSF1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSF1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HCom", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HCom", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90HSF1Release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90HSF1Release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DiH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DiH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "trimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "trimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TriH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TriH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "deTrimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "deTrimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "deDimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "deDimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSETriHBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSETriHBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSE", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSETriH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSETriH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSETriHRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSETriHRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90Transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Transcription", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "countTime", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "countTime", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPformation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPformation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPconsumption", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPconsumption", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "radicalFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "radicalFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "radicalScavenging", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "radicalScavenging", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "radicalScavengingsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "Hsp90MisPBinding", 
+               "HSF1", 
+               "unsuccessulRefolding", 
+               "trimerisation", 
+               "Hsp90", 
+               "radicalScavenging", 
+               "HCom", 
+               "ATP", 
+               "ATPformation", 
+               "source", 
+               "NatP", 
+               "refolding", 
+               "ATPconsumption", 
+               "proteinAggregation1", 
+               "proteinAggregation2", 
+               "HSETriHBinding", 
+               "ROS", 
+               "proteinDegradation", 
+               "countTime", 
+               "TriH", 
+               "ADP", 
+               "Hsp90Transcription", 
+               "Hsp90HSF1Release", 
+               "Hsp90Degradation", 
+               "radicalFormation", 
+               "X", 
+               "HSETriH", 
+               "MisP", 
+               "MCom", 
+               "Hsp90HSF1Binding", 
+               "dimerisation", 
+               "DiH", 
+               "deTrimerisation", 
+               "deDimerisation", 
+               "misfolding", 
+               "HSE", 
+               "proteinSynthesis", 
+               "AggP", 
+               "HSETriHRelease", 
+               "radicalScavengingsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,214 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "TC"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "TC", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "P", 
+         "target": "TC"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "TL"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "TL", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "TL"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "mRNAD"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "mRNAD", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "ProteinD"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "ProteinD", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "DBT"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "DBT", 
+         "target": "EmptySet"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EmptySet", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "M", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TL", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRNAD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteinD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per phosphorylation and degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DBT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "default", 
+            "subnodes": [
+               "TC", 
+               "TL", 
+               "EmptySet", 
+               "mRNAD", 
+               "ProteinD", 
+               "DBT"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "default", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "CYTOPLASM", 
+            "subnodes": [
+               "M", 
+               "DBT", 
+               "P", 
+               "TL", 
+               "mRNAD", 
+               "ProteinD", 
+               "TC"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "CYTOPLASM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

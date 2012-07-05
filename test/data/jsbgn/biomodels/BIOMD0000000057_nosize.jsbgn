@@ -1,0 +1,223 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "O"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "I1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "O", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "O", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "I2"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor-Open state transition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Open State", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor-Inactivated state 1 transition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactivated State 1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Open-Shut state transition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Shut State", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Open-Activated state transition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Activated State", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Activated-Inactivated state 2 transition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactivated State 2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "A", 
+               "I1", 
+               "I2", 
+               "S", 
+               "v3", 
+               "v1", 
+               "v2", 
+               "R", 
+               "v4", 
+               "O", 
+               "v5"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

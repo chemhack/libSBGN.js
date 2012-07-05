@@ -1,0 +1,889 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "x2", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "x3"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "x1", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "x5"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "x5", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "x4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "x1", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "x5", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "x2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "x2", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "x6"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "x4", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "x7"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "x5", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "x8"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "R8sink", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "x6"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "x6", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "R9sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "x7", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "x6"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "x8", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "x6"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "x9", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "x10"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "x4", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "x5", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "x11", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "x10", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "x12"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "x14", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "x13"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "x15", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "x13"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "x16", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "x17"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "x18", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "x19"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "R18sink", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "x20"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "x20", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "R19sink"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "x20", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "R20", 
+         "target": "x21"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Insulin binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unbound Insulin Receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unphosphorylated once bound receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Insulin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor Autophosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated once bound receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Insulin Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated twice bound receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x4", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor endocytosis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unbound unphosphorylated intracellular receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x6", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated twice bound intracellular receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x7", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated once bound intracellular receptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x8", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Receptor degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Intracellular receptor dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Intracellular receptor dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IRS1 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unphosphorylated IRS1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated IRS1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x10", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IRS1-PI3K complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI3 Kinase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x11", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IRS1- PI3 Kinase Complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x12", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PI 3,4,5 P3 generation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI4,5P2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x14", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI3,4,5P3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x13", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PI 3,4,5P3 generation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI3,4P2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x15", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Akt activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unactivated Akt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x16", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Activated Akt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x17", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PKC activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unactivated PKC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x18", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Activated PKC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x19", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLUT4 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Intracellular GLUT4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLUT4 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLUT4 translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cell surface GLUT4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x21", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "CellSurface", 
+            "subnodes": [
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R20", 
+               "x2", 
+               "x3", 
+               "x1", 
+               "x21", 
+               "x4", 
+               "x5"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "CellSurface", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Intracellular", 
+            "subnodes": [
+               "R18sink", 
+               "R16", 
+               "R17", 
+               "R14", 
+               "R15", 
+               "R12", 
+               "R13", 
+               "R10", 
+               "R11", 
+               "R18", 
+               "R19", 
+               "R8sink", 
+               "x20", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R9sink", 
+               "R8", 
+               "R9", 
+               "x8", 
+               "x9", 
+               "x6", 
+               "x7", 
+               "R20", 
+               "x18", 
+               "x19", 
+               "R19sink", 
+               "x10", 
+               "x11", 
+               "x12", 
+               "x13", 
+               "x14", 
+               "x15", 
+               "x16", 
+               "x17"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Intracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

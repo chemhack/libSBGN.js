@@ -1,0 +1,400 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "totRuBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "RuBisCO", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "E_RuBisCO", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA_red"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "PGA_red"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "TP"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TP_red"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "TP_red", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "TP_red", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Ru5P", 
+         "target": "RuBP_reg"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "RuBP_reg"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "RuBP_reg", 
+         "target": "RuBP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "RuBP_reg", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "Pi", 
+         "target": "RuBP_reg"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TPT"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Pic", 
+         "target": "TPT"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "TPT", 
+         "target": "TPc"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "TPT", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "ATP_S", 
+         "target": "ATP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisCO", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "totRuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "totRuBP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBisCo", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E_RuBisCO", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA reduction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA_red", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TP reduction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TP_red", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ru5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBP regeneration", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP_reg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TP translocator", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pic", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pic", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "chloroplast", 
+            "subnodes": [
+               "Ru5P", 
+               "totRuBP", 
+               "TP_red", 
+               "ADP", 
+               "PGA", 
+               "ATP_S", 
+               "RuBisCO", 
+               "PGA_red", 
+               "E_RuBisCO", 
+               "TP", 
+               "TPT", 
+               "RuBP", 
+               "ATP", 
+               "RuBP_reg", 
+               "Pi"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "chloroplast", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "TPT", 
+               "Pic", 
+               "TPc"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

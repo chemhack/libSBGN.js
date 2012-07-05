@@ -1,0 +1,1596 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_1sink", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "cLm"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "cAn", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "cXn", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "cLm", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_0", 
+         "target": "reaction_0sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "reaction_2sink", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "cLc"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "cLm", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "cLc", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "cLn"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "cLc", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "reaction_4sink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "cLn", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "reaction_5sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "reaction_6sink", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "cTm"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "cYn", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "cTm", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "reaction_7sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "cYc", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "cYn"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "cYn", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "reaction_10sink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "reaction_11sink", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "cYc"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "cYm", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "cYc", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "reaction_12sink"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "cXc", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "cXn"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "cXc", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "reaction_14sink"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "reaction_15sink", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "reaction_15", 
+         "target": "cXc"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "cXm", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "cXn", 
+         "target": "reaction_16"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction_16", 
+         "target": "reaction_16sink"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "reaction_17sink", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "reaction_17", 
+         "target": "cAc"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "cAm", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "cAc", 
+         "target": "reaction_18"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "reaction_18", 
+         "target": "cAn"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "cAc", 
+         "target": "reaction_19"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "reaction_19", 
+         "target": "reaction_19sink"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "cAn", 
+         "target": "reaction_20"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "reaction_20", 
+         "target": "reaction_20sink"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "reaction_21sink", 
+         "target": "reaction_21"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "reaction_21", 
+         "target": "cPn"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "cPn", 
+         "target": "reaction_22"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "reaction_22", 
+         "target": "reaction_22sink"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "cPn", 
+         "target": "reaction_23"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "reaction_23", 
+         "target": "reaction_23sink"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "reaction_25sink", 
+         "target": "reaction_25"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "reaction_25", 
+         "target": "cAm"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "reaction_25"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "reaction_26sink", 
+         "target": "reaction_26"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "reaction_26", 
+         "target": "cAm"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "reaction_26"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "cAm", 
+         "target": "reaction_27"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "reaction_27", 
+         "target": "reaction_27sink"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "reaction_28sink", 
+         "target": "reaction_28"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "reaction_28", 
+         "target": "cXm"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "cTn", 
+         "target": "reaction_28"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "cXm", 
+         "target": "reaction_29"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "reaction_29", 
+         "target": "reaction_29sink"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "reaction_30sink", 
+         "target": "reaction_30"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "reaction_30", 
+         "target": "cTc"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 168, 
+         "source": "cTm", 
+         "target": "reaction_30"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "cTc", 
+         "target": "reaction_31"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "reaction_31", 
+         "target": "cTn"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "cTc", 
+         "target": "reaction_32"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "reaction_32", 
+         "target": "reaction_32sink"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "cTc", 
+         "target": "reaction_33"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "reaction_33", 
+         "target": "reaction_33sink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "cTn", 
+         "target": "reaction_34"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "reaction_34", 
+         "target": "reaction_34sink"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "cTn", 
+         "target": "reaction_38"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "reaction_38", 
+         "target": "reaction_38sink"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "reaction_39sink", 
+         "target": "reaction_39"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "reaction_39", 
+         "target": "cYm"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 168, 
+         "source": "cTn", 
+         "target": "reaction_39"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 168, 
+         "source": "cLn", 
+         "target": "reaction_39"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 168, 
+         "source": "cPn", 
+         "target": "reaction_39"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "cYm", 
+         "target": "reaction_40"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "reaction_40", 
+         "target": "reaction_40sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LHY mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PPR7/9 protein in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cAn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X protein in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "light sensitive protein P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cPn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLc translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LHY protein in cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "LHY protein translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LHY protein in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTm  transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TOC1 mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y protein in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Y protein translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y protein in the cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYc translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cYm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "X protein translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X protein in cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXc translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cXm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cAc translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PPR7/9 protein in cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cAc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PPR7/9 mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cAm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PPR7/9 protein translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cAc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cAn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light dependent production of protein P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_21sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light activation protein P degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_22sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cPn degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_23sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light activation of cAm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light independent cAm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_26sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cAm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_27sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_28sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TOC1 protein in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cXm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_29sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTc translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TOC1 protein  in cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TOC1 protein translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light activation degradation of cTc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_32sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light independent degradation of cTc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_33sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light activation degradation of cTn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_34sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "light independent degradation cTn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYm transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cYm degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_40sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "reaction_34", 
+               "cPn", 
+               "reaction_1", 
+               "reaction_10sink", 
+               "reaction_11", 
+               "reaction_23sink", 
+               "reaction_11sink", 
+               "cAn", 
+               "cAm", 
+               "cTc", 
+               "cAc", 
+               "cTm", 
+               "cTn", 
+               "reaction_13", 
+               "reaction_40", 
+               "reaction_38", 
+               "reaction_15sink", 
+               "reaction_20", 
+               "reaction_23", 
+               "reaction_22", 
+               "reaction_25", 
+               "reaction_22sink", 
+               "reaction_27", 
+               "reaction_26", 
+               "reaction_20sink", 
+               "reaction_28", 
+               "reaction_7sink", 
+               "reaction_33", 
+               "reaction_39sink", 
+               "cXc", 
+               "reaction_14sink", 
+               "reaction_40sink", 
+               "reaction_21", 
+               "reaction_6sink", 
+               "reaction_33sink", 
+               "cXm", 
+               "cXn", 
+               "reaction_29sink", 
+               "cLm", 
+               "cLn", 
+               "reaction_16sink", 
+               "reaction_39", 
+               "reaction_1sink", 
+               "reaction_25sink", 
+               "reaction_0sink", 
+               "reaction_30sink", 
+               "cLc", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_0", 
+               "reaction_4sink", 
+               "reaction_32", 
+               "reaction_19sink", 
+               "reaction_21sink", 
+               "reaction_9", 
+               "reaction_28sink", 
+               "reaction_32sink", 
+               "reaction_5sink", 
+               "reaction_18", 
+               "reaction_19", 
+               "reaction_30", 
+               "reaction_31", 
+               "reaction_14", 
+               "reaction_15", 
+               "reaction_16", 
+               "reaction_17", 
+               "reaction_10", 
+               "reaction_2sink", 
+               "reaction_12", 
+               "reaction_12sink", 
+               "cYc", 
+               "reaction_29", 
+               "reaction_38sink", 
+               "reaction_34sink", 
+               "reaction_17sink", 
+               "reaction_27sink", 
+               "reaction_26sink", 
+               "cYn", 
+               "cYm"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

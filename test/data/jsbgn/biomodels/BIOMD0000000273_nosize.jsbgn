@@ -1,0 +1,1859 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "cL_m_trscrsink", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "cL_m_trscr", 
+         "target": "cL_m"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "cNI", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "cP", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "cP7", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "cP9", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "cTm", 
+         "target": "cL_m_trscr"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "cL_m", 
+         "target": "cL_m_degr"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "cL_m_degr", 
+         "target": "cL_m_degrsink"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "cL_trslsink", 
+         "target": "cL_trsl"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "cL_trsl", 
+         "target": "cL"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "cL_m", 
+         "target": "cL_trsl"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "cL", 
+         "target": "cL_degr"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "cL_degr", 
+         "target": "cL_degrsink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "cL_modifsink", 
+         "target": "cL_modif"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "cL_modif", 
+         "target": "cLm"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cL_modif"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "cLm", 
+         "target": "cLm_degr"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "cLm_degr", 
+         "target": "cLm_degrsink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "cT_m_trscrsink", 
+         "target": "cT_m_trscr"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "cT_m_trscr", 
+         "target": "cT_m"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cT_m_trscr"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "cY", 
+         "target": "cT_m_trscr"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "cT_m", 
+         "target": "cT_m_degr"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "cT_m_degr", 
+         "target": "cT_m_degrsink"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "cT_trslsink", 
+         "target": "cT_trsl"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "cT_trsl", 
+         "target": "cT"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "cT_m", 
+         "target": "cT_trsl"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "cT", 
+         "target": "cT_degr"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "cT_degr", 
+         "target": "cT_degrsink"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "cZG", 
+         "target": "cT_degr"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "cZTL", 
+         "target": "cT_degr"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "cT_modifsink", 
+         "target": "cT_modif"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "cT_modif", 
+         "target": "cTm"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "cT", 
+         "target": "cT_modif"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "cTm", 
+         "target": "cTm_degr"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "cTm_degr", 
+         "target": "cTm_degrsink"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "cY_m_trscrsink", 
+         "target": "cY_m_trscr"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "cY_m_trscr", 
+         "target": "cY_m"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cY_m_trscr"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "cP", 
+         "target": "cY_m_trscr"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "cT", 
+         "target": "cY_m_trscr"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "cY_m", 
+         "target": "cY_m_degr"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "cY_m_degr", 
+         "target": "cY_m_degrsink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "cY_trslsink", 
+         "target": "cY_trsl"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "cY_trsl", 
+         "target": "cY"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "cY_m", 
+         "target": "cY_trsl"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "cY", 
+         "target": "cY_degr"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "cY_degr", 
+         "target": "cY_degrsink"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "cP_trslsink", 
+         "target": "cP_trsl"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "cP_trsl", 
+         "target": "cP"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "cP", 
+         "target": "cP_degr"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "cP_degr", 
+         "target": "cP_degrsink"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "cP9_m_trscrsink", 
+         "target": "cP9_m_trscr"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "cP9_m_trscr", 
+         "target": "cP9_m"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cP9_m_trscr"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "cP", 
+         "target": "cP9_m_trscr"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "cT", 
+         "target": "cP9_m_trscr"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "cP9_m", 
+         "target": "cP9_m_degr"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "cP9_m_degr", 
+         "target": "cP9_m_degrsink"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "cP9_trslsink", 
+         "target": "cP9_trsl"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "cP9_trsl", 
+         "target": "cP9"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "cP9_m", 
+         "target": "cP9_trsl"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "cP9", 
+         "target": "cP9_degr"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "cP9_degr", 
+         "target": "cP9_degrsink"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "cP7_m_trscrsink", 
+         "target": "cP7_m_trscr"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "cP7_m_trscr", 
+         "target": "cP7_m"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cP7_m_trscr"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "cLm", 
+         "target": "cP7_m_trscr"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 168, 
+         "source": "cP9", 
+         "target": "cP7_m_trscr"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "cP7_m", 
+         "target": "cP7_m_degr"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "cP7_m_degr", 
+         "target": "cP7_m_degrsink"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "cP7_trslsink", 
+         "target": "cP7_trsl"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "cP7_trsl", 
+         "target": "cP7"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "cP7_m", 
+         "target": "cP7_trsl"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "cP7", 
+         "target": "cP7_degr"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "cP7_degr", 
+         "target": "cP7_degrsink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "cNI_m_trscrsink", 
+         "target": "cNI_m_trscr"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "cNI_m_trscr", 
+         "target": "cNI_m"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 168, 
+         "source": "cLm", 
+         "target": "cNI_m_trscr"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "cP7", 
+         "target": "cNI_m_trscr"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "cNI_m", 
+         "target": "cNI_m_degr"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "cNI_m_degr", 
+         "target": "cNI_m_degrsink"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "cNI_trslsink", 
+         "target": "cNI_trsl"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "cNI_trsl", 
+         "target": "cNI"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 168, 
+         "source": "cNI_m", 
+         "target": "cNI_trsl"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "cNI", 
+         "target": "cNI_degr"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "cNI_degr", 
+         "target": "cNI_degrsink"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "cG_m_trscrsink", 
+         "target": "cG_m_trscr"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "cG_m_trscr", 
+         "target": "cG_m"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 168, 
+         "source": "cL", 
+         "target": "cG_m_trscr"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 168, 
+         "source": "cP", 
+         "target": "cG_m_trscr"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 168, 
+         "source": "cT", 
+         "target": "cG_m_trscr"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "cG_m", 
+         "target": "cG_m_degr"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 393, 
+         "source": "cG_m_degr", 
+         "target": "cG_m_degrsink"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "cG_trslsink", 
+         "target": "cG_trsl"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "cG_trsl", 
+         "target": "cG"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "cG_m", 
+         "target": "cG_trsl"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "cG", 
+         "target": "cG_degr"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "cG_degr", 
+         "target": "cG_degrsink"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "cG", 
+         "target": "cG_cZTL_assoc"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "cZTL", 
+         "target": "cG_cZTL_assoc"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "cG_cZTL_assoc", 
+         "target": "cZG"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "cZTL_trslsink", 
+         "target": "cZTL_trsl"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "cZTL_trsl", 
+         "target": "cZTL"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "cZTL", 
+         "target": "cZTL_degr"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "cZTL_degr", 
+         "target": "cZTL_degrsink"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "cZG", 
+         "target": "cZG_degr"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "cZG_degr", 
+         "target": "cZG_degrsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "cL_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cL_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cNI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP7", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP9", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cTm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cL_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cL_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cL", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cL_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cL_modif", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_modif", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cL_modifsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cLm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cLm_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLm_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cLm_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cT_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cT_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cY", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cT_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cT_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cT_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cZG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZG", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cZTL", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZTL", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cT_modif", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_modif", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cT_modifsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cTm_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTm_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cTm_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cY_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cY_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cY_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cY_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cY_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cY_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP9_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP9_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP9_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cP7_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cP7_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cP7_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cNI_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cNI_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cNI_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cNI_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cNI_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cNI_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cG_m_trscr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_m_trscr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_m_trscrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cG_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cG_m_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_m_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_m_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cG_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cG_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cG_cZTL_assoc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cG_cZTL_assoc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cZTL_trsl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZTL_trsl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZTL_trslsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cZTL_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZTL_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZTL_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cZG_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZG_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cZG_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "def", 
+            "subnodes": [
+               "cT_modif", 
+               "cY_m_degr", 
+               "cZG", 
+               "cT_modifsink", 
+               "cL_m_trscr", 
+               "cNI_m", 
+               "cG_trsl", 
+               "cT_m_trscr", 
+               "cL_trslsink", 
+               "cG_m_degr", 
+               "cP_trslsink", 
+               "cL_degr", 
+               "cL_modif", 
+               "cP_degr", 
+               "cP9_m_degrsink", 
+               "cG_cZTL_assoc", 
+               "cLm", 
+               "cG_degrsink", 
+               "cP9_trslsink", 
+               "cP7_trsl", 
+               "cTm", 
+               "cLm_degr", 
+               "cT_m_degr", 
+               "cP7_degr", 
+               "cL_m", 
+               "cP9_m_degr", 
+               "cP7_m_degr", 
+               "cT_m_trscrsink", 
+               "cT_m_degrsink", 
+               "cL_m_trscrsink", 
+               "cP7_m_trscrsink", 
+               "cY_m_trscr", 
+               "cP9_m_trscrsink", 
+               "cZTL_trsl", 
+               "cT_trsl", 
+               "cP7_trslsink", 
+               "cNI_degr", 
+               "cNI_m_trscr", 
+               "cZG_degr", 
+               "cNI_degrsink", 
+               "cL", 
+               "cG", 
+               "cY", 
+               "cZTL", 
+               "cP9_degrsink", 
+               "cY_m_trscrsink", 
+               "cTm_degrsink", 
+               "cP", 
+               "cT", 
+               "cG_degr", 
+               "cP7_m", 
+               "cP9_m", 
+               "cT_trslsink", 
+               "cG_m", 
+               "cT_degrsink", 
+               "cY_degr", 
+               "cZTL_trslsink", 
+               "cL_m_degr", 
+               "cY_degrsink", 
+               "cNI_trslsink", 
+               "cP9_trsl", 
+               "cNI_m_trscrsink", 
+               "cG_m_trscrsink", 
+               "cP7_m_trscr", 
+               "cT_degr", 
+               "cY_m_degrsink", 
+               "cNI", 
+               "cG_m_trscr", 
+               "cT_m", 
+               "cG_trslsink", 
+               "cY_m", 
+               "cL_degrsink", 
+               "cLm_degrsink", 
+               "cY_trsl", 
+               "cP_trsl", 
+               "cP7_m_degrsink", 
+               "cG_m_degrsink", 
+               "cP9_m_trscr", 
+               "cP7_degrsink", 
+               "cZG_degrsink", 
+               "cL_modifsink", 
+               "cL_trsl", 
+               "cP9", 
+               "cNI_m_degrsink", 
+               "cP_degrsink", 
+               "cP9_degr", 
+               "cL_m_degrsink", 
+               "cP7", 
+               "cNI_m_degr", 
+               "cTm_degr", 
+               "cZTL_degrsink", 
+               "cY_trslsink", 
+               "cNI_trsl", 
+               "cZTL_degr"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "def", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,1041 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "AS_m", 
+         "target": "Import_AS"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Import_AS", 
+         "target": "AS_c"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "ASL_m", 
+         "target": "Import_ASL"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Import_ASL", 
+         "target": "ASL_c"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "AS_c", 
+         "target": "CYP3A4_ASpOH"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "CYP3A4_ASpOH", 
+         "target": "ASpOH_c"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "ASL_c", 
+         "target": "CYP3A4_ASpOH"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "AS_c", 
+         "target": "CYP3A4_ASoOH"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "CYP3A4_ASoOH", 
+         "target": "ASoOH_c"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "ASL_c", 
+         "target": "CYP3A4_ASoOH"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "ASL_c", 
+         "target": "CYP3A4_ASLpOH"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "CYP3A4_ASLpOH", 
+         "target": "ASLpOH_c"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "AS_c", 
+         "target": "CYP3A4_ASLpOH"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "ASL_c", 
+         "target": "CYP3A4_ASLoOH"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "CYP3A4_ASLoOH", 
+         "target": "ASLoOH_c"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "AS_c", 
+         "target": "CYP3A4_ASLoOH"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "ASoOH_c", 
+         "target": "Export_ASoOH"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Export_ASoOH", 
+         "target": "ASoOH_m"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "AS_c", 
+         "target": "UGT1A3_AS"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "UGT1A3_AS", 
+         "target": "ASL_c"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "ASL_c", 
+         "target": "R_ASASL_c"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R_ASASL_c", 
+         "target": "AS_c"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ASLoOH_c", 
+         "target": "CR_oOH"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "CR_oOH", 
+         "target": "ASoOH_c"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "ASLpOH_c", 
+         "target": "CR_pOH"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "CR_pOH", 
+         "target": "ASpOH_c"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "AS_c", 
+         "target": "Export_AS"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "Export_AS", 
+         "target": "AS_m"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "ASL_c", 
+         "target": "Export_ASL"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Export_ASL", 
+         "target": "ASL_m"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "ASLpOH_m", 
+         "target": "Import_ASLpOH"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "Import_ASLpOH", 
+         "target": "ASLpOH_c"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "ASLoOH_m", 
+         "target": "Import_ASLoOH"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Import_ASLoOH", 
+         "target": "ASLoOH_c"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "ASpOH_c", 
+         "target": "ASpOH_Prot"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "ASpOH_Prot", 
+         "target": "ASpOH_b"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "ASoOH_c", 
+         "target": "ASoOH_Prot"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "ASoOH_Prot", 
+         "target": "ASoOH_b"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "ASLpOH_c", 
+         "target": "ASLpOH_Prot"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "ASLpOH_Prot", 
+         "target": "ASLpOH_b"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "ASLoOH_c", 
+         "target": "ASLoOH_Prot"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "ASLoOH_Prot", 
+         "target": "ASLoOH_b"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "AS_c", 
+         "target": "AS_Prot"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "AS_Prot", 
+         "target": "AS_b"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "ASL_c", 
+         "target": "ASL_Prot"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "ASL_Prot", 
+         "target": "ASL_b"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "ASpOH_m", 
+         "target": "Import_ASpOH"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "Import_ASpOH", 
+         "target": "ASpOH_c"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "ASL_m", 
+         "target": "R_ASASL_m"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "R_ASASL_m", 
+         "target": "AS_m"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "ASLpOH_m", 
+         "target": "R_pOH_m"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "R_pOH_m", 
+         "target": "ASpOH_m"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "ASLoOH_m", 
+         "target": "R_oOH_m"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "R_oOH_m", 
+         "target": "ASoOH_m"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "ASLpOH_c", 
+         "target": "Export_ASLpOH"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "Export_ASLpOH", 
+         "target": "ASLpOH_m"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "ASLoOH_c", 
+         "target": "Export_ASLoOH"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "Export_ASLoOH", 
+         "target": "ASLoOH_m"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "ASpOH_c", 
+         "target": "Export_ASpOH"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "Export_ASpOH", 
+         "target": "ASpOH_m"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "ASoOH_m", 
+         "target": "Import_ASoOH"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "Import_ASoOH", 
+         "target": "ASoOH_c"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_AS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_AS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AS_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AS_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AS_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AS_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_ASL", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_ASL", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASL_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASL_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASL_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASL_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CYP3A4_ASpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CYP3A4_ASpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASpOH_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASpOH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CYP3A4_ASoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CYP3A4_ASoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASoOH_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASoOH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CYP3A4_ASLpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CYP3A4_ASLpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLpOH_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLpOH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CYP3A4_ASLoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CYP3A4_ASLoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLoOH_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLoOH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_ASoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_ASoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASoOH_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASoOH_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "UGT1A3_AS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UGT1A3_AS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_ASASL_c", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_ASASL_c", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CR_oOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CR_oOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CR_pOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CR_pOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_AS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_AS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_ASL", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_ASL", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_ASLpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_ASLpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLpOH_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLpOH_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_ASLoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_ASLoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLoOH_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLoOH_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ASpOH_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASpOH_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASpOH_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASpOH_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ASoOH_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASoOH_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASoOH_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASoOH_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ASLpOH_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLpOH_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLpOH_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLpOH_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ASLoOH_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLoOH_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASLoOH_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASLoOH_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AS_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AS_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AS_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AS_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ASL_Prot", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASL_Prot", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASL_b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASL_b", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_ASpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_ASpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ASpOH_m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ASpOH_m", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_ASASL_m", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_ASASL_m", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_pOH_m", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_pOH_m", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_oOH_m", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_oOH_m", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_ASLpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_ASLpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_ASLoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_ASLoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Export_ASpOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Export_ASpOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Import_ASoOH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Import_ASoOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "medium", 
+            "subnodes": [
+               "Export_ASLpOH", 
+               "R_pOH_m", 
+               "R_ASASL_m", 
+               "AS_m", 
+               "ASoOH_m", 
+               "Export_ASL", 
+               "ASL_m", 
+               "Export_ASpOH", 
+               "Import_ASoOH", 
+               "R_oOH_m", 
+               "Import_AS", 
+               "Export_ASoOH", 
+               "Import_ASL", 
+               "Import_ASLoOH", 
+               "Import_ASLpOH", 
+               "Export_AS", 
+               "ASLpOH_m", 
+               "Export_ASLoOH", 
+               "ASpOH_m", 
+               "ASLoOH_m", 
+               "Import_ASpOH"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "medium", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "ASLpOH_Prot", 
+               "Export_ASLpOH", 
+               "CYP3A4_ASoOH", 
+               "ASoOH_b", 
+               "ASoOH_c", 
+               "CR_oOH", 
+               "Import_AS", 
+               "ASLoOH_c", 
+               "ASLoOH_b", 
+               "Export_AS", 
+               "AS_c", 
+               "AS_b", 
+               "Import_ASoOH", 
+               "UGT1A3_AS", 
+               "Import_ASLoOH", 
+               "CYP3A4_ASLoOH", 
+               "ASLpOH_b", 
+               "ASLpOH_c", 
+               "CR_pOH", 
+               "Export_ASL", 
+               "Import_ASL", 
+               "ASpOH_Prot", 
+               "Import_ASLpOH", 
+               "CYP3A4_ASpOH", 
+               "Export_ASLoOH", 
+               "ASLoOH_Prot", 
+               "CYP3A4_ASLpOH", 
+               "ASL_b", 
+               "ASL_c", 
+               "ASL_Prot", 
+               "Export_ASpOH", 
+               "R_ASASL_c", 
+               "Export_ASoOH", 
+               "AS_Prot", 
+               "ASpOH_c", 
+               "ASpOH_b", 
+               "ASoOH_Prot", 
+               "Import_ASpOH"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

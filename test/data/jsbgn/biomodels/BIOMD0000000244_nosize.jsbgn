@@ -1,0 +1,5668 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "ACoA", 
+         "target": "bm_ACoA"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "bm_ACoA", 
+         "target": "bm_ACoAsink"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_ACoA"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_ACoA"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "AKG", 
+         "target": "bm_AKG"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "bm_AKG", 
+         "target": "bm_AKGsink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_AKG"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_AKG"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "bm_G6P"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "bm_G6P", 
+         "target": "bm_G6Psink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_G6P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_G6P"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "bm_OAA"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "bm_OAA", 
+         "target": "bm_OAAsink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_OAA"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_OAA"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "bm_PEP"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "bm_PEP", 
+         "target": "bm_PEPsink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_PEP"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_PEP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PG3", 
+         "target": "bm_PG3"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "bm_PG3", 
+         "target": "bm_PG3sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_PG3"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_PG3"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "bm_PYR"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "bm_PYR", 
+         "target": "bm_PYRsink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "bm_PYR"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "bm_PYR"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "pts_r1"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "EIIA", 
+         "target": "pts_r1"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "pts_r1", 
+         "target": "PYR"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "pts_r1", 
+         "target": "EIIA_P"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "EIIA_P", 
+         "target": "pts_r4"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "pts_r4", 
+         "target": "G6P"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "pts_r4", 
+         "target": "EIIA"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "EIICB", 
+         "target": "pts_r4"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "pts_r4"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "Icd", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "e_AceK_Ki", 
+         "target": "Icd_P"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "AKG", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "AceK", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "GLX", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "ICT", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 168, 
+         "source": "OAA", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "PG3", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "e_AceK_Ki"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "Icd_P", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "e_AceK_Ph", 
+         "target": "Icd"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 168, 
+         "source": "AKG", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "AceK", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "OAA", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "PG3", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "e_AceK_Ph"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "Cra", 
+         "target": "tf_Cra"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "tf_Cra", 
+         "target": "CraFBP"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "tf_Cra"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Crp", 
+         "target": "tf_Crp"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "tf_Crp", 
+         "target": "CrpcAMP"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 168, 
+         "source": "cAMP", 
+         "target": "tf_Crp"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "PdhR", 
+         "target": "tf_PdhR"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "tf_PdhR", 
+         "target": "PdhRPYR"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "tf_PdhR"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "ICT", 
+         "target": "e_AceA"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "e_AceA", 
+         "target": "AKG"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "e_AceA", 
+         "target": "GLX"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 168, 
+         "source": "AceA", 
+         "target": "e_AceA"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_AceA"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 168, 
+         "source": "PG3", 
+         "target": "e_AceA"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "ACoA", 
+         "target": "e_AceB"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "GLX", 
+         "target": "e_AceB"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "e_AceB", 
+         "target": "MAL"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 168, 
+         "source": "AceB", 
+         "target": "e_AceB"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "ACoA", 
+         "target": "e_Acoa2act"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "e_Acoa2act", 
+         "target": "e_Acoa2actsink"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 168, 
+         "source": "Acoa2act", 
+         "target": "e_Acoa2act"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "e_Acoa2act"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "e_Acssink", 
+         "target": "e_Acs"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "e_Acs", 
+         "target": "ACoA"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "e_Acs"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 168, 
+         "source": "Acs", 
+         "target": "e_Acs"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "AKG", 
+         "target": "e_Akg2mal"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "e_Akg2mal", 
+         "target": "MAL"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 168, 
+         "source": "Akg2mal", 
+         "target": "e_Akg2mal"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "cAMP", 
+         "target": "e_CAMPdegr"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "e_CAMPdegr", 
+         "target": "e_CAMPdegrsink"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 168, 
+         "source": "CAMPdegr", 
+         "target": "e_CAMPdegr"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "e_Cyasink", 
+         "target": "e_Cya"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "e_Cya", 
+         "target": "cAMP"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 168, 
+         "source": "Cya", 
+         "target": "e_Cya"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 168, 
+         "source": "EIIA_P", 
+         "target": "e_Cya"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "e_Emp"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "e_Emp", 
+         "target": "PG3"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 168, 
+         "source": "Emp", 
+         "target": "e_Emp"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "PG3", 
+         "target": "e_Eno"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "e_Eno", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "Eno", 
+         "target": "e_Eno"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "e_Fdp"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "e_Fdp", 
+         "target": "G6P"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 168, 
+         "source": "Fdp", 
+         "target": "e_Fdp"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_Fdp"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "ACoA", 
+         "target": "e_GltA"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "e_GltA"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "e_GltA", 
+         "target": "ICT"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 168, 
+         "source": "AKG", 
+         "target": "e_GltA"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 168, 
+         "source": "GltA", 
+         "target": "e_GltA"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "ICT", 
+         "target": "e_Icd"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "e_Icd", 
+         "target": "AKG"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 168, 
+         "source": "Icd", 
+         "target": "e_Icd"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_Icd"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "MAL", 
+         "target": "e_Mdh"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "e_Mdh", 
+         "target": "OAA"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "Mdh", 
+         "target": "e_Mdh"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "MAL", 
+         "target": "e_Me"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "e_Me", 
+         "target": "PYR"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 168, 
+         "source": "ACoA", 
+         "target": "e_Me"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 168, 
+         "source": "Me", 
+         "target": "e_Me"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 168, 
+         "source": "cAMP", 
+         "target": "e_Me"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "e_PckA"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "e_PckA", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 168, 
+         "source": "PckA", 
+         "target": "e_PckA"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "e_Pdh"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "e_Pdh", 
+         "target": "ACoA"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 168, 
+         "source": "GLX", 
+         "target": "e_Pdh"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 168, 
+         "source": "Pdh", 
+         "target": "e_Pdh"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "e_PfkA"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "e_PfkA", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 168, 
+         "source": "PEP", 
+         "target": "e_PfkA"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 168, 
+         "source": "PfkA", 
+         "target": "e_PfkA"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "e_Ppc"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 393, 
+         "source": "e_Ppc", 
+         "target": "OAA"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "e_Ppc"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 168, 
+         "source": "Ppc", 
+         "target": "e_Ppc"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "e_PpsA"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 393, 
+         "source": "e_PpsA", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 168, 
+         "source": "PpsA", 
+         "target": "e_PpsA"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "e_PykF"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "e_PykF", 
+         "target": "PYR"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 168, 
+         "source": "FBP", 
+         "target": "e_PykF"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 168, 
+         "source": "PykF", 
+         "target": "e_PykF"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 394, 
+         "source": "g_aceAsink", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "g_aceA", 
+         "target": "AceA"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 168, 
+         "source": "GLX", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 168, 
+         "source": "IclR", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "g_aceA"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 394, 
+         "source": "g_aceBsink", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 393, 
+         "source": "g_aceB", 
+         "target": "AceB"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 168, 
+         "source": "GLX", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 168, 
+         "source": "IclR", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "g_aceB"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 394, 
+         "source": "g_aceKsink", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 393, 
+         "source": "g_aceK", 
+         "target": "AceK"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 168, 
+         "source": "GLX", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 168, 
+         "source": "IclR", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "g_aceK"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 394, 
+         "source": "g_acoa2actsink", 
+         "target": "g_acoa2act"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 393, 
+         "source": "g_acoa2act", 
+         "target": "Acoa2act"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 394, 
+         "source": "g_acssink", 
+         "target": "g_acs"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 393, 
+         "source": "g_acs", 
+         "target": "Acs"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_acs"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_acs"
+      }, 
+      {
+         "id": "edge174", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_acs"
+      }, 
+      {
+         "id": "edge175", 
+         "sbo": 394, 
+         "source": "g_akg2malsink", 
+         "target": "g_akg2mal"
+      }, 
+      {
+         "id": "edge176", 
+         "sbo": 393, 
+         "source": "g_akg2mal", 
+         "target": "Akg2mal"
+      }, 
+      {
+         "id": "edge177", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_akg2mal"
+      }, 
+      {
+         "id": "edge178", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_akg2mal"
+      }, 
+      {
+         "id": "edge179", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_akg2mal"
+      }, 
+      {
+         "id": "edge180", 
+         "sbo": 394, 
+         "source": "g_cAMPdegrsink", 
+         "target": "g_cAMPdegr"
+      }, 
+      {
+         "id": "edge181", 
+         "sbo": 393, 
+         "source": "g_cAMPdegr", 
+         "target": "CAMPdegr"
+      }, 
+      {
+         "id": "edge182", 
+         "sbo": 394, 
+         "source": "g_crasink", 
+         "target": "g_cra"
+      }, 
+      {
+         "id": "edge183", 
+         "sbo": 393, 
+         "source": "g_cra", 
+         "target": "Cra"
+      }, 
+      {
+         "id": "edge184", 
+         "sbo": 394, 
+         "source": "g_crpsink", 
+         "target": "g_crp"
+      }, 
+      {
+         "id": "edge185", 
+         "sbo": 393, 
+         "source": "g_crp", 
+         "target": "Crp"
+      }, 
+      {
+         "id": "edge186", 
+         "sbo": 394, 
+         "source": "g_cyasink", 
+         "target": "g_cya"
+      }, 
+      {
+         "id": "edge187", 
+         "sbo": 393, 
+         "source": "g_cya", 
+         "target": "Cya"
+      }, 
+      {
+         "id": "edge188", 
+         "sbo": 394, 
+         "source": "g_empsink", 
+         "target": "g_emp"
+      }, 
+      {
+         "id": "edge189", 
+         "sbo": 393, 
+         "source": "g_emp", 
+         "target": "Emp"
+      }, 
+      {
+         "id": "edge190", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_emp"
+      }, 
+      {
+         "id": "edge191", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_emp"
+      }, 
+      {
+         "id": "edge192", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_emp"
+      }, 
+      {
+         "id": "edge193", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_emp"
+      }, 
+      {
+         "id": "edge194", 
+         "sbo": 394, 
+         "source": "g_enosink", 
+         "target": "g_eno"
+      }, 
+      {
+         "id": "edge195", 
+         "sbo": 393, 
+         "source": "g_eno", 
+         "target": "Eno"
+      }, 
+      {
+         "id": "edge196", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_eno"
+      }, 
+      {
+         "id": "edge197", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_eno"
+      }, 
+      {
+         "id": "edge198", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_eno"
+      }, 
+      {
+         "id": "edge199", 
+         "sbo": 394, 
+         "source": "g_fdpsink", 
+         "target": "g_fdp"
+      }, 
+      {
+         "id": "edge200", 
+         "sbo": 393, 
+         "source": "g_fdp", 
+         "target": "Fdp"
+      }, 
+      {
+         "id": "edge201", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_fdp"
+      }, 
+      {
+         "id": "edge202", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_fdp"
+      }, 
+      {
+         "id": "edge203", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_fdp"
+      }, 
+      {
+         "id": "edge204", 
+         "sbo": 394, 
+         "source": "g_gltAsink", 
+         "target": "g_gltA"
+      }, 
+      {
+         "id": "edge205", 
+         "sbo": 393, 
+         "source": "g_gltA", 
+         "target": "GltA"
+      }, 
+      {
+         "id": "edge206", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_gltA"
+      }, 
+      {
+         "id": "edge207", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_gltA"
+      }, 
+      {
+         "id": "edge208", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_gltA"
+      }, 
+      {
+         "id": "edge209", 
+         "sbo": 394, 
+         "source": "g_icdsink", 
+         "target": "g_icd"
+      }, 
+      {
+         "id": "edge210", 
+         "sbo": 393, 
+         "source": "g_icd", 
+         "target": "Icd"
+      }, 
+      {
+         "id": "edge211", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_icd"
+      }, 
+      {
+         "id": "edge212", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_icd"
+      }, 
+      {
+         "id": "edge213", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_icd"
+      }, 
+      {
+         "id": "edge214", 
+         "sbo": 394, 
+         "source": "g_iclrsink", 
+         "target": "g_iclr"
+      }, 
+      {
+         "id": "edge215", 
+         "sbo": 393, 
+         "source": "g_iclr", 
+         "target": "IclR"
+      }, 
+      {
+         "id": "edge216", 
+         "sbo": 394, 
+         "source": "g_mdhsink", 
+         "target": "g_mdh"
+      }, 
+      {
+         "id": "edge217", 
+         "sbo": 393, 
+         "source": "g_mdh", 
+         "target": "Mdh"
+      }, 
+      {
+         "id": "edge218", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_mdh"
+      }, 
+      {
+         "id": "edge219", 
+         "sbo": 168, 
+         "source": "CrpcAMP", 
+         "target": "g_mdh"
+      }, 
+      {
+         "id": "edge220", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_mdh"
+      }, 
+      {
+         "id": "edge221", 
+         "sbo": 394, 
+         "source": "g_mesink", 
+         "target": "g_me"
+      }, 
+      {
+         "id": "edge222", 
+         "sbo": 393, 
+         "source": "g_me", 
+         "target": "Me"
+      }, 
+      {
+         "id": "edge223", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_me"
+      }, 
+      {
+         "id": "edge224", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_me"
+      }, 
+      {
+         "id": "edge225", 
+         "sbo": 394, 
+         "source": "g_pckAsink", 
+         "target": "g_pckA"
+      }, 
+      {
+         "id": "edge226", 
+         "sbo": 393, 
+         "source": "g_pckA", 
+         "target": "PckA"
+      }, 
+      {
+         "id": "edge227", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_pckA"
+      }, 
+      {
+         "id": "edge228", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_pckA"
+      }, 
+      {
+         "id": "edge229", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_pckA"
+      }, 
+      {
+         "id": "edge230", 
+         "sbo": 394, 
+         "source": "g_pdhsink", 
+         "target": "g_pdh"
+      }, 
+      {
+         "id": "edge231", 
+         "sbo": 393, 
+         "source": "g_pdh", 
+         "target": "Pdh"
+      }, 
+      {
+         "id": "edge232", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_pdh"
+      }, 
+      {
+         "id": "edge233", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_pdh"
+      }, 
+      {
+         "id": "edge234", 
+         "sbo": 168, 
+         "source": "PdhR", 
+         "target": "g_pdh"
+      }, 
+      {
+         "id": "edge235", 
+         "sbo": 394, 
+         "source": "g_pdhrsink", 
+         "target": "g_pdhr"
+      }, 
+      {
+         "id": "edge236", 
+         "sbo": 393, 
+         "source": "g_pdhr", 
+         "target": "PdhR"
+      }, 
+      {
+         "id": "edge237", 
+         "sbo": 394, 
+         "source": "g_pfkAsink", 
+         "target": "g_pfkA"
+      }, 
+      {
+         "id": "edge238", 
+         "sbo": 393, 
+         "source": "g_pfkA", 
+         "target": "PfkA"
+      }, 
+      {
+         "id": "edge239", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_pfkA"
+      }, 
+      {
+         "id": "edge240", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_pfkA"
+      }, 
+      {
+         "id": "edge241", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_pfkA"
+      }, 
+      {
+         "id": "edge242", 
+         "sbo": 394, 
+         "source": "g_ppcsink", 
+         "target": "g_ppc"
+      }, 
+      {
+         "id": "edge243", 
+         "sbo": 393, 
+         "source": "g_ppc", 
+         "target": "Ppc"
+      }, 
+      {
+         "id": "edge244", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_ppc"
+      }, 
+      {
+         "id": "edge245", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_ppc"
+      }, 
+      {
+         "id": "edge246", 
+         "sbo": 394, 
+         "source": "g_ppsAsink", 
+         "target": "g_ppsA"
+      }, 
+      {
+         "id": "edge247", 
+         "sbo": 393, 
+         "source": "g_ppsA", 
+         "target": "PpsA"
+      }, 
+      {
+         "id": "edge248", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_ppsA"
+      }, 
+      {
+         "id": "edge249", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_ppsA"
+      }, 
+      {
+         "id": "edge250", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_ppsA"
+      }, 
+      {
+         "id": "edge251", 
+         "sbo": 394, 
+         "source": "g_pykFsink", 
+         "target": "g_pykF"
+      }, 
+      {
+         "id": "edge252", 
+         "sbo": 393, 
+         "source": "g_pykF", 
+         "target": "PykF"
+      }, 
+      {
+         "id": "edge253", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "g_pykF"
+      }, 
+      {
+         "id": "edge254", 
+         "sbo": 168, 
+         "source": "Cra", 
+         "target": "g_pykF"
+      }, 
+      {
+         "id": "edge255", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "g_pykF"
+      }, 
+      {
+         "id": "edge256", 
+         "sbo": 394, 
+         "source": "g_EIIAsink", 
+         "target": "g_EIIA"
+      }, 
+      {
+         "id": "edge257", 
+         "sbo": 393, 
+         "source": "g_EIIA", 
+         "target": "EIIA"
+      }, 
+      {
+         "id": "edge258", 
+         "sbo": 394, 
+         "source": "g_EIICBsink", 
+         "target": "g_EIICB"
+      }, 
+      {
+         "id": "edge259", 
+         "sbo": 393, 
+         "source": "g_EIICB", 
+         "target": "EIICB"
+      }, 
+      {
+         "id": "edge260", 
+         "sbo": 394, 
+         "source": "AceA", 
+         "target": "d_AceA"
+      }, 
+      {
+         "id": "edge261", 
+         "sbo": 393, 
+         "source": "d_AceA", 
+         "target": "d_AceAsink"
+      }, 
+      {
+         "id": "edge262", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_AceA"
+      }, 
+      {
+         "id": "edge263", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_AceA"
+      }, 
+      {
+         "id": "edge264", 
+         "sbo": 394, 
+         "source": "AceB", 
+         "target": "d_AceB"
+      }, 
+      {
+         "id": "edge265", 
+         "sbo": 393, 
+         "source": "d_AceB", 
+         "target": "d_AceBsink"
+      }, 
+      {
+         "id": "edge266", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_AceB"
+      }, 
+      {
+         "id": "edge267", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_AceB"
+      }, 
+      {
+         "id": "edge268", 
+         "sbo": 394, 
+         "source": "AceK", 
+         "target": "d_AceK"
+      }, 
+      {
+         "id": "edge269", 
+         "sbo": 393, 
+         "source": "d_AceK", 
+         "target": "d_AceKsink"
+      }, 
+      {
+         "id": "edge270", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_AceK"
+      }, 
+      {
+         "id": "edge271", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_AceK"
+      }, 
+      {
+         "id": "edge272", 
+         "sbo": 394, 
+         "source": "Acoa2act", 
+         "target": "d_Acoa2act"
+      }, 
+      {
+         "id": "edge273", 
+         "sbo": 393, 
+         "source": "d_Acoa2act", 
+         "target": "d_Acoa2actsink"
+      }, 
+      {
+         "id": "edge274", 
+         "sbo": 394, 
+         "source": "Acs", 
+         "target": "d_Acs"
+      }, 
+      {
+         "id": "edge275", 
+         "sbo": 393, 
+         "source": "d_Acs", 
+         "target": "d_Acssink"
+      }, 
+      {
+         "id": "edge276", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Acs"
+      }, 
+      {
+         "id": "edge277", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Acs"
+      }, 
+      {
+         "id": "edge278", 
+         "sbo": 394, 
+         "source": "Akg2mal", 
+         "target": "d_Akg2mal"
+      }, 
+      {
+         "id": "edge279", 
+         "sbo": 393, 
+         "source": "d_Akg2mal", 
+         "target": "d_Akg2malsink"
+      }, 
+      {
+         "id": "edge280", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Akg2mal"
+      }, 
+      {
+         "id": "edge281", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Akg2mal"
+      }, 
+      {
+         "id": "edge282", 
+         "sbo": 394, 
+         "source": "CAMPdegr", 
+         "target": "d_CAMPdegr"
+      }, 
+      {
+         "id": "edge283", 
+         "sbo": 393, 
+         "source": "d_CAMPdegr", 
+         "target": "d_CAMPdegrsink"
+      }, 
+      {
+         "id": "edge284", 
+         "sbo": 394, 
+         "source": "Cra", 
+         "target": "d_Cra"
+      }, 
+      {
+         "id": "edge285", 
+         "sbo": 393, 
+         "source": "d_Cra", 
+         "target": "d_Crasink"
+      }, 
+      {
+         "id": "edge286", 
+         "sbo": 394, 
+         "source": "CraFBP", 
+         "target": "d_CraFBP"
+      }, 
+      {
+         "id": "edge287", 
+         "sbo": 393, 
+         "source": "d_CraFBP", 
+         "target": "d_CraFBPsink"
+      }, 
+      {
+         "id": "edge288", 
+         "sbo": 394, 
+         "source": "Crp", 
+         "target": "d_Crp"
+      }, 
+      {
+         "id": "edge289", 
+         "sbo": 393, 
+         "source": "d_Crp", 
+         "target": "d_Crpsink"
+      }, 
+      {
+         "id": "edge290", 
+         "sbo": 394, 
+         "source": "CrpcAMP", 
+         "target": "d_CrpcAMP"
+      }, 
+      {
+         "id": "edge291", 
+         "sbo": 393, 
+         "source": "d_CrpcAMP", 
+         "target": "d_CrpcAMPsink"
+      }, 
+      {
+         "id": "edge292", 
+         "sbo": 394, 
+         "source": "Cya", 
+         "target": "d_Cya"
+      }, 
+      {
+         "id": "edge293", 
+         "sbo": 393, 
+         "source": "d_Cya", 
+         "target": "d_Cyasink"
+      }, 
+      {
+         "id": "edge294", 
+         "sbo": 394, 
+         "source": "Emp", 
+         "target": "d_Emp"
+      }, 
+      {
+         "id": "edge295", 
+         "sbo": 393, 
+         "source": "d_Emp", 
+         "target": "d_Empsink"
+      }, 
+      {
+         "id": "edge296", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Emp"
+      }, 
+      {
+         "id": "edge297", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Emp"
+      }, 
+      {
+         "id": "edge298", 
+         "sbo": 394, 
+         "source": "Eno", 
+         "target": "d_Eno"
+      }, 
+      {
+         "id": "edge299", 
+         "sbo": 393, 
+         "source": "d_Eno", 
+         "target": "d_Enosink"
+      }, 
+      {
+         "id": "edge300", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Eno"
+      }, 
+      {
+         "id": "edge301", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Eno"
+      }, 
+      {
+         "id": "edge302", 
+         "sbo": 394, 
+         "source": "Fdp", 
+         "target": "d_Fdp"
+      }, 
+      {
+         "id": "edge303", 
+         "sbo": 393, 
+         "source": "d_Fdp", 
+         "target": "d_Fdpsink"
+      }, 
+      {
+         "id": "edge304", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Fdp"
+      }, 
+      {
+         "id": "edge305", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Fdp"
+      }, 
+      {
+         "id": "edge306", 
+         "sbo": 394, 
+         "source": "GltA", 
+         "target": "d_GltA"
+      }, 
+      {
+         "id": "edge307", 
+         "sbo": 393, 
+         "source": "d_GltA", 
+         "target": "d_GltAsink"
+      }, 
+      {
+         "id": "edge308", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_GltA"
+      }, 
+      {
+         "id": "edge309", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_GltA"
+      }, 
+      {
+         "id": "edge310", 
+         "sbo": 394, 
+         "source": "Icd", 
+         "target": "d_Icd"
+      }, 
+      {
+         "id": "edge311", 
+         "sbo": 393, 
+         "source": "d_Icd", 
+         "target": "d_Icdsink"
+      }, 
+      {
+         "id": "edge312", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Icd"
+      }, 
+      {
+         "id": "edge313", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Icd"
+      }, 
+      {
+         "id": "edge314", 
+         "sbo": 394, 
+         "source": "Icd_P", 
+         "target": "d_Icd_P"
+      }, 
+      {
+         "id": "edge315", 
+         "sbo": 393, 
+         "source": "d_Icd_P", 
+         "target": "d_Icd_Psink"
+      }, 
+      {
+         "id": "edge316", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Icd_P"
+      }, 
+      {
+         "id": "edge317", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Icd_P"
+      }, 
+      {
+         "id": "edge318", 
+         "sbo": 394, 
+         "source": "IclR", 
+         "target": "d_IclR"
+      }, 
+      {
+         "id": "edge319", 
+         "sbo": 393, 
+         "source": "d_IclR", 
+         "target": "d_IclRsink"
+      }, 
+      {
+         "id": "edge320", 
+         "sbo": 394, 
+         "source": "Mdh", 
+         "target": "d_Mdh"
+      }, 
+      {
+         "id": "edge321", 
+         "sbo": 393, 
+         "source": "d_Mdh", 
+         "target": "d_Mdhsink"
+      }, 
+      {
+         "id": "edge322", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Mdh"
+      }, 
+      {
+         "id": "edge323", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Mdh"
+      }, 
+      {
+         "id": "edge324", 
+         "sbo": 394, 
+         "source": "Me", 
+         "target": "d_Me"
+      }, 
+      {
+         "id": "edge325", 
+         "sbo": 393, 
+         "source": "d_Me", 
+         "target": "d_Mesink"
+      }, 
+      {
+         "id": "edge326", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Me"
+      }, 
+      {
+         "id": "edge327", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Me"
+      }, 
+      {
+         "id": "edge328", 
+         "sbo": 394, 
+         "source": "PckA", 
+         "target": "d_PckA"
+      }, 
+      {
+         "id": "edge329", 
+         "sbo": 393, 
+         "source": "d_PckA", 
+         "target": "d_PckAsink"
+      }, 
+      {
+         "id": "edge330", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PckA"
+      }, 
+      {
+         "id": "edge331", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PckA"
+      }, 
+      {
+         "id": "edge332", 
+         "sbo": 394, 
+         "source": "Pdh", 
+         "target": "d_Pdh"
+      }, 
+      {
+         "id": "edge333", 
+         "sbo": 393, 
+         "source": "d_Pdh", 
+         "target": "d_Pdhsink"
+      }, 
+      {
+         "id": "edge334", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Pdh"
+      }, 
+      {
+         "id": "edge335", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Pdh"
+      }, 
+      {
+         "id": "edge336", 
+         "sbo": 394, 
+         "source": "PdhR", 
+         "target": "d_PdhR"
+      }, 
+      {
+         "id": "edge337", 
+         "sbo": 393, 
+         "source": "d_PdhR", 
+         "target": "d_PdhRsink"
+      }, 
+      {
+         "id": "edge338", 
+         "sbo": 394, 
+         "source": "PdhRPYR", 
+         "target": "d_PdhRPYR"
+      }, 
+      {
+         "id": "edge339", 
+         "sbo": 393, 
+         "source": "d_PdhRPYR", 
+         "target": "d_PdhRPYRsink"
+      }, 
+      {
+         "id": "edge340", 
+         "sbo": 394, 
+         "source": "PfkA", 
+         "target": "d_PfkA"
+      }, 
+      {
+         "id": "edge341", 
+         "sbo": 393, 
+         "source": "d_PfkA", 
+         "target": "d_PfkAsink"
+      }, 
+      {
+         "id": "edge342", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PfkA"
+      }, 
+      {
+         "id": "edge343", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PfkA"
+      }, 
+      {
+         "id": "edge344", 
+         "sbo": 394, 
+         "source": "Ppc", 
+         "target": "d_Ppc"
+      }, 
+      {
+         "id": "edge345", 
+         "sbo": 393, 
+         "source": "d_Ppc", 
+         "target": "d_Ppcsink"
+      }, 
+      {
+         "id": "edge346", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_Ppc"
+      }, 
+      {
+         "id": "edge347", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_Ppc"
+      }, 
+      {
+         "id": "edge348", 
+         "sbo": 394, 
+         "source": "PpsA", 
+         "target": "d_PpsA"
+      }, 
+      {
+         "id": "edge349", 
+         "sbo": 393, 
+         "source": "d_PpsA", 
+         "target": "d_PpsAsink"
+      }, 
+      {
+         "id": "edge350", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PpsA"
+      }, 
+      {
+         "id": "edge351", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PpsA"
+      }, 
+      {
+         "id": "edge352", 
+         "sbo": 394, 
+         "source": "PykF", 
+         "target": "d_PykF"
+      }, 
+      {
+         "id": "edge353", 
+         "sbo": 393, 
+         "source": "d_PykF", 
+         "target": "d_PykFsink"
+      }, 
+      {
+         "id": "edge354", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PykF"
+      }, 
+      {
+         "id": "edge355", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PykF"
+      }, 
+      {
+         "id": "edge356", 
+         "sbo": 394, 
+         "source": "EIIA", 
+         "target": "d_EIIA"
+      }, 
+      {
+         "id": "edge357", 
+         "sbo": 393, 
+         "source": "d_EIIA", 
+         "target": "d_EIIAsink"
+      }, 
+      {
+         "id": "edge358", 
+         "sbo": 394, 
+         "source": "EIIA_P", 
+         "target": "d_EIIA_P"
+      }, 
+      {
+         "id": "edge359", 
+         "sbo": 393, 
+         "source": "d_EIIA_P", 
+         "target": "d_EIIA_Psink"
+      }, 
+      {
+         "id": "edge360", 
+         "sbo": 394, 
+         "source": "EIICB", 
+         "target": "d_EIICB"
+      }, 
+      {
+         "id": "edge361", 
+         "sbo": 393, 
+         "source": "d_EIICB", 
+         "target": "d_EIICBsink"
+      }, 
+      {
+         "id": "edge362", 
+         "sbo": 394, 
+         "source": "ACoA", 
+         "target": "d_ACoA"
+      }, 
+      {
+         "id": "edge363", 
+         "sbo": 393, 
+         "source": "d_ACoA", 
+         "target": "d_ACoAsink"
+      }, 
+      {
+         "id": "edge364", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_ACoA"
+      }, 
+      {
+         "id": "edge365", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_ACoA"
+      }, 
+      {
+         "id": "edge366", 
+         "sbo": 394, 
+         "source": "AKG", 
+         "target": "d_AKG"
+      }, 
+      {
+         "id": "edge367", 
+         "sbo": 393, 
+         "source": "d_AKG", 
+         "target": "d_AKGsink"
+      }, 
+      {
+         "id": "edge368", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_AKG"
+      }, 
+      {
+         "id": "edge369", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_AKG"
+      }, 
+      {
+         "id": "edge370", 
+         "sbo": 394, 
+         "source": "cAMP", 
+         "target": "d_cAMP"
+      }, 
+      {
+         "id": "edge371", 
+         "sbo": 393, 
+         "source": "d_cAMP", 
+         "target": "d_cAMPsink"
+      }, 
+      {
+         "id": "edge372", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_cAMP"
+      }, 
+      {
+         "id": "edge373", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_cAMP"
+      }, 
+      {
+         "id": "edge374", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "d_FBP"
+      }, 
+      {
+         "id": "edge375", 
+         "sbo": 393, 
+         "source": "d_FBP", 
+         "target": "d_FBPsink"
+      }, 
+      {
+         "id": "edge376", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_FBP"
+      }, 
+      {
+         "id": "edge377", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_FBP"
+      }, 
+      {
+         "id": "edge378", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "d_G6P"
+      }, 
+      {
+         "id": "edge379", 
+         "sbo": 393, 
+         "source": "d_G6P", 
+         "target": "d_G6Psink"
+      }, 
+      {
+         "id": "edge380", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_G6P"
+      }, 
+      {
+         "id": "edge381", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_G6P"
+      }, 
+      {
+         "id": "edge382", 
+         "sbo": 394, 
+         "source": "GLX", 
+         "target": "d_GLX"
+      }, 
+      {
+         "id": "edge383", 
+         "sbo": 393, 
+         "source": "d_GLX", 
+         "target": "d_GLXsink"
+      }, 
+      {
+         "id": "edge384", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_GLX"
+      }, 
+      {
+         "id": "edge385", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_GLX"
+      }, 
+      {
+         "id": "edge386", 
+         "sbo": 394, 
+         "source": "ICT", 
+         "target": "d_ICT"
+      }, 
+      {
+         "id": "edge387", 
+         "sbo": 393, 
+         "source": "d_ICT", 
+         "target": "d_ICTsink"
+      }, 
+      {
+         "id": "edge388", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_ICT"
+      }, 
+      {
+         "id": "edge389", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_ICT"
+      }, 
+      {
+         "id": "edge390", 
+         "sbo": 394, 
+         "source": "MAL", 
+         "target": "d_MAL"
+      }, 
+      {
+         "id": "edge391", 
+         "sbo": 393, 
+         "source": "d_MAL", 
+         "target": "d_MALsink"
+      }, 
+      {
+         "id": "edge392", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_MAL"
+      }, 
+      {
+         "id": "edge393", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_MAL"
+      }, 
+      {
+         "id": "edge394", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "d_OAA"
+      }, 
+      {
+         "id": "edge395", 
+         "sbo": 393, 
+         "source": "d_OAA", 
+         "target": "d_OAAsink"
+      }, 
+      {
+         "id": "edge396", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_OAA"
+      }, 
+      {
+         "id": "edge397", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_OAA"
+      }, 
+      {
+         "id": "edge398", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "d_PEP"
+      }, 
+      {
+         "id": "edge399", 
+         "sbo": 393, 
+         "source": "d_PEP", 
+         "target": "d_PEPsink"
+      }, 
+      {
+         "id": "edge400", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PEP"
+      }, 
+      {
+         "id": "edge401", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PEP"
+      }, 
+      {
+         "id": "edge402", 
+         "sbo": 394, 
+         "source": "PG3", 
+         "target": "d_PG3"
+      }, 
+      {
+         "id": "edge403", 
+         "sbo": 393, 
+         "source": "d_PG3", 
+         "target": "d_PG3sink"
+      }, 
+      {
+         "id": "edge404", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PG3"
+      }, 
+      {
+         "id": "edge405", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PG3"
+      }, 
+      {
+         "id": "edge406", 
+         "sbo": 394, 
+         "source": "PYR", 
+         "target": "d_PYR"
+      }, 
+      {
+         "id": "edge407", 
+         "sbo": 393, 
+         "source": "d_PYR", 
+         "target": "d_PYRsink"
+      }, 
+      {
+         "id": "edge408", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "d_PYR"
+      }, 
+      {
+         "id": "edge409", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "d_PYR"
+      }, 
+      {
+         "id": "edge410", 
+         "sbo": 394, 
+         "source": "env_growthsink", 
+         "target": "env_growth"
+      }, 
+      {
+         "id": "edge411", 
+         "sbo": 393, 
+         "source": "env_growth", 
+         "target": "BM"
+      }, 
+      {
+         "id": "edge412", 
+         "sbo": 168, 
+         "source": "ACT", 
+         "target": "env_growth"
+      }, 
+      {
+         "id": "edge413", 
+         "sbo": 168, 
+         "source": "GLC", 
+         "target": "env_growth"
+      }, 
+      {
+         "id": "edge414", 
+         "sbo": 394, 
+         "source": "GLC", 
+         "target": "env_GLCup"
+      }, 
+      {
+         "id": "edge415", 
+         "sbo": 393, 
+         "source": "env_GLCup", 
+         "target": "env_GLCupsink"
+      }, 
+      {
+         "id": "edge416", 
+         "sbo": 168, 
+         "source": "BM", 
+         "target": "env_GLCup"
+      }, 
+      {
+         "id": "edge417", 
+         "sbo": 168, 
+         "source": "EIIA_P", 
+         "target": "env_GLCup"
+      }, 
+      {
+         "id": "edge418", 
+         "sbo": 168, 
+         "source": "EIICB", 
+         "target": "env_GLCup"
+      }, 
+      {
+         "id": "edge419", 
+         "sbo": 394, 
+         "source": "ACT", 
+         "target": "env_ACTup"
+      }, 
+      {
+         "id": "edge420", 
+         "sbo": 393, 
+         "source": "env_ACTup", 
+         "target": "env_ACTupsink"
+      }, 
+      {
+         "id": "edge421", 
+         "sbo": 168, 
+         "source": "Acs", 
+         "target": "env_ACTup"
+      }, 
+      {
+         "id": "edge422", 
+         "sbo": 168, 
+         "source": "BM", 
+         "target": "env_ACTup"
+      }, 
+      {
+         "id": "edge423", 
+         "sbo": 394, 
+         "source": "env_ACTexsink", 
+         "target": "env_ACTex"
+      }, 
+      {
+         "id": "edge424", 
+         "sbo": 393, 
+         "source": "env_ACTex", 
+         "target": "ACT"
+      }, 
+      {
+         "id": "edge425", 
+         "sbo": 168, 
+         "source": "ACoA", 
+         "target": "env_ACTex"
+      }, 
+      {
+         "id": "edge426", 
+         "sbo": 168, 
+         "source": "Acoa2act", 
+         "target": "env_ACTex"
+      }, 
+      {
+         "id": "edge427", 
+         "sbo": 168, 
+         "source": "BM", 
+         "target": "env_ACTex"
+      }, 
+      {
+         "id": "edge428", 
+         "sbo": 168, 
+         "source": "PYR", 
+         "target": "env_ACTex"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_ACoA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_ACoA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ACoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACoA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_ACoAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ACT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACT", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_AKG", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_AKG", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AKG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AKG", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_AKGsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_G6P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_G6P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_G6Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_OAA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_OAA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "OAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OAA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_OAAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_PEP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PEP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PEP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PEPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_PG3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PG3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PG3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PG3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PG3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bm_PYR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PYR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PYR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PYR", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bm_PYRsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pts_r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pts_r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EIIA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EIIA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EIIA_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EIIA_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pts_r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pts_r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EIICB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EIICB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_AceK_Ki", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_AceK_Ki", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Icd", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Icd", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Icd_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Icd_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AceK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AceK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLX", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ICT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ICT", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_AceK_Ph", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_AceK_Ph", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tf_Cra", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tf_Cra", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cra", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cra", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CraFBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CraFBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tf_Crp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tf_Crp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Crp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Crp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CrpcAMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CrpcAMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cAMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cAMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tf_PdhR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tf_PdhR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PdhR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PdhR", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PdhRPYR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PdhRPYR", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_AceA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_AceA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AceA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AceA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_AceB", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_AceB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAL", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAL", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AceB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AceB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Acoa2act", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Acoa2act", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Acoa2actsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acoa2act", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Acoa2act", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Acs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Acs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Acssink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acs", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Acs", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Akg2mal", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Akg2mal", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Akg2mal", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Akg2mal", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_CAMPdegr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_CAMPdegr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_CAMPdegrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CAMPdegr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CAMPdegr", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Cya", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Cya", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Cyasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cya", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cya", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Emp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Emp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Emp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Emp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Eno", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Eno", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Eno", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Eno", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Fdp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Fdp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fdp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fdp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_GltA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_GltA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GltA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GltA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Icd", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Icd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Mdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Mdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdh", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Me", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Me", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Me", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Me", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_PckA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_PckA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PckA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PckA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Pdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Pdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pdh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pdh", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_PfkA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_PfkA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PfkA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PfkA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_Ppc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_Ppc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ppc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ppc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_PpsA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_PpsA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PpsA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PpsA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "e_PykF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e_PykF", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PykF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PykF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_aceA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IclR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IclR", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_aceB", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceBsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_aceK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_aceKsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_acoa2act", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_acoa2act", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_acoa2actsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_acs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_acs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_acssink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_akg2mal", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_akg2mal", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_akg2malsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_cAMPdegr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_cAMPdegr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_cAMPdegrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_cra", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_cra", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_crasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_crp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_crp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_crpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_cya", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_cya", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_cyasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_emp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_emp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_empsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_eno", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_eno", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_enosink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_fdp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_fdp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_fdpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_gltA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_gltA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_gltAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_icd", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_icd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_icdsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_iclr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_iclr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_iclrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_mdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_mdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_mdhsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_me", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_me", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_mesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_pckA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pckA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pckAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_pdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pdhsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_pdhr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pdhr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pdhrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_pfkA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pfkA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pfkAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_ppc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_ppc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_ppcsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_ppsA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_ppsA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_ppsAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_pykF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pykF", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_pykFsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_EIIA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_EIIA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_EIIAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "g_EIICB", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_EIICB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g_EIICBsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_AceA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_AceB", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceBsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_AceK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AceKsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Acoa2act", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Acoa2act", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Acoa2actsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Acs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Acs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Acssink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Akg2mal", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Akg2mal", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Akg2malsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_CAMPdegr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CAMPdegr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CAMPdegrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Cra", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Cra", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Crasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_CraFBP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CraFBP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CraFBPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Crp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Crp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Crpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_CrpcAMP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CrpcAMP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_CrpcAMPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Cya", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Cya", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Cyasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Emp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Emp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Empsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Eno", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Eno", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Enosink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Fdp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Fdp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Fdpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_GltA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_GltA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_GltAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Icd", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Icd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Icdsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Icd_P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Icd_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Icd_Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_IclR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_IclR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_IclRsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Mdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Mdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Mdhsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Me", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Me", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Mesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PckA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PckA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PckAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Pdh", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Pdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Pdhsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PdhR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PdhR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PdhRsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PdhRPYR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PdhRPYR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PdhRPYRsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PfkA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PfkA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PfkAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_Ppc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Ppc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_Ppcsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PpsA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PpsA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PpsAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PykF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PykF", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PykFsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_EIIA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIIA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIIAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_EIIA_P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIIA_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIIA_Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_EIICB", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIICB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_EIICBsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_ACoA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_ACoA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_ACoAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_AKG", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AKG", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_AKGsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_cAMP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_cAMP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_cAMPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_FBP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_FBP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_FBPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_G6P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_G6P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_G6Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_GLX", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_GLX", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_GLXsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_ICT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_ICT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_ICTsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_MAL", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_MAL", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_MALsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_OAA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_OAA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_OAAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PEP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PEP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PEPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PG3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PG3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PG3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "d_PYR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PYR", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "d_PYRsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "env_growth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_growth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_growthsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "env_GLCup", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_GLCup", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_GLCupsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "env_ACTup", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_ACTup", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_ACTupsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "env_ACTex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_ACTex", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "env_ACTexsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Environment", 
+            "subnodes": [
+               "env_ACTup", 
+               "env_GLCupsink", 
+               "env_ACTexsink", 
+               "BM", 
+               "GLC", 
+               "env_growthsink", 
+               "ACT", 
+               "env_ACTex", 
+               "env_ACTupsink", 
+               "env_GLCup", 
+               "env_growth"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Environment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cell", 
+            "subnodes": [
+               "d_GltAsink", 
+               "OAA", 
+               "d_MALsink", 
+               "d_PpsAsink", 
+               "PdhRPYR", 
+               "d_FBPsink", 
+               "d_Cyasink", 
+               "g_cya", 
+               "g_aceB", 
+               "g_me", 
+               "d_OAA", 
+               "g_cAMPdegrsink", 
+               "d_Fdp", 
+               "d_Acoa2act", 
+               "g_cyasink", 
+               "bm_PEP", 
+               "g_pdh", 
+               "d_EIIA_P", 
+               "g_pykFsink", 
+               "Cya", 
+               "e_Me", 
+               "d_EIICBsink", 
+               "d_AKGsink", 
+               "d_AceB", 
+               "d_MAL", 
+               "e_PykF", 
+               "g_gltAsink", 
+               "e_Fdp", 
+               "g_acs", 
+               "CAMPdegr", 
+               "d_PEPsink", 
+               "d_Pdh", 
+               "bm_PG3sink", 
+               "d_EIICB", 
+               "e_Akg2mal", 
+               "g_mdhsink", 
+               "d_ACoAsink", 
+               "g_acoa2actsink", 
+               "CrpcAMP", 
+               "d_GLX", 
+               "g_cAMPdegr", 
+               "d_PckAsink", 
+               "d_PYR", 
+               "Akg2mal", 
+               "d_AceKsink", 
+               "PYR", 
+               "d_PdhR", 
+               "bm_ACoA", 
+               "g_ppsA", 
+               "g_akg2mal", 
+               "d_IclRsink", 
+               "e_Ppc", 
+               "g_crasink", 
+               "MAL", 
+               "d_PG3sink", 
+               "e_PckA", 
+               "d_PYRsink", 
+               "g_acoa2act", 
+               "d_ICT", 
+               "cAMP", 
+               "e_Cyasink", 
+               "d_PckA", 
+               "Eno", 
+               "d_Cra", 
+               "d_Icd", 
+               "d_CAMPdegr", 
+               "Acoa2act", 
+               "d_CraFBPsink", 
+               "d_Ppc", 
+               "d_Mdh", 
+               "g_fdp", 
+               "d_Icd_P", 
+               "pts_r1", 
+               "pts_r4", 
+               "d_PdhRsink", 
+               "g_aceBsink", 
+               "g_pykF", 
+               "d_Pdhsink", 
+               "bm_PYRsink", 
+               "d_GLXsink", 
+               "Me", 
+               "d_AKG", 
+               "AceB", 
+               "AceA", 
+               "d_Acs", 
+               "e_Acoa2act", 
+               "d_PpsA", 
+               "d_PfkA", 
+               "g_empsink", 
+               "d_EIIAsink", 
+               "d_Acssink", 
+               "Pdh", 
+               "g_EIIA", 
+               "d_PEP", 
+               "PpsA", 
+               "d_CAMPdegrsink", 
+               "tf_Cra", 
+               "g_icdsink", 
+               "d_CraFBP", 
+               "Icd_P", 
+               "g_ppc", 
+               "e_GltA", 
+               "d_Enosink", 
+               "tf_Crp", 
+               "PckA", 
+               "g_acssink", 
+               "CraFBP", 
+               "d_Crpsink", 
+               "g_pfkA", 
+               "e_CAMPdegr", 
+               "bm_G6Psink", 
+               "g_ppsAsink", 
+               "e_Emp", 
+               "d_cAMP", 
+               "e_Pdh", 
+               "ACoA", 
+               "g_cra", 
+               "PEP", 
+               "d_G6P", 
+               "d_Eno", 
+               "GLX", 
+               "g_pckA", 
+               "GltA", 
+               "e_Icd", 
+               "g_crp", 
+               "EIIA_P", 
+               "AKG", 
+               "g_pckAsink", 
+               "d_OAAsink", 
+               "d_PG3", 
+               "e_Cya", 
+               "g_EIICB", 
+               "d_Ppcsink", 
+               "d_EIIA_Psink", 
+               "PdhR", 
+               "d_IclR", 
+               "d_Icdsink", 
+               "g_ppcsink", 
+               "e_Mdh", 
+               "d_Emp", 
+               "d_PdhRPYRsink", 
+               "d_EIIA", 
+               "e_Acoa2actsink", 
+               "d_PfkAsink", 
+               "Crp", 
+               "g_enosink", 
+               "g_aceKsink", 
+               "d_cAMPsink", 
+               "d_Icd_Psink", 
+               "d_PykFsink", 
+               "g_mesink", 
+               "g_aceK", 
+               "Fdp", 
+               "PykF", 
+               "Cra", 
+               "bm_G6P", 
+               "e_Eno", 
+               "g_aceA", 
+               "d_Akg2mal", 
+               "AceK", 
+               "e_CAMPdegrsink", 
+               "bm_PYR", 
+               "Mdh", 
+               "FBP", 
+               "d_CrpcAMPsink", 
+               "g_pdhrsink", 
+               "bm_OAAsink", 
+               "d_AceA", 
+               "d_PdhRPYR", 
+               "g_crpsink", 
+               "d_Crp", 
+               "G6P", 
+               "d_Acoa2actsink", 
+               "g_emp", 
+               "g_gltA", 
+               "d_GltA", 
+               "e_Acs", 
+               "bm_PEPsink", 
+               "Icd", 
+               "bm_OAA", 
+               "d_AceK", 
+               "d_Mesink", 
+               "e_AceK_Ki", 
+               "e_AceK_Ph", 
+               "d_Empsink", 
+               "d_ACoA", 
+               "e_PpsA", 
+               "d_Me", 
+               "EIICB", 
+               "d_AceAsink", 
+               "d_Akg2malsink", 
+               "e_AceA", 
+               "e_AceB", 
+               "g_eno", 
+               "d_Cya", 
+               "g_iclrsink", 
+               "d_G6Psink", 
+               "g_pdhsink", 
+               "d_FBP", 
+               "g_akg2malsink", 
+               "e_PfkA", 
+               "g_EIICBsink", 
+               "g_aceAsink", 
+               "Acs", 
+               "d_ICTsink", 
+               "e_Acssink", 
+               "EIIA", 
+               "PG3", 
+               "bm_AKGsink", 
+               "tf_PdhR", 
+               "d_AceBsink", 
+               "IclR", 
+               "bm_PG3", 
+               "ICT", 
+               "Ppc", 
+               "d_CrpcAMP", 
+               "g_fdpsink", 
+               "g_EIIAsink", 
+               "d_PykF", 
+               "d_Fdpsink", 
+               "bm_ACoAsink", 
+               "g_iclr", 
+               "bm_AKG", 
+               "g_pdhr", 
+               "g_icd", 
+               "d_Mdhsink", 
+               "d_Crasink", 
+               "g_mdh", 
+               "g_pfkAsink", 
+               "PfkA", 
+               "Emp"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

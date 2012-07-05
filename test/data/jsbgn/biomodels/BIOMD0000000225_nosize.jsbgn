@@ -1,0 +1,166 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "GLC", 
+         "target": "vgk"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vgk", 
+         "target": "G6P_F6P"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "G6P_F6P", 
+         "target": "vpfk"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "vpfk", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "F6P", 
+         "target": "vpfk"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "vfba"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "vfba", 
+         "target": "G3P"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "vgk", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vgk", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GLC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G6P_F6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G6P_F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vpfk", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpfk", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vfba", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vfba", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "G3P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G3P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "G3P", 
+               "FBP", 
+               "vpfk", 
+               "vgk", 
+               "GLC", 
+               "vfba", 
+               "F6P", 
+               "G6P_F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "comp", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

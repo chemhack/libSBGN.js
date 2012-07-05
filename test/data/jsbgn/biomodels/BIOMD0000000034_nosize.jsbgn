@@ -1,0 +1,918 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0000001sink", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0000001", 
+         "target": "species_0000004"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "reaction_0000002sink", 
+         "target": "reaction_0000002"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_0000002", 
+         "target": "species_0000007"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "reaction_0000003sink", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_0000003", 
+         "target": "species_0000009"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "reaction_0000004sink", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "reaction_0000004", 
+         "target": "species_0000008"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "species_0000009", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "species_0000007", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "species_0000008", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_0000005", 
+         "target": "reaction_0000005sink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "species_0000009", 
+         "target": "reaction_0000006"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_0000006", 
+         "target": "reaction_0000006sink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "species_0000007", 
+         "target": "reaction_0000007"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_0000007", 
+         "target": "reaction_0000007sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "species_0000004", 
+         "target": "reaction_0000008"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "reaction_0000008", 
+         "target": "species_0000005"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "species_0000005", 
+         "target": "reaction_0000009"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_0000009", 
+         "target": "species_0000006"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "species_0000006", 
+         "target": "reaction_0000010"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_0000010", 
+         "target": "species_0000001"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_0000011"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_0000011", 
+         "target": "species_0000002"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "species_0000002", 
+         "target": "reaction_0000012"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "reaction_0000012", 
+         "target": "species_0000003"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "species_0000003", 
+         "target": "reaction_0000013"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "reaction_0000013", 
+         "target": "reaction_0000013sink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "species_0000008", 
+         "target": "reaction_0000014"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "reaction_0000014", 
+         "target": "reaction_0000014sink"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "species_0000009", 
+         "target": "reaction_0000015"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "reaction_0000015", 
+         "target": "reaction_0000015sink"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "species_0000007", 
+         "target": "reaction_0000016"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "reaction_0000016", 
+         "target": "reaction_0000016sink"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "species_0000004", 
+         "target": "reaction_0000017"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "reaction_0000017", 
+         "target": "reaction_0000017sink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "species_0000005", 
+         "target": "reaction_0000018"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "reaction_0000018", 
+         "target": "reaction_0000018sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "species_0000006", 
+         "target": "reaction_0000019"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction_0000019", 
+         "target": "reaction_0000019sink"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_0000020"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "reaction_0000020", 
+         "target": "reaction_0000020sink"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "species_0000002", 
+         "target": "reaction_0000021"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_0000021", 
+         "target": "reaction_0000021sink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "species_0000003", 
+         "target": "reaction_0000022"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "reaction_0000022", 
+         "target": "reaction_0000022sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P0cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000004", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Vri production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000002", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000002sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VRI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000007", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pdp production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000009", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000004", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000004sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CLK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000008", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk specific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pdp specific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000006", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000006sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Vri specific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000007", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000007sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "first cytoplasmic Per phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000008", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P1cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000005", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "second cytoplasmic Per phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000009", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P2cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000006", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per nuclear transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000010", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P0nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000001", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "first nuclear Per phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000011", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P1nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000002", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "second nuclear Rer phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000012", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P2nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000003", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per specific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000013", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000013sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000014", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000014sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pdp aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000015", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000015sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Vri aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000016", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000016sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per_cyt aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000017", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000017sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-P_cyt aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000018", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000018sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-PP_cyt aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000019", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000019sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per_nuc aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000020", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000020sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-P_nuc aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000021", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000021sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-PP_nuc aspecific degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000022", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000022sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "species_0000004", 
+               "species_0000005", 
+               "species_0000006", 
+               "reaction_0000008", 
+               "reaction_0000009", 
+               "reaction_0000019", 
+               "reaction_0000018", 
+               "reaction_0000017", 
+               "reaction_0000001", 
+               "reaction_0000010", 
+               "reaction_0000017sink", 
+               "reaction_0000018sink", 
+               "reaction_0000001sink", 
+               "reaction_0000019sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_0000002", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "reaction_0000022sink", 
+               "reaction_0000016", 
+               "reaction_0000015", 
+               "reaction_0000014", 
+               "reaction_0000013", 
+               "reaction_0000012", 
+               "reaction_0000011", 
+               "reaction_0000010", 
+               "reaction_0000013sink", 
+               "reaction_0000020sink", 
+               "reaction_0000006sink", 
+               "reaction_0000003sink", 
+               "reaction_0000007sink", 
+               "reaction_0000016sink", 
+               "reaction_0000004", 
+               "reaction_0000005", 
+               "reaction_0000006", 
+               "reaction_0000007", 
+               "reaction_0000004sink", 
+               "reaction_0000002", 
+               "reaction_0000003", 
+               "reaction_0000022", 
+               "reaction_0000020", 
+               "reaction_0000015sink", 
+               "reaction_0000021sink", 
+               "species_0000007", 
+               "species_0000001", 
+               "species_0000002", 
+               "species_0000003", 
+               "species_0000008", 
+               "species_0000009", 
+               "reaction_0000021", 
+               "reaction_0000014sink", 
+               "reaction_0000002sink", 
+               "reaction_0000005sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_0000001", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

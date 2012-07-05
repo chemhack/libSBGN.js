@@ -1,0 +1,602 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "ORN", 
+         "target": "ODC"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "ODC", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "SAM", 
+         "target": "SAMdc"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "SAMdc", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "SAMdc"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "P", 
+         "target": "SAMdc"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "SSAT_for_S"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "AcCoA", 
+         "target": "SSAT_for_S"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "SSAT_for_S", 
+         "target": "aS"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "SSAT_for_S", 
+         "target": "CoA"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "D", 
+         "target": "SSAT_for_S"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "D", 
+         "target": "SSAT_for_D"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "AcCoA", 
+         "target": "SSAT_for_D"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "SSAT_for_D", 
+         "target": "aD"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "SSAT_for_D", 
+         "target": "CoA"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "SSAT_for_D"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "aD", 
+         "target": "PAO_for_aD"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "PAO_for_aD", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "aS", 
+         "target": "PAO_for_aD"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "D", 
+         "target": "PAO_for_aD"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "PAO_for_aD"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "aS", 
+         "target": "PAO_for_aS"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "PAO_for_aS", 
+         "target": "D"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "aD", 
+         "target": "PAO_for_aS"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "PAO_for_aS"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "SpdS"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "SpdS"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "SpdS", 
+         "target": "D"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "SpmS"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "D", 
+         "target": "SpmS"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "SpmS", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "Met", 
+         "target": "MAT"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "MAT", 
+         "target": "SAM"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "AcCoA", 
+         "target": "VCoA"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "VCoA", 
+         "target": "CoA"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "CoA", 
+         "target": "VacCoA"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "VacCoA", 
+         "target": "AcCoA"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "P", 
+         "target": "P_efflux"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "P_efflux", 
+         "target": "P_effluxsink"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "aD", 
+         "target": "aD_efflux"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "aD_efflux", 
+         "target": "aD_effluxsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ornithine decarboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ODC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "L-Ornithine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ORN", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Putrescine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S-adenosylmethionine decarboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SAMdc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S-adenosyl-L-methionine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SAM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S-adenosylmethioninamine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Spermine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Spermidine/Spermine N1-acetyltransferase for S", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SSAT_for_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acetyl-CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AcCoA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "N1-Acetylspermine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CoA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Spermidine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Spermidine/spermine N1-acetyltransferase for D", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SSAT_for_D", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "N1-Acetylspermidine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyamine oxidase for aD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PAO_for_aD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyamine oxidase for aS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PAO_for_aS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Spermidine synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SpdS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Spermine synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SpmS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Methionine adenosyltransferase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Methionine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Met", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "VCOA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VCoA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "VACCOA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VacCoA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Putrescine efflux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P_efflux", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P_effluxsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aD efflux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aD_efflux", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aD_effluxsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "VCoA", 
+               "aD_effluxsink", 
+               "PAO_for_aD", 
+               "PAO_for_aS", 
+               "ORN", 
+               "aD", 
+               "SAM", 
+               "P_efflux", 
+               "Met", 
+               "aS", 
+               "SpmS", 
+               "ODC", 
+               "A", 
+               "P_effluxsink", 
+               "D", 
+               "SAMdc", 
+               "P", 
+               "S", 
+               "AcCoA", 
+               "MAT", 
+               "SpdS", 
+               "SSAT_for_S", 
+               "VacCoA", 
+               "CoA", 
+               "SSAT_for_D", 
+               "aD_efflux"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

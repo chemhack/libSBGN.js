@@ -1,0 +1,397 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "MFtrnsink", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "MFtrn", 
+         "target": "MF"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "FN", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "FNp", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "MF", 
+         "target": "MFdeg"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "MFdeg", 
+         "target": "MFdegsink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "FCtrlsink", 
+         "target": "FCtrl"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "FCtrl", 
+         "target": "FC"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "MF", 
+         "target": "FCtrl"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "FC", 
+         "target": "FCdeg"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "FCdeg", 
+         "target": "FCdegsink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "FC", 
+         "target": "FCtrs"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "FCtrs", 
+         "target": "FN"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "FCptrlsink", 
+         "target": "FCptrl"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "FCptrl", 
+         "target": "FCp"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "MF", 
+         "target": "FCptrl"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "FCp", 
+         "target": "FCpdeg"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "FCpdeg", 
+         "target": "FCpdegsink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "FCp", 
+         "target": "FCptrs"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "FCptrs", 
+         "target": "FNp"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "MFtrn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFtrn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFtrnsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FN", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FN", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FNp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FNp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MFdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCtrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCtrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCtrlsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCtrs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCtrs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCptrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCptrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCptrlsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FCp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCpdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCpdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCpdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FCptrs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FCptrs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "MF", 
+               "FNp", 
+               "MFtrn", 
+               "MFdegsink", 
+               "MFdeg", 
+               "FCtrs", 
+               "FCptrs", 
+               "MFtrnsink", 
+               "FN"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "FCp", 
+               "FCdeg", 
+               "FCtrs", 
+               "FCtrlsink", 
+               "FCpdeg", 
+               "FCpdegsink", 
+               "FCptrl", 
+               "FCptrlsink", 
+               "FC", 
+               "FCptrs", 
+               "FCtrl", 
+               "FCdegsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

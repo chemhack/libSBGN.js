@@ -1,0 +1,3711 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "ProteinSynthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "ProteinSynthesis", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "NatP", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "totMisP"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Refolding"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Refolding", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "Refolding", 
+         "target": "refNatP"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisPE3Binding"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "E3", 
+         "target": "MisPE3Binding"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "MisPE3Binding", 
+         "target": "E3_MisP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "E3_MisP", 
+         "target": "MisPE3Release"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "MisPE3Release", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "MisPE3Release", 
+         "target": "E3"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "E1", 
+         "target": "E1UbBinding"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Ub", 
+         "target": "E1UbBinding"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "E1UbBinding"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "E1UbBinding", 
+         "target": "E1_Ub"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "E1UbBinding", 
+         "target": "AMP"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "E2", 
+         "target": "E2UbBinding"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "E1_Ub", 
+         "target": "E2UbBinding"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "E2UbBinding", 
+         "target": "E2_Ub"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "E2UbBinding", 
+         "target": "E1"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Monoubiquitination"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "E3_MisP", 
+         "target": "Monoubiquitination"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "Monoubiquitination", 
+         "target": "MisP_Ub"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "Monoubiquitination", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Monoubiquitination", 
+         "target": "E3"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Polyubiquitination1"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination1"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "Polyubiquitination1", 
+         "target": "MisP_Ub2"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Polyubiquitination1", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Polyubiquitination2"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination2"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "Polyubiquitination2", 
+         "target": "MisP_Ub3"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "Polyubiquitination2", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Polyubiquitination3"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination3"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "Polyubiquitination3", 
+         "target": "MisP_Ub4"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "Polyubiquitination3", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Polyubiquitination4"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination4"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "Polyubiquitination4", 
+         "target": "MisP_Ub5"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "Polyubiquitination4", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Polyubiquitination5"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination5"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "Polyubiquitination5", 
+         "target": "MisP_Ub6"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "Polyubiquitination5", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Polyubiquitination6"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination6"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "Polyubiquitination6", 
+         "target": "MisP_Ub7"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "Polyubiquitination6", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Polyubiquitination7"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "E2_Ub", 
+         "target": "Polyubiquitination7"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "Polyubiquitination7", 
+         "target": "MisP_Ub8"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "Polyubiquitination7", 
+         "target": "E2"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Deubiqutination1"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination1"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "Deubiqutination1", 
+         "target": "MisP_Ub7"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "Deubiqutination1", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "Deubiqutination1", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Deubiqutination2"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination2"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "Deubiqutination2", 
+         "target": "MisP_Ub6"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "Deubiqutination2", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "Deubiqutination2", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Deubiqutination3"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination3"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "Deubiqutination3", 
+         "target": "MisP_Ub5"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "Deubiqutination3", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "Deubiqutination3", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Deubiqutination4"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination4"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "Deubiqutination4", 
+         "target": "MisP_Ub4"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "Deubiqutination4", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "Deubiqutination4", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Deubiqutination5"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination5"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "Deubiqutination5", 
+         "target": "MisP_Ub3"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "Deubiqutination5", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "Deubiqutination5", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Deubiqutination6"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination6"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "Deubiqutination6", 
+         "target": "MisP_Ub2"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "Deubiqutination6", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "Deubiqutination6", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Deubiqutination7"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination7"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 393, 
+         "source": "Deubiqutination7", 
+         "target": "MisP_Ub"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "Deubiqutination7", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "Deubiqutination7", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Deubiqutination8"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "Deubiqutination8"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "Deubiqutination8", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "Deubiqutination8", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "Deubiqutination8", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "ProteasomeBinding1"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeBinding1"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "ProteasomeBinding1", 
+         "target": "MisP_Ub4_Proteasome"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "ProteasomeBinding2"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeBinding2"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "ProteasomeBinding2", 
+         "target": "MisP_Ub5_Proteasome"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "ProteasomeBinding3"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeBinding3"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "ProteasomeBinding3", 
+         "target": "MisP_Ub6_Proteasome"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "ProteasomeBinding4"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeBinding4"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "ProteasomeBinding4", 
+         "target": "MisP_Ub7_Proteasome"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "ProteasomeBinding5"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeBinding5"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "ProteasomeBinding5", 
+         "target": "MisP_Ub8_Proteasome"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "MisP_Ub8_Proteasome", 
+         "target": "DeubiquitinationBoundMisP5"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "DeubiquitinationBoundMisP5"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP5", 
+         "target": "MisP_Ub7_Proteasome"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP5", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP5", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 394, 
+         "source": "MisP_Ub7_Proteasome", 
+         "target": "DeubiquitinationBoundMisP4"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "DeubiquitinationBoundMisP4"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP4", 
+         "target": "MisP_Ub6_Proteasome"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP4", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP4", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 394, 
+         "source": "MisP_Ub6_Proteasome", 
+         "target": "DeubiquitinationBoundMisP3"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "DeubiquitinationBoundMisP3"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP3", 
+         "target": "MisP_Ub5_Proteasome"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP3", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP3", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 394, 
+         "source": "MisP_Ub5_Proteasome", 
+         "target": "DeubiquitinationBoundMisP2"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "DeubiquitinationBoundMisP2"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP2", 
+         "target": "MisP_Ub4_Proteasome"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP2", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP2", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 394, 
+         "source": "MisP_Ub4_Proteasome", 
+         "target": "DeubiquitinationBoundMisP1"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 394, 
+         "source": "DUB", 
+         "target": "DeubiquitinationBoundMisP1"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP1", 
+         "target": "MisP_Ub3"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP1", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP1", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "DeubiquitinationBoundMisP1", 
+         "target": "DUB"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 394, 
+         "source": "MisP_Ub4_Proteasome", 
+         "target": "ProteasomeActivity1"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ProteasomeActivity1"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity1", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity1", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity1", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity1", 
+         "target": "degUb4"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 394, 
+         "source": "MisP_Ub5_Proteasome", 
+         "target": "ProteasomeActivity2"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ProteasomeActivity2"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity2", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity2", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity2", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity2", 
+         "target": "degUb5"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 394, 
+         "source": "MisP_Ub6_Proteasome", 
+         "target": "ProteasomeActivity3"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ProteasomeActivity3"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity3", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity3", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity3", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity3", 
+         "target": "degUb6"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 394, 
+         "source": "MisP_Ub7_Proteasome", 
+         "target": "ProteasomeActivity4"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ProteasomeActivity4"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity4", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity4", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity4", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity4", 
+         "target": "degUb7"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 394, 
+         "source": "MisP_Ub8_Proteasome", 
+         "target": "ProteasomeActivity5"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "ProteasomeActivity5"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity5", 
+         "target": "Ub"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity5", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity5", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 393, 
+         "source": "ProteasomeActivity5", 
+         "target": "degUb8"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation1"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 393, 
+         "source": "Aggregation1", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation2"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation2"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 393, 
+         "source": "Aggregation2", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge174", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation3"
+      }, 
+      {
+         "id": "edge175", 
+         "sbo": 393, 
+         "source": "Aggregation3", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge176", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation4"
+      }, 
+      {
+         "id": "edge177", 
+         "sbo": 393, 
+         "source": "Aggregation4", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge178", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation5"
+      }, 
+      {
+         "id": "edge179", 
+         "sbo": 393, 
+         "source": "Aggregation5", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge180", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation6"
+      }, 
+      {
+         "id": "edge181", 
+         "sbo": 393, 
+         "source": "Aggregation6", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge182", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation7"
+      }, 
+      {
+         "id": "edge183", 
+         "sbo": 393, 
+         "source": "Aggregation7", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge184", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation8"
+      }, 
+      {
+         "id": "edge185", 
+         "sbo": 393, 
+         "source": "Aggregation8", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge186", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation9"
+      }, 
+      {
+         "id": "edge187", 
+         "sbo": 393, 
+         "source": "Aggregation9", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge188", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation10"
+      }, 
+      {
+         "id": "edge189", 
+         "sbo": 393, 
+         "source": "Aggregation10", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge190", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation11"
+      }, 
+      {
+         "id": "edge191", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation11"
+      }, 
+      {
+         "id": "edge192", 
+         "sbo": 393, 
+         "source": "Aggregation11", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge193", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation12"
+      }, 
+      {
+         "id": "edge194", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation12"
+      }, 
+      {
+         "id": "edge195", 
+         "sbo": 393, 
+         "source": "Aggregation12", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge196", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation13"
+      }, 
+      {
+         "id": "edge197", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation13"
+      }, 
+      {
+         "id": "edge198", 
+         "sbo": 393, 
+         "source": "Aggregation13", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge199", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation14"
+      }, 
+      {
+         "id": "edge200", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation14"
+      }, 
+      {
+         "id": "edge201", 
+         "sbo": 393, 
+         "source": "Aggregation14", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge202", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation15"
+      }, 
+      {
+         "id": "edge203", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation15"
+      }, 
+      {
+         "id": "edge204", 
+         "sbo": 393, 
+         "source": "Aggregation15", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge205", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation16"
+      }, 
+      {
+         "id": "edge206", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation16"
+      }, 
+      {
+         "id": "edge207", 
+         "sbo": 393, 
+         "source": "Aggregation16", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge208", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation17"
+      }, 
+      {
+         "id": "edge209", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation17"
+      }, 
+      {
+         "id": "edge210", 
+         "sbo": 393, 
+         "source": "Aggregation17", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge211", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation18"
+      }, 
+      {
+         "id": "edge212", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation18"
+      }, 
+      {
+         "id": "edge213", 
+         "sbo": 393, 
+         "source": "Aggregation18", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge214", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation19"
+      }, 
+      {
+         "id": "edge215", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation19"
+      }, 
+      {
+         "id": "edge216", 
+         "sbo": 393, 
+         "source": "Aggregation19", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge217", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation20"
+      }, 
+      {
+         "id": "edge218", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation20"
+      }, 
+      {
+         "id": "edge219", 
+         "sbo": 393, 
+         "source": "Aggregation20", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge220", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation21"
+      }, 
+      {
+         "id": "edge221", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation21"
+      }, 
+      {
+         "id": "edge222", 
+         "sbo": 393, 
+         "source": "Aggregation21", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge223", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation22"
+      }, 
+      {
+         "id": "edge224", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation22"
+      }, 
+      {
+         "id": "edge225", 
+         "sbo": 393, 
+         "source": "Aggregation22", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge226", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation23"
+      }, 
+      {
+         "id": "edge227", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation23"
+      }, 
+      {
+         "id": "edge228", 
+         "sbo": 393, 
+         "source": "Aggregation23", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge229", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation24"
+      }, 
+      {
+         "id": "edge230", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation24"
+      }, 
+      {
+         "id": "edge231", 
+         "sbo": 393, 
+         "source": "Aggregation24", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge232", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation25"
+      }, 
+      {
+         "id": "edge233", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation25"
+      }, 
+      {
+         "id": "edge234", 
+         "sbo": 393, 
+         "source": "Aggregation25", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge235", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation26"
+      }, 
+      {
+         "id": "edge236", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Aggregation26"
+      }, 
+      {
+         "id": "edge237", 
+         "sbo": 393, 
+         "source": "Aggregation26", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge238", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation27"
+      }, 
+      {
+         "id": "edge239", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation27"
+      }, 
+      {
+         "id": "edge240", 
+         "sbo": 393, 
+         "source": "Aggregation27", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge241", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation28"
+      }, 
+      {
+         "id": "edge242", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation28"
+      }, 
+      {
+         "id": "edge243", 
+         "sbo": 393, 
+         "source": "Aggregation28", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge244", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation29"
+      }, 
+      {
+         "id": "edge245", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation29"
+      }, 
+      {
+         "id": "edge246", 
+         "sbo": 393, 
+         "source": "Aggregation29", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge247", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation30"
+      }, 
+      {
+         "id": "edge248", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation30"
+      }, 
+      {
+         "id": "edge249", 
+         "sbo": 393, 
+         "source": "Aggregation30", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge250", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation31"
+      }, 
+      {
+         "id": "edge251", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation31"
+      }, 
+      {
+         "id": "edge252", 
+         "sbo": 393, 
+         "source": "Aggregation31", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge253", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation32"
+      }, 
+      {
+         "id": "edge254", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation32"
+      }, 
+      {
+         "id": "edge255", 
+         "sbo": 393, 
+         "source": "Aggregation32", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge256", 
+         "sbo": 394, 
+         "source": "MisP_Ub", 
+         "target": "Aggregation33"
+      }, 
+      {
+         "id": "edge257", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation33"
+      }, 
+      {
+         "id": "edge258", 
+         "sbo": 393, 
+         "source": "Aggregation33", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge259", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation34"
+      }, 
+      {
+         "id": "edge260", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation34"
+      }, 
+      {
+         "id": "edge261", 
+         "sbo": 393, 
+         "source": "Aggregation34", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge262", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation35"
+      }, 
+      {
+         "id": "edge263", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation35"
+      }, 
+      {
+         "id": "edge264", 
+         "sbo": 393, 
+         "source": "Aggregation35", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge265", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation36"
+      }, 
+      {
+         "id": "edge266", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation36"
+      }, 
+      {
+         "id": "edge267", 
+         "sbo": 393, 
+         "source": "Aggregation36", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge268", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation37"
+      }, 
+      {
+         "id": "edge269", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation37"
+      }, 
+      {
+         "id": "edge270", 
+         "sbo": 393, 
+         "source": "Aggregation37", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge271", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation38"
+      }, 
+      {
+         "id": "edge272", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation38"
+      }, 
+      {
+         "id": "edge273", 
+         "sbo": 393, 
+         "source": "Aggregation38", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge274", 
+         "sbo": 394, 
+         "source": "MisP_Ub2", 
+         "target": "Aggregation39"
+      }, 
+      {
+         "id": "edge275", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation39"
+      }, 
+      {
+         "id": "edge276", 
+         "sbo": 393, 
+         "source": "Aggregation39", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge277", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation40"
+      }, 
+      {
+         "id": "edge278", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation40"
+      }, 
+      {
+         "id": "edge279", 
+         "sbo": 393, 
+         "source": "Aggregation40", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge280", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation41"
+      }, 
+      {
+         "id": "edge281", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation41"
+      }, 
+      {
+         "id": "edge282", 
+         "sbo": 393, 
+         "source": "Aggregation41", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge283", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation42"
+      }, 
+      {
+         "id": "edge284", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation42"
+      }, 
+      {
+         "id": "edge285", 
+         "sbo": 393, 
+         "source": "Aggregation42", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge286", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation43"
+      }, 
+      {
+         "id": "edge287", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation43"
+      }, 
+      {
+         "id": "edge288", 
+         "sbo": 393, 
+         "source": "Aggregation43", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge289", 
+         "sbo": 394, 
+         "source": "MisP_Ub3", 
+         "target": "Aggregation44"
+      }, 
+      {
+         "id": "edge290", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation44"
+      }, 
+      {
+         "id": "edge291", 
+         "sbo": 393, 
+         "source": "Aggregation44", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge292", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation45"
+      }, 
+      {
+         "id": "edge293", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation45"
+      }, 
+      {
+         "id": "edge294", 
+         "sbo": 393, 
+         "source": "Aggregation45", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge295", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation46"
+      }, 
+      {
+         "id": "edge296", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation46"
+      }, 
+      {
+         "id": "edge297", 
+         "sbo": 393, 
+         "source": "Aggregation46", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge298", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation47"
+      }, 
+      {
+         "id": "edge299", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation47"
+      }, 
+      {
+         "id": "edge300", 
+         "sbo": 393, 
+         "source": "Aggregation47", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge301", 
+         "sbo": 394, 
+         "source": "MisP_Ub4", 
+         "target": "Aggregation48"
+      }, 
+      {
+         "id": "edge302", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation48"
+      }, 
+      {
+         "id": "edge303", 
+         "sbo": 393, 
+         "source": "Aggregation48", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge304", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation49"
+      }, 
+      {
+         "id": "edge305", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation49"
+      }, 
+      {
+         "id": "edge306", 
+         "sbo": 393, 
+         "source": "Aggregation49", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge307", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation50"
+      }, 
+      {
+         "id": "edge308", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation50"
+      }, 
+      {
+         "id": "edge309", 
+         "sbo": 393, 
+         "source": "Aggregation50", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge310", 
+         "sbo": 394, 
+         "source": "MisP_Ub5", 
+         "target": "Aggregation51"
+      }, 
+      {
+         "id": "edge311", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation51"
+      }, 
+      {
+         "id": "edge312", 
+         "sbo": 393, 
+         "source": "Aggregation51", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge313", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation52"
+      }, 
+      {
+         "id": "edge314", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation52"
+      }, 
+      {
+         "id": "edge315", 
+         "sbo": 393, 
+         "source": "Aggregation52", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge316", 
+         "sbo": 394, 
+         "source": "MisP_Ub6", 
+         "target": "Aggregation53"
+      }, 
+      {
+         "id": "edge317", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation53"
+      }, 
+      {
+         "id": "edge318", 
+         "sbo": 393, 
+         "source": "Aggregation53", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge319", 
+         "sbo": 394, 
+         "source": "MisP_Ub7", 
+         "target": "Aggregation54"
+      }, 
+      {
+         "id": "edge320", 
+         "sbo": 394, 
+         "source": "MisP_Ub8", 
+         "target": "Aggregation54"
+      }, 
+      {
+         "id": "edge321", 
+         "sbo": 393, 
+         "source": "Aggregation54", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge322", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "SequesteringOfAggregates"
+      }, 
+      {
+         "id": "edge323", 
+         "sbo": 393, 
+         "source": "SequesteringOfAggregates", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge324", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "ProteasomeInhibtion"
+      }, 
+      {
+         "id": "edge325", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibtion"
+      }, 
+      {
+         "id": "edge326", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibtion", 
+         "target": "AggP_Proteasome"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteinSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteinSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Source", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Source", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NatP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NatP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Misfolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Misfolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ROS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "totMisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "totMisP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Refolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Refolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "refNatP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "refNatP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPE3Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPE3Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E3_MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E3_MisP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPE3Release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPE3Release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1UbBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1UbBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ub", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ub", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E1_Ub", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1_Ub", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2UbBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2UbBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E2_Ub", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2_Ub", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Monoubiquitination", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Monoubiquitination", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub6", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub6", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub7", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub7", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Polyubiquitination7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Polyubiquitination7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub8", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub8", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DUB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DUB", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Deubiqutination8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Deubiqutination8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeBinding1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeBinding1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub4_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub4_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeBinding2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeBinding2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub5_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub5_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeBinding3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeBinding3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub6_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub6_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeBinding4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeBinding4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub7_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub7_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeBinding5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeBinding5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Ub8_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Ub8_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DeubiquitinationBoundMisP5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DeubiquitinationBoundMisP5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DeubiquitinationBoundMisP4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DeubiquitinationBoundMisP4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DeubiquitinationBoundMisP3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DeubiquitinationBoundMisP3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DeubiquitinationBoundMisP2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DeubiquitinationBoundMisP2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DeubiquitinationBoundMisP1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DeubiquitinationBoundMisP1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeActivity1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeActivity1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "degUb4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degUb4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeActivity2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeActivity2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "degUb5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degUb5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeActivity3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeActivity3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "degUb6", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degUb6", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeActivity4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeActivity4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "degUb7", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degUb7", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeActivity5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeActivity5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "degUb8", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degUb8", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation27", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation28", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation29", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation30", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation31", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation32", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation33", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation34", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation35", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation36", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation37", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation38", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation39", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation40", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation41", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation42", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation43", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation44", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation45", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation46", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation46", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation47", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation47", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation48", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation48", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation49", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation49", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation50", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation50", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation51", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation51", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation52", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation52", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation53", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation53", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation54", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation54", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SequesteringOfAggregates", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SequesteringOfAggregates", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SeqAggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SeqAggP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibtion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibtion", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "Aggregation50", 
+               "Aggregation51", 
+               "Aggregation52", 
+               "Aggregation53", 
+               "Aggregation54", 
+               "Aggregation39", 
+               "Aggregation37", 
+               "MisP_Ub", 
+               "MisPE3Binding", 
+               "Aggregation35", 
+               "Aggregation32", 
+               "Aggregation29", 
+               "Aggregation28", 
+               "Aggregation25", 
+               "Aggregation24", 
+               "Aggregation27", 
+               "Aggregation26", 
+               "Aggregation21", 
+               "Aggregation20", 
+               "Aggregation23", 
+               "Aggregation22", 
+               "Refolding", 
+               "Source", 
+               "E2_Ub", 
+               "Polyubiquitination3", 
+               "MisP_Ub4_Proteasome", 
+               "Polyubiquitination1", 
+               "Polyubiquitination6", 
+               "Polyubiquitination7", 
+               "Polyubiquitination4", 
+               "Polyubiquitination5", 
+               "MisP_Ub5_Proteasome", 
+               "Aggregation38", 
+               "E1_Ub", 
+               "Aggregation36", 
+               "AMP", 
+               "Aggregation34", 
+               "ROS", 
+               "E1", 
+               "Aggregation33", 
+               "E3", 
+               "E2", 
+               "Aggregation8", 
+               "Aggregation9", 
+               "Aggregation6", 
+               "Aggregation7", 
+               "Aggregation4", 
+               "Aggregation5", 
+               "E2UbBinding", 
+               "Aggregation3", 
+               "Aggregation1", 
+               "Aggregation31", 
+               "Ub", 
+               "MisP_Ub5", 
+               "MisP_Ub4", 
+               "MisP_Ub7", 
+               "MisP_Ub6", 
+               "Aggregation2", 
+               "MisP_Ub3", 
+               "MisP_Ub2", 
+               "DeubiquitinationBoundMisP3", 
+               "DeubiquitinationBoundMisP2", 
+               "DeubiquitinationBoundMisP1", 
+               "E3_MisP", 
+               "MisP_Ub8", 
+               "DeubiquitinationBoundMisP5", 
+               "DeubiquitinationBoundMisP4", 
+               "E1UbBinding", 
+               "ProteinSynthesis", 
+               "ATP", 
+               "SequesteringOfAggregates", 
+               "AggP_Proteasome", 
+               "Aggregation14", 
+               "Aggregation15", 
+               "Aggregation16", 
+               "Aggregation17", 
+               "Aggregation10", 
+               "Aggregation11", 
+               "Aggregation12", 
+               "Aggregation13", 
+               "Aggregation18", 
+               "Aggregation19", 
+               "MisPE3Release", 
+               "ProteasomeInhibtion", 
+               "refNatP", 
+               "ADP", 
+               "DUB", 
+               "MisP", 
+               "MisP_Ub6_Proteasome", 
+               "AggP", 
+               "Aggregation44", 
+               "MisP_Ub8_Proteasome", 
+               "ProteasomeBinding2", 
+               "ProteasomeBinding3", 
+               "ProteasomeBinding1", 
+               "ProteasomeBinding4", 
+               "ProteasomeBinding5", 
+               "NatP", 
+               "degUb5", 
+               "degUb4", 
+               "degUb7", 
+               "degUb6", 
+               "degUb8", 
+               "Polyubiquitination2", 
+               "Monoubiquitination", 
+               "Misfolding", 
+               "SeqAggP", 
+               "Aggregation30", 
+               "Deubiqutination8", 
+               "totMisP", 
+               "Deubiqutination1", 
+               "Deubiqutination3", 
+               "Deubiqutination2", 
+               "Deubiqutination5", 
+               "Deubiqutination4", 
+               "Deubiqutination7", 
+               "Deubiqutination6", 
+               "Aggregation49", 
+               "Aggregation48", 
+               "Aggregation47", 
+               "Aggregation46", 
+               "Aggregation45", 
+               "Proteasome", 
+               "Aggregation43", 
+               "Aggregation42", 
+               "Aggregation41", 
+               "Aggregation40", 
+               "ProteasomeActivity5", 
+               "ProteasomeActivity4", 
+               "ProteasomeActivity1", 
+               "ProteasomeActivity3", 
+               "ProteasomeActivity2", 
+               "MisP_Ub7_Proteasome"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

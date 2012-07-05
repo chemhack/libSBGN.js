@@ -1,0 +1,240 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "NADP", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "NADPH"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "NADP", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "NADPH", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "NADP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "ADP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP_super_+", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "c", 
+            "subnodes": [
+               "ADP", 
+               "NADPH", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "ATP", 
+               "Y", 
+               "X", 
+               "NADP"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "c", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,3312 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "ProteinSynthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "ProteinSynthesis", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "NatP", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Hsp90MisPBinding"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90MisPBinding"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Hsp90MisPBinding", 
+         "target": "Hsp90_MisP"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Hsp90_MisP", 
+         "target": "Hsp90unsuccessulRefolding"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "Hsp90unsuccessulRefolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Hsp90unsuccessulRefolding", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Hsp90_MisP", 
+         "target": "Hsp90refolding"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Hsp90refolding"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "Hsp90refolding", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "Hsp90refolding", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "Hsp90refolding", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Hsp70MisPBinding"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Hsp70MisPBinding"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "Hsp70MisPBinding", 
+         "target": "Hsp70_MisP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "Hsp70_MisP", 
+         "target": "Hsp70unsuccessulRefolding"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "Hsp70unsuccessulRefolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "Hsp70unsuccessulRefolding", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "Hsp70_MisP", 
+         "target": "Hsp70refolding"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Hsp70refolding"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Hsp70refolding", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "Hsp70refolding", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "Hsp70refolding", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Hsp70ClientBinding"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "Hsp70Client", 
+         "target": "Hsp70ClientBinding"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "Hsp70ClientBinding", 
+         "target": "Hsp70_Hsp70Client"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "Hsp70_Hsp70Client", 
+         "target": "Hsp70ClientRelease"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "Hsp70ClientRelease", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Hsp70ClientRelease", 
+         "target": "Hsp70Client"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90ClientBinding"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "Hsp90Client", 
+         "target": "Hsp90ClientBinding"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "Hsp90ClientBinding", 
+         "target": "Hsp90_Hsp90Client"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "Hsp90_Hsp90Client", 
+         "target": "Hsp90ClientRelease"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "Hsp90ClientRelease", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "Hsp90ClientRelease", 
+         "target": "Hsp90Client"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90HSF1Binding"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "Hsf1", 
+         "target": "Hsp90HSF1Binding"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Binding", 
+         "target": "Hsf1_Hsp90"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsp90", 
+         "target": "Hsp90HSF1Release"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Release", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "Hsp90HSF1Release", 
+         "target": "Hsf1"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "Hsf1", 
+         "target": "dimerisation"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "dimerisation", 
+         "target": "Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Hsf1", 
+         "target": "trimerisation"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1", 
+         "target": "trimerisation"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "trimerisation", 
+         "target": "Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1", 
+         "target": "deTrimerisation"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "deTrimerisation", 
+         "target": "Hsf1"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "deTrimerisation", 
+         "target": "Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1", 
+         "target": "deDimerisation"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "deDimerisation", 
+         "target": "Hsf1"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1", 
+         "target": "HSE70TriHBinding"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "HSEHsp70", 
+         "target": "HSE70TriHBinding"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "HSE70TriHBinding", 
+         "target": "HSEHsp70_Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "HSEHsp70_Hsf1_Hsf1_Hsf1", 
+         "target": "HSE70TriHRelease"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "HSE70TriHRelease", 
+         "target": "HSEHsp70"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "HSE70TriHRelease", 
+         "target": "Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1", 
+         "target": "HSE90TriHBinding"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "HSEHsp90", 
+         "target": "HSE90TriHBinding"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "HSE90TriHBinding", 
+         "target": "HSEHsp90_Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "HSEHsp90_Hsf1_Hsf1_Hsf1", 
+         "target": "HSE90TriHRelease"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "HSE90TriHRelease", 
+         "target": "HSEHsp90"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "HSE90TriHRelease", 
+         "target": "Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1", 
+         "target": "Hsf1_Hsf1_Hsf1Phosphorylation"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "Pkc", 
+         "target": "Hsf1_Hsf1_Hsf1Phosphorylation"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "Hsf1_Hsf1_Hsf1Phosphorylation", 
+         "target": "Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "Hsf1_Hsf1_Hsf1Phosphorylation", 
+         "target": "Pkc"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1_P", 
+         "target": "Hsf1_Hsf1_Hsf1DePhosphorylation"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "Hsp70_Ppx", 
+         "target": "Hsf1_Hsf1_Hsf1DePhosphorylation"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+         "target": "Hsf1_Hsf1_Hsf1"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+         "target": "Hsp70_Ppx"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1_P", 
+         "target": "HSE70PhosTriHBinding"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "HSEHsp70", 
+         "target": "HSE70PhosTriHBinding"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "HSE70PhosTriHBinding", 
+         "target": "HSEHsp70_Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "HSEHsp70_Hsf1_Hsf1_Hsf1_P", 
+         "target": "HSE70PhosTriHRelease"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "HSE70PhosTriHRelease", 
+         "target": "Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "HSE70PhosTriHRelease", 
+         "target": "HSEHsp70"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "Hsf1_Hsf1_Hsf1_P", 
+         "target": "HSE90PhosTriHBinding"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "HSEHsp90", 
+         "target": "HSE90PhosTriHBinding"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "HSE90PhosTriHBinding", 
+         "target": "HSEHsp90_Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "HSEHsp90_Hsf1_Hsf1_Hsf1_P", 
+         "target": "HSE90PhosTriHRelease"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "HSE90PhosTriHRelease", 
+         "target": "Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "HSE90PhosTriHRelease", 
+         "target": "HSEHsp90"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "Hsp90BasalSynthesis"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "Hsp90BasalSynthesis", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "HSEHsp90_Hsf1_Hsf1_Hsf1_P", 
+         "target": "Hsp90Upregulation"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "Hsp90Upregulation", 
+         "target": "HSEHsp90_Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "Hsp90Upregulation", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90ProteasomeBinding"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "Hsp90ProteasomeBinding"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "Hsp90ProteasomeBinding", 
+         "target": "Hsp90_Proteasome"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "Hsp90_Proteasome", 
+         "target": "Hsp90Degradation"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Hsp90Degradation"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "Hsp90Degradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "Hsp90Degradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "Hsp70BasalSynthesis"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "Hsp70BasalSynthesis", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "HSEHsp70_Hsf1_Hsf1_Hsf1_P", 
+         "target": "Hsp70Upregulation"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "Hsp70Upregulation", 
+         "target": "HSEHsp70_Hsf1_Hsf1_Hsf1_P"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "Hsp70Upregulation", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Hsp70ProteasomeBinding"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "Hsp70ProteasomeBinding"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "Hsp70ProteasomeBinding", 
+         "target": "Hsp70_Proteasome"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "Hsp70_Proteasome", 
+         "target": "Hsp70Degradation"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Hsp70Degradation"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 393, 
+         "source": "Hsp70Degradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 393, 
+         "source": "Hsp70Degradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 394, 
+         "source": "Hsp70_MisP", 
+         "target": "MisPProteasomeBinding1"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "MisPProteasomeBinding1"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 393, 
+         "source": "MisPProteasomeBinding1", 
+         "target": "MisP_Proteasome"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "MisPProteasomeBinding1", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 394, 
+         "source": "Hsp90_MisP", 
+         "target": "MisPProteasomeBinding2"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "MisPProteasomeBinding2"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "MisPProteasomeBinding2", 
+         "target": "MisP_Proteasome"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 393, 
+         "source": "MisPProteasomeBinding2", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 394, 
+         "source": "MisP_Proteasome", 
+         "target": "MisPDegradation"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "MisPDegradation"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 393, 
+         "source": "MisPDegradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "MisPDegradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "radicalFormation"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 393, 
+         "source": "radicalFormation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "radicalScavenging"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "radicalScavenging", 
+         "target": "Sink"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Hsp70_PpxBinding"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "Ppx", 
+         "target": "Hsp70_PpxBinding"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "Hsp70_PpxBinding", 
+         "target": "Hsp70_Ppx"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "Hsp70_Ppx", 
+         "target": "Hsp70_PPXRelease"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "Hsp70_PPXRelease", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 393, 
+         "source": "Hsp70_PPXRelease", 
+         "target": "Ppx"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "JnkPhosphorylation"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "Jnk", 
+         "target": "JnkPhosphorylation"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "JnkPhosphorylation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 393, 
+         "source": "JnkPhosphorylation", 
+         "target": "Jnk_P"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 394, 
+         "source": "Jnk_P", 
+         "target": "JNKDephosphorylatioByMkp1"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 394, 
+         "source": "Mkp1_P", 
+         "target": "JNKDephosphorylatioByMkp1"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 393, 
+         "source": "JNKDephosphorylatioByMkp1", 
+         "target": "Jnk"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 393, 
+         "source": "JNKDephosphorylatioByMkp1", 
+         "target": "Mkp1_P"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "p38Phosphorylation"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "p38", 
+         "target": "p38Phosphorylation"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 393, 
+         "source": "p38Phosphorylation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 393, 
+         "source": "p38Phosphorylation", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "p38DePhosphorylationByMkp1"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 394, 
+         "source": "Mkp1_P", 
+         "target": "p38DePhosphorylationByMkp1"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "p38DePhosphorylationByMkp1", 
+         "target": "p38"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 393, 
+         "source": "p38DePhosphorylationByMkp1", 
+         "target": "Mkp1_P"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Aggregation1"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 393, 
+         "source": "Aggregation1", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "SequesteringOfAggregate"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "SequesteringOfAggregate"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 393, 
+         "source": "SequesteringOfAggregate", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "InclusionGrowth"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "InclusionGrowth"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 393, 
+         "source": "InclusionGrowth", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "ProteasomeInhibtion"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibtion"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibtion", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "ROSgenerationSmallAggP"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 394, 
+         "source": "AggP_Proteasome", 
+         "target": "ROSgenerationAggPProteasome"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 393, 
+         "source": "ROSgenerationAggPProteasome", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 393, 
+         "source": "ROSgenerationAggPProteasome", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "AktSynthesis"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 393, 
+         "source": "AktSynthesis", 
+         "target": "Akt"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90AktBinding"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 394, 
+         "source": "Akt", 
+         "target": "Hsp90AktBinding"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 393, 
+         "source": "Hsp90AktBinding", 
+         "target": "Akt_Hsp90"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 394, 
+         "source": "Akt_Hsp90", 
+         "target": "Hsp90AktRelease"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 393, 
+         "source": "Hsp90AktRelease", 
+         "target": "Akt"
+      }, 
+      {
+         "id": "edge174", 
+         "sbo": 393, 
+         "source": "Hsp90AktRelease", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge175", 
+         "sbo": 394, 
+         "source": "CHIP", 
+         "target": "CHIPbinding"
+      }, 
+      {
+         "id": "edge176", 
+         "sbo": 394, 
+         "source": "Akt_Hsp90", 
+         "target": "CHIPbinding"
+      }, 
+      {
+         "id": "edge177", 
+         "sbo": 393, 
+         "source": "CHIPbinding", 
+         "target": "Akt_CHIP_Hsp90"
+      }, 
+      {
+         "id": "edge178", 
+         "sbo": 394, 
+         "source": "Akt_CHIP_Hsp90", 
+         "target": "CHIPrelease"
+      }, 
+      {
+         "id": "edge179", 
+         "sbo": 393, 
+         "source": "CHIPrelease", 
+         "target": "CHIP"
+      }, 
+      {
+         "id": "edge180", 
+         "sbo": 393, 
+         "source": "CHIPrelease", 
+         "target": "Akt_Hsp90"
+      }, 
+      {
+         "id": "edge181", 
+         "sbo": 394, 
+         "source": "Akt_CHIP_Hsp90", 
+         "target": "AktProteasomeBinding"
+      }, 
+      {
+         "id": "edge182", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "AktProteasomeBinding"
+      }, 
+      {
+         "id": "edge183", 
+         "sbo": 393, 
+         "source": "AktProteasomeBinding", 
+         "target": "Akt_Proteasome"
+      }, 
+      {
+         "id": "edge184", 
+         "sbo": 393, 
+         "source": "AktProteasomeBinding", 
+         "target": "CHIP"
+      }, 
+      {
+         "id": "edge185", 
+         "sbo": 393, 
+         "source": "AktProteasomeBinding", 
+         "target": "Hsp90"
+      }, 
+      {
+         "id": "edge186", 
+         "sbo": 394, 
+         "source": "Akt_Proteasome", 
+         "target": "AktProteasomeRelease"
+      }, 
+      {
+         "id": "edge187", 
+         "sbo": 393, 
+         "source": "AktProteasomeRelease", 
+         "target": "Akt"
+      }, 
+      {
+         "id": "edge188", 
+         "sbo": 393, 
+         "source": "AktProteasomeRelease", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge189", 
+         "sbo": 394, 
+         "source": "Akt_Proteasome", 
+         "target": "AktDegradation"
+      }, 
+      {
+         "id": "edge190", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "AktDegradation"
+      }, 
+      {
+         "id": "edge191", 
+         "sbo": 393, 
+         "source": "AktDegradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge192", 
+         "sbo": 393, 
+         "source": "AktDegradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge193", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "Mkp1Synthesis"
+      }, 
+      {
+         "id": "edge194", 
+         "sbo": 393, 
+         "source": "Mkp1Synthesis", 
+         "target": "Mkp1"
+      }, 
+      {
+         "id": "edge195", 
+         "sbo": 394, 
+         "source": "Mkp1", 
+         "target": "Mkp1ProteasomeBinding"
+      }, 
+      {
+         "id": "edge196", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "Mkp1ProteasomeBinding"
+      }, 
+      {
+         "id": "edge197", 
+         "sbo": 393, 
+         "source": "Mkp1ProteasomeBinding", 
+         "target": "Mkp1_Proteasome"
+      }, 
+      {
+         "id": "edge198", 
+         "sbo": 394, 
+         "source": "Mkp1_Proteasome", 
+         "target": "Mkp1Degradation"
+      }, 
+      {
+         "id": "edge199", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Mkp1Degradation"
+      }, 
+      {
+         "id": "edge200", 
+         "sbo": 393, 
+         "source": "Mkp1Degradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge201", 
+         "sbo": 393, 
+         "source": "Mkp1Degradation", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge202", 
+         "sbo": 394, 
+         "source": "Mkp1", 
+         "target": "Mkp1Phosphorylation"
+      }, 
+      {
+         "id": "edge203", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Mkp1Phosphorylation"
+      }, 
+      {
+         "id": "edge204", 
+         "sbo": 393, 
+         "source": "Mkp1Phosphorylation", 
+         "target": "Mkp1_P"
+      }, 
+      {
+         "id": "edge205", 
+         "sbo": 393, 
+         "source": "Mkp1Phosphorylation", 
+         "target": "Hsp70"
+      }, 
+      {
+         "id": "edge206", 
+         "sbo": 394, 
+         "source": "Mkp1_P", 
+         "target": "Mkp1Dephosphorylation"
+      }, 
+      {
+         "id": "edge207", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Mkp1Dephosphorylation"
+      }, 
+      {
+         "id": "edge208", 
+         "sbo": 393, 
+         "source": "Mkp1Dephosphorylation", 
+         "target": "Mkp1"
+      }, 
+      {
+         "id": "edge209", 
+         "sbo": 393, 
+         "source": "Mkp1Dephosphorylation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge210", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "p38ROSproduction"
+      }, 
+      {
+         "id": "edge211", 
+         "sbo": 393, 
+         "source": "p38ROSproduction", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge212", 
+         "sbo": 393, 
+         "source": "p38ROSproduction", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge213", 
+         "sbo": 394, 
+         "source": "Hsp70", 
+         "target": "Hsp70Damage"
+      }, 
+      {
+         "id": "edge214", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Hsp70Damage"
+      }, 
+      {
+         "id": "edge215", 
+         "sbo": 393, 
+         "source": "Hsp70Damage", 
+         "target": "Hsp70_dam"
+      }, 
+      {
+         "id": "edge216", 
+         "sbo": 393, 
+         "source": "Hsp70Damage", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge217", 
+         "sbo": 394, 
+         "source": "Hsp90", 
+         "target": "Hsp90Damage"
+      }, 
+      {
+         "id": "edge218", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Hsp90Damage"
+      }, 
+      {
+         "id": "edge219", 
+         "sbo": 393, 
+         "source": "Hsp90Damage", 
+         "target": "Hsp90_dam"
+      }, 
+      {
+         "id": "edge220", 
+         "sbo": 393, 
+         "source": "Hsp90Damage", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge221", 
+         "sbo": 394, 
+         "source": "Hsp70_dam", 
+         "target": "Hsp70DamProteasomeBinding"
+      }, 
+      {
+         "id": "edge222", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "Hsp70DamProteasomeBinding"
+      }, 
+      {
+         "id": "edge223", 
+         "sbo": 393, 
+         "source": "Hsp70DamProteasomeBinding", 
+         "target": "Hsp70_Proteasome"
+      }, 
+      {
+         "id": "edge224", 
+         "sbo": 394, 
+         "source": "Hsp90_dam", 
+         "target": "Hsp90DamProteasomeBinding"
+      }, 
+      {
+         "id": "edge225", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "Hsp90DamProteasomeBinding"
+      }, 
+      {
+         "id": "edge226", 
+         "sbo": 393, 
+         "source": "Hsp90DamProteasomeBinding", 
+         "target": "Hsp90_Proteasome"
+      }, 
+      {
+         "id": "edge227", 
+         "sbo": 394, 
+         "source": "Hsp70_dam", 
+         "target": "Hsp70DamAggregation1"
+      }, 
+      {
+         "id": "edge228", 
+         "sbo": 393, 
+         "source": "Hsp70DamAggregation1", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge229", 
+         "sbo": 394, 
+         "source": "Hsp70_dam", 
+         "target": "Hsp70DamInclusionFormation"
+      }, 
+      {
+         "id": "edge230", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Hsp70DamInclusionFormation"
+      }, 
+      {
+         "id": "edge231", 
+         "sbo": 393, 
+         "source": "Hsp70DamInclusionFormation", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge232", 
+         "sbo": 394, 
+         "source": "Hsp90_dam", 
+         "target": "Hsp90DamAggregation"
+      }, 
+      {
+         "id": "edge233", 
+         "sbo": 393, 
+         "source": "Hsp90DamAggregation", 
+         "target": "AggP"
+      }, 
+      {
+         "id": "edge234", 
+         "sbo": 394, 
+         "source": "Hsp90_dam", 
+         "target": "Hsp90DamInclusionFormation"
+      }, 
+      {
+         "id": "edge235", 
+         "sbo": 394, 
+         "source": "AggP", 
+         "target": "Hsp90DamInclusionFormation"
+      }, 
+      {
+         "id": "edge236", 
+         "sbo": 393, 
+         "source": "Hsp90DamInclusionFormation", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge237", 
+         "sbo": 394, 
+         "source": "Hsp70_dam", 
+         "target": "Hsp70DamSequestering"
+      }, 
+      {
+         "id": "edge238", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "Hsp70DamSequestering"
+      }, 
+      {
+         "id": "edge239", 
+         "sbo": 393, 
+         "source": "Hsp70DamSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge240", 
+         "sbo": 394, 
+         "source": "Hsp90_dam", 
+         "target": "Hsp90DamSequestering"
+      }, 
+      {
+         "id": "edge241", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "Hsp90DamSequestering"
+      }, 
+      {
+         "id": "edge242", 
+         "sbo": 393, 
+         "source": "Hsp90DamSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge243", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "p38CellDeath"
+      }, 
+      {
+         "id": "edge244", 
+         "sbo": 393, 
+         "source": "p38CellDeath", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge245", 
+         "sbo": 393, 
+         "source": "p38CellDeath", 
+         "target": "p38Death"
+      }, 
+      {
+         "id": "edge246", 
+         "sbo": 393, 
+         "source": "p38CellDeath", 
+         "target": "CellDeath"
+      }, 
+      {
+         "id": "edge247", 
+         "sbo": 394, 
+         "source": "Jnk_P", 
+         "target": "JnkCellDeath"
+      }, 
+      {
+         "id": "edge248", 
+         "sbo": 393, 
+         "source": "JnkCellDeath", 
+         "target": "Jnk_P"
+      }, 
+      {
+         "id": "edge249", 
+         "sbo": 393, 
+         "source": "JnkCellDeath", 
+         "target": "JNKDeath"
+      }, 
+      {
+         "id": "edge250", 
+         "sbo": 393, 
+         "source": "JnkCellDeath", 
+         "target": "CellDeath"
+      }, 
+      {
+         "id": "edge251", 
+         "sbo": 394, 
+         "source": "AggP_Proteasome", 
+         "target": "PICellDeath"
+      }, 
+      {
+         "id": "edge252", 
+         "sbo": 393, 
+         "source": "PICellDeath", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge253", 
+         "sbo": 393, 
+         "source": "PICellDeath", 
+         "target": "PIDeath"
+      }, 
+      {
+         "id": "edge254", 
+         "sbo": 393, 
+         "source": "PICellDeath", 
+         "target": "CellDeath"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteinSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteinSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Source", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Source", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NatP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NatP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Misfolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Misfolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ROS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90MisPBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90MisPBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90_MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90_MisP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90unsuccessulRefolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90unsuccessulRefolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90refolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90refolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70MisPBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70MisPBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70_MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_MisP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70unsuccessulRefolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70unsuccessulRefolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70refolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70refolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70ClientBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70ClientBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70Client", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70Client", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70_Hsp70Client", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_Hsp70Client", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70ClientRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70ClientRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90ClientBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90ClientBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90Client", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Client", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90_Hsp90Client", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90_Hsp90Client", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90ClientRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90ClientRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90HSF1Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90HSF1Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsf1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsf1_Hsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsp90", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90HSF1Release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90HSF1Release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsf1_Hsf1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsf1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "trimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "trimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsf1_Hsf1_Hsf1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsf1_Hsf1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "deTrimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "deTrimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "deDimerisation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "deDimerisation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE70TriHBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE70TriHBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp70", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp70", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp70_Hsf1_Hsf1_Hsf1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp70_Hsf1_Hsf1_Hsf1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE70TriHRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE70TriHRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE90TriHBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE90TriHBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp90", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp90_Hsf1_Hsf1_Hsf1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp90_Hsf1_Hsf1_Hsf1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE90TriHRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE90TriHRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsf1_Hsf1_Hsf1Phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsf1_Hsf1Phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pkc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pkc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsf1_Hsf1_Hsf1_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsf1_Hsf1_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70_Ppx", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_Ppx", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE70PhosTriHBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE70PhosTriHBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp70_Hsf1_Hsf1_Hsf1_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp70_Hsf1_Hsf1_Hsf1_P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE70PhosTriHRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE70PhosTriHRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE90PhosTriHBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE90PhosTriHBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HSEHsp90_Hsf1_Hsf1_Hsf1_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSEHsp90_Hsf1_Hsf1_Hsf1_P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "HSE90PhosTriHRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HSE90PhosTriHRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90BasalSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90BasalSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90Upregulation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Upregulation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90ProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90ProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70BasalSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70BasalSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70Upregulation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70Upregulation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70ProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70ProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPProteasomeBinding1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPProteasomeBinding1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPProteasomeBinding2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPProteasomeBinding2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "radicalFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "radicalFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "radicalScavenging", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "radicalScavenging", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sink", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sink", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70_PpxBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_PpxBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ppx", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ppx", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70_PPXRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_PPXRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "JnkPhosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JnkPhosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Jnk", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jnk", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Jnk_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jnk_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "JNKDephosphorylatioByMkp1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JNKDephosphorylatioByMkp1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mkp1_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38Phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38Phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38DePhosphorylationByMkp1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38DePhosphorylationByMkp1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SequesteringOfAggregate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SequesteringOfAggregate", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SeqAggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SeqAggP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "InclusionGrowth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "InclusionGrowth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibtion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibtion", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationAggPProteasome", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationAggPProteasome", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AktSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Akt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Akt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90AktBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90AktBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Akt_Hsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Akt_Hsp90", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90AktRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90AktRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CHIPbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CHIPbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CHIP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CHIP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Akt_CHIP_Hsp90", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Akt_CHIP_Hsp90", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CHIPrelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CHIPrelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AktProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Akt_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Akt_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AktProteasomeRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktProteasomeRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AktDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mkp1Synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1Synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mkp1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mkp1ProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1ProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mkp1_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mkp1Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mkp1Phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1Phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mkp1Dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mkp1Dephosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38ROSproduction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38ROSproduction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70Damage", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70Damage", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp70_dam", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70_dam", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90Damage", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90Damage", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hsp90_dam", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90_dam", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70DamProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70DamProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90DamProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90DamProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70DamAggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70DamAggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70DamInclusionFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70DamInclusionFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90DamAggregation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90DamAggregation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90DamInclusionFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90DamInclusionFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp70DamSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp70DamSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hsp90DamSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Hsp90DamSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38CellDeath", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38CellDeath", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38Death", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38Death", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CellDeath", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CellDeath", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "JnkCellDeath", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JnkCellDeath", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "JNKDeath", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JNKDeath", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PICellDeath", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PICellDeath", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIDeath", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIDeath", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "JNKDephosphorylatioByMkp1", 
+               "p38ROSproduction", 
+               "Mkp1", 
+               "radicalScavenging", 
+               "Hsp70_PpxBinding", 
+               "Hsp70Upregulation", 
+               "Hsp70", 
+               "Hsf1_Hsp90", 
+               "Hsp70DamSequestering", 
+               "p38Death", 
+               "MisP_Proteasome", 
+               "Sink", 
+               "Hsp70ClientRelease", 
+               "Akt_Hsp90", 
+               "Hsp70_Ppx", 
+               "deDimerisation", 
+               "JNKDeath", 
+               "Hsp90DamInclusionFormation", 
+               "AktDegradation", 
+               "CHIPbinding", 
+               "AktProteasomeBinding", 
+               "Hsp90MisPBinding", 
+               "InclusionGrowth", 
+               "MisPDegradation", 
+               "Source", 
+               "JnkCellDeath", 
+               "Hsf1_Hsf1_Hsf1Phosphorylation", 
+               "ROSgenerationAggPProteasome", 
+               "Hsp70MisPBinding", 
+               "Hsp90_Proteasome", 
+               "Proteasome", 
+               "Hsp70Degradation", 
+               "Hsp70ClientBinding", 
+               "p38DePhosphorylationByMkp1", 
+               "ROS", 
+               "Hsp70DamAggregation1", 
+               "Hsp70_Proteasome", 
+               "Hsp90_Hsp90Client", 
+               "ROSgenerationSmallAggP", 
+               "Aggregation1", 
+               "p38", 
+               "radicalFormation", 
+               "Hsp90Client", 
+               "Hsp90unsuccessulRefolding", 
+               "Hsp90HSF1Binding", 
+               "Hsf1_Hsf1", 
+               "Mkp1Degradation", 
+               "PIDeath", 
+               "Hsp70_dam", 
+               "Pkc", 
+               "Hsp70DamProteasomeBinding", 
+               "Jnk", 
+               "Hsp90ClientRelease", 
+               "trimerisation", 
+               "Hsp90refolding", 
+               "MisPProteasomeBinding1", 
+               "Hsp70unsuccessulRefolding", 
+               "CHIP", 
+               "MisPProteasomeBinding2", 
+               "Hsp90_MisP", 
+               "ProteinSynthesis", 
+               "Hsp90_dam", 
+               "ATP", 
+               "Mkp1_Proteasome", 
+               "Mkp1Synthesis", 
+               "Hsp90DamSequestering", 
+               "Jnk_P", 
+               "AggP_Proteasome", 
+               "p38Phosphorylation", 
+               "ProteasomeInhibtion", 
+               "Hsp90AktRelease", 
+               "ADP", 
+               "Hsp90ProteasomeBinding", 
+               "Hsp90HSF1Release", 
+               "CellDeath", 
+               "Hsp90BasalSynthesis", 
+               "Hsp90DamProteasomeBinding", 
+               "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+               "SequesteringOfAggregate", 
+               "AktSynthesis", 
+               "MisP", 
+               "Hsp70DamInclusionFormation", 
+               "Hsp70Damage", 
+               "AggP", 
+               "Hsp90Damage", 
+               "Hsp90ClientBinding", 
+               "Hsf1", 
+               "Akt_CHIP_Hsp90", 
+               "Hsp70_MisP", 
+               "Akt_Proteasome", 
+               "Hsp90", 
+               "Hsp70refolding", 
+               "Hsp90Upregulation", 
+               "p38_P", 
+               "CHIPrelease", 
+               "PICellDeath", 
+               "NatP", 
+               "p38CellDeath", 
+               "Hsp90AktBinding", 
+               "Mkp1Dephosphorylation", 
+               "Mkp1Phosphorylation", 
+               "Hsp70BasalSynthesis", 
+               "Hsp70_Hsp70Client", 
+               "Hsp70Client", 
+               "AktProteasomeRelease", 
+               "Hsp70ProteasomeBinding", 
+               "JnkPhosphorylation", 
+               "Hsp90DamAggregation", 
+               "Mkp1ProteasomeBinding", 
+               "Misfolding", 
+               "Hsp90Degradation", 
+               "Akt", 
+               "Hsp70_PPXRelease", 
+               "dimerisation", 
+               "deTrimerisation", 
+               "SeqAggP", 
+               "Ppx", 
+               "Mkp1_P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "trimerisation", 
+               "HSEHsp90", 
+               "HSE70TriHRelease", 
+               "HSEHsp70_Hsf1_Hsf1_Hsf1_P", 
+               "Hsp90Upregulation", 
+               "Hsf1_Hsf1_Hsf1Phosphorylation", 
+               "Hsf1_Hsf1_Hsf1_P", 
+               "HSEHsp70", 
+               "HSE90TriHBinding", 
+               "Hsp70Upregulation", 
+               "HSE70TriHBinding", 
+               "HSEHsp90_Hsf1_Hsf1_Hsf1", 
+               "HSEHsp70_Hsf1_Hsf1_Hsf1", 
+               "Hsf1_Hsf1_Hsf1", 
+               "HSE70PhosTriHRelease", 
+               "HSE90TriHRelease", 
+               "HSE90PhosTriHRelease", 
+               "Hsf1_Hsf1_Hsf1DePhosphorylation", 
+               "deTrimerisation", 
+               "HSE70PhosTriHBinding", 
+               "HSE90PhosTriHBinding", 
+               "HSEHsp90_Hsf1_Hsf1_Hsf1_P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

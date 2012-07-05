@@ -1,0 +1,183 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "rPer"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "rPer", 
+         "target": "Per"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "dClkF", 
+         "target": "rPer"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "rdClk"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "rdClk", 
+         "target": "dClk"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "dClkF", 
+         "target": "rdClk"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Per", 
+         "target": "rPerD"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "rPerD", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "dClk", 
+         "target": "rdClkD"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "rdClkD", 
+         "target": "EmptySet"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rPer", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EmptySet", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Per", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Per", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "free dClk", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dClkF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dClk production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rdClk", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dClk", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dClk", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rPerD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dClk degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rdClkD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "CELL", 
+            "subnodes": [
+               "rPerD", 
+               "dClk", 
+               "Per", 
+               "rPer", 
+               "rdClkD", 
+               "EmptySet", 
+               "rdClk", 
+               "dClkF"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "CELL", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

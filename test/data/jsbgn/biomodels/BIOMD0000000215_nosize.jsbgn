@@ -1,0 +1,695 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "vtrnldegsink", 
+         "target": "vtrnldeg"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vtrnldeg", 
+         "target": "Tbet_mRNA"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Ag", 
+         "target": "vtrnldeg"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "Ifn_Prot", 
+         "target": "vtrnldeg"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "reaction_1sink", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "Tbet_mRNA"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "Rec_Prot", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "reaction_2sink", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "Tbet_mRNA"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Tbet_mRNA", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "reaction_3sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Tbet_Prot", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "reaction_4sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Rec_mRNA", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "reaction_5sink"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Rec_Prot", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "reaction_6sink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Ifn_mRNA", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "reaction_7sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "Ifn_Prot", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "reaction_8sink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "reaction_9sink", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "Tbet_Prot"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "Tbet_mRNA", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "reaction_10sink", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "Ifn_Prot"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Ifn_mRNA", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "reaction_11sink", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "Rec_Prot"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "Rec_mRNA", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "reaction_12sink", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "Rec_mRNA"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "Tbet_Prot", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "Ag", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "reaction_13sink", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "Ifn_mRNA"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "Tbet_Prot", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "Rec_Prot", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "Ag", 
+         "target": "reaction_13"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet IFN dependend transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vtrnldeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vtrnldegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Tbet_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Tbet_mRNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ag", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ag", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ifn_Prot", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ifn_Prot", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet Receptor dependent transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rec_Prot", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rec_Prot", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet basal expression", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Tbet_Prot", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Tbet_Prot", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rec_mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rec_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rec_mRNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rec_Prot degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IFN_mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ifn_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ifn_mRNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IFN_Prot degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tbet Translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IFN tranlation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rec translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rec Transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IFN transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "reaction_1", 
+               "reaction_10sink", 
+               "Ifn_mRNA", 
+               "reaction_11", 
+               "reaction_11sink", 
+               "reaction_13", 
+               "vtrnldegsink", 
+               "Rec_Prot", 
+               "Tbet_Prot", 
+               "reaction_7sink", 
+               "reaction_3sink", 
+               "reaction_13sink", 
+               "reaction_6sink", 
+               "reaction_9", 
+               "reaction_9sink", 
+               "reaction_8sink", 
+               "reaction_1sink", 
+               "Rec_mRNA", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_4sink", 
+               "Ifn_Prot", 
+               "reaction_8", 
+               "Tbet_mRNA", 
+               "reaction_5sink", 
+               "Ag", 
+               "vtrnldeg", 
+               "reaction_10", 
+               "reaction_2sink", 
+               "reaction_12", 
+               "reaction_12sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

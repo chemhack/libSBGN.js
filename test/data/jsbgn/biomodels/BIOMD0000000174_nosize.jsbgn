@@ -1,0 +1,394 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0sink", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "r5", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "R5", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "r5", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "reaction_2sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "reaction_3sink", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "r7", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "R7", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "r7", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "R5", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "R5", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "R7", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "r7", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "reaction_7sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "R5", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "R7", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "r7"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "recruitment of Rab5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rab5-GDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of Rab5 (time)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rab5-GTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "extraction of Rab5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "recruitment of Rab7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rab7-GDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of Rab7 by GEF7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rab7-GTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of Rab7 by GEF5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "hydrolysis of Rab5 by Rab7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "extraction of rab7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "hydrolysis of Rab5 (intr.)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "hydrolysis of Rab7 (intr.)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "endosomal membrane", 
+            "subnodes": [
+               "r5", 
+               "r7", 
+               "reaction_5", 
+               "R5", 
+               "reaction_7sink", 
+               "reaction_0sink", 
+               "reaction_6", 
+               "reaction_2sink", 
+               "reaction_3sink", 
+               "reaction_7", 
+               "reaction_4", 
+               "R7", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_0", 
+               "reaction_1", 
+               "reaction_8", 
+               "reaction_9"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "endosome", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,462 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R_expressionsink", 
+         "target": "R_expression"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R_expression", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "A", 
+         "target": "R_expression"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "R_degradation"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R_degradation", 
+         "target": "R_degradationsink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "R_L_binding"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "L", 
+         "target": "R_L_binding"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "R_L_binding", 
+         "target": "C"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "C", 
+         "target": "C_degradation"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "C_degradation", 
+         "target": "C_degradationsink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "C", 
+         "target": "C_I_binding"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "I", 
+         "target": "C_I_binding"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "C_I_binding", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "I_activation"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "I_activation", 
+         "target": "C"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "I_activation", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "X_degradation"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "X_degradation", 
+         "target": "X_degradationsink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "A_degradation"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "A_degradation", 
+         "target": "A_degradationsink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "I_expressionsink", 
+         "target": "I_expression"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "I_expression", 
+         "target": "I"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "A", 
+         "target": "I_expression"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "I", 
+         "target": "I_degradation"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "I_degradation", 
+         "target": "I_degradationsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_expression", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_expression", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_expressionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "A", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R_L_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_L_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "L", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "L", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C_I_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C_I_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "I", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "I_activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "X_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "A_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "I_expression", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I_expression", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I_expressionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "I_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "A_degradationsink", 
+               "R_expression", 
+               "C_I_binding", 
+               "C_degradationsink", 
+               "A_degradation", 
+               "R_degradationsink", 
+               "I_degradationsink", 
+               "R_expressionsink", 
+               "I_degradation", 
+               "I_activation", 
+               "R_degradation", 
+               "A", 
+               "C", 
+               "X_degradationsink", 
+               "I_expression", 
+               "I", 
+               "L", 
+               "R", 
+               "I_expressionsink", 
+               "X", 
+               "R_L_binding", 
+               "X_degradation", 
+               "C_degradation"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

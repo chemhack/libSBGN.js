@@ -1,0 +1,2012 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "PIP_PM", 
+         "target": "PIP2_synthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "PIP2_synthesis", 
+         "target": "PIP2_PM"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Shc_PM", 
+         "target": "Shc_phosphorylation"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Shc_phosphorylation", 
+         "target": "Shc_star_PM"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "Activated_EGFR_PM", 
+         "target": "Shc_phosphorylation"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "Ca_bind_CAPRI"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "CAPRI_cyt", 
+         "target": "Ca_bind_CAPRI"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Ca_bind_CAPRI", 
+         "target": "CaCAPRI_cyt"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "IP3", 
+         "target": "IP3_degradation"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "IP3_degradation", 
+         "target": "IP3_degradationsink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "RasGTP_depal_cyt", 
+         "target": "RasGTP_depal_translocate"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "RasGTP_depal_translocate", 
+         "target": "RasGTP_Golgi_GM"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "ca_bind_rasGRP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "RasGRP_cyt", 
+         "target": "ca_bind_rasGRP"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "ca_bind_rasGRP", 
+         "target": "CaRasGRP1_cyt"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "RasGDP_Golgi_GM", 
+         "target": "RasGRP_DAG_GEF"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "RasGRP_DAG_GEF", 
+         "target": "RasGTP_Golgi_GM"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "RasGRP_DAG_GM", 
+         "target": "RasGRP_DAG_GEF"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "RasGTP_pal_cyt", 
+         "target": "rasGTP_pal_translocation"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "rasGTP_pal_translocation", 
+         "target": "RasGTP_PM"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PLC_act_PM", 
+         "target": "PLCg_dephos"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "PLCg_dephos", 
+         "target": "PLC_PM"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "RasGTP_PM", 
+         "target": "basal_GAP"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "basal_GAP", 
+         "target": "RasGDP_PM"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "CaCAPRI_cyt", 
+         "target": "CAPRI_translocation"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "CAPRI_translocation", 
+         "target": "CaCAPRI_PM_PM"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "DAG_GM_GM", 
+         "target": "reaction5"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "RasGRP_cyt", 
+         "target": "reaction5"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction5", 
+         "target": "RasGRP_DAG_GM"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "RasGDP_Golgi_GM", 
+         "target": "RasGDP_pal"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "RasGDP_pal", 
+         "target": "RasGDP_pal_cyt"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "RasGTP_PM", 
+         "target": "CAPRI_GAP"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "CAPRI_GAP", 
+         "target": "RasGDP_PM"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "CaCAPRI_PM_PM", 
+         "target": "CAPRI_GAP"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "RasGDP_pal_cyt", 
+         "target": "RasGDPpal_translocation"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "RasGDPpal_translocation", 
+         "target": "RasGDP_PM"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "Sos_cyt", 
+         "target": "sos_grb2_binding"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "Grb2_cyt", 
+         "target": "sos_grb2_binding"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "sos_grb2_binding", 
+         "target": "SosGrb2_cyt"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "RasGDP_depal_cyt", 
+         "target": "RasGDP_depal_translocate"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "RasGDP_depal_translocate", 
+         "target": "RasGDP_Golgi_GM"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "RasGTP_Golgi_GM", 
+         "target": "Ras_GTP_palm1"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "Ras_GTP_palm1", 
+         "target": "RasGTP_pal_cyt"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "RasGTP_pal_cyt", 
+         "target": "RasPal_basal_GAP"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "RasPal_basal_GAP", 
+         "target": "RasGDP_pal_cyt"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "RasGTP_depal_cyt", 
+         "target": "basal_cyt_depal_GEF"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "basal_cyt_depal_GEF", 
+         "target": "RasGDP_depal_cyt"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "PIP2_GM_GM", 
+         "target": "caPLCe_gen_DAG"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "caPLCe_gen_DAG", 
+         "target": "DAG_GM_GM"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "caPLCe_gen_DAG", 
+         "target": "IP3"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "Ras_CaPLCe_GM", 
+         "target": "caPLCe_gen_DAG"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "RasGDP_Golgi_GM", 
+         "target": "CaRasGRP_act_RasGM"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "CaRasGRP_act_RasGM", 
+         "target": "RasGTP_Golgi_GM"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "Ca_RasGRP_GM_GM", 
+         "target": "CaRasGRP_act_RasGM"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "PIP2_PM", 
+         "target": "PIP2_hydrolysis"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "PIP2_hydrolysis", 
+         "target": "DAG_PM"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "PIP2_hydrolysis", 
+         "target": "IP3"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "PLC_act_PM", 
+         "target": "PIP2_hydrolysis"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "SosGrb2_cyt", 
+         "target": "Sos_activation"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "Shc_star_PM", 
+         "target": "Sos_activation"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "Sos_activation", 
+         "target": "SGS_PM"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "PI_PM", 
+         "target": "PIP_synthesis"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "PIP_synthesis", 
+         "target": "PIP_PM"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "Activated_EGFR_PM", 
+         "target": "EGF_internalization"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "EGF_internalization", 
+         "target": "EGF_internalizationsink"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "buffer_cyt", 
+         "target": "calcium_buffer"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "calcium_buffer"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "calcium_buffer", 
+         "target": "ca_buffer_cyt"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "RasGTP_Golgi_GM", 
+         "target": "RasGM_basal_GAP"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "RasGM_basal_GAP", 
+         "target": "RasGDP_Golgi_GM"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "Shc_star_PM", 
+         "target": "reaction0"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "reaction0", 
+         "target": "Shc_PM"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "EGF_EC", 
+         "target": "EGFR_binding"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "EGFR_PM", 
+         "target": "EGFR_binding"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "EGFR_binding", 
+         "target": "Activated_EGFR_PM"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "ca_act_PLCe"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "PLCe_cyt", 
+         "target": "ca_act_PLCe"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "ca_act_PLCe", 
+         "target": "Ca_PLCe_cyt"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "RasGTP_Golgi_GM", 
+         "target": "ras_act_PLCe"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "Ca_PLCe_cyt", 
+         "target": "ras_act_PLCe"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "ras_act_PLCe", 
+         "target": "Ras_CaPLCe_GM"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "RasGDP_PM", 
+         "target": "RasGDP_depal2"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "RasGDP_depal2", 
+         "target": "RasGDP_depal_cyt"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "CaRasGRP1_cyt", 
+         "target": "CaRasGRP_translocation"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "CaRasGRP_translocation", 
+         "target": "Ca_RasGRP_GM_GM"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "Rinh", 
+         "target": "reaction2"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "reaction2"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "reaction2", 
+         "target": "RinhCa"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "PLC_PM", 
+         "target": "EGF_act_PLCgamma"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "EGF_act_PLCgamma", 
+         "target": "PLC_act_PM"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 168, 
+         "source": "Activated_EGFR_PM", 
+         "target": "EGF_act_PLCgamma"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 394, 
+         "source": "Ract", 
+         "target": "Ca_binds_IP3R"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "Ca_binds_IP3R"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "Ca_binds_IP3R", 
+         "target": "RactCa"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "DAG_GM_GM", 
+         "target": "reaction7"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "reaction7", 
+         "target": "reaction7sink"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "RasGDP_PM", 
+         "target": "Sos_act_RasPM"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "Sos_act_RasPM", 
+         "target": "RasGTP_PM"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 168, 
+         "source": "SGS_PM", 
+         "target": "Sos_act_RasPM"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "flux1"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "flux1", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 168, 
+         "source": "ER_erMembrane", 
+         "target": "flux1"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 168, 
+         "source": "serca", 
+         "target": "flux1"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "flux0", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 168, 
+         "source": "ER_erMembrane", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 168, 
+         "source": "RactCa", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 168, 
+         "source": "Ract", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 168, 
+         "source": "IP3", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 168, 
+         "source": "Rinh", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "RinhCa", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "Ca", 
+         "target": "flux2"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "flux2", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "ER_erMembrane", 
+         "target": "flux2"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "RasGTP_PM", 
+         "target": "Ras_PM_depal1"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "Ras_PM_depal1", 
+         "target": "RasGTP_depal_cyt"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP_PM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP2_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_PM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Shc phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Shc_phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Shc_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Shc_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Shc_star_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Shc_star_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Activated_EGFR_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Activated_EGFR_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca bind CAPRI", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_bind_CAPRI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CAPRI_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CAPRI_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaCAPRI_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaCAPRI_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGTP depal translocate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGTP_depal_translocate", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGTP_depal_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGTP_depal_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGTP_Golgi_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGTP_Golgi_GM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ca bind rasGRP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ca_bind_rasGRP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGRP_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGRP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaRasGRP1_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaRasGRP1_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGRP_DAG GEF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGRP_DAG_GEF", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGDP_Golgi_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_Golgi_GM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGRP_DAG_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGRP_DAG_GM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "rasGTP pal translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rasGTP_pal_translocation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGTP_pal_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGTP_pal_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGTP_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGTP_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PLCg dephos", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLCg_dephos", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLC_act_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLC_act_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLC_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLC_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "basal GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "basal_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGDP_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CAPRI translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CAPRI_translocation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaCAPRI_PM_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaCAPRI_PM_PM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DAG_GM_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DAG_GM_GM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGDP pal", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_pal", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGDP_pal_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_pal_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CAPRI GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CAPRI_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGDPpal translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDPpal_translocation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "sos grb2 binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "sos_grb2_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sos_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sos_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Grb2_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Grb2_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SosGrb2_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosGrb2_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGDP depal translocate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_depal_translocate", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGDP_depal_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_depal_cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ras GTP palm1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ras_GTP_palm1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasPal basal GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasPal_basal_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "basal cyt depal GEF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "basal_cyt_depal_GEF", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "caPLCe gen DAG", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "caPLCe_gen_DAG", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP2_GM_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_GM_GM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ras_CaPLCe_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ras_CaPLCe_GM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CaRasGRP act RasGM", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaRasGRP_act_RasGM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_RasGRP_GM_GM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_RasGRP_GM_GM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2 hydrolysis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_hydrolysis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DAG_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DAG_PM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sos activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sos_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SGS_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SGS_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI_PM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EGF_internalization", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGF_internalization", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGF_internalizationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "calcium buffer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "calcium_buffer", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "buffer_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "buffer_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ca_buffer_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ca_buffer_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGM basal GAP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGM_basal_GAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EGFR_binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGFR_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EGF_EC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGF_EC", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EGFR_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGFR_PM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ca act PLCe", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ca_act_PLCe", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLCe_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLCe_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_PLCe_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_PLCe_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ras_act_PLCe", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ras_act_PLCe", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "RasGDP depal2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGDP_depal2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CaRasGRP translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaRasGRP_translocation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rinh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rinh", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RinhCa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RinhCa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EGF act PLCgamma", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGF_act_PLCgamma", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca_binds_IP3R", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_binds_IP3R", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ract", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ract", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RactCa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RactCa", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sos act RasPM", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sos_act_RasPM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "flux1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "flux1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_ER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_ER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ER_erMembrane", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ER_erMembrane", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "serca", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "serca", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "flux0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "flux0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "flux2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "flux2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ras PM depal1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ras_PM_depal1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "EC", 
+            "subnodes": [
+               "EGFR_binding", 
+               "EGF_EC"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "EC", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cyt", 
+            "subnodes": [
+               "caPLCe_gen_DAG", 
+               "ca_buffer_cyt", 
+               "CAPRI_cyt", 
+               "ras_act_PLCe", 
+               "RasGDP_depal2", 
+               "ca_bind_rasGRP", 
+               "IP3", 
+               "buffer_cyt", 
+               "Ca_PLCe_cyt", 
+               "RasGTP_depal_translocate", 
+               "RasGDP_depal_cyt", 
+               "flux2", 
+               "flux0", 
+               "flux1", 
+               "Ca_binds_IP3R", 
+               "PLCe_cyt", 
+               "CaRasGRP_translocation", 
+               "RasGRP_cyt", 
+               "Ca_bind_CAPRI", 
+               "Ras_PM_depal1", 
+               "sos_grb2_binding", 
+               "RasGTP_depal_cyt", 
+               "reaction2", 
+               "CaRasGRP1_cyt", 
+               "reaction5", 
+               "calcium_buffer", 
+               "PIP2_hydrolysis", 
+               "RasGTP_pal_cyt", 
+               "IP3_degradationsink", 
+               "CAPRI_translocation", 
+               "ca_act_PLCe", 
+               "RasGDP_pal", 
+               "SosGrb2_cyt", 
+               "Ras_GTP_palm1", 
+               "rasGTP_pal_translocation", 
+               "RasGDP_pal_cyt", 
+               "CaCAPRI_cyt", 
+               "basal_cyt_depal_GEF", 
+               "RasPal_basal_GAP", 
+               "Grb2_cyt", 
+               "RasGDP_depal_translocate", 
+               "Ca", 
+               "RasGDPpal_translocation", 
+               "IP3_degradation", 
+               "Sos_cyt", 
+               "Sos_activation"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cyt", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "er", 
+            "subnodes": [
+               "flux2", 
+               "flux0", 
+               "flux1", 
+               "Ca_ER"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "er", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Golgi", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Golgi", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "PM", 
+            "subnodes": [
+               "DAG_PM", 
+               "RasGDP_depal2", 
+               "PLC_act_PM", 
+               "EGFR_binding", 
+               "basal_GAP", 
+               "Shc_star_PM", 
+               "Activated_EGFR_PM", 
+               "PI_PM", 
+               "Sos_act_RasPM", 
+               "EGF_act_PLCgamma", 
+               "CaCAPRI_PM_PM", 
+               "Ras_PM_depal1", 
+               "Shc_phosphorylation", 
+               "PIP2_PM", 
+               "RasGDPpal_translocation", 
+               "SGS_PM", 
+               "EGF_internalizationsink", 
+               "reaction0", 
+               "PIP_PM", 
+               "EGF_internalization", 
+               "PIP2_synthesis", 
+               "CAPRI_translocation", 
+               "CAPRI_GAP", 
+               "rasGTP_pal_translocation", 
+               "Shc_PM", 
+               "EGFR_PM", 
+               "PIP_synthesis", 
+               "RasGTP_PM", 
+               "Sos_activation", 
+               "PLCg_dephos", 
+               "PLC_PM", 
+               "PIP2_hydrolysis", 
+               "RasGDP_PM"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "PM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "erMembrane", 
+            "subnodes": [
+               "reaction2", 
+               "Ract", 
+               "ER_erMembrane", 
+               "Ca_binds_IP3R", 
+               "RactCa", 
+               "Rinh", 
+               "RinhCa", 
+               "serca"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "erMembrane", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "GM", 
+            "subnodes": [
+               "RasGTP_depal_translocate", 
+               "PIP2_GM_GM", 
+               "caPLCe_gen_DAG", 
+               "reaction7", 
+               "reaction5", 
+               "RasGDP_depal_translocate", 
+               "RasGTP_Golgi_GM", 
+               "DAG_GM_GM", 
+               "RasGRP_DAG_GM", 
+               "ras_act_PLCe", 
+               "RasGDP_pal", 
+               "RasGRP_DAG_GEF", 
+               "Ras_GTP_palm1", 
+               "Ca_RasGRP_GM_GM", 
+               "reaction7sink", 
+               "RasGM_basal_GAP", 
+               "RasGDP_Golgi_GM", 
+               "Ras_CaPLCe_GM", 
+               "CaRasGRP_translocation", 
+               "CaRasGRP_act_RasGM"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "GM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

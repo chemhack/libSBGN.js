@@ -1,0 +1,374 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_1sink", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "EpoR"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "EpoR", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "reaction_2sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Epo", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "EpoR", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "Epo_EpoR"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Epo_EpoR", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "Epo"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "EpoR"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Epo_EpoR", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "Epo_EpoRi"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Epo_EpoRi", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "Epo"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "EpoR"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Epo_EpoRi", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "dEpoi"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Epo_EpoRi", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "dEpoe"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EpoR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EpoR", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Epo", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Epo", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Epo_EpoR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Epo_EpoR", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Epo_EpoRi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Epo_EpoRi", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dEpoi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dEpoi", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction_8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dEpoe", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dEpoe", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "medium", 
+            "subnodes": [
+               "dEpoe", 
+               "reaction_6", 
+               "Epo", 
+               "reaction_4", 
+               "reaction_3", 
+               "reaction_8"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "medium", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cellsurface", 
+            "subnodes": [
+               "EpoR", 
+               "reaction_1sink", 
+               "Epo_EpoR", 
+               "reaction_2sink", 
+               "reaction_6", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cellsurface", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "Epo_EpoRi", 
+               "dEpoi", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_5", 
+               "reaction_8"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

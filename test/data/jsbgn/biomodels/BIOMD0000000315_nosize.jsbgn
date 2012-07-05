@@ -1,0 +1,1075 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "T1", 
+         "target": "ass_aa_l"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "alpha", 
+         "target": "ass_aa_l"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "ass_aa_l", 
+         "target": "alpha_T1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "alpha_T1_alpha", 
+         "target": "m_ass_aa_lr"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "m_ass_aa_lr", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "m_ass_aa_lr", 
+         "target": "alpha_T1"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "T1_alpha", 
+         "target": "m_ass_aa_r"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "m_ass_aa_r", 
+         "target": "T1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "m_ass_aa_r", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "alpha_T1_alpha", 
+         "target": "m_ass_aa_rl"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "m_ass_aa_rl", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "m_ass_aa_rl", 
+         "target": "T1_alpha"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "alpha_T1", 
+         "target": "pol_aa"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "pol_aa", 
+         "target": "alpha_alpha_T1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "alpha_T1_alpha", 
+         "target": "dis_aa"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "dis_aa", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "dis_aa", 
+         "target": "alpha_alpha_T1"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "alpha_alpha_T1", 
+         "target": "nick_aa"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "nick_aa", 
+         "target": "alpha_T1_alpha"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "alpha", 
+         "target": "ass_ab_l"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "T2", 
+         "target": "ass_ab_l"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "ass_ab_l", 
+         "target": "alpha_T2"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "alpha_T2_beta", 
+         "target": "m_ass_ab_lr"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "m_ass_ab_lr", 
+         "target": "alpha_T2"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "m_ass_ab_lr", 
+         "target": "beta"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "T2_beta", 
+         "target": "m_ass_ab_r"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "m_ass_ab_r", 
+         "target": "T2"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "m_ass_ab_r", 
+         "target": "beta"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "alpha_T2_beta", 
+         "target": "m_ass_ab_rl"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "m_ass_ab_rl", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "m_ass_ab_rl", 
+         "target": "T2_beta"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "alpha_T2", 
+         "target": "pol_ab"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "pol_ab", 
+         "target": "alpha_beta_T2"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "alpha_T2_beta", 
+         "target": "dis_ab"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "dis_ab", 
+         "target": "beta"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "dis_ab", 
+         "target": "alpha_beta_T2"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "alpha_beta_T2", 
+         "target": "nick_ab"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "nick_ab", 
+         "target": "alpha_T2_beta"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "beta", 
+         "target": "ass_bc_l"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "T3", 
+         "target": "ass_bc_l"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "ass_bc_l", 
+         "target": "beta_T3"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "beta_T3_Inh", 
+         "target": "m_ass_bc_lr"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "m_ass_bc_lr", 
+         "target": "beta_T3"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "m_ass_bc_lr", 
+         "target": "Inh"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "T3", 
+         "target": "ass_bc_r"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Inh", 
+         "target": "ass_bc_r"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "ass_bc_r", 
+         "target": "T3_Inh"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "beta", 
+         "target": "ass_bc_rl"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "T3_Inh", 
+         "target": "ass_bc_rl"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "ass_bc_rl", 
+         "target": "beta_T3_Inh"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "beta_T3", 
+         "target": "pol_bc"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "pol_bc", 
+         "target": "beta_Inh_T3"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "beta_T3_Inh", 
+         "target": "dis_bc"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "dis_bc", 
+         "target": "Inh"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "dis_bc", 
+         "target": "beta_Inh_T3"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "beta_Inh_T3", 
+         "target": "nick_bc"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "nick_bc", 
+         "target": "beta_T3_Inh"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "T1", 
+         "target": "inh_ac"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Inh", 
+         "target": "inh_ac"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "inh_ac", 
+         "target": "Inh_T1"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "T1_alpha", 
+         "target": "inh_displ_ac"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "Inh", 
+         "target": "inh_displ_ac"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "inh_displ_ac", 
+         "target": "alpha"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "inh_displ_ac", 
+         "target": "Inh_T1"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "alpha", 
+         "target": "m_inh_displ_ca"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "Inh_T1", 
+         "target": "m_inh_displ_ca"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "m_inh_displ_ca", 
+         "target": "alpha_T1"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "m_inh_displ_ca", 
+         "target": "Inh"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "alpha", 
+         "target": "exo_a"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "exo_a", 
+         "target": "empty"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "beta", 
+         "target": "exo_b"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "exo_b", 
+         "target": "empty"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "Inh", 
+         "target": "exo_c"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "exo_c", 
+         "target": "empty"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "ass_aa_l", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ass_aa_l", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_T1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_T1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_aa_lr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_aa_lr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_T1_alpha", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_T1_alpha", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_aa_r", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_aa_r", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T1_alpha", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T1_alpha", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_aa_rl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_aa_rl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pol_aa", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pol_aa", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_alpha_T1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_alpha_T1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dis_aa", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dis_aa", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "nick_aa", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "nick_aa", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ass_ab_l", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ass_ab_l", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_T2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_T2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_ab_lr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_ab_lr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_T2_beta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_T2_beta", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "beta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "beta", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_ab_r", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_ab_r", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T2_beta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T2_beta", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_ab_rl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_ab_rl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pol_ab", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pol_ab", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha_beta_T2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "alpha_beta_T2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dis_ab", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dis_ab", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "nick_ab", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "nick_ab", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ass_bc_l", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ass_bc_l", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "beta_T3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "beta_T3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_ass_bc_lr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_ass_bc_lr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "beta_T3_Inh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "beta_T3_Inh", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inh", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ass_bc_r", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ass_bc_r", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "T3_Inh", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "T3_Inh", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ass_bc_rl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ass_bc_rl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pol_bc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pol_bc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "beta_Inh_T3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "beta_Inh_T3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dis_bc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dis_bc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "nick_bc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "nick_bc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inh_ac", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inh_ac", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inh_T1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inh_T1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inh_displ_ac", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inh_displ_ac", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "m_inh_displ_ca", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m_inh_displ_ca", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "exo_a", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exo_a", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "empty", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "empty", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "exo_b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exo_b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "exo_c", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exo_c", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "sample", 
+            "subnodes": [
+               "alpha_T2_beta", 
+               "dis_ab", 
+               "nick_aa", 
+               "nick_ab", 
+               "dis_aa", 
+               "pol_aa", 
+               "pol_ab", 
+               "beta_T3_Inh", 
+               "inh_displ_ac", 
+               "Inh_T1", 
+               "m_ass_aa_rl", 
+               "beta_Inh_T3", 
+               "m_ass_bc_lr", 
+               "T2_beta", 
+               "alpha_T2", 
+               "alpha_T1", 
+               "m_ass_ab_rl", 
+               "exo_a", 
+               "alpha_beta_T2", 
+               "m_ass_aa_r", 
+               "m_inh_displ_ca", 
+               "empty", 
+               "ass_bc_rl", 
+               "nick_bc", 
+               "exo_b", 
+               "dis_bc", 
+               "m_ass_ab_r", 
+               "T2", 
+               "T3", 
+               "T1", 
+               "beta", 
+               "pol_bc", 
+               "alpha", 
+               "m_ass_aa_lr", 
+               "ass_ab_l", 
+               "m_ass_ab_lr", 
+               "exo_c", 
+               "ass_bc_l", 
+               "inh_ac", 
+               "T1_alpha", 
+               "ass_aa_l", 
+               "Inh", 
+               "alpha_T1_alpha", 
+               "T3_Inh", 
+               "ass_bc_r", 
+               "alpha_alpha_T1", 
+               "beta_T3"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "sample", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

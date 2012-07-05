@@ -1,0 +1,472 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "at", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "s2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "s2", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "s3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "s3", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "na", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "s4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "at"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "s4", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "s5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "at"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "s5", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "s6"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "at", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "v7sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "s3", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "na"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "s6o", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "v9sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "s6", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "s6o"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "s6", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "na"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "v0sink", 
+         "target": "v0"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "v0", 
+         "target": "s1"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "at", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F16P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Triose_Gly3Phos_DHAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "na", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "3PG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s5", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acetaldehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s6", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "extracellular acetaldehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s6o", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "v10", 
+               "at", 
+               "s6o", 
+               "v9sink", 
+               "s3", 
+               "s2", 
+               "s1", 
+               "s6", 
+               "s5", 
+               "s4", 
+               "v7sink", 
+               "v0sink", 
+               "v0", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "na"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

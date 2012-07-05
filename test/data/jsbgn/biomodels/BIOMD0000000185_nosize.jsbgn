@@ -1,0 +1,912 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "X1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Z1", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "X1", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "R2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "R3sink", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "X1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "R4sink", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "X1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "R5sink", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "Y1"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "X1", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Y1", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "R6sink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "R7sink", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "Z1"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "Y1", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Z1", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "R8sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "R9sink", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "V1"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "X1", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "V1", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "R10sink"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "R11sink", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "X2"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Z2", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "X2", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "R12sink"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "R13sink", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "X2"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "R14sink", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "X2"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "R15sink", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "Y2"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "X2", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "Y2", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "R16sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "R17sink", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "Z2"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "Y2", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "Z2", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "R18sink"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "R19sink", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "V2"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "X2", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "V2", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "R20", 
+         "target": "R20sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clock gene mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X1", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Transcriptional repressor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide dependent transcription activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Light dependent transcription activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clock protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcriptional repressor synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcriptional repressor degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Neuropeptide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clock gene mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X2", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Transcriptional repressor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide dependent transcription activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Light dependent transcription activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clock protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcriptional repressor synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transcriptional repressor degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Neuropeptide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Neuropeptide degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cell", 
+            "subnodes": [
+               "R14sink", 
+               "R4sink", 
+               "R1sink", 
+               "R6sink", 
+               "R2sink", 
+               "R5sink", 
+               "R16", 
+               "R17", 
+               "R7sink", 
+               "R15", 
+               "R12", 
+               "R3sink", 
+               "R10", 
+               "R10sink", 
+               "R18", 
+               "R19", 
+               "V1", 
+               "V2", 
+               "R8sink", 
+               "X2", 
+               "X1", 
+               "Z1", 
+               "Z2", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R9sink", 
+               "R8", 
+               "R9", 
+               "R13sink", 
+               "R13", 
+               "R20sink", 
+               "R17sink", 
+               "R20", 
+               "R11", 
+               "R12sink", 
+               "R19sink", 
+               "R15sink", 
+               "R14", 
+               "Y1", 
+               "R11sink", 
+               "Y2", 
+               "R16sink", 
+               "R18sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

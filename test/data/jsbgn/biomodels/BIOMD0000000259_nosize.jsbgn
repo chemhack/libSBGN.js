@@ -1,0 +1,983 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "re1", 
+         "target": "s2"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "s2", 
+         "target": "re2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "re2", 
+         "target": "s3"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "s3", 
+         "target": "re3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "re3", 
+         "target": "s4"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "s4", 
+         "target": "re4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "re4", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "s2", 
+         "target": "re5"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "re5", 
+         "target": "s4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re6"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "re6", 
+         "target": "s5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "s5", 
+         "target": "re7"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "re7", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re8"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "re8", 
+         "target": "s6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "s6", 
+         "target": "re9"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "re9", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re10"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "re10", 
+         "target": "s7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re11"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "re11", 
+         "target": "s9"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re12"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "re12", 
+         "target": "s8"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "s9", 
+         "target": "re14"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "re14", 
+         "target": "s10"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "s8", 
+         "target": "re15"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "re15", 
+         "target": "s10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re16"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "re16", 
+         "target": "s11"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "s11", 
+         "target": "re17"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "re17", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re18"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "re18", 
+         "target": "s12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "s12", 
+         "target": "re19"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "re19", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re22"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "re22", 
+         "target": "s13"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "s13", 
+         "target": "re23"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "re23", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re24"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "re24", 
+         "target": "s14"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "s14", 
+         "target": "re25"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "re25", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re26"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "re26", 
+         "target": "s15"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re28"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "re28", 
+         "target": "s16"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "s16", 
+         "target": "re29"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "re29", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "s1", 
+         "target": "re30"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "re30", 
+         "target": "s17"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "s17", 
+         "target": "re31"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "re31", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "s7", 
+         "target": "re33"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "re33", 
+         "target": "s1"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "s15", 
+         "target": "re34"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "re34", 
+         "target": "s10"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "re1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Plasma", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Bone Marrow", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_RBC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Spleen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s4", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Liver", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s5", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Muscle", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s6", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Duodenum", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s7", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Intestine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s9", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Integument", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s8", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_Ions_Outside", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s10", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Heart", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s11", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Lungs", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s12", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Kidneys", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s13", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Testes", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s14", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Stomach", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s15", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re28", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Fat", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s16", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re29", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re30", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "iron_in_Brain", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s17", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re31", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re33", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "re34", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Environment", 
+            "subnodes": [
+               "re14", 
+               "re15", 
+               "s10", 
+               "re34"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "default", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Organism", 
+            "subnodes": [
+               "re18", 
+               "re19", 
+               "re14", 
+               "re15", 
+               "re16", 
+               "re17", 
+               "re10", 
+               "re11", 
+               "re12", 
+               "s9", 
+               "s8", 
+               "re33", 
+               "s3", 
+               "s2", 
+               "s1", 
+               "s7", 
+               "s6", 
+               "s5", 
+               "s4", 
+               "re25", 
+               "re24", 
+               "re26", 
+               "re23", 
+               "re22", 
+               "re30", 
+               "re29", 
+               "re28", 
+               "re31", 
+               "s13", 
+               "s12", 
+               "s11", 
+               "s17", 
+               "s16", 
+               "s15", 
+               "s14", 
+               "re34", 
+               "re8", 
+               "re9", 
+               "re2", 
+               "re3", 
+               "re1", 
+               "re6", 
+               "re7", 
+               "re4", 
+               "re5"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "c1", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

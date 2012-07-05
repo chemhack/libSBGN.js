@@ -1,0 +1,1778 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "IkBalpha", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "IkBalpha_NFkB"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "IkBbeta", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "IkBbeta_NFkB"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "IkBeps", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "IkBeps_NFkB"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "IKK_IkBalpha", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "IKK_IkBalpha_NFkB"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "IKK_IkBalpha_NFkB", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "IKK_IkBbeta", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "IKK_IkBbeta_NFkB"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "IKK_IkBbeta_NFkB", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "IKK_IkBeps", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "IKK_IkBeps_NFkB"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "IKK_IkBeps_NFkB", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "IkBalpha_NFkB", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "IkBbeta_NFkB", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "IkBeps_NFkB", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "NFkB"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "NFkB", 
+         "target": "v13"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "v13", 
+         "target": "NFkB_nuc"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "NFkB_nuc", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "IkBalpha_nuc", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "v14", 
+         "target": "IkBalpha_nuc_NFkB_nuc"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "NFkB_nuc", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "IkBbeta_nuc", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "v15", 
+         "target": "IkBbeta_nuc_NFkB_nuc"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "NFkB_nuc", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "IkBeps_nuc", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "v16", 
+         "target": "IkBeps_nuc_NFkB_nuc"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "v17sink", 
+         "target": "v17"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "v17", 
+         "target": "IkBalpha_transcript"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "v18sink", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "v18", 
+         "target": "IkBalpha_transcript"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "NFkB_nuc", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "IkBalpha_transcript", 
+         "target": "v19"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "v19", 
+         "target": "v19sink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "v20sink", 
+         "target": "v20"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "v20", 
+         "target": "IkBbeta_transcript"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "IkBbeta_transcript", 
+         "target": "v21"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "v21", 
+         "target": "v21sink"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "v22sink", 
+         "target": "v22"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "v22", 
+         "target": "IkBeps_transcript"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "IkBeps_transcript", 
+         "target": "v23"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "v23", 
+         "target": "v23sink"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "IkBalpha", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "v24", 
+         "target": "IKK_IkBalpha"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "v25sink", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "v25", 
+         "target": "IkBalpha"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "IkBalpha_transcript", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "IkBalpha", 
+         "target": "v26"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "v26", 
+         "target": "v26sink"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "IkBalpha", 
+         "target": "v27"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "v27", 
+         "target": "IkBalpha_nuc"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v28"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "IkBbeta", 
+         "target": "v28"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "v28", 
+         "target": "IKK_IkBbeta"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "v29sink", 
+         "target": "v29"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "v29", 
+         "target": "IkBbeta"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "IkBbeta_transcript", 
+         "target": "v29"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "IkBbeta", 
+         "target": "v30"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "v30", 
+         "target": "v30sink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "IkBbeta", 
+         "target": "v31"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "v31", 
+         "target": "IkBbeta_nuc"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v32"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "IkBeps", 
+         "target": "v32"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "v32", 
+         "target": "IKK_IkBeps"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "v33sink", 
+         "target": "v33"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "v33", 
+         "target": "IkBeps"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 168, 
+         "source": "IkBeps_transcript", 
+         "target": "v33"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "IkBeps", 
+         "target": "v34"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "v34", 
+         "target": "v34sink"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "IkBeps", 
+         "target": "v35"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "v35", 
+         "target": "IkBeps_nuc"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v36"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "IkBalpha_NFkB", 
+         "target": "v36"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "v36", 
+         "target": "IKK_IkBalpha_NFkB"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "IkBalpha_nuc_NFkB_nuc", 
+         "target": "v37"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "v37", 
+         "target": "IkBalpha_NFkB"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v38"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "IkBbeta_NFkB", 
+         "target": "v38"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "v38", 
+         "target": "IKK_IkBbeta_NFkB"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 394, 
+         "source": "IkBbeta_nuc_NFkB_nuc", 
+         "target": "v39"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "v39", 
+         "target": "IkBbeta_NFkB"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v40"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "IkBeps_NFkB", 
+         "target": "v40"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "v40", 
+         "target": "IKK_IkBeps_NFkB"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "IkBeps_nuc_NFkB_nuc", 
+         "target": "v41"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "v41", 
+         "target": "IkBeps_NFkB"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 394, 
+         "source": "IKK_IkBalpha", 
+         "target": "v42"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 393, 
+         "source": "v42", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "IKK_IkBbeta", 
+         "target": "v43"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "v43", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "IKK_IkBeps", 
+         "target": "v44"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "v44", 
+         "target": "IKK"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "IKK", 
+         "target": "v45"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 393, 
+         "source": "v45", 
+         "target": "v45sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBalpha complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBalpha", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBalpha", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBalpha_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBalpha_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBbeta complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBbeta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBbeta", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBbeta_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBbeta_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBeps complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBeps", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBeps", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBeps_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBeps_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-binary IKK IkBalpha complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBalpha", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBalpha", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBalpha_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBalpha_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB binary IKK IkBbeta complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBbeta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBbeta", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBbeta_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBbeta_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB binary IKK IkBeps complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBeps", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBeps", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IKK_IkBeps_NFkB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IKK_IkBeps_NFkB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFkB_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFkB_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBalpha complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBalpha_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBalpha_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBalpha_nuc_NFkB_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBalpha_nuc_NFkB_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBbeta complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBbeta_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBbeta_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBbeta_nuc_NFkB_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBbeta_nuc_NFkB_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFkB-IkBeps complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBeps_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBeps_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBeps_nuc_NFkB_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBeps_nuc_NFkB_nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBalpha_transcript", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBalpha_transcript", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha inducible transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha transcript degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBbeta_transcript", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBbeta_transcript", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta transcript degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v21sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v22sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IkBeps_transcript", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IkBeps_transcript", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps transcript degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v23sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK-IkBalpha complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v26sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK-IkBbeta complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v29sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK-IkBeps complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v33sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v34sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK-binary IkBalpha NFkB complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha_NFkB translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK binary IkBbeta NFkB complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta_NFkB translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK binary IkBeps NFkB complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps_NFkB translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBalpha degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBbeta degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IkBeps degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IKK consumption", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v45sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "v30", 
+               "v31", 
+               "v32", 
+               "v33", 
+               "v34", 
+               "v33sink", 
+               "v36", 
+               "v37", 
+               "v12", 
+               "v13", 
+               "v10", 
+               "v11", 
+               "IkBbeta_NFkB", 
+               "v35", 
+               "IKK_IkBalpha_NFkB", 
+               "v40", 
+               "IKK_IkBbeta_NFkB", 
+               "v24", 
+               "v41", 
+               "v38", 
+               "v43", 
+               "v42", 
+               "v45", 
+               "v44", 
+               "v39", 
+               "IKK", 
+               "v29sink", 
+               "IKK_IkBalpha", 
+               "v28", 
+               "v27", 
+               "v26", 
+               "v25", 
+               "IkBalpha_NFkB", 
+               "v29", 
+               "NFkB", 
+               "IKK_IkBeps_NFkB", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "IkBbeta", 
+               "v30sink", 
+               "IKK_IkBbeta", 
+               "v25sink", 
+               "IkBeps_NFkB", 
+               "v34sink", 
+               "IkBeps", 
+               "IkBalpha", 
+               "IKK_IkBeps", 
+               "v45sink", 
+               "v26sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "v31", 
+               "IkBbeta_nuc_NFkB_nuc", 
+               "v19", 
+               "v35", 
+               "v37", 
+               "v22sink", 
+               "v13", 
+               "v16", 
+               "v17", 
+               "v14", 
+               "v15", 
+               "v20sink", 
+               "IkBbeta_transcript", 
+               "IkBeps_transcript", 
+               "v23sink", 
+               "v21sink", 
+               "v41", 
+               "IkBalpha_nuc_NFkB_nuc", 
+               "v39", 
+               "v17sink", 
+               "NFkB_nuc", 
+               "v23", 
+               "v22", 
+               "v21", 
+               "v20", 
+               "v27", 
+               "IkBeps_nuc", 
+               "v19sink", 
+               "IkBbeta_nuc", 
+               "IkBeps_nuc_NFkB_nuc", 
+               "v18", 
+               "v18sink", 
+               "IkBalpha_nuc", 
+               "IkBalpha_transcript"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

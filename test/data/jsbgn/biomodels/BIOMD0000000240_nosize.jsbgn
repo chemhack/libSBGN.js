@@ -1,0 +1,592 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "AprE", 
+         "target": "AprEdeg"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "AprEdeg", 
+         "target": "AprEdegsink"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "AprEsynsink", 
+         "target": "AprEsyn"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "AprEsyn", 
+         "target": "AprE"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "mAprE", 
+         "target": "AprEsyn"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "DegUP", 
+         "target": "DimerAss"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "DimerAss", 
+         "target": "Dim"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Dim", 
+         "target": "DimerDis"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "DimerDis", 
+         "target": "DegUP"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "DegU", 
+         "target": "degradation1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "degradation1", 
+         "target": "degradation1sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "DegUP", 
+         "target": "degradation2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "degradation2", 
+         "target": "degradation2sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Dim", 
+         "target": "degradation3"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "degradation3", 
+         "target": "degradation3sink"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "mDegU", 
+         "target": "degradationmRNA"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "degradationmRNA", 
+         "target": "degradationmRNAsink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "DegUP", 
+         "target": "dephosphorylation"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "dephosphorylation", 
+         "target": "DegU"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "mAprE", 
+         "target": "mRNAAprEdeg"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "mRNAAprEdeg", 
+         "target": "mRNAAprEdegsink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "mRNAAprEsynsink", 
+         "target": "mRNAAprEsyn"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "mRNAAprEsyn", 
+         "target": "mAprE"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "Dim", 
+         "target": "mRNAAprEsyn"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "DegU", 
+         "target": "phosphorylation"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "phosphorylation", 
+         "target": "DegUP"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "synthesisDegUsink", 
+         "target": "synthesisDegU"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "synthesisDegU", 
+         "target": "DegU"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "mDegU", 
+         "target": "synthesisDegU"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "synthesismRNAsink", 
+         "target": "synthesismRNA"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "synthesismRNA", 
+         "target": "mDegU"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "Dim", 
+         "target": "synthesismRNA"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "AprEdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AprEdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AprE", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AprE", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AprEdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AprEsyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AprEsyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AprEsynsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mAprE", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mAprE", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DimerAss", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DimerAss", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DegUP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DegUP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Dim", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Dim", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DimerDis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DimerDis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DegU", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DegU", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradation3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradationmRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradationmRNA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mDegU", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mDegU", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "degradationmRNAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "dephosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNAAprEdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRNAAprEdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRNAAprEdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNAAprEsyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRNAAprEsyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRNAAprEsynsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "synthesisDegU", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "synthesisDegU", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "synthesisDegUsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "synthesismRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "synthesismRNA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "synthesismRNAsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "univ", 
+            "subnodes": [
+               "mRNAAprEdeg", 
+               "degradation2sink", 
+               "degradationmRNA", 
+               "AprEsynsink", 
+               "DimerAss", 
+               "degradationmRNAsink", 
+               "DimerDis", 
+               "synthesisDegU", 
+               "AprE", 
+               "Dim", 
+               "DegU", 
+               "synthesismRNAsink", 
+               "AprEdeg", 
+               "degradation3sink", 
+               "synthesismRNA", 
+               "DegUP", 
+               "mRNAAprEsyn", 
+               "AprEsyn", 
+               "mRNAAprEdegsink", 
+               "AprEdegsink", 
+               "phosphorylation", 
+               "degradation1", 
+               "degradation2", 
+               "degradation3", 
+               "dephosphorylation", 
+               "degradation1sink", 
+               "mDegU", 
+               "synthesisDegUsink", 
+               "mAprE", 
+               "mRNAAprEsynsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "univ", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

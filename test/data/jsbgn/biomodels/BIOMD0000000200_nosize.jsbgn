@@ -1,0 +1,1371 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "TTW", 
+         "target": "complex_r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "complex_r1", 
+         "target": "TT"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "complex_r1", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "WAA", 
+         "target": "complex_r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "complex_r2", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "complex_r2", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "TTWAA", 
+         "target": "complex_r3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "complex_r3", 
+         "target": "TT"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "complex_r3", 
+         "target": "WAA"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "TTWWAA", 
+         "target": "complex_r4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "complex_r4", 
+         "target": "TTW"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "complex_r4", 
+         "target": "WAA"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "TTWWAA", 
+         "target": "complex_r5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "complex_r5", 
+         "target": "TTWW"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "complex_r5", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "TTWWAA", 
+         "target": "complex_r6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "complex_r6", 
+         "target": "TT"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "complex_r6", 
+         "target": "WWAA"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "TTAA", 
+         "target": "complex_r7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "complex_r7", 
+         "target": "TT"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "complex_r7", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "TTWAA", 
+         "target": "complex_r8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "complex_r8", 
+         "target": "TTW"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "complex_r8", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "TTWWAA", 
+         "target": "complex_r9"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "complex_r9", 
+         "target": "TTWAA"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "complex_r9", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "TTWW", 
+         "target": "complex_r10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "complex_r10", 
+         "target": "TTW"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "complex_r10", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "WWAA", 
+         "target": "complex_r11"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "complex_r11", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "complex_r11", 
+         "target": "WAA"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "TTWAA", 
+         "target": "complex_r12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "complex_r12", 
+         "target": "TTAA"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "complex_r12", 
+         "target": "W"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "TTWWAA", 
+         "target": "phosphorylation_r1"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "phosphorylation_r1", 
+         "target": "TTWWAAp"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "AA", 
+         "target": "phosphorylation_r2"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "phosphorylation_r2", 
+         "target": "AAp"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "WAA", 
+         "target": "phosphorylation_r3"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "phosphorylation_r3", 
+         "target": "WAAp"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "WWAA", 
+         "target": "phosphorylation_r4"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "phosphorylation_r4", 
+         "target": "WWAAp"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "TTAA", 
+         "target": "phosphorylation_r5"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "phosphorylation_r5", 
+         "target": "TTAAp"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "TTWAA", 
+         "target": "phosphorylation_r6"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "phosphorylation_r6", 
+         "target": "TTWAAp"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphorylation_r7"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "phosphorylation_r7", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "Yp", 
+         "target": "phosphorylation_r8"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "phosphorylation_r8", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "Yp", 
+         "target": "phosphorylation_r9"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "phosphorylation_r9"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "phosphorylation_r9", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "phosphorylation_r9", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "Bp", 
+         "target": "phosphorylation_r10"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "phosphorylation_r10", 
+         "target": "B"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r1"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "AAp", 
+         "target": "phosphotransfer_r1"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r1", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r1", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r2"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "WAAp", 
+         "target": "phosphotransfer_r2"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r2", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r2", 
+         "target": "WAA"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r3"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "WWAAp", 
+         "target": "phosphotransfer_r3"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r3", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r3", 
+         "target": "WWAA"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r4"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "TTAAp", 
+         "target": "phosphotransfer_r4"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r4", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r4", 
+         "target": "TTAA"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r5"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "TTWAAp", 
+         "target": "phosphotransfer_r5"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r5", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r5", 
+         "target": "TTWAA"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "B", 
+         "target": "phosphotransfer_r6"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "TTWWAAp", 
+         "target": "phosphotransfer_r6"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r6", 
+         "target": "Bp"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r6", 
+         "target": "TTWWAA"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r7"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "AAp", 
+         "target": "phosphotransfer_r7"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r7", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r7", 
+         "target": "AA"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r8"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "WAAp", 
+         "target": "phosphotransfer_r8"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r8", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r8", 
+         "target": "WAA"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r9"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 394, 
+         "source": "WWAAp", 
+         "target": "phosphotransfer_r9"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r9", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r9", 
+         "target": "WWAA"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r10"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "TTAAp", 
+         "target": "phosphotransfer_r10"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r10", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r10", 
+         "target": "TTAA"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r11"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "TTWAAp", 
+         "target": "phosphotransfer_r11"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r11", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r11", 
+         "target": "TTWAA"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "phosphotransfer_r12"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "TTWWAAp", 
+         "target": "phosphotransfer_r12"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r12", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 393, 
+         "source": "phosphotransfer_r12", 
+         "target": "TTWWAA"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTW", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTW", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "W", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "W", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "WAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTWAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTWAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTWWAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTWWAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTWW", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTWW", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WWAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "WWAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complex_r12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "complex_r12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTWWAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTWWAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "WAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WWAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "WWAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TTWAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TTWAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Yp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Yp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation_r10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphorylation_r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Bp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Bp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "B", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "B", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphotransfer_r12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phosphotransfer_r12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "complex_r9", 
+               "complex_r8", 
+               "complex_r3", 
+               "complex_r2", 
+               "complex_r1", 
+               "TTAAp", 
+               "complex_r7", 
+               "complex_r6", 
+               "complex_r5", 
+               "complex_r4", 
+               "phosphotransfer_r12", 
+               "TTWAAp", 
+               "TTWW", 
+               "phosphotransfer_r10", 
+               "TTWWAA", 
+               "TTW", 
+               "TTAA", 
+               "phosphotransfer_r9", 
+               "phosphorylation_r3", 
+               "Bp", 
+               "AAp", 
+               "phosphotransfer_r3", 
+               "complex_r12", 
+               "complex_r11", 
+               "complex_r10", 
+               "phosphotransfer_r7", 
+               "phosphotransfer_r6", 
+               "phosphotransfer_r5", 
+               "phosphotransfer_r4", 
+               "AA", 
+               "WWAA", 
+               "B", 
+               "phosphorylation_r10", 
+               "WAA", 
+               "WAAp", 
+               "phosphotransfer_r2", 
+               "phosphotransfer_r8", 
+               "W", 
+               "Yp", 
+               "Y", 
+               "WWAAp", 
+               "phosphotransfer_r11", 
+               "Z", 
+               "phosphotransfer_r1", 
+               "TTWAA", 
+               "phosphorylation_r1", 
+               "phosphorylation_r2", 
+               "TTWWAAp", 
+               "phosphorylation_r4", 
+               "phosphorylation_r5", 
+               "phosphorylation_r6", 
+               "phosphorylation_r7", 
+               "phosphorylation_r8", 
+               "phosphorylation_r9", 
+               "TT"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

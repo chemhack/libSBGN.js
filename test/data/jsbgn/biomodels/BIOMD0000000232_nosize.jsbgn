@@ -1,0 +1,657 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "v1sink", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Pyr"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "AcCoA"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "AcCoA", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "Cit"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Cit", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "KG"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "KG", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "OAA"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "KG"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "OAA"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "OAA", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "v8sink"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "vresp"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "O2", 
+         "target": "vresp"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "H", 
+         "target": "vresp"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "vresp", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "vresp", 
+         "target": "H2O"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "vresp", 
+         "target": "He"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "vATP"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "iP", 
+         "target": "vATP"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "He", 
+         "target": "vATP"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "vATP", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "vATP", 
+         "target": "H2O"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "vATP", 
+         "target": "H"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vANT"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "vANT", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "He", 
+         "target": "vleak"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "vleak", 
+         "target": "H"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pyr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD(+)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "acetyl-CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AcCoA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxaloacetate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OAA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "citrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cit", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "alpha-ketoglutarate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "KG", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vresp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vresp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxygen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H+", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "water", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H2O", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H+", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "He", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vATP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vATP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "iP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vANT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vANT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vleak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vleak", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "vresp", 
+               "vleak", 
+               "vATP", 
+               "He"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mitochondrial matrix", 
+            "subnodes": [
+               "NADH", 
+               "AcCoA", 
+               "OAA", 
+               "vleak", 
+               "Cit", 
+               "v1sink", 
+               "vresp", 
+               "ATP", 
+               "O2", 
+               "NAD", 
+               "iP", 
+               "Pyr", 
+               "v8sink", 
+               "ADP", 
+               "H", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "vANT", 
+               "vATP", 
+               "KG", 
+               "H2O"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "mitochondrion", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,948 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "CO2", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "RuBisCO", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA_red"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "PGA_red"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "TP"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "PGA_red", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "FBP_A_ase"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "FBP_A_ase", 
+         "target": "HeP"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "FBP_A_ase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "HeP", 
+         "target": "F6P_TK1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "F6P_TK1", 
+         "target": "TPGA"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "F6P_TK1", 
+         "target": "E4P"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "E4P", 
+         "target": "SBP_A_ase"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "SBP_A_ase"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "SBP_A_ase", 
+         "target": "S7P"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "SBP_A_ase", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "S7P", 
+         "target": "S7P_TK1_R5P_I"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "S7P_TK1_R5P_I", 
+         "target": "TPGA"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "S7P_TK1_R5P_I", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "TPGA", 
+         "target": "TK2_Ru5P_E"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TK2_Ru5P_E"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "TK2_Ru5P_E", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Ru5P", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "RuBP"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "ATP_S"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "ATP_S", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "HeP", 
+         "target": "Starch_S"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Starch_S", 
+         "target": "GG"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "Starch_S", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "Starch_S", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "GG", 
+         "target": "Starch_P"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "Starch_P"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "Starch_P", 
+         "target": "HeP"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "TP", 
+         "target": "TPT"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "Pic", 
+         "target": "TPT"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "TPT", 
+         "target": "TPc"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "TPT", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "TPc", 
+         "target": "FBPc_A_ase"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "FBPc_A_ase", 
+         "target": "HePc"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "FBPc_A_ase", 
+         "target": "Pic"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "HePc", 
+         "target": "Suc_S"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "UTP", 
+         "target": "Suc_S"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "Suc_S", 
+         "target": "Suc"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "Suc_S", 
+         "target": "UDP"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "Suc_S", 
+         "target": "Pic"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "UDP", 
+         "target": "UTP_S"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "Pic", 
+         "target": "UTP_S"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "UTP_S", 
+         "target": "UTP"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "Respi"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "Respi", 
+         "target": "Resp"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "Diffu"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "Diffu", 
+         "target": "SucV"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "Transl"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "Transl", 
+         "target": "E"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisCO", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CO2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CO2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA reduction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA_red", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBP ald + ase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP_A_ase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HeP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HeP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6P trans I", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P_TK1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TPGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E4P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E4P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBP ald + ase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBP_A_ase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S7P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S7P trans I + R5P iso", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S7P_TK1_R5P_I", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ru5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "trans II + Ru5P epi", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TK2_Ru5P_E", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ru5P kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "starch synthetase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Starch_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GG", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GG", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "starch phosphorylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Starch_P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TP translocator", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pic", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pic", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FBPc ald + ase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBPc_A_ase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HePc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HePc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "sucrose synthetase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Suc_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UTP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Suc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Suc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UDP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "UTP synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UTP_S", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "respiration rate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Respi", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Resp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Resp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "diffusion rate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Diffu", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SucV", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SucV", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "translocation rate", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Transl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "chloroplast", 
+            "subnodes": [
+               "S7P_TK1_R5P_I", 
+               "RuBisCO", 
+               "PGA_red", 
+               "UTP_S", 
+               "Ru5P_K", 
+               "FBP_A_ase", 
+               "ATP", 
+               "Pi", 
+               "SBP_A_ase", 
+               "Ru5P", 
+               "E4P", 
+               "HeP", 
+               "Respi", 
+               "PGA", 
+               "F6P_TK1", 
+               "Starch_P", 
+               "TP", 
+               "Starch_S", 
+               "TK2_Ru5P_E", 
+               "RuBP", 
+               "ATP_S", 
+               "ADP", 
+               "Suc_S", 
+               "TPGA", 
+               "GG", 
+               "UTP", 
+               "TPT", 
+               "UDP", 
+               "CO2", 
+               "Resp", 
+               "S7P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "chloroplast", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "FBPc_A_ase", 
+               "TPc", 
+               "Respi", 
+               "Diffu", 
+               "Suc_S", 
+               "Pic", 
+               "UTP_S", 
+               "Transl", 
+               "HePc", 
+               "TPT", 
+               "Suc"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "vacuole", 
+            "subnodes": [
+               "Diffu", 
+               "SucV"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "vacuole", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "phloem", 
+            "subnodes": [
+               "Transl", 
+               "E"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "phloem", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

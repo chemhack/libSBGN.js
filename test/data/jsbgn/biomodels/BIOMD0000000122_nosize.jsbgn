@@ -1,0 +1,708 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Nuc", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "Act_C_Nuc", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Act_C_Nuc"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "NFAT_Nuc"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Act_C_Nuc", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "NFAT_Nuc", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "NFAT_Act_C_Nuc"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "NFAT_Nuc", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "NFAT_Cyt"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Act_C_Nuc", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "Act_C_Cyt"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "NFAT_Act_C_Nuc", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "NFAT_Pi_Act_C_Nuc"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Act_C_Nuc", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "Act_C_Nuc"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "NFAT_Pi_Nuc"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "NFAT_Act_C_Nuc", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "NFAT_Act_C_Cyt"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "NFAT_Act_C_Cyt", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "NFAT_Pi_Act_C_Cyt"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Act_C_Cyt", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "Act_C_Cyt"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "NFAT_Pi_Cyt"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Cyt", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "NFAT_Pi_Nuc"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "NFAT_Act_C_Cyt", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "Act_C_Cyt"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "NFAT_Cyt"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Act_C_Cyt", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "NFAT_Pi_Act_C_Nuc"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "NFAT_Pi_Cyt", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "Act_C_Cyt", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "Act_C_Cyt"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "NFAT_Cyt"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "Ca_Cyt", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "Inact_C_Cyt", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "Act_C_Cyt"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "Ca_Nuc", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "Inact_C_Nuc", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "Act_C_Nuc"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "Inact_C_Cyt", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "Inact_C_Nuc"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "Ca_Cyt", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "Ca_Nuc"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcineurin dpdnt NFAT dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated NFAT in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Pi_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active Calcineurin in Nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Act_C_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFAT_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT Calcineurin complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFAT Calcineurin complex in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Act_C_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFAT_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Active Calcineurin transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active Calcineurin in cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Act_C_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT Calcineurin complex phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated NFAT Calcineurin complex in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Pi_Act_C_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylated NFAT Calcineurin complex disassembly", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT Calcineurin complex transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NFAT Calcineurin complex in cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Act_C_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT Calcineurin complex phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated NFAT Calcineurin complex in cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Pi_Act_C_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylated NFAT Calcineurin complex disassembly", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated NFAT in cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NFAT_Pi_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylated NFAT transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NFAT Calcineurin complex disassembly", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylated NFAT Calcineurin complex transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcineurin dpdnt NFAT dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcineurin activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium in Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactive Calcineurin in cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inact_C_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcineurin activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium in Nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Inactive Calcineurin in nucleus", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inact_C_Nuc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactive Calcineurin transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "R4", 
+               "R17", 
+               "R7", 
+               "R12", 
+               "R13", 
+               "R10", 
+               "R3", 
+               "R16", 
+               "R11", 
+               "R8", 
+               "R9", 
+               "R15", 
+               "Ca_Cyt", 
+               "NFAT_Pi_Cyt", 
+               "Act_C_Cyt", 
+               "NFAT_Pi_Act_C_Cyt", 
+               "NFAT_Cyt", 
+               "NFAT_Act_C_Cyt", 
+               "Inact_C_Cyt"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "NFAT_Nuc", 
+               "R4", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "NFAT_Pi_Nuc", 
+               "Ca_Nuc", 
+               "R3", 
+               "R14", 
+               "R10", 
+               "NFAT_Act_C_Nuc", 
+               "R15", 
+               "R5", 
+               "R17", 
+               "NFAT_Pi_Act_C_Nuc", 
+               "R16", 
+               "Act_C_Nuc", 
+               "Inact_C_Nuc"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

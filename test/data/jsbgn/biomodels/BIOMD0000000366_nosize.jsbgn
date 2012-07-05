@@ -1,0 +1,412 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "RVV", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Xa_ATIII"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Va", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "PL", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "PT"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "Va"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "IIa", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "PT", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "Xa", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "IIa_alpha2M"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "IIa_ATIII"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RVV", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RVV", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Va", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Va", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PL", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PL", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PT", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "V", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "II", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "II", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa_alpha2M", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa_alpha2M", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment_1", 
+            "subnodes": [
+               "R4", 
+               "Va", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "Xa_ATIII", 
+               "Xa", 
+               "R8", 
+               "IIa_ATIII", 
+               "II", 
+               "IIa", 
+               "RVV", 
+               "R5", 
+               "V", 
+               "X", 
+               "IIa_alpha2M", 
+               "PL", 
+               "PT"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_1", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

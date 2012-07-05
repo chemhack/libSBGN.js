@@ -1,0 +1,172 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "P2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "P2", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "IIa"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "II", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "II", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "M", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "P2", 
+               "r4", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "M", 
+               "II", 
+               "IIa"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

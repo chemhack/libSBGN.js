@@ -1,0 +1,975 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "s_glu", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "s_pyr"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "s_acetald", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "s_pyr", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "s_glu", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "s_pyr", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "s_acetald"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "s_acetald", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "s_acetate"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "s_EtOH", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "s_acetate", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "s_glu", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "s_acetald", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "Red", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "r6", 
+         "target": "s_EtOH"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "s_glu", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "r7", 
+         "target": "x"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "r7", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "r7", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "s_acetate", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "r8", 
+         "target": "x"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "r8", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "r8", 
+         "target": "Red"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "s_glu", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "a", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "r9", 
+         "target": "AcDH"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "s_glu", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 168, 
+         "source": "s_EtOH", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "a", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "r10", 
+         "target": "r10sink"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "s_glu", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "s_EtOH", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "AcDH", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "r11", 
+         "target": "r11sink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "S_f", 
+         "target": "s_glu_in"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "s_glu_in", 
+         "target": "s_glu"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "s_glu", 
+         "target": "s_glu_out"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "s_glu_out", 
+         "target": "s_glu_outsink"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "s_pyr", 
+         "target": "s_pyr_out"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "s_pyr_out", 
+         "target": "s_pyr_outsink"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "s_acetate", 
+         "target": "s_acetate_out"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "s_acetate_out", 
+         "target": "s_acetate_outsink"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "s_acetald", 
+         "target": "s_acetald_out"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "s_acetald_out", 
+         "target": "s_acetald_outsink"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "s_EtOH", 
+         "target": "s_EtOH_out"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "s_EtOH_out", 
+         "target": "s_EtOH_outsink"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "a", 
+         "target": "a_out"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "a_out", 
+         "target": "a_outsink"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "x_out"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "x_out", 
+         "target": "x_outsink"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "AcDH", 
+         "target": "AcDH_out"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "AcDH_out", 
+         "target": "AcDH_outsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "glycolysis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_glu", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_pyr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Red. Equ. (NADH)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Red", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acetaldehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetald", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TCA (pyruvate)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CO2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CO2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate Dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acetald. dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acetate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetate", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EtOH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_EtOH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TCA (acetate)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ADH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BM growth (gluc)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BM growth (acetate)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acdh production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BM(active)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "a", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BM(AcDH)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AcDH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "active BM degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acdh degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose inflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_glu_in", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose(feed)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_f", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_glu_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_glu_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_pyr_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_pyr_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acetate outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetate_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetate_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acetaldehyde outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetald_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_acetald_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EtOH outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_EtOH_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s_EtOH_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "active BM outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "a_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "a_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BM outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AcDH BM outflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AcDH_out", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AcDH_outsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "environment", 
+            "subnodes": [
+               "s_glu_outsink", 
+               "s_pyr_out", 
+               "s_acetald", 
+               "a_outsink", 
+               "r11sink", 
+               "a_out", 
+               "Red", 
+               "AcDH_out", 
+               "s_acetate_outsink", 
+               "s_acetate", 
+               "s_glu", 
+               "r11", 
+               "s_acetald_out", 
+               "AcDH", 
+               "s_acetate_out", 
+               "r10", 
+               "r10sink", 
+               "s_glu_in", 
+               "s_glu_out", 
+               "s_EtOH_outsink", 
+               "r7", 
+               "a", 
+               "S_f", 
+               "x_outsink", 
+               "s_EtOH", 
+               "r4", 
+               "r5", 
+               "r6", 
+               "CO2", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "s_pyr", 
+               "r8", 
+               "r9", 
+               "s_EtOH_out", 
+               "x_out", 
+               "AcDH_outsink", 
+               "x", 
+               "s_acetald_outsink", 
+               "s_pyr_outsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "env", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,973 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0000001sink", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0000001", 
+         "target": "y"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "y", 
+         "target": "reaction_0000002"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_0000002", 
+         "target": "x1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "c", 
+         "target": "reaction_0000002"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "y", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_0000003", 
+         "target": "reaction_0000003sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "u", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "z0", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "reaction_0000004", 
+         "target": "z1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "reaction_0000005", 
+         "target": "x1"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "z2", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "w0", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "z1", 
+         "target": "reaction_0000006"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "reaction_0000006", 
+         "target": "z2"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "reaction_0000006"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "reaction_0000007sink", 
+         "target": "reaction_0000007"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_0000007", 
+         "target": "w0"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "w0", 
+         "target": "reaction_000008"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_000008", 
+         "target": "w1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "reaction_000008"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "reaction_000009sink", 
+         "target": "reaction_000009"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "reaction_000009", 
+         "target": "u"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "reaction_000009"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "reaction_0000010sink", 
+         "target": "reaction_0000010"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "reaction_0000010", 
+         "target": "i"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "i", 
+         "target": "reaction_0000011"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "reaction_0000011"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction_0000011", 
+         "target": "ix"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "ix", 
+         "target": "reaction_0000014"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "reaction_0000014", 
+         "target": "ixp"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "x", 
+         "target": "reaction_0000014"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "u", 
+         "target": "reaction_0000013"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "reaction_0000013", 
+         "target": "reaction_0000013sink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "i", 
+         "target": "reaction_0000015"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "reaction_0000015", 
+         "target": "reaction_0000015sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "ixp", 
+         "target": "reaction_0000016"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction_0000016", 
+         "target": "x"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "w0", 
+         "target": "reaction_0000017"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "reaction_0000017", 
+         "target": "reaction_0000017sink"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "w1", 
+         "target": "reaction_0000018"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_0000018", 
+         "target": "reaction_0000018sink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "z0", 
+         "target": "reaction_0000019"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "reaction_0000019", 
+         "target": "reaction_0000019sink"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "z1", 
+         "target": "reaction_0000020"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "reaction_0000020", 
+         "target": "reaction_0000020sink"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "z2", 
+         "target": "reaction_0000021"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "reaction_0000021", 
+         "target": "reaction_0000021sink"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "reaction_0000022sink", 
+         "target": "reaction_0000022"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "reaction_0000022", 
+         "target": "z0"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "reaction_0000023"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "reaction_0000023", 
+         "target": "reaction_0000023sink"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "u", 
+         "target": "reaction_0000023"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Free cyclin synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Free cyclin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "y", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cyclin binding with CDK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000002", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": " Inactive Cyclin:CDK complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Free CDK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "c", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cyclin degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active SKP2 or APC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "u", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "z0 phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000004", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unphosphorylated CDC25", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "z0", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "One-site phosphorylated CDC25", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "z1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Active Cyclin:CDK complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "x phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Two-site phosphorylated CDC25", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "z2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Unphosphorylated wee1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "w0", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "z1 phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000006", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "unphosphorylated wee1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000007", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000007sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "wee1 phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_000008", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "phosphorylated wee1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "w1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SKP2 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_000009", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_000009sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKI synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000010", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000010sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Free CKI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "i", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKI binding to Active Cyclin:CDK complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000011", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cyclin:CDK:CKI complex with CKI unphosphorylated", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ix", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ix phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000014", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cyclin:CDK:CKI complex with CKI phosphorylated", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ixp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SKP2 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000013", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000013sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKI degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000015", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000015sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cyclin:CDK:CKIp degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000016", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "unphosphorylated wee1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000017", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000017sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylated wee1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000018", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000018sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Unphosphorylated CDC25 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000019", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000019sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "One site phosphorylated CDC25 degradaton", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000020", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000020sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Two site phosphorylated CDC25 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000021", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000021sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Unphosphorylation CDC25 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000022", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000022sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Active cyclin:CDK complex degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000023", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000023sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "ix", 
+               "reaction_0000022sink", 
+               "reaction_0000019", 
+               "reaction_0000018", 
+               "reaction_0000017", 
+               "reaction_0000016", 
+               "reaction_0000015", 
+               "reaction_0000014", 
+               "reaction_0000013", 
+               "reaction_0000017sink", 
+               "reaction_0000011", 
+               "reaction_0000010", 
+               "reaction_0000013sink", 
+               "reaction_0000018sink", 
+               "w1", 
+               "w0", 
+               "reaction_0000020sink", 
+               "reaction_000009", 
+               "reaction_000008", 
+               "reaction_0000001sink", 
+               "reaction_0000003sink", 
+               "reaction_0000023sink", 
+               "reaction_0000007sink", 
+               "ixp", 
+               "reaction_0000019sink", 
+               "reaction_0000004", 
+               "reaction_0000005", 
+               "reaction_0000006", 
+               "reaction_0000007", 
+               "reaction_0000001", 
+               "reaction_0000002", 
+               "reaction_0000003", 
+               "reaction_0000022", 
+               "reaction_0000023", 
+               "reaction_0000020", 
+               "reaction_0000021", 
+               "reaction_0000021sink", 
+               "x1", 
+               "z0", 
+               "z1", 
+               "z2", 
+               "c", 
+               "reaction_0000015sink", 
+               "i", 
+               "reaction_0000010sink", 
+               "reaction_000009sink", 
+               "u", 
+               "y", 
+               "x"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,343 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "NO", 
+         "target": "r1fast"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "sGCfast", 
+         "target": "r1fast"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "r1fast", 
+         "target": "NO_sGCfast"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "NO_sGCfast", 
+         "target": "r2fast"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "r2fast", 
+         "target": "NO_sGCfast_6coord"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "NO_sGCfast_6coord", 
+         "target": "r3fast"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r3fast", 
+         "target": "NO_sGCfast_5coord"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "NO", 
+         "target": "r1slow"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "sGCslow", 
+         "target": "r1slow"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "r1slow", 
+         "target": "NO_sGCslow"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "NO_sGCslow", 
+         "target": "r2slow"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r2slow", 
+         "target": "NO_sGCslow_6coord"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "NO", 
+         "target": "r3slow"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "NO_sGCslow_6coord", 
+         "target": "r3slow"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "r3slow", 
+         "target": "NO_sGCslow_6coord_NO_int"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "NO_sGCslow_6coord_NO_int", 
+         "target": "r4slow"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "r4slow", 
+         "target": "NO_sGCslow_5coord"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1fast", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1fast", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "sGCfast", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "sGCfast", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCfast", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCfast", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2fast", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2fast", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCfast_6coord", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCfast_6coord", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3fast", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3fast", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCfast_5coord", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCfast_5coord", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1slow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1slow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "sGCslow", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "sGCslow", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCslow", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCslow", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2slow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2slow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCslow_6coord", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCslow_6coord", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3slow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3slow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCslow_6coord_NO_int", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCslow_6coord_NO_int", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4slow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4slow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NO_sGCslow_5coord", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NO_sGCslow_5coord", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "NO_sGCslow_6coord_NO_int", 
+               "NO_sGCslow_6coord", 
+               "r1fast", 
+               "NO_sGCslow", 
+               "r3fast", 
+               "NO", 
+               "NO_sGCfast", 
+               "r1slow", 
+               "sGCfast", 
+               "NO_sGCfast_6coord", 
+               "r4slow", 
+               "r3slow", 
+               "NO_sGCslow_5coord", 
+               "r2fast", 
+               "sGCslow", 
+               "r2slow", 
+               "NO_sGCfast_5coord"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

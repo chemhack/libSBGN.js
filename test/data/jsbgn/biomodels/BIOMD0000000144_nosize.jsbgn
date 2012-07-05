@@ -1,0 +1,2368 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R_1sink", 
+         "target": "R_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R_1", 
+         "target": "MPFc"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "preMPFc", 
+         "target": "R_2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R_2", 
+         "target": "MPFc"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "StgPc", 
+         "target": "R_2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "MPFc", 
+         "target": "R_3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R_3", 
+         "target": "preMPFc"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "Wee1c", 
+         "target": "R_3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "preMPFc", 
+         "target": "R_6"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R_6", 
+         "target": "R_6sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "MPFc", 
+         "target": "R_7"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R_7", 
+         "target": "R_7sink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Wee1c", 
+         "target": "R_8"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R_8", 
+         "target": "Wee1Pc"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "MPFc", 
+         "target": "R_8"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Wee1Pc", 
+         "target": "R_9"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R_9", 
+         "target": "Wee1c"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "Wee1Pc", 
+         "target": "R_9"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Stgm", 
+         "target": "R_10"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "R_10", 
+         "target": "R_10sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "Xp", 
+         "target": "R_10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "R_12sink", 
+         "target": "R_12"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "R_12", 
+         "target": "Stgc"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "Stgm", 
+         "target": "R_12"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Stgc", 
+         "target": "R_13"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "R_13", 
+         "target": "StgPc"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "MPFc", 
+         "target": "R_13"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "StgPc", 
+         "target": "R_14"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R_14", 
+         "target": "Stgc"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "Stgc", 
+         "target": "R_15"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "R_15", 
+         "target": "R_15sink"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "StgPc", 
+         "target": "R_16"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "R_16", 
+         "target": "R_16sink"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "MPFc", 
+         "target": "R_19"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "R_19", 
+         "target": "R_19sink"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_19"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "importofMPFintocytoplasm_1sink", 
+         "target": "importofMPFintocytoplasm_1"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "importofMPFintocytoplasm_1", 
+         "target": "MPFc"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "importofMPFintocytoplasm_1"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "MPFn", 
+         "target": "importofMPFintocytoplasm_1"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "_16sink", 
+         "target": "_16"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "_16", 
+         "target": "MPFn"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "MPFc", 
+         "target": "_16"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "MPFn", 
+         "target": "exportofMPFfromnucleus_1"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "exportofMPFfromnucleus_1", 
+         "target": "exportofMPFfromnucleus_1sink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "importofpreMPFintocytoplaslm_1sink", 
+         "target": "importofpreMPFintocytoplaslm_1"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "importofpreMPFintocytoplaslm_1", 
+         "target": "preMPFc"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "preMPFn", 
+         "target": "importofpreMPFintocytoplaslm_1"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "importofpreMPFintocytoplaslm_1"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "preMPFc", 
+         "target": "R_20"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "R_20", 
+         "target": "R_20sink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_20"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "_18sink", 
+         "target": "_18"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "_18", 
+         "target": "preMPFn"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "preMPFc", 
+         "target": "_18"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "preMPFn", 
+         "target": "exportofpreMPFnfromnucleus_1"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "exportofpreMPFnfromnucleus_1", 
+         "target": "exportofpreMPFnfromnucleus_1sink"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "Wee1Pn", 
+         "target": "R_21"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "R_21", 
+         "target": "R_21sink"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "_182_1sink", 
+         "target": "_182_1"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "_182_1", 
+         "target": "Wee1Pc"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 168, 
+         "source": "Wee1Pn", 
+         "target": "_182_1"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "_182_1"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "Wee1Pc", 
+         "target": "R_22"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "R_22", 
+         "target": "R_22sink"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_22"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "_20sink", 
+         "target": "_20"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "_20", 
+         "target": "Wee1Pn"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "Wee1Pc", 
+         "target": "_20"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "Wee1n", 
+         "target": "R_23"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "R_23", 
+         "target": "R_23sink"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "_22sink", 
+         "target": "_22"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "_22", 
+         "target": "Wee1c"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 168, 
+         "source": "Wee1n", 
+         "target": "_22"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "_22"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "Wee1c", 
+         "target": "R_24"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "R_24", 
+         "target": "R_24sink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_24"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "_24sink", 
+         "target": "_24"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "_24", 
+         "target": "Wee1n"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "Wee1c", 
+         "target": "_24"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "StgPn", 
+         "target": "R_25"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 393, 
+         "source": "R_25", 
+         "target": "R_25sink"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "_26sink", 
+         "target": "_26"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "_26", 
+         "target": "StgPc"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 168, 
+         "source": "StgPn", 
+         "target": "_26"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "_26"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "StgPc", 
+         "target": "R_26"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "R_26", 
+         "target": "R_26sink"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_26"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "_28sink", 
+         "target": "_28"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "_28", 
+         "target": "StgPn"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 168, 
+         "source": "StgPc", 
+         "target": "_28"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "Stgn", 
+         "target": "R_27"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 393, 
+         "source": "R_27", 
+         "target": "R_27sink"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "_30sink", 
+         "target": "_30"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "_30", 
+         "target": "Stgc"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "Stgn", 
+         "target": "_30"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "_30"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "Stgc", 
+         "target": "R_28"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "R_28", 
+         "target": "R_28sink"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "R_28"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "_32sink", 
+         "target": "_32"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "_32", 
+         "target": "Stgn"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 168, 
+         "source": "Stgc", 
+         "target": "_32"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "preMPFn", 
+         "target": "R_29"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "R_29", 
+         "target": "MPFn"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 168, 
+         "source": "StgPn", 
+         "target": "R_29"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "MPFn", 
+         "target": "R_30"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "R_30", 
+         "target": "preMPFn"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "Wee1n", 
+         "target": "R_30"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "preMPFn", 
+         "target": "R_33"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "R_33", 
+         "target": "R_33sink"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "FZYa", 
+         "target": "R_33"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "MPFn", 
+         "target": "R_34"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "R_34", 
+         "target": "R_34sink"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 168, 
+         "source": "FZYa", 
+         "target": "R_34"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "IEa_1", 
+         "target": "R_37"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "R_37", 
+         "target": "R_37sink"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "R_38sink", 
+         "target": "R_38"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "R_38", 
+         "target": "IEa_1"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 168, 
+         "source": "MPFn", 
+         "target": "R_38"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "R_39sink", 
+         "target": "R_39"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "R_39", 
+         "target": "FZYa"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 168, 
+         "source": "IEa_1", 
+         "target": "R_39"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 394, 
+         "source": "FZYa", 
+         "target": "R_40"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 393, 
+         "source": "R_40", 
+         "target": "R_40sink"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 394, 
+         "source": "Wee1n", 
+         "target": "R_41"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 393, 
+         "source": "R_41", 
+         "target": "Wee1Pn"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 168, 
+         "source": "MPFn", 
+         "target": "R_41"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 394, 
+         "source": "Wee1Pn", 
+         "target": "R_42"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 393, 
+         "source": "R_42", 
+         "target": "Wee1n"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 394, 
+         "source": "Stgn", 
+         "target": "R_43"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 393, 
+         "source": "R_43", 
+         "target": "StgPn"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 168, 
+         "source": "MPFn", 
+         "target": "R_43"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "StgPn", 
+         "target": "R_44"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "R_44", 
+         "target": "Stgn"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 394, 
+         "source": "Stgn", 
+         "target": "R_45"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "R_45", 
+         "target": "R_45sink"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 394, 
+         "source": "StgPn", 
+         "target": "R_46"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 393, 
+         "source": "R_46", 
+         "target": "R_46sink"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 394, 
+         "source": "Nuclei_1sink", 
+         "target": "Nuclei_1"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "Nuclei_1", 
+         "target": "N"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "_50sink", 
+         "target": "_50"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 393, 
+         "source": "_50", 
+         "target": "Xm"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "_50"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 394, 
+         "source": "_51sink", 
+         "target": "_51"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 393, 
+         "source": "_51", 
+         "target": "Xp"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 168, 
+         "source": "Xm", 
+         "target": "_51"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Synthesis of MPFc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MPFc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MPFc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Activation of MPFc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "preMPFc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "preMPFc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "StgPc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "StgPc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactivation of MPFc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Wee1c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Wee1c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of cyclin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of cyclin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactivation of Wee1c", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Wee1Pc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Wee1Pc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Activation of Wee1c", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRNA of Stg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Stgm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Stgm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Synthesis of Stg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Stgc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Stgc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of Stgc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of Stgc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of Stgc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of active Stgc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of MPF from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "N", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "N", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of MPF into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "importofMPFintocytoplasm_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "importofMPFintocytoplasm_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MPFn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MPFn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of MPF into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of MPF from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exportofMPFfromnucleus_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exportofMPFfromnucleus_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of preMPF into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "importofpreMPFintocytoplaslm_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "importofpreMPFintocytoplaslm_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "preMPFn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "preMPFn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of preMPF from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of preMPF into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of preMPFn from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exportofpreMPFnfromnucleus_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "exportofpreMPFnfromnucleus_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Wee1P from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Wee1Pn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Wee1Pn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_21sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of  Wee1P into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_182_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_182_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Wee1P from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_22sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of Wee1P into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Wee1 from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Wee1n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Wee1n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_23sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of Wee1 into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_22sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Wee1c from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_24sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of Wee1 into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_24sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of StgP from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "StgPn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "StgPn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of StgP into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_26sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of StgP from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_26sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of StgP into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_28sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Stg from nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Stgn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Stgn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_27sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of Stg into cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "export of Stg from cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_28sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "import of Stg into nucleus", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_32sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of MPFn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of MPFn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of preMPFn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_33sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FZYa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FZYa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of MPFn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_34sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of intermediary enzyme", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IEa_1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEa_1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_37sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of intermediary enzyme", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of FZY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of FZY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_40sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of Wee1n", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of Wee1n", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activation of StgPn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inactivation of StgPn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of Stgn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_45sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "degradation of StgPn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_46", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_46sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Nuclei", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Nuclei_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Nuclei_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Zygotic mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_50", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_50sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Zygotic proteins", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_51", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_51sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nuclei", 
+            "subnodes": [
+               "exportofMPFfromnucleus_1sink", 
+               "MPFn", 
+               "exportofpreMPFnfromnucleus_1", 
+               "exportofpreMPFnfromnucleus_1sink", 
+               "R_39sink", 
+               "Nuclei_1sink", 
+               "Wee1n", 
+               "Wee1Pn", 
+               "_28sink", 
+               "Nuclei_1", 
+               "R_33", 
+               "R_43", 
+               "preMPFn", 
+               "R_25sink", 
+               "R_38", 
+               "R_39", 
+               "R_37sink", 
+               "exportofMPFfromnucleus_1", 
+               "R_34", 
+               "Stgn", 
+               "R_37", 
+               "R_30", 
+               "_20sink", 
+               "_28", 
+               "R_42", 
+               "_24", 
+               "R_46sink", 
+               "R_27sink", 
+               "_20", 
+               "R_40sink", 
+               "R_23sink", 
+               "_24sink", 
+               "N", 
+               "R_45sink", 
+               "_16sink", 
+               "R_40", 
+               "R_33sink", 
+               "StgPn", 
+               "R_45", 
+               "R_44", 
+               "R_46", 
+               "R_41", 
+               "_18sink", 
+               "FZYa", 
+               "R_29", 
+               "R_27", 
+               "R_25", 
+               "R_23", 
+               "R_21", 
+               "R_21sink", 
+               "_16", 
+               "IEa_1", 
+               "R_38sink", 
+               "_32", 
+               "R_34sink", 
+               "_32sink", 
+               "_18"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nuclei", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "R_1sink", 
+               "R_8", 
+               "_26sink", 
+               "R_9", 
+               "R_1", 
+               "R_2", 
+               "R_3", 
+               "MPFc", 
+               "R_7", 
+               "importofMPFintocytoplasm_1sink", 
+               "preMPFc", 
+               "importofMPFintocytoplasm_1", 
+               "_22sink", 
+               "R_20sink", 
+               "R_10sink", 
+               "Wee1c", 
+               "Wee1Pc", 
+               "Stgc", 
+               "R_12", 
+               "Stgm", 
+               "R_10", 
+               "R_16", 
+               "R_14", 
+               "R_15", 
+               "R_26sink", 
+               "R_28sink", 
+               "Xm", 
+               "importofpreMPFintocytoplaslm_1", 
+               "_51", 
+               "_22", 
+               "R_16sink", 
+               "_30sink", 
+               "_50", 
+               "_182_1", 
+               "_26", 
+               "R_7sink", 
+               "R_19", 
+               "R_22sink", 
+               "R_6", 
+               "StgPc", 
+               "_30", 
+               "R_15sink", 
+               "R_6sink", 
+               "_182_1sink", 
+               "R_24sink", 
+               "R_28", 
+               "R_26", 
+               "R_24", 
+               "R_22", 
+               "_50sink", 
+               "R_20", 
+               "R_13", 
+               "importofpreMPFintocytoplaslm_1sink", 
+               "Xp", 
+               "_51sink", 
+               "R_12sink", 
+               "R_19sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

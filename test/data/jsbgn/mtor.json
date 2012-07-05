@@ -1,0 +1,2877 @@
+{
+   "edges" : [
+      {
+         "id" : 0,
+         "sbo" : 15,
+         "source" : "PID:C207378_in*",
+         "sourceidx" : 1,
+         "target" : "PID:R203689",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 1,
+         "sbo" : 15,
+         "source" : "PID:C202373",
+         "sourceidx" : 2,
+         "target" : "PID:R203689",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 2,
+         "sbo" : 11,
+         "source" : "PID:R203689",
+         "sourceidx" : 0,
+         "target" : "PID:C207380",
+         "targetidx" : 3,
+         "type" : "Product"
+      },
+      {
+         "id" : 3,
+         "sbo" : 11,
+         "source" : "PID:R203689",
+         "sourceidx" : 0,
+         "target" : "MAP:C58",
+         "targetidx" : 4,
+         "type" : "Product"
+      },
+      {
+         "id" : 4,
+         "sbo" : 15,
+         "source" : "MAP:C63",
+         "sourceidx" : 6,
+         "target" : "PID:R203668",
+         "targetidx" : 5,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 5,
+         "sbo" : 11,
+         "source" : "PID:R203668",
+         "sourceidx" : 5,
+         "target" : "PID:C200797_ph422",
+         "targetidx" : 7,
+         "type" : "Product"
+      },
+      {
+         "id" : 6,
+         "sbo" : 13,
+         "source" : "PID:C207349_act*",
+         "sourceidx" : 8,
+         "target" : "PID:R203668",
+         "targetidx" : 5,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 7,
+         "sbo" : 15,
+         "source" : "MAP:C56",
+         "sourceidx" : 10,
+         "target" : "MAN:R34",
+         "targetidx" : 9,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 8,
+         "sbo" : 15,
+         "source" : "MAP:C57",
+         "sourceidx" : 11,
+         "target" : "MAN:R34",
+         "targetidx" : 9,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 9,
+         "sbo" : 11,
+         "source" : "MAN:R34",
+         "sourceidx" : 9,
+         "target" : "PID:C206437",
+         "targetidx" : 12,
+         "type" : "Product"
+      },
+      {
+         "id" : 10,
+         "sbo" : null,
+         "source" : "MAN:R34",
+         "sourceidx" : 9,
+         "target" : "MAP:C57",
+         "targetidx" : 11,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 11,
+         "sbo" : 15,
+         "source" : "MAP:C53",
+         "sourceidx" : 14,
+         "target" : "CLONE:M15",
+         "targetidx" : 13,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 12,
+         "sbo" : 11,
+         "source" : "CLONE:M15",
+         "sourceidx" : 13,
+         "target" : "MAP:C54",
+         "targetidx" : 15,
+         "type" : "Product"
+      },
+      {
+         "id" : 13,
+         "sbo" : 11,
+         "source" : "CLONE:M15",
+         "sourceidx" : 13,
+         "target" : "MAP:Cs14265-44-2_CY_CLONE:M15",
+         "targetidx" : 16,
+         "type" : "Product"
+      },
+      {
+         "id" : 14,
+         "sbo" : 13,
+         "source" : "MAP:C58",
+         "sourceidx" : 4,
+         "target" : "CLONE:M15",
+         "targetidx" : 13,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 15,
+         "sbo" : null,
+         "source" : "CLONE:M15",
+         "sourceidx" : 13,
+         "target" : "MAP:C53",
+         "targetidx" : 14,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 16,
+         "sbo" : 15,
+         "source" : "MAP:C53",
+         "sourceidx" : 14,
+         "target" : "CLONE:M14",
+         "targetidx" : 17,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 17,
+         "sbo" : 15,
+         "source" : "MAP:C57",
+         "sourceidx" : 11,
+         "target" : "CLONE:M14",
+         "targetidx" : 17,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 18,
+         "sbo" : 11,
+         "source" : "CLONE:M14",
+         "sourceidx" : 17,
+         "target" : "MAP:C51",
+         "targetidx" : 18,
+         "type" : "Product"
+      },
+      {
+         "id" : 19,
+         "sbo" : 15,
+         "source" : "MAP:C61",
+         "sourceidx" : 20,
+         "target" : "PID:R203666",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 20,
+         "sbo" : 11,
+         "source" : "PID:R203666",
+         "sourceidx" : 19,
+         "target" : "PID:C200978_ph257ph638",
+         "targetidx" : 21,
+         "type" : "Product"
+      },
+      {
+         "id" : 21,
+         "sbo" : 13,
+         "source" : "PID:C207349_act*",
+         "sourceidx" : 8,
+         "target" : "PID:R203666",
+         "targetidx" : 19,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 22,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_CLONE:M17",
+         "sourceidx" : 23,
+         "target" : "CLONE:M17",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 23,
+         "sbo" : 15,
+         "source" : "Reactome:198618",
+         "sourceidx" : 24,
+         "target" : "CLONE:M17",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 24,
+         "sbo" : 11,
+         "source" : "CLONE:M17",
+         "sourceidx" : 22,
+         "target" : "MAP:Cb16761_CY_CLONE:M17",
+         "targetidx" : 25,
+         "type" : "Product"
+      },
+      {
+         "id" : 25,
+         "sbo" : 11,
+         "source" : "CLONE:M17",
+         "sourceidx" : 22,
+         "target" : "Reactome:198338",
+         "targetidx" : 26,
+         "type" : "Product"
+      },
+      {
+         "id" : 26,
+         "sbo" : 13,
+         "source" : "PID:C207349_act*",
+         "sourceidx" : 8,
+         "target" : "CLONE:M17",
+         "targetidx" : 22,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 27,
+         "sbo" : 15,
+         "source" : "MAP:C58",
+         "sourceidx" : 4,
+         "target" : "CLONE:M23",
+         "targetidx" : 27,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 28,
+         "sbo" : 11,
+         "source" : "CLONE:M23",
+         "sourceidx" : 27,
+         "target" : "MAN:C22",
+         "targetidx" : 28,
+         "type" : "Product"
+      },
+      {
+         "id" : 29,
+         "sbo" : 13,
+         "source" : "MAP:C4",
+         "sourceidx" : 29,
+         "target" : "CLONE:M23",
+         "targetidx" : 27,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 30,
+         "sbo" : null,
+         "source" : "CLONE:M23",
+         "sourceidx" : 27,
+         "target" : "MAP:C58",
+         "targetidx" : 4,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 31,
+         "sbo" : 15,
+         "source" : "MAP:C59",
+         "sourceidx" : 31,
+         "target" : "PID:R203672",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 32,
+         "sbo" : 15,
+         "source" : "PID:C207354_in*",
+         "sourceidx" : 32,
+         "target" : "PID:R203672",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 33,
+         "sbo" : 11,
+         "source" : "PID:R203672",
+         "sourceidx" : 30,
+         "target" : "PID:C207347_in*",
+         "targetidx" : 33,
+         "type" : "Product"
+      },
+      {
+         "id" : 34,
+         "sbo" : 13,
+         "source" : "MAP:Cs7091-44-3__PID:R203672",
+         "sourceidx" : 34,
+         "target" : "PID:R203672",
+         "targetidx" : 30,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 35,
+         "sbo" : 15,
+         "source" : "PID:C201665_ph*",
+         "sourceidx" : 36,
+         "target" : "MAN:R35",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 36,
+         "sbo" : 15,
+         "source" : "MAP:C57",
+         "sourceidx" : 11,
+         "target" : "MAN:R35",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 37,
+         "sbo" : 11,
+         "source" : "MAN:R35",
+         "sourceidx" : 35,
+         "target" : "MAN:C14",
+         "targetidx" : 37,
+         "type" : "Product"
+      },
+      {
+         "id" : 38,
+         "sbo" : null,
+         "source" : "MAN:R35",
+         "sourceidx" : 35,
+         "target" : "MAP:C57",
+         "targetidx" : 11,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 39,
+         "sbo" : 15,
+         "source" : "MAP:C49",
+         "sourceidx" : 39,
+         "target" : "MAN:R37",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 40,
+         "sbo" : 15,
+         "source" : "PID:C201665_ph*",
+         "sourceidx" : 36,
+         "target" : "MAN:R37",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 41,
+         "sbo" : 15,
+         "source" : "PID:C202371",
+         "sourceidx" : 40,
+         "target" : "MAN:R37",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 42,
+         "sbo" : 15,
+         "source" : "MAP:C50",
+         "sourceidx" : 41,
+         "target" : "MAN:R37",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 43,
+         "sbo" : 15,
+         "source" : "MAP:UQ9BPZ7_CY(1-522)",
+         "sourceidx" : 42,
+         "target" : "MAN:R37",
+         "targetidx" : 38,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 44,
+         "sbo" : 11,
+         "source" : "MAN:R37",
+         "sourceidx" : 38,
+         "target" : "PID:C207354_in*",
+         "targetidx" : 32,
+         "type" : "Product"
+      },
+      {
+         "id" : 45,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:165692",
+         "sourceidx" : 44,
+         "target" : "Reactome:165692",
+         "targetidx" : 43,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 46,
+         "sbo" : 15,
+         "source" : "Reactome:72581",
+         "sourceidx" : 45,
+         "target" : "Reactome:165692",
+         "targetidx" : 43,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 47,
+         "sbo" : 11,
+         "source" : "Reactome:165692",
+         "sourceidx" : 43,
+         "target" : "MAP:Cb16761_CY_Reactome:165692",
+         "targetidx" : 46,
+         "type" : "Product"
+      },
+      {
+         "id" : 48,
+         "sbo" : 11,
+         "source" : "Reactome:165692",
+         "sourceidx" : 43,
+         "target" : "Reactome:165697",
+         "targetidx" : 47,
+         "type" : "Product"
+      },
+      {
+         "id" : 49,
+         "sbo" : 13,
+         "source" : "MAP:C51",
+         "sourceidx" : 18,
+         "target" : "Reactome:165692",
+         "targetidx" : 43,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 50,
+         "sbo" : 15,
+         "source" : "Reactome:165697",
+         "sourceidx" : 47,
+         "target" : "Reactome:165708",
+         "targetidx" : 48,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 51,
+         "sbo" : 11,
+         "source" : "Reactome:165708",
+         "sourceidx" : 48,
+         "target" : "Reactome:72578",
+         "targetidx" : 49,
+         "type" : "Product"
+      },
+      {
+         "id" : 52,
+         "sbo" : 11,
+         "source" : "Reactome:165708",
+         "sourceidx" : 48,
+         "target" : "Reactome:165685",
+         "targetidx" : 50,
+         "type" : "Product"
+      },
+      {
+         "id" : 53,
+         "sbo" : 15,
+         "source" : "MAP:C58",
+         "sourceidx" : 4,
+         "target" : "MAN:R36",
+         "targetidx" : 51,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 54,
+         "sbo" : 15,
+         "source" : "PID:C200106",
+         "sourceidx" : 52,
+         "target" : "MAN:R36",
+         "targetidx" : 51,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 55,
+         "sbo" : 11,
+         "source" : "MAN:R36",
+         "sourceidx" : 51,
+         "target" : "PID:C207378_in*",
+         "targetidx" : 1,
+         "type" : "Product"
+      },
+      {
+         "id" : 56,
+         "sbo" : null,
+         "source" : "MAN:R36",
+         "sourceidx" : 51,
+         "target" : "MAP:C58",
+         "targetidx" : 4,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 57,
+         "sbo" : 15,
+         "source" : "Reactome:165671",
+         "sourceidx" : 54,
+         "target" : "MAN:R33",
+         "targetidx" : 53,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 58,
+         "sbo" : 15,
+         "source" : "MAP:C49",
+         "sourceidx" : 39,
+         "target" : "MAN:R33",
+         "targetidx" : 53,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 59,
+         "sbo" : 15,
+         "source" : "MAP:C50",
+         "sourceidx" : 41,
+         "target" : "MAN:R33",
+         "targetidx" : 53,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 60,
+         "sbo" : 11,
+         "source" : "MAN:R33",
+         "sourceidx" : 53,
+         "target" : "MAP:C57",
+         "targetidx" : 11,
+         "type" : "Product"
+      },
+      {
+         "id" : 61,
+         "sbo" : 15,
+         "source" : "MAP:C56",
+         "sourceidx" : 10,
+         "target" : "Reactome:200143",
+         "targetidx" : 55,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 62,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:200143",
+         "sourceidx" : 56,
+         "target" : "Reactome:200143",
+         "targetidx" : 55,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 63,
+         "sbo" : 11,
+         "source" : "Reactome:200143",
+         "sourceidx" : 55,
+         "target" : "MAP:Cb16761_CY_Reactome:200143",
+         "targetidx" : 57,
+         "type" : "Product"
+      },
+      {
+         "id" : 64,
+         "sbo" : 11,
+         "source" : "Reactome:200143",
+         "sourceidx" : 55,
+         "target" : "MAP:C55",
+         "targetidx" : 58,
+         "type" : "Product"
+      },
+      {
+         "id" : 65,
+         "sbo" : 13,
+         "source" : "Reactome:198338",
+         "sourceidx" : 26,
+         "target" : "Reactome:200143",
+         "targetidx" : 55,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 66,
+         "sbo" : null,
+         "source" : "Reactome:200143",
+         "sourceidx" : 55,
+         "target" : "MAP:C56",
+         "targetidx" : 10,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 67,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_CLONE:M16",
+         "sourceidx" : 60,
+         "target" : "CLONE:M16",
+         "targetidx" : 59,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 68,
+         "sbo" : 15,
+         "source" : "MAP:C58",
+         "sourceidx" : 4,
+         "target" : "CLONE:M16",
+         "targetidx" : 59,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 69,
+         "sbo" : 11,
+         "source" : "CLONE:M16",
+         "sourceidx" : 59,
+         "target" : "MAP:Cb16761_CY_CLONE:M16",
+         "targetidx" : 61,
+         "type" : "Product"
+      },
+      {
+         "id" : 70,
+         "sbo" : 11,
+         "source" : "CLONE:M16",
+         "sourceidx" : 59,
+         "target" : "Reactome:165180",
+         "targetidx" : 62,
+         "type" : "Product"
+      },
+      {
+         "id" : 71,
+         "sbo" : 13,
+         "source" : "Reactome:198338",
+         "sourceidx" : 26,
+         "target" : "CLONE:M16",
+         "targetidx" : 59,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 72,
+         "sbo" : 15,
+         "source" : "PID:C207347_in*",
+         "sourceidx" : 33,
+         "target" : "PID:R203663",
+         "targetidx" : 63,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 73,
+         "sbo" : 11,
+         "source" : "PID:R203663",
+         "sourceidx" : 63,
+         "target" : "PID:C201665_ph*",
+         "targetidx" : 36,
+         "type" : "Product"
+      },
+      {
+         "id" : 74,
+         "sbo" : 11,
+         "source" : "PID:R203663",
+         "sourceidx" : 63,
+         "target" : "PID:C207349_act*",
+         "targetidx" : 8,
+         "type" : "Product"
+      },
+      {
+         "id" : 75,
+         "sbo" : 13,
+         "source" : "MAP:C58",
+         "sourceidx" : 4,
+         "target" : "PID:R203663",
+         "targetidx" : 63,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 76,
+         "sbo" : 15,
+         "source" : "MAP:UP23443_CY",
+         "sourceidx" : 65,
+         "target" : "PID:R205173",
+         "targetidx" : 64,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 77,
+         "sbo" : 11,
+         "source" : "PID:R205173",
+         "sourceidx" : 64,
+         "target" : "MAP:C52",
+         "targetidx" : 66,
+         "type" : "Product"
+      },
+      {
+         "id" : 78,
+         "sbo" : 13,
+         "source" : "MAP:C51",
+         "sourceidx" : 18,
+         "target" : "PID:R205173",
+         "targetidx" : 64,
+         "type" : "Catalyst"
+      }
+   ],
+   "nodes" : [
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "modification of REDD1",
+            "ref" : "PID:R203689",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R203689",
+         "index" : 0,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC1",
+            "modification" : [],
+            "ref" : "MAP:C103"
+         },
+         "id" : "MAP:C103_PID:C207378_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC2",
+            "modification" : [],
+            "ref" : "PID:C202082"
+         },
+         "id" : "PID:C202082_PID:C207378_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "14-3-3 family",
+            "modification" : [],
+            "ref" : "PID:C200106"
+         },
+         "id" : "PID:C200106_PID:C207378_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "TSC1/TSC2/14-3-3 family(in*)",
+            "modification" : [
+               [
+                  111102,
+                  0
+               ]
+            ],
+            "ref" : "PID:C207378_in*",
+            "subnodes" : [
+               "MAP:C103_PID:C207378_in*_0",
+               "PID:C202082_PID:C207378_in*_0",
+               "PID:C200106_PID:C207378_in*_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C207378_in*",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "REDD1",
+            "modification" : [],
+            "ref" : "PID:C202373",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C202373",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "REDD1",
+            "modification" : [],
+            "ref" : "PID:C202373"
+         },
+         "id" : "PID:C202373_PID:C207380_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "14-3-3 family",
+            "modification" : [],
+            "ref" : "PID:C200106"
+         },
+         "id" : "PID:C200106_PID:C207380_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "REDD1/14-3-3 family",
+            "modification" : [],
+            "ref" : "PID:C207380",
+            "subnodes" : [
+               "PID:C202373_PID:C207380_0",
+               "PID:C200106_PID:C207380_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C207380",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_cytosol"
+            ],
+            "label" : "Cytosol",
+            "ref" : "MAP:Cytosol",
+            "subnodes" : [
+               "MAP:C58",
+               "MAP:C63",
+               "MAP:C56",
+               "MAP:C53",
+               "MAP:C54",
+               "MAP:Cs14265-44-2_CY_CLONE:M15",
+               "MAP:C51",
+               "MAP:C61",
+               "MAP:Cs56-65-5_CY_CLONE:M17",
+               "MAP:Cb16761_CY_CLONE:M17",
+               "MAN:C22",
+               "MAP:C4",
+               "MAP:C59",
+               "MAP:C49",
+               "MAP:C50",
+               "MAP:UQ9BPZ7_CY(1-522)",
+               "MAP:Cs56-65-5_CY_Reactome:165692",
+               "Reactome:72581",
+               "MAP:Cb16761_CY_Reactome:165692",
+               "Reactome:165697",
+               "Reactome:72578",
+               "Reactome:165685",
+               "Reactome:165671",
+               "MAP:Cs56-65-5_CY_Reactome:200143",
+               "MAP:Cb16761_CY_Reactome:200143",
+               "MAP:C55",
+               "MAP:Cs56-65-5_CY_CLONE:M16",
+               "MAP:Cb16761_CY_CLONE:M16",
+               "Reactome:165180",
+               "MAP:UP23443_CY",
+               "MAP:C52",
+               "CLONE:M23",
+               "Reactome:165708",
+               "PID:R205173"
+            ]
+         },
+         "id" : "MAP:Cytosol",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC1",
+            "modification" : [],
+            "ref" : "MAP:C103"
+         },
+         "id" : "MAP:C103_MAP:C58_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC2",
+            "modification" : [],
+            "ref" : "PID:C202082"
+         },
+         "id" : "PID:C202082_MAP:C58_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "TSC1:TSC2",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C58",
+            "subnodes" : [
+               "MAP:C103_MAP:C58_0",
+               "PID:C202082_MAP:C58_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C58",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "modification of SGK1",
+            "ref" : "PID:R203668",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R203668",
+         "index" : 5,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "SGK1",
+            "modification" : [],
+            "ref" : "MAP:C63",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C63",
+         "index" : 6,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "SGK1(ph422)",
+            "modification" : [
+               [
+                  216,
+                  "422"
+               ]
+            ],
+            "ref" : "PID:C200797_ph422",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C200797_ph422",
+         "index" : 7,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "RICTOR",
+            "modification" : [],
+            "ref" : "MAP:C59"
+         },
+         "id" : "MAP:C59_PID:C207349_act*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_PID:C207349_act*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PROTOR1",
+            "modification" : [],
+            "ref" : "PID:C202371"
+         },
+         "id" : "PID:C202371_PID:C207349_act*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_PID:C207349_act*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SIN1",
+            "modification" : [],
+            "ref" : "MAP:UQ9BPZ7_CY(1-522)"
+         },
+         "id" : "MAP:UQ9BPZ7_CY(1-522)_PID:C207349_act*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTORC2(act*)",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "PID:C207349_act*",
+            "subnodes" : [
+               "MAP:C59_PID:C207349_act*_0",
+               "MAP:C49_PID:C207349_act*_0",
+               "PID:C202371_PID:C207349_act*_0",
+               "MAP:C50_PID:C207349_act*_0",
+               "MAP:UQ9BPZ7_CY(1-522)_PID:C207349_act*_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C207349_act*",
+         "index" : 8,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R34",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R34",
+         "index" : 9,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "AKT1S1",
+            "modification" : [],
+            "ref" : "MAP:C56",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C56",
+         "index" : 10,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Raptor",
+            "modification" : [],
+            "ref" : "Reactome:165671"
+         },
+         "id" : "Reactome:165671_MAP:C57_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_MAP:C57_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_MAP:C57_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTORC1(act*)",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C57",
+            "subnodes" : [
+               "Reactome:165671_MAP:C57_0",
+               "MAP:C49_MAP:C57_0",
+               "MAP:C50_MAP:C57_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C57",
+         "index" : 11,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "AKT1S1",
+            "modification" : [],
+            "ref" : "MAP:C56"
+         },
+         "id" : "MAP:C56_PID:C206437_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_PID:C206437_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "RAPTOR",
+            "modification" : [],
+            "ref" : "PID:C201666"
+         },
+         "id" : "PID:C201666_PID:C206437_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_PID:C206437_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTORC1 complex",
+            "modification" : [],
+            "ref" : "PID:C206437",
+            "subnodes" : [
+               "MAP:C56_PID:C206437_0",
+               "MAP:C49_PID:C206437_0",
+               "PID:C201666_PID:C206437_0",
+               "MAP:C50_PID:C206437_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C206437",
+         "index" : 12,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "TSC2 activates intrinsic GTPase activity of Rheb",
+            "ref" : "CLONE:M15",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M15",
+         "index" : 13,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Rheb",
+            "modification" : [],
+            "ref" : "Reactome:165190"
+         },
+         "id" : "Reactome:165190_MAP:C53_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GTP",
+            "modification" : [],
+            "ref" : "MAP:Cb15996_CY"
+         },
+         "id" : "MAP:Cb15996_CY_MAP:C53_0",
+         "is_abstract" : 1,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Rheb:GTP",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C53",
+            "subnodes" : [
+               "Reactome:165190_MAP:C53_0",
+               "MAP:Cb15996_CY_MAP:C53_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C53",
+         "index" : 14,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GDP",
+            "modification" : [],
+            "ref" : "MAP:Cb17552_CY"
+         },
+         "id" : "MAP:Cb17552_CY_MAP:C54_0",
+         "is_abstract" : 1,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Rheb",
+            "modification" : [],
+            "ref" : "Reactome:165190"
+         },
+         "id" : "Reactome:165190_MAP:C54_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Rheb:GDP",
+            "modification" : [
+               [
+                  111102,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C54",
+            "subnodes" : [
+               "MAP:Cb17552_CY_MAP:C54_0",
+               "Reactome:165190_MAP:C54_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C54",
+         "index" : 15,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Phosphate",
+            "modification" : [],
+            "ref" : "MAP:Cs14265-44-2_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs14265-44-2_CY_CLONE:M15",
+         "index" : 16,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Formation of active mTORC1 complex",
+            "ref" : "CLONE:M14",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M14",
+         "index" : 17,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Raptor",
+            "modification" : [],
+            "ref" : "Reactome:165671"
+         },
+         "id" : "Reactome:165671_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Rheb",
+            "modification" : [],
+            "ref" : "Reactome:165190"
+         },
+         "id" : "Reactome:165190_MAP:C53_0_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GTP",
+            "modification" : [],
+            "ref" : "MAP:Cb15996_CY"
+         },
+         "id" : "MAP:Cb15996_CY_MAP:C53_0_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Rheb:GTP",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C53",
+            "subnodes" : [
+               "Reactome:165190_MAP:C53_0_MAP:C51_0",
+               "MAP:Cb15996_CY_MAP:C53_0_MAP:C51_0"
+            ]
+         },
+         "id" : "MAP:C53_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_MAP:C51_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Activated mTORC1",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C51",
+            "subnodes" : [
+               "Reactome:165671_MAP:C51_0",
+               "MAP:C49_MAP:C51_0",
+               "MAP:C53_MAP:C51_0",
+               "MAP:C50_MAP:C51_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C51",
+         "index" : 18,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "modification of PKC alpha",
+            "ref" : "PID:R203666",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R203666",
+         "index" : 19,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "PKC-A",
+            "modification" : [],
+            "ref" : "MAP:C61",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C61",
+         "index" : 20,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "PKC alpha(ph257,ph638)",
+            "modification" : [
+               [
+                  216,
+                  "257"
+               ],
+               [
+                  216,
+                  "638"
+               ]
+            ],
+            "ref" : "PID:C200978_ph257ph638",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C200978_ph257ph638",
+         "index" : 21,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "activation of AKT by mTORC2",
+            "ref" : "CLONE:M17",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M17",
+         "index" : 22,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_CLONE:M17",
+         "index" : 23,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_plasmamembrane"
+            ],
+            "label" : "Plasmamembrane",
+            "ref" : "MAP:Plasmamembrane",
+            "subnodes" : [
+               "Reactome:198618",
+               "Reactome:198338"
+            ]
+         },
+         "id" : "MAP:Plasmamembrane",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PDK1",
+            "modification" : [],
+            "ref" : "MAP:UO15530_PM"
+         },
+         "id" : "MAP:UO15530_PM_Reactome:198618_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-AKT",
+            "modification" : [],
+            "ref" : "Reactome:202084"
+         },
+         "id" : "Reactome:202084_Reactome:198618_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PIP3",
+            "modification" : [],
+            "ref" : "Reactome:179838"
+         },
+         "id" : "Reactome:179838_Reactome:198618_0",
+         "is_abstract" : 1,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "PIP3:PDK1:Phospho-AKT",
+            "modification" : [],
+            "ref" : "Reactome:198618",
+            "subnodes" : [
+               "MAP:UO15530_PM_Reactome:198618_0",
+               "Reactome:202084_Reactome:198618_0",
+               "Reactome:179838_Reactome:198618_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:198618",
+         "index" : 24,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_CLONE:M17",
+         "index" : 25,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PDK1",
+            "modification" : [],
+            "ref" : "MAP:UO15530_PM"
+         },
+         "id" : "MAP:UO15530_PM_Reactome:198338_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Active AKT",
+            "modification" : [],
+            "ref" : "Reactome:202074"
+         },
+         "id" : "Reactome:202074_Reactome:198338_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PIP3",
+            "modification" : [],
+            "ref" : "Reactome:179838"
+         },
+         "id" : "Reactome:179838_Reactome:198338_0",
+         "is_abstract" : 1,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "PIP3:PDK1:active AKT",
+            "modification" : [],
+            "ref" : "Reactome:198338",
+            "subnodes" : [
+               "MAP:UO15530_PM_Reactome:198338_0",
+               "Reactome:202074_Reactome:198338_0",
+               "Reactome:179838_Reactome:198338_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:198338",
+         "index" : 26,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "modification of IKK beta",
+            "ref" : "CLONE:M23",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M23",
+         "index" : 27,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC1(ph487,ph511)",
+            "modification" : [
+               [
+                  216,
+                  "487"
+               ],
+               [
+                  216,
+                  "511"
+               ]
+            ],
+            "ref" : "PID:C202081_ph487ph511"
+         },
+         "id" : "PID:C202081_ph487ph511_MAN:C22_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC2",
+            "modification" : [],
+            "ref" : "PID:C202082"
+         },
+         "id" : "PID:C202082_MAN:C22_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "phospho-TSC1/TSC2",
+            "modification" : [],
+            "ref" : "MAN:C22",
+            "subnodes" : [
+               "PID:C202081_ph487ph511_MAN:C22_0",
+               "PID:C202082_MAN:C22_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C22",
+         "index" : 28,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "IKKB",
+            "modification" : [],
+            "ref" : "MAP:UO14920_CY"
+         },
+         "id" : "MAP:UO14920_CY_MAP:C4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "NEMO(ph85,ub277,ub309)",
+            "modification" : [
+               [
+                  216,
+                  "85"
+               ],
+               [
+                  224,
+                  "277"
+               ],
+               [
+                  224,
+                  "309"
+               ]
+            ],
+            "ref" : "PID:C200540_ph85ub277ub309"
+         },
+         "id" : "PID:C200540_ph85ub277ub309_MAP:C4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "IKKA",
+            "modification" : [],
+            "ref" : "MAP:UO15111_CY"
+         },
+         "id" : "MAP:UO15111_CY_MAP:C4_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "IKK complex()",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C4",
+            "subnodes" : [
+               "MAP:UO14920_CY_MAP:C4_0",
+               "PID:C200540_ph85ub277ub309_MAP:C4_0",
+               "MAP:UO15111_CY_MAP:C4_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C4",
+         "index" : 29,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "modification of RICTOR",
+            "ref" : "PID:R203672",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R203672",
+         "index" : 30,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "RICTOR",
+            "modification" : [],
+            "ref" : "MAP:C59",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C59",
+         "index" : 31,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_PID:C207354_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PROTOR1",
+            "modification" : [],
+            "ref" : "PID:C202371"
+         },
+         "id" : "PID:C202371_PID:C207354_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DEPTOR",
+            "modification" : [],
+            "ref" : "PID:C201665"
+         },
+         "id" : "PID:C201665_PID:C207354_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_PID:C207354_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SIN1",
+            "modification" : [],
+            "ref" : "MAP:UQ9BPZ7_CY(1-522)"
+         },
+         "id" : "MAP:UQ9BPZ7_CY(1-522)_PID:C207354_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTOR/GBL/SIN1/PROTOR1/DEPTOR(in*)",
+            "modification" : [
+               [
+                  111102,
+                  0
+               ]
+            ],
+            "ref" : "PID:C207354_in*",
+            "subnodes" : [
+               "MAP:C49_PID:C207354_in*_0",
+               "PID:C202371_PID:C207354_in*_0",
+               "PID:C201665_PID:C207354_in*_0",
+               "MAP:C50_PID:C207354_in*_0",
+               "MAP:UQ9BPZ7_CY(1-522)_PID:C207354_in*_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C207354_in*",
+         "index" : 32,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "RICTOR",
+            "modification" : [],
+            "ref" : "MAP:C59"
+         },
+         "id" : "MAP:C59_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PROTOR1",
+            "modification" : [],
+            "ref" : "PID:C202371"
+         },
+         "id" : "PID:C202371_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DEPTOR",
+            "modification" : [],
+            "ref" : "PID:C201665"
+         },
+         "id" : "PID:C201665_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SIN1",
+            "modification" : [],
+            "ref" : "MAP:UQ9BPZ7_CY(1-522)"
+         },
+         "id" : "MAP:UQ9BPZ7_CY(1-522)_PID:C207347_in*_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTORC2/DEPTOR(in*)",
+            "modification" : [
+               [
+                  111102,
+                  0
+               ]
+            ],
+            "ref" : "PID:C207347_in*",
+            "subnodes" : [
+               "MAP:C59_PID:C207347_in*_0",
+               "MAP:C49_PID:C207347_in*_0",
+               "PID:C202371_PID:C207347_in*_0",
+               "PID:C201665_PID:C207347_in*_0",
+               "MAP:C50_PID:C207347_in*_0",
+               "MAP:UQ9BPZ7_CY(1-522)_PID:C207347_in*_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C207347_in*",
+         "index" : 33,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphatic acid",
+            "modification" : [],
+            "ref" : "MAP:Cs7091-44-3_",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs7091-44-3__PID:R203672",
+         "index" : 34,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R35",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R35",
+         "index" : 35,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "DEPTOR(ph*)",
+            "modification" : [
+               [
+                  216,
+                  "0"
+               ]
+            ],
+            "ref" : "PID:C201665_ph*",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C201665_ph*",
+         "index" : 36,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DEPTOR(ph*)",
+            "modification" : [
+               [
+                  216,
+                  "0"
+               ]
+            ],
+            "ref" : "PID:C201665_ph*"
+         },
+         "id" : "PID:C201665_ph*_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Raptor",
+            "modification" : [],
+            "ref" : "Reactome:165671"
+         },
+         "id" : "Reactome:165671_MAP:C57_0_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49"
+         },
+         "id" : "MAP:C49_MAP:C57_0_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50"
+         },
+         "id" : "MAP:C50_MAP:C57_0_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "mTORC1(act*)",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C57",
+            "subnodes" : [
+               "Reactome:165671_MAP:C57_0_MAN:C14_0",
+               "MAP:C49_MAP:C57_0_MAN:C14_0",
+               "MAP:C50_MAP:C57_0_MAN:C14_0"
+            ]
+         },
+         "id" : "MAP:C57_MAN:C14_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "mTORC1:Deptor",
+            "modification" : [],
+            "ref" : "MAN:C14",
+            "subnodes" : [
+               "PID:C201665_ph*_MAN:C14_0",
+               "MAP:C57_MAN:C14_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C14",
+         "index" : 37,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R37",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R37",
+         "index" : 38,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "GBL",
+            "modification" : [],
+            "ref" : "MAP:C49",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C49",
+         "index" : 39,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "PROTOR1",
+            "modification" : [],
+            "ref" : "PID:C202371",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C202371",
+         "index" : 40,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "mTOR",
+            "modification" : [],
+            "ref" : "MAP:C50",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C50",
+         "index" : 41,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "SIN1",
+            "modification" : [],
+            "ref" : "MAP:UQ9BPZ7_CY(1-522)",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:UQ9BPZ7_CY(1-522)",
+         "index" : 42,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of 4E-BP1 by activated mTORC1",
+            "ref" : "Reactome:165692",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165692",
+         "index" : 43,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:165692",
+         "index" : 44,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "eIF4E",
+            "modification" : [],
+            "ref" : "Reactome:72578"
+         },
+         "id" : "Reactome:72578_Reactome:72581_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "4E-BP",
+            "modification" : [],
+            "ref" : "Reactome:72580"
+         },
+         "id" : "Reactome:72580_Reactome:72581_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "eIF4E:4E-BP",
+            "modification" : [],
+            "ref" : "Reactome:72581",
+            "subnodes" : [
+               "Reactome:72578_Reactome:72581_0",
+               "Reactome:72580_Reactome:72581_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:72581",
+         "index" : 45,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:165692",
+         "index" : 46,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "eIF4E",
+            "modification" : [],
+            "ref" : "Reactome:72578"
+         },
+         "id" : "Reactome:72578_Reactome:165697_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "4E-BP1-P",
+            "modification" : [
+               [
+                  216,
+                  "37"
+               ],
+               [
+                  216,
+                  "46"
+               ]
+            ],
+            "ref" : "Reactome:165685"
+         },
+         "id" : "Reactome:165685_Reactome:165697_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "eIF4E:4E-BP1-P",
+            "modification" : [],
+            "ref" : "Reactome:165697",
+            "subnodes" : [
+               "Reactome:72578_Reactome:165697_0",
+               "Reactome:165685_Reactome:165697_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165697",
+         "index" : 47,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Dissociation of phosphorylated 4EBP1 from eIF4E",
+            "ref" : "Reactome:165708",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165708",
+         "index" : 48,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "eIF4E",
+            "modification" : [],
+            "ref" : "Reactome:72578",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:72578",
+         "index" : 49,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "4E-BP1-P",
+            "modification" : [
+               [
+                  216,
+                  "37"
+               ],
+               [
+                  216,
+                  "46"
+               ]
+            ],
+            "ref" : "Reactome:165685",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165685",
+         "index" : 50,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R36",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R36",
+         "index" : 51,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "14-3-3 family",
+            "modification" : [],
+            "ref" : "PID:C200106",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C200106",
+         "index" : 52,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R33",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R33",
+         "index" : 53,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Raptor",
+            "modification" : [],
+            "ref" : "Reactome:165671",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165671",
+         "index" : 54,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "AKT phosphorylates PRAS40",
+            "ref" : "Reactome:200143",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:200143",
+         "index" : 55,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:200143",
+         "index" : 56,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:200143",
+         "index" : 57,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "AKT1S1",
+            "modification" : [
+               [
+                  216,
+                  "183"
+               ],
+               [
+                  216,
+                  "246"
+               ]
+            ],
+            "ref" : "MAP:C55",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C55",
+         "index" : 58,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of complexed TSC2 by PKB",
+            "ref" : "CLONE:M16",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "CLONE:M16",
+         "index" : 59,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_CLONE:M16",
+         "index" : 60,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_CLONE:M16",
+         "index" : 61,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TSC1",
+            "modification" : [],
+            "ref" : "MAP:C103"
+         },
+         "id" : "MAP:C103_Reactome:165180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "p-(Ser-93, 1130, Thr-1462)-TSC2-1",
+            "modification" : [
+               [
+                  216,
+                  "1462"
+               ],
+               [
+                  216,
+                  "1130"
+               ],
+               [
+                  216,
+                  "939"
+               ]
+            ],
+            "ref" : "Reactome:165164"
+         },
+         "id" : "Reactome:165164_Reactome:165180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "TSC1:Inhibited TSC2-1-P",
+            "modification" : [],
+            "ref" : "Reactome:165180",
+            "subnodes" : [
+               "MAP:C103_Reactome:165180_0",
+               "Reactome:165164_Reactome:165180_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:165180",
+         "index" : 62,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "modification of DEPTOR(ph*)",
+            "ref" : "PID:R203663",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R203663",
+         "index" : 63,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "modification of p70S6K",
+            "ref" : "PID:R205173",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R205173",
+         "index" : 64,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "S6K1",
+            "modification" : [],
+            "ref" : "MAP:UP23443_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:UP23443_CY",
+         "index" : 65,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "S6K1-P",
+            "modification" : [
+               [
+                  216,
+                  "371"
+               ],
+               [
+                  216,
+                  "389"
+               ]
+            ],
+            "ref" : "MAP:C52",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C52",
+         "index" : 66,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      }
+   ]
+}

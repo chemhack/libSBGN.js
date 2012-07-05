@@ -1,0 +1,479 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Jreceptor_Cell1sink", 
+         "target": "Jreceptor_Cell1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Jreceptor_Cell1", 
+         "target": "c1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "h1", 
+         "target": "Jreceptor_Cell1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "c1", 
+         "target": "Jpump_Cell1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Jpump_Cell1", 
+         "target": "Jpump_Cell1sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Jleak_Cell1sink", 
+         "target": "Jleak_Cell1"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "Jleak_Cell1", 
+         "target": "c1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Inactivated_to_S_Cell1sink", 
+         "target": "Inactivated_to_S_Cell1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Inactivated_to_S_Cell1", 
+         "target": "h1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "h1", 
+         "target": "Open_to_Inactivated_Cell1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "Open_to_Inactivated_Cell1", 
+         "target": "Open_to_Inactivated_Cell1sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Jreceptor_Cell2sink", 
+         "target": "Jreceptor_Cell2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "Jreceptor_Cell2", 
+         "target": "c2"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "h2", 
+         "target": "Jreceptor_Cell2"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "c2", 
+         "target": "Jpump_Cell2"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "Jpump_Cell2", 
+         "target": "Jpump_Cell2sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "Jleak_Cell2sink", 
+         "target": "Jleak_Cell2"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Jleak_Cell2", 
+         "target": "c2"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Inactivated_to_S_Cell2sink", 
+         "target": "Inactivated_to_S_Cell2"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "Inactivated_to_S_Cell2", 
+         "target": "h2"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "h2", 
+         "target": "Open_to_Inactivated_Cell2"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "Open_to_Inactivated_Cell2", 
+         "target": "Open_to_Inactivated_Cell2sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "c2", 
+         "target": "diffusion"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "diffusion", 
+         "target": "c1"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R mediated Ca release Cell1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jreceptor_Cell1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jreceptor_Cell1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium ion Cell1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "c1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor fraction Cell1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "h1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase pump mediated Ca efflux Cell1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jpump_Cell1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jpump_Cell1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R independent Ca release Cell1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jleak_Cell1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jleak_Cell1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactivated to Shut state transition Cell1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inactivated_to_S_Cell1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inactivated_to_S_Cell1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Open to Inactivated state transition Cell1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Open_to_Inactivated_Cell1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Open_to_Inactivated_Cell1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R mediated Ca release Cell2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jreceptor_Cell2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jreceptor_Cell2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Calcium ion Cell2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "c2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Receptor fraction Cell2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "h2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase pump mediated Ca efflux Cell2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jpump_Cell2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jpump_Cell2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R independent Ca release Cell2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jleak_Cell2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jleak_Cell2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inactivated to Shut state transition Cell2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inactivated_to_S_Cell2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Inactivated_to_S_Cell2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Open to Inactivated state transition Cell2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Open_to_Inactivated_Cell2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Open_to_Inactivated_Cell2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Diffusion of Ca between cells", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "diffusion", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "h2", 
+               "h1", 
+               "Jleak_Cell2sink", 
+               "Jleak_Cell1", 
+               "Inactivated_to_S_Cell2sink", 
+               "Jleak_Cell2", 
+               "Jreceptor_Cell1sink", 
+               "Jpump_Cell2sink", 
+               "Inactivated_to_S_Cell1sink", 
+               "Jpump_Cell2", 
+               "Jpump_Cell1", 
+               "Inactivated_to_S_Cell2", 
+               "Inactivated_to_S_Cell1", 
+               "Jreceptor_Cell2sink", 
+               "Open_to_Inactivated_Cell2", 
+               "Open_to_Inactivated_Cell1", 
+               "diffusion", 
+               "Jleak_Cell1sink", 
+               "Jreceptor_Cell1", 
+               "Jreceptor_Cell2", 
+               "c2", 
+               "c1", 
+               "Open_to_Inactivated_Cell2sink", 
+               "Open_to_Inactivated_Cell1sink", 
+               "Jpump_Cell1sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

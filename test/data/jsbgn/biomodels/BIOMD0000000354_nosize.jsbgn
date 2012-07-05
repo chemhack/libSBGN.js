@@ -1,0 +1,525 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "kPLCsink", 
+         "target": "kPLC"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "kPLC", 
+         "target": "IP3"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "kPLC"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CaI", 
+         "target": "JPump"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "JPump", 
+         "target": "CaS"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "CaS", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "JChannel", 
+         "target": "CaI"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "g", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "IP3", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "IP3", 
+         "target": "kPhosphatase"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "kPhosphatase", 
+         "target": "kPhosphatasesink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "inhibition_parameter1sink", 
+         "target": "inhibition_parameter1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "inhibition_parameter1", 
+         "target": "g"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "inhibition_parameter1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "g", 
+         "target": "inhibition_parameter2"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "inhibition_parameter2", 
+         "target": "inhibition_parameter2sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7sink", 
+         "target": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7", 
+         "target": "CaI"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "CaS", 
+         "target": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "CaI", 
+         "target": "mw530793e3_76b2_4483_be11_e94364306712"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "mw530793e3_76b2_4483_be11_e94364306712", 
+         "target": "mw530793e3_76b2_4483_be11_e94364306712sink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "CaI", 
+         "target": "mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4", 
+         "target": "CaM"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "CaM", 
+         "target": "mw69f19152_7258_45b0_bf9e_b196f19d7e03"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "mw69f19152_7258_45b0_bf9e_b196f19d7e03", 
+         "target": "CaI"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "CaS", 
+         "target": "ERtoMito"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "ERtoMito", 
+         "target": "CaM"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "ERtoMito"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "g", 
+         "target": "ERtoMito"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "IP3", 
+         "target": "ERtoMito"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "PLC: Receptor and Ca2+ regulated IP3 production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPLC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPLCsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaI", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SERCA: Pumps Ca2+ into ER Ca2+ stores", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JPump", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R: IP3 and Ca2+ regulated Ca2+ channel,  plus leak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JChannel", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "g", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3 phosphatase:  Degradation of IP3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPhosphatase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPhosphatasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Inhibition of IP3R (mechanism not well understood)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery of IP3R from Ca2+ iinhibition when Ca2+ drops", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Regulation of Orai by STIM, plus leak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PMCA:  Pumps Ca2+ across PM out of cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mw530793e3_76b2_4483_be11_e94364306712", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mw530793e3_76b2_4483_be11_e94364306712sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "UniporterFromCytosol", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaM", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MitoToCytosol", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mw69f19152_7258_45b0_bf9e_b196f19d7e03", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ERtoMito", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ERtoMito", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "kPLCsink", 
+               "JPump", 
+               "g", 
+               "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7sink", 
+               "JChannel", 
+               "mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4", 
+               "kPhosphatasesink", 
+               "mw530793e3_76b2_4483_be11_e94364306712sink", 
+               "mw69f19152_7258_45b0_bf9e_b196f19d7e03", 
+               "IP3", 
+               "CaI", 
+               "kPhosphatase", 
+               "inhibition_parameter2", 
+               "mw530793e3_76b2_4483_be11_e94364306712", 
+               "inhibition_parameter1sink", 
+               "inhibition_parameter1", 
+               "mwbdcd6a40_1ae7_4c86_a99f_1fba0b8beaf7", 
+               "kPLC", 
+               "inhibition_parameter2sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Outside", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "outside", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ER_store", 
+            "subnodes": [
+               "CaS", 
+               "JChannel", 
+               "JPump", 
+               "ERtoMito"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER_store", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mito", 
+            "subnodes": [
+               "mw69f19152_7258_45b0_bf9e_b196f19d7e03", 
+               "mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4", 
+               "CaM", 
+               "ERtoMito"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "mitochondria", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

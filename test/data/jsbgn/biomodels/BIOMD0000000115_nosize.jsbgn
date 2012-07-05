@@ -1,0 +1,224 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0000001sink", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0000001", 
+         "target": "y"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "reaction_0000002"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_0000002", 
+         "target": "y"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "y", 
+         "target": "reaction_0000003"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_0000003", 
+         "target": "x"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "reaction_0000004"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "reaction_0000004", 
+         "target": "y"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "y", 
+         "target": "reaction_0000005"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "reaction_0000005", 
+         "target": "reaction_0000005sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca flux into the cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca translocation from ER to Cytosol", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000002", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_ER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca transport from Cytosol to ER", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000003", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "InsP3 channel", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000004", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca pumped ouside the cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000005sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "reaction_0000004", 
+               "reaction_0000005", 
+               "reaction_0000001", 
+               "reaction_0000002", 
+               "reaction_0000003", 
+               "reaction_0000005sink", 
+               "y", 
+               "reaction_0000001sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Endoplasmic Reticulum", 
+            "subnodes": [
+               "reaction_0000004", 
+               "x", 
+               "reaction_0000002", 
+               "reaction_0000003"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Extracellular", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

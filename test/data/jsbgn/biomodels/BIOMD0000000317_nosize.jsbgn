@@ -1,0 +1,312 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r1sink", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "Z1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Z1", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "r2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "r3sink", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "Z2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Z2", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "r4sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "r5sink", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "Z3"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Z3", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "r6", 
+         "target": "r6sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "r4", 
+               "r5", 
+               "r6", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "r4sink", 
+               "r1sink", 
+               "r3sink", 
+               "r6sink", 
+               "X", 
+               "r2sink", 
+               "r5sink", 
+               "Z1", 
+               "Z2", 
+               "Z3"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

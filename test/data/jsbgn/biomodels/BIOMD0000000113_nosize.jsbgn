@@ -1,0 +1,318 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R0sink", 
+         "target": "R0"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R0", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "Rf"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "Rf", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "R_eff"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R_eff", 
+         "target": "R_effsink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Protein_Phosphorylationsink", 
+         "target": "Protein_Phosphorylation"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Protein_Phosphorylation", 
+         "target": "W_star"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "Wt", 
+         "target": "Protein_Phosphorylation"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium influx", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "InsP3 dependent Ca influx", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP driven pumping of Ca into store", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP driven pumping into cytosol", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium leak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rf", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca efflux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_eff", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_effsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Protein Phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Protein_Phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Protein_Phosphorylationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "W_star", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Total Protein", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Wt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "R0", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "Protein_Phosphorylationsink", 
+               "W_star", 
+               "R1sink", 
+               "Rf", 
+               "Wt", 
+               "R_effsink", 
+               "R_eff", 
+               "Z", 
+               "R0sink", 
+               "Protein_Phosphorylation"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "store", 
+            "subnodes": [
+               "Y", 
+               "Rf", 
+               "R2", 
+               "R3"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "store", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

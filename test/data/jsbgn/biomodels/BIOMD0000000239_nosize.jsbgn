@@ -1,0 +1,2467 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "GLCflowsink", 
+         "target": "GLCflow"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "GLCflow", 
+         "target": "GLC"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "LAC", 
+         "target": "LACflow"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "LACflow", 
+         "target": "LACflowsink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "GAPflow"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "GAPflow", 
+         "target": "GAPflowsink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "GLC", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "F6P"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "ADP_cyt"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "ADP_cyt"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "AMP", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "DPG"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "NADH_cyt"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "DPG", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ADP_cyt", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "ATP_cyt"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "ADP_cyt", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "PYR_cyt"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "ATP_cyt"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "PYR_cyt", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "NADH_cyt", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "LAC"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "AMP", 
+         "target": "hidden_1"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "hidden_1"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "hidden_1", 
+         "target": "ADP_cyt"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "PYR_cyt", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "Pyr"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "CoA", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "NAD_p", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "Acetyl_CoA"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "OXA", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Acetyl_CoA", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "Cit"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "CoA"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Cit", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "IsoCit"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "IsoCit", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "NAD_p", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "OG"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "ADP", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "OG", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "CoA", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "NAD_p", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "v14", 
+         "target": "CO2"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "v14", 
+         "target": "SCoA"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "v14", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "GDP", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "SCoA", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "v15", 
+         "target": "Suc"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "v15", 
+         "target": "GTP"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "v15", 
+         "target": "CoA"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "Q", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "v16", 
+         "target": "Fum"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "v16", 
+         "target": "QH2"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "Fum", 
+         "target": "v17"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "v17", 
+         "target": "Mal"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "Mal", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "NAD_p", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "v18", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "v18", 
+         "target": "OXA"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "Ala", 
+         "target": "v20"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "OG", 
+         "target": "v20"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "v20", 
+         "target": "Glu"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "v20", 
+         "target": "Pyr"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "OXA", 
+         "target": "v21"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "Glu", 
+         "target": "v21"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "v21", 
+         "target": "Asp"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "v21", 
+         "target": "OG"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "Glu_cyt", 
+         "target": "v22"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "Asp", 
+         "target": "v22"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "v22", 
+         "target": "Asp_cyt"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "v22", 
+         "target": "Glu"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "Q", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "v24", 
+         "target": "NAD_p"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "v24", 
+         "target": "QH2"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "QH2", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "Cytc3p", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "v25", 
+         "target": "Q"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "v25", 
+         "target": "Cytc2p"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 394, 
+         "source": "Cytc2p", 
+         "target": "v26"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "v26", 
+         "target": "Cytc3p"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "Cit_cyt", 
+         "target": "v27"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "CoA_cyt", 
+         "target": "v27"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "v27", 
+         "target": "OXA_cyt"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "v27", 
+         "target": "Acetyl_CoA_cyt"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "v28"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 394, 
+         "source": "Pi", 
+         "target": "v28"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 393, 
+         "source": "v28", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "v28", 
+         "target": "H2O"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "Cit_cyt", 
+         "target": "v29"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "v29", 
+         "target": "IsoCitcyt"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 394, 
+         "source": "Mal_cyt", 
+         "target": "v30"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "OG", 
+         "target": "v30"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 393, 
+         "source": "v30", 
+         "target": "OG_cyt"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "v30", 
+         "target": "Mal"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "NADH_cyt", 
+         "target": "v31"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "OXA_cyt", 
+         "target": "v31"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "v31", 
+         "target": "Mal_cyt"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 393, 
+         "source": "v31", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "Asp_cyt", 
+         "target": "v32"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 394, 
+         "source": "OG_cyt", 
+         "target": "v32"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 393, 
+         "source": "v32", 
+         "target": "OXA_cyt"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "v32", 
+         "target": "Glu_cyt"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 394, 
+         "source": "Cit_cyt", 
+         "target": "v33"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "Mal", 
+         "target": "v33"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "v33", 
+         "target": "Mal_cyt"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 393, 
+         "source": "v33", 
+         "target": "Cit"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 394, 
+         "source": "ETFred", 
+         "target": "v34"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 394, 
+         "source": "Q", 
+         "target": "v34"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "v34", 
+         "target": "ETFox"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 393, 
+         "source": "v34", 
+         "target": "QH2"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "FADH2", 
+         "target": "v35"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 394, 
+         "source": "ETFox", 
+         "target": "v35"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 393, 
+         "source": "v35", 
+         "target": "ETFred"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "v35", 
+         "target": "FAD"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v36"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 394, 
+         "source": "CO2", 
+         "target": "v36"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "v36"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "v36", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 393, 
+         "source": "v36", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 393, 
+         "source": "v36", 
+         "target": "OXA"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 394, 
+         "source": "G3P", 
+         "target": "v37"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 394, 
+         "source": "FAD", 
+         "target": "v37"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 393, 
+         "source": "v37", 
+         "target": "FADH2"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "v37", 
+         "target": "DHAP"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "NADH_cyt", 
+         "target": "v38"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "v38"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 393, 
+         "source": "v38", 
+         "target": "G3P"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 393, 
+         "source": "v38", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 394, 
+         "source": "ADP_cyt", 
+         "target": "v40"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "v40", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 394, 
+         "source": "IsoCitcyt", 
+         "target": "v41"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 394, 
+         "source": "NADP_cyt", 
+         "target": "v41"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 393, 
+         "source": "v41", 
+         "target": "OG_cyt"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 393, 
+         "source": "v41", 
+         "target": "NADPH_cyt"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 168, 
+         "source": "CO2", 
+         "target": "v41"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 394, 
+         "source": "IsoCitcyt", 
+         "target": "v42"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 394, 
+         "source": "Mal", 
+         "target": "v42"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 393, 
+         "source": "v42", 
+         "target": "Mal_cyt"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 393, 
+         "source": "v42", 
+         "target": "IsoCit"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v43"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 393, 
+         "source": "v43", 
+         "target": "ATP_cyt"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 394, 
+         "source": "Mal_cyt", 
+         "target": "v39"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 394, 
+         "source": "NADP_cyt", 
+         "target": "v39"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "v39", 
+         "target": "NADPH_cyt"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 393, 
+         "source": "v39", 
+         "target": "PYR_cyt"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 394, 
+         "source": "Mal", 
+         "target": "v44"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 394, 
+         "source": "NADP_p", 
+         "target": "v44"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 393, 
+         "source": "v44", 
+         "target": "NADPH"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 393, 
+         "source": "v44", 
+         "target": "Pyr"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLCflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLCflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLCflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GLC", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "LACflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "LACflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "lactate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "LAC", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "LACflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAPflow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAPflow", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glyceraldehyde 3-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAPflowsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "glucokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "adenine triphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "fructose-6-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "adenine diphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "6-phosphofructokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "fructose-1,6-bisphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "adenine monophosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "fructose-bisphosphate aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "glyceraldehyde 3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "1,2-bisphospho-D-glycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPG", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "bisphosphoglycerate phosphotase (1/2)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "phosphoenolpyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pyruvate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PYR_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "lactate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "hidden_1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "hidden_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pyruvate carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pyr", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pyruvate dehydrogenase complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "coenzyme A", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CoA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD+", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "carbon dioxide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CO2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "acetyl CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Acetyl_CoA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "citrate synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxaloacetate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OXA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "citrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cit", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aconitase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "isocitrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IsoCit", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "isocitrate dehydrogenase (NAD+) (alpha/beta/gamma)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxoglutarate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OG", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "adenine diphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "oxoglutarate dehydrogenase complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "succinyl-CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SCoA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "succinyl-CoA synthetase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "guanosine diphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GDP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "succinate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Suc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "guanosine triphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GTP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "succinate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ubiquinone", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Q", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "fumarate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fum", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ubiquinol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "QH2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "fumarase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "malate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mal", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "malate dehydrogenase (mitochondrion)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "alanine transaminase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "slanine", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ala", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glutamate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glu", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aspartate transaminase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "aspartate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Asp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aspartate/glutamate carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glutamate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glu_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "aspartate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Asp_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADH:ubiquinone oxidoreductase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ubiquinol:cytochrome c oxidoreductase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ferrocytochrome c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cytc3p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ferricytochrome c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cytc2p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cytochrome c oxidase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "citrate synthase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "citrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cit_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "coenzyme A", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CoA_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxaloacetate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OXA_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "acetyl CoA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Acetyl_CoA_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "adenine triphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "water", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H2O", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aconitase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "isocitrate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IsoCitcyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "oxoglutarate carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "malate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mal_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oxoglutarate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OG_cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "malate dehydrogenase (cytosol)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "aspartate transaminase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "citrate carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ETF:Q oxidoreductase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "electron transfer flavoprotein (reduced form)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ETFred", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "electron transfer flavoprotein (oxidised form)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ETFox", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "glutathione reductase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FADH2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FADH2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FAD", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pyruvate decarboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "glycerol-3-phosphate dehydrogenase (FAD dependent)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glycerol-3-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G3P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "dihydrohxyacetone-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "glycerol-3-phosphate dehydrogenase (NAD+ dependent)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP/ADP carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cytosolic isocitrate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "citrate carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP/ADP carrier", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP+", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "v30", 
+               "v31", 
+               "v32", 
+               "v33", 
+               "Glu_cyt", 
+               "NAD", 
+               "v37", 
+               "v38", 
+               "v39", 
+               "IsoCitcyt", 
+               "GLC", 
+               "PEP", 
+               "CoA_cyt", 
+               "DPG", 
+               "NADH_cyt", 
+               "OXA_cyt", 
+               "FBP", 
+               "G3P", 
+               "GAPflow", 
+               "Mal_cyt", 
+               "Acetyl_CoA_cyt", 
+               "GLCflowsink", 
+               "NADPH_cyt", 
+               "GAP", 
+               "v41", 
+               "v40", 
+               "DHAP", 
+               "ADP_cyt", 
+               "LACflowsink", 
+               "GLCflow", 
+               "hidden_1", 
+               "AMP", 
+               "v43", 
+               "v42", 
+               "v22", 
+               "v27", 
+               "Cit_cyt", 
+               "v29", 
+               "PYR_cyt", 
+               "v1", 
+               "v2", 
+               "ATP_cyt", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "OG_cyt", 
+               "Asp_cyt", 
+               "LACflow", 
+               "LAC", 
+               "v3", 
+               "GAPflowsink", 
+               "NADP_cyt", 
+               "F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "CYTOPLASM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mitochondrial intermembrane space", 
+            "subnodes": [
+               "QH2", 
+               "v34", 
+               "v26", 
+               "v25", 
+               "v24", 
+               "v16", 
+               "Cytc2p", 
+               "Cytc3p", 
+               "Q"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "MT_IMS", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mitochondrial inner membrane", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "MT_IM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "mitochondrial matrix", 
+            "subnodes": [
+               "v30", 
+               "v18", 
+               "NADH", 
+               "Suc", 
+               "v35", 
+               "SCoA", 
+               "v37", 
+               "v12", 
+               "v10", 
+               "v11", 
+               "v16", 
+               "v17", 
+               "v14", 
+               "v15", 
+               "v20", 
+               "ATP", 
+               "Acetyl_CoA", 
+               "v34", 
+               "Pi", 
+               "ETFred", 
+               "Asp", 
+               "v36", 
+               "ETFox", 
+               "Pyr", 
+               "Glu", 
+               "NADP_p", 
+               "v40", 
+               "v43", 
+               "v42", 
+               "v44", 
+               "Mal", 
+               "FAD", 
+               "v22", 
+               "v21", 
+               "IsoCit", 
+               "NAD_p", 
+               "ADP", 
+               "v24", 
+               "FADH2", 
+               "v28", 
+               "GTP", 
+               "Cit", 
+               "v8", 
+               "v9", 
+               "Fum", 
+               "v33", 
+               "OXA", 
+               "GDP", 
+               "NADPH", 
+               "CO2", 
+               "OG", 
+               "Ala", 
+               "CoA", 
+               "H2O"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "MATRIX", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,343 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "srci", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "srco"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Cbp_P_CSK", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "srco", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "srca"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "srca", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "srcc"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "Cbp_P_CSK", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "srcc", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "srci"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "CSK_cytoplasm", 
+         "target": "CSK_translocation"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Cbp_P", 
+         "target": "CSK_translocation"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "CSK_translocation", 
+         "target": "Cbp_P_CSK"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "PTP", 
+         "target": "PTP_phosphorylation"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "PTP_phosphorylation", 
+         "target": "PTP_pY789"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Cbp", 
+         "target": "Cbp_phosphorylation"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "Cbp_phosphorylation", 
+         "target": "Cbp_P"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "srci", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "srci", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "srco", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "srco", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cbp_P_CSK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cbp_P_CSK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "srca", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "srca", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "srcc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "srcc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CSK_translocation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CSK_translocation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CSK_cytoplasm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CSK_cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cbp_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cbp_P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PTP_phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTP_phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PTP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PTP_pY789", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTP_pY789", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cbp_phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cbp_phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cbp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cbp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "default", 
+            "subnodes": [
+               "srcc", 
+               "srca", 
+               "Cbp_P_CSK", 
+               "Cbp_P", 
+               "srci", 
+               "Cbp", 
+               "srco", 
+               "PTP_phosphorylation", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "CSK_translocation", 
+               "Cbp_phosphorylation", 
+               "PTP_pY789", 
+               "CSK_cytoplasm", 
+               "PTP"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "default", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

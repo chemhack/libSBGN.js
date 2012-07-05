@@ -1,0 +1,196 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "P"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "batch", 
+            "subnodes": [
+               "r4", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "P", 
+               "S", 
+               "Y", 
+               "X"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "batch", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

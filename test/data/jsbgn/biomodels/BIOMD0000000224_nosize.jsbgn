@@ -1,0 +1,316 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "CaS", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "JChannel", 
+         "target": "CaI"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "IP3", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "g", 
+         "target": "JChannel"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "CaI", 
+         "target": "JPump"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "JPump", 
+         "target": "CaS"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "kPLCsink", 
+         "target": "kPLC"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "kPLC", 
+         "target": "IP3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "kPLC"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "IP3", 
+         "target": "kPhosphatase"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "kPhosphatase", 
+         "target": "kPhosphatasesink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "inhibition_parameter1sink", 
+         "target": "inhibition_parameter1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "inhibition_parameter1", 
+         "target": "g"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "inhibition_parameter1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "g", 
+         "target": "inhibition_parameter2"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "inhibition_parameter2", 
+         "target": "inhibition_parameter2sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "CaI", 
+         "target": "inhibition_parameter2"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "JChannel", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JChannel", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaS", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaI", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "g", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "g", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "JPump", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "JPump", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "kPLC", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPLC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPLCsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "kPhosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPhosphatase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "kPhosphatasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inhibition_parameter1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "inhibition_parameter2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "inhibition_parameter2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "kPLCsink", 
+               "JPump", 
+               "g", 
+               "JChannel", 
+               "kPhosphatasesink", 
+               "IP3", 
+               "CaI", 
+               "kPhosphatase", 
+               "inhibition_parameter2", 
+               "inhibition_parameter1sink", 
+               "inhibition_parameter1", 
+               "kPLC", 
+               "inhibition_parameter2sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ER_store", 
+            "subnodes": [
+               "CaS", 
+               "JChannel", 
+               "JPump"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER_store", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

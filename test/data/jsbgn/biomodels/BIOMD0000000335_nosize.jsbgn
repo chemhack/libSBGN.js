@@ -1,0 +1,1477 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "TF", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "VII", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "TF_VII"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "TF", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "VIIa", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "TF_VIIa"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "VII", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "TF_VIIa"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "VIIa"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "VII", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "VIIa"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "VII", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "VIIa"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "TF_VIIa_X"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "TF_VIIa_Xa"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "IX", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "TF_VIIa_IX"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "VIII", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "VIIIa"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "IXa", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "VIIIa", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "IXa_VIIIa"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "IXa_VIIIa", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "IXa_VIIIa_X"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "VIIIa", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "VIIIa1_L"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "VIIIa2"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "IXa_VIIIa_X", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "VIIIa1_L"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "VIIIa2"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "IXa"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "IXa_VIIIa", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "VIIIa1_L"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "VIIIa2"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "IXa"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "Va"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Va", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "Xa_Va"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "Xa_Va", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "II", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "Xa_Va_II"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "mIIa", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "Xa_Va", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "IIa"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "Xa_Va"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "TFPI", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "R20", 
+         "target": "Xa_TFPI"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "TF_VIIa_Xa", 
+         "target": "R21"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "TFPI", 
+         "target": "R21"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "R21", 
+         "target": "TF_VIIa_Xa_TFPI"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R22"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "Xa_TFPI", 
+         "target": "R22"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "R22", 
+         "target": "TF_VIIa_Xa_TFPI"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "ATIII", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "R23", 
+         "target": "Xa_ATIII"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "mIIa", 
+         "target": "R24"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "ATIII", 
+         "target": "R24"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "R24", 
+         "target": "mIIa_ATIII"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "IXa", 
+         "target": "R25"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "ATIII", 
+         "target": "R25"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "R25", 
+         "target": "IXa_ATIII"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "IIa", 
+         "target": "R26"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "ATIII", 
+         "target": "R26"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "R26", 
+         "target": "IIa_ATIII"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "TF_VIIa", 
+         "target": "R27"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "ATIII", 
+         "target": "R27"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 393, 
+         "source": "R27", 
+         "target": "TF_VIIa_ATIII"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 394, 
+         "source": "TF_VIIa_X", 
+         "target": "R6b"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "R6b", 
+         "target": "TF_VIIa_Xa"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "TF_VIIa_IX", 
+         "target": "R8b"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 393, 
+         "source": "R8b", 
+         "target": "TF_VIIa"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "R8b", 
+         "target": "IXa"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "IXa_VIIIa_X", 
+         "target": "R12b"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "R12b", 
+         "target": "IXa_VIIIa"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "R12b", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "Xa_Va_II", 
+         "target": "R18b"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "R18b", 
+         "target": "Xa_Va"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "R18b", 
+         "target": "mIIa"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa_X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa_X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa_Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa_Xa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IX", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IX", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa_IX", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa_IX", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "II", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "II", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IXa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IXa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IXa_VIIIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IXa_VIIIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IXa_VIIIa_X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IXa_VIIIa_X", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIIa1_L", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIIa1_L", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VIIIa2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VIIIa2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "V", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Va", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Va", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_Va", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_Va", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_Va_II", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_Va_II", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mIIa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mIIa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa_Xa_TFPI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa_Xa_TFPI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mIIa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mIIa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IXa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IXa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IIa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IIa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R27", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TF_VIIa_ATIII", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TF_VIIa_ATIII", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R12b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R18b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment_1", 
+            "subnodes": [
+               "Xa_TFPI", 
+               "TF_VIIa_ATIII", 
+               "VII", 
+               "IX", 
+               "R21", 
+               "Xa_ATIII", 
+               "R8b", 
+               "IXa", 
+               "IIa", 
+               "TF_VIIa_Xa_TFPI", 
+               "TF_VII", 
+               "R16", 
+               "R17", 
+               "R14", 
+               "R15", 
+               "R12", 
+               "R13", 
+               "R10", 
+               "R11", 
+               "ATIII", 
+               "R18", 
+               "R19", 
+               "TF_VIIa_Xa", 
+               "TFPI", 
+               "TF", 
+               "R6b", 
+               "VIIIa1_L", 
+               "TF_VIIa_X", 
+               "IXa_VIIIa_X", 
+               "TF_VIIa_IX", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "mIIa", 
+               "Xa_Va", 
+               "VIIIa", 
+               "R8", 
+               "R9", 
+               "mIIa_ATIII", 
+               "II", 
+               "R12b", 
+               "V", 
+               "X", 
+               "IIa_ATIII", 
+               "Xa_Va_II", 
+               "VIIa", 
+               "Va", 
+               "VIIIa2", 
+               "Xa", 
+               "R18b", 
+               "IXa_ATIII", 
+               "VIII", 
+               "TF_VIIa", 
+               "R27", 
+               "R26", 
+               "R25", 
+               "R24", 
+               "R23", 
+               "R22", 
+               "IXa_VIIIa", 
+               "R20"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_1", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

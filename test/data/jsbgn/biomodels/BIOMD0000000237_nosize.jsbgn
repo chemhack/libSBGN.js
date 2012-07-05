@@ -1,0 +1,1277 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Ste5", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "Ste11", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Ste5Ste11"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Ste5Ste11", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Gbg", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "Ste5Ste11Gbg"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Ste5Ste11Gbg", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Fus3", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "Ste5Ste11GbgFus3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgFus3", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "Ste5Ste11GbgFus3P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgFus3P", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "Fus3PP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "Ste5Ste11GbgP"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Fus3", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgP", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "Ste5Ste11GbgFus3P"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Ste5", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgP", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "Gbg"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "Ste11Ubi"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Ste11Ubi", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "p"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "Ste5Ste11Gbg", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Kss1", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "Ste5Ste11GbgKss1"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgKss1", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "Ste5Ste11GbgKss1P"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgKss1P", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "Ste5Ste11GbgP"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "Kss1PP"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "Ste5Ste11GbgP", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "Kss1", 
+         "target": "v12"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "v12", 
+         "target": "Ste5Ste11GbgKss1P"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "Ste11", 
+         "target": "v13"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "v13", 
+         "target": "Ste11P"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "Ste11P", 
+         "target": "v14"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "v14", 
+         "target": "Ste11"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "Kss1", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "v15", 
+         "target": "Kss1PP"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "Ste11P", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "Ste11Ubi", 
+         "target": "v15"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "Kss1PP", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "v16", 
+         "target": "Kss1"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "Fus3PP", 
+         "target": "v16"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Ste12Kss1", 
+         "target": "v17"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "v17", 
+         "target": "Kss1"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "v17", 
+         "target": "Ste12"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Kss1", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "Ste12", 
+         "target": "v18"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "v18", 
+         "target": "Ste12Kss1"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "Ste12", 
+         "target": "v19"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "v19", 
+         "target": "Ste12P"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "Fus3PP", 
+         "target": "v19"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "Kss1PP", 
+         "target": "v19"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "s", 
+         "target": "v20"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "v20", 
+         "target": "PREP"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "Ste12P", 
+         "target": "v20"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "Ste12TeSte5Kss1", 
+         "target": "v21"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "v21", 
+         "target": "Kss1"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "v21", 
+         "target": "Ste12TeSte5"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "Kss1", 
+         "target": "v22"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "Ste12TeSte5", 
+         "target": "v22"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "v22", 
+         "target": "Ste12TeSte5Kss1"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "Ste12TeSte5", 
+         "target": "v23"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "v23", 
+         "target": "Ste12TeSte5P"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 168, 
+         "source": "Kss1PP", 
+         "target": "v23"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "Ste12TeSte5", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "v24", 
+         "target": "p"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 168, 
+         "source": "Fus3PP", 
+         "target": "v24"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "s", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "v25", 
+         "target": "FREP"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 168, 
+         "source": "Ste12TeSte5P", 
+         "target": "v25"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "Fus3PP", 
+         "target": "v26"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "v26", 
+         "target": "Fus3"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "Ste5Ste11", 
+         "target": "v27"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "v27", 
+         "target": "Ste5"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "v27", 
+         "target": "Ste11"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "Ste12P", 
+         "target": "v28"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "v28", 
+         "target": "Ste12"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "PREP", 
+         "target": "v29"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "v29", 
+         "target": "p"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "Ste12TeSte5P", 
+         "target": "v30"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "v30", 
+         "target": "Ste12TeSte5"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "FREP", 
+         "target": "v31"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "v31", 
+         "target": "p"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste11", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste11", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Gbg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gbg", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11Gbg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11Gbg", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fus3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fus3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11GbgFus3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11GbgFus3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11GbgFus3P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11GbgFus3P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fus3PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fus3PP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11GbgP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11GbgP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste11Ubi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste11Ubi", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Kss1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Kss1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11GbgKss1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11GbgKss1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste5Ste11GbgKss1P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste5Ste11GbgKss1P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Kss1PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Kss1PP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste11P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste11P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12Kss1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12Kss1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "s", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PREP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PREP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v21", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12TeSte5Kss1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12TeSte5Kss1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12TeSte5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12TeSte5", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v23", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ste12TeSte5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ste12TeSte5P", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v25", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "FREP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FREP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v26", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v27", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v28", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v29", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v30", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v31", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "v30", 
+               "v23", 
+               "v18", 
+               "v19", 
+               "v22", 
+               "v12", 
+               "v13", 
+               "Ste5Ste11GbgP", 
+               "v11", 
+               "v16", 
+               "v17", 
+               "v14", 
+               "Fus3PP", 
+               "Ste11", 
+               "Ste12", 
+               "v31", 
+               "FREP", 
+               "Ste5Ste11GbgKss1P", 
+               "Ste5Ste11", 
+               "Ste5Ste11GbgFus3P", 
+               "Ste12TeSte5P", 
+               "v10", 
+               "Ste5Ste11GbgFus3", 
+               "Gbg", 
+               "v21", 
+               "v20", 
+               "v27", 
+               "v26", 
+               "v25", 
+               "v24", 
+               "v29", 
+               "v28", 
+               "Ste12Kss1", 
+               "Ste5Ste11Gbg", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "Ste12P", 
+               "v15", 
+               "Kss1PP", 
+               "Fus3", 
+               "v1", 
+               "Ste11Ubi", 
+               "Ste12TeSte5", 
+               "PREP", 
+               "p", 
+               "s", 
+               "Ste5Ste11GbgKss1", 
+               "Ste12TeSte5Kss1", 
+               "Ste5", 
+               "Kss1", 
+               "Ste11P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

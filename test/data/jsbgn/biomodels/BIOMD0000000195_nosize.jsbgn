@@ -1,0 +1,986 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "CycBt_synthesissink", 
+         "target": "CycBt_synthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "CycBt_synthesis", 
+         "target": "CycBt"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "CycBt", 
+         "target": "CycBdegradation"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "CycBdegradation", 
+         "target": "CycBdegradationsink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "CycBt", 
+         "target": "CycBdegradationviaCdh1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "CycBdegradationviaCdh1", 
+         "target": "CycBdegradationviaCdh1sink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "Cdh1", 
+         "target": "CycBdegradationviaCdh1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "CycBt", 
+         "target": "CycBtdegradationviaCdc20a"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "CycBtdegradationviaCdc20a", 
+         "target": "CycBtdegradationviaCdc20asink"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "CycBtdegradationviaCdc20a"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Cdh1synthesissink", 
+         "target": "Cdh1synthesis"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Cdh1synthesis", 
+         "target": "Cdh1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "Cdh1synthesis"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Cdh1", 
+         "target": "Cdh1degradation"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "Cdh1degradation", 
+         "target": "Cdh1degradationsink"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "SK", 
+         "target": "Cdh1degradation"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "m", 
+         "target": "Cdh1degradation"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "CycB", 
+         "target": "Cdh1degradation"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Cdc20tsynthesissink", 
+         "target": "Cdc20tsynthesis"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "Cdc20tsynthesis", 
+         "target": "Cdc20t"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "CycB", 
+         "target": "Cdc20tsynthesis"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "m", 
+         "target": "Cdc20tsynthesis"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "Cdc20t", 
+         "target": "Cdc20t_deg"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "Cdc20t_deg", 
+         "target": "Cdc20t_degsink"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "Cdc20activationsink", 
+         "target": "Cdc20activation"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Cdc20activation", 
+         "target": "Cdc20a"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Cdc20t", 
+         "target": "Cdc20activation"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "IEP", 
+         "target": "Cdc20activation"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "Cdc20a", 
+         "target": "Cdc20ainhibition"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Cdc20ainhibition", 
+         "target": "Cdc20ainhibitionsink"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "Mad", 
+         "target": "Cdc20ainhibition"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "Cdc20a", 
+         "target": "Cdc20adegradation"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "Cdc20adegradation", 
+         "target": "Cdc20adegradationsink"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "IEPsynthesissink", 
+         "target": "IEPsynthesis"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "IEPsynthesis", 
+         "target": "IEP"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "m", 
+         "target": "IEPsynthesis"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "CycB", 
+         "target": "IEPsynthesis"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "IEP", 
+         "target": "IEPdegradation"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "IEPdegradation", 
+         "target": "IEPdegradationsink"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "growthsink", 
+         "target": "growth"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "growth", 
+         "target": "m"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "CKItsynthesissink", 
+         "target": "CKItsynthesis"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "CKItsynthesis", 
+         "target": "CKIt"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "CKIt", 
+         "target": "CKIdegradation"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "CKIdegradation", 
+         "target": "CKIdegradationsink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "CKIt", 
+         "target": "CKItphosphorilationviaSK"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "CKItphosphorilationviaSK", 
+         "target": "CKItphosphorilationviaSKsink"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "SK", 
+         "target": "CKItphosphorilationviaSK"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "CKIt", 
+         "target": "eq_7"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "eq_7", 
+         "target": "eq_7sink"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "m", 
+         "target": "eq_7"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "CycB", 
+         "target": "eq_7"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "SKsynthesissink", 
+         "target": "SKsynthesis"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "SKsynthesis", 
+         "target": "SK"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "SK", 
+         "target": "SKdegradation"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "SKdegradation", 
+         "target": "SKdegradationsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycBt synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBt_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBt_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycBt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycBt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBdegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBdegradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycBt degradation via Cdh1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBdegradationviaCdh1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBdegradationviaCdh1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdh1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycBt degradation via Cdc20a", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBtdegradationviaCdc20a", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycBtdegradationviaCdc20asink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20a", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20a", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdh1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdh1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "m", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "m", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20t synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20tsynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20tsynthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20t", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20t", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20t degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20t_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20t_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20activationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IEP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20a inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20ainhibition", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20ainhibitionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mad", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mad", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20a degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20adegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20adegradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IEP synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEPsynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEPsynthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IEP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEPdegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEPdegradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "growth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "growth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "growthsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKIt synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKItsynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKItsynthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CKIt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKIt", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKIt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKIdegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKIdegradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKIt phosphorilation via SK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKItphosphorilationviaSK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CKItphosphorilationviaSKsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CKIt Trimer sequestred", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "eq_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "eq_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SK synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SKsynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SKsynthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SK degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SKdegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SKdegradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "CKItsynthesis", 
+               "CycBdegradationviaCdh1sink", 
+               "CycBt_synthesissink", 
+               "Cdc20ainhibitionsink", 
+               "growth", 
+               "IEPdegradation", 
+               "CKItphosphorilationviaSK", 
+               "SKsynthesissink", 
+               "Cdh1degradation", 
+               "Cdc20t_deg", 
+               "CycB", 
+               "Cdh1degradationsink", 
+               "CycBdegradationviaCdh1", 
+               "CKIt", 
+               "Cdc20t_degsink", 
+               "Mad", 
+               "IEP", 
+               "Cdh1", 
+               "Cdh1synthesissink", 
+               "CycBtdegradationviaCdc20asink", 
+               "SKsynthesis", 
+               "Cdc20adegradation", 
+               "Cdc20activationsink", 
+               "Cdc20t", 
+               "CKItphosphorilationviaSKsink", 
+               "CKItsynthesissink", 
+               "CKIdegradationsink", 
+               "Cdc20a", 
+               "SKdegradation", 
+               "SKdegradationsink", 
+               "CycBt", 
+               "IEPsynthesissink", 
+               "IEPdegradationsink", 
+               "CKIdegradation", 
+               "CycBt_synthesis", 
+               "CycBdegradation", 
+               "CycBtdegradationviaCdc20a", 
+               "m", 
+               "Cdh1synthesis", 
+               "SK", 
+               "eq_7sink", 
+               "CycBdegradationsink", 
+               "Cdc20ainhibition", 
+               "IEPsynthesis", 
+               "Cdc20adegradationsink", 
+               "growthsink", 
+               "Cdc20tsynthesis", 
+               "eq_7", 
+               "Cdc20activation", 
+               "Cdc20tsynthesissink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

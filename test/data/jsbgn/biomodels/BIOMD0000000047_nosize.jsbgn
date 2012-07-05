@@ -1,0 +1,138 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "CaER", 
+         "target": "Jch"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Jch", 
+         "target": "Ca_Cyt"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "CaER", 
+         "target": "Jleak"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Jleak", 
+         "target": "Ca_Cyt"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Ca_Cyt", 
+         "target": "Jpump"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Jpump", 
+         "target": "CaER"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jch", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jch", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CaER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jleak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jleak", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Jpump", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Jpump", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "Ca_Cyt", 
+               "Jch", 
+               "Jpump", 
+               "Jleak"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Endoplasmic_Reticulum", 
+            "subnodes": [
+               "CaER", 
+               "Jch", 
+               "Jpump", 
+               "Jleak"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Endoplasmic_Reticulum", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

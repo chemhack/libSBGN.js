@@ -1,0 +1,1047 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r1sink", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "r2sink", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "V"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "r3sink"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "r4sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "I1", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "r5sink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "I2", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "r6", 
+         "target": "r6sink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Iv2", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "r7", 
+         "target": "r7sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "R1", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "r8", 
+         "target": "r8sink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "R2", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "r9", 
+         "target": "r9sink"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "J1", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "r10", 
+         "target": "r10sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "J2", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "r11", 
+         "target": "r11sink"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "r12"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "r12", 
+         "target": "r12sink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "r13"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "r13", 
+         "target": "I1"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "J1", 
+         "target": "r13"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r13"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "r14", 
+         "target": "I2"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "J2", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "Iv2", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "r15", 
+         "target": "Iv2"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "J2", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "I2", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "I1", 
+         "target": "r16"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "r16", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "I2", 
+         "target": "r17"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "r17", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "R2", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "r18", 
+         "target": "J1"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "I1", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "R1", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "r19", 
+         "target": "J2"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "N", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "I2", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "Iv2", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "J1", 
+         "target": "r20"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "r20", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "J2", 
+         "target": "r21"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "r21", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "Iv2", 
+         "target": "r22"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "r22", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "R1", 
+         "target": "r23"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "r23", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "R2", 
+         "target": "r24"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "r24", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "r25"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "r25", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "r26"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "r26", 
+         "target": "S"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Birth S (unvaccinated)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "N", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "N", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Birth V (vaccinated)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "V", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in S", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in V", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in I1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "I1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in I2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "I2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "I2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in Iv2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Iv2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Iv2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in R1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in R2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in J1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "J1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in J2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "J2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "J2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Death in Rp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Primary Infection with strain 1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Primary Infection with strain 2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Primary Infection of V with strain 2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery (I1)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery (I2)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Secondary Infection with strain 1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Secondary Infection with strain 2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery (J1)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery (J2)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Recovery (Iv2)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Loss of Immunity (R1)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Loss of Immunity (R2)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Loss of Immunity (Rp)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Loss of Immunity (V)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "environment", 
+            "subnodes": [
+               "r14", 
+               "J1", 
+               "r3sink", 
+               "r26", 
+               "r11sink", 
+               "r24", 
+               "r23", 
+               "r22", 
+               "r21", 
+               "r13", 
+               "r10", 
+               "I1", 
+               "r4sink", 
+               "I2", 
+               "r1sink", 
+               "Iv2", 
+               "r6sink", 
+               "r2sink", 
+               "r5sink", 
+               "r16", 
+               "r17", 
+               "r7sink", 
+               "r15", 
+               "r12", 
+               "R1", 
+               "R2", 
+               "r10sink", 
+               "r18", 
+               "N", 
+               "S", 
+               "R", 
+               "r8sink", 
+               "V", 
+               "r11", 
+               "r19", 
+               "r25", 
+               "r4", 
+               "r5", 
+               "r6", 
+               "r7", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "r9sink", 
+               "r8", 
+               "r9", 
+               "J2", 
+               "r20", 
+               "r12sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "env", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

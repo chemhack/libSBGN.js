@@ -1,0 +1,674 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "_1sink", 
+         "target": "_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "_1", 
+         "target": "D_1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "D_1", 
+         "target": "cyclinD_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "cyclinD_1", 
+         "target": "cyclinD_1sink"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "cyclinD_1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cyclinD_1"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "cyclinEsynthesis_1sink", 
+         "target": "cyclinEsynthesis_1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "cyclinEsynthesis_1", 
+         "target": "E_1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "theta_1", 
+         "target": "cyclinEsynthesis_1"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "E_1", 
+         "target": "cyclinEdegradation_1"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "cyclinEdegradation_1", 
+         "target": "cyclinEdegradation_1sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cyclinEdegradation_1"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cyclinEdegradation_1"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "pRBsynthesis_1sink", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "pRBsynthesis_1", 
+         "target": "R_1"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "R_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "R_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "pRBsynthesis_1"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "R_1", 
+         "target": "pRBdeplation_1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "theta_1", 
+         "target": "pRBdeplation_1"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "pRBdeplation_1", 
+         "target": "RS_1"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "RS_1", 
+         "target": "_2"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "_2", 
+         "target": "theta_1"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "_2"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "_2"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "_2"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "D_1", 
+         "target": "_2"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "RS_1", 
+         "target": "null2_1"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "null2_1", 
+         "target": "theta_1"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "null2_1"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "null2_1"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "RS_1", 
+         "target": "null2_1"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "null2_1"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "null3_1sink", 
+         "target": "null3_1"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "null3_1", 
+         "target": "theta_1"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "theta_1", 
+         "target": "null3_1"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "theta_1", 
+         "target": "E2Fdegradationviacellcycleprogression_1"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "E2Fdegradationviacellcycleprogression_1", 
+         "target": "E2Fdegradationviacellcycleprogression_1sink"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "theta_1", 
+         "target": "E2Fdegradationviacellcycleprogression_1"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "E2Fdegradationviacellcycleprogression_1"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "cellcycleprogression_1sink", 
+         "target": "cellcycleprogression_1"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "cellcycleprogression_1", 
+         "target": "X_1"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cellcycleprogression_1"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "theta_1", 
+         "target": "cellcycleprogression_1"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cellcycleprogression_1"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "E_1", 
+         "target": "cellcycleprogression_1"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "X_1", 
+         "target": "cellcycleprogressionslow_1"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "cellcycleprogressionslow_1", 
+         "target": "cellcycleprogressionslow_1sink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "X_1", 
+         "target": "cellcycleprogressionslow_1"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "cyclinD synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cyclinD degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinD_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinD_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cyclinE synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinEsynthesis_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinEsynthesis_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "theta", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "theta_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cyclinE degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinEdegradation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cyclinEdegradation_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X_1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBsynthesis_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBsynthesis_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RS_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex association", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBdeplation_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex dissociation via cyclin D", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB/E2F complex dissociation via cyclin E", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "null2_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2F synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "null3_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "null3_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2F degradation via cell cycle progression", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fdegradationviacellcycleprogression_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fdegradationviacellcycleprogression_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cell cycle progression go", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellcycleprogression_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellcycleprogression_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cell cycle progression slow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellcycleprogressionslow_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellcycleprogressionslow_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "null2_1", 
+               "cyclinEdegradation_1sink", 
+               "cyclinEsynthesis_1sink", 
+               "R_1", 
+               "null3_1", 
+               "cyclinEdegradation_1", 
+               "cellcycleprogressionslow_1", 
+               "_1sink", 
+               "theta_1", 
+               "cyclinD_1sink", 
+               "pRBsynthesis_1sink", 
+               "E_1", 
+               "D_1", 
+               "cellcycleprogressionslow_1sink", 
+               "pRBdeplation_1", 
+               "E2Fdegradationviacellcycleprogression_1", 
+               "RS_1", 
+               "cellcycleprogression_1", 
+               "cellcycleprogression_1sink", 
+               "cyclinD_1", 
+               "pRBsynthesis_1", 
+               "_2", 
+               "_1", 
+               "cyclinEsynthesis_1", 
+               "X_1", 
+               "null3_1sink", 
+               "E2Fdegradationviacellcycleprogression_1sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

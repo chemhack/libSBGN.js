@@ -1,0 +1,1128 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "S4_c", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "S4_n"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "S2_c", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "S2_n"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "pS2_c", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "pS2_n"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "R_act", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "S2_c", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "R_act"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "pS2_c"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "pS2_c", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "S4_c", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "S24_c"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "pS2_n", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "S4_n", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "S24_n"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "S24_c", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "S24_n"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "S22_c", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "S22_n"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "pS2_c", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "S22_c"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "pS2_n", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "S22_n"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "pS2_n", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "PPase", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "S2_n"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "PPase"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "TGFb_c", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "R_act"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "R_act", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "SB", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "R_inact"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "G_c", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "R_act", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "pG_c"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "R_act"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "pG_n", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "PPase", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "reaction_15", 
+         "target": "G_n"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "reaction_15", 
+         "target": "PPase"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "G_c", 
+         "target": "reaction_16"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_16", 
+         "target": "G_n"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "pG_c", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "reaction_17", 
+         "target": "pG_n"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "pG_c", 
+         "target": "reaction_18"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "reaction_18", 
+         "target": "GG_c"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "pG_n", 
+         "target": "reaction_19"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "reaction_19", 
+         "target": "GG_n"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "pS2_c", 
+         "target": "reaction_20"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "pG_c", 
+         "target": "reaction_20"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "reaction_20", 
+         "target": "G2_c"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "pS2_n", 
+         "target": "reaction_21"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "pG_n", 
+         "target": "reaction_21"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "reaction_21", 
+         "target": "G2_n"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "pG_c", 
+         "target": "reaction_22"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "S4_c", 
+         "target": "reaction_22"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "reaction_22", 
+         "target": "G4_c"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "pG_n", 
+         "target": "reaction_23"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "S4_n", 
+         "target": "reaction_23"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "reaction_23", 
+         "target": "G4_n"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "GG_c", 
+         "target": "reaction_24"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "reaction_24", 
+         "target": "GG_n"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "G2_c", 
+         "target": "reaction_25"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "reaction_25", 
+         "target": "G2_n"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "G4_c", 
+         "target": "reaction_26"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "reaction_26", 
+         "target": "G4_n"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  7 Shuttling S4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Smad4_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S4_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Smad4_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S4_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  5A Shuttling S2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Smad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S2_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Smad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S2_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  6A Shuttling pS2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pS2_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pS2_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  2A Phosphorylation S2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R_act", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_act", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  3A Formation S24_C", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2/Smad4_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S24_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  3B Formation S24_N", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2/Smad4_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S24_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  8A Import S24", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  9A Import S22", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2/pSmad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S22_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pSmad2/pSmad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S22_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4A Formation S22_C", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4B Formation S22_N", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction 10A Dephos pS2 Nuc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PPase", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  1 TGFb Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TGFb_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TGFb_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction 11 Receptor Inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SB-431542", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SB", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R_inact", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R_inact", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  2B Phosphorylation GS2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GFP-Smad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pG_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction 10B Dephos pG Nuc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pG_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GFP-Smad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  5B Shuttling G", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  6B Shuttling pG", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4E Formation GG_C", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/pGFP-Smad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GG_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4F Formation GG_N", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/pGFP_Smad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GG_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4C Formation G2_C", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/pSmad2_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G2_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  4D Formation G2_N", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/pSmad2_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G2_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  3C Formation G4_C", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/Smad4_c", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G4_c", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  3D Formation G4_N", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pGFP-Smad2/Smad4_n", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G4_n", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  9C Import GG", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  9B Import G2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction  8B Import G4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Nuc", 
+            "subnodes": [
+               "G4_n", 
+               "reaction_21", 
+               "pS2_n", 
+               "reaction_23", 
+               "reaction_25", 
+               "reaction_24", 
+               "reaction_26", 
+               "G_n", 
+               "S4_n", 
+               "S24_n", 
+               "reaction_6", 
+               "GG_n", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1", 
+               "S22_n", 
+               "reaction_8", 
+               "S2_n", 
+               "pG_n", 
+               "reaction_19", 
+               "reaction_7", 
+               "reaction_15", 
+               "reaction_16", 
+               "reaction_17", 
+               "reaction_10", 
+               "reaction_11", 
+               "PPase", 
+               "G2_n"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cyt", 
+            "subnodes": [
+               "G4_c", 
+               "G2_c", 
+               "reaction_20", 
+               "reaction_22", 
+               "reaction_25", 
+               "reaction_24", 
+               "reaction_26", 
+               "pS2_c", 
+               "G_c", 
+               "S24_c", 
+               "S4_c", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1", 
+               "reaction_18", 
+               "GG_c", 
+               "S2_c", 
+               "reaction_8", 
+               "reaction_9", 
+               "TGFb_c", 
+               "S22_c", 
+               "reaction_14", 
+               "pG_c", 
+               "reaction_16", 
+               "reaction_17", 
+               "reaction_12", 
+               "reaction_13", 
+               "R", 
+               "R_act", 
+               "SB", 
+               "R_inact"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

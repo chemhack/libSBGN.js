@@ -1,0 +1,3696 @@
+{
+   "edges" : [
+      {
+         "id" : 0,
+         "sbo" : 15,
+         "source" : "Reactome:517409",
+         "sourceidx" : 1,
+         "target" : "Reactome:201708",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 1,
+         "sbo" : 15,
+         "source" : "Reactome:517388",
+         "sourceidx" : 2,
+         "target" : "Reactome:201708",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 2,
+         "sbo" : 11,
+         "source" : "Reactome:201708",
+         "sourceidx" : 0,
+         "target" : "Reactome:517468",
+         "targetidx" : 3,
+         "type" : "Product"
+      },
+      {
+         "id" : 3,
+         "sbo" : 15,
+         "source" : "MAP:UP35222_CY",
+         "sourceidx" : 5,
+         "target" : "PID:R202264",
+         "targetidx" : 4,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 4,
+         "sbo" : 11,
+         "source" : "PID:R202264",
+         "sourceidx" : 4,
+         "target" : "MAP:C108",
+         "targetidx" : 6,
+         "type" : "Product"
+      },
+      {
+         "id" : 5,
+         "sbo" : 15,
+         "source" : "MAP:C100",
+         "sourceidx" : 8,
+         "target" : "MAN:R11",
+         "targetidx" : 7,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 6,
+         "sbo" : 15,
+         "source" : "MAP:UO15169_CY",
+         "sourceidx" : 9,
+         "target" : "MAN:R11",
+         "targetidx" : 7,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 7,
+         "sbo" : 15,
+         "source" : "MAP:C1",
+         "sourceidx" : 10,
+         "target" : "MAN:R11",
+         "targetidx" : 7,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 8,
+         "sbo" : 15,
+         "source" : "MAP:C102",
+         "sourceidx" : 11,
+         "target" : "MAN:R11",
+         "targetidx" : 7,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 9,
+         "sbo" : 11,
+         "source" : "MAN:R11",
+         "sourceidx" : 7,
+         "target" : "Reactome:195250",
+         "targetidx" : 12,
+         "type" : "Product"
+      },
+      {
+         "id" : 10,
+         "sbo" : 15,
+         "source" : "Reactome:195303",
+         "sourceidx" : 14,
+         "target" : "Reactome:195298",
+         "targetidx" : 13,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 11,
+         "sbo" : 11,
+         "source" : "Reactome:195298",
+         "sourceidx" : 13,
+         "target" : "Reactome:196222",
+         "targetidx" : 15,
+         "type" : "Product"
+      },
+      {
+         "id" : 12,
+         "sbo" : 11,
+         "source" : "Reactome:195298",
+         "sourceidx" : 13,
+         "target" : "Reactome:174155",
+         "targetidx" : 16,
+         "type" : "Product"
+      },
+      {
+         "id" : 13,
+         "sbo" : 11,
+         "source" : "Reactome:195298",
+         "sourceidx" : 13,
+         "target" : "Reactome:113595",
+         "targetidx" : 17,
+         "type" : "Product"
+      },
+      {
+         "id" : 14,
+         "sbo" : 13,
+         "source" : "Reactome:68819",
+         "sourceidx" : 18,
+         "target" : "Reactome:195298",
+         "targetidx" : 13,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 15,
+         "sbo" : 15,
+         "source" : "MAP:UO15169_CY",
+         "sourceidx" : 9,
+         "target" : "MAN:R43",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 16,
+         "sbo" : 15,
+         "source" : "MAN:C19",
+         "sourceidx" : 20,
+         "target" : "MAN:R43",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 17,
+         "sbo" : 11,
+         "source" : "MAN:R43",
+         "sourceidx" : 19,
+         "target" : "MAN:C21",
+         "targetidx" : 21,
+         "type" : "Product"
+      },
+      {
+         "id" : 18,
+         "sbo" : null,
+         "source" : "MAN:R43",
+         "sourceidx" : 19,
+         "target" : "MAP:UO15169_CY",
+         "targetidx" : 9,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 19,
+         "sbo" : 15,
+         "source" : "Reactome:195313",
+         "sourceidx" : 23,
+         "target" : "Reactome:195283",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 20,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:195283",
+         "sourceidx" : 24,
+         "target" : "Reactome:195283",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 21,
+         "sbo" : 11,
+         "source" : "Reactome:195283",
+         "sourceidx" : 22,
+         "target" : "MAP:Cb16761_CY_Reactome:195283",
+         "targetidx" : 25,
+         "type" : "Product"
+      },
+      {
+         "id" : 22,
+         "sbo" : 11,
+         "source" : "Reactome:195283",
+         "sourceidx" : 22,
+         "target" : "Reactome:195305",
+         "targetidx" : 26,
+         "type" : "Product"
+      },
+      {
+         "id" : 23,
+         "sbo" : 13,
+         "source" : "Reactome:195313",
+         "sourceidx" : 23,
+         "target" : "Reactome:195283",
+         "targetidx" : 22,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 24,
+         "sbo" : 15,
+         "source" : "MAN:C1",
+         "sourceidx" : 28,
+         "target" : "MAN:R7",
+         "targetidx" : 27,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 25,
+         "sbo" : 15,
+         "source" : "Reactome:517468",
+         "sourceidx" : 3,
+         "target" : "MAN:R7",
+         "targetidx" : 27,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 26,
+         "sbo" : 11,
+         "source" : "MAN:R7",
+         "sourceidx" : 27,
+         "target" : "MAN:C2",
+         "targetidx" : 29,
+         "type" : "Product"
+      },
+      {
+         "id" : 27,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:195318",
+         "sourceidx" : 31,
+         "target" : "Reactome:195318",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 28,
+         "sbo" : 15,
+         "source" : "Reactome:195301",
+         "sourceidx" : 32,
+         "target" : "Reactome:195318",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 29,
+         "sbo" : 11,
+         "source" : "Reactome:195318",
+         "sourceidx" : 30,
+         "target" : "Reactome:195277",
+         "targetidx" : 33,
+         "type" : "Product"
+      },
+      {
+         "id" : 30,
+         "sbo" : 11,
+         "source" : "Reactome:195318",
+         "sourceidx" : 30,
+         "target" : "MAP:Cb16761_CY_Reactome:195318",
+         "targetidx" : 34,
+         "type" : "Product"
+      },
+      {
+         "id" : 31,
+         "sbo" : 15,
+         "source" : "Reactome:195305",
+         "sourceidx" : 26,
+         "target" : "Reactome:195300",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 32,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:195300",
+         "sourceidx" : 36,
+         "target" : "Reactome:195300",
+         "targetidx" : 35,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 33,
+         "sbo" : 11,
+         "source" : "Reactome:195300",
+         "sourceidx" : 35,
+         "target" : "MAP:Cb16761_CY_Reactome:195300",
+         "targetidx" : 37,
+         "type" : "Product"
+      },
+      {
+         "id" : 34,
+         "sbo" : 11,
+         "source" : "Reactome:195300",
+         "sourceidx" : 35,
+         "target" : "Reactome:195282",
+         "targetidx" : 38,
+         "type" : "Product"
+      },
+      {
+         "id" : 35,
+         "sbo" : 13,
+         "source" : "Reactome:195282",
+         "sourceidx" : 38,
+         "target" : "Reactome:195300",
+         "targetidx" : 35,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 36,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:195275",
+         "sourceidx" : 40,
+         "target" : "Reactome:195275",
+         "targetidx" : 39,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 37,
+         "sbo" : 15,
+         "source" : "Reactome:195282",
+         "sourceidx" : 38,
+         "target" : "Reactome:195275",
+         "targetidx" : 39,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 38,
+         "sbo" : 11,
+         "source" : "Reactome:195275",
+         "sourceidx" : 39,
+         "target" : "MAP:Cb16761_CY_Reactome:195275",
+         "targetidx" : 41,
+         "type" : "Product"
+      },
+      {
+         "id" : 39,
+         "sbo" : 11,
+         "source" : "Reactome:195275",
+         "sourceidx" : 39,
+         "target" : "Reactome:195297",
+         "targetidx" : 42,
+         "type" : "Product"
+      },
+      {
+         "id" : 40,
+         "sbo" : 13,
+         "source" : "Reactome:195282",
+         "sourceidx" : 38,
+         "target" : "Reactome:195275",
+         "targetidx" : 39,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 41,
+         "sbo" : 15,
+         "source" : "Reactome:195277",
+         "sourceidx" : 33,
+         "target" : "Reactome:195287",
+         "targetidx" : 43,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 42,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:195287",
+         "sourceidx" : 44,
+         "target" : "Reactome:195287",
+         "targetidx" : 43,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 43,
+         "sbo" : 11,
+         "source" : "Reactome:195287",
+         "sourceidx" : 43,
+         "target" : "MAP:Cb16761_CY_Reactome:195287",
+         "targetidx" : 45,
+         "type" : "Product"
+      },
+      {
+         "id" : 44,
+         "sbo" : 11,
+         "source" : "Reactome:195287",
+         "sourceidx" : 43,
+         "target" : "Reactome:195313",
+         "targetidx" : 23,
+         "type" : "Product"
+      },
+      {
+         "id" : 45,
+         "sbo" : 13,
+         "source" : "Reactome:195277",
+         "sourceidx" : 33,
+         "target" : "Reactome:195287",
+         "targetidx" : 43,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 46,
+         "sbo" : 15,
+         "source" : "Reactome:174155",
+         "sourceidx" : 16,
+         "target" : "Reactome:195285",
+         "targetidx" : 46,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 47,
+         "sbo" : 15,
+         "source" : "Reactome:195297",
+         "sourceidx" : 42,
+         "target" : "Reactome:195285",
+         "targetidx" : 46,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 48,
+         "sbo" : 11,
+         "source" : "Reactome:195285",
+         "sourceidx" : 46,
+         "target" : "Reactome:195311",
+         "targetidx" : 47,
+         "type" : "Product"
+      },
+      {
+         "id" : 49,
+         "sbo" : 15,
+         "source" : "Reactome:195311",
+         "sourceidx" : 47,
+         "target" : "Reactome:195279",
+         "targetidx" : 48,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 50,
+         "sbo" : 15,
+         "source" : "Reactome:113595",
+         "sourceidx" : 17,
+         "target" : "Reactome:195279",
+         "targetidx" : 48,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 51,
+         "sbo" : 11,
+         "source" : "Reactome:195279",
+         "sourceidx" : 48,
+         "target" : "Reactome:195303",
+         "targetidx" : 14,
+         "type" : "Product"
+      },
+      {
+         "id" : 52,
+         "sbo" : 15,
+         "source" : "MAP:UP35222_CY",
+         "sourceidx" : 5,
+         "target" : "Reactome:195304",
+         "targetidx" : 49,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 53,
+         "sbo" : 15,
+         "source" : "Reactome:195250",
+         "sourceidx" : 12,
+         "target" : "Reactome:195304",
+         "targetidx" : 49,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 54,
+         "sbo" : 11,
+         "source" : "Reactome:195304",
+         "sourceidx" : 49,
+         "target" : "Reactome:195301",
+         "targetidx" : 32,
+         "type" : "Product"
+      },
+      {
+         "id" : 55,
+         "sbo" : null,
+         "source" : "Reactome:195304",
+         "sourceidx" : 49,
+         "target" : "MAP:UP35222_CY",
+         "targetidx" : 5,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 56,
+         "sbo" : 15,
+         "source" : "MAN:C2",
+         "sourceidx" : 29,
+         "target" : "MAN:R8",
+         "targetidx" : 50,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 57,
+         "sbo" : 15,
+         "source" : "PID:C200312",
+         "sourceidx" : 51,
+         "target" : "MAN:R8",
+         "targetidx" : 50,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 58,
+         "sbo" : 11,
+         "source" : "MAN:R8",
+         "sourceidx" : 50,
+         "target" : "MAN:C3",
+         "targetidx" : 52,
+         "type" : "Product"
+      },
+      {
+         "id" : 59,
+         "sbo" : 15,
+         "source" : "MAN:C3",
+         "sourceidx" : 52,
+         "target" : "MAN:R42",
+         "targetidx" : 53,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 60,
+         "sbo" : 11,
+         "source" : "MAN:R42",
+         "sourceidx" : 53,
+         "target" : "MAN:C19",
+         "targetidx" : 20,
+         "type" : "Product"
+      },
+      {
+         "id" : 61,
+         "sbo" : 13,
+         "source" : "MAP:C100",
+         "sourceidx" : 8,
+         "target" : "MAN:R42",
+         "targetidx" : 53,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 62,
+         "sbo" : 13,
+         "source" : "MAP:C102",
+         "sourceidx" : 11,
+         "target" : "MAN:R42",
+         "targetidx" : 53,
+         "type" : "Catalyst"
+      }
+   ],
+   "nodes" : [
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Frizzled receptors bind Wnts",
+            "ref" : "Reactome:201708",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:201708",
+         "index" : 0,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_extracellular"
+            ],
+            "label" : "Extracellular",
+            "ref" : "MAP:Extracellular",
+            "subnodes" : [
+               "Reactome:517409"
+            ]
+         },
+         "id" : "MAP:Extracellular",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Extracellular",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:517409",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_plasmamembrane"
+            ],
+            "label" : "Plasmamembrane",
+            "ref" : "MAP:Plasmamembrane",
+            "subnodes" : [
+               "Reactome:517388",
+               "Reactome:517468",
+               "MAN:C19",
+               "MAN:C21",
+               "MAN:C1",
+               "MAN:C2",
+               "MAN:C3",
+               "MAN:R7"
+            ]
+         },
+         "id" : "MAP:Plasmamembrane",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:517388",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409"
+         },
+         "id" : "Reactome:517409_Reactome:517468_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388"
+         },
+         "id" : "Reactome:517388_Reactome:517468_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Frizzled receptors:Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517468",
+            "subnodes" : [
+               "Reactome:517409_Reactome:517468_0",
+               "Reactome:517388_Reactome:517468_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:517468",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "translocation of beta catenin(act*)",
+            "ref" : "PID:R202264",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:R202264",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_cytosol"
+            ],
+            "label" : "Cytosol",
+            "ref" : "MAP:Cytosol",
+            "subnodes" : [
+               "MAP:UP35222_CY",
+               "MAP:C100",
+               "MAP:UO15169_CY",
+               "MAP:C1",
+               "MAP:C102",
+               "Reactome:195250",
+               "Reactome:195303",
+               "Reactome:196222",
+               "Reactome:174155",
+               "Reactome:113595",
+               "Reactome:68819",
+               "Reactome:195313",
+               "MAP:Cs56-65-5_CY_Reactome:195283",
+               "MAP:Cb16761_CY_Reactome:195283",
+               "Reactome:195305",
+               "MAP:Cs56-65-5_CY_Reactome:195318",
+               "Reactome:195301",
+               "Reactome:195277",
+               "MAP:Cb16761_CY_Reactome:195318",
+               "MAP:Cs56-65-5_CY_Reactome:195300",
+               "MAP:Cb16761_CY_Reactome:195300",
+               "Reactome:195282",
+               "MAP:Cs56-65-5_CY_Reactome:195275",
+               "MAP:Cb16761_CY_Reactome:195275",
+               "Reactome:195297",
+               "MAP:Cs56-65-5_CY_Reactome:195287",
+               "MAP:Cb16761_CY_Reactome:195287",
+               "Reactome:195311",
+               "MAN:R11",
+               "Reactome:195298",
+               "Reactome:195285",
+               "Reactome:195279",
+               "Reactome:195304"
+            ]
+         },
+         "id" : "MAP:Cytosol",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "CTNNB1",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UP35222_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:UP35222_CY",
+         "index" : 5,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_nucleus"
+            ],
+            "label" : "Nucleus",
+            "ref" : "MAP:Nucleus",
+            "subnodes" : [
+               "MAP:C108"
+            ]
+         },
+         "id" : "MAP:Nucleus",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Nucleus",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "beta catenin()",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C108",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C108",
+         "index" : 6,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R11",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R11",
+         "index" : 7,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C100",
+         "index" : 8,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:UO15169_CY",
+         "index" : 9,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "APC()",
+            "modification" : [],
+            "ref" : "MAP:C1",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C1",
+         "index" : 10,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "GSK3B_2",
+            "modification" : [
+               [
+                  216,
+                  "216"
+               ]
+            ],
+            "ref" : "MAP:C102",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C102",
+         "index" : 11,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0",
+               "Reactome:195265_Reactome:195250_0",
+               "Reactome:195269_Reactome:195250_0",
+               "MAP:UO15169_CY_Reactome:195250_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195250",
+         "index" : 12,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Degradation of ubiquitinated -beta catenin by the proteasome",
+            "ref" : "Reactome:195298",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195298",
+         "index" : 13,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cul1",
+            "modification" : [],
+            "ref" : "Reactome:174230"
+         },
+         "id" : "Reactome:174230_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Beta-TrCP",
+            "modification" : [],
+            "ref" : "MAP:UQ9Y297_CY"
+         },
+         "id" : "MAP:UQ9Y297_CY_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Skp1",
+            "modification" : [],
+            "ref" : "Reactome:174150"
+         },
+         "id" : "Reactome:174150_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SCF-beta-TrCP1 complex",
+            "modification" : [],
+            "ref" : "Reactome:174155",
+            "subnodes" : [
+               "Reactome:174230_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0",
+               "MAP:UQ9Y297_CY_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:174150_Reactome:174155_0_Reactome:195311_0_Reactome:195303_0"
+            ]
+         },
+         "id" : "Reactome:174155_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phosph-(Ser45, Thr41, Ser37, Ser33) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195274"
+         },
+         "id" : "Reactome:195274_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-catalytic subunit C",
+            "modification" : [],
+            "ref" : "Reactome:165977"
+         },
+         "id" : "Reactome:165977_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-subunit A",
+            "modification" : [],
+            "ref" : "Reactome:165990"
+         },
+         "id" : "Reactome:165990_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A regulatory subunit B",
+            "modification" : [],
+            "ref" : "Reactome:196216"
+         },
+         "id" : "Reactome:196216_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A",
+            "modification" : [],
+            "ref" : "Reactome:196206",
+            "subnodes" : [
+               "Reactome:165977_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:165990_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:196216_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0"
+            ]
+         },
+         "id" : "Reactome:196206_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-APC",
+            "modification" : [],
+            "ref" : "Reactome:195293"
+         },
+         "id" : "Reactome:195293_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-(Ser45,Thr41,Ser37,Ser33):Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195297",
+            "subnodes" : [
+               "MAP:C100_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:195274_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:195269_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "MAP:UO15169_CY_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:196206_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:195293_Reactome:195297_0_Reactome:195311_0_Reactome:195303_0"
+            ]
+         },
+         "id" : "Reactome:195297_Reactome:195311_0_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SCF-beta-TrCP1 complex associated with phosphorylated beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195311",
+            "subnodes" : [
+               "Reactome:174155_Reactome:195311_0_Reactome:195303_0",
+               "Reactome:195297_Reactome:195311_0_Reactome:195303_0"
+            ]
+         },
+         "id" : "Reactome:195311_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "UBIQ_HUMAN",
+            "modification" : [],
+            "ref" : "Reactome:113595"
+         },
+         "id" : "Reactome:113595_Reactome:195303_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "UBIQ_HUMAN",
+            "modification" : [],
+            "ref" : "Reactome:113595"
+         },
+         "id" : "Reactome:113595_Reactome:195303_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "UBIQ_HUMAN",
+            "modification" : [],
+            "ref" : "Reactome:113595"
+         },
+         "id" : "Reactome:113595_Reactome:195303_2",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "UBIQ_HUMAN",
+            "modification" : [],
+            "ref" : "Reactome:113595"
+         },
+         "id" : "Reactome:113595_Reactome:195303_3",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ubiquitinated phospho-beta-catenin:SCF:beta-TrCP1 complex",
+            "modification" : [],
+            "ref" : "Reactome:195303",
+            "subnodes" : [
+               "Reactome:195311_Reactome:195303_0",
+               "Reactome:113595_Reactome:195303_0",
+               "Reactome:113595_Reactome:195303_1",
+               "Reactome:113595_Reactome:195303_2",
+               "Reactome:113595_Reactome:195303_3"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195303",
+         "index" : 14,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-catalytic subunit C",
+            "modification" : [],
+            "ref" : "Reactome:165977"
+         },
+         "id" : "Reactome:165977_Reactome:196206_0_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-subunit A",
+            "modification" : [],
+            "ref" : "Reactome:165990"
+         },
+         "id" : "Reactome:165990_Reactome:196206_0_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A regulatory subunit B",
+            "modification" : [],
+            "ref" : "Reactome:196216"
+         },
+         "id" : "Reactome:196216_Reactome:196206_0_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A",
+            "modification" : [],
+            "ref" : "Reactome:196206",
+            "subnodes" : [
+               "Reactome:165977_Reactome:196206_0_Reactome:196222_0",
+               "Reactome:165990_Reactome:196206_0_Reactome:196222_0",
+               "Reactome:196216_Reactome:196206_0_Reactome:196222_0"
+            ]
+         },
+         "id" : "Reactome:196206_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-APC",
+            "modification" : [],
+            "ref" : "Reactome:195293"
+         },
+         "id" : "Reactome:195293_Reactome:196222_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "phospho-(Ser45,Thr41,Ser37,Ser33):Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:196222",
+            "subnodes" : [
+               "MAP:C100_Reactome:196222_0",
+               "Reactome:195269_Reactome:196222_0",
+               "MAP:UO15169_CY_Reactome:196222_0",
+               "Reactome:196206_Reactome:196222_0",
+               "Reactome:195293_Reactome:196222_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:196222",
+         "index" : 15,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cul1",
+            "modification" : [],
+            "ref" : "Reactome:174230"
+         },
+         "id" : "Reactome:174230_Reactome:174155_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Beta-TrCP",
+            "modification" : [],
+            "ref" : "MAP:UQ9Y297_CY"
+         },
+         "id" : "MAP:UQ9Y297_CY_Reactome:174155_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Skp1",
+            "modification" : [],
+            "ref" : "Reactome:174150"
+         },
+         "id" : "Reactome:174150_Reactome:174155_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "SCF-beta-TrCP1 complex",
+            "modification" : [],
+            "ref" : "Reactome:174155",
+            "subnodes" : [
+               "Reactome:174230_Reactome:174155_0",
+               "MAP:UQ9Y297_CY_Reactome:174155_0",
+               "Reactome:174150_Reactome:174155_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:174155",
+         "index" : 16,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "UBIQ_HUMAN",
+            "modification" : [],
+            "ref" : "Reactome:113595",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:113595",
+         "index" : 17,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome regulatory subunit p55",
+            "modification" : [],
+            "ref" : "Reactome:68792"
+         },
+         "id" : "Reactome:68792_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome zeta chain",
+            "modification" : [],
+            "ref" : "Reactome:68732"
+         },
+         "id" : "Reactome:68732_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C5",
+            "modification" : [],
+            "ref" : "Reactome:68738"
+         },
+         "id" : "Reactome:68738_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain chain Z",
+            "modification" : [],
+            "ref" : "Reactome:68759"
+         },
+         "id" : "Reactome:68759_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome regulatory subunit S11",
+            "modification" : [],
+            "ref" : "Reactome:68794"
+         },
+         "id" : "Reactome:68794_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PA28a",
+            "modification" : [],
+            "ref" : "Reactome:68812"
+         },
+         "id" : "Reactome:68812_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "p42A",
+            "modification" : [],
+            "ref" : "Reactome:68804"
+         },
+         "id" : "Reactome:68804_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "MIP224",
+            "modification" : [],
+            "ref" : "Reactome:68777"
+         },
+         "id" : "Reactome:68777_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PA28g",
+            "modification" : [],
+            "ref" : "Reactome:68816"
+         },
+         "id" : "Reactome:68816_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C9",
+            "modification" : [],
+            "ref" : "Reactome:68730"
+         },
+         "id" : "Reactome:68730_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Rpn10",
+            "modification" : [],
+            "ref" : "Reactome:68800"
+         },
+         "id" : "Reactome:68800_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "p31",
+            "modification" : [],
+            "ref" : "Reactome:68808"
+         },
+         "id" : "Reactome:68808_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "RING12 protein",
+            "modification" : [],
+            "ref" : "Reactome:68765"
+         },
+         "id" : "Reactome:68765_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C7-I",
+            "modification" : [],
+            "ref" : "Reactome:68744"
+         },
+         "id" : "Reactome:68744_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "p27K",
+            "modification" : [],
+            "ref" : "Reactome:68734"
+         },
+         "id" : "Reactome:68734_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome subunit p58",
+            "modification" : [],
+            "ref" : "Reactome:68798"
+         },
+         "id" : "Reactome:68798_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Probable 26S protease regulatory subunit 8",
+            "modification" : [],
+            "ref" : "Reactome:68780"
+         },
+         "id" : "Reactome:68780_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "p44",
+            "modification" : [],
+            "ref" : "Reactome:68783"
+         },
+         "id" : "Reactome:68783_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PA28b",
+            "modification" : [],
+            "ref" : "Reactome:68814"
+         },
+         "id" : "Reactome:68814_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome subunit RC6-1",
+            "modification" : [],
+            "ref" : "Reactome:68736"
+         },
+         "id" : "Reactome:68736_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome regulatory subunit p27",
+            "modification" : [],
+            "ref" : "Reactome:68810"
+         },
+         "id" : "Reactome:68810_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C3",
+            "modification" : [],
+            "ref" : "Reactome:68726"
+         },
+         "id" : "Reactome:68726_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome delta chain",
+            "modification" : [],
+            "ref" : "Reactome:68756"
+         },
+         "id" : "Reactome:68756_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "hPI31",
+            "modification" : [],
+            "ref" : "Reactome:68818"
+         },
+         "id" : "Reactome:68818_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TBP-1",
+            "modification" : [],
+            "ref" : "Reactome:68774"
+         },
+         "id" : "Reactome:68774_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome subunit p40",
+            "modification" : [],
+            "ref" : "Reactome:68806"
+         },
+         "id" : "Reactome:68806_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Gankyrin",
+            "modification" : [],
+            "ref" : "Reactome:68788"
+         },
+         "id" : "Reactome:68788_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome-associated pad1 homolog",
+            "modification" : [],
+            "ref" : "Reactome:68722"
+         },
+         "id" : "Reactome:68722_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome chain 6",
+            "modification" : [],
+            "ref" : "Reactome:68753"
+         },
+         "id" : "Reactome:68753_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "MSS1 protein",
+            "modification" : [],
+            "ref" : "Reactome:68771"
+         },
+         "id" : "Reactome:68771_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "P26s4",
+            "modification" : [],
+            "ref" : "Reactome:68768"
+         },
+         "id" : "Reactome:68768_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome chain 13",
+            "modification" : [],
+            "ref" : "Reactome:68747"
+         },
+         "id" : "Reactome:68747_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "55.11 protein",
+            "modification" : [],
+            "ref" : "Reactome:68796"
+         },
+         "id" : "Reactome:68796_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C8",
+            "modification" : [],
+            "ref" : "Reactome:68728"
+         },
+         "id" : "Reactome:68728_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome subunit p112",
+            "modification" : [],
+            "ref" : "Reactome:68786"
+         },
+         "id" : "Reactome:68786_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "HSN3",
+            "modification" : [],
+            "ref" : "Reactome:68750"
+         },
+         "id" : "Reactome:68750_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome regulatory subunit S9",
+            "modification" : [],
+            "ref" : "Reactome:68790"
+         },
+         "id" : "Reactome:68790_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PROS-30",
+            "modification" : [],
+            "ref" : "Reactome:68724"
+         },
+         "id" : "Reactome:68724_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Proteasome MECl-1",
+            "modification" : [],
+            "ref" : "Reactome:68741"
+         },
+         "id" : "Reactome:68741_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Macropain subunit C13",
+            "modification" : [],
+            "ref" : "Reactome:68762"
+         },
+         "id" : "Reactome:68762_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "26S proteasome subunit S5B",
+            "modification" : [],
+            "ref" : "Reactome:68802"
+         },
+         "id" : "Reactome:68802_Reactome:68819_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "26S proteasome",
+            "modification" : [],
+            "ref" : "Reactome:68819",
+            "subnodes" : [
+               "Reactome:68792_Reactome:68819_0",
+               "Reactome:68732_Reactome:68819_0",
+               "Reactome:68738_Reactome:68819_0",
+               "Reactome:68759_Reactome:68819_0",
+               "Reactome:68794_Reactome:68819_0",
+               "Reactome:68812_Reactome:68819_0",
+               "Reactome:68804_Reactome:68819_0",
+               "Reactome:68777_Reactome:68819_0",
+               "Reactome:68816_Reactome:68819_0",
+               "Reactome:68730_Reactome:68819_0",
+               "Reactome:68800_Reactome:68819_0",
+               "Reactome:68808_Reactome:68819_0",
+               "Reactome:68765_Reactome:68819_0",
+               "Reactome:68744_Reactome:68819_0",
+               "Reactome:68734_Reactome:68819_0",
+               "Reactome:68798_Reactome:68819_0",
+               "Reactome:68780_Reactome:68819_0",
+               "Reactome:68783_Reactome:68819_0",
+               "Reactome:68814_Reactome:68819_0",
+               "Reactome:68736_Reactome:68819_0",
+               "Reactome:68810_Reactome:68819_0",
+               "Reactome:68726_Reactome:68819_0",
+               "Reactome:68756_Reactome:68819_0",
+               "Reactome:68818_Reactome:68819_0",
+               "Reactome:68774_Reactome:68819_0",
+               "Reactome:68806_Reactome:68819_0",
+               "Reactome:68788_Reactome:68819_0",
+               "Reactome:68722_Reactome:68819_0",
+               "Reactome:68753_Reactome:68819_0",
+               "Reactome:68771_Reactome:68819_0",
+               "Reactome:68768_Reactome:68819_0",
+               "Reactome:68747_Reactome:68819_0",
+               "Reactome:68796_Reactome:68819_0",
+               "Reactome:68728_Reactome:68819_0",
+               "Reactome:68786_Reactome:68819_0",
+               "Reactome:68750_Reactome:68819_0",
+               "Reactome:68790_Reactome:68819_0",
+               "Reactome:68724_Reactome:68819_0",
+               "Reactome:68741_Reactome:68819_0",
+               "Reactome:68762_Reactome:68819_0",
+               "Reactome:68802_Reactome:68819_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:68819",
+         "index" : 18,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R43",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R43",
+         "index" : 19,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DVL",
+            "modification" : [],
+            "ref" : "PID:C200312"
+         },
+         "id" : "PID:C200312_MAN:C19_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-LRP5/6",
+            "modification" : [],
+            "ref" : "MAN:C20"
+         },
+         "id" : "MAN:C20_MAN:C19_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409"
+         },
+         "id" : "Reactome:517409_Reactome:517468_0_MAN:C19_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388"
+         },
+         "id" : "Reactome:517388_Reactome:517468_0_MAN:C19_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors:Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517468",
+            "subnodes" : [
+               "Reactome:517409_Reactome:517468_0_MAN:C19_0",
+               "Reactome:517388_Reactome:517468_0_MAN:C19_0"
+            ]
+         },
+         "id" : "Reactome:517468_MAN:C19_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "WNT:Frizzled:phospho-LRP5/6:DVL",
+            "modification" : [],
+            "ref" : "MAN:C19",
+            "subnodes" : [
+               "PID:C200312_MAN:C19_0",
+               "MAN:C20_MAN:C19_0",
+               "Reactome:517468_MAN:C19_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C19",
+         "index" : 20,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DVL",
+            "modification" : [],
+            "ref" : "PID:C200312"
+         },
+         "id" : "PID:C200312_MAN:C19_0_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-LRP5/6",
+            "modification" : [],
+            "ref" : "MAN:C20"
+         },
+         "id" : "MAN:C20_MAN:C19_0_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409"
+         },
+         "id" : "Reactome:517409_Reactome:517468_0_MAN:C19_0_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388"
+         },
+         "id" : "Reactome:517388_Reactome:517468_0_MAN:C19_0_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors:Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517468",
+            "subnodes" : [
+               "Reactome:517409_Reactome:517468_0_MAN:C19_0_MAN:C21_0",
+               "Reactome:517388_Reactome:517468_0_MAN:C19_0_MAN:C21_0"
+            ]
+         },
+         "id" : "Reactome:517468_MAN:C19_0_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "WNT:Frizzled:phospho-LRP5/6:DVL",
+            "modification" : [],
+            "ref" : "MAN:C19",
+            "subnodes" : [
+               "PID:C200312_MAN:C19_0_MAN:C21_0",
+               "MAN:C20_MAN:C19_0_MAN:C21_0",
+               "Reactome:517468_MAN:C19_0_MAN:C21_0"
+            ]
+         },
+         "id" : "MAN:C19_MAN:C21_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "WNT-Complex:Axin1",
+            "modification" : [],
+            "ref" : "MAN:C21",
+            "subnodes" : [
+               "MAP:UO15169_CY_MAN:C21_0",
+               "MAN:C19_MAN:C21_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C21",
+         "index" : 21,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphoryation of phospho- (Ser45, Thr41) beta-catenin  at Ser37 by GSK-3",
+            "ref" : "Reactome:195283",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195283",
+         "index" : 22,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-(Ser45,Thr41) beta catenin",
+            "modification" : [],
+            "ref" : "Reactome:195290"
+         },
+         "id" : "Reactome:195290_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0_Reactome:195313_0",
+               "Reactome:195265_Reactome:195250_0_Reactome:195313_0",
+               "Reactome:195269_Reactome:195250_0_Reactome:195313_0",
+               "MAP:UO15169_CY_Reactome:195250_0_Reactome:195313_0"
+            ]
+         },
+         "id" : "Reactome:195250_Reactome:195313_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "phospho-(Ser45, Thr41) beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195313",
+            "subnodes" : [
+               "Reactome:195290_Reactome:195313_0",
+               "Reactome:195250_Reactome:195313_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195313",
+         "index" : 23,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:195283",
+         "index" : 24,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:195283",
+         "index" : 25,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-(Ser45,Thr41,Ser37) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195316"
+         },
+         "id" : "Reactome:195316_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0_Reactome:195305_0",
+               "Reactome:195265_Reactome:195250_0_Reactome:195305_0",
+               "Reactome:195269_Reactome:195250_0_Reactome:195305_0",
+               "MAP:UO15169_CY_Reactome:195250_0_Reactome:195305_0"
+            ]
+         },
+         "id" : "Reactome:195250_Reactome:195305_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "phospho-(Ser45, Thr41, Ser37) beta-catenin:Axin,GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195305",
+            "subnodes" : [
+               "Reactome:195316_Reactome:195305_0",
+               "Reactome:195250_Reactome:195305_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195305",
+         "index" : 26,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R7",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R7",
+         "index" : 27,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "LRP5/6",
+            "modification" : [],
+            "ref" : "MAN:C1",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C1",
+         "index" : 28,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "LRP5/6",
+            "modification" : [],
+            "ref" : "MAN:C1"
+         },
+         "id" : "MAN:C1_MAN:C2_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409"
+         },
+         "id" : "Reactome:517409_Reactome:517468_0_MAN:C2_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388"
+         },
+         "id" : "Reactome:517388_Reactome:517468_0_MAN:C2_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors:Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517468",
+            "subnodes" : [
+               "Reactome:517409_Reactome:517468_0_MAN:C2_0",
+               "Reactome:517388_Reactome:517468_0_MAN:C2_0"
+            ]
+         },
+         "id" : "Reactome:517468_MAN:C2_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "WNT:Frizzled:LRP",
+            "modification" : [],
+            "ref" : "MAN:C2",
+            "subnodes" : [
+               "MAN:C1_MAN:C2_0",
+               "Reactome:517468_MAN:C2_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C2",
+         "index" : 29,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of beta-catenin at Ser45 by CK1 alpha",
+            "ref" : "Reactome:195318",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195318",
+         "index" : 30,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:195318",
+         "index" : 31,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:191727"
+         },
+         "id" : "Reactome:191727_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0_Reactome:195301_0",
+               "Reactome:195265_Reactome:195250_0_Reactome:195301_0",
+               "Reactome:195269_Reactome:195250_0_Reactome:195301_0",
+               "MAP:UO15169_CY_Reactome:195250_0_Reactome:195301_0"
+            ]
+         },
+         "id" : "Reactome:195250_Reactome:195301_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195301",
+            "subnodes" : [
+               "Reactome:191727_Reactome:195301_0",
+               "Reactome:195250_Reactome:195301_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195301",
+         "index" : 32,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-(Ser45) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195309"
+         },
+         "id" : "Reactome:195309_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0_Reactome:195277_0",
+               "Reactome:195265_Reactome:195250_0_Reactome:195277_0",
+               "Reactome:195269_Reactome:195250_0_Reactome:195277_0",
+               "MAP:UO15169_CY_Reactome:195250_0_Reactome:195277_0"
+            ]
+         },
+         "id" : "Reactome:195250_Reactome:195277_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "phospho-(Ser45) beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195277",
+            "subnodes" : [
+               "Reactome:195309_Reactome:195277_0",
+               "Reactome:195250_Reactome:195277_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195277",
+         "index" : 33,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:195318",
+         "index" : 34,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of phospho-(Ser45,Thr41,Ser37) at Ser33 by GSK-3",
+            "ref" : "Reactome:195300",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195300",
+         "index" : 35,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:195300",
+         "index" : 36,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:195300",
+         "index" : 37,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phosph-(Ser45, Thr41, Ser37, Ser33) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195274"
+         },
+         "id" : "Reactome:195274_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195250_0_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "APC",
+            "modification" : [],
+            "ref" : "Reactome:195265"
+         },
+         "id" : "Reactome:195265_Reactome:195250_0_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195250_0_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195250_0_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195250",
+            "subnodes" : [
+               "MAP:C100_Reactome:195250_0_Reactome:195282_0",
+               "Reactome:195265_Reactome:195250_0_Reactome:195282_0",
+               "Reactome:195269_Reactome:195250_0_Reactome:195282_0",
+               "MAP:UO15169_CY_Reactome:195250_0_Reactome:195282_0"
+            ]
+         },
+         "id" : "Reactome:195250_Reactome:195282_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Phospho-(Ser45, Thr41, Ser37, Ser33) beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195282",
+            "subnodes" : [
+               "Reactome:195274_Reactome:195282_0",
+               "Reactome:195250_Reactome:195282_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195282",
+         "index" : 38,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of APC component of the destruction complex",
+            "ref" : "Reactome:195275",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195275",
+         "index" : 39,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:195275",
+         "index" : 40,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:195275",
+         "index" : 41,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phosph-(Ser45, Thr41, Ser37, Ser33) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195274"
+         },
+         "id" : "Reactome:195274_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-catalytic subunit C",
+            "modification" : [],
+            "ref" : "Reactome:165977"
+         },
+         "id" : "Reactome:165977_Reactome:196206_0_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-subunit A",
+            "modification" : [],
+            "ref" : "Reactome:165990"
+         },
+         "id" : "Reactome:165990_Reactome:196206_0_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A regulatory subunit B",
+            "modification" : [],
+            "ref" : "Reactome:196216"
+         },
+         "id" : "Reactome:196216_Reactome:196206_0_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A",
+            "modification" : [],
+            "ref" : "Reactome:196206",
+            "subnodes" : [
+               "Reactome:165977_Reactome:196206_0_Reactome:195297_0",
+               "Reactome:165990_Reactome:196206_0_Reactome:195297_0",
+               "Reactome:196216_Reactome:196206_0_Reactome:195297_0"
+            ]
+         },
+         "id" : "Reactome:196206_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-APC",
+            "modification" : [],
+            "ref" : "Reactome:195293"
+         },
+         "id" : "Reactome:195293_Reactome:195297_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "phospho-(Ser45,Thr41,Ser37,Ser33):Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195297",
+            "subnodes" : [
+               "MAP:C100_Reactome:195297_0",
+               "Reactome:195274_Reactome:195297_0",
+               "Reactome:195269_Reactome:195297_0",
+               "MAP:UO15169_CY_Reactome:195297_0",
+               "Reactome:196206_Reactome:195297_0",
+               "Reactome:195293_Reactome:195297_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195297",
+         "index" : 42,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phosphorylation of phospho-(Ser45 ) at Thr 41 by GSK-3",
+            "ref" : "Reactome:195287",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195287",
+         "index" : 43,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:195287",
+         "index" : 44,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:195287",
+         "index" : 45,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Association of beta-catenin with  the SCF-beta-TrCP1 ubiquitin ligase complex",
+            "ref" : "Reactome:195285",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195285",
+         "index" : 46,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Cul1",
+            "modification" : [],
+            "ref" : "Reactome:174230"
+         },
+         "id" : "Reactome:174230_Reactome:174155_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Beta-TrCP",
+            "modification" : [],
+            "ref" : "MAP:UQ9Y297_CY"
+         },
+         "id" : "MAP:UQ9Y297_CY_Reactome:174155_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Skp1",
+            "modification" : [],
+            "ref" : "Reactome:174150"
+         },
+         "id" : "Reactome:174150_Reactome:174155_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SCF-beta-TrCP1 complex",
+            "modification" : [],
+            "ref" : "Reactome:174155",
+            "subnodes" : [
+               "Reactome:174230_Reactome:174155_0_Reactome:195311_0",
+               "MAP:UQ9Y297_CY_Reactome:174155_0_Reactome:195311_0",
+               "Reactome:174150_Reactome:174155_0_Reactome:195311_0"
+            ]
+         },
+         "id" : "Reactome:174155_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "CK1alpha",
+            "modification" : [],
+            "ref" : "MAP:C100"
+         },
+         "id" : "MAP:C100_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phosph-(Ser45, Thr41, Ser37, Ser33) beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195274"
+         },
+         "id" : "Reactome:195274_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "GSK3B",
+            "modification" : [],
+            "ref" : "Reactome:195269"
+         },
+         "id" : "Reactome:195269_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Axin",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:UO15169_CY"
+         },
+         "id" : "MAP:UO15169_CY_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-catalytic subunit C",
+            "modification" : [],
+            "ref" : "Reactome:165977"
+         },
+         "id" : "Reactome:165977_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A-subunit A",
+            "modification" : [],
+            "ref" : "Reactome:165990"
+         },
+         "id" : "Reactome:165990_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A regulatory subunit B",
+            "modification" : [],
+            "ref" : "Reactome:196216"
+         },
+         "id" : "Reactome:196216_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "PP2A",
+            "modification" : [],
+            "ref" : "Reactome:196206",
+            "subnodes" : [
+               "Reactome:165977_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:165990_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:196216_Reactome:196206_0_Reactome:195297_0_Reactome:195311_0"
+            ]
+         },
+         "id" : "Reactome:196206_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-APC",
+            "modification" : [],
+            "ref" : "Reactome:195293"
+         },
+         "id" : "Reactome:195293_Reactome:195297_0_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "phospho-(Ser45,Thr41,Ser37,Ser33):Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A complex",
+            "modification" : [],
+            "ref" : "Reactome:195297",
+            "subnodes" : [
+               "MAP:C100_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:195274_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:195269_Reactome:195297_0_Reactome:195311_0",
+               "MAP:UO15169_CY_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:196206_Reactome:195297_0_Reactome:195311_0",
+               "Reactome:195293_Reactome:195297_0_Reactome:195311_0"
+            ]
+         },
+         "id" : "Reactome:195297_Reactome:195311_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "SCF-beta-TrCP1 complex associated with phosphorylated beta-catenin",
+            "modification" : [],
+            "ref" : "Reactome:195311",
+            "subnodes" : [
+               "Reactome:174155_Reactome:195311_0",
+               "Reactome:195297_Reactome:195311_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195311",
+         "index" : 47,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Multi-ubiquitination of phospho-beta-catenin by SCF-beta-TrCP1",
+            "ref" : "Reactome:195279",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195279",
+         "index" : 48,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "Association of beta-catenin with the destruction complex",
+            "ref" : "Reactome:195304",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:195304",
+         "index" : 49,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R8",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R8",
+         "index" : 50,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "DVL",
+            "modification" : [],
+            "ref" : "PID:C200312",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "PID:C200312",
+         "index" : 51,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "LRP5/6",
+            "modification" : [],
+            "ref" : "MAN:C1"
+         },
+         "id" : "MAN:C1_MAN:C2_0_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517409"
+         },
+         "id" : "Reactome:517409_Reactome:517468_0_MAN:C2_0_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors",
+            "modification" : [],
+            "ref" : "Reactome:517388"
+         },
+         "id" : "Reactome:517388_Reactome:517468_0_MAN:C2_0_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Frizzled receptors:Wnts",
+            "modification" : [],
+            "ref" : "Reactome:517468",
+            "subnodes" : [
+               "Reactome:517409_Reactome:517468_0_MAN:C2_0_MAN:C3_0",
+               "Reactome:517388_Reactome:517468_0_MAN:C2_0_MAN:C3_0"
+            ]
+         },
+         "id" : "Reactome:517468_MAN:C2_0_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "WNT:Frizzled:LRP",
+            "modification" : [],
+            "ref" : "MAN:C2",
+            "subnodes" : [
+               "MAN:C1_MAN:C2_0_MAN:C3_0",
+               "Reactome:517468_MAN:C2_0_MAN:C3_0"
+            ]
+         },
+         "id" : "MAN:C2_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "DVL",
+            "modification" : [],
+            "ref" : "PID:C200312"
+         },
+         "id" : "PID:C200312_MAN:C3_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Wnt:Frizzled:LRP:DVL",
+            "modification" : [],
+            "ref" : "MAN:C3",
+            "subnodes" : [
+               "MAN:C2_MAN:C3_0",
+               "PID:C200312_MAN:C3_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:C3",
+         "index" : 52,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : null,
+            "ref" : "MAN:R42",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAN:R42",
+         "index" : 53,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      }
+   ]
+}

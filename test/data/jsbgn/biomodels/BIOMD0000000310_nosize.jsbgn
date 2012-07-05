@@ -1,0 +1,288 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r0sink", 
+         "target": "r0"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r0", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "r1sink", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "r2sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "r2_prime"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "r2_prime", 
+         "target": "r2_primesink"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "E", 
+         "target": "r2_prime"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Ep", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "E"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "E", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "Ep"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "R", 
+         "target": "r4"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2_prime", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2_prime", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2_primesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ep", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ep", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "env", 
+            "subnodes": [
+               "r4", 
+               "r2_primesink", 
+               "r0", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "Ep", 
+               "r1sink", 
+               "S", 
+               "R", 
+               "E", 
+               "r2sink", 
+               "r2_prime", 
+               "r0sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "env", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

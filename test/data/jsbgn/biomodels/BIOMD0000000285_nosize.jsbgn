@@ -1,0 +1,2591 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "polyQSynthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "polyQSynthesis", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "polyqProteasomeBinding"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "polyqProteasomeBinding"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "polyqProteasomeBinding", 
+         "target": "PolyQ_Proteasome"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "PolyQ_Proteasome", 
+         "target": "polyqProteasomeRelease"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "polyqProteasomeRelease", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "polyqProteasomeRelease", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "PolyQ_Proteasome", 
+         "target": "PolyQDegradation"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "PolyQDegradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "mRFPuSynthesis"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "mRFPuSynthesis", 
+         "target": "mRFPu"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "mRFPu", 
+         "target": "mRFPuProteasomeBinding"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "mRFPuProteasomeBinding"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "mRFPuProteasomeBinding", 
+         "target": "mRFPu_Proteasome"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "mRFPu_Proteasome", 
+         "target": "mRFPuProteasomeRelease"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "mRFPuProteasomeRelease", 
+         "target": "mRFPu"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "mRFPuProteasomeRelease", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "mRFPu_Proteasome", 
+         "target": "mRFPuDegradation"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "mRFPuDegradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQAggregation1"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "PolyQAggregation1"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "PolyQAggregation1", 
+         "target": "AggPolyQ1"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "PolyQAggregation1", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQAggregation2"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "AggPolyQ1", 
+         "target": "PolyQAggregation2"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "PolyQAggregation2"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "PolyQAggregation2", 
+         "target": "AggPolyQ2"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "PolyQAggregation2", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQAggregation3"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "AggPolyQ2", 
+         "target": "PolyQAggregation3"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "PolyQAggregation3"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "PolyQAggregation3", 
+         "target": "AggPolyQ3"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "PolyQAggregation3", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQAggregation4"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "AggPolyQ3", 
+         "target": "PolyQAggregation4"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "PolyQAggregation4"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "PolyQAggregation4", 
+         "target": "AggPolyQ4"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "PolyQAggregation4", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQAggregation5"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "AggPolyQ4", 
+         "target": "PolyQAggregation5"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "PolyQAggregation5"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "PolyQAggregation5", 
+         "target": "AggPolyQ5"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "PolyQAggregation5", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "AggPolyQ5", 
+         "target": "PolyQDisaggregation5"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation5", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation5", 
+         "target": "AggPolyQ4"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "AggPolyQ4", 
+         "target": "PolyQDisaggregation4"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation4", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation4", 
+         "target": "AggPolyQ3"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "AggPolyQ3", 
+         "target": "PolyQDisaggregation3"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation3", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation3", 
+         "target": "AggPolyQ2"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "AggPolyQ2", 
+         "target": "PolyQDisaggregation2"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation2", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation2", 
+         "target": "AggPolyQ1"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "AggPolyQ1", 
+         "target": "PolyQDisaggregation1"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "PolyQDisaggregation1", 
+         "target": "PolyQ"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQInclusionFormation"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "AggPolyQ5", 
+         "target": "PolyQInclusionFormation"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "PolyQInclusionFormation", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "PolyQ", 
+         "target": "PolyQInclusionGrowth"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "PolyQInclusionGrowth"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "PolyQInclusionGrowth", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "AggPolyQ1", 
+         "target": "ProteasomeInhibition1"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibition1"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibition1", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "AggPolyQ2", 
+         "target": "ProteasomeInhibition2"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibition2"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibition2", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "AggPolyQ3", 
+         "target": "ProteasomeInhibition3"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibition3"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibition3", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "AggPolyQ4", 
+         "target": "ProteasomeInhibition4"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibition4"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibition4", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "AggPolyQ5", 
+         "target": "ProteasomeInhibition5"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibition5"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibition5", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "mRFPu_Proteasome", 
+         "target": "mRFPuProteasomeSequestering"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "mRFPuProteasomeSequestering"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "mRFPuProteasomeSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "mRFPu", 
+         "target": "mRFPuSequestering"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "mRFPuSequestering"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "mRFPuSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "ROSgenerationBasal"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "ROSgenerationBasal", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "AggPolyQ1", 
+         "target": "ROSgenerationSmallAggPolyQ1"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ1", 
+         "target": "AggPolyQ1"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ1", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "AggPolyQ2", 
+         "target": "ROSgenerationSmallAggPolyQ2"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ2", 
+         "target": "AggPolyQ2"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ2", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "AggPolyQ3", 
+         "target": "ROSgenerationSmallAggPolyQ3"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ3", 
+         "target": "AggPolyQ3"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ3", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "AggPolyQ4", 
+         "target": "ROSgenerationSmallAggPolyQ4"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ4", 
+         "target": "AggPolyQ4"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ4", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "AggPolyQ5", 
+         "target": "ROSgenerationSmallAggPolyQ5"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ5", 
+         "target": "AggPolyQ5"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggPolyQ5", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "AggP_Proteasome", 
+         "target": "ROSgenerationAggPProteasome"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "ROSgenerationAggPProteasome", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "ROSgenerationAggPProteasome", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "ROSremoval"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "ROSremoval", 
+         "target": "Sink"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "p38activation"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "p38", 
+         "target": "p38activation"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "p38activation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 393, 
+         "source": "p38activation", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "p38inactivation"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "p38inactivation", 
+         "target": "p38"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 394, 
+         "source": "AggP_Proteasome", 
+         "target": "AggP_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "AggP_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "AggP_ProteasomeSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 394, 
+         "source": "PolyQ_Proteasome", 
+         "target": "PolyQ_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "PolyQ_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "PolyQ_ProteasomeSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "MisP_Proteasome", 
+         "target": "MisP_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "MisP_ProteasomeSequestering"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 393, 
+         "source": "MisP_ProteasomeSequestering", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "ProteinSynthesis"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "ProteinSynthesis", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "NatP", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 394, 
+         "source": "ROS", 
+         "target": "Misfolding"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "Misfolding", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "Refolding"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 393, 
+         "source": "Refolding", 
+         "target": "NatP"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_ProteasomeBinding"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "MisP_ProteasomeBinding"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "MisP_ProteasomeBinding", 
+         "target": "MisP_Proteasome"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 394, 
+         "source": "MisP_Proteasome", 
+         "target": "MisP_ProteasomeRelease"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 393, 
+         "source": "MisP_ProteasomeRelease", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 393, 
+         "source": "MisP_ProteasomeRelease", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 394, 
+         "source": "MisP_Proteasome", 
+         "target": "MisP_Degradation"
+      }, 
+      {
+         "id": "edge137", 
+         "sbo": 393, 
+         "source": "MisP_Degradation", 
+         "target": "Proteasome"
+      }, 
+      {
+         "id": "edge138", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_Aggregation1"
+      }, 
+      {
+         "id": "edge139", 
+         "sbo": 393, 
+         "source": "MisP_Aggregation1", 
+         "target": "AggP1"
+      }, 
+      {
+         "id": "edge140", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_Aggregation2"
+      }, 
+      {
+         "id": "edge141", 
+         "sbo": 394, 
+         "source": "AggP1", 
+         "target": "MisP_Aggregation2"
+      }, 
+      {
+         "id": "edge142", 
+         "sbo": 393, 
+         "source": "MisP_Aggregation2", 
+         "target": "AggP2"
+      }, 
+      {
+         "id": "edge143", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_Aggregation3"
+      }, 
+      {
+         "id": "edge144", 
+         "sbo": 394, 
+         "source": "AggP2", 
+         "target": "MisP_Aggregation3"
+      }, 
+      {
+         "id": "edge145", 
+         "sbo": 393, 
+         "source": "MisP_Aggregation3", 
+         "target": "AggP3"
+      }, 
+      {
+         "id": "edge146", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_Aggregation4"
+      }, 
+      {
+         "id": "edge147", 
+         "sbo": 394, 
+         "source": "AggP3", 
+         "target": "MisP_Aggregation4"
+      }, 
+      {
+         "id": "edge148", 
+         "sbo": 393, 
+         "source": "MisP_Aggregation4", 
+         "target": "AggP4"
+      }, 
+      {
+         "id": "edge149", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_Aggregation5"
+      }, 
+      {
+         "id": "edge150", 
+         "sbo": 394, 
+         "source": "AggP4", 
+         "target": "MisP_Aggregation5"
+      }, 
+      {
+         "id": "edge151", 
+         "sbo": 393, 
+         "source": "MisP_Aggregation5", 
+         "target": "AggP5"
+      }, 
+      {
+         "id": "edge152", 
+         "sbo": 394, 
+         "source": "AggP1", 
+         "target": "MisP_Disaggregation1"
+      }, 
+      {
+         "id": "edge153", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation1", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge154", 
+         "sbo": 394, 
+         "source": "AggP2", 
+         "target": "MisP_Disaggregation2"
+      }, 
+      {
+         "id": "edge155", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation2", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge156", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation2", 
+         "target": "AggP1"
+      }, 
+      {
+         "id": "edge157", 
+         "sbo": 394, 
+         "source": "AggP3", 
+         "target": "MisP_Disaggregation3"
+      }, 
+      {
+         "id": "edge158", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation3", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge159", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation3", 
+         "target": "AggP2"
+      }, 
+      {
+         "id": "edge160", 
+         "sbo": 394, 
+         "source": "AggP4", 
+         "target": "MisP_Disaggregation4"
+      }, 
+      {
+         "id": "edge161", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation4", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge162", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation4", 
+         "target": "AggP3"
+      }, 
+      {
+         "id": "edge163", 
+         "sbo": 394, 
+         "source": "AggP5", 
+         "target": "MisP_Disaggregation5"
+      }, 
+      {
+         "id": "edge164", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation5", 
+         "target": "MisP"
+      }, 
+      {
+         "id": "edge165", 
+         "sbo": 393, 
+         "source": "MisP_Disaggregation5", 
+         "target": "AggP4"
+      }, 
+      {
+         "id": "edge166", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisP_InclusionFormation"
+      }, 
+      {
+         "id": "edge167", 
+         "sbo": 394, 
+         "source": "AggP5", 
+         "target": "MisP_InclusionFormation"
+      }, 
+      {
+         "id": "edge168", 
+         "sbo": 393, 
+         "source": "MisP_InclusionFormation", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge169", 
+         "sbo": 394, 
+         "source": "MisP", 
+         "target": "MisPInclusionGrowth"
+      }, 
+      {
+         "id": "edge170", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "MisPInclusionGrowth"
+      }, 
+      {
+         "id": "edge171", 
+         "sbo": 393, 
+         "source": "MisPInclusionGrowth", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge172", 
+         "sbo": 394, 
+         "source": "AggP1", 
+         "target": "ProteasomeInhibitionAggP1"
+      }, 
+      {
+         "id": "edge173", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibitionAggP1"
+      }, 
+      {
+         "id": "edge174", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibitionAggP1", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge175", 
+         "sbo": 394, 
+         "source": "AggP2", 
+         "target": "ProteasomeInhibitionAggP2"
+      }, 
+      {
+         "id": "edge176", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibitionAggP2"
+      }, 
+      {
+         "id": "edge177", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibitionAggP2", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge178", 
+         "sbo": 394, 
+         "source": "AggP3", 
+         "target": "ProteasomeInhibitionAggP3"
+      }, 
+      {
+         "id": "edge179", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibitionAggP3"
+      }, 
+      {
+         "id": "edge180", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibitionAggP3", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge181", 
+         "sbo": 394, 
+         "source": "AggP4", 
+         "target": "ProteasomeInhibitionAggP4"
+      }, 
+      {
+         "id": "edge182", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibitionAggP4"
+      }, 
+      {
+         "id": "edge183", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibitionAggP4", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge184", 
+         "sbo": 394, 
+         "source": "AggP5", 
+         "target": "ProteasomeInhibitionAggP5"
+      }, 
+      {
+         "id": "edge185", 
+         "sbo": 394, 
+         "source": "Proteasome", 
+         "target": "ProteasomeInhibitionAggP5"
+      }, 
+      {
+         "id": "edge186", 
+         "sbo": 393, 
+         "source": "ProteasomeInhibitionAggP5", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge187", 
+         "sbo": 394, 
+         "source": "AggP1", 
+         "target": "ROSgenerationSmallAggP1"
+      }, 
+      {
+         "id": "edge188", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP1", 
+         "target": "AggP1"
+      }, 
+      {
+         "id": "edge189", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP1", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge190", 
+         "sbo": 394, 
+         "source": "AggP2", 
+         "target": "ROSgenerationSmallAggP2"
+      }, 
+      {
+         "id": "edge191", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP2", 
+         "target": "AggP2"
+      }, 
+      {
+         "id": "edge192", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP2", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge193", 
+         "sbo": 394, 
+         "source": "AggP3", 
+         "target": "ROSgenerationSmallAggP3"
+      }, 
+      {
+         "id": "edge194", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP3", 
+         "target": "AggP3"
+      }, 
+      {
+         "id": "edge195", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP3", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge196", 
+         "sbo": 394, 
+         "source": "AggP4", 
+         "target": "ROSgenerationSmallAggP4"
+      }, 
+      {
+         "id": "edge197", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP4", 
+         "target": "AggP4"
+      }, 
+      {
+         "id": "edge198", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP4", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge199", 
+         "sbo": 394, 
+         "source": "AggP5", 
+         "target": "ROSgenerationSmallAggP5"
+      }, 
+      {
+         "id": "edge200", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP5", 
+         "target": "AggP5"
+      }, 
+      {
+         "id": "edge201", 
+         "sbo": 393, 
+         "source": "ROSgenerationSmallAggP5", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge202", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "p38_P_ROS_Generation"
+      }, 
+      {
+         "id": "edge203", 
+         "sbo": 393, 
+         "source": "p38_P_ROS_Generation", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge204", 
+         "sbo": 393, 
+         "source": "p38_P_ROS_Generation", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge205", 
+         "sbo": 394, 
+         "source": "SeqAggP", 
+         "target": "ROSgenerationSeqAggP"
+      }, 
+      {
+         "id": "edge206", 
+         "sbo": 393, 
+         "source": "ROSgenerationSeqAggP", 
+         "target": "SeqAggP"
+      }, 
+      {
+         "id": "edge207", 
+         "sbo": 393, 
+         "source": "ROSgenerationSeqAggP", 
+         "target": "ROS"
+      }, 
+      {
+         "id": "edge208", 
+         "sbo": 394, 
+         "source": "p38_P", 
+         "target": "P38DeathPathway"
+      }, 
+      {
+         "id": "edge209", 
+         "sbo": 393, 
+         "source": "P38DeathPathway", 
+         "target": "p38_P"
+      }, 
+      {
+         "id": "edge210", 
+         "sbo": 393, 
+         "source": "P38DeathPathway", 
+         "target": "p38death"
+      }, 
+      {
+         "id": "edge211", 
+         "sbo": 394, 
+         "source": "AggP_Proteasome", 
+         "target": "PIDeathPathway"
+      }, 
+      {
+         "id": "edge212", 
+         "sbo": 393, 
+         "source": "PIDeathPathway", 
+         "target": "AggP_Proteasome"
+      }, 
+      {
+         "id": "edge213", 
+         "sbo": 393, 
+         "source": "PIDeathPathway", 
+         "target": "PIdeath"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "polyQSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "polyQSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Source", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Source", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PolyQ", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQ", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "polyqProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "polyqProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PolyQ_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQ_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "polyqProteasomeRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "polyqProteasomeRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mRFPu", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPu", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mRFPu_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPu_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuProteasomeRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuProteasomeRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQAggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQAggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ROS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROS", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggPolyQ1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggPolyQ1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQAggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQAggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggPolyQ2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggPolyQ2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQAggregation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQAggregation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggPolyQ3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggPolyQ3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQAggregation4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQAggregation4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggPolyQ4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggPolyQ4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQAggregation5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQAggregation5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggPolyQ5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggPolyQ5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDisaggregation5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDisaggregation5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDisaggregation4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDisaggregation4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDisaggregation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDisaggregation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDisaggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDisaggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQDisaggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQDisaggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQInclusionFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQInclusionFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SeqAggP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SeqAggP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQInclusionGrowth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQInclusionGrowth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibition1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibition1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibition2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibition2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibition3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibition3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibition4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibition4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibition5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibition5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuProteasomeSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuProteasomeSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "mRFPuSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mRFPuSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationBasal", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationBasal", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggPolyQ1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggPolyQ1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggPolyQ2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggPolyQ2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggPolyQ3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggPolyQ3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggPolyQ4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggPolyQ4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggPolyQ5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggPolyQ5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationAggPProteasome", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationAggPProteasome", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSremoval", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSremoval", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sink", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sink", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38_P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38inactivation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AggP_ProteasomeSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP_ProteasomeSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PolyQ_ProteasomeSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PolyQ_ProteasomeSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_ProteasomeSequestering", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_ProteasomeSequestering", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP_Proteasome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Proteasome", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteinSynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteinSynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NatP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NatP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Misfolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Misfolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MisP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Refolding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Refolding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_ProteasomeBinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_ProteasomeBinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_ProteasomeRelease", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_ProteasomeRelease", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Aggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Aggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Aggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Aggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Aggregation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Aggregation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Aggregation4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Aggregation4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Aggregation5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Aggregation5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AggP5", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AggP5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Disaggregation1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Disaggregation1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Disaggregation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Disaggregation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Disaggregation3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Disaggregation3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Disaggregation4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Disaggregation4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_Disaggregation5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_Disaggregation5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisP_InclusionFormation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisP_InclusionFormation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MisPInclusionGrowth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MisPInclusionGrowth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibitionAggP1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibitionAggP1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibitionAggP2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibitionAggP2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibitionAggP3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibitionAggP3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibitionAggP4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibitionAggP4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ProteasomeInhibitionAggP5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ProteasomeInhibitionAggP5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSmallAggP5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSmallAggP5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p38_P_ROS_Generation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38_P_ROS_Generation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ROSgenerationSeqAggP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ROSgenerationSeqAggP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "P38DeathPathway", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P38DeathPathway", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p38death", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p38death", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIDeathPathway", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIDeathPathway", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIdeath", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIdeath", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "MisP_ProteasomeSequestering", 
+               "p38death", 
+               "PolyQ_Proteasome", 
+               "PolyQ_ProteasomeSequestering", 
+               "PIDeathPathway", 
+               "p38_P_ROS_Generation", 
+               "PolyQDisaggregation5", 
+               "PolyQDisaggregation4", 
+               "MisP_Proteasome", 
+               "PolyQDisaggregation2", 
+               "PolyQDisaggregation1", 
+               "Sink", 
+               "MisP", 
+               "mRFPuSynthesis", 
+               "AggPolyQ4", 
+               "MisP_ProteasomeBinding", 
+               "Refolding", 
+               "Source", 
+               "ROSgenerationAggPProteasome", 
+               "AggP4", 
+               "AggP5", 
+               "AggP2", 
+               "AggP3", 
+               "Proteasome", 
+               "mRFPuProteasomeSequestering", 
+               "PolyQDegradation", 
+               "AggPolyQ5", 
+               "ROS", 
+               "AggPolyQ3", 
+               "AggPolyQ2", 
+               "AggPolyQ1", 
+               "MisP_Degradation", 
+               "p38", 
+               "ROSremoval", 
+               "ROSgenerationSmallAggP1", 
+               "ROSgenerationSmallAggP2", 
+               "MisP_ProteasomeRelease", 
+               "PolyQDisaggregation3", 
+               "ROSgenerationSmallAggP4", 
+               "ProteinSynthesis", 
+               "ROSgenerationSmallAggPolyQ2", 
+               "mRFPuDegradation", 
+               "ROSgenerationSmallAggPolyQ3", 
+               "AggP_Proteasome", 
+               "ROSgenerationSmallAggPolyQ4", 
+               "ROSgenerationSmallAggPolyQ5", 
+               "ROSgenerationSmallAggP3", 
+               "polyqProteasomeRelease", 
+               "ROSgenerationSmallAggP5", 
+               "ROSgenerationSmallAggPolyQ1", 
+               "PolyQInclusionGrowth", 
+               "p38inactivation", 
+               "MisPInclusionGrowth", 
+               "ROSgenerationBasal", 
+               "p38activation", 
+               "ProteasomeInhibitionAggP4", 
+               "ProteasomeInhibitionAggP5", 
+               "ProteasomeInhibitionAggP2", 
+               "ProteasomeInhibitionAggP3", 
+               "ProteasomeInhibitionAggP1", 
+               "mRFPuProteasomeBinding", 
+               "AggP_ProteasomeSequestering", 
+               "polyQSynthesis", 
+               "MisP_Aggregation1", 
+               "MisP_Aggregation3", 
+               "MisP_Aggregation2", 
+               "MisP_Aggregation5", 
+               "MisP_Aggregation4", 
+               "P38DeathPathway", 
+               "PolyQInclusionFormation", 
+               "p38_P", 
+               "MisP_Disaggregation1", 
+               "MisP_Disaggregation2", 
+               "MisP_Disaggregation3", 
+               "MisP_Disaggregation4", 
+               "MisP_Disaggregation5", 
+               "mRFPu_Proteasome", 
+               "ProteasomeInhibition1", 
+               "ProteasomeInhibition3", 
+               "ProteasomeInhibition2", 
+               "ProteasomeInhibition5", 
+               "ProteasomeInhibition4", 
+               "NatP", 
+               "PIdeath", 
+               "MisP_InclusionFormation", 
+               "mRFPu", 
+               "ROSgenerationSeqAggP", 
+               "polyqProteasomeBinding", 
+               "Misfolding", 
+               "mRFPuProteasomeRelease", 
+               "PolyQAggregation4", 
+               "PolyQAggregation5", 
+               "PolyQ", 
+               "AggP1", 
+               "PolyQAggregation1", 
+               "PolyQAggregation2", 
+               "PolyQAggregation3", 
+               "mRFPuSequestering", 
+               "SeqAggP"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

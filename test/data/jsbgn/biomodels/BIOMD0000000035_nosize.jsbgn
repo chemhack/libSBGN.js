@@ -1,0 +1,615 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "Reaction1", 
+         "target": "C"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "Reaction2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Reaction2", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "C", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "Reaction3", 
+         "target": "R"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Reaction4", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "DA", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Reaction5", 
+         "target": "DAp"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "DAp", 
+         "target": "Reaction6"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "DA"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "DA", 
+         "target": "Reaction7"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "Reaction7", 
+         "target": "DA"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Reaction7", 
+         "target": "MA"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "DAp", 
+         "target": "Reaction8"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "DAp"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "MA"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "MA", 
+         "target": "Reaction9"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "Reaction9", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "MA", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "Reaction10", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Reaction10", 
+         "target": "MA"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "A", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "DR", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "Reaction11", 
+         "target": "DRp"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "DRp", 
+         "target": "Reaction12"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "A"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "DR"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "DR", 
+         "target": "Reaction13"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Reaction13", 
+         "target": "DR"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "Reaction13", 
+         "target": "MR"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "DRp", 
+         "target": "Reaction14"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "Reaction14", 
+         "target": "DRp"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "Reaction14", 
+         "target": "MR"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "MR", 
+         "target": "Reaction15"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "Reaction15", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "MR", 
+         "target": "Reaction16"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "Reaction16", 
+         "target": "MR"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "Reaction16", 
+         "target": "R"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "A", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "A", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EmptySet", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DA", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DAp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DR", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DRp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DRp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MR", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MR", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "deterministicOscillator", 
+            "subnodes": [
+               "Reaction14", 
+               "Reaction16", 
+               "DA", 
+               "DAp", 
+               "DR", 
+               "Reaction2", 
+               "Reaction3", 
+               "Reaction1", 
+               "Reaction6", 
+               "Reaction7", 
+               "Reaction4", 
+               "Reaction5", 
+               "DRp", 
+               "Reaction8", 
+               "Reaction9", 
+               "A", 
+               "Reaction15", 
+               "C", 
+               "Reaction10", 
+               "Reaction11", 
+               "Reaction12", 
+               "Reaction13", 
+               "R", 
+               "EmptySet", 
+               "MA", 
+               "MR"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "deterministicOscillator", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

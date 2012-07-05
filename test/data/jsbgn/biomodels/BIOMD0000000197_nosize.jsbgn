@@ -1,0 +1,369 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "x1", 
+         "target": "OATP1B3"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "OATP1B3", 
+         "target": "x3"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "ABCC2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "ABCC2", 
+         "target": "x5"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "x1", 
+         "target": "endo_in_bl"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "endo_in_bl", 
+         "target": "x3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "endo_ex_bl"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "endo_ex_bl", 
+         "target": "x1"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "endo_ex_ap"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "endo_ex_ap", 
+         "target": "x5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "x1", 
+         "target": "bl_BSP_binding"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "bl_BSP_binding", 
+         "target": "x2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "x2", 
+         "target": "bl_BSP_dissoc"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "bl_BSP_dissoc", 
+         "target": "x1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "x3", 
+         "target": "cellular_BSP_binding"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "cellular_BSP_binding", 
+         "target": "x4"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "x4", 
+         "target": "cellular_BSP_dissoc"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "cellular_BSP_dissoc", 
+         "target": "x3"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "x1", 
+         "target": "paracell_transp"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "paracell_transp", 
+         "target": "x5"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "OATP1B3 mediated import", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OATP1B3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "free basolateral BSP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "free intracellular BSP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ABCC2 mediated export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ABCC2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "apical BSP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x5", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "endogenous basolateral import", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "endo_in_bl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "endogenous basolateral export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "endo_ex_bl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "endogenous apical export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "endo_ex_ap", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "basolateral BSP binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bl_BSP_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "basolateral bound BSP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "basolateral BSP dissoc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "bl_BSP_dissoc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cellular BSP binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellular_BSP_binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "bound intracellular BSP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cellular BSP dissoc", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cellular_BSP_dissoc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "paracellular transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "paracell_transp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "basolateral extrocellular space", 
+            "subnodes": [
+               "paracell_transp", 
+               "x1", 
+               "OATP1B3", 
+               "bl_BSP_dissoc", 
+               "bl_BSP_binding", 
+               "endo_ex_bl", 
+               "x2", 
+               "endo_in_bl"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "basolat", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "intracellular", 
+            "subnodes": [
+               "x4", 
+               "OATP1B3", 
+               "endo_ex_ap", 
+               "endo_ex_bl", 
+               "cellular_BSP_binding", 
+               "x3", 
+               "endo_in_bl", 
+               "cellular_BSP_dissoc", 
+               "ABCC2"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "apical extracellular space", 
+            "subnodes": [
+               "paracell_transp", 
+               "endo_ex_ap", 
+               "ABCC2", 
+               "x5"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "apical", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

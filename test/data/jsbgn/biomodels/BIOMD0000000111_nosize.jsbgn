@@ -1,0 +1,943 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "R1sink", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "cdc13T"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "cdc13T", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "R2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "ste9", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "slp1", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "R3sink", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "preMPF"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "cdc13T", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "preMPF", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "R4sink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "preMPF", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "R5sink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "ste9", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "slp1", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "R6sink", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "ste9"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "slp1", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "ste9", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "R7sink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "SK", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "MPF", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "R8sink", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "slp1T"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "MPF", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "slp1T", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "R9sink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "R10sink", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "slp1"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "IEP", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "slp1T", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "slp1", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "R11sink"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "slp1", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "R12sink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "R13sink", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "IEP"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "MPF", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "IEP", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "R14sink"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "R15sink", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "rum1T"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "rum1T", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "R16sink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 168, 
+         "source": "SK", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "MPF", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "R17sink", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "SK"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "SK", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "R18sink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "R19sink", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "M"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "cdc13T synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Total cdc13", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cdc13T", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cell Mass", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Targeting cdc13T to APC core", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ste9", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ste9", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "slp1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "slp1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "wee1 dependent MPF inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "preMPF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "preMPF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cdc25 dependent preMPF phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "preMPF inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1 dependent ste9 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ste9 phosphorylation (inactivation) by starter kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "M-phase promoting factor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MPF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1T activation by MPF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "slp1T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "slp1T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1T inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1 activation by intermediary enzyme", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IEP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IEP", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1 inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "slp1 inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Intermediary enzyme activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IEP inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "rum1T activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "rum1T", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "rum1T", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SK dependent rum1T inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SK synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SK degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cell growth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "R14sink", 
+               "R4sink", 
+               "R1sink", 
+               "R6sink", 
+               "ste9", 
+               "R5sink", 
+               "cdc13T", 
+               "R16", 
+               "R17", 
+               "R7sink", 
+               "R2sink", 
+               "R12", 
+               "R3sink", 
+               "R10", 
+               "R10sink", 
+               "R18", 
+               "R19", 
+               "R8sink", 
+               "IEP", 
+               "slp1", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R9sink", 
+               "R8", 
+               "M", 
+               "R9", 
+               "R15", 
+               "preMPF", 
+               "R13sink", 
+               "R13", 
+               "MPF", 
+               "slp1T", 
+               "rum1T", 
+               "R17sink", 
+               "R11", 
+               "SK", 
+               "R12sink", 
+               "R19sink", 
+               "R15sink", 
+               "R14", 
+               "R11sink", 
+               "R16sink", 
+               "R18sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

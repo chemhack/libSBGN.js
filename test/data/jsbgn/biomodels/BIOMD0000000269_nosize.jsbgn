@@ -1,0 +1,1034 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_1sink", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "Auxin"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "reaction_2sink", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "Auxin"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "ET", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "CK", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "PLSp", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Auxin", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "reaction_3sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Ra", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "Ra_star"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "Auxin", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Ra_star", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "Ra"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "reaction_6sink", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "PLSm"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "Ra_star", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "ET", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "PLSm", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "reaction_7sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "reaction_8sink", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "PLSp"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 168, 
+         "source": "PLSm", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "PLSp", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "reaction_9sink"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Re", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "Re_star"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "PLSp", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "Re_star", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "Re"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "ET", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "reaction_12sink", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "ET"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "Auxin", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "CK", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "ET", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "reaction_13sink"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "CTR1", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "CTR1_star"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "Re_star", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "CTR1_star", 
+         "target": "reaction_15"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction_15", 
+         "target": "CTR1"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "reaction_16sink", 
+         "target": "reaction_16"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "reaction_16", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "CTR1_star", 
+         "target": "reaction_16"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "reaction_17"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "reaction_17", 
+         "target": "reaction_17sink"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "reaction_18sink", 
+         "target": "reaction_18"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "reaction_18", 
+         "target": "CK"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "Auxin", 
+         "target": "reaction_18"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "CK", 
+         "target": "reaction_19"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "reaction_19", 
+         "target": "reaction_19sink"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "ACC", 
+         "target": "v_Ethylene"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "v_Ethylene", 
+         "target": "ET"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "IAA", 
+         "target": "v_Auxin"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "v_Auxin", 
+         "target": "Auxin"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "CK_ex", 
+         "target": "v_Cytokinin"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "v_Cytokinin", 
+         "target": "CK"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1: Auxin Transport to the cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Auxin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Auxin", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2: Auxin biosynthesis in the cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ET", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ET", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CK", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLSp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLSp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3: Auxin removal from the cell", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4: Conversion of auxin receptor from the inactivated form to the activated form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ra", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ra", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ra*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ra_star", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5: Conversion of  auxin receptor from the activated form   to the inactivated form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6: Transcription of POLARIS gene", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLSm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLSm", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7: Decay of mRNA of POLARIS gene", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v8: Translation of POLARIS gene", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v9: Decay of protein of POLARIS gene", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v10: Conversion of the inactivated form of ethylene receptor to its activated form by PLSp ", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Re", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Re", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Re*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Re_star", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v11: Conversion of the activated form of ethylene receptor to its inactivated form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v12: Ethylene biosynthesis ", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v13: Removal of ethylene", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v14: Conversion of the inactivated form of CTR1 protein to its activated form by Re*", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CTR1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CTR1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CTR1*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CTR1_star", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v15: Conversion of the activated form of CTR1 protein to its inactivated form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v16: Activation of the downstream of ethylene signalling response is inhibited by  CTR1*", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v17: Removal of the unknown molecule X", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v18: Biosynthesis of cytokinin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v19: removal of cytokinin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vEthylene: Uptake rate of exogenous ACC (1-aminocyclopropane-1-carboxylic acid)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v_Ethylene", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ACC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vAuxin: Uptake rate of exogenous auxin (indole-3-acetic acid, IAA)", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v_Auxin", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IAA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vCytokinin: Uptake rate of exogenous cytokinin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v_Cytokinin", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytokinin_ext", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CK_ex", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "PLSp", 
+               "reaction_11", 
+               "Re", 
+               "Ra", 
+               "X", 
+               "reaction_13", 
+               "PLSm", 
+               "v_Cytokinin", 
+               "reaction_7sink", 
+               "reaction_3sink", 
+               "reaction_13sink", 
+               "v_Auxin", 
+               "Auxin", 
+               "reaction_6sink", 
+               "reaction_9sink", 
+               "CK", 
+               "reaction_8sink", 
+               "reaction_1sink", 
+               "reaction_16sink", 
+               "Ra_star", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1", 
+               "ET", 
+               "v_Ethylene", 
+               "reaction_19sink", 
+               "reaction_8", 
+               "reaction_9", 
+               "reaction_18sink", 
+               "reaction_18", 
+               "reaction_19", 
+               "reaction_14", 
+               "reaction_15", 
+               "reaction_16", 
+               "reaction_17", 
+               "reaction_10", 
+               "reaction_2sink", 
+               "reaction_12", 
+               "reaction_12sink", 
+               "reaction_17sink", 
+               "CTR1_star", 
+               "Re_star", 
+               "CTR1"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_1", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "ACC", 
+               "IAA", 
+               "v_Ethylene", 
+               "v_Auxin", 
+               "CK_ex", 
+               "v_Cytokinin"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extra", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

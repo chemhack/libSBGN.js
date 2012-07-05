@@ -1,0 +1,305 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EC", 
+         "target": "vin"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vin", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "Rho", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "Z"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Z", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "EC"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Rho", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "Fraction_Inactive_Channels"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "Z", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Fraction_Inactive_Channels", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "Rho"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "vin", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vin", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EC", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Z", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Z", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rho", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rho", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fraction_Inactive_Channels", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fraction_Inactive_Channels", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "vin", 
+               "v5", 
+               "EC"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "Fraction_Inactive_Channels", 
+               "v6", 
+               "vin", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "Rho", 
+               "v7", 
+               "Z"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "intravesicular", 
+            "subnodes": [
+               "Y", 
+               "v2", 
+               "v3", 
+               "v4"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "intravesicular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

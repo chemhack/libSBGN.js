@@ -1,0 +1,581 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "aca", 
+         "target": "CS"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "oaa", 
+         "target": "CS"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "CS", 
+         "target": "coa"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "CS", 
+         "target": "cit"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "cit", 
+         "target": "ACN"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "ACN", 
+         "target": "icit"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "icit", 
+         "target": "ICD1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "ICD1", 
+         "target": "akg"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "icit", 
+         "target": "ICD2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "ICD2", 
+         "target": "akg"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "akg", 
+         "target": "KGD"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "KGD", 
+         "target": "ssa"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "ssa", 
+         "target": "SSADH"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "SSADH", 
+         "target": "suc"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "sca", 
+         "target": "ScAS"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "ScAS", 
+         "target": "suc"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "suc", 
+         "target": "SDH"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "SDH", 
+         "target": "fa"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "fa", 
+         "target": "FUM"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "FUM", 
+         "target": "mal"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "mal", 
+         "target": "MDH"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "MDH", 
+         "target": "oaa"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "icit", 
+         "target": "ICL1"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "ICL1", 
+         "target": "suc"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "ICL1", 
+         "target": "gly"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "icit", 
+         "target": "ICL2"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "ICL2", 
+         "target": "suc"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "ICL2", 
+         "target": "gly"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "gly", 
+         "target": "MS"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "aca", 
+         "target": "MS"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "MS", 
+         "target": "mal"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "MS", 
+         "target": "coa"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "akg", 
+         "target": "SYN"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "SYN", 
+         "target": "biosyn"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "icit", 
+         "target": "SYN"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "CS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "aca", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "aca", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "oaa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "oaa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "coa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "coa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "cit", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cit", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ACN", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACN", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "icit", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "icit", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ICD1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ICD1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "akg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "akg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ICD2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ICD2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "KGD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "KGD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ssa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ssa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SSADH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SSADH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "suc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "suc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ScAS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ScAS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "sca", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "sca", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SDH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "fa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "fa", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FUM", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FUM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mal", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mal", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MDH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ICL1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ICL1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "gly", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "gly", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ICL2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ICL2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MS", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SYN", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SYN", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "biosyn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "biosyn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "sca", 
+               "ACN", 
+               "ICL2", 
+               "biosyn", 
+               "FUM", 
+               "MDH", 
+               "suc", 
+               "oaa", 
+               "fa", 
+               "ICD2", 
+               "icit", 
+               "CS", 
+               "ssa", 
+               "mal", 
+               "aca", 
+               "SSADH", 
+               "ICD1", 
+               "SDH", 
+               "SYN", 
+               "coa", 
+               "gly", 
+               "KGD", 
+               "MS", 
+               "cit", 
+               "ICL1", 
+               "ScAS", 
+               "akg"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

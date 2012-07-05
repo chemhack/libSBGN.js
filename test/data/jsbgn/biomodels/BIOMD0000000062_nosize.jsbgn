@@ -1,0 +1,262 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Enzyme_synthesissink", 
+         "target": "Enzyme_synthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Enzyme_synthesis", 
+         "target": "Enz"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "Tt", 
+         "target": "Enzyme_synthesis"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Enz", 
+         "target": "Enzyme_dilution"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Enzyme_dilution", 
+         "target": "Enzyme_dilutionsink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "tryptophan_synthesissink", 
+         "target": "tryptophan_synthesis"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "tryptophan_synthesis", 
+         "target": "Ts"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "Enz", 
+         "target": "tryptophan_synthesis"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "Tt", 
+         "target": "tryptophan_synthesis"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Ts", 
+         "target": "tryptophan_consumption"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "tryptophan_consumption", 
+         "target": "tryptophan_consumptionsink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Ts", 
+         "target": "tryptophan_dilution"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "tryptophan_dilution", 
+         "target": "tryptophan_dilutionsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Anthranilate synthase synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Enzyme_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Enzyme_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Anthranilate synthase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Enz", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Total tryptophan", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Tt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Enzyme dilution due to cell growth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Enzyme_dilution", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Enzyme_dilutionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tryptophan synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Synthesized tryptophan", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ts", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tryptophan consumption for protein synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_consumption", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_consumptionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tryptophan dilution due to cell growth", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_dilution", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "tryptophan_dilutionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "tryptophan_dilution", 
+               "tryptophan_synthesis", 
+               "tryptophan_consumption", 
+               "Tt", 
+               "Ts", 
+               "Enzyme_synthesissink", 
+               "tryptophan_consumptionsink", 
+               "Enzyme_dilution", 
+               "Enzyme_synthesis", 
+               "tryptophan_synthesissink", 
+               "Enz", 
+               "Enzyme_dilutionsink", 
+               "tryptophan_dilutionsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

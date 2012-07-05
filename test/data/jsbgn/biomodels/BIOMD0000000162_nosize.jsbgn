@@ -1,0 +1,2211 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "CD28k_highDbinding"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "D28k_high_D_Cytosol", 
+         "target": "CD28k_highDbinding"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "CD28k_highDbinding", 
+         "target": "D28kB_high_D_Cytosol"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "PA_D_Cytosol", 
+         "target": "PA_Dbinding"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "PA_Dbinding"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "PA_Dbinding", 
+         "target": "PABCa_D_Cytosol"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "CG_D_Cytosol", 
+         "target": "CG_deg"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "CG_deg", 
+         "target": "CG_degsink"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "CG_Cytosol", 
+         "target": "CG_deg"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "IP3_D_Cytosol", 
+         "target": "IP3deg"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "IP3deg", 
+         "target": "IP3degsink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "IP3_Cytosol", 
+         "target": "IP3deg"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "D28kB_D_Cytosol", 
+         "target": "D28kB_deg"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "D28kB_deg", 
+         "target": "D28kB_degsink"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "D28kB_Cytosol", 
+         "target": "D28kB_deg"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "D28k_D_Cytosol", 
+         "target": "D28k_deg"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "D28k_deg", 
+         "target": "D28k_degsink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "D28k_Cytosol", 
+         "target": "D28k_deg"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Mg_D_Cytosol", 
+         "target": "PA_MgD"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "PA_D_Cytosol", 
+         "target": "PA_MgD"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "PA_MgD", 
+         "target": "PABMg_D_Cytosol"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "PA_Cytosol", 
+         "target": "PA_Ca"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "PA_Ca"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "PA_Ca", 
+         "target": "PABCa_Cytosol"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "PABMg_D_Cytosol", 
+         "target": "PABMg_deg"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "PABMg_deg", 
+         "target": "PABMg_degsink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "PABMg_Cytosol", 
+         "target": "PABMg_deg"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "D28k_high_D_Cytosol", 
+         "target": "D28k_high_deg"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "D28k_high_deg", 
+         "target": "D28k_high_degsink"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "D28k_high_Cytosol", 
+         "target": "D28k_high_deg"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "Ca_d"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "Ca_d", 
+         "target": "Ca_dsink"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "Ca_D_Cytosol", 
+         "target": "Ca_d"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "D28kB_high_D_Cytosol", 
+         "target": "D28kB_high_deg"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "D28kB_high_deg", 
+         "target": "D28kB_high_degsink"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "D28kB_high_Cytosol", 
+         "target": "D28kB_high_deg"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "CG_Cytosol", 
+         "target": "CG_d"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "CG_d", 
+         "target": "CG_dsink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "CG_D_Cytosol", 
+         "target": "CG_d"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "D28kB_Cytosol", 
+         "target": "D28kB_d"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "D28kB_d", 
+         "target": "D28kB_dsink"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "D28kB_D_Cytosol", 
+         "target": "D28kB_d"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "h_D_ERM", 
+         "target": "reaction1"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "reaction1", 
+         "target": "reaction1sink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "Ca_D_Cytosol", 
+         "target": "reaction1"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "CGbinding"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "CG_Cytosol", 
+         "target": "CGbinding"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "CGbinding", 
+         "target": "CGB_Cytosol"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "D28k_Cytosol", 
+         "target": "CaD28k_med"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "CaD28k_med"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "CaD28k_med", 
+         "target": "D28kB_Cytosol"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "PABCa_D_Cytosol", 
+         "target": "PABCa_deg"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "PABCa_deg", 
+         "target": "PABCa_degsink"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "PABCa_Cytosol", 
+         "target": "PABCa_deg"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "IP3_Cytosol", 
+         "target": "IP3_d"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "IP3_d", 
+         "target": "IP3_dsink"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "IP3_D_Cytosol", 
+         "target": "IP3_d"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "D28k_high_Cytosol", 
+         "target": "D28k_high_d"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "D28k_high_d", 
+         "target": "D28k_high_dsink"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "D28k_high_D_Cytosol", 
+         "target": "D28k_high_d"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "h_ERM", 
+         "target": "reaction0"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "reaction0", 
+         "target": "reaction0sink"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "Ca_Cytosol", 
+         "target": "reaction0"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "PABMg_Cytosol", 
+         "target": "PABMg_d"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "PABMg_d", 
+         "target": "PABMg_dsink"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "PABMg_D_Cytosol", 
+         "target": "PABMg_d"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "CD28k_high"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "D28k_high_Cytosol", 
+         "target": "CD28k_high"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "CD28k_high", 
+         "target": "D28kB_high_Cytosol"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "D28k_D_Cytosol", 
+         "target": "D28kBDbinding"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "D28kBDbinding"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "D28kBDbinding", 
+         "target": "D28kB_D_Cytosol"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "PABCa_Cytosol", 
+         "target": "PABCa_d"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "PABCa_d", 
+         "target": "PABCa_dsink"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "PABCa_D_Cytosol", 
+         "target": "PABCa_d"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "PA_Cytosol", 
+         "target": "PA_d"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "PA_d", 
+         "target": "PA_dsink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "PA_D_Cytosol", 
+         "target": "PA_d"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "CGB_D_Cytosol", 
+         "target": "CGB_deg"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "CGB_deg", 
+         "target": "CGB_degsink"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 168, 
+         "source": "CGB_Cytosol", 
+         "target": "CGB_deg"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "PA_Cytosol", 
+         "target": "PA_Mg"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "Mg_Cytosol", 
+         "target": "PA_Mg"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "PA_Mg", 
+         "target": "PABMg_Cytosol"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "PA_D_Cytosol", 
+         "target": "PA_deg"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "PA_deg", 
+         "target": "PA_degsink"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 168, 
+         "source": "PA_Cytosol", 
+         "target": "PA_deg"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "IP3_Cytosol", 
+         "target": "IP3_degr"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "IP3_degr", 
+         "target": "IP3_degrsink"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "D28kB_high_Cytosol", 
+         "target": "D28kB_high_d"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 393, 
+         "source": "D28kB_high_d", 
+         "target": "D28kB_high_dsink"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 168, 
+         "source": "D28kB_high_D_Cytosol", 
+         "target": "D28kB_high_d"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "D28k_Cytosol", 
+         "target": "D28k_d"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "D28k_d", 
+         "target": "D28k_dsink"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 168, 
+         "source": "D28k_D_Cytosol", 
+         "target": "D28k_d"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "CGB_Cytosol", 
+         "target": "CGB_d"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "CGB_d", 
+         "target": "CGB_dsink"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "CGB_D_Cytosol", 
+         "target": "CGB_d"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "CG_Dbinding"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "CG_D_Cytosol", 
+         "target": "CG_Dbinding"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "CG_Dbinding", 
+         "target": "CGB_D_Cytosol"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "IP3_D_Cytosol", 
+         "target": "IP3_degr1"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "IP3_degr1", 
+         "target": "IP3_degr1sink"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "Ca_deg"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "Ca_deg", 
+         "target": "Ca_degsink"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 168, 
+         "source": "Ca_Cytosol", 
+         "target": "Ca_deg"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "pulsessink", 
+         "target": "pulses"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "pulses", 
+         "target": "IP3_Cytosol"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "ER_leak_flux"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "ER_leak_flux", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "ERDensity_ERM", 
+         "target": "ER_leak_flux"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "SERCA_fluxD"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "SERCA_fluxD", 
+         "target": "Ca_D_ER"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "ERDensity_D_ERM", 
+         "target": "SERCA_fluxD"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "IP3R_fluxD"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 393, 
+         "source": "IP3R_fluxD", 
+         "target": "Ca_D_ER"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 168, 
+         "source": "IP3_D_Cytosol", 
+         "target": "IP3R_fluxD"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 168, 
+         "source": "ERDensity_D_ERM", 
+         "target": "IP3R_fluxD"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 168, 
+         "source": "h_D_ERM", 
+         "target": "IP3R_fluxD"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "SERCA_flux"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "SERCA_flux", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 168, 
+         "source": "ERDensity_ERM", 
+         "target": "SERCA_flux"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "Ca_Extracellular", 
+         "target": "flux0"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "flux0", 
+         "target": "Ca_Cytosol"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "Ca_Cytosol", 
+         "target": "IP3R_flux"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 393, 
+         "source": "IP3R_flux", 
+         "target": "Ca_ER"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 168, 
+         "source": "IP3_Cytosol", 
+         "target": "IP3R_flux"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 168, 
+         "source": "h_ERM", 
+         "target": "IP3R_flux"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 168, 
+         "source": "ERDensity_ERM", 
+         "target": "IP3R_flux"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "Ca_D_Extracellular", 
+         "target": "flux1"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "flux1", 
+         "target": "Ca_D_Cytosol"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "Ca_D_Cytosol", 
+         "target": "ER_leak_fluxD"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "ER_leak_fluxD", 
+         "target": "Ca_D_ER"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 168, 
+         "source": "ERDensity_D_ERM", 
+         "target": "ER_leak_fluxD"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "CD28k_highDbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CD28k_highDbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28k_high_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28kB_high_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_Dbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_Dbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PA_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PABCa_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CG_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CG_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CG_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28kB_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28kB_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28kB_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28k_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28k_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28k_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_MgD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_MgD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mg_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mg_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PABMg_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_Ca", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_Ca", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PA_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PABCa_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PABMg_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PABMg_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28k_high_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28k_high_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28kB_high_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "D28kB_high_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CG_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28kB_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "h_D_ERM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "h_D_ERM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CGbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CGB_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CaD28k_med", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CaD28k_med", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PABCa_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28k_high_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_high_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "reaction0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "h_ERM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "h_ERM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PABMg_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABMg_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CD28k_high", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CD28k_high", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28kBDbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kBDbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PABCa_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PABCa_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CGB_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CGB_D_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_D_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_Mg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_Mg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mg_Cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mg_Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PA_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PA_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28kB_high_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28kB_high_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "D28k_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "D28k_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CGB_d", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_d", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CGB_dsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CG_Dbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CG_Dbinding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3_degr1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degr1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degr1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ca_deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pulses", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pulses", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pulsessink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ER_leak_flux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ER_leak_flux", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_ER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_ER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERDensity_ERM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ERDensity_ERM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SERCA_fluxD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SERCA_fluxD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_D_ER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_D_ER", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERDensity_D_ERM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ERDensity_D_ERM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R_fluxD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3R_fluxD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SERCA_flux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SERCA_flux", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "flux0", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "flux0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_Extracellular", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_Extracellular", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3R_flux", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3R_flux", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "flux1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "flux1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ca_D_Extracellular", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_D_Extracellular", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ER_leak_fluxD", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ER_leak_fluxD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Extracellular", 
+            "subnodes": [
+               "Ca_Extracellular", 
+               "flux0", 
+               "flux1", 
+               "Ca_D_Extracellular"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "CGB_Cytosol", 
+               "D28k_deg", 
+               "pulses", 
+               "CG_D_Cytosol", 
+               "IP3_degr", 
+               "IP3deg", 
+               "PA_Mg", 
+               "Mg_Cytosol", 
+               "PABMg_deg", 
+               "Ca_deg", 
+               "IP3_degr1", 
+               "IP3degsink", 
+               "CD28k_highDbinding", 
+               "Mg_D_Cytosol", 
+               "PA_D_Cytosol", 
+               "Ca_Cytosol", 
+               "PA_Cytosol", 
+               "D28k_high_D_Cytosol", 
+               "PA_deg", 
+               "Ca_D_Cytosol", 
+               "D28k_high_deg", 
+               "CGB_dsink", 
+               "PABCa_degsink", 
+               "IP3_degrsink", 
+               "PABMg_d", 
+               "PABMg_degsink", 
+               "PABCa_deg", 
+               "ER_leak_fluxD", 
+               "PABCa_d", 
+               "CG_dsink", 
+               "PABCa_Cytosol", 
+               "D28k_D_Cytosol", 
+               "Ca_d", 
+               "IP3_d", 
+               "Ca_dsink", 
+               "CG_degsink", 
+               "D28k_d", 
+               "flux1", 
+               "CGbinding", 
+               "ER_leak_flux", 
+               "D28kB_D_Cytosol", 
+               "SERCA_flux", 
+               "CG_d", 
+               "D28k_high_d", 
+               "D28k_high_dsink", 
+               "PA_degsink", 
+               "CG_deg", 
+               "D28kBDbinding", 
+               "CGB_deg", 
+               "PABMg_D_Cytosol", 
+               "PABMg_Cytosol", 
+               "CGB_degsink", 
+               "D28kB_high_d", 
+               "D28kB_d", 
+               "IP3_dsink", 
+               "IP3_degr1sink", 
+               "D28kB_high_degsink", 
+               "CGB_D_Cytosol", 
+               "PA_MgD", 
+               "D28kB_high_deg", 
+               "IP3R_fluxD", 
+               "Ca_degsink", 
+               "D28kB_high_Cytosol", 
+               "PA_d", 
+               "D28kB_dsink", 
+               "CG_Dbinding", 
+               "D28k_degsink", 
+               "SERCA_fluxD", 
+               "CGB_d", 
+               "IP3_D_Cytosol", 
+               "PA_Dbinding", 
+               "CG_Cytosol", 
+               "D28kB_high_D_Cytosol", 
+               "pulsessink", 
+               "D28kB_high_dsink", 
+               "PABCa_D_Cytosol", 
+               "D28k_high_degsink", 
+               "D28k_dsink", 
+               "IP3_Cytosol", 
+               "PA_Ca", 
+               "PA_dsink", 
+               "CD28k_high", 
+               "IP3R_flux", 
+               "CaD28k_med", 
+               "D28kB_degsink", 
+               "D28k_Cytosol", 
+               "PABCa_dsink", 
+               "D28kB_deg", 
+               "PABMg_dsink", 
+               "D28kB_Cytosol", 
+               "D28k_high_Cytosol", 
+               "flux0"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ER", 
+            "subnodes": [
+               "IP3R_flux", 
+               "ER_leak_fluxD", 
+               "Ca_ER", 
+               "IP3R_fluxD", 
+               "SERCA_fluxD", 
+               "Ca_D_ER", 
+               "ER_leak_flux", 
+               "SERCA_flux"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "PM", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "PM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "ERM", 
+            "subnodes": [
+               "reaction0", 
+               "reaction1", 
+               "ERDensity_ERM", 
+               "reaction1sink", 
+               "h_ERM", 
+               "ERDensity_D_ERM", 
+               "h_D_ERM", 
+               "reaction0sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ERM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

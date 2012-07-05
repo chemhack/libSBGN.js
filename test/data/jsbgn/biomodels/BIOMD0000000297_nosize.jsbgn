@@ -1,0 +1,2100 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Trim", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Sic"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "Clb"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Trim", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "Clb"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Trim", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "Sic"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "Cdh1", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Trim", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "PTrim"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "Sic", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Clb", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "Trim"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "PTrim", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "Trim"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Clb", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "R7sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "Cdh1", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Clb", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "PClb"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "R9sink", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "Clb"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "mass", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Mcm", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "PClb", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "Clb"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "SBF", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "R11sink"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "R12sink", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "SBF"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "mass", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "IE", 
+         "target": "R13"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R13", 
+         "target": "R13sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "R14sink", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "IE"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "Cdc20a", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "Cdc20"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "Cdc20a", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "R16sink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "Cdc20a"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "IE", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "Cdh1", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "R19sink"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "R20sink", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "R20", 
+         "target": "Cdh1"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "R20"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "Swe1", 
+         "target": "R21"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "R21", 
+         "target": "Swe1M"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "PSwe1", 
+         "target": "R22"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "R22", 
+         "target": "PSwe1M"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "Swe1", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "R23", 
+         "target": "PSwe1"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R23"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "Swe1M", 
+         "target": "R24"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "R24", 
+         "target": "PSwe1M"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R24"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "Swe1", 
+         "target": "R25"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "R25", 
+         "target": "R25sink"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "Swe1M", 
+         "target": "R26"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "R26", 
+         "target": "Swe1"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "PSwe1M", 
+         "target": "R27"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "R27", 
+         "target": "PSwe1"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "PSwe1", 
+         "target": "R28"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "R28", 
+         "target": "Swe1"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "PSwe1M", 
+         "target": "R29"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "R29", 
+         "target": "Swe1M"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "R30sink", 
+         "target": "R30"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "R30", 
+         "target": "Swe1"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "SBF", 
+         "target": "R30"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "R31sink", 
+         "target": "R31"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "R31", 
+         "target": "Swe1"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "PSwe1", 
+         "target": "R32"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "R32", 
+         "target": "R32sink"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "PTrim", 
+         "target": "R33"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "R33", 
+         "target": "PClb"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "R33", 
+         "target": "Sic"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "PTrim", 
+         "target": "R34"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "R34", 
+         "target": "Sic"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 168, 
+         "source": "Cdh1", 
+         "target": "R34"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "R34"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 394, 
+         "source": "PTrim", 
+         "target": "R35"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 393, 
+         "source": "R35", 
+         "target": "PClb"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R35"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R35"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 394, 
+         "source": "Sic", 
+         "target": "R36"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "PClb", 
+         "target": "R36"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "R36", 
+         "target": "PTrim"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "Mih1a", 
+         "target": "R37"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "R37", 
+         "target": "R37sink"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "R38sink", 
+         "target": "R38"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "R38", 
+         "target": "Mih1a"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R38"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "Mcm", 
+         "target": "R39"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "R39", 
+         "target": "R39sink"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 394, 
+         "source": "R40sink", 
+         "target": "R40"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 393, 
+         "source": "R40", 
+         "target": "Mcm"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R40"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "BE", 
+         "target": "R41"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "R41", 
+         "target": "R41sink"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "R42sink", 
+         "target": "R42"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "R42", 
+         "target": "BE"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R42"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 394, 
+         "source": "Sic", 
+         "target": "R43"
+      }, 
+      {
+         "id": "edge112", 
+         "sbo": 393, 
+         "source": "R43", 
+         "target": "R43sink"
+      }, 
+      {
+         "id": "edge113", 
+         "sbo": 168, 
+         "source": "Cln", 
+         "target": "R43"
+      }, 
+      {
+         "id": "edge114", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R43"
+      }, 
+      {
+         "id": "edge115", 
+         "sbo": 394, 
+         "source": "R44sink", 
+         "target": "R44"
+      }, 
+      {
+         "id": "edge116", 
+         "sbo": 393, 
+         "source": "R44", 
+         "target": "Sic"
+      }, 
+      {
+         "id": "edge117", 
+         "sbo": 394, 
+         "source": "Cln", 
+         "target": "R45"
+      }, 
+      {
+         "id": "edge118", 
+         "sbo": 393, 
+         "source": "R45", 
+         "target": "R45sink"
+      }, 
+      {
+         "id": "edge119", 
+         "sbo": 394, 
+         "source": "R46sink", 
+         "target": "R46"
+      }, 
+      {
+         "id": "edge120", 
+         "sbo": 393, 
+         "source": "R46", 
+         "target": "Cln"
+      }, 
+      {
+         "id": "edge121", 
+         "sbo": 168, 
+         "source": "SBF", 
+         "target": "R46"
+      }, 
+      {
+         "id": "edge122", 
+         "sbo": 394, 
+         "source": "Swe1M", 
+         "target": "R47"
+      }, 
+      {
+         "id": "edge123", 
+         "sbo": 393, 
+         "source": "R47", 
+         "target": "R47sink"
+      }, 
+      {
+         "id": "edge124", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R48"
+      }, 
+      {
+         "id": "edge125", 
+         "sbo": 393, 
+         "source": "R48", 
+         "target": "R48sink"
+      }, 
+      {
+         "id": "edge126", 
+         "sbo": 394, 
+         "source": "R49sink", 
+         "target": "R49"
+      }, 
+      {
+         "id": "edge127", 
+         "sbo": 393, 
+         "source": "R49", 
+         "target": "Cdc20"
+      }, 
+      {
+         "id": "edge128", 
+         "sbo": 168, 
+         "source": "Clb", 
+         "target": "R49"
+      }, 
+      {
+         "id": "edge129", 
+         "sbo": 394, 
+         "source": "PSwe1M", 
+         "target": "R50"
+      }, 
+      {
+         "id": "edge130", 
+         "sbo": 393, 
+         "source": "R50", 
+         "target": "R50sink"
+      }, 
+      {
+         "id": "edge131", 
+         "sbo": 394, 
+         "source": "PClb", 
+         "target": "R51"
+      }, 
+      {
+         "id": "edge132", 
+         "sbo": 393, 
+         "source": "R51", 
+         "target": "R51sink"
+      }, 
+      {
+         "id": "edge133", 
+         "sbo": 168, 
+         "source": "Cdh1", 
+         "target": "R51"
+      }, 
+      {
+         "id": "edge134", 
+         "sbo": 168, 
+         "source": "Cdc20a", 
+         "target": "R51"
+      }, 
+      {
+         "id": "edge135", 
+         "sbo": 394, 
+         "source": "R52sink", 
+         "target": "R52"
+      }, 
+      {
+         "id": "edge136", 
+         "sbo": 393, 
+         "source": "R52", 
+         "target": "mass"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb-Sic dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CDC28_Clb2_Sic1_Complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Trim", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sic1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sic", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clb2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Clb", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 removal from complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cln", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cln", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sic1 removal from complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdh1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdh1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20 activated", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20a", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylation of Cdc28-Clb2-Sic1 complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated Cdc28_Clb2_Sic1 Complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTrim", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Dephosphorylation of complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated Clb2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PClb", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mass", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mass", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mcm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mcm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBF inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SBF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SBF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBF synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IE inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Intermediary Enzyme", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IE", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IE synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20 deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "activated Cdc20 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdh1inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdh1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1 modification", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Swe1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Swe1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Swe1 modified", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Swe1M", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphorylated Swe1 modification", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated Swe1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PSwe1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphorylated Swe1M", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PSwe1M", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1 phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1M phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R25sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1 production from its modified form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PSwe1 production from its modified form", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PSwe1 dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PSwe1M dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBF dependent Swe1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R31sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PSwe1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R32sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PTrim complex dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sic1 dissociation from PTrim complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PClb dissociation from PTrim complex", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PTrim complex formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mih1a inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mih1a", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mih1a", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R37sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mih1a synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mcm inhibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mcm synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R40", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R40sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BE degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R41", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BE", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BE", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R41sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BE formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R42sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sic1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R43sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Sic1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R44sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cln degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R45sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SBF dependent Cln synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R46", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R46sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Swe1M degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R47", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R47sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cdc20 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R48", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R48sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clb2 dependent Cdc20 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R49", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R49sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PSwe1M degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R50", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R50sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PClb degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R51", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R51sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "cell mass", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R52", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R52sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "BE", 
+               "R14sink", 
+               "R40sink", 
+               "PTrim", 
+               "R38", 
+               "R39", 
+               "R34", 
+               "R35", 
+               "R36", 
+               "R37", 
+               "R30", 
+               "R31", 
+               "R32", 
+               "R33", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R7", 
+               "R31sink", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R8", 
+               "R9", 
+               "R52", 
+               "PSwe1M", 
+               "R47sink", 
+               "R48sink", 
+               "R30sink", 
+               "R16", 
+               "R38sink", 
+               "R7sink", 
+               "R15", 
+               "R12", 
+               "R13", 
+               "R10", 
+               "R11", 
+               "R47", 
+               "R18", 
+               "R19", 
+               "SBF", 
+               "R37sink", 
+               "R50sink", 
+               "R39sink", 
+               "R44sink", 
+               "Cdc20a", 
+               "R13sink", 
+               "R46sink", 
+               "R42sink", 
+               "R11sink", 
+               "Mih1a", 
+               "Cln", 
+               "PSwe1", 
+               "R25sink", 
+               "Clb", 
+               "Swe1", 
+               "Mcm", 
+               "IE", 
+               "R45sink", 
+               "PClb", 
+               "R9sink", 
+               "R20sink", 
+               "Cdc20", 
+               "R45", 
+               "R44", 
+               "R19sink", 
+               "R46", 
+               "R41", 
+               "R40", 
+               "R43", 
+               "R42", 
+               "R49", 
+               "R48", 
+               "R52sink", 
+               "Sic", 
+               "R32sink", 
+               "Cdh1", 
+               "R50", 
+               "R51", 
+               "R51sink", 
+               "R14", 
+               "R43sink", 
+               "R49sink", 
+               "Swe1M", 
+               "Trim", 
+               "R41sink", 
+               "R16sink", 
+               "R12sink", 
+               "mass", 
+               "R29", 
+               "R28", 
+               "R27", 
+               "R26", 
+               "R25", 
+               "R24", 
+               "R23", 
+               "R22", 
+               "R21", 
+               "R20"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

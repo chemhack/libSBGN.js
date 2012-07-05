@@ -1,0 +1,560 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Pfr", 
+         "target": "Photoreceptor_activation"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Photoreceptor_activation", 
+         "target": "Pr"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Pr", 
+         "target": "Photoreceptor_inactivation"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Photoreceptor_inactivation", 
+         "target": "Pfr"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Xi", 
+         "target": "Transducer_activation"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Transducer_activation", 
+         "target": "Xa"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "Pr", 
+         "target": "Transducer_activation"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Xa", 
+         "target": "Transducer_inactivation"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Transducer_inactivation", 
+         "target": "Xi"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "prepreS", 
+         "target": "preS_formation"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "preS_formation", 
+         "target": "preS"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "Xa", 
+         "target": "preS_formation"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "preS", 
+         "target": "S_generation"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "S_generation", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "Ya", 
+         "target": "S_generation"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "Ya", 
+         "target": "Glucose_sensor_inactivation"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "Gluc", 
+         "target": "Glucose_sensor_inactivation"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Glucose_sensor_inactivation", 
+         "target": "Yi"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "S_formationsink", 
+         "target": "S_formation"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "S_formation", 
+         "target": "S"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "V", 
+         "target": "S_formation"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "V_formationsink", 
+         "target": "V_formation"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "V_formation", 
+         "target": "V"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "V_formation"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "S", 
+         "target": "S_degradation"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "S_degradation", 
+         "target": "S_degradationsink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "V", 
+         "target": "V_degradation"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "V_degradation", 
+         "target": "V_degradationsink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "Pr", 
+         "target": "Photoreceptor_decay"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Photoreceptor_decay", 
+         "target": "Pi"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Photoreceptor_activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Photoreceptor_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pfr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pfr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pr", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Photoreceptor_inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Photoreceptor_inactivation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transducer_activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Transducer_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xi", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xa", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Xa", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transducer_inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Transducer_inactivation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "preS_formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "preS_formation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "prepreS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prepreS", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "preS", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "preS", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S_generation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_generation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ya", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ya", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose_sensor_inactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glucose_sensor_inactivation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Gluc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gluc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Yi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Yi", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S_formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_formation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_formationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "V", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "V_formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V_formation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V_formationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "S_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "V_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "V_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Photoreceptor_decay", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Photoreceptor_decay", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "compartment", 
+            "subnodes": [
+               "Pr", 
+               "Glucose_sensor_inactivation", 
+               "V", 
+               "S_formation", 
+               "Photoreceptor_inactivation", 
+               "Pi", 
+               "preS", 
+               "Transducer_activation", 
+               "Yi", 
+               "Ya", 
+               "Pfr", 
+               "prepreS", 
+               "V_degradation", 
+               "Transducer_inactivation", 
+               "S_generation", 
+               "Photoreceptor_decay", 
+               "V_formationsink", 
+               "S", 
+               "Photoreceptor_activation", 
+               "S_degradation", 
+               "preS_formation", 
+               "Xi", 
+               "Xa", 
+               "S_formationsink", 
+               "V_formation", 
+               "S_degradationsink", 
+               "V_degradationsink", 
+               "Gluc"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

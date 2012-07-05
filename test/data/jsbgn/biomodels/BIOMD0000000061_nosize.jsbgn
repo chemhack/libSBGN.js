@@ -1,0 +1,1083 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "GlcX0", 
+         "target": "vinGlc"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vinGlc", 
+         "target": "GlcX"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "GlcX", 
+         "target": "vGlcTrans"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "vGlcTrans", 
+         "target": "Glc"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "G6P", 
+         "target": "vGlcTrans"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Glc", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "vHK", 
+         "target": "G6P"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "vHK", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "vPGI"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "vPGI", 
+         "target": "F6P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "F6P", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "vPFK", 
+         "target": "FBP"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "vPFK", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "AMP", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "FBP", 
+         "target": "vALD"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "vALD", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "vALD", 
+         "target": "DHAP"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "vTIM"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "vTIM", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "vGAPDH"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "vGAPDH"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "vGAPDH", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "vGAPDH", 
+         "target": "BPG"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "BPG", 
+         "target": "vlpPEP"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "vlpPEP"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "vlpPEP", 
+         "target": "PEP"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "vlpPEP", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "ADP", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "PEP", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "vPK", 
+         "target": "Pyr"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "vPK", 
+         "target": "ATP"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "vPDC"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "vPDC", 
+         "target": "ACA"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "vADH"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "ACA", 
+         "target": "vADH"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "vADH", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "vADH", 
+         "target": "EtOH"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "EtOH", 
+         "target": "vdifEtOH"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "vdifEtOH", 
+         "target": "EtOHX"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "EtOHX", 
+         "target": "voutEtOH"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "voutEtOH", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "vlpGlyc"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "vlpGlyc"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "vlpGlyc", 
+         "target": "Glyc"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "vlpGlyc", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "Glyc", 
+         "target": "vdifGlyc"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "vdifGlyc", 
+         "target": "GlycX"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "GlycX", 
+         "target": "voutGlyc"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "voutGlyc", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "ACA", 
+         "target": "vdifACA"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "vdifACA", 
+         "target": "ACAX"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "ACAX", 
+         "target": "voutACA"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "voutACA", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "CNX", 
+         "target": "vlacto"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "ACAX", 
+         "target": "vlacto"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "vlacto", 
+         "target": "P"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "CNX0", 
+         "target": "vinCN"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "vinCN", 
+         "target": "CNX"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vstorage"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "G6P", 
+         "target": "vstorage"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "vstorage", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vconsum"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "vconsum", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "vAK"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "AMP", 
+         "target": "vAK"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "vAK", 
+         "target": "ADP"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose Mixed flow to extracellular medium", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vinGlc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mixed flow glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GlcX0", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GlcX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose uptake", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGlcTrans", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose-6-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "G6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hexokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vHK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoglucoisomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose-6-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphofructokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPFK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose 1,6-bisphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "FBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AMP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AMP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vALD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glyceraldehyde 3-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Dihydroxyacetone phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Triosephosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTIM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glyceraldehyde 3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGAPDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "1,3-Bisphosphoglycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BPG", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoenolpyruvate synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vlpPEP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphoenolpyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pyr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate decarboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPDC", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Acetaldehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Alcohol dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vADH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EtOH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EtOH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ethanol out", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vdifEtOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular ethanol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EtOHX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ethanol flow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "voutEtOH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vlpGlyc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glycerol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glyc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol out", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vdifGlyc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular glycerol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GlycX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol flow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "voutGlyc", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acetaldehyde out", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vdifACA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular acetaldehyde", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ACAX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Acetaldehyde flow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "voutACA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cyanide-Acetaldehyde flow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vlacto", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular cyanide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CNX", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Cyanide flow", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vinCN", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mixed flow cyanide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CNX0", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Storage", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vstorage", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP consumption", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vconsum", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Adenylate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vAK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "vinCN", 
+               "GlycX", 
+               "vdifACA", 
+               "GlcX", 
+               "voutGlyc", 
+               "voutEtOH", 
+               "EtOHX", 
+               "CNX", 
+               "voutACA", 
+               "P", 
+               "vinGlc", 
+               "GlcX0", 
+               "vdifEtOH", 
+               "vGlcTrans", 
+               "vlacto", 
+               "CNX0", 
+               "vdifGlyc", 
+               "ACAX"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "ACA", 
+               "NADH", 
+               "vstorage", 
+               "BPG", 
+               "vlpPEP", 
+               "PEP", 
+               "Glyc", 
+               "ATP", 
+               "GAP", 
+               "vconsum", 
+               "NAD", 
+               "Pyr", 
+               "vALD", 
+               "vPDC", 
+               "vHK", 
+               "AMP", 
+               "vPFK", 
+               "vADH", 
+               "EtOH", 
+               "ADP", 
+               "vTIM", 
+               "Glc", 
+               "vGAPDH", 
+               "vdifEtOH", 
+               "vGlcTrans", 
+               "vPK", 
+               "vAK", 
+               "FBP", 
+               "vdifACA", 
+               "vlpGlyc", 
+               "DHAP", 
+               "vdifGlyc", 
+               "G6P", 
+               "vPGI", 
+               "F6P"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

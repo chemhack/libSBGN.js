@@ -1,0 +1,1236 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RAF", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "RAFK", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "Reaction1", 
+         "target": "RAFRAFK"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "RAFRAFK", 
+         "target": "Reaction2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "Reaction2", 
+         "target": "RAF"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Reaction2", 
+         "target": "RAFK"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "RAFRAFK", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Reaction3", 
+         "target": "RAFK"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "Reaction3", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "RAFp", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "RAFPH", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Reaction4", 
+         "target": "RAFpRAFPH"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "RAFpRAFPH", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Reaction5", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "Reaction5", 
+         "target": "RAFPH"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "RAFpRAFPH", 
+         "target": "Reaction6"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "RAF"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "RAFPH"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "MEK", 
+         "target": "Reaction7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "RAFp", 
+         "target": "Reaction7"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "Reaction7", 
+         "target": "MEKRAFp"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "MEKRAFp", 
+         "target": "Reaction8"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "MEK"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "MEKRAFp", 
+         "target": "Reaction9"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Reaction9", 
+         "target": "MEKp"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "Reaction9", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "MEKp", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "MEKPH", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "Reaction10", 
+         "target": "MEKpMEKPH"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "MEKpMEKPH", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "Reaction11", 
+         "target": "MEKp"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "Reaction11", 
+         "target": "MEKPH"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "MEKpMEKPH", 
+         "target": "Reaction12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "MEK"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "MEKPH"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "MEKp", 
+         "target": "Reaction13"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "RAFp", 
+         "target": "Reaction13"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "Reaction13", 
+         "target": "MEKpRAFp"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "MEKpRAFp", 
+         "target": "Reaction14"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "Reaction14", 
+         "target": "MEKp"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "Reaction14", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "MEKpRAFp", 
+         "target": "Reaction15"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "Reaction15", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "Reaction15", 
+         "target": "RAFp"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "MEKPH", 
+         "target": "Reaction16"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "MEKpp", 
+         "target": "Reaction16"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "Reaction16", 
+         "target": "MEKppMEKPH"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "MEKppMEKPH", 
+         "target": "Reaction17"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "Reaction17", 
+         "target": "MEKPH"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "Reaction17", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "MEKppMEKPH", 
+         "target": "Reaction18"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "Reaction18", 
+         "target": "MEKp"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "Reaction18", 
+         "target": "MEKPH"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "MAPK", 
+         "target": "Reaction19"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "MEKpp", 
+         "target": "Reaction19"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "Reaction19", 
+         "target": "MAPKMEKpp"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "MAPKMEKpp", 
+         "target": "Reaction20"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "Reaction20", 
+         "target": "MAPK"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "Reaction20", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "MAPKMEKpp", 
+         "target": "Reaction21"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "Reaction21", 
+         "target": "MAPKp"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "Reaction21", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "MAPKp", 
+         "target": "Reaction22"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "MAPKPH", 
+         "target": "Reaction22"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "Reaction22", 
+         "target": "MAPKpMAPKPH"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "MAPKpMAPKPH", 
+         "target": "Reaction23"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "Reaction23", 
+         "target": "MAPKp"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "Reaction23", 
+         "target": "MAPKPH"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "MAPKpMAPKPH", 
+         "target": "Reaction24"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "Reaction24", 
+         "target": "MAPK"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "Reaction24", 
+         "target": "MAPKPH"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "MAPKp", 
+         "target": "Reaction25"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "MEKpp", 
+         "target": "Reaction25"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "Reaction25", 
+         "target": "MAPKpMEKpp"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "MAPKpMEKpp", 
+         "target": "Reaction26"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "Reaction26", 
+         "target": "MAPKp"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "Reaction26", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "MAPKpMEKpp", 
+         "target": "Reaction27"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "Reaction27", 
+         "target": "MAPKpp"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "Reaction27", 
+         "target": "MEKpp"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 394, 
+         "source": "MAPKPH", 
+         "target": "Reaction28"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "MAPKpp", 
+         "target": "Reaction28"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "Reaction28", 
+         "target": "MAPKppMAPKPH"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "MAPKppMAPKPH", 
+         "target": "Reaction29"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "Reaction29", 
+         "target": "MAPKPH"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "Reaction29", 
+         "target": "MAPKpp"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "MAPKppMAPKPH", 
+         "target": "Reaction30"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "Reaction30", 
+         "target": "MAPKp"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "Reaction30", 
+         "target": "MAPKPH"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of RAF and RAFK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAFK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAFK", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAF_RAFK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAFRAFK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of RAF_RAFK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of RAF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAF-P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAFp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of RAF-P and RAF phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAF phosphatase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAFPH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RAF-P_RAFPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RAFpRAFPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of RAF-P_RAFPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of RAF-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MEK and RAF-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK_RAF-P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKRAFp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MEK_RAF-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of MEK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK-P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MEK-P and MEK phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK phosphatase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKPH", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK-P_MEKPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKpMEKPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MEK-P_MEKPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MEK-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MEK-P and RAF-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK-P_RAF-P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKpRAFp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MEK-P_RAF-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of MEK-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MEK-PP and MEK phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK-PP_MEKPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEKppMEKPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MEK-PP_MEKPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MEK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPK and MEK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK_MEK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKMEKpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MAPK_MEK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of MAPK", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPK-P and MAPK phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction22", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK phosphatase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-P_MAPKPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKpMAPKPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MAPK-P_MAPKPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MAPK-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPK-P and MEK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-P_MEK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKpMEKpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MAPK-P_MEK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of MAPK-P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "binding of MAPK-PP and MAPK phosphatase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MAPK-PP_MAPKPase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MAPKppMAPKPH", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dissociation of MAPK-PP_MAPKPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of MAPK-PP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytoplasm", 
+            "subnodes": [
+               "Reaction21", 
+               "Reaction20", 
+               "Reaction23", 
+               "MAPKMEKpp", 
+               "Reaction25", 
+               "Reaction24", 
+               "Reaction27", 
+               "Reaction15", 
+               "MEKPH", 
+               "RAFpRAFPH", 
+               "MAPKPH", 
+               "Reaction30", 
+               "RAFRAFK", 
+               "MEKppMEKPH", 
+               "Reaction17", 
+               "MEKpRAFp", 
+               "RAF", 
+               "Reaction3", 
+               "Reaction1", 
+               "Reaction6", 
+               "Reaction7", 
+               "Reaction4", 
+               "Reaction5", 
+               "Reaction8", 
+               "Reaction9", 
+               "MEKpMEKPH", 
+               "Reaction29", 
+               "Reaction28", 
+               "Reaction14", 
+               "Reaction2", 
+               "Reaction16", 
+               "MEKRAFp", 
+               "Reaction10", 
+               "Reaction11", 
+               "Reaction12", 
+               "Reaction13", 
+               "Reaction26", 
+               "Reaction18", 
+               "Reaction19", 
+               "MEKpp", 
+               "MAPKpp", 
+               "RAFp", 
+               "MAPKppMAPKPH", 
+               "RAFPH", 
+               "RAFK", 
+               "MAPK", 
+               "MEK", 
+               "Reaction22", 
+               "MAPKp", 
+               "MEKp", 
+               "MAPKpMEKpp", 
+               "MAPKpMAPKPH"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

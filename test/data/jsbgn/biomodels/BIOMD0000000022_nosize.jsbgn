@@ -1,0 +1,1118 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Reaction1", 
+         "target": "Perm"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "CCn", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "PTn", 
+         "target": "Reaction1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Perm", 
+         "target": "Reaction2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Reaction2", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Reaction3", 
+         "target": "Timm"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "CCn", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "PTn", 
+         "target": "Reaction3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Timm", 
+         "target": "Reaction4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Reaction4", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Reaction5", 
+         "target": "Clkm"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "PTn", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "CCn", 
+         "target": "Reaction5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "Clkm", 
+         "target": "Reaction6"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "Reaction6", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "CCc", 
+         "target": "Reaction7"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "Reaction7", 
+         "target": "CCn"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "CCn", 
+         "target": "Reaction8"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "Reaction8", 
+         "target": "CCc"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "PTn", 
+         "target": "Reaction9"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "Reaction9", 
+         "target": "PTc"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "PTc", 
+         "target": "Reaction10"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "Reaction10", 
+         "target": "PTn"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "species_0000012", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Clkc", 
+         "target": "Reaction11"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "Reaction11", 
+         "target": "CCc"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "Perc", 
+         "target": "Reaction12"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "Timc", 
+         "target": "Reaction12"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "Reaction12", 
+         "target": "PTc"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction16"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "Reaction16", 
+         "target": "Timc"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "Timm", 
+         "target": "Reaction16"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction18"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "Reaction18", 
+         "target": "Clkc"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "Clkm", 
+         "target": "Reaction18"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "EmptySet", 
+         "target": "Reaction19"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "Reaction19", 
+         "target": "Perc"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "Perm", 
+         "target": "Reaction19"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "Perc", 
+         "target": "Reaction20"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "Reaction20", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "PTc", 
+         "target": "Reaction21"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "Reaction21", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "PTn", 
+         "target": "Reaction23"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "Reaction23", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 394, 
+         "source": "CCc", 
+         "target": "Reaction24"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 393, 
+         "source": "Reaction24", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "Clkc", 
+         "target": "Reaction25"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "Reaction25", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "CCn", 
+         "target": "Reaction26"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "Reaction26", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "Timc", 
+         "target": "Reaction27"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "Reaction27", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "Perm", 
+         "target": "Reaction28"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "Reaction28", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "Perc", 
+         "target": "Reaction29"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "Reaction29", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "species_0000013", 
+         "target": "Reaction29"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "Timm", 
+         "target": "Reaction30"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "Reaction30", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 394, 
+         "source": "Timc", 
+         "target": "Reaction31"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "Reaction31", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "PTc", 
+         "target": "Reaction32"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "Reaction32", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "PTn", 
+         "target": "Reaction33"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "Reaction33", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 394, 
+         "source": "Clkm", 
+         "target": "Reaction34"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 393, 
+         "source": "Reaction34", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "Clkc", 
+         "target": "Reaction35"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "Reaction35", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "CCc", 
+         "target": "Reaction36"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "Reaction36", 
+         "target": "EmptySet"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 394, 
+         "source": "CCn", 
+         "target": "Reaction37"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 393, 
+         "source": "Reaction37", 
+         "target": "EmptySet"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EmptySet", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Per_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Perm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clk-Cyc_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CCn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Per-Tim_nuc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTn", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Per mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tim transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Tim_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Timm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Tim mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clk_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Clkm", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Clk mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk-Cyc nuclear import", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clk-Cyc_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CCc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk-Cyc nuclear export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-Tim nuclear export", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Per-Tim_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PTc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-Tim nuclear import", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk Cyc equilibrium", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cyc_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000012", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Clk_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Clkc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per Tim equilibrium", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Per_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Perc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Tim_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Timc", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tim translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Per_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Per-Tim_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction21", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Per-Tim_nuc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction23", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Clk-Cyc_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction24", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Clk_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction25", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Clk-Cyc_nuc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction26", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "non-specific Tim_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction27", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Dbt regulated Per_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction29", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Dbt_cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000013", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tim mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tim_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-Tim_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Per-Tim_nuc degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction33", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk mRNA degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction34", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Clk-Cyc_cyt degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction36", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Reaction37", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Reaction37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Drosophilia", 
+            "subnodes": [
+               "Reaction21", 
+               "Reaction20", 
+               "Reaction23", 
+               "Reaction25", 
+               "Reaction24", 
+               "Reaction27", 
+               "Reaction26", 
+               "Reaction29", 
+               "Reaction28", 
+               "Reaction30", 
+               "Reaction2", 
+               "Reaction3", 
+               "Reaction1", 
+               "Reaction6", 
+               "Reaction4", 
+               "Reaction5", 
+               "Reaction32", 
+               "Reaction33", 
+               "Reaction16", 
+               "Reaction31", 
+               "Reaction36", 
+               "Reaction37", 
+               "Reaction34", 
+               "Reaction35", 
+               "Reaction18", 
+               "Reaction19", 
+               "EmptySet"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Drosophilia", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "Perc", 
+               "Reaction20", 
+               "Reaction25", 
+               "Reaction24", 
+               "Reaction27", 
+               "Reaction29", 
+               "Reaction28", 
+               "PTc", 
+               "Reaction30", 
+               "Perm", 
+               "Reaction34", 
+               "Reaction36", 
+               "Reaction2", 
+               "Reaction3", 
+               "Reaction1", 
+               "Reaction6", 
+               "species_0000012", 
+               "Reaction4", 
+               "Reaction5", 
+               "Reaction8", 
+               "Reaction9", 
+               "Timm", 
+               "CCc", 
+               "Reaction32", 
+               "Reaction16", 
+               "Reaction31", 
+               "Reaction10", 
+               "Reaction11", 
+               "Reaction12", 
+               "Reaction35", 
+               "Reaction18", 
+               "Reaction19", 
+               "Timc", 
+               "species_0000013", 
+               "Reaction7", 
+               "Clkm", 
+               "Clkc", 
+               "Reaction21"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_0000003", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "PTn", 
+               "Reaction23", 
+               "Reaction10", 
+               "Reaction7", 
+               "Reaction26", 
+               "Reaction8", 
+               "Reaction9", 
+               "CCn", 
+               "Reaction33", 
+               "Reaction37"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_0000002", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

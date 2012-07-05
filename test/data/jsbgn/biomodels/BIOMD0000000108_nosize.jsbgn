@@ -1,0 +1,717 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "reaction_0000001sink", 
+         "target": "reaction_0000001"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "reaction_0000001", 
+         "target": "species_0000001"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "species_0000002", 
+         "target": "reaction_0"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "reaction_0", 
+         "target": "reaction_0sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "species_0000006"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "species_0000002"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "species_0000007", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "species_0000009"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "species_0000006", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "species_0000008"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "species_0000006", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "species_0000008"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "species_0000002", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "species_0000006", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "reaction_5sink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 168, 
+         "source": "species_0000017", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "species_0000008", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "reaction_6sink"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "reaction_7sink", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "species_0000011"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "species_0000006"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "species_0000008", 
+         "target": "reaction_8"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "reaction_8", 
+         "target": "species_0000011"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "species_0000009", 
+         "target": "reaction_9"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_9", 
+         "target": "reaction_9sink"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "reaction_10sink", 
+         "target": "reaction_10"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "reaction_10", 
+         "target": "species_0000002"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "species_0000002", 
+         "target": "reaction_11"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "reaction_11", 
+         "target": "reaction_11sink"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "species_0000011", 
+         "target": "reaction_12"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "reaction_12", 
+         "target": "species_0000007"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "species_0000007", 
+         "target": "reaction_13"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "species_0000011"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "reaction_13", 
+         "target": "species_0000009"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "species_0000007", 
+         "target": "reaction_14"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "reaction_14", 
+         "target": "reaction_14sink"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "species_0000001", 
+         "target": "fast"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "fast", 
+         "target": "fastsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0000001sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "O2*-", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000001", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cu(II)ZnSOD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000002", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_0sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H2O2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000006", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LOO*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000007", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "LOOH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000009", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HO*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000008", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cat", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000017", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "L*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_0000011", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v13a", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v13b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "fast", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "fastsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "reaction_10", 
+               "reaction_10sink", 
+               "reaction_11", 
+               "reaction_11sink", 
+               "species_0000017", 
+               "species_0000011", 
+               "reaction_7sink", 
+               "fast", 
+               "fastsink", 
+               "reaction_5sink", 
+               "reaction_14sink", 
+               "reaction_6sink", 
+               "reaction_9sink", 
+               "reaction_0sink", 
+               "reaction_0000001", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_0", 
+               "reaction_1", 
+               "reaction_0000001sink", 
+               "reaction_8", 
+               "reaction_9", 
+               "species_0000006", 
+               "species_0000007", 
+               "species_0000001", 
+               "species_0000002", 
+               "reaction_14", 
+               "species_0000008", 
+               "species_0000009", 
+               "reaction_12", 
+               "reaction_13"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment_0000001", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

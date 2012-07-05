@@ -1,0 +1,1970 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "CC", 
+         "target": "re1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "PT", 
+         "target": "re1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "re1", 
+         "target": "CCPT"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "CC", 
+         "target": "re2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "re2", 
+         "target": "re2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "CCPT", 
+         "target": "re3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "re3", 
+         "target": "re3sink"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "PT", 
+         "target": "re4"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "re4", 
+         "target": "re4sink"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "clkm", 
+         "target": "re9"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "re9", 
+         "target": "re9sink"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "re10sink", 
+         "target": "re10"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "re10", 
+         "target": "CLK"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "clkm", 
+         "target": "re10"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "perm", 
+         "target": "re15"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "re15", 
+         "target": "re15sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "re17sink", 
+         "target": "re17"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "re17", 
+         "target": "PER"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "perm", 
+         "target": "re17"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "re20sink", 
+         "target": "re20"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "re20", 
+         "target": "perm"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "prcper", 
+         "target": "re20"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "perp", 
+         "target": "re20"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "re28sink", 
+         "target": "re28"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "re28", 
+         "target": "vrim"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "prcv", 
+         "target": "re28"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "vrip", 
+         "target": "re28"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "vrim", 
+         "target": "re30"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "re30", 
+         "target": "re30sink"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "re31sink", 
+         "target": "re31"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "re31", 
+         "target": "VRI"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "vrim", 
+         "target": "re31"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "VRI", 
+         "target": "re32"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "re32", 
+         "target": "re32sink"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "re35sink", 
+         "target": "re35"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "re35", 
+         "target": "pdpm"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "prcpdp", 
+         "target": "re35"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 168, 
+         "source": "pdpp", 
+         "target": "re35"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "pdpm", 
+         "target": "re37"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "re37", 
+         "target": "re37sink"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "re38sink", 
+         "target": "re38"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "re38", 
+         "target": "PDP"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "pdpm", 
+         "target": "re38"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "PDP", 
+         "target": "re39"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "re39", 
+         "target": "re39sink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "re42sink", 
+         "target": "re42"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "re42", 
+         "target": "clkm"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "prvc", 
+         "target": "re42"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "clkp", 
+         "target": "re42"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 168, 
+         "source": "prpc", 
+         "target": "re42"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "CLK", 
+         "target": "re43"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "CYC", 
+         "target": "re43"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "re43", 
+         "target": "CC"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "CLK", 
+         "target": "re44"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "re44", 
+         "target": "re44sink"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "CC", 
+         "target": "re45"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "re45", 
+         "target": "CLK"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "re45", 
+         "target": "CYC"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "PER", 
+         "target": "re46"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "TIM", 
+         "target": "re46"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "re46", 
+         "target": "PT"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "PT", 
+         "target": "re47"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "re47", 
+         "target": "PER"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 393, 
+         "source": "re47", 
+         "target": "TIM"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 394, 
+         "source": "PER", 
+         "target": "re48"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 393, 
+         "source": "re48", 
+         "target": "re48sink"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "re51sink", 
+         "target": "re51"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "re51", 
+         "target": "timm"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "prct", 
+         "target": "re51"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 168, 
+         "source": "timp", 
+         "target": "re51"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "timm", 
+         "target": "re53"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "re53", 
+         "target": "re53sink"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "re54sink", 
+         "target": "re54"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "re54", 
+         "target": "TIM"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "timm", 
+         "target": "re54"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "TIM", 
+         "target": "re55"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "re55", 
+         "target": "re55sink"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 394, 
+         "source": "CCPT", 
+         "target": "re56"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 393, 
+         "source": "re56", 
+         "target": "CC"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "re56", 
+         "target": "PT"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "re57sink", 
+         "target": "re57"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "re57", 
+         "target": "prcper"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 168, 
+         "source": "CC", 
+         "target": "re57"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 394, 
+         "source": "prcper", 
+         "target": "re58"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 393, 
+         "source": "re58", 
+         "target": "re58sink"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 394, 
+         "source": "prcv", 
+         "target": "re59"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 393, 
+         "source": "re59", 
+         "target": "re59sink"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 394, 
+         "source": "re60sink", 
+         "target": "re60"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 393, 
+         "source": "re60", 
+         "target": "prcv"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 168, 
+         "source": "CC", 
+         "target": "re60"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "prcpdp", 
+         "target": "re61"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "re61", 
+         "target": "re61sink"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "re62sink", 
+         "target": "re62"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "re62", 
+         "target": "prcpdp"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 168, 
+         "source": "CC", 
+         "target": "re62"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 394, 
+         "source": "re63sink", 
+         "target": "re63"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 393, 
+         "source": "re63", 
+         "target": "prvc"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 168, 
+         "source": "prpc", 
+         "target": "re63"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 168, 
+         "source": "VRI", 
+         "target": "re63"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 394, 
+         "source": "prvc", 
+         "target": "re64"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 393, 
+         "source": "re64", 
+         "target": "re64sink"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 394, 
+         "source": "re65sink", 
+         "target": "re65"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 393, 
+         "source": "re65", 
+         "target": "prpc"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 168, 
+         "source": "prvc", 
+         "target": "re65"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 168, 
+         "source": "PDP", 
+         "target": "re65"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 394, 
+         "source": "prpc", 
+         "target": "re66"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 393, 
+         "source": "re66", 
+         "target": "re66sink"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 394, 
+         "source": "re68sink", 
+         "target": "re68"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 393, 
+         "source": "re68", 
+         "target": "prct"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 168, 
+         "source": "CC", 
+         "target": "re68"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "prct", 
+         "target": "re69"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 393, 
+         "source": "re69", 
+         "target": "re69sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC PT association", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CCPT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CCPT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of CLK CYK dimer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of CC PT dimer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of PER TIM dimer", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of clk mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clkm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "clkm", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "clkm translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CLK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CLK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of per mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "perm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "perm", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "perm translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PER", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PER", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "per transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CCbindingPer", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prcper", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "perp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "perp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vri transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re28", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re28sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "vrim", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vrim", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CCbindingvri", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prcv", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "vrip", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vrip", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of vri mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re30", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re30sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "vrim translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re31", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re31sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VRI", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "VRI", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "VRI protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re32", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re32sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pdp transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re35", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re35sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pdpm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pdpm", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CCbindingpdp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prcpdp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pdpp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pdpp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of pdp mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re37", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re37sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pdpm translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re38", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re38sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PDP", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PDP protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re39", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re39sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "clk transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re42", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re42sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "VRIbindingclkp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prvc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "clkp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "clkp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PDPbindingclkp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prpc", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CLK CYC association", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re43", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CYC", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CYC", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CLK protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re44", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re44sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CLK CYC dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re45", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PER TIM association", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re46", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TIM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TIM", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PER TIM dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re47", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PER protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re48", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re48sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "tim transcription", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re51", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re51sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "timm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "timm", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CCbindingtim", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "prct", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "timp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "timp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Degradation of tim mRNA", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re53", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re53sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "timm translation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re54", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re54sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "TIM protein degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re55", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re55sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC PT dimer dissociation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re56", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC binding probability in per promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re57", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re57sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC Unbinding probability in per promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re58", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re58sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC Unbinding probability in vri promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re59", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re59sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC binding probability in vri promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re60", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re60sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC Unbinding probability in pdp1 promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re61", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re61sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC binding probability in pdp1 promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re62", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re62sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "VRI binding clk promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re63", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re63sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "VRI unbinding clk promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re64", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re64sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PDP binding clk promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re65", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re65sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PDP unbinding clk promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re66", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re66sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC binding probability in tim promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re68", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re68sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CC Unbinding probability in tim promoter", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re69", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re69sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "wholeCell", 
+            "subnodes": [
+               "re31sink", 
+               "TIM", 
+               "re60sink", 
+               "pdpp", 
+               "prpc", 
+               "re61sink", 
+               "re43", 
+               "re42", 
+               "re47", 
+               "re46", 
+               "re9sink", 
+               "re44", 
+               "re48", 
+               "re3sink", 
+               "re51sink", 
+               "re59sink", 
+               "re10sink", 
+               "re65", 
+               "re53sink", 
+               "prcv", 
+               "re30sink", 
+               "prcpdp", 
+               "re15", 
+               "re66sink", 
+               "re17", 
+               "re10", 
+               "re68sink", 
+               "re2sink", 
+               "re48sink", 
+               "re42sink", 
+               "vrim", 
+               "PT", 
+               "re66", 
+               "re69", 
+               "re68", 
+               "re61", 
+               "re60", 
+               "re63", 
+               "re62", 
+               "re20sink", 
+               "re64", 
+               "vrip", 
+               "re28sink", 
+               "re63sink", 
+               "prvc", 
+               "re32sink", 
+               "re9", 
+               "re2", 
+               "re3", 
+               "re1", 
+               "re4", 
+               "re37sink", 
+               "re55sink", 
+               "re38", 
+               "re39", 
+               "clkm", 
+               "re32", 
+               "re30", 
+               "re31", 
+               "re37", 
+               "PER", 
+               "re35", 
+               "re62sink", 
+               "clkp", 
+               "re69sink", 
+               "perm", 
+               "re65sink", 
+               "perp", 
+               "VRI", 
+               "re4sink", 
+               "re45", 
+               "CLK", 
+               "CC", 
+               "re44sink", 
+               "PDP", 
+               "re39sink", 
+               "re54sink", 
+               "re58sink", 
+               "re38sink", 
+               "re17sink", 
+               "re57sink", 
+               "pdpm", 
+               "CYC", 
+               "re20", 
+               "re35sink", 
+               "prcper", 
+               "re28", 
+               "prct", 
+               "re64sink", 
+               "re15sink", 
+               "timp", 
+               "re51", 
+               "re53", 
+               "re54", 
+               "re55", 
+               "re56", 
+               "re57", 
+               "re58", 
+               "re59", 
+               "CCPT", 
+               "timm"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "wholeCell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

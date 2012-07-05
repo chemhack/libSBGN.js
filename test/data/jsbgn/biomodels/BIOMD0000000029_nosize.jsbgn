@@ -1,0 +1,387 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "MpY"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "MEK", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "MpT", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "MpY", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "Mpp"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "MEK", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "MpT", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "M", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "MpT"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "MEK", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "MpY", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "MpT", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "Mpp"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "MEK", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "MpY", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "Mpp", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "MpT"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "MKP3", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "MpY", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "M", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "MpT", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "MKP3", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "Mpp", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "MpY", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "MpY", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "M"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "MKP3", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "Mpp", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "MpT", 
+         "target": "v7"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of ERK on Tyr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "M", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERK-PY", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpY", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MEK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MEK", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERK-PT", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MpT", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of ERK-PY on Thr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ERK-PP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of ERK on Thr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "phosphorylation of ERK-PT on Tyr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of ERK-PP on Tyr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MKP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MKP3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of ERK-PT", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "dephosphorylation of ERK-PY", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "v6", 
+               "MKP3", 
+               "M", 
+               "v2", 
+               "MEK", 
+               "v1", 
+               "MpT", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "Mpp", 
+               "v7", 
+               "MpY"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

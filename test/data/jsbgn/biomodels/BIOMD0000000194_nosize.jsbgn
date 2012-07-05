@@ -1,0 +1,184 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Mad1_CMad2", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "OMad2", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "Mad1_CMad2_OMad2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "Mad1_CMad2_OMad2", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Cdc20", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "Mad1_CMad2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "Cdc20_CMad2"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Cdc20_CMad2", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "Cdc20"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "OMad2"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "R6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mad1:C-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mad1_CMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "O-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "OMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mad1:C-Mad2:O-Mad2*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mad1_CMad2_OMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cdc20:C-Mad2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Cdc20_CMad2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "R8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytoplasm", 
+            "subnodes": [
+               "R6", 
+               "R7", 
+               "Mad1_CMad2", 
+               "R8", 
+               "OMad2", 
+               "Cdc20", 
+               "Cdc20_CMad2", 
+               "Mad1_CMad2_OMad2"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,353 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "RuBP", 
+         "target": "RuBisCO"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "RuBisCO", 
+         "target": "PGA"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "PGA_K"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "PGA_K", 
+         "target": "DPGA"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "DPGA", 
+         "target": "GAP_DH"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "GAP_DH", 
+         "target": "Pi"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "GAP2Ru5P"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "GAP2Ru5P", 
+         "target": "Ru5P"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Ru5P", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "Ru5P_K"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "RuBP"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "Ru5P_K", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "PGA", 
+         "target": "PGA2sink"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "PGA2sink", 
+         "target": "PGA2sinksink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "GAP2sink"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "GAP2sink", 
+         "target": "GAP2sinksink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "RuBisCO", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBisCO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RuBP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RuBP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DPGA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DPGA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP_DH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "GAP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pi", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pi", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP to Ru5P", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP2Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ru5P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ru5P kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ru5P_K", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGA to sink", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA2sink", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGA2sinksink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP to sink", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP2sink", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP2sinksink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "chloroplast", 
+            "subnodes": [
+               "Ru5P", 
+               "GAP2sink", 
+               "GAP2Ru5P", 
+               "ADP", 
+               "PGA", 
+               "PGA2sink", 
+               "RuBisCO", 
+               "GAP", 
+               "GAP_DH", 
+               "PGA2sinksink", 
+               "Ru5P_K", 
+               "RuBP", 
+               "ATP", 
+               "PGA_K", 
+               "Pi", 
+               "DPGA", 
+               "GAP2sinksink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "chloroplast", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,674 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Mdm2_mRNA", 
+         "target": "Mdm2Synthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Mdm2Synthesis", 
+         "target": "Mdm2_mRNA"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "Mdm2Synthesis", 
+         "target": "Mdm2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Mdm2Synthesis", 
+         "target": "mdm2syn"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "p53", 
+         "target": "Mdm2mRNASynthesis"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Mdm2mRNASynthesis", 
+         "target": "p53"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "Mdm2mRNASynthesis", 
+         "target": "Mdm2_mRNA"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Mdm2mRNASynthesis", 
+         "target": "Mdm2mRNAsyn"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Mdm2_mRNA", 
+         "target": "Mdm2mRNADegradation"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "Mdm2mRNADegradation", 
+         "target": "Sink"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "Mdm2mRNADegradation", 
+         "target": "Mdm2mRNAdeg"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "Mdm2", 
+         "target": "Mdm2Degradation"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "Mdm2Degradation", 
+         "target": "Sink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "Mdm2Degradation", 
+         "target": "mdm2deg"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Source", 
+         "target": "p53Synthesis"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "p53Synthesis", 
+         "target": "p53"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "p53Synthesis", 
+         "target": "p53syn"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Mdm2_p53", 
+         "target": "p53Degradation"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "p53Degradation", 
+         "target": "Mdm2"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "p53Degradation", 
+         "target": "p53deg"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 394, 
+         "source": "p53", 
+         "target": "P53_Mdm2Binding"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Mdm2", 
+         "target": "P53_Mdm2Binding"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "P53_Mdm2Binding", 
+         "target": "Mdm2_p53"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "Mdm2_p53", 
+         "target": "P53_Mdm2Release"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "P53_Mdm2Release", 
+         "target": "p53"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "P53_Mdm2Release", 
+         "target": "Mdm2"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "DNAdamagesink", 
+         "target": "DNAdamage"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "DNAdamage", 
+         "target": "damDNA"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "DNAdamage", 
+         "target": "totdamDNA"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "damDNA", 
+         "target": "DNArepair"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "DNArepair", 
+         "target": "Sink"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "damDNA", 
+         "target": "ARFactivation"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "ARFactivation", 
+         "target": "damDNA"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "ARFactivation", 
+         "target": "ARF"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "ARF", 
+         "target": "ARF_Mdm2Binding"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "Mdm2", 
+         "target": "ARF_Mdm2Binding"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "ARF_Mdm2Binding", 
+         "target": "ARF_Mdm2"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "ARF_Mdm2", 
+         "target": "ARF_Mdm2Degradation"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "ARF_Mdm2Degradation", 
+         "target": "ARF"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "ARF_Mdm2Degradation", 
+         "target": "mdm2deg"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "ARF", 
+         "target": "ARFDegradation"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "ARFDegradation", 
+         "target": "Sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2Synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2Synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2_mRNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mdm2syn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mdm2syn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2mRNASynthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2mRNASynthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p53", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p53", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2mRNAsyn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2mRNAsyn", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2mRNADegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2mRNADegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sink", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sink", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2mRNAdeg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2mRNAdeg", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mdm2Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "mdm2deg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "mdm2deg", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p53Synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p53Synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Source", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Source", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p53syn", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p53syn", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "p53Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p53Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Mdm2_p53", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Mdm2_p53", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "p53deg", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p53deg", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "P53_Mdm2Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P53_Mdm2Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "P53_Mdm2Release", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P53_Mdm2Release", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DNAdamage", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DNAdamage", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DNAdamagesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "damDNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "damDNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "totdamDNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "totdamDNA", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DNArepair", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DNArepair", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ARFactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARFactivation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ARF_Mdm2Binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF_Mdm2Binding", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARF_Mdm2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF_Mdm2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ARF_Mdm2Degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF_Mdm2Degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ARFDegradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARFDegradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "P53_Mdm2Release", 
+               "Mdm2mRNASynthesis", 
+               "ARFactivation", 
+               "P53_Mdm2Binding", 
+               "Source", 
+               "p53Synthesis", 
+               "Mdm2", 
+               "ARF_Mdm2Degradation", 
+               "DNArepair", 
+               "DNAdamage", 
+               "Sink", 
+               "Mdm2mRNADegradation", 
+               "p53deg", 
+               "Mdm2Synthesis", 
+               "Mdm2Degradation", 
+               "ARF_Mdm2Binding", 
+               "Mdm2mRNAsyn", 
+               "damDNA", 
+               "p53syn", 
+               "mdm2syn", 
+               "ARF_Mdm2", 
+               "mdm2deg", 
+               "p53", 
+               "Mdm2_p53", 
+               "p53Degradation", 
+               "ARFDegradation", 
+               "Mdm2_mRNA", 
+               "ARF", 
+               "Mdm2mRNAdeg", 
+               "DNAdamagesink", 
+               "totdamDNA"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

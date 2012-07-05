@@ -1,0 +1,774 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Calcium_cyt_Ivcasink", 
+         "target": "Calcium_cyt_Ivca"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_Ivca", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Calcium_cyt_Inacasink", 
+         "target": "Calcium_cyt_Inaca"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_Inaca", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "Calcium_cyt_Icapump"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_Icapump", 
+         "target": "Calcium_cyt_Icapumpsink"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "Calcium_cyt_Jerp"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_Jerp", 
+         "target": "Ca_er"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "Ca_er", 
+         "target": "Calcium_cyt_Jout"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_Jout", 
+         "target": "Ca_cyt"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Ca_cyt", 
+         "target": "Calcium_cyt_sequestration"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "Calcium_cyt_sequestration", 
+         "target": "Calcium_cyt_sequestrationsink"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "IP3_synthesissink", 
+         "target": "IP3_synthesis"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "IP3_synthesis", 
+         "target": "IP3_cyt"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "Ca_cyt", 
+         "target": "IP3_synthesis"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "IP3_cyt", 
+         "target": "IP3_degradation"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "IP3_degradation", 
+         "target": "IP3_degradationsink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "Na_cyt", 
+         "target": "Na_Inaca"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "Na_Inaca", 
+         "target": "Na_Inacasink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "Na_cyt", 
+         "target": "Na_Inak"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "Na_Inak", 
+         "target": "Na_Inaksink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "Na_Inasink", 
+         "target": "Na_Ina"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "Na_Ina", 
+         "target": "Na_cyt"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "Na_Icransink", 
+         "target": "Na_Icran"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "Na_Icran", 
+         "target": "Na_cyt"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "ATP_productionsink", 
+         "target": "ATP_production"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "ATP_production", 
+         "target": "ATP_cyt"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 168, 
+         "source": "ADP_cyt", 
+         "target": "ATP_production"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "ATP_NaKATPase"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "ATP_NaKATPase", 
+         "target": "ATP_NaKATPasesink"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "ATP_Capump"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "ATP_Capump", 
+         "target": "ATP_Capumpsink"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "ATP_Jerp"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "ATP_Jerp", 
+         "target": "ATP_Jerpsink"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "ATP_Ca_dependent_consumption"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "ATP_Ca_dependent_consumption", 
+         "target": "ATP_Ca_dependent_consumptionsink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "Ca_cyt", 
+         "target": "ATP_Ca_dependent_consumption"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "ATP_cyt", 
+         "target": "ATP_consumption"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "ATP_consumption", 
+         "target": "ATP_consumptionsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_Ivca", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Ivca", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Ivcasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_Inaca", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Inaca", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Inacasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_Icapump", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Icapump", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Icapumpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_Jerp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Jerp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ER Calcium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ca_er", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_Jout", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_Jout", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Calcium_cyt_sequestration", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_sequestration", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Calcium_cyt_sequestrationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3_synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic IP3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3_degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Na_Inaca", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Inaca", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic Sodium", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Inacasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Na_Inak", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Inak", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Inaksink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Na_Ina", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Ina", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Inasink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Na_Icran", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Icran", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Na_Icransink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_production", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_production", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_productionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Cytosolic ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP_cyt", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_NaKATPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_NaKATPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_NaKATPasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_Capump", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Capump", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Capumpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_Jerp", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Jerp", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Jerpsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_Ca_dependent_consumption", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Ca_dependent_consumption", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_Ca_dependent_consumptionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATP_consumption", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_consumption", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP_consumptionsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "Ca_cyt", 
+               "Na_Inasink", 
+               "ATP_consumption", 
+               "Calcium_cyt_Inaca", 
+               "ATP_Jerpsink", 
+               "Calcium_cyt_Inacasink", 
+               "ATP_Jerp", 
+               "Calcium_cyt_Icapumpsink", 
+               "Calcium_cyt_Jerp", 
+               "IP3_cyt", 
+               "Na_Inaca", 
+               "ATP_Ca_dependent_consumption", 
+               "Calcium_cyt_Jout", 
+               "ATP_NaKATPase", 
+               "Calcium_cyt_Icapump", 
+               "ATP_NaKATPasesink", 
+               "Calcium_cyt_Ivcasink", 
+               "Na_Icransink", 
+               "Na_Icran", 
+               "Na_Inak", 
+               "Na_Ina", 
+               "ATP_consumptionsink", 
+               "Calcium_cyt_Ivca", 
+               "IP3_degradationsink", 
+               "ATP_Ca_dependent_consumptionsink", 
+               "IP3_synthesis", 
+               "ATP_Capump", 
+               "ATP_production", 
+               "IP3_synthesissink", 
+               "ATP_Capumpsink", 
+               "ATP_cyt", 
+               "Na_cyt", 
+               "Calcium_cyt_sequestration", 
+               "Calcium_cyt_sequestrationsink", 
+               "IP3_degradation", 
+               "ADP_cyt", 
+               "Na_Inacasink", 
+               "Na_Inaksink", 
+               "ATP_productionsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "endoplasmic reticulum", 
+            "subnodes": [
+               "Calcium_cyt_Jerp", 
+               "Calcium_cyt_Jout", 
+               "Ca_er"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "ER", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

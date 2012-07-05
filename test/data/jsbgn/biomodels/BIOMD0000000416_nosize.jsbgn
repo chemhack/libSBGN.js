@@ -1,0 +1,1446 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r1sink", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "IAAm"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "F1", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "F2", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "F3", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "r2sink", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "IAAp"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "IAAm", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "AuxTIR1", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 168, 
+         "source": "AuxTIAA", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "ARFIAA", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 168, 
+         "source": "ARF", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "r3sink", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "AuxTIR1"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "Aux", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "TIR1", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "AuxTIAA", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "IAAp", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "r4sink", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "AuxTIAA"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "AuxTIAA", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "IAAp", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 168, 
+         "source": "AuxTIR1", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "r5sink", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "IAAs"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "AuxTIAA", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "r6sink", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "r6", 
+         "target": "ARFIAA"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "ARF", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "IAAp", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "r7sink", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "r7", 
+         "target": "ARF2"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "ARF", 
+         "target": "r7"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "r8sink", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "r8", 
+         "target": "Aux"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "TIR1", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 168, 
+         "source": "AuxTIR1", 
+         "target": "r8"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "r9sink", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "r9", 
+         "target": "PINm"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 168, 
+         "source": "F5a", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "F5b", 
+         "target": "r9"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "r10sink", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "r10", 
+         "target": "PINp"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 168, 
+         "source": "PINm", 
+         "target": "r10"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "r11sink", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "r11", 
+         "target": "ARm"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "F5a", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "F5b", 
+         "target": "r11"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "r12sink", 
+         "target": "r12"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "r12", 
+         "target": "ARp"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "ARm", 
+         "target": "r12"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "r13sink", 
+         "target": "r13"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "r13", 
+         "target": "CRm"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "F4", 
+         "target": "r13"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "r14sink", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "r14", 
+         "target": "CRp"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "CRm", 
+         "target": "r14"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "r15sink", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "r15", 
+         "target": "AHKph"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "CkAHKph", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 168, 
+         "source": "Ck", 
+         "target": "r15"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "r16sink", 
+         "target": "r16"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "r16", 
+         "target": "Ck"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "AHKph", 
+         "target": "r16"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "CkAHKph", 
+         "target": "r16"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "r17sink", 
+         "target": "r17"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "r17", 
+         "target": "ARRBph"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 168, 
+         "source": "CkAHKph", 
+         "target": "r17"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "CkAHK", 
+         "target": "r17"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 168, 
+         "source": "ARRBp", 
+         "target": "r17"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 394, 
+         "source": "r18sink", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 393, 
+         "source": "r18", 
+         "target": "ARRAph"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 168, 
+         "source": "CkAHKph", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 168, 
+         "source": "ARRAp", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "CkAHK", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 168, 
+         "source": "ARRAph", 
+         "target": "r18"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "r19sink", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "r19", 
+         "target": "ARRAm"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 168, 
+         "source": "F6", 
+         "target": "r19"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 394, 
+         "source": "r20sink", 
+         "target": "r20"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 393, 
+         "source": "r20", 
+         "target": "ARRAp"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 168, 
+         "source": "ARRAm", 
+         "target": "r20"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 168, 
+         "source": "CkAHK", 
+         "target": "r20"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 168, 
+         "source": "ARRAph", 
+         "target": "r20"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 168, 
+         "source": "CkAHKph", 
+         "target": "r20"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IAAm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IAAm", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F1", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F2", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F3", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IAAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IAAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AuxTIR1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AuxTIR1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AuxTIAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AuxTIAA", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARFIAA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARFIAA", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Aux", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Aux", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "TIR1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "TIR1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IAAs", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IAAs", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r7sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARF2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARF2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r8sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r9sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PINm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PINm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F5a", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F5a", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F5b", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F5b", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r10sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PINp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PINp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r11sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r12", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r13", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r13sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CRm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CRm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F4", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F4", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r14", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r14sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CRp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CRp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r15", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r15sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AHKph", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AHKph", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CkAHKph", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CkAHKph", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ck", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ck", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r16", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r16sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r17", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r17sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARRBph", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARRBph", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CkAHK", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CkAHK", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARRBp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARRBp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r18", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r18sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARRAph", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARRAph", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARRAp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARRAp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r19", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r19sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ARRAm", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ARRAm", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "F6", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "F6", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r20", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r20", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r20sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "r12", 
+               "r16", 
+               "r20sink", 
+               "AHKph", 
+               "r17sink", 
+               "ARRBph", 
+               "r14", 
+               "ARRAm", 
+               "r3sink", 
+               "r19sink", 
+               "ARRAp", 
+               "F5b", 
+               "r15sink", 
+               "F5a", 
+               "Aux", 
+               "r11sink", 
+               "CkAHKph", 
+               "r18sink", 
+               "CRp", 
+               "r14sink", 
+               "r10", 
+               "r17", 
+               "r4sink", 
+               "r10sink", 
+               "ARRAph", 
+               "r16sink", 
+               "r1sink", 
+               "r6sink", 
+               "CkAHK", 
+               "r2sink", 
+               "r5sink", 
+               "CRm", 
+               "ARp", 
+               "Ck", 
+               "r7sink", 
+               "r15", 
+               "IAAm", 
+               "r13", 
+               "PINm", 
+               "r5", 
+               "r6", 
+               "ARFIAA", 
+               "r19", 
+               "F6", 
+               "TIR1", 
+               "AuxTIR1", 
+               "r7", 
+               "r8sink", 
+               "ARRBp", 
+               "r11", 
+               "IAAp", 
+               "IAAs", 
+               "PINp", 
+               "ARm", 
+               "r4", 
+               "F1", 
+               "F2", 
+               "F3", 
+               "F4", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "r9sink", 
+               "r8", 
+               "r9", 
+               "r18", 
+               "r20", 
+               "ARF", 
+               "ARF2", 
+               "r12sink", 
+               "AuxTIAA", 
+               "r13sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

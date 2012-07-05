@@ -1,0 +1,548 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "Fruex", 
+         "target": "v1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "v1", 
+         "target": "Fru"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Glcex", 
+         "target": "v2"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "v2", 
+         "target": "Glc"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "Glc", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "HexP"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "v3", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "Fru", 
+         "target": "v3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Fru", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "HexP"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "v4", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "Glc", 
+         "target": "v4"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Fru", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "ATP", 
+         "target": "v5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "HexP"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "v5", 
+         "target": "ADP"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "HexP", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "UDP"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "v6", 
+         "target": "Suc6P"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "phos", 
+         "target": "v6"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "Suc6P", 
+         "target": "v7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "Suc"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "v7", 
+         "target": "phos"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "HexP", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "Fru", 
+         "target": "v8"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "Suc"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "v8", 
+         "target": "UDP"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "v9"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "Fru"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "v9", 
+         "target": "Glc"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "HexP", 
+         "target": "v10"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "v10", 
+         "target": "glycolysis"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "Suc", 
+         "target": "v11"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "v11", 
+         "target": "Sucvac"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "v1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fruex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fruex", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fru", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fru", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glcex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glcex", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "HexP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "HexP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "UDP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "UDP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Suc6P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Suc6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "phos", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "phos", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v7", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Suc", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Suc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v8", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v9", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v10", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "glycolysis", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "glycolysis", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "v11", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "v11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Sucvac", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Sucvac", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "Suc", 
+               "Fru", 
+               "Glcex", 
+               "v11", 
+               "ATP", 
+               "glycolysis", 
+               "Fruex", 
+               "HexP", 
+               "Suc6P", 
+               "v10", 
+               "ADP", 
+               "Glc", 
+               "phos", 
+               "v1", 
+               "v2", 
+               "v3", 
+               "v4", 
+               "v5", 
+               "v6", 
+               "v7", 
+               "v8", 
+               "v9", 
+               "UDP", 
+               "Sucvac"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "compartment", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,1242 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "EGF", 
+         "target": "EGFBindingReaction"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "freeEGFReceptor", 
+         "target": "EGFBindingReaction"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "EGFBindingReaction", 
+         "target": "boundEGFReceptor"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "boundEGFReceptor", 
+         "target": "EGFUnbindingReaction"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "EGFUnbindingReaction", 
+         "target": "EGF"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "EGFUnbindingReaction", 
+         "target": "freeEGFReceptor"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "NGF", 
+         "target": "NGFBindingReaction"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "freeNGFReceptor", 
+         "target": "NGFBindingReaction"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "NGFBindingReaction", 
+         "target": "boundNGFReceptor"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "boundNGFReceptor", 
+         "target": "NGFUnbindingReaction"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "NGFUnbindingReaction", 
+         "target": "NGF"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "NGFUnbindingReaction", 
+         "target": "freeNGFReceptor"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "SosInactive", 
+         "target": "SosActivationByEGFReaction"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "SosActivationByEGFReaction", 
+         "target": "SosActive"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 168, 
+         "source": "boundEGFReceptor", 
+         "target": "SosActivationByEGFReaction"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "SosInactive", 
+         "target": "SosActivationByNGFReaction"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "SosActivationByNGFReaction", 
+         "target": "SosActive"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "boundNGFReceptor", 
+         "target": "SosActivationByNGFReaction"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "SosActive", 
+         "target": "SosDeactivationReaction"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 393, 
+         "source": "SosDeactivationReaction", 
+         "target": "SosInactive"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 168, 
+         "source": "P90RskActive", 
+         "target": "SosDeactivationReaction"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "RasInactive", 
+         "target": "RasActivationReaction"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "RasActivationReaction", 
+         "target": "RasActive"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "SosActive", 
+         "target": "RasActivationReaction"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "RasActive", 
+         "target": "RasDeactivationReaction"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "RasDeactivationReaction", 
+         "target": "RasInactive"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "RasGapActive", 
+         "target": "RasDeactivationReaction"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "Raf1Inactive", 
+         "target": "Raf1ByRasActivationReaction"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "Raf1ByRasActivationReaction", 
+         "target": "Raf1Active"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "RasActive", 
+         "target": "Raf1ByRasActivationReaction"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "MekInactive", 
+         "target": "MekbyRaf1ActivationReaction"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 393, 
+         "source": "MekbyRaf1ActivationReaction", 
+         "target": "MekActive"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "Raf1Active", 
+         "target": "MekbyRaf1ActivationReaction"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "MekInactive", 
+         "target": "MekbyBRafActivationReaction"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "MekbyBRafActivationReaction", 
+         "target": "MekActive"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 168, 
+         "source": "BRafActive", 
+         "target": "MekbyBRafActivationReaction"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "ErkInactive", 
+         "target": "ErkActivationReaction"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "ErkActivationReaction", 
+         "target": "ErkActive"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 168, 
+         "source": "MekActive", 
+         "target": "ErkActivationReaction"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "MekActive", 
+         "target": "MekDeactivationReaction"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "MekDeactivationReaction", 
+         "target": "MekInactive"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "PP2AActive", 
+         "target": "MekDeactivationReaction"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "ErkActive", 
+         "target": "ErkDeactivationReaction"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "ErkDeactivationReaction", 
+         "target": "ErkInactive"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 168, 
+         "source": "PP2AActive", 
+         "target": "ErkDeactivationReaction"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "Raf1Active", 
+         "target": "Raf1byPPtaseDeactivationReaction"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "Raf1byPPtaseDeactivationReaction", 
+         "target": "Raf1Inactive"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "Raf1PPtase", 
+         "target": "Raf1byPPtaseDeactivationReaction"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "P90RskInactive", 
+         "target": "P90RskActivationReaction"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "P90RskActivationReaction", 
+         "target": "P90RskActive"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "ErkActive", 
+         "target": "P90RskActivationReaction"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "PI3KInactive", 
+         "target": "PI3KbyEGFRActivationReaction"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "PI3KbyEGFRActivationReaction", 
+         "target": "PI3KActive"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "boundEGFReceptor", 
+         "target": "PI3KbyEGFRActivationReaction"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "PI3KInactive", 
+         "target": "PI3KbyRasActivationReaction"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "PI3KbyRasActivationReaction", 
+         "target": "PI3KActive"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "RasActive", 
+         "target": "PI3KbyRasActivationReaction"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "AktInactive", 
+         "target": "AktActivationReaction"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "AktActivationReaction", 
+         "target": "AktActive"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "PI3KActive", 
+         "target": "AktActivationReaction"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "Raf1Active", 
+         "target": "Raf1ByAktDeactivationReaction"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "Raf1ByAktDeactivationReaction", 
+         "target": "Raf1Inactive"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "AktActive", 
+         "target": "Raf1ByAktDeactivationReaction"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "C3GInactive", 
+         "target": "C3GActivationReaction"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "C3GActivationReaction", 
+         "target": "C3GActive"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 168, 
+         "source": "boundNGFReceptor", 
+         "target": "C3GActivationReaction"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 394, 
+         "source": "Rap1Inactive", 
+         "target": "Rap1ActivationReaction"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 393, 
+         "source": "Rap1ActivationReaction", 
+         "target": "Rap1Active"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 168, 
+         "source": "C3GActive", 
+         "target": "Rap1ActivationReaction"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "Rap1Active", 
+         "target": "Rap1DeactivationReaction"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "Rap1DeactivationReaction", 
+         "target": "Rap1Inactive"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 168, 
+         "source": "RapGapActive", 
+         "target": "Rap1DeactivationReaction"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 394, 
+         "source": "BRafInactive", 
+         "target": "BRafByRap1ActivationReaction"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 393, 
+         "source": "BRafByRap1ActivationReaction", 
+         "target": "BRafActive"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 168, 
+         "source": "Rap1Active", 
+         "target": "BRafByRap1ActivationReaction"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 394, 
+         "source": "BRafActive", 
+         "target": "BRafbyPPtaseDeactivationReaction"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 393, 
+         "source": "BRafbyPPtaseDeactivationReaction", 
+         "target": "BRafInactive"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 168, 
+         "source": "Raf1PPtase", 
+         "target": "BRafbyPPtaseDeactivationReaction"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "EGF binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGFBindingReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "EGF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "freeEGFReceptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "freeEGFReceptor", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "boundEGFReceptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "boundEGFReceptor", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "EFG unbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "EGFUnbindingReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NGF binding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NGFBindingReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NGF", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NGF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "freeNGFReceptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "freeNGFReceptor", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "boundNGFReceptor", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "boundNGFReceptor", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NGF unbinding", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NGFUnbindingReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SOS activation by EGF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosActivationByEGFReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SosInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "SosActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SOS activation by NGF", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosActivationByNGFReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SOS deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "SosDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P90RskActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P90RskActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ras activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasInactive", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasActive", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ras deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RasGapActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RasGapActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Raf1 activation by Ras", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1ByRasActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Raf1Inactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1Inactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Raf1Active", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1Active", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mek activation by Raf1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MekbyRaf1ActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MekInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MekInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "MekActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MekActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mek activation by B-Raf", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MekbyBRafActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BRafActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BRafActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Erk activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ErkActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ErkInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ErkInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ErkActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ErkActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mek deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MekDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PP2AActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PP2AActive", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Erk deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ErkDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Raf1 deactivation by PPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1byPPtaseDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Raf1PPtase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1PPtase", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "P90Rsk activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P90RskActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "P90RskInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "P90RskInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PI3K activation by EGFR", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI3KbyEGFRActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI3KInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI3KInactive", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI3KActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI3KActive", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PI3K activation by Ras", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI3KbyRasActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Akt activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AktInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AktActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AktActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Raf1 deactivation by Akt", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Raf1ByAktDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3G activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C3GActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C3GInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C3GInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C3GActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "C3GActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rap1 activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rap1ActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rap1Inactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rap1Inactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rap1Active", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rap1Active", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rap1 deactivation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rap1DeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "RapGapActive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "RapGapActive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BRaf activation by Rap1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BRafByRap1ActivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "BRafInactive", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BRafInactive", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "BRaf deactivation by PPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BRafbyPPtaseDeactivationReaction", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "boundNGFReceptor", 
+               "NGF", 
+               "AktActive", 
+               "C3GActivationReaction", 
+               "ErkInactive", 
+               "MekActive", 
+               "NGFBindingReaction", 
+               "C3GActive", 
+               "RasActivationReaction", 
+               "Raf1ByAktDeactivationReaction", 
+               "BRafByRap1ActivationReaction", 
+               "AktActivationReaction", 
+               "Rap1ActivationReaction", 
+               "Raf1Inactive", 
+               "P90RskInactive", 
+               "EGF", 
+               "PP2AActive", 
+               "RasDeactivationReaction", 
+               "AktInactive", 
+               "ErkDeactivationReaction", 
+               "SosActive", 
+               "P90RskActivationReaction", 
+               "boundEGFReceptor", 
+               "Raf1Active", 
+               "BRafbyPPtaseDeactivationReaction", 
+               "MekbyRaf1ActivationReaction", 
+               "SosInactive", 
+               "RapGapActive", 
+               "Raf1byPPtaseDeactivationReaction", 
+               "freeEGFReceptor", 
+               "PI3KbyRasActivationReaction", 
+               "Rap1DeactivationReaction", 
+               "SosActivationByNGFReaction", 
+               "Raf1PPtase", 
+               "Rap1Active", 
+               "MekInactive", 
+               "PI3KActive", 
+               "P90RskActive", 
+               "MekDeactivationReaction", 
+               "EGFBindingReaction", 
+               "BRafActive", 
+               "NGFUnbindingReaction", 
+               "PI3KbyEGFRActivationReaction", 
+               "RasGapActive", 
+               "Raf1ByRasActivationReaction", 
+               "MekbyBRafActivationReaction", 
+               "ErkActivationReaction", 
+               "Rap1Inactive", 
+               "ErkActive", 
+               "freeNGFReceptor", 
+               "C3GInactive", 
+               "SosActivationByEGFReaction", 
+               "PI3KInactive", 
+               "BRafInactive", 
+               "RasActive", 
+               "RasInactive", 
+               "SosDeactivationReaction", 
+               "EGFUnbindingReaction"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

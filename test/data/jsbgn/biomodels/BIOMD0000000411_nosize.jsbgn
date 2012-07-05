@@ -1,0 +1,493 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "s10", 
+         "target": "re12"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "re12", 
+         "target": "s11"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "s2", 
+         "target": "re13"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "re13", 
+         "target": "s9"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "s11", 
+         "target": "re13"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "s9", 
+         "target": "re14"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "re14", 
+         "target": "species_12"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "s10", 
+         "target": "re15"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "re15", 
+         "target": "species_12"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "s11", 
+         "target": "re16"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "re16", 
+         "target": "species_12"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "s13", 
+         "target": "re18"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "re18", 
+         "target": "s10"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "s9", 
+         "target": "re18"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "species_2", 
+         "target": "reaction_1"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "reaction_1", 
+         "target": "species_1"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 394, 
+         "source": "species_3", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "s11", 
+         "target": "reaction_2"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "reaction_2", 
+         "target": "species_4"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "species_1", 
+         "target": "reaction_3"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "reaction_3", 
+         "target": "species_3"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "species_1", 
+         "target": "reaction_4"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "reaction_4", 
+         "target": "species_12"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "species_4", 
+         "target": "reaction_5"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "reaction_5", 
+         "target": "species_12"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 394, 
+         "source": "species_3", 
+         "target": "reaction_6"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 393, 
+         "source": "reaction_6", 
+         "target": "species_1"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "species_3", 
+         "target": "reaction_7"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "reaction_7", 
+         "target": "species_12"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_phos", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C_3", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s10", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C_3_P", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s11", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_transk", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re13", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C3_Gene", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s2", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C3_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s9", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_mRNADegr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "junk", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_12", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_phos_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C3_transl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "re18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C_3_pre", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "s13", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C1_transl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C1_mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_2", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complexformation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "C1_phos", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_3", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "c1c3complex", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "species_4", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C1_phos", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C1_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "complexdegr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C1_dephos", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "C1_phos_degr", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "reaction_7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "default", 
+            "subnodes": [
+               "re18", 
+               "re14", 
+               "re15", 
+               "re16", 
+               "re12", 
+               "re13", 
+               "s9", 
+               "s2", 
+               "s13", 
+               "s10", 
+               "species_2", 
+               "species_3", 
+               "s11", 
+               "species_1", 
+               "species_4", 
+               "reaction_6", 
+               "reaction_7", 
+               "reaction_4", 
+               "reaction_5", 
+               "reaction_2", 
+               "reaction_3", 
+               "reaction_1", 
+               "species_12"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "default", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

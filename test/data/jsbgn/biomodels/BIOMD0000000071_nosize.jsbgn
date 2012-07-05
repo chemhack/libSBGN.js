@@ -1,0 +1,957 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "GlcE", 
+         "target": "vGlcTr"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "vGlcTr", 
+         "target": "GlcI"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "Pg", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "GlcI", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "vHK", 
+         "target": "Glc6P"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "ATPg", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "ADPg", 
+         "target": "vHK"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "Glc6P", 
+         "target": "vPGI"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "vPGI", 
+         "target": "Fru6P"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Pg", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 394, 
+         "source": "Fru6P", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "vPFK", 
+         "target": "Fru16BP"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 168, 
+         "source": "ATPg", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "Fru16BP", 
+         "target": "vALD"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "vALD", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "vALD", 
+         "target": "DHAP"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "DHAPg", 
+         "target": "vALD"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "ATPg", 
+         "target": "vALD"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "ADPg", 
+         "target": "vALD"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "vTPI"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "vTPI", 
+         "target": "GAP"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 168, 
+         "source": "DHAPg", 
+         "target": "vTPI"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "GAP", 
+         "target": "vGAPdh"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "NAD", 
+         "target": "vGAPdh"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "vGAPdh", 
+         "target": "NADH"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "vGAPdh", 
+         "target": "BPGA13"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "DHAP", 
+         "target": "vGDH"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "NADH", 
+         "target": "vGDH"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "vGDH", 
+         "target": "NAD"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "vGDH", 
+         "target": "Gly3P"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "DHAPg", 
+         "target": "vGDH"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "Gly3Pg", 
+         "target": "vGDH"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 394, 
+         "source": "Gly3P", 
+         "target": "vGPO"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "vGPO", 
+         "target": "DHAP"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 168, 
+         "source": "Gly3Pc", 
+         "target": "vGPO"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "Pyr", 
+         "target": "vPyrTr"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "vPyrTr", 
+         "target": "PyrE"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "BPGA13", 
+         "target": "vPGK"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "vPGK", 
+         "target": "Nb"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "vPGK", 
+         "target": "Pg"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "ADPg", 
+         "target": "vPGK"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "ATPg", 
+         "target": "vPGK"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "PGAg", 
+         "target": "vPGK"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "Nb", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "vPK", 
+         "target": "Pc"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "vPK", 
+         "target": "Pyr"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 168, 
+         "source": "PEPc", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "ADPc", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "ATPc", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "Pc", 
+         "target": "vATPase"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "vATPase", 
+         "target": "vATPasesink"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 168, 
+         "source": "ATPc", 
+         "target": "vATPase"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 168, 
+         "source": "ADPc", 
+         "target": "vATPase"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "Gly3P", 
+         "target": "vGlyK"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "vGlyK", 
+         "target": "Pg"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "vGlyK", 
+         "target": "Gly"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 168, 
+         "source": "ADPg", 
+         "target": "vGlyK"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "Gly3Pg", 
+         "target": "vGlyK"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 168, 
+         "source": "ATPg", 
+         "target": "vGlyK"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGlcTr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose external", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GlcE", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GlcI", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Hexokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vHK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphates in Glycosome", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose 6-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Glc6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP gly.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP gly.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose-phosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose 6-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fru6P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphofructokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPFK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose 1,6-bisphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Fru16BP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vALD", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glyceraldehyde 3-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "GAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Dihydroxyacetone phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAP", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DHAP gly.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DHAPg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Triosephosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTPI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glyceraldehyde 3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGAPdh", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NAD", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NAD", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADH", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "1,3-bisphosphoglycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "BPGA13", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol 3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glycerol 3-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gly3P", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Gy3P g.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gly3Pg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol 3-phosphate oxidase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGPO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Gy3P c.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gly3Pc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate transport", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPyrTr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pyr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate external", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PyrE", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoglycerate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "3-PGA 2-PGA PEP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Nb", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "3-PGA g.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PGAg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphates cytosol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Pc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PEP c.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PEPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ADP cyt.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ADPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "ATP cyt.", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ATPc", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "ATPase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vATPase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vATPasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGlyK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glycerol", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Gly", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "total cell", 
+            "subnodes": [
+               "vGPO", 
+               "vGlyK", 
+               "vGlcTr", 
+               "vGDH", 
+               "vALD", 
+               "DHAP", 
+               "GlcI", 
+               "vHK", 
+               "Gly3P", 
+               "vTPI", 
+               "vPGK", 
+               "Nb", 
+               "vPK"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "tot_cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "glycosome", 
+            "subnodes": [
+               "NADH", 
+               "NAD", 
+               "PGAg", 
+               "vGAPdh", 
+               "Pg", 
+               "vTPI", 
+               "ATPg", 
+               "vGlyK", 
+               "Glc6P", 
+               "BPGA13", 
+               "GAP", 
+               "vHK", 
+               "Gly3Pg", 
+               "vPFK", 
+               "DHAPg", 
+               "vGDH", 
+               "Fru6P", 
+               "Gly", 
+               "Fru16BP", 
+               "vALD", 
+               "ADPg", 
+               "vPGK", 
+               "vPGI"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "glycosome", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "vATPasesink", 
+               "ADPc", 
+               "Pyr", 
+               "vPyrTr", 
+               "Pc", 
+               "ATPc", 
+               "Gly3Pc", 
+               "vATPase", 
+               "PEPc", 
+               "vPK"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "GlcE", 
+               "vGlcTr", 
+               "PyrE", 
+               "vPyrTr"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

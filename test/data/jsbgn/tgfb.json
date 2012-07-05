@@ -1,0 +1,2346 @@
+{
+   "edges" : [
+      {
+         "id" : 0,
+         "sbo" : 15,
+         "source" : "Reactome:170841",
+         "sourceidx" : 1,
+         "target" : "Reactome:173512",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 1,
+         "sbo" : 15,
+         "source" : "Reactome:173495",
+         "sourceidx" : 2,
+         "target" : "Reactome:173512",
+         "targetidx" : 0,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 2,
+         "sbo" : 11,
+         "source" : "Reactome:173512",
+         "sourceidx" : 0,
+         "target" : "Reactome:173476",
+         "targetidx" : 3,
+         "type" : "Product"
+      },
+      {
+         "id" : 3,
+         "sbo" : null,
+         "source" : "Reactome:173512",
+         "sourceidx" : 0,
+         "target" : "Reactome:170841",
+         "targetidx" : 1,
+         "type" : "SInhibit"
+      },
+      {
+         "id" : 4,
+         "sbo" : 15,
+         "source" : "Reactome:171266",
+         "sourceidx" : 5,
+         "target" : "Reactome:170868",
+         "targetidx" : 4,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 5,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:170868",
+         "sourceidx" : 6,
+         "target" : "Reactome:170868",
+         "targetidx" : 4,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 6,
+         "sbo" : 11,
+         "source" : "Reactome:170868",
+         "sourceidx" : 4,
+         "target" : "Reactome:171180",
+         "targetidx" : 7,
+         "type" : "Product"
+      },
+      {
+         "id" : 7,
+         "sbo" : 11,
+         "source" : "Reactome:170868",
+         "sourceidx" : 4,
+         "target" : "MAP:Cb16761_CY_Reactome:170868",
+         "targetidx" : 8,
+         "type" : "Product"
+      },
+      {
+         "id" : 8,
+         "sbo" : 15,
+         "source" : "Reactome:170865",
+         "sourceidx" : 10,
+         "target" : "Reactome:170846",
+         "targetidx" : 9,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 9,
+         "sbo" : 15,
+         "source" : "Reactome:170864",
+         "sourceidx" : 11,
+         "target" : "Reactome:170846",
+         "targetidx" : 9,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 10,
+         "sbo" : 11,
+         "source" : "Reactome:170846",
+         "sourceidx" : 9,
+         "target" : "Reactome:170840",
+         "targetidx" : 12,
+         "type" : "Product"
+      },
+      {
+         "id" : 11,
+         "sbo" : 13,
+         "source" : "Reactome:170865",
+         "sourceidx" : 10,
+         "target" : "Reactome:170846",
+         "targetidx" : 9,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 12,
+         "sbo" : 15,
+         "source" : "Reactome:171175",
+         "sourceidx" : 14,
+         "target" : "Reactome:173488",
+         "targetidx" : 13,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 13,
+         "sbo" : 11,
+         "source" : "Reactome:173488",
+         "sourceidx" : 13,
+         "target" : "MAP:C119",
+         "targetidx" : 15,
+         "type" : "Product"
+      },
+      {
+         "id" : 14,
+         "sbo" : 15,
+         "source" : "MAP:Cs56-65-5_CY_Reactome:170843",
+         "sourceidx" : 17,
+         "target" : "Reactome:170843",
+         "targetidx" : 16,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 15,
+         "sbo" : 15,
+         "source" : "Reactome:170840",
+         "sourceidx" : 12,
+         "target" : "Reactome:170843",
+         "targetidx" : 16,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 16,
+         "sbo" : 11,
+         "source" : "Reactome:170843",
+         "sourceidx" : 16,
+         "target" : "Reactome:170841",
+         "targetidx" : 1,
+         "type" : "Product"
+      },
+      {
+         "id" : 17,
+         "sbo" : 11,
+         "source" : "Reactome:170843",
+         "sourceidx" : 16,
+         "target" : "MAP:Cb16761_CY_Reactome:170843",
+         "targetidx" : 18,
+         "type" : "Product"
+      },
+      {
+         "id" : 18,
+         "sbo" : 13,
+         "source" : "Reactome:170840",
+         "sourceidx" : 12,
+         "target" : "Reactome:170843",
+         "targetidx" : 16,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 19,
+         "sbo" : 15,
+         "source" : "Reactome:171180",
+         "sourceidx" : 7,
+         "target" : "Reactome:170850",
+         "targetidx" : 19,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 20,
+         "sbo" : 11,
+         "source" : "Reactome:170850",
+         "sourceidx" : 19,
+         "target" : "Reactome:171182",
+         "targetidx" : 20,
+         "type" : "Product"
+      },
+      {
+         "id" : 21,
+         "sbo" : 11,
+         "source" : "Reactome:170850",
+         "sourceidx" : 19,
+         "target" : "Reactome:171173",
+         "targetidx" : 21,
+         "type" : "Product"
+      },
+      {
+         "id" : 22,
+         "sbo" : 15,
+         "source" : "Reactome:170841",
+         "sourceidx" : 1,
+         "target" : "Reactome:170835",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 23,
+         "sbo" : 15,
+         "source" : "Reactome:171177",
+         "sourceidx" : 23,
+         "target" : "Reactome:170835",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 24,
+         "sbo" : 15,
+         "source" : "Reactome:171172",
+         "sourceidx" : 24,
+         "target" : "Reactome:170835",
+         "targetidx" : 22,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 25,
+         "sbo" : 11,
+         "source" : "Reactome:170835",
+         "sourceidx" : 22,
+         "target" : "Reactome:171266",
+         "targetidx" : 5,
+         "type" : "Product"
+      },
+      {
+         "id" : 26,
+         "sbo" : 13,
+         "source" : "Reactome:171177",
+         "sourceidx" : 23,
+         "target" : "Reactome:170835",
+         "targetidx" : 22,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 27,
+         "sbo" : 15,
+         "source" : "Reactome:170852",
+         "sourceidx" : 26,
+         "target" : "Reactome:170861",
+         "targetidx" : 25,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 28,
+         "sbo" : 15,
+         "source" : "Reactome:170866",
+         "sourceidx" : 27,
+         "target" : "Reactome:170861",
+         "targetidx" : 25,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 29,
+         "sbo" : 11,
+         "source" : "Reactome:170861",
+         "sourceidx" : 25,
+         "target" : "Reactome:170865",
+         "targetidx" : 10,
+         "type" : "Product"
+      },
+      {
+         "id" : 30,
+         "sbo" : 13,
+         "source" : "Reactome:170852",
+         "sourceidx" : 26,
+         "target" : "Reactome:170861",
+         "targetidx" : 25,
+         "type" : "Catalyst"
+      },
+      {
+         "id" : 31,
+         "sbo" : 15,
+         "source" : "Reactome:171182",
+         "sourceidx" : 20,
+         "target" : "Reactome:170847",
+         "targetidx" : 28,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 32,
+         "sbo" : 15,
+         "source" : "MAP:UQ13485_CY",
+         "sourceidx" : 29,
+         "target" : "Reactome:170847",
+         "targetidx" : 28,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 33,
+         "sbo" : 11,
+         "source" : "Reactome:170847",
+         "sourceidx" : 28,
+         "target" : "Reactome:171175",
+         "targetidx" : 14,
+         "type" : "Product"
+      },
+      {
+         "id" : 34,
+         "sbo" : 15,
+         "source" : "MAP:C132",
+         "sourceidx" : 31,
+         "target" : "Reactome:173481",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 35,
+         "sbo" : 15,
+         "source" : "MAP:C119",
+         "sourceidx" : 15,
+         "target" : "Reactome:173481",
+         "targetidx" : 30,
+         "type" : "Substrate"
+      },
+      {
+         "id" : 36,
+         "sbo" : 11,
+         "source" : "Reactome:173481",
+         "sourceidx" : 30,
+         "target" : "Reactome:177110",
+         "targetidx" : 32,
+         "type" : "Product"
+      },
+      {
+         "id" : 37,
+         "sbo" : null,
+         "source" : "Reactome:173481",
+         "sourceidx" : 30,
+         "target" : "MAP:C119",
+         "targetidx" : 15,
+         "type" : "SInhibit"
+      }
+   ],
+   "nodes" : [
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "I-SMAD competes with R-SMAD for type I receptor",
+            "ref" : "Reactome:173512",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:173512",
+         "index" : 0,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_plasmamembrane"
+            ],
+            "label" : "Plasmamembrane",
+            "ref" : "MAP:Plasmamembrane",
+            "subnodes" : [
+               "Reactome:170841",
+               "Reactome:173476",
+               "Reactome:170865",
+               "Reactome:170864",
+               "Reactome:170840",
+               "Reactome:170866",
+               "Reactome:170846"
+            ]
+         },
+         "id" : "MAP:Plasmamembrane",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:170841_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:170841_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:170841_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:170841_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_0_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_1_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170863",
+            "subnodes" : [
+               "Reactome:170849_Reactome:170863_0_Reactome:170841_0",
+               "Reactome:170849_Reactome:170863_1_Reactome:170841_0"
+            ]
+         },
+         "id" : "Reactome:170863_Reactome:170841_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:Phospho-type I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170841",
+            "subnodes" : [
+               "Reactome:170852_Reactome:170841_0",
+               "Reactome:170866_Reactome:170841_0",
+               "Reactome:170863_Reactome:170841_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170841",
+         "index" : 1,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_cytosol"
+            ],
+            "label" : "Cytosol",
+            "ref" : "MAP:Cytosol",
+            "subnodes" : [
+               "Reactome:173495",
+               "MAP:Cs56-65-5_CY_Reactome:170868",
+               "MAP:Cb16761_CY_Reactome:170868",
+               "Reactome:171175",
+               "MAP:Cs56-65-5_CY_Reactome:170843",
+               "MAP:Cb16761_CY_Reactome:170843",
+               "Reactome:171182",
+               "Reactome:171172",
+               "MAP:UQ13485_CY",
+               "Reactome:170847"
+            ]
+         },
+         "id" : "MAP:Cytosol",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "I-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:173495",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:173495",
+         "index" : 2,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:173476_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:173476_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "I-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:173495"
+         },
+         "id" : "Reactome:173495_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:173476_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:173476_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_0_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_1_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170863",
+            "subnodes" : [
+               "Reactome:170849_Reactome:170863_0_Reactome:173476_0",
+               "Reactome:170849_Reactome:170863_1_Reactome:173476_0"
+            ]
+         },
+         "id" : "Reactome:170863_Reactome:173476_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:Phospho-type I receptor:I-SMAD complex",
+            "modification" : [],
+            "ref" : "Reactome:173476",
+            "subnodes" : [
+               "Reactome:170852_Reactome:173476_0",
+               "Reactome:173495_Reactome:173476_0",
+               "Reactome:170866_Reactome:173476_0",
+               "Reactome:170863_Reactome:173476_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:173476",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Activated type I receptor phosphorylates R-SMAD directly",
+            "ref" : "Reactome:170868",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170868",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_organelle"
+            ],
+            "label" : "Organelle",
+            "ref" : "MAP:Organelle",
+            "subnodes" : [
+               "Reactome:171266",
+               "Reactome:171180",
+               "Reactome:171173",
+               "Reactome:171177"
+            ]
+         },
+         "id" : "MAP:Organelle",
+         "index" : 3,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:171266_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:171266_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SARA",
+            "modification" : [],
+            "ref" : "Reactome:171177"
+         },
+         "id" : "Reactome:171177_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "R-SMAD2/3",
+            "modification" : [],
+            "ref" : "Reactome:171172"
+         },
+         "id" : "Reactome:171172_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:171266_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:171266_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_0_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_1_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170863",
+            "subnodes" : [
+               "Reactome:170849_Reactome:170863_0_Reactome:171266_0",
+               "Reactome:170849_Reactome:170863_1_Reactome:171266_0"
+            ]
+         },
+         "id" : "Reactome:170863_Reactome:171266_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Organelle",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:Phospho-type I receptor:SARA:R-SMAD complex",
+            "modification" : [],
+            "ref" : "Reactome:171266",
+            "subnodes" : [
+               "Reactome:170852_Reactome:171266_0",
+               "Reactome:171177_Reactome:171266_0",
+               "Reactome:171172_Reactome:171266_0",
+               "Reactome:170866_Reactome:171266_0",
+               "Reactome:170863_Reactome:171266_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171266",
+         "index" : 5,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:170868",
+         "index" : 6,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:171180_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:171180_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SARA",
+            "modification" : [],
+            "ref" : "Reactome:171177"
+         },
+         "id" : "Reactome:171177_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-R-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:171182"
+         },
+         "id" : "Reactome:171182_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:171180_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:171180_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_0_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_1_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170863",
+            "subnodes" : [
+               "Reactome:170849_Reactome:170863_0_Reactome:171180_0",
+               "Reactome:170849_Reactome:170863_1_Reactome:171180_0"
+            ]
+         },
+         "id" : "Reactome:170863_Reactome:171180_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Organelle",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:Phospho-type I receptor:SARA:Phospho-R-SMAD complex",
+            "modification" : [],
+            "ref" : "Reactome:171180",
+            "subnodes" : [
+               "Reactome:170852_Reactome:171180_0",
+               "Reactome:171177_Reactome:171180_0",
+               "Reactome:171182_Reactome:171180_0",
+               "Reactome:170866_Reactome:171180_0",
+               "Reactome:170863_Reactome:171180_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171180",
+         "index" : 7,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:170868",
+         "index" : 8,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Type II receptor recruits type I receptor",
+            "ref" : "Reactome:170846",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170846",
+         "index" : 9,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:170865_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:170865_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:170865_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:170865_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:170865_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Dimeric TGF-beta1:type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170865",
+            "subnodes" : [
+               "Reactome:170852_Reactome:170865_0",
+               "Reactome:170866_Reactome:170865_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170865",
+         "index" : 10,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGFBR1",
+            "modification" : [],
+            "ref" : "MAP:C115"
+         },
+         "id" : "MAP:C115_Reactome:170864_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGFBR1",
+            "modification" : [],
+            "ref" : "MAP:C115"
+         },
+         "id" : "MAP:C115_Reactome:170864_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Type I receptor dimer",
+            "modification" : [],
+            "ref" : "Reactome:170864",
+            "subnodes" : [
+               "MAP:C115_Reactome:170864_0",
+               "MAP:C115_Reactome:170864_1"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170864",
+         "index" : 11,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:170840_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:170840_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:170840_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:170840_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGFBR1",
+            "modification" : [],
+            "ref" : "MAP:C115"
+         },
+         "id" : "MAP:C115_Reactome:170864_0_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGFBR1",
+            "modification" : [],
+            "ref" : "MAP:C115"
+         },
+         "id" : "MAP:C115_Reactome:170864_1_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type I receptor dimer",
+            "modification" : [],
+            "ref" : "Reactome:170864",
+            "subnodes" : [
+               "MAP:C115_Reactome:170864_0_Reactome:170840_0",
+               "MAP:C115_Reactome:170864_1_Reactome:170840_0"
+            ]
+         },
+         "id" : "Reactome:170864_Reactome:170840_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:type I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170840",
+            "subnodes" : [
+               "Reactome:170852_Reactome:170840_0",
+               "Reactome:170866_Reactome:170840_0",
+               "Reactome:170864_Reactome:170840_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170840",
+         "index" : 12,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "The phospho-R-SMAD:CO-SMAD transfers to the nucleus",
+            "ref" : "Reactome:173488",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:173488",
+         "index" : 13,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-R-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:171182"
+         },
+         "id" : "Reactome:171182_Reactome:171175_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Co-SMAD",
+            "modification" : [],
+            "ref" : "MAP:UQ13485_CY"
+         },
+         "id" : "MAP:UQ13485_CY_Reactome:171175_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Phospho-R-SMAD:CO-SMAD complex",
+            "modification" : [],
+            "ref" : "Reactome:171175",
+            "subnodes" : [
+               "Reactome:171182_Reactome:171175_0",
+               "MAP:UQ13485_CY_Reactome:171175_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171175",
+         "index" : 14,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_nucleus"
+            ],
+            "label" : "Nucleus",
+            "ref" : "MAP:Nucleus",
+            "subnodes" : [
+               "MAP:C119",
+               "MAP:C132",
+               "Reactome:177110",
+               "Reactome:173481"
+            ]
+         },
+         "id" : "MAP:Nucleus",
+         "index" : 4,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-R-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:177105"
+         },
+         "id" : "Reactome:177105_MAP:C119_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SMAD4()",
+            "modification" : [],
+            "ref" : "MAP:UQ13485_NU"
+         },
+         "id" : "MAP:UQ13485_NU_MAP:C119_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Nucleus",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "SMAD2-3/SMAD4(act*)",
+            "modification" : [
+               [
+                  111101,
+                  0
+               ]
+            ],
+            "ref" : "MAP:C119",
+            "subnodes" : [
+               "Reactome:177105_MAP:C119_0",
+               "MAP:UQ13485_NU_MAP:C119_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C119",
+         "index" : 15,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Type II receptor phosphorylates type I receptor",
+            "ref" : "Reactome:170843",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170843",
+         "index" : 16,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "ATP",
+            "modification" : [],
+            "ref" : "MAP:Cs56-65-5_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cs56-65-5_CY_Reactome:170843",
+         "index" : 17,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "ADP",
+            "modification" : [],
+            "ref" : "MAP:Cb16761_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:Cb16761_CY_Reactome:170843",
+         "index" : 18,
+         "is_abstract" : 0,
+         "sbo" : 247,
+         "type" : "SimpleCompound"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Phospho-R-SMAD dissociates from the receptor complex",
+            "ref" : "Reactome:170850",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170850",
+         "index" : 19,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Phospho-R-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:171182",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171182",
+         "index" : 20,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0_Reactome:171173_0",
+               "Reactome:170838_Reactome:170852_1_Reactome:171173_0"
+            ]
+         },
+         "id" : "Reactome:170852_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SARA",
+            "modification" : [],
+            "ref" : "Reactome:171177"
+         },
+         "id" : "Reactome:171177_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0_Reactome:171173_0",
+               "Reactome:170842_Reactome:170866_1_Reactome:171173_0"
+            ]
+         },
+         "id" : "Reactome:170866_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_0_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor",
+            "modification" : [
+               [
+                  216,
+                  "165"
+               ],
+               [
+                  216,
+                  "185"
+               ],
+               [
+                  216,
+                  "186"
+               ],
+               [
+                  216,
+                  "187"
+               ],
+               [
+                  216,
+                  "189"
+               ],
+               [
+                  216,
+                  "191"
+               ]
+            ],
+            "ref" : "Reactome:170849"
+         },
+         "id" : "Reactome:170849_Reactome:170863_1_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-TGF-beta I receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170863",
+            "subnodes" : [
+               "Reactome:170849_Reactome:170863_0_Reactome:171173_0",
+               "Reactome:170849_Reactome:170863_1_Reactome:171173_0"
+            ]
+         },
+         "id" : "Reactome:170863_Reactome:171173_0",
+         "is_abstract" : 1,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Organelle",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "TGF-beta 1:type II receptor:Phospho-type I receptor:SARA complex",
+            "modification" : [],
+            "ref" : "Reactome:171173",
+            "subnodes" : [
+               "Reactome:170852_Reactome:171173_0",
+               "Reactome:171177_Reactome:171173_0",
+               "Reactome:170866_Reactome:171173_0",
+               "Reactome:170863_Reactome:171173_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171173",
+         "index" : 21,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "An anchoring protein, SARA, recruits R-SMAD",
+            "ref" : "Reactome:170835",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170835",
+         "index" : 22,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Organelle",
+            "compartmentidx" : 3,
+            "dir" : 0,
+            "label" : "SARA",
+            "modification" : [],
+            "ref" : "Reactome:171177",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171177",
+         "index" : 23,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "R-SMAD2/3",
+            "modification" : [],
+            "ref" : "Reactome:171172",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:171172",
+         "index" : 24,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "dir" : 0,
+            "label" : "Dimeric TGF-beta1 binds to the receptor",
+            "ref" : "Reactome:170861",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170861",
+         "index" : 25,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "cssClasses" : [
+               "CP_extracellular"
+            ],
+            "label" : "Extracellular",
+            "ref" : "MAP:Extracellular",
+            "subnodes" : [
+               "Reactome:170852"
+            ]
+         },
+         "id" : "MAP:Extracellular",
+         "index" : 5,
+         "is_abstract" : 0,
+         "sbo" : 290,
+         "type" : "Compartment"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170838"
+         },
+         "id" : "Reactome:170838_Reactome:170852_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Extracellular",
+            "compartmentidx" : 5,
+            "dir" : 0,
+            "label" : "Dimeric TGF-beta 1",
+            "modification" : [],
+            "ref" : "Reactome:170852",
+            "subnodes" : [
+               "Reactome:170838_Reactome:170852_0",
+               "Reactome:170838_Reactome:170852_1"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170852",
+         "index" : 26,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "TGF-beta II receptor",
+            "modification" : [],
+            "ref" : "Reactome:170842"
+         },
+         "id" : "Reactome:170842_Reactome:170866_1",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Plasmamembrane",
+            "compartmentidx" : 1,
+            "dir" : 0,
+            "label" : "Type II receptor complex",
+            "modification" : [],
+            "ref" : "Reactome:170866",
+            "subnodes" : [
+               "Reactome:170842_Reactome:170866_0",
+               "Reactome:170842_Reactome:170866_1"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170866",
+         "index" : 27,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Phospho-R-SMAD forms a complex with CO-SMAD",
+            "ref" : "Reactome:170847",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:170847",
+         "index" : 28,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Cytosol",
+            "compartmentidx" : 2,
+            "dir" : 0,
+            "label" : "Co-SMAD",
+            "modification" : [],
+            "ref" : "MAP:UQ13485_CY",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:UQ13485_CY",
+         "index" : 29,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Nucleus",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "SKI complexes with the SMAD complex, suppressing TGF-beta signaling",
+            "ref" : "Reactome:173481",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:173481",
+         "index" : 30,
+         "is_abstract" : 0,
+         "sbo" : 167,
+         "type" : "Reaction"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Nucleus",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "SKI",
+            "modification" : [],
+            "ref" : "MAP:C132",
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "MAP:C132",
+         "index" : 31,
+         "is_abstract" : 0,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "Phospho-R-SMAD",
+            "modification" : [],
+            "ref" : "Reactome:177105"
+         },
+         "id" : "Reactome:177105_Reactome:177110_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SKI",
+            "modification" : [],
+            "ref" : "MAP:C132"
+         },
+         "id" : "MAP:C132_Reactome:177110_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartmentidx" : 0,
+            "label" : "SMAD4()",
+            "modification" : [],
+            "ref" : "MAP:UQ13485_NU"
+         },
+         "id" : "MAP:UQ13485_NU_Reactome:177110_0",
+         "is_abstract" : 1,
+         "sbo" : 252,
+         "type" : "Protein"
+      },
+      {
+         "data" : {
+            "compartment" : "MAP:Nucleus",
+            "compartmentidx" : 4,
+            "dir" : 0,
+            "label" : "Phospho-R-SMAD:CO-SMAD:SKI complex",
+            "modification" : [],
+            "ref" : "Reactome:177110",
+            "subnodes" : [
+               "Reactome:177105_Reactome:177110_0",
+               "MAP:C132_Reactome:177110_0",
+               "MAP:UQ13485_NU_Reactome:177110_0"
+            ],
+            "x" : 0,
+            "y" : 0
+         },
+         "id" : "Reactome:177110",
+         "index" : 32,
+         "is_abstract" : 0,
+         "sbo" : 253,
+         "type" : "Complex"
+      }
+   ]
+}

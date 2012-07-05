@@ -1,0 +1,1057 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "MFtrnsink", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "MFtrn", 
+         "target": "MF"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "PF", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "PFp", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "PW", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "PWL", 
+         "target": "MFtrn"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "MF", 
+         "target": "MFdeg"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "MFdeg", 
+         "target": "MFdegsink"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "E1Ftrlsink", 
+         "target": "E1Ftrl"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "E1Ftrl", 
+         "target": "E1F"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 168, 
+         "source": "MF", 
+         "target": "E1Ftrl"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "E1F", 
+         "target": "E1Fdeg"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "E1Fdeg", 
+         "target": "E1Fdegsink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "E1F", 
+         "target": "E2Ftrl"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "E2Ftrl", 
+         "target": "E2F"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "E2F", 
+         "target": "E2Fdeg"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "E2Fdeg", 
+         "target": "E2Fdegsink"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "E2F", 
+         "target": "PFtrl"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "PFtrl", 
+         "target": "PF"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "PF", 
+         "target": "PFdeg"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "PFdeg", 
+         "target": "PFdegsink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "MWtrnsink", 
+         "target": "MWtrn"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "MWtrn", 
+         "target": "MW"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "PWL", 
+         "target": "MWtrn"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 394, 
+         "source": "MW", 
+         "target": "MWdeg"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "MWdeg", 
+         "target": "MWdegsink"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "E1Wtrlsink", 
+         "target": "E1Wtrl"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "E1Wtrl", 
+         "target": "E1W"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 168, 
+         "source": "MW", 
+         "target": "E1Wtrl"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 168, 
+         "source": "PF", 
+         "target": "E1Wtrl"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 168, 
+         "source": "PFp", 
+         "target": "E1Wtrl"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "E1W", 
+         "target": "E1Wdeg"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "E1Wdeg", 
+         "target": "E1Wdegsink"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "E1W", 
+         "target": "E2Wtrl"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "E2Wtrl", 
+         "target": "E2W"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "E2W", 
+         "target": "E2Wdeg"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "E2Wdeg", 
+         "target": "E2Wdegsink"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 394, 
+         "source": "E2W", 
+         "target": "PWtrl"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 393, 
+         "source": "PWtrl", 
+         "target": "PW"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 394, 
+         "source": "PW", 
+         "target": "PWdeg"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 393, 
+         "source": "PWdeg", 
+         "target": "PWdegsink"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 394, 
+         "source": "PW", 
+         "target": "PWtrs"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 393, 
+         "source": "PWtrs", 
+         "target": "PWL"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "PWL", 
+         "target": "PWLdeg"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "PWLdeg", 
+         "target": "PWLdegsink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "E1Fptrlsink", 
+         "target": "E1Fptrl"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "E1Fptrl", 
+         "target": "E1Fp"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "MF", 
+         "target": "E1Fptrl"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "E1Fp", 
+         "target": "E1Fpdeg"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "E1Fpdeg", 
+         "target": "E1Fpdegsink"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "E1Fp", 
+         "target": "E2Fptrl"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "E2Fptrl", 
+         "target": "E2Fp"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "E2Fp", 
+         "target": "E2Fpdeg"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "E2Fpdeg", 
+         "target": "E2Fpdegsink"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "E2Fp", 
+         "target": "PFptrl"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "PFptrl", 
+         "target": "PFp"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "PFp", 
+         "target": "PFpdeg"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "PFpdeg", 
+         "target": "PFpdegsink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "MFtrn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFtrn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFtrnsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Frq mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MF", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "s-Frq", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PF", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "l-Frq", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WC-1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PW", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WC-1*", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWL", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MFdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MFdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Ftrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Ftrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Ftrlsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "s-Frq_1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1F", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Fdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Ftrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Ftrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "s-Frq_2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Fdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PFtrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFtrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PFdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MWtrn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MWtrn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MWtrnsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WC-1 mRNA", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MW", 
+         "is_abstract": 0, 
+         "sbo": 250
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "MWdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MWdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MWdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Wtrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Wtrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Wtrlsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WC-1_1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1W", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Wdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Wdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Wdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Wtrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Wtrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "WC-1_2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2W", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Wdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Wdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Wdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PWtrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWtrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PWdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PWtrs", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWtrs", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PWLdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWLdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PWLdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Fptrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fptrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fptrlsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "l-Frq_1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E1Fpdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fpdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E1Fpdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Fptrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fptrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "l-Frq_2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2Fpdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fpdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2Fpdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PFptrl", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFptrl", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PFpdeg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFpdeg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PFpdegsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "E2Wtrl", 
+               "E1Fp", 
+               "E2Wdegsink", 
+               "E1Wdegsink", 
+               "E2Wdeg", 
+               "E1Ftrlsink", 
+               "E2W", 
+               "E1Fptrl", 
+               "E2Fpdeg", 
+               "E2Fp", 
+               "E1Fpdegsink", 
+               "E2F", 
+               "E1Wtrlsink", 
+               "PFptrl", 
+               "E1Fpdeg", 
+               "PFtrl", 
+               "E2Fdegsink", 
+               "E2Fptrl", 
+               "E1Wdeg", 
+               "E1Fdegsink", 
+               "E2Fpdegsink", 
+               "E1Fdeg", 
+               "E2Fdeg", 
+               "E1Fptrlsink", 
+               "E1Ftrl", 
+               "E1Wtrl", 
+               "E1W", 
+               "PWtrl", 
+               "E2Ftrl", 
+               "E1F"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "nucleus", 
+            "subnodes": [
+               "PFdeg", 
+               "PWLdegsink", 
+               "MWdegsink", 
+               "MWtrnsink", 
+               "PW", 
+               "MFdeg", 
+               "MWtrn", 
+               "PF", 
+               "PFptrl", 
+               "PWLdeg", 
+               "PFdegsink", 
+               "MWdeg", 
+               "MFtrn", 
+               "PFp", 
+               "PFtrl", 
+               "PFpdeg", 
+               "PWtrl", 
+               "PWdeg", 
+               "MF", 
+               "PWtrs", 
+               "PWdegsink", 
+               "MFdegsink", 
+               "MW", 
+               "PFpdegsink", 
+               "PWL", 
+               "MFtrnsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,296 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "r1sink", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "X"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "S", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "X", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "r2sink"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "Rp", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "Y", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "Yp"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "X", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "Yp", 
+         "target": "r4"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "r4", 
+         "target": "Y"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "R", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "r5", 
+         "target": "Rp"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "Yp", 
+         "target": "r5"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "Rp", 
+         "target": "r6"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 393, 
+         "source": "r6", 
+         "target": "R"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "X", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "X", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "S", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "S", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Rp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Rp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Y", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Y", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Yp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Yp", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r4", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r5", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "R", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r6", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "env", 
+            "subnodes": [
+               "r4", 
+               "r5", 
+               "r6", 
+               "Rp", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "r1sink", 
+               "S", 
+               "R", 
+               "Yp", 
+               "Y", 
+               "X", 
+               "r2sink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "env", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

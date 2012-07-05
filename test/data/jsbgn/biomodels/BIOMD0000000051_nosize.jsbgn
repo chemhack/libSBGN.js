@@ -1,0 +1,1925 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "cglcex", 
+         "target": "vPTS"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vPTS"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "vPTS", 
+         "target": "cg6p"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "vPTS", 
+         "target": "cpyr"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "cg6p", 
+         "target": "vPGI"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "vPGI", 
+         "target": "cf6p"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 168, 
+         "source": "cpg", 
+         "target": "vPGI"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "cg6p", 
+         "target": "vPGM"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 393, 
+         "source": "vPGM", 
+         "target": "cg1p"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "cg6p", 
+         "target": "vG6PDH"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "vG6PDH", 
+         "target": "cpg"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "cf6p", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "vPFK", 
+         "target": "cfdp"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "cpep", 
+         "target": "vPFK"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "cgap", 
+         "target": "vTA"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "csed7p", 
+         "target": "vTA"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "vTA", 
+         "target": "cf6p"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "vTA", 
+         "target": "ce4p"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "crib5p", 
+         "target": "vTKA"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "cxyl5p", 
+         "target": "vTKA"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "vTKA", 
+         "target": "cgap"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "vTKA", 
+         "target": "csed7p"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "ce4p", 
+         "target": "vTKB"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "cxyl5p", 
+         "target": "vTKB"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "vTKB", 
+         "target": "cgap"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "vTKB", 
+         "target": "cf6p"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "cf6p", 
+         "target": "vMURSyNTH"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 393, 
+         "source": "vMURSyNTH", 
+         "target": "vMURSyNTHsink"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 394, 
+         "source": "cfdp", 
+         "target": "vALDO"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "vALDO", 
+         "target": "cdhap"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "vALDO", 
+         "target": "cgap"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "cgap", 
+         "target": "vGAPDH"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "vGAPDH", 
+         "target": "cpgp"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 394, 
+         "source": "cdhap", 
+         "target": "vTIS"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 393, 
+         "source": "vTIS", 
+         "target": "cgap"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "vTRPSYNTHsink", 
+         "target": "vTRPSYNTH"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "vTRPSYNTH", 
+         "target": "cpyr"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "vTRPSYNTH", 
+         "target": "cgap"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "cdhap", 
+         "target": "vG3PDH"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "vG3PDH", 
+         "target": "vG3PDHsink"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "cpgp", 
+         "target": "vPGK"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "vPGK", 
+         "target": "cpg3"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "cpg3", 
+         "target": "vsersynth"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "vsersynth", 
+         "target": "vsersynthsink"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "cpg3", 
+         "target": "vrpGluMu"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "vrpGluMu", 
+         "target": "cpg2"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "cpg2", 
+         "target": "vENO"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "vENO", 
+         "target": "cpep"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "vPK", 
+         "target": "cpyr"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 168, 
+         "source": "cfdp", 
+         "target": "vPK"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vpepCxylase"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "vpepCxylase", 
+         "target": "vpepCxylasesink"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 168, 
+         "source": "cfdp", 
+         "target": "vpepCxylase"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vSynth1"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "vSynth1", 
+         "target": "vSynth1sink"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "cpyr", 
+         "target": "vSynth2"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 393, 
+         "source": "vSynth2", 
+         "target": "vSynth2sink"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 394, 
+         "source": "ce4p", 
+         "target": "vDAHPS"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vDAHPS"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 393, 
+         "source": "vDAHPS", 
+         "target": "vDAHPSsink"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 394, 
+         "source": "cpyr", 
+         "target": "vPDH"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 393, 
+         "source": "vPDH", 
+         "target": "vPDHsink"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 394, 
+         "source": "vMethSynthsink", 
+         "target": "vMethSynth"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 393, 
+         "source": "vMethSynth", 
+         "target": "cpyr"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "cpg", 
+         "target": "vPGDH"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "vPGDH", 
+         "target": "cribu5p"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "cribu5p", 
+         "target": "vR5PI"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "vR5PI", 
+         "target": "crib5p"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "cribu5p", 
+         "target": "vRu5P"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "vRu5P", 
+         "target": "cxyl5p"
+      }, 
+      {
+         "id": "edge71", 
+         "sbo": 394, 
+         "source": "crib5p", 
+         "target": "vPPK"
+      }, 
+      {
+         "id": "edge72", 
+         "sbo": 393, 
+         "source": "vPPK", 
+         "target": "vPPKsink"
+      }, 
+      {
+         "id": "edge73", 
+         "sbo": 394, 
+         "source": "cg1p", 
+         "target": "vG1PAT"
+      }, 
+      {
+         "id": "edge74", 
+         "sbo": 393, 
+         "source": "vG1PAT", 
+         "target": "vG1PATsink"
+      }, 
+      {
+         "id": "edge75", 
+         "sbo": 168, 
+         "source": "cfdp", 
+         "target": "vG1PAT"
+      }, 
+      {
+         "id": "edge76", 
+         "sbo": 394, 
+         "source": "cg6p", 
+         "target": "vG6P"
+      }, 
+      {
+         "id": "edge77", 
+         "sbo": 393, 
+         "source": "vG6P", 
+         "target": "vG6Psink"
+      }, 
+      {
+         "id": "edge78", 
+         "sbo": 394, 
+         "source": "cf6p", 
+         "target": "vf6P"
+      }, 
+      {
+         "id": "edge79", 
+         "sbo": 393, 
+         "source": "vf6P", 
+         "target": "vf6Psink"
+      }, 
+      {
+         "id": "edge80", 
+         "sbo": 394, 
+         "source": "cfdp", 
+         "target": "vfdP"
+      }, 
+      {
+         "id": "edge81", 
+         "sbo": 393, 
+         "source": "vfdP", 
+         "target": "vfdPsink"
+      }, 
+      {
+         "id": "edge82", 
+         "sbo": 394, 
+         "source": "cgap", 
+         "target": "vGAP"
+      }, 
+      {
+         "id": "edge83", 
+         "sbo": 393, 
+         "source": "vGAP", 
+         "target": "vGAPsink"
+      }, 
+      {
+         "id": "edge84", 
+         "sbo": 394, 
+         "source": "cdhap", 
+         "target": "vDHAP"
+      }, 
+      {
+         "id": "edge85", 
+         "sbo": 393, 
+         "source": "vDHAP", 
+         "target": "vDHAPsink"
+      }, 
+      {
+         "id": "edge86", 
+         "sbo": 394, 
+         "source": "cpgp", 
+         "target": "vPGP"
+      }, 
+      {
+         "id": "edge87", 
+         "sbo": 393, 
+         "source": "vPGP", 
+         "target": "vPGPsink"
+      }, 
+      {
+         "id": "edge88", 
+         "sbo": 394, 
+         "source": "cpg3", 
+         "target": "vPG3"
+      }, 
+      {
+         "id": "edge89", 
+         "sbo": 393, 
+         "source": "vPG3", 
+         "target": "vPG3sink"
+      }, 
+      {
+         "id": "edge90", 
+         "sbo": 394, 
+         "source": "cpg2", 
+         "target": "vpg2"
+      }, 
+      {
+         "id": "edge91", 
+         "sbo": 393, 
+         "source": "vpg2", 
+         "target": "vpg2sink"
+      }, 
+      {
+         "id": "edge92", 
+         "sbo": 394, 
+         "source": "cpep", 
+         "target": "vPEP"
+      }, 
+      {
+         "id": "edge93", 
+         "sbo": 393, 
+         "source": "vPEP", 
+         "target": "vPEPsink"
+      }, 
+      {
+         "id": "edge94", 
+         "sbo": 394, 
+         "source": "cribu5p", 
+         "target": "vRibu5p"
+      }, 
+      {
+         "id": "edge95", 
+         "sbo": 393, 
+         "source": "vRibu5p", 
+         "target": "vRibu5psink"
+      }, 
+      {
+         "id": "edge96", 
+         "sbo": 394, 
+         "source": "crib5p", 
+         "target": "vRIB5P"
+      }, 
+      {
+         "id": "edge97", 
+         "sbo": 393, 
+         "source": "vRIB5P", 
+         "target": "vRIB5Psink"
+      }, 
+      {
+         "id": "edge98", 
+         "sbo": 394, 
+         "source": "cxyl5p", 
+         "target": "vXYL5P"
+      }, 
+      {
+         "id": "edge99", 
+         "sbo": 393, 
+         "source": "vXYL5P", 
+         "target": "vXYL5Psink"
+      }, 
+      {
+         "id": "edge100", 
+         "sbo": 394, 
+         "source": "csed7p", 
+         "target": "vSED7P"
+      }, 
+      {
+         "id": "edge101", 
+         "sbo": 393, 
+         "source": "vSED7P", 
+         "target": "vSED7Psink"
+      }, 
+      {
+         "id": "edge102", 
+         "sbo": 394, 
+         "source": "cpyr", 
+         "target": "vpyr"
+      }, 
+      {
+         "id": "edge103", 
+         "sbo": 393, 
+         "source": "vpyr", 
+         "target": "vpyrsink"
+      }, 
+      {
+         "id": "edge104", 
+         "sbo": 394, 
+         "source": "cpg", 
+         "target": "vPG"
+      }, 
+      {
+         "id": "edge105", 
+         "sbo": 393, 
+         "source": "vPG", 
+         "target": "vPGsink"
+      }, 
+      {
+         "id": "edge106", 
+         "sbo": 394, 
+         "source": "ce4p", 
+         "target": "vE4P"
+      }, 
+      {
+         "id": "edge107", 
+         "sbo": 393, 
+         "source": "vE4P", 
+         "target": "vE4Psink"
+      }, 
+      {
+         "id": "edge108", 
+         "sbo": 394, 
+         "source": "cg1p", 
+         "target": "vGLP"
+      }, 
+      {
+         "id": "edge109", 
+         "sbo": 393, 
+         "source": "vGLP", 
+         "target": "vGLPsink"
+      }, 
+      {
+         "id": "edge110", 
+         "sbo": 394, 
+         "source": "vEXTERsink", 
+         "target": "vEXTER"
+      }, 
+      {
+         "id": "edge111", 
+         "sbo": 393, 
+         "source": "vEXTER", 
+         "target": "cglcex"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphotransferase system", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPTS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Extracellular Glucose", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cglcex", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Phosphoenol pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpep", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose-6-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cg6p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Pyruvate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpyr", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose-6-phosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose-6-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cf6p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "6-Phosphogluconate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpg", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoglucomutase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGM", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glucose-1-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cg1p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose-6-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG6PDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphofructokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPFK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Fructose-1,6-bisphosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cfdp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transaldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Glyceraldehyde-3-Phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cgap", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "sedoheptulose-7-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "csed7p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Erythrose-4-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "ce4p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transketolase a", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTKA", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ribose-5-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "crib5p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Xylulose-5-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cxyl5p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Transketolase b", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTKB", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Mureine synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vMURSyNTH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vMURSyNTHsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Aldolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vALDO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Dihydroxyacetonephosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cdhap", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glyceraldehyde-3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGAPDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "1,3-diphosphosphoglycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpgp", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Triosephosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTIS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Tryptophan synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTRPSYNTH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vTRPSYNTHsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glycerol-3-phosphate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG3PDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG3PDHsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoglycerate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "3-Phosphoglycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpg3", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Serine synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vsersynth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vsersynthsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Phosphoglycerate mutase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vrpGluMu", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "2-Phosphoglycerate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cpg2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Enolase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vENO", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate kinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PEP carboxylase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpepCxylase", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpepCxylasesink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Synthesis 1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSynth1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSynth1sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Synthesis 2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSynth2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSynth2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DAHP synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vDAHPS", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vDAHPSsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPDHsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Methionine synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vMethSynth", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vMethSynthsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "6-Phosphogluconate dehydrogenase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGDH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ribulose-5-phosphate", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "cribu5p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ribose-phosphate isomerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vR5PI", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ribulose-phosphate epimerase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vRu5P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ribose phosphate pyrophosphokinase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPPK", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPPKsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Glucose-1-phosphate adenyltransferase", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG1PAT", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG1PATsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "G6P degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG6P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vG6Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "F6P degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vf6P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vf6Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "FDP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vfdP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vfdPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GAP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGAPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "DHAP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vDHAP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vDHAPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PGP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PG3 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPG3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPG3sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PG2 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpg2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpg2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PEP degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPEP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPEPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ribu5P dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vRibu5p", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vRibu5psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Rib5P dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vRIB5P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vRIB5Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "XYL5P dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vXYL5P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vXYL5Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "SED7P dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSED7P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vSED7Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Pyruvate dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpyr", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vpyrsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PG dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPG", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vPGsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E4P dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vE4P", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vE4Psink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "GLP dilution", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGLP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vGLPsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Extracellular glucose kinetics", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vEXTER", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "vEXTERsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "extracellular", 
+            "subnodes": [
+               "vEXTER", 
+               "vPTS", 
+               "cglcex", 
+               "vEXTERsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytosol", 
+            "subnodes": [
+               "vpg2", 
+               "vTRPSYNTH", 
+               "cpyr", 
+               "vsersynth", 
+               "vG6PDH", 
+               "vPGPsink", 
+               "csed7p", 
+               "vE4Psink", 
+               "vG3PDHsink", 
+               "ce4p", 
+               "vMURSyNTH", 
+               "vPEPsink", 
+               "vDHAP", 
+               "vSynth2", 
+               "vSynth1", 
+               "vPEP", 
+               "vpepCxylasesink", 
+               "vDAHPS", 
+               "vALDO", 
+               "vf6P", 
+               "vG3PDH", 
+               "vMURSyNTHsink", 
+               "vPPK", 
+               "vGAP", 
+               "cg6p", 
+               "vPPKsink", 
+               "vG6Psink", 
+               "cpgp", 
+               "vXYL5P", 
+               "vTKB", 
+               "vTKA", 
+               "vDHAPsink", 
+               "vSynth1sink", 
+               "vGLPsink", 
+               "vGAPDH", 
+               "vPGsink", 
+               "vPG3sink", 
+               "vRu5P", 
+               "vDAHPSsink", 
+               "vG6P", 
+               "vTA", 
+               "vsersynthsink", 
+               "cg1p", 
+               "vR5PI", 
+               "cpg2", 
+               "cpg3", 
+               "vSED7P", 
+               "vf6Psink", 
+               "vMethSynthsink", 
+               "vXYL5Psink", 
+               "cf6p", 
+               "vpyrsink", 
+               "cpep", 
+               "vPFK", 
+               "vRibu5p", 
+               "vSED7Psink", 
+               "cgap", 
+               "vSynth2sink", 
+               "cribu5p", 
+               "vpg2sink", 
+               "vTRPSYNTHsink", 
+               "vG1PATsink", 
+               "vPG3", 
+               "vMethSynth", 
+               "vG1PAT", 
+               "vPTS", 
+               "vRibu5psink", 
+               "vE4P", 
+               "cxyl5p", 
+               "vRIB5P", 
+               "cfdp", 
+               "crib5p", 
+               "vPDH", 
+               "vGLP", 
+               "vfdPsink", 
+               "vPDHsink", 
+               "cdhap", 
+               "vPG", 
+               "vTIS", 
+               "vpyr", 
+               "vPGM", 
+               "vPK", 
+               "vPGP", 
+               "vPGDH", 
+               "vfdP", 
+               "cpg", 
+               "vpepCxylase", 
+               "vrpGluMu", 
+               "vENO", 
+               "vPGK", 
+               "vRIB5Psink", 
+               "vPGI", 
+               "vGAPsink"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

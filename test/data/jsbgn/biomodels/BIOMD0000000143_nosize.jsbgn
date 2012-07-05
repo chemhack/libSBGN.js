@@ -1,0 +1,956 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "per3_p", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "H2O2_p", 
+         "target": "R1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "R1", 
+         "target": "coI_p"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "MLTH_p", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "coI_p", 
+         "target": "R2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "MLT_p"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "R2", 
+         "target": "coII_p"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "MLTH_p", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "coII_p", 
+         "target": "R3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "MLT_p"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "R3", 
+         "target": "per3_p"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "O2minus_p", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 394, 
+         "source": "per3_p", 
+         "target": "R4"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 393, 
+         "source": "R4", 
+         "target": "coIII_p"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "O2minus_p", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "H_p", 
+         "target": "R5"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "O2_p"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 393, 
+         "source": "R5", 
+         "target": "H2O2_p"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 394, 
+         "source": "O2minus_p", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "coIII_p", 
+         "target": "R6"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "O2_p"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 393, 
+         "source": "R6", 
+         "target": "coI_p"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "O2_c", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 394, 
+         "source": "NADPH_c", 
+         "target": "R7"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "H2O2_c"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 393, 
+         "source": "R7", 
+         "target": "NADPplus_c"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 394, 
+         "source": "O2_c", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "NADP_c", 
+         "target": "R8"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "O2minus_c"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 393, 
+         "source": "R8", 
+         "target": "NADPplus_c"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 394, 
+         "source": "O2minus_c", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 394, 
+         "source": "H_c", 
+         "target": "R9"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "O2_c"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 393, 
+         "source": "R9", 
+         "target": "H2O2_c"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "NADPH_c", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 394, 
+         "source": "MLT_c", 
+         "target": "R10"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "NADP_c"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "R10", 
+         "target": "MLTH_c"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "NADP_c", 
+         "target": "R11"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "R11", 
+         "target": "NADP2_c"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 394, 
+         "source": "R12sink", 
+         "target": "R12"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 393, 
+         "source": "R12", 
+         "target": "NADPH_c"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 394, 
+         "source": "R13asink", 
+         "target": "R13a"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 393, 
+         "source": "R13a", 
+         "target": "O2_c"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 394, 
+         "source": "O2_c", 
+         "target": "R13b"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 393, 
+         "source": "R13b", 
+         "target": "R13bsink"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 394, 
+         "source": "O2_p", 
+         "target": "R14"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 393, 
+         "source": "R14", 
+         "target": "O2_c"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 394, 
+         "source": "H2O2_p", 
+         "target": "R15"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 393, 
+         "source": "R15", 
+         "target": "H2O2_c"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 394, 
+         "source": "MLTH_p", 
+         "target": "R16"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 393, 
+         "source": "R16", 
+         "target": "MLTH_c"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 394, 
+         "source": "MLT_p", 
+         "target": "R17"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 393, 
+         "source": "R17", 
+         "target": "MLT_c"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 394, 
+         "source": "O2minus_p", 
+         "target": "R18"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 393, 
+         "source": "R18", 
+         "target": "O2minus_c"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 394, 
+         "source": "O2_p", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 394, 
+         "source": "NADPH_c", 
+         "target": "R19"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "O2minus_p"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 393, 
+         "source": "R19", 
+         "target": "NADPplus_c"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "Myeloperoxidase reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Ferric peroxidase", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "per3_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H2O2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H2O2_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "compound I", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "coI_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Melatonin-compound I reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Melatonin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MLTH_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Melatonin free radical", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MLT_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "compound II", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "coII_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Melatonin-compound II reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "compound III formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R4", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Superoxide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O2minus_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "compound III", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "coIII_p", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "H2O2 formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R5", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hydrogen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Oxygen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O2_p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "compound III-superoxide reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R6", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADPH autooxidation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R7", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Oxygen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O2_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADPH", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "H2O2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H2O2_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADPplus_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADP radical-Oxygen reaction", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R8", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Superoxide", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "O2minus_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "H2O2 formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R9", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Hydrogen", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "H_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADP free radical formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R10", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Melatonin free radical", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MLT_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "Melatonin", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "MLTH_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADP dimer formation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R11", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "NADP2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "NADP2_c", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADPH synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R12sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Oxygen diffusion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13a", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13asink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Oxygen diffusion", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13b", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R13bsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Oxygen diffusion- phagosome/cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R14", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "H2O2 diffusion phagosome/cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R15", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Melatonin  diffusion phagosome/cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R16", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Melatonin free radical  diffusion phagosome/cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R17", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Superoxide  diffusion phagosome/cytoplasm", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R18", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "NADPH oxidase activity", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "R19", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "phagosome", 
+            "subnodes": [
+               "H2O2_p", 
+               "MLTH_p", 
+               "R16", 
+               "R17", 
+               "R14", 
+               "coIII_p", 
+               "H_p", 
+               "R18", 
+               "R19", 
+               "O2_p", 
+               "per3_p", 
+               "R4", 
+               "R5", 
+               "R6", 
+               "R1", 
+               "R2", 
+               "R3", 
+               "R15", 
+               "MLT_p", 
+               "coI_p", 
+               "O2minus_p", 
+               "coII_p"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "phagosome", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cytoplasm", 
+            "subnodes": [
+               "R13bsink", 
+               "MLTH_c", 
+               "H2O2_c", 
+               "R13b", 
+               "R13a", 
+               "R16", 
+               "O2_c", 
+               "R14", 
+               "NADP_c", 
+               "R12", 
+               "R10", 
+               "R11", 
+               "R18", 
+               "R19", 
+               "H_c", 
+               "R13asink", 
+               "R7", 
+               "NADPH_c", 
+               "MLT_c", 
+               "R17", 
+               "R8", 
+               "R9", 
+               "NADP2_c", 
+               "R15", 
+               "NADPplus_c", 
+               "R12sink", 
+               "O2minus_c"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cytoplasm", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,203 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "e", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "r1"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 393, 
+         "source": "r1", 
+         "target": "p"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 394, 
+         "source": "p", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 394, 
+         "source": "x", 
+         "target": "r2"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "e"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "r2", 
+         "target": "p1"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 394, 
+         "source": "p", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 394, 
+         "source": "a", 
+         "target": "r3"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "e"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "r3", 
+         "target": "p2"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "r1", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r1", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "enzyme E (catalase)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "e", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "substrate S (hydrogen peroxide)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "x", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "enzyme-substrate complex ES (catalase - hydrogen peroxide)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "product 1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p1", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "r3", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "r3", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "donor AH2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "a", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "product 2", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "p2", 
+         "is_abstract": 0, 
+         "sbo": 247
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "a", 
+               "p2", 
+               "p1", 
+               "e", 
+               "r1", 
+               "r2", 
+               "r3", 
+               "p", 
+               "x"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

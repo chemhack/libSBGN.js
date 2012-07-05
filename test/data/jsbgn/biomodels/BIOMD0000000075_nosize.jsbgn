@@ -1,0 +1,476 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "PI_PM", 
+         "target": "PIPSyn"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "PIPSyn", 
+         "target": "PIP_PM"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 394, 
+         "source": "PIP2_PM", 
+         "target": "PIP2_hyd"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 393, 
+         "source": "PIP2_hyd", 
+         "target": "DAG_PM"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 393, 
+         "source": "PIP2_hyd", 
+         "target": "IP3_Cyt"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 168, 
+         "source": "PLC_act_PM", 
+         "target": "PIP2_hyd"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 394, 
+         "source": "PLC_PM", 
+         "target": "PLCact"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 393, 
+         "source": "PLCact", 
+         "target": "PLC_act_PM"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "stim_PM", 
+         "target": "PLCact"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "PIP2_PHGFP_PM", 
+         "target": "PIP2_PH_hyd"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "PIP2_PH_hyd", 
+         "target": "PH_GFP_Cyt"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 393, 
+         "source": "PIP2_PH_hyd", 
+         "target": "IP3_Cyt"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "PIP2_PH_hyd", 
+         "target": "DAG_PM"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 168, 
+         "source": "PLC_act_PM", 
+         "target": "PIP2_PH_hyd"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 394, 
+         "source": "PH_GFP_Cyt", 
+         "target": "PIP2_PH"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 394, 
+         "source": "PIP2_PM", 
+         "target": "PIP2_PH"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 393, 
+         "source": "PIP2_PH", 
+         "target": "PIP2_PHGFP_PM"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 394, 
+         "source": "IP3_Cyt", 
+         "target": "IP3deg"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 393, 
+         "source": "IP3deg", 
+         "target": "IP3degsink"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "PIP_PM", 
+         "target": "PIP2Syn"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "PIP2Syn", 
+         "target": "PIP2_PM"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "IP3_Cyt", 
+         "target": "IP3_PHGFP"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 394, 
+         "source": "PH_GFP_Cyt", 
+         "target": "IP3_PHGFP"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 393, 
+         "source": "IP3_PHGFP", 
+         "target": "IP3_PHGFP_Cyt"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIPSyn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIPSyn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PI_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PI_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2_hyd", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_hyd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP2_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "DAG_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "DAG_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLC_act_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLC_act_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PLCact", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLCact", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PLC_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PLC_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "stim_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "stim_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2_PH_hyd", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_PH_hyd", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PIP2_PHGFP_PM", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_PHGFP_PM", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "PH_GFP_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PH_GFP_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2_PH", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2_PH", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3deg", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3deg", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3degsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "PIP2Syn", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "PIP2Syn", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "IP3-PHGFP", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_PHGFP", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "IP3_PHGFP_Cyt", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "IP3_PHGFP_Cyt", 
+         "is_abstract": 0, 
+         "sbo": 285
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Extracellular", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Extracellular", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "PM", 
+            "subnodes": [
+               "stim_PM", 
+               "PIP_PM", 
+               "DAG_PM", 
+               "PIP2_PH_hyd", 
+               "PI_PM", 
+               "PIP2Syn", 
+               "PLC_PM", 
+               "PIPSyn", 
+               "PIP2_PHGFP_PM", 
+               "PIP2_PH", 
+               "PIP2_hyd", 
+               "PLC_act_PM", 
+               "PIP2_PM", 
+               "PLCact"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "PM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Cytosol", 
+            "subnodes": [
+               "IP3_Cyt", 
+               "IP3_PHGFP_Cyt", 
+               "PH_GFP_Cyt", 
+               "IP3degsink", 
+               "PIP2_PH_hyd", 
+               "IP3_PHGFP", 
+               "PIP2_PH", 
+               "IP3deg", 
+               "PIP2_hyd"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Cytosol", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "NM", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "NM", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "Nucleus", 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "Nucleus", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}

@@ -1,0 +1,1017 @@
+{
+   "edges": [
+      {
+         "id": "edge0", 
+         "sbo": 394, 
+         "source": "pRB_synthesissink", 
+         "target": "pRB_synthesis"
+      }, 
+      {
+         "id": "edge1", 
+         "sbo": 393, 
+         "source": "pRB_synthesis", 
+         "target": "pRB"
+      }, 
+      {
+         "id": "edge2", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "pRB_synthesis"
+      }, 
+      {
+         "id": "edge3", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "pRB_synthesis"
+      }, 
+      {
+         "id": "edge4", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "pRB_synthesis"
+      }, 
+      {
+         "id": "edge5", 
+         "sbo": 394, 
+         "source": "pRB", 
+         "target": "pRB_phosphorylation"
+      }, 
+      {
+         "id": "edge6", 
+         "sbo": 393, 
+         "source": "pRB_phosphorylation", 
+         "target": "pRBp"
+      }, 
+      {
+         "id": "edge7", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "pRB_phosphorylation"
+      }, 
+      {
+         "id": "edge8", 
+         "sbo": 168, 
+         "source": "CycDa", 
+         "target": "pRB_phosphorylation"
+      }, 
+      {
+         "id": "edge9", 
+         "sbo": 394, 
+         "source": "pRBp", 
+         "target": "pRBp_dephosphorylation"
+      }, 
+      {
+         "id": "edge10", 
+         "sbo": 393, 
+         "source": "pRBp_dephosphorylation", 
+         "target": "pRB"
+      }, 
+      {
+         "id": "edge11", 
+         "sbo": 394, 
+         "source": "pRB", 
+         "target": "pRB_degradation"
+      }, 
+      {
+         "id": "edge12", 
+         "sbo": 393, 
+         "source": "pRB_degradation", 
+         "target": "pRB_degradationsink"
+      }, 
+      {
+         "id": "edge13", 
+         "sbo": 394, 
+         "source": "E2F1_synthesissink", 
+         "target": "E2F1_synthesis"
+      }, 
+      {
+         "id": "edge14", 
+         "sbo": 393, 
+         "source": "E2F1_synthesis", 
+         "target": "E2F1"
+      }, 
+      {
+         "id": "edge15", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "E2F1_synthesis"
+      }, 
+      {
+         "id": "edge16", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "E2F1_synthesis"
+      }, 
+      {
+         "id": "edge17", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "E2F1_synthesis"
+      }, 
+      {
+         "id": "edge18", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "E2F1_synthesis"
+      }, 
+      {
+         "id": "edge19", 
+         "sbo": 394, 
+         "source": "E2F1", 
+         "target": "E2F1_degradation"
+      }, 
+      {
+         "id": "edge20", 
+         "sbo": 393, 
+         "source": "E2F1_degradation", 
+         "target": "E2F1_degradationsink"
+      }, 
+      {
+         "id": "edge21", 
+         "sbo": 394, 
+         "source": "CycD_synthesissink", 
+         "target": "CycD_synthesis"
+      }, 
+      {
+         "id": "edge22", 
+         "sbo": 393, 
+         "source": "CycD_synthesis", 
+         "target": "CycDi"
+      }, 
+      {
+         "id": "edge23", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "CycD_synthesis"
+      }, 
+      {
+         "id": "edge24", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "CycD_synthesis"
+      }, 
+      {
+         "id": "edge25", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "CycD_synthesis"
+      }, 
+      {
+         "id": "edge26", 
+         "sbo": 168, 
+         "source": "AP1", 
+         "target": "CycD_synthesis"
+      }, 
+      {
+         "id": "edge27", 
+         "sbo": 394, 
+         "source": "CycDa", 
+         "target": "CycD_inibition"
+      }, 
+      {
+         "id": "edge28", 
+         "sbo": 393, 
+         "source": "CycD_inibition", 
+         "target": "CycDi"
+      }, 
+      {
+         "id": "edge29", 
+         "sbo": 394, 
+         "source": "CycDi", 
+         "target": "CycD_activation"
+      }, 
+      {
+         "id": "edge30", 
+         "sbo": 393, 
+         "source": "CycD_activation", 
+         "target": "CycDa"
+      }, 
+      {
+         "id": "edge31", 
+         "sbo": 168, 
+         "source": "CycDi", 
+         "target": "CycD_activation"
+      }, 
+      {
+         "id": "edge32", 
+         "sbo": 168, 
+         "source": "CycDa", 
+         "target": "CycD_activation"
+      }, 
+      {
+         "id": "edge33", 
+         "sbo": 168, 
+         "source": "CycDa", 
+         "target": "CycD_activation"
+      }, 
+      {
+         "id": "edge34", 
+         "sbo": 394, 
+         "source": "CycDi", 
+         "target": "CycD_degradation"
+      }, 
+      {
+         "id": "edge35", 
+         "sbo": 393, 
+         "source": "CycD_degradation", 
+         "target": "CycD_degradationsink"
+      }, 
+      {
+         "id": "edge36", 
+         "sbo": 394, 
+         "source": "CycDa", 
+         "target": "CycD_degradation2"
+      }, 
+      {
+         "id": "edge37", 
+         "sbo": 393, 
+         "source": "CycD_degradation2", 
+         "target": "CycD_degradation2sink"
+      }, 
+      {
+         "id": "edge38", 
+         "sbo": 394, 
+         "source": "AP1_synthesissink", 
+         "target": "AP1_synthesis"
+      }, 
+      {
+         "id": "edge39", 
+         "sbo": 393, 
+         "source": "AP1_synthesis", 
+         "target": "AP1"
+      }, 
+      {
+         "id": "edge40", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "AP1_synthesis"
+      }, 
+      {
+         "id": "edge41", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "AP1_synthesis"
+      }, 
+      {
+         "id": "edge42", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "AP1_synthesis"
+      }, 
+      {
+         "id": "edge43", 
+         "sbo": 394, 
+         "source": "AP1", 
+         "target": "Ap1_degradation"
+      }, 
+      {
+         "id": "edge44", 
+         "sbo": 393, 
+         "source": "Ap1_degradation", 
+         "target": "Ap1_degradationsink"
+      }, 
+      {
+         "id": "edge45", 
+         "sbo": 394, 
+         "source": "pRBp", 
+         "target": "pRBp_phosphorylation"
+      }, 
+      {
+         "id": "edge46", 
+         "sbo": 393, 
+         "source": "pRBp_phosphorylation", 
+         "target": "pRBpp"
+      }, 
+      {
+         "id": "edge47", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "pRBp_phosphorylation"
+      }, 
+      {
+         "id": "edge48", 
+         "sbo": 168, 
+         "source": "CycEa", 
+         "target": "pRBp_phosphorylation"
+      }, 
+      {
+         "id": "edge49", 
+         "sbo": 394, 
+         "source": "pRBpp", 
+         "target": "pRBpp_dephosphorylation"
+      }, 
+      {
+         "id": "edge50", 
+         "sbo": 393, 
+         "source": "pRBpp_dephosphorylation", 
+         "target": "pRBp"
+      }, 
+      {
+         "id": "edge51", 
+         "sbo": 394, 
+         "source": "pRBpp", 
+         "target": "pRBpp_degradation"
+      }, 
+      {
+         "id": "edge52", 
+         "sbo": 393, 
+         "source": "pRBpp_degradation", 
+         "target": "pRBpp_degradationsink"
+      }, 
+      {
+         "id": "edge53", 
+         "sbo": 394, 
+         "source": "pRBp", 
+         "target": "pRBp_degradation"
+      }, 
+      {
+         "id": "edge54", 
+         "sbo": 393, 
+         "source": "pRBp_degradation", 
+         "target": "pRBp_degradationsink"
+      }, 
+      {
+         "id": "edge55", 
+         "sbo": 394, 
+         "source": "CycE_synthesissink", 
+         "target": "CycE_synthesis"
+      }, 
+      {
+         "id": "edge56", 
+         "sbo": 393, 
+         "source": "CycE_synthesis", 
+         "target": "CycEi"
+      }, 
+      {
+         "id": "edge57", 
+         "sbo": 168, 
+         "source": "E2F1", 
+         "target": "CycE_synthesis"
+      }, 
+      {
+         "id": "edge58", 
+         "sbo": 168, 
+         "source": "pRB", 
+         "target": "CycE_synthesis"
+      }, 
+      {
+         "id": "edge59", 
+         "sbo": 168, 
+         "source": "pRBp", 
+         "target": "CycE_synthesis"
+      }, 
+      {
+         "id": "edge60", 
+         "sbo": 394, 
+         "source": "CycEi", 
+         "target": "CycE_activation"
+      }, 
+      {
+         "id": "edge61", 
+         "sbo": 393, 
+         "source": "CycE_activation", 
+         "target": "CycEa"
+      }, 
+      {
+         "id": "edge62", 
+         "sbo": 168, 
+         "source": "CycEi", 
+         "target": "CycE_activation"
+      }, 
+      {
+         "id": "edge63", 
+         "sbo": 168, 
+         "source": "CycEa", 
+         "target": "CycE_activation"
+      }, 
+      {
+         "id": "edge64", 
+         "sbo": 168, 
+         "source": "CycEa", 
+         "target": "CycE_activation"
+      }, 
+      {
+         "id": "edge65", 
+         "sbo": 394, 
+         "source": "CycEa", 
+         "target": "CycE_inibition"
+      }, 
+      {
+         "id": "edge66", 
+         "sbo": 393, 
+         "source": "CycE_inibition", 
+         "target": "CycEi"
+      }, 
+      {
+         "id": "edge67", 
+         "sbo": 394, 
+         "source": "CycEi", 
+         "target": "CycE_degradation"
+      }, 
+      {
+         "id": "edge68", 
+         "sbo": 393, 
+         "source": "CycE_degradation", 
+         "target": "CycE_degradationsink"
+      }, 
+      {
+         "id": "edge69", 
+         "sbo": 394, 
+         "source": "CycEa", 
+         "target": "CycE_degradation2"
+      }, 
+      {
+         "id": "edge70", 
+         "sbo": 393, 
+         "source": "CycE_degradation2", 
+         "target": "CycE_degradation2sink"
+      }
+   ], 
+   "nodes": [
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pRB", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pRBp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "E2F1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB_phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycD/cdk4,6(a)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycDa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRBp dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBp_dephosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRB degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRB_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2F1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F1_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F1_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "E2F1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F1_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "E2F1_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycD synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycD/cdk4,6(i)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycDi", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "AP1", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AP1", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycD inibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_inibition", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycD activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycD degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycD degradation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_degradation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycD_degradation2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "AP1 synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AP1_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "AP1_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "Ap1 degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ap1_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "Ap1_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRBp phosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBp_phosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "pRBpp", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpp", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycEa/cdk2(a)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycEa", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRBpp dephosphorylation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpp_dephosphorylation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRBpp degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpp_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBpp_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "pRBp degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBp_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "pRBp_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycE synthesis", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_synthesis", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_synthesissink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "label": "CycE/cdk2(i)", 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycEi", 
+         "is_abstract": 0, 
+         "sbo": 245
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycE activation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_activation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycE inibition", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_inibition", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycE degradation", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_degradation", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_degradationsink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 20, 
+            "label": "CycE degradation2", 
+            "width": 20, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_degradation2", 
+         "is_abstract": 0, 
+         "sbo": 375
+      }, 
+      {
+         "data": {
+            "height": 60, 
+            "width": 60, 
+            "x": 0.0, 
+            "y": 0.0
+         }, 
+         "id": "CycE_degradation2sink", 
+         "is_abstract": 0, 
+         "sbo": 291
+      }, 
+      {
+         "data": {
+            "height": 200, 
+            "label": "cell", 
+            "subnodes": [
+               "CycD_inibition", 
+               "CycE_degradationsink", 
+               "pRBp_degradation", 
+               "pRBp_phosphorylation", 
+               "AP1", 
+               "CycE_inibition", 
+               "CycE_activation", 
+               "pRB_synthesissink", 
+               "CycE_synthesissink", 
+               "Ap1_degradationsink", 
+               "CycD_degradation2sink", 
+               "CycD_synthesissink", 
+               "CycE_degradation", 
+               "CycD_activation", 
+               "pRBp_dephosphorylation", 
+               "E2F1_synthesissink", 
+               "pRBpp_degradation", 
+               "CycE_degradation2sink", 
+               "CycEa", 
+               "pRB_degradation", 
+               "pRB_phosphorylation", 
+               "pRBp", 
+               "CycD_degradationsink", 
+               "AP1_synthesis", 
+               "pRB_degradationsink", 
+               "pRBpp_degradationsink", 
+               "CycD_synthesis", 
+               "pRBpp", 
+               "pRB", 
+               "AP1_synthesissink", 
+               "Ap1_degradation", 
+               "CycEi", 
+               "CycE_synthesis", 
+               "E2F1_synthesis", 
+               "pRBp_degradationsink", 
+               "E2F1", 
+               "CycD_degradation2", 
+               "CycE_degradation2", 
+               "pRBpp_dephosphorylation", 
+               "CycDa", 
+               "E2F1_degradationsink", 
+               "CycDi", 
+               "CycD_degradation", 
+               "pRB_synthesis", 
+               "E2F1_degradation"
+            ], 
+            "width": 200, 
+            "x": 10.0, 
+            "y": 10.0
+         }, 
+         "id": "cell", 
+         "is_abstract": 0, 
+         "sbo": 290
+      }
+   ]
+}
