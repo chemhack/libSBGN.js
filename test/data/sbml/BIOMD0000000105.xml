@@ -1,0 +1,3273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" metaid="metaid_0000001" level="2" version="1">
+  <model metaid="metaid_0000002" id="Proctor2007_ubiquitine">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <h1>Model  of  the  Ubiquitin-Proteasome  System</h1>
+        <h4>
+          <b>Description  of  the  Model</b>
+        </h4>
+        <p>This  is  a  stochastic  model  of  the  ubiquitin-proteasome  system  for  a  generic  pool  of  native  proteins  (NatP)  which  have  a  half-life  of  about  10  hours  under  normal  conditions.  It  is  assumed  that  these  proteins  are  only  degraded  after  they  have  lost  their  native  structure  due  to  a  damage  event.  This  is  represented  in  the  model  by  the  misfolding  reaction  which  depends  on  the  level  of  reactive  oxygen  species  (ROS)  in  the  cell.  Misfolded  proteins  (MisP)  are  first  bound  by  an  E3  ubiquitin  ligase.  Ubiquitin  (Ub)  is  activated  by  E1  (ubiquitin-activating  enzyme)  and  then  passed  to  E2  (ubiquitin-conjugating  enzyme).  The  E2  enzyme  then  passes  the  ubiquitin  molecule  to  the  E3/MisP  complex  with  the  net  effect  that  the  misfolded  protein  is  monoubiquitinated  and  both  E2  and  E3  are  released.  Further  ubiquitin  molecules  are  added  in  a  step-wise  manner.  When  the  chain  of  ubiquitin  molecules  is  of  length  4  or  more,  the  polyubiquitinated  misfolded  protein  may  bind  to  the  proteasome.  The  model  also  includes  de-ubiquitinating  enzymes  (DUB)  which  cleave  ubiquitin  molecules  from  the  chain  in  a  step-wise  manner.  They  work  on  chains  attached  to  misfolded  proteins  both  unbound  and    bound  to  the  proteasomes.  Misfolded  proteins  bound  to  the  proteasome  may  be  degraded  releasing  ubiquitin.  Misfolded  proteins  including  ubiquitinated  proteins  may  also  aggregate.  Aggregates  (AggP)  may  be  sequestered  (Seq_AggP)  which  takes  them  out  of  harm&apos;s  way  or  they  may  bind  to  the  proteasome  (AggP_Proteasome).  Proteasomes  bound  by  aggregates  are  no  longer  available  for  protein  degradation.</p>
+        <p>Figure 2 and Figure 3 has been simulated using Gillespie2.</p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator rdf:parseType="Resource">
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Proctor</vCard:Family>
+                <vCard:Given>Carole</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>c.j.proctor@ncl.ac.uk</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>University of Newcastle</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>He</vCard:Family>
+                <vCard:Given>Enuo</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>enuo@caltech.edu</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>BNMC</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2007-04-02T09:08:41Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2008-08-21T12:17:17Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000105"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL6540028317"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:17408507"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0043161"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000003" id="substance">
+      <listOfUnits>
+        <unit kind="item"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000021" id="cytosol" size="1">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000021">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005829"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000022" id="NatP" compartment="cytosol" initialAmount="500" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000023" id="MisP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000024" id="Ub" compartment="cytosol" initialAmount="500" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000024">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000626"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000025" id="E1" compartment="cytosol" initialAmount="100" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000025">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000011"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000026" id="E2" compartment="cytosol" initialAmount="100" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000026">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000608"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000027" id="E3" compartment="cytosol" initialAmount="100" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000027">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000569"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000028" id="DUB" compartment="cytosol" initialAmount="200" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR001394"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000029" id="Proteasome" compartment="cytosol" initialAmount="100" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000029">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000502"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000030" id="ROS" compartment="cytosol" initialAmount="10" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000030">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A26523"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000031" id="E1_Ub" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000031">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000011"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000626"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000032" id="E2_Ub" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000032">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000626"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000608"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000033" id="E3_MisP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000034" id="MisP_Ub" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000035" id="MisP_Ub2" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000036" id="MisP_Ub3" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000037" id="MisP_Ub4" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000038" id="MisP_Ub5" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000039" id="MisP_Ub6" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000040" id="MisP_Ub7" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000041" id="MisP_Ub8" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000042" id="MisP_Ub4_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000043" id="MisP_Ub5_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000044" id="MisP_Ub6_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000045" id="MisP_Ub7_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000046" id="MisP_Ub8_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000047" id="ATP" compartment="cytosol" initialAmount="10000" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000047">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15422"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000048" id="ADP" compartment="cytosol" initialAmount="1000" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000048">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16761"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000049" id="AMP" compartment="cytosol" initialAmount="1000" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000049">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16027"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000050" id="Source" compartment="cytosol" initialAmount="1" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
+    <species metaid="metaid_0000051" id="degUb4" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000052" id="degUb5" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000053" id="degUb6" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000054" id="degUb7" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000055" id="degUb8" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000056" id="totMisP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000057" id="refNatP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000058" id="AggP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000059" id="SeqAggP" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000060" id="AggP_Proteasome" compartment="cytosol" initialAmount="0" hasOnlySubstanceUnits="true"/>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000004" id="k1" value="0.01"/>
+    <parameter metaid="metaid_0000005" id="k2" value="2e-06"/>
+    <parameter metaid="metaid_0000006" id="k3" value="4e-06"/>
+    <parameter metaid="metaid_0000007" id="k61" value="1.7e-05"/>
+    <parameter metaid="metaid_0000008" id="k61r" value="0.0002"/>
+    <parameter metaid="metaid_0000009" id="k62" value="0.0002"/>
+    <parameter metaid="metaid_0000010" id="k63" value="0.001"/>
+    <parameter metaid="metaid_0000011" id="k64" value="0.001"/>
+    <parameter metaid="metaid_0000012" id="k65" value="0.01"/>
+    <parameter metaid="metaid_0000013" id="k66" value="1e-05"/>
+    <parameter metaid="metaid_0000014" id="k67" value="1e-05"/>
+    <parameter metaid="metaid_0000015" id="k68" value="1e-05"/>
+    <parameter metaid="metaid_0000016" id="k69" value="0">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">This is the inhibiting proteasome activity situlation, k69=0. All the other parameters as in Tables2 and 3. If in the model is in the normal conditions, k69=1e-3.</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000017" id="k71" value="1e-08"/>
+    <parameter metaid="metaid_0000018" id="k72" value="1e-08"/>
+    <parameter metaid="metaid_0000019" id="k73" value="0.001"/>
+    <parameter metaid="metaid_0000020" id="k74" value="1e-05"/>
+  </listOfParameters>
+  <listOfReactions>
+    <reaction metaid="metaid_0000061" id="ProteinSynthesis" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000061">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009059"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="Source"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NatP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k1 </ci>
+            <ci> Source </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000062" id="Misfolding" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000062">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0022417"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="NatP"/>
+        <speciesReference species="ROS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP"/>
+        <speciesReference species="ROS"/>
+        <speciesReference species="totMisP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k2 </ci>
+            <ci> NatP </ci>
+            <ci> ROS </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000063" id="Refolding" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000063">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0042026"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NatP"/>
+        <speciesReference species="refNatP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k3 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000064" id="MisPE3Binding" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000064">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004842"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP"/>
+        <speciesReference species="E3"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="E3_MisP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k61 </ci>
+            <ci> MisP </ci>
+            <ci> E3 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000065" id="MisPE3Release" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000065">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0043624"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="E3_MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP"/>
+        <speciesReference species="E3"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k61r </ci>
+            <ci> E3_MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000066" id="E1UbBinding" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000066">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008641"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006167"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="E1"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="E1_Ub"/>
+        <speciesReference species="AMP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k62 </ci>
+              <ci> E1 </ci>
+              <ci> Ub </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000067" id="E2UbBinding" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000067">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0019787"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="E2"/>
+        <speciesReference species="E1_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="E2_Ub"/>
+        <speciesReference species="E1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k63 </ci>
+            <ci> E2 </ci>
+            <ci> E1_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000068" id="Monoubiquitination" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000068">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006513"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="E2_Ub"/>
+        <speciesReference species="E3_MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="E2"/>
+        <speciesReference species="E3"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k64 </ci>
+            <ci> E2_Ub </ci>
+            <ci> E3_MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000069" id="Polyubiquitination1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000069">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000070" id="Polyubiquitination2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000070">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000071" id="Polyubiquitination3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000071">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000072" id="Polyubiquitination4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000072">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000073" id="Polyubiquitination5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000073">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000074" id="Polyubiquitination6" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000074">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000075" id="Polyubiquitination7" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000075">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000209"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="E2_Ub"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub8"/>
+        <speciesReference species="E2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k65 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> E2_Ub </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000076" id="Deubiqutination1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000076">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub8 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000077" id="Deubiqutination2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000077">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000078" id="Deubiqutination3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000078">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000079" id="Deubiqutination4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000079">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000080" id="Deubiqutination5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000080">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000081" id="Deubiqutination6" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000081">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000082" id="Deubiqutination7" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000082">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000083" id="Deubiqutination8" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000083">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP"/>
+        <speciesReference species="DUB"/>
+        <speciesReference species="Ub"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k66 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000084" id="ProteasomeBinding1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000084">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub4_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k67 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000085" id="ProteasomeBinding2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000085">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub5_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k67 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000086" id="ProteasomeBinding3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000086">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub6_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k67 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000087" id="ProteasomeBinding4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000087">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub7_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k67 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000088" id="ProteasomeBinding5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000088">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub8_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k67 </ci>
+            <ci> MisP_Ub8 </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000089" id="DeubiquitinationBoundMisP5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000089">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8_Proteasome"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub7_Proteasome"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k68 </ci>
+            <ci> MisP_Ub8_Proteasome </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000090" id="DeubiquitinationBoundMisP4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000090">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7_Proteasome"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub6_Proteasome"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k68 </ci>
+            <ci> MisP_Ub7_Proteasome </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000091" id="DeubiquitinationBoundMisP3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000091">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6_Proteasome"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub5_Proteasome"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k68 </ci>
+            <ci> MisP_Ub6_Proteasome </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000092" id="DeubiquitinationBoundMisP2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000092">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5_Proteasome"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub4_Proteasome"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k68 </ci>
+            <ci> MisP_Ub5_Proteasome </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000093" id="DeubiquitinationBoundMisP1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000093">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016579"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4_Proteasome"/>
+        <speciesReference species="DUB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="Ub"/>
+        <speciesReference species="DUB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k68 </ci>
+            <ci> MisP_Ub4_Proteasome </ci>
+            <ci> DUB </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000094" id="ProteasomeActivity1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000094">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008233"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4_Proteasome"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Ub" stoichiometry="4"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="ADP"/>
+        <speciesReference species="degUb4"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k69 </ci>
+              <ci> MisP_Ub4_Proteasome </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000095" id="ProteasomeActivity2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000095">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008233"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5_Proteasome"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Ub" stoichiometry="5"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="ADP"/>
+        <speciesReference species="degUb5"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k69 </ci>
+              <ci> MisP_Ub5_Proteasome </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000096" id="ProteasomeActivity3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000096">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008233"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6_Proteasome"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Ub" stoichiometry="6"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="ADP"/>
+        <speciesReference species="degUb6"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k69 </ci>
+              <ci> MisP_Ub6_Proteasome </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000097" id="ProteasomeActivity4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000097">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008233"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7_Proteasome"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Ub" stoichiometry="7"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="ADP"/>
+        <speciesReference species="degUb7"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k69 </ci>
+              <ci> MisP_Ub7_Proteasome </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000098" id="ProteasomeActivity5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000098">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008233"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8_Proteasome"/>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Ub" stoichiometry="8"/>
+        <speciesReference species="Proteasome"/>
+        <speciesReference species="ADP"/>
+        <speciesReference species="degUb8"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k69 </ci>
+              <ci> MisP_Ub8_Proteasome </ci>
+              <ci> ATP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 5000 </cn>
+              <ci> ATP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000099" id="Aggregation1" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000099">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k71 </ci>
+            <ci> MisP </ci>
+            <apply>
+              <minus/>
+              <ci> MisP </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000100" id="Aggregation2" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000100">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k71 </ci>
+            <ci> MisP </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000101" id="Aggregation3" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000101">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000102" id="Aggregation4" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000102">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub2 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000103" id="Aggregation5" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000103">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub3 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000104" id="Aggregation6" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000104">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub4 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000105" id="Aggregation7" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000105">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub5 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000106" id="Aggregation8" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000106">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub6 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub6 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000107" id="Aggregation9" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000107">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub7 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub7 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000108" id="Aggregation10" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000108">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub8 </ci>
+            <apply>
+              <minus/>
+              <ci> MisP_Ub8 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <cn> 0.5 </cn>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000109" id="Aggregation11" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000109">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000110" id="Aggregation12" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000110">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000111" id="Aggregation13" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000111">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000112" id="Aggregation14" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000112">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000113" id="Aggregation15" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000113">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000114" id="Aggregation16" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000114">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000115" id="Aggregation17" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000115">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000116" id="Aggregation18" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000116">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8"/>
+        <speciesReference species="MisP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub8 </ci>
+            <ci> MisP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000117" id="Aggregation19" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000117">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000118" id="Aggregation20" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000118">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000119" id="Aggregation21" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000119">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000120" id="Aggregation22" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000120">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000121" id="Aggregation23" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000121">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000122" id="Aggregation24" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000122">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000123" id="Aggregation25" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000123">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000124" id="Aggregation26" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000124">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub8"/>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP" stoichiometry="2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub8 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000125" id="Aggregation27" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000125">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000126" id="Aggregation28" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000126">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub3"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub3 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000127" id="Aggregation29" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000127">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub4"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub4 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000128" id="Aggregation30" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000128">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub5"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub5 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000129" id="Aggregation31" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000129">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub6"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub6 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000130" id="Aggregation32" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000130">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000131" id="Aggregation33" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000131">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000132" id="Aggregation34" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000132">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub3"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub3 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000133" id="Aggregation35" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000133">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub4"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub4 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000134" id="Aggregation36" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000134">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub5"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub5 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000135" id="Aggregation37" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000135">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub6"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub6 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000136" id="Aggregation38" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000136">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000137" id="Aggregation39" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000137">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub2"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub2 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000138" id="Aggregation40" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000138">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP_Ub4"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP_Ub4 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000139" id="Aggregation41" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000139">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP_Ub5"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP_Ub5 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000140" id="Aggregation42" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000140">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP_Ub6"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP_Ub6 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000141" id="Aggregation43" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000141">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000142" id="Aggregation44" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000142">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub3"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub3 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000143" id="Aggregation45" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000143">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="MisP_Ub5"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> MisP_Ub5 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000144" id="Aggregation46" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000144">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="MisP_Ub6"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> MisP_Ub6 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000145" id="Aggregation47" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000145">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000146" id="Aggregation48" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000146">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub4"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub4 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000147" id="Aggregation49" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000147">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="MisP_Ub6"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> MisP_Ub6 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000148" id="Aggregation50" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000148">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000149" id="Aggregation51" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000149">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub5"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub5 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000150" id="Aggregation52" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000150">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="MisP_Ub7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> MisP_Ub7 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000151" id="Aggregation53" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000151">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub6"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub6 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000152" id="Aggregation54" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000152">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MisP_Ub7"/>
+        <speciesReference species="MisP_Ub8"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k72 </ci>
+            <ci> MisP_Ub7 </ci>
+            <ci> MisP_Ub8 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000153" id="SequesteringOfAggregates" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000153">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051220"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="AggP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="SeqAggP"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k73 </ci>
+            <ci> AggP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000154" id="ProteasomeInhibtion" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000154">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008539"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="AggP"/>
+        <speciesReference species="Proteasome"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="AggP_Proteasome"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k74 </ci>
+            <ci> AggP </ci>
+            <ci> Proteasome </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

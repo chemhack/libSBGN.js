@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="metaid_0000001" level="2" version="4">
+  <model metaid="metaid_0000002" id="Novak2001_FissionYeast_CellCycle" name="Novak2001_FissionYeast_CellCycle">
+    <notes>
+      <p xmlns="http://www.w3.org/1999/xhtml">The model reproduces the time evolution of several species as depicted in Fig 4 of the paper. Events have been used to reset  cell mass when the value of M-phase promoting factor (MPF) decreases through 0.1. The model was successfully tested on Cell Designer. </p>
+      <p xmlns="http://www.w3.org/1999/xhtml">This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br/>For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+    </p>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Dharuri</vCard:Family>
+                <vCard:Given>Harish</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>hdharuri@cds.caltech.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>California Institute of Technology</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2007-04-13T05:35:42Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2009-10-07T13:38:44Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000111"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL6488296959"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:12779461"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:reactome:REACT_152"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:spo04111"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000278"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:4894"/>
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000095" id="time" name="minutes">
+      <listOfUnits>
+        <unit kind="second" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000097" id="min_inv" name="min_inv">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0020097" id="substance" name="norm. substance">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000056" id="cell" name="cell" size="1">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000056">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005623"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000058" id="cdc13T" name="Total cdc13" compartment="cell" initialAmount="0.2" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000058">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015454"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000059" id="preMPF" name="preMPF" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000059">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P04551"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015454"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000060" id="ste9" name="ste9" compartment="cell" initialAmount="1" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000060">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O13286"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000061" id="slp1T" name="slp1T" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000061">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P78972"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000062" id="slp1" name="slp1" compartment="cell" initialAmount="2.2" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000062">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P78972"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000063" id="IEP" name="IEP" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000064" id="rum1T" name="rum1T" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000064">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P40380"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000065" id="SK" name="SK" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000065">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P24865"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000066" id="M" name="Cell Mass" compartment="cell" initialAmount="1" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000094" id="MPF" name="M-phase promoting factor" compartment="cell" initialAmount="0" hasOnlySubstanceUnits="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000094">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P04551"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015454"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000093" id="flag_MPF" value="0" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000003" id="sigma" value="0" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000004" id="Kdiss" value="0.001" units="dimensionless"/>
+    <parameter metaid="metaid_0000005" id="Trimer" value="0" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000007" id="TF" value="0" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000008" id="k15" value="1.5" units="min_inv"/>
+    <parameter metaid="metaid_0000009" id="J16" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000010" id="k16_prime" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000011" id="k16_double_prime" value="2" units="min_inv"/>
+    <parameter metaid="metaid_0000012" id="J15" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000013" id="kwee" value="0" units="min_inv" constant="false"/>
+    <parameter metaid="metaid_0000014" id="kwee_prime" value="0.15" units="min_inv"/>
+    <parameter metaid="metaid_0000015" id="kwee_double_prime" value="1.3" units="min_inv"/>
+    <parameter metaid="metaid_0000016" id="Vawee" value="0.25" units="min_inv"/>
+    <parameter metaid="metaid_0000017" id="Jiwee" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000018" id="Viwee" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000019" id="Jawee" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000020" id="k25" value="0" units="min_inv" constant="false"/>
+    <parameter metaid="metaid_0000021" id="k25_prime" value="0.05" units="min_inv"/>
+    <parameter metaid="metaid_0000022" id="k25_double_prime" value="5" units="min_inv"/>
+    <parameter metaid="metaid_0000023" id="Va25" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000024" id="Ji25" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000025" id="Vi25" value="0.25" units="min_inv"/>
+    <parameter metaid="metaid_0000026" id="Ja25" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000027" id="k1" value="0.03" units="min_inv"/>
+    <parameter metaid="metaid_0000028" id="k2_prime" value="0.03" units="min_inv"/>
+    <parameter metaid="metaid_0000029" id="k2_double_prime" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000030" id="k2_triple_prime" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000031" id="k3_prime" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000032" id="k3_double_prime" value="10" units="min_inv"/>
+    <parameter metaid="metaid_0000033" id="J3" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000034" id="k4_prime" value="2" units="min_inv"/>
+    <parameter metaid="metaid_0000035" id="k4" value="35" units="min_inv"/>
+    <parameter metaid="metaid_0000036" id="J4" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000037" id="k5_prime" value="0.005" units="min_inv"/>
+    <parameter metaid="metaid_0000038" id="k5_double_prime" value="0.3" units="min_inv"/>
+    <parameter metaid="metaid_0000039" id="J5" value="0.3" units="dimensionless"/>
+    <parameter metaid="metaid_0000040" id="k6" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000041" id="k7" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000042" id="J7" value="0.001" units="dimensionless"/>
+    <parameter metaid="metaid_0000043" id="k8" value="0.25" units="min_inv"/>
+    <parameter metaid="metaid_0000044" id="J8" value="0.001" units="dimensionless"/>
+    <parameter metaid="metaid_0000045" id="k9" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000046" id="J9" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000047" id="k10" value="0.04" units="min_inv"/>
+    <parameter metaid="metaid_0000048" id="J10" value="0.01" units="dimensionless"/>
+    <parameter metaid="metaid_0000049" id="k11" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000050" id="k12" value="0.01" units="min_inv"/>
+    <parameter metaid="metaid_0000051" id="k12_prime" value="1" units="min_inv"/>
+    <parameter metaid="metaid_0000052" id="k12_double_prime" value="3" units="min_inv"/>
+    <parameter metaid="metaid_0000053" id="k13" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000054" id="k14" value="0.1" units="min_inv"/>
+    <parameter metaid="metaid_0000055" id="mu" value="0.005" units="min_inv"/>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="metaid_0000067" variable="sigma">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> cdc13T </ci>
+          <ci> rum1T </ci>
+          <ci> Kdiss </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000068" variable="Trimer">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <cn type="integer"> 2 </cn>
+            <ci> cdc13T </ci>
+            <ci> rum1T </ci>
+          </apply>
+          <apply>
+            <plus/>
+            <ci> sigma </ci>
+            <apply>
+              <power/>
+              <apply>
+                <minus/>
+                <apply>
+                  <power/>
+                  <ci> sigma </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 4 </cn>
+                  <ci> cdc13T </ci>
+                  <ci> rum1T </ci>
+                </apply>
+              </apply>
+              <cn> 0.5 </cn>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000069" variable="MPF">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> cdc13T </ci>
+              <ci> preMPF </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <ci> cdc13T </ci>
+              <ci> Trimer </ci>
+            </apply>
+          </apply>
+          <ci> cdc13T </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000070" variable="TF">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <cn type="integer"> 2 </cn>
+            <ci> k15 </ci>
+            <ci> M </ci>
+            <ci> J16 </ci>
+          </apply>
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <ci> k16_prime </ci>
+                <apply>
+                  <times/>
+                  <ci> k16_double_prime </ci>
+                  <ci> MPF </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k15 </ci>
+                <ci> M </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <plus/>
+                <ci> k16_prime </ci>
+                <apply>
+                  <times/>
+                  <ci> k16_double_prime </ci>
+                  <ci> MPF </ci>
+                </apply>
+              </apply>
+              <ci> J15 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k15 </ci>
+              <ci> M </ci>
+              <ci> J16 </ci>
+            </apply>
+            <apply>
+              <root/>
+              <degree>
+                <cn type="integer"> 2 </cn>
+              </degree>
+              <apply>
+                <minus/>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <plus/>
+                        <ci> k16_prime </ci>
+                        <apply>
+                          <times/>
+                          <ci> k16_double_prime </ci>
+                          <ci> MPF </ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <ci> k15 </ci>
+                        <ci> M </ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <apply>
+                        <plus/>
+                        <ci> k16_prime </ci>
+                        <apply>
+                          <times/>
+                          <ci> k16_double_prime </ci>
+                          <ci> MPF </ci>
+                        </apply>
+                      </apply>
+                      <ci> J15 </ci>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> k15 </ci>
+                      <ci> M </ci>
+                      <ci> J16 </ci>
+                    </apply>
+                  </apply>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 4 </cn>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <plus/>
+                      <ci> k16_prime </ci>
+                      <apply>
+                        <times/>
+                        <ci> k16_double_prime </ci>
+                        <ci> MPF </ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> k15 </ci>
+                      <ci> M </ci>
+                    </apply>
+                  </apply>
+                  <ci> k15 </ci>
+                  <ci> M </ci>
+                  <ci> J16 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000071" variable="kwee">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> kwee_prime </ci>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> kwee_double_prime </ci>
+              <ci> kwee_prime </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn type="integer"> 2 </cn>
+                <ci> Vawee </ci>
+                <ci> Jiwee </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <times/>
+                    <ci> Viwee </ci>
+                    <ci> MPF </ci>
+                  </apply>
+                  <ci> Vawee </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Viwee </ci>
+                  <ci> MPF </ci>
+                  <ci> Jawee </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Vawee </ci>
+                  <ci> Jiwee </ci>
+                </apply>
+                <apply>
+                  <root/>
+                  <degree>
+                    <cn type="integer"> 2 </cn>
+                  </degree>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <minus/>
+                          <apply>
+                            <times/>
+                            <ci> Viwee </ci>
+                            <ci> MPF </ci>
+                          </apply>
+                          <ci> Vawee </ci>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> Viwee </ci>
+                          <ci> MPF </ci>
+                          <ci> Jawee </ci>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> Vawee </ci>
+                          <ci> Jiwee </ci>
+                        </apply>
+                      </apply>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <cn type="integer"> 4 </cn>
+                      <apply>
+                        <minus/>
+                        <apply>
+                          <times/>
+                          <ci> Viwee </ci>
+                          <ci> MPF </ci>
+                        </apply>
+                        <ci> Vawee </ci>
+                      </apply>
+                      <ci> Vawee </ci>
+                      <ci> Jiwee </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000072" variable="k25">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> k25_prime </ci>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> k25_double_prime </ci>
+              <ci> k25_prime </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn type="integer"> 2 </cn>
+                <ci> Va25 </ci>
+                <ci> MPF </ci>
+                <ci> Ji25 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <ci> Vi25 </ci>
+                  <apply>
+                    <times/>
+                    <ci> Va25 </ci>
+                    <ci> MPF </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Vi25 </ci>
+                  <ci> Ja25 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Va25 </ci>
+                  <ci> MPF </ci>
+                  <ci> Ji25 </ci>
+                </apply>
+                <apply>
+                  <root/>
+                  <degree>
+                    <cn type="integer"> 2 </cn>
+                  </degree>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <minus/>
+                          <ci> Vi25 </ci>
+                          <apply>
+                            <times/>
+                            <ci> Va25 </ci>
+                            <ci> MPF </ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> Vi25 </ci>
+                          <ci> Ja25 </ci>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> Va25 </ci>
+                          <ci> MPF </ci>
+                          <ci> Ji25 </ci>
+                        </apply>
+                      </apply>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <cn type="integer"> 4 </cn>
+                      <apply>
+                        <minus/>
+                        <ci> Vi25 </ci>
+                        <apply>
+                          <times/>
+                          <ci> Va25 </ci>
+                          <ci> MPF </ci>
+                        </apply>
+                      </apply>
+                      <ci> Va25 </ci>
+                      <ci> MPF </ci>
+                      <ci> Ji25 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="metaid_0000073" id="R1" name="cdc13T synthesis" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000073">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0007346"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="cdc13T"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="M"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k1 </ci>
+            <ci> M </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000074" id="R2" name="Targeting cdc13T to APC core" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000074">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0007092"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008054"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="cdc13T"/>
+      </listOfReactants>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ste9"/>
+        <modifierSpeciesReference species="slp1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <plus/>
+              <ci> k2_prime </ci>
+              <apply>
+                <times/>
+                <ci> k2_double_prime </ci>
+                <ci> ste9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k2_triple_prime </ci>
+                <ci> slp1 </ci>
+              </apply>
+            </apply>
+            <ci> cdc13T </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000075" id="R3" name="wee1 dependent MPF inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000075">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_6178"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045736"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0018108"/>
+              </rdf:Bag>
+            </bqbiol:is>
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.10.2"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="preMPF"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="cdc13T"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> kwee </ci>
+            <apply>
+              <minus/>
+              <ci> cdc13T </ci>
+              <ci> preMPF </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000076" id="R4" name="cdc25 dependent preMPF phosphorylation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000076">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_6257.1"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.1.3.48"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0010389"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004725"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="preMPF"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k25 </ci>
+            <ci> preMPF </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000077" id="R5" name="preMPF inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000077">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0007092"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000216"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008054"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="preMPF"/>
+      </listOfReactants>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ste9"/>
+        <modifierSpeciesReference species="slp1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <plus/>
+              <ci> k2_prime </ci>
+              <apply>
+                <times/>
+                <ci> k2_double_prime </ci>
+                <ci> ste9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k2_triple_prime </ci>
+                <ci> slp1 </ci>
+              </apply>
+            </apply>
+            <ci> preMPF </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000078" id="R6" name="slp1 dependent ste9 activation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000078">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0035307"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="ste9"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="slp1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <apply>
+                <plus/>
+                <ci> k3_prime </ci>
+                <apply>
+                  <times/>
+                  <ci> k3_double_prime </ci>
+                  <ci> slp1 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <ci> ste9 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <ci> J3 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <ci> ste9 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000079" id="R7" name="ste9 phosphorylation (inactivation) by starter kinase" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000079">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ste9"/>
+      </listOfReactants>
+      <listOfModifiers>
+        <modifierSpeciesReference species="SK"/>
+        <modifierSpeciesReference species="MPF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k4_prime </ci>
+                  <ci> SK </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k4 </ci>
+                  <ci> MPF </ci>
+                </apply>
+              </apply>
+              <ci> ste9 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> J4 </ci>
+              <ci> ste9 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000080" id="R8" name="slp1T activation by MPF" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000080">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="slp1T"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="MPF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> k5_prime </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k5_double_prime </ci>
+                <apply>
+                  <power/>
+                  <ci> MPF </ci>
+                  <cn type="integer"> 4 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <power/>
+                  <ci> J5 </ci>
+                  <cn type="integer"> 4 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> MPF </ci>
+                  <cn type="integer"> 4 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000081" id="R9" name="slp1T inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000081">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="slp1T"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k6 </ci>
+            <ci> slp1T </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000082" id="R10" name="slp1 activation by intermediary enzyme" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000082">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051443"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="slp1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="IEP"/>
+        <modifierSpeciesReference species="slp1T"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k7 </ci>
+              <ci> IEP </ci>
+              <apply>
+                <minus/>
+                <ci> slp1T </ci>
+                <ci> slp1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <ci> J7 </ci>
+                <ci> slp1T </ci>
+              </apply>
+              <ci> slp1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000083" id="R11" name="slp1 inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000083">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="slp1"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k8 </ci>
+              <ci> slp1 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> J8 </ci>
+              <ci> slp1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000084" id="R12" name="slp1 inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000084">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="slp1"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k6 </ci>
+            <ci> slp1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000085" id="R13" name="Intermediary enzyme activation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000085">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="IEP"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="MPF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k9 </ci>
+              <ci> MPF </ci>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <ci> IEP </ci>
+              </apply>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <ci> J9 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+              <ci> IEP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000086" id="R14" name="IEP inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000086">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IEP"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> k10 </ci>
+              <ci> IEP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> J10 </ci>
+              <ci> IEP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000087" id="R15" name="rum1T activation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000087">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0031657"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="rum1T"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k11 </ci>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000088" id="R16" name="SK dependent rum1T inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000088">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0031657"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="rum1T"/>
+      </listOfReactants>
+      <listOfModifiers>
+        <modifierSpeciesReference species="SK"/>
+        <modifierSpeciesReference species="MPF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <plus/>
+              <ci> k12 </ci>
+              <apply>
+                <times/>
+                <ci> k12_prime </ci>
+                <ci> SK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k12_double_prime </ci>
+                <ci> MPF </ci>
+              </apply>
+            </apply>
+            <ci> rum1T </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000089" id="R17" name="SK synthesis" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000089">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="SK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k13 </ci>
+            <ci> TF </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000090" id="R18" name="SK degradation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000090">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="SK"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> k14 </ci>
+            <ci> SK </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000091" id="R19" name="Cell growth" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000091">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016049"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="M"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> M </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+  <listOfEvents>
+    <event metaid="metaid_0000096" id="event_0000001">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">The two events are used to reset the cell mass (divide by two) when MPF decreases through 0.1</p>
+      </notes>
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <and/>
+            <apply>
+              <leq/>
+              <ci> MPF </ci>
+              <cn> 0.1 </cn>
+            </apply>
+            <apply>
+              <eq/>
+              <ci> flag_MPF </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="M">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> M </ci>
+              <cn type="integer"> 2 </cn>
+            </apply>
+          </math>
+        </eventAssignment>
+        <eventAssignment variable="flag_MPF">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+    <event metaid="metaid_0000098" id="event_0000002">
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <gt/>
+            <ci> MPF </ci>
+            <cn> 0.1 </cn>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="flag_MPF">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 1 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+  </listOfEvents>
+</model>
+</sbml>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" metaid="metaid_0000001" level="2" version="3">
+  <model metaid="metaid_0000002" id="Komarova2003_BoneRemodeling" name="Komarova2003_BoneRemodeling">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>      This a model from the article:      <br/>
+        <strong> Mathematical model predicts a critical role for osteoclast autocrine regulation in the control of bone remodeling.</strong>
+        <br/>Komarova SV, Smith RJ, Dixon SJ, Sims SM, Wahl LM      <em>Bone</em>2003 Aug;33(2):206-15      <a href="http://www.ncbi.nlm.nih.gov/pubmed/14499354">14499354</a>,      <br/>
+        <strong>Abstract:</strong>
+        <br/>Bone remodeling occurs asynchronously at multiple sites in the adult skeleton and involves resorption by osteoclasts, followed by formation of new bone by osteoblasts. Disruptions in bone remodeling contribute to the pathogenesis of disorderssuch as osteoporosis, osteoarthritis, and Paget&apos;s disease. Interactions among cells of osteoblast and osteoclast lineages are critical in the regulation of bone remodeling. We constructed a mathematical model of autocrine and paracrine interactions among osteoblasts and osteoclasts that allowed us to calculate cell population dynamics and changes in bone mass at a discrete site of bone remodeling. Themodel predicted different modes of dynamic behavior: a single remodeling cycle in response to an external stimulus, a series of internally regulated cycles of bone remodeling, or unstable behavior similar to pathological bone remodeling in Paget&apos;s disease. Parametric analysis demonstrated that the mode of dynamic behaviorin the system depends strongly on the regulation of osteoclasts by autocrine factors, such as transforming growth factor beta. Moreover, simulations demonstratedthat nonlinear dynamics of the system may explain the differing effects of immunosuppressants on bone remodeling in vitro and in vivo. In conclusion, the mathematical model revealed that interactions among osteoblasts and osteoclasts result in complex, nonlinear system behavior, which cannot be deduced from studies of each cell type alone. The model will be useful in future studies assessing the impact of cytokines, growth factors, and potential therapies on the overall process ofremodeling in normal bone and in pathological conditions such as osteoporosis and Paget&apos;s disease.   </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">The model reproduces Fig 2A and Fig 2B of the paper. Note that the Y-axis scale is not right, the osteoblast steadystate is approximatley 212 and not 0 as depicted in the figure. Also, there is atypo in the equation for x2_bar which has been corrected here. Model successfully tested on MathSBML.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br/>For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator rdf:parseType="Resource">
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Dharuri</vCard:Family>
+                <vCard:Given>Harish</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>hdharuri@cds.caltech.edu</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>California Institute of Technology</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2007-07-30T20:56:00Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2009-08-27T15:43:52Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000148"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL6029826395"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:14499354"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0046850"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000038" id="substance" name="number">
+      <listOfUnits>
+        <unit kind="item"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000039" id="time" name="day">
+      <listOfUnits>
+        <unit kind="second" multiplier="86400"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000003" id="compartment" size="1"/>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000004" id="x1" name="Osteoclast" compartment="compartment" initialAmount="11" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000005" id="x2" name="Osteoblast" compartment="compartment" initialAmount="212" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000006" id="x1_bar" name="Steady state osteoclast" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000007" id="x2_bar" name="Steady state osteoblast" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000027" id="z" name="Bone mass" compartment="compartment" initialAmount="100" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000029" id="y1" name="Cells actively resorbing bone" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    <species metaid="metaid_0000030" id="y2" name="Cells actively forming bone" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000008" id="alpha1" value="3"/>
+    <parameter metaid="metaid_0000009" id="alpha2" value="4"/>
+    <parameter metaid="metaid_0000010" id="beta1" value="0.2"/>
+    <parameter metaid="metaid_0000011" id="beta2" value="0.02"/>
+    <parameter metaid="metaid_0000012" id="g11" value="0.5"/>
+    <parameter metaid="metaid_0000013" id="g21" value="-0.5"/>
+    <parameter metaid="metaid_0000014" id="g12" value="1"/>
+    <parameter metaid="metaid_0000015" id="g22" value="0"/>
+    <parameter metaid="metaid_0000016" id="k1" value="0.24"/>
+    <parameter metaid="metaid_0000017" id="k2" value="0.0017"/>
+    <parameter metaid="metaid_0000019" id="gamma" value="0" constant="false"/>
+    <parameter metaid="metaid_0000036" id="flag_resorption" value="0" constant="false"/>
+    <parameter metaid="metaid_0000037" id="flag_formation" value="0" constant="false"/>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="metaid_0000020" variable="gamma">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <ci> g12 </ci>
+            <ci> g21 </ci>
+          </apply>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <cn type="integer"> 1 </cn>
+              <ci> g11 </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <cn type="integer"> 1 </cn>
+              <ci> g22 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000021" variable="x1_bar">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <apply>
+            <power/>
+            <apply>
+              <divide/>
+              <ci> beta1 </ci>
+              <ci> alpha1 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <ci> g22 </ci>
+              </apply>
+              <ci> gamma </ci>
+            </apply>
+          </apply>
+          <apply>
+            <power/>
+            <apply>
+              <divide/>
+              <ci> beta2 </ci>
+              <ci> alpha2 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> g21 </ci>
+              <ci> gamma </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000022" variable="x2_bar">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <apply>
+            <power/>
+            <apply>
+              <divide/>
+              <ci> beta1 </ci>
+              <ci> alpha1 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> g12 </ci>
+              <ci> gamma </ci>
+            </apply>
+          </apply>
+          <apply>
+            <power/>
+            <apply>
+              <divide/>
+              <ci> beta2 </ci>
+              <ci> alpha2 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <ci> g11 </ci>
+              </apply>
+              <ci> gamma </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="metaid_0000023" id="R1" name="Osteoclast production">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000023">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045672"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="x1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="x2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> alpha1 </ci>
+            <apply>
+              <power/>
+              <ci> x1 </ci>
+              <ci> g11 </ci>
+            </apply>
+            <apply>
+              <power/>
+              <ci> x2 </ci>
+              <ci> g21 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000024" id="R2" name="Osteoclast removal">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000024">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045671"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="x1"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> beta1 </ci>
+            <ci> x1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000025" id="R3" name="Osteoblast production">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000025">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045669"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="x2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="x1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> alpha2 </ci>
+            <apply>
+              <power/>
+              <ci> x1 </ci>
+              <ci> g12 </ci>
+            </apply>
+            <apply>
+              <power/>
+              <ci> x2 </ci>
+              <ci> g22 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000026" id="R4" name="Osteoblast removal">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000026">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045668"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="x2"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> beta2 </ci>
+            <ci> x2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000028" id="R5" name="Bone resorption">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0045453"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="z"/>
+      </listOfReactants>
+      <listOfModifiers>
+        <modifierSpeciesReference species="x1"/>
+        <modifierSpeciesReference species="x1_bar"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> flag_resorption </ci>
+            <ci> k1 </ci>
+            <apply>
+              <minus/>
+              <ci> x1 </ci>
+              <ci> x1_bar </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000031" id="R6" name="Bone formation">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000031">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0001503"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="z"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="x2"/>
+        <modifierSpeciesReference species="x2_bar"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> flag_formation </ci>
+            <ci> k2 </ci>
+            <apply>
+              <minus/>
+              <ci> x2 </ci>
+              <ci> x2_bar </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+  <listOfEvents>
+    <event metaid="metaid_0000032" id="event_0000001">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">When the osteoclast number is greater than the steady state osteoclast number the flag is set to 1, this insures that in reaction R5, y1 is equal to the difference of x1 and x1_bar. When x1 is greater than x1_bar the difference is set to zero by setting the flag to zero. The same procedure is used for bone formation. </p>
+      </notes>
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <gt/>
+            <ci> x1 </ci>
+            <ci> x1_bar </ci>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="flag_resorption">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 1 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+    <event metaid="metaid_0000034" id="event_0000003">
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <leq/>
+            <ci> x1 </ci>
+            <ci> x1_bar </ci>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="flag_resorption">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+    <event metaid="metaid_0000033" id="event_0000002">
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <gt/>
+            <ci> x2 </ci>
+            <ci> x2_bar </ci>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="flag_formation">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 1 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+    <event metaid="metaid_0000035" id="event_0000004">
+      <trigger>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <leq/>
+            <ci> x2 </ci>
+            <ci> x2_bar </ci>
+          </apply>
+        </math>
+      </trigger>
+      <listOfEventAssignments>
+        <eventAssignment variable="flag_formation">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </eventAssignment>
+      </listOfEventAssignments>
+    </event>
+  </listOfEvents>
+</model>
+</sbml>

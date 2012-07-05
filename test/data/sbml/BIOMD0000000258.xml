@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="metaid_0000001" level="2" version="4">
+  <model metaid="metaid_0000002" id="Ortega2006_bistability_doublePhosphorylation" name="Ortega2006_bistability_doublePhosphorylation">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+      This a model from the article:
+      <br/>
+        <strong> Bistability from double phosphorylation in signal transduction. Kinetic and structural requirements.
+</strong>
+        <br/>
+Ortega F, Garcés JL, Mas F, Kholodenko BN, Cascante M.
+      <em>FEBS J.</em>2006 Sep;273(17):3915-26. 
+      <a href="http://www.ncbi.nlm.nih.gov/pubmed/16934033">16934033</a>,
+      <br/>
+        <strong>Abstract:</strong>
+        <br/>
+Previous studies have suggested that positive feedback loops and ultrasensitivity are prerequisites for bistability in covalent modification cascades. However, it was recently shown that bistability and hysteresis can also arise solely from multisite phosphorylation. Here we analytically demonstrate that double phosphorylation of a protein (or other covalent modification) generates bistability only if: (a) the two phosphorylation (or the two dephosphorylation) reactions are catalyzed by the same enzyme; (b) the kinetics operate at least partly in the zero-order region; and (c) the ratio of the catalytic constants of the phosphorylation and dephosphorylation steps in the first modification cycle is less than this ratio in the second cycle. We also show that multisite phosphorylation enlarges the region of kinetic parameter values in which bistability appears, but does not generate multistability. In addition, we conclude that a cascade of phosphorylation/dephosphorylation cycles generates multiple steady states in the absence of feedback or feedforward loops. Our results show that bistable behavior in covalent modification cascades relies not only on the structure and regulatory pattern of feedback/feedforward loops, but also on the kinetic characteristics of their component proteins.
+   </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Chelliah</vCard:Family>
+                <vCard:Given>Vijayalakshmi</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>viji@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Cascante</vCard:Family>
+                <vCard:Given>Marta</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>martacascante@ub.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>University of Barcelona</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-07-29T10:50:32Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2011-03-03T11:08:38Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000258"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1008100000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:16934033"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000003" id="cell" name="cell" size="1"/>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000005" id="alpha" name="alpha" compartment="cell" initialConcentration="0.462" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000005">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00017"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000006" id="beta" name="beta" compartment="cell" initialConcentration="0.2" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000006">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000007" id="gamma" name="gamma" compartment="cell" initialConcentration="0.338" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000007">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000060" id="r31" name="r31" value="1"/>
+    <parameter metaid="metaid_0000061" id="r24" name="r24" value="1"/>
+    <parameter metaid="metaid_0000062" id="Chi14" name="Chi14" value="1.1"/>
+    <parameter metaid="metaid_0000063" id="Ks1" name="Ks1" value="0.01"/>
+    <parameter metaid="metaid_0000064" id="Ks2" name="Ks2" value="0.01"/>
+    <parameter metaid="metaid_0000065" id="Ks3" name="Ks3" value="0.01"/>
+    <parameter metaid="metaid_0000066" id="Ks4" name="Ks4" value="0.01"/>
+    <parameter metaid="metaid_0000067" id="Vm1" name="Vm1" value="1"/>
+    <parameter metaid="metaid_0000068" id="p" name="p" value="1"/>
+  </listOfParameters>
+  <listOfReactions>
+    <reaction metaid="metaid_0000166" id="v1" name="v1">
+      <listOfReactants>
+        <speciesReference species="alpha"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="beta"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> Vm1 </ci>
+              <apply>
+                <divide/>
+                <ci> alpha </ci>
+                <ci> Ks1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> alpha </ci>
+                <ci> Ks1 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks3 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000167" id="v2" name="v2">
+      <listOfReactants>
+        <speciesReference species="beta"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="alpha"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="gamma"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> r24 </ci>
+              <apply>
+                <divide/>
+                <ci> Vm1 </ci>
+                <ci> Chi14 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks2 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> gamma </ci>
+                <ci> Ks4 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks2 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000168" id="v3" name="v3">
+      <listOfReactants>
+        <speciesReference species="beta"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="gamma"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="alpha"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> r31 </ci>
+              <ci> Vm1 </ci>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks3 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> alpha </ci>
+                <ci> Ks1 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks3 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000169" id="v4" name="v4" reversible="false">
+      <listOfReactants>
+        <speciesReference species="gamma"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="beta"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <ci> Vm1 </ci>
+                <ci> Chi14 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> gamma </ci>
+                <ci> Ks4 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> gamma </ci>
+                <ci> Ks4 </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> beta </ci>
+                <ci> Ks2 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

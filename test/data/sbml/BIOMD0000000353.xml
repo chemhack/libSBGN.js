@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" level="2" version="4">
+  <model metaid="NREL_starchdegradation_001" id="Nag2011_ChloroplasticStarchDegradation" name="Nag2011_ChloroplasticStarchDegradation">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+      This model is from the article:
+      <br/>
+        <strong> Kinetic modeling and exploratory numerical simulation of chloroplastic starch degradation.
+</strong>
+        <br/>
+Nag A, Lunacek M, Graf PA, Chang CH.
+      <em>BMC Syst Biol.</em>2011 Jun 18;5:94. 
+      <a href="http://www.ncbi.nlm.nih.gov/pubmed/21682905">21682905</a>,
+      <br/>
+        <strong>Abstract:</strong>
+        <br/>
+BACKGROUND:
+
+Higher plants and algae are able to fix atmospheric carbon dioxide through photosynthesis and store this fixed carbon in large quantities as starch, which can be hydrolyzed into sugars serving as feedstock for fermentation to biofuels and precursors. Rational engineering of carbon flow in plant cells requires a greater understanding of how starch breakdown fluxes respond to variations in enzyme concentrations, kinetic parameters, and metabolite concentrations. We have therefore developed and simulated a detailed kinetic ordinary differential equation model of the degradation pathways for starch synthesized in plants and green algae, which to our knowledge is the most complete such model reported to date.
+RESULTS:
+
+Simulation with 9 internal metabolites and 8 external metabolites, the concentrations of the latter fixed at reasonable biochemical values, leads to a single reference solution showing β-amylase activity to be the rate-limiting step in carbon flow from starch degradation. Additionally, the response coefficients for stromal glucose to the glucose transporter kcat and KM are substantial, whereas those for cytosolic glucose are not, consistent with a kinetic bottleneck due to transport. Response coefficient norms show stromal maltopentaose and cytosolic glucosylated arabinogalactan to be the most and least globally sensitive metabolites, respectively, and β-amylase kcat and KM for starch to be the kinetic parameters with the largest aggregate effect on metabolite concentrations as a whole. The latter kinetic parameters, together with those for glucose transport, have the greatest effect on stromal glucose, which is a precursor for biofuel synthetic pathways. Exploration of the steady-state solution space with respect to concentrations of 6 external metabolites and 8 dynamic metabolite concentrations show that stromal metabolism is strongly coupled to starch levels, and that transport between compartments serves to lower coupling between metabolic subsystems in different compartments.
+CONCLUSIONS:
+
+We find that in the reference steady state, starch cleavage is the most significant determinant of carbon flux, with turnover of oligosaccharides playing a secondary role. Independence of stationary point with respect to initial dynamic variable values confirms a unique stationary point in the phase space of dynamically varying concentrations of the model network. Stromal maltooligosaccharide metabolism was highly coupled to the available starch concentration. From the most highly converged trajectories, distances between unique fixed points of phase spaces show that cytosolic maltose levels depend on the total concentrations of arabinogalactan and glucose present in the cytosol. In addition, cellular compartmentalization serves to dampen much, but not all, of the effects of one subnetwork on another, such that kinetic modeling of single compartments would likely capture most dynamics that are fast on the timescale of the transport reactions.
+   </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#NREL_starchdegradation_001">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Chelliah</vCard:Family>
+                <vCard:Given>Vijayalakshmi</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>viji@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Nag</vCard:Family>
+                <vCard:Given>Ambarish</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>ambarish.nag@nrel.gov</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>National Renewable Energy Laboratory</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-11-01T00:00:00Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2011-08-30T12:54:09Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000353"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1106030000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:21682905"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:3701"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005983"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition id="per_s">
+      <listOfUnits>
+        <unit kind="second" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="volume">
+      <listOfUnits>
+        <unit kind="litre"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="area">
+      <listOfUnits>
+        <unit kind="metre" exponent="2" scale="-6"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="umole">
+      <listOfUnits>
+        <unit kind="mole" scale="-6"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="uM">
+      <listOfUnits>
+        <unit kind="mole" scale="-6"/>
+        <unit kind="litre" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="uM_per_s">
+      <listOfUnits>
+        <unit kind="mole" scale="-6"/>
+        <unit kind="litre" exponent="-1"/>
+        <unit kind="second" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="per_uM_per_s">
+      <listOfUnits>
+        <unit kind="mole" exponent="-1" scale="-6"/>
+        <unit kind="litre"/>
+        <unit kind="second" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="gm_per_L">
+      <listOfUnits>
+        <unit kind="gram"/>
+        <unit kind="litre" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="gm_per_L_2">
+      <listOfUnits>
+        <unit kind="gram" exponent="2"/>
+        <unit kind="litre" exponent="-2"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="gm_per_umole">
+      <listOfUnits>
+        <unit kind="gram"/>
+        <unit kind="mole" exponent="-1" scale="-6"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="_032804" id="Cell" name="Cell" size="3.534e-12" units="volume" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032804">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005623"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032805" id="Cytosol" name="Cytosol" size="1" units="volume" outside="Cell" constant="false" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032805">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005829"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032806" id="Chloroplast" name="Chloroplast" size="1" units="volume" outside="Cytosol" constant="false" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032806">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009507"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032807" id="ChloroplastOuterMembrane" name="Chloroplast Outer Membrane" spatialDimensions="2" size="1000" units="area" outside="Cytosol" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032807">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009707"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032810" id="ChloroplastIntermembraneSpace" name="Chloroplast Intermembrane Space" size="1" units="volume" outside="ChloroplastOuterMembrane" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032810">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0031972"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032811" id="ChloroplastInnerMembrane" name="Chloroplast Inner Membrane" spatialDimensions="2" size="1000" units="area" outside="ChloroplastIntermembraneSpace" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032811">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009706"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="_032814" id="ChloroplastStroma" name="Chloroplast Stroma" size="1" units="volume" outside="ChloroplastInnerMembrane" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032814">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009570"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="_032815" id="cpd_C00080_CY" name="H+" compartment="Cytosol" initialConcentration="0.1" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000327">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032815">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A24636"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00080"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032816" id="cpd_C00369_CS" name="Starch" compartment="ChloroplastStroma" substanceUnits="gram" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032816">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28017"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00369"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032817" id="cpd_C00369Glc_CS" name="Starch Glucosyl unit" compartment="ChloroplastStroma" initialConcentration="1000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032817">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28017"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00369"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00726"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032818" id="cpd_C00369db_CS" name="Starch exposed to Beta Amylase due to action of Isoamylase (Starch DB)" compartment="ChloroplastStroma" initialConcentration="0" substanceUnits="gram" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032818">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28017"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00369"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00726"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032819" id="cpd_C00208_CY" name="Maltose" compartment="Cytosol" initialConcentration="10" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032819">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17306"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00208"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032822" id="cpd_C00208_CS" name="Maltose" compartment="ChloroplastStroma" initialConcentration="10" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032822">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17306"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00208"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032823" id="cpd_C01835_CS" name="Maltotriose" compartment="ChloroplastStroma" initialConcentration="100" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032823">
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A61993"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C01835"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032826" id="cpd_G00343_CS" name="Maltopentaose" compartment="ChloroplastStroma" initialConcentration="1000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032826">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A62006"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032827" id="cpd_C00031_CS" name="(D)-Glucose" compartment="ChloroplastStroma" initialConcentration="10" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032827">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17634"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032830" id="cpd_C00031_CY" name="(D)-Glucose" compartment="Cytosol" initialConcentration="10" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032830">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17634"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00031"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032831" id="cpd_C00569_CY" name="Arabinogalactan (AG)" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032831">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A27569"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00569"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032834" id="cpd_C00569Glc_CY" name="Glucosyl Arabinogalactan (GlcAG)" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032834">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A27569"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00569"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00726"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032835" id="cpd_C00002tot_CY" name="ATP pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032835">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15422"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00002"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032838" id="cpd_C00008tot_CY" name="ADP pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032838">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16761"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00008"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032839" id="cpd_C00009tot_CY" name="Orthophosphate(HPi) pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032839">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18367"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00009"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032842" id="cpd_C00051_CY" name="Glutathione (reduced)" compartment="Cytosol" initialConcentration="1000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032842">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16856"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00051"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032843" id="cpd_C00660tot_CY" name="(D)-Glucose-1,6-bisphosphate pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032843">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17680"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00660"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032846" id="cpd_C03339tot_CY" name="2,3-Bisphosphoglycerate pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032846">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A19324"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C03339"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032847" id="cpd_C00103tot_CY" name="G1P pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032847">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29042"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C11450"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_032850" id="cpd_C00092tot_CY" name="G6P pool" compartment="Cytosol" initialConcentration="10000" substanceUnits="umole" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_032850">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17665"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00668"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="beta_amylase" id="ec_3_2_1_2_CS" name="Beta amylase" compartment="ChloroplastStroma" initialConcentration="0.00783" substanceUnits="gram" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#beta_amylase">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.2.1.2"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="iso_amylase" id="ec_3_2_1_68_CS" name="Isoamylase" compartment="ChloroplastStroma" initialConcentration="0.0118" substanceUnits="gram" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#iso_amylase">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.2.1.68"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="DPE1" id="ec_2_4_1_25_CS" name="Disproportionating enzyme 1(DPE1)" compartment="ChloroplastStroma" initialConcentration="2" substanceUnits="umole" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#DPE1">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.4.1.25"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="DPE2" id="ec_2_4_1_25_CY" name="Disproportionating enzyme 2(DPE2)" compartment="Cytosol" initialConcentration="2" substanceUnits="umole" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#DPE2">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.4.1.25"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="CGP" id="ec_2_4_1_1_CY" name="Cytosolic Glucan phosphorylase" compartment="Cytosol" initialConcentration="2" substanceUnits="umole" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#CGP">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.4.1.1"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="CHK" id="ec_2_7_1_1_CY" name="Hexokinase" compartment="Cytosol" initialConcentration="10" substanceUnits="umole" sboTerm="SBO:0000014">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#CHK">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.1.1"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="MEX" id="tc_2_A_84_1_2_CIMS" name="Maltose exporter (MEX)" compartment="ChloroplastIntermembraneSpace" initialConcentration="2" substanceUnits="umole" sboTerm="SBO:0000284">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#MEX">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:tcdb:2.A.84.1.2"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="pGlcT" id="tc_2_A_1_1_17_CIMS" name="Glucose transporter (pGlcT)" compartment="ChloroplastIntermembraneSpace" initialConcentration="20" substanceUnits="umole" sboTerm="SBO:0000284">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#pGlcT">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:tcdb:2.A.1.1.17"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="_032929" id="C00369_MW" name="Starch Mol. Wt." value="0.27" units="gm_per_umole" sboTerm="SBO:0000504"/>
+    <parameter metaid="_032930" id="N_Glc_Starch" name="Number of Glucosyl units in a Starch molecule" value="1667" units="dimensionless" sboTerm="SBO:0000503"/>
+    <parameter metaid="_032931" id="f_bamylase" name="Fraction of Starch amenable to degradation by Beta Amylase only" value="0.582" units="dimensionless" sboTerm="SBO:0000540"/>
+    <parameter metaid="_032932" id="f_G2" name="Fraction of starch degraded to Maltose" value="0.87" units="dimensionless" sboTerm="SBO:0000540"/>
+    <parameter metaid="_032935" id="f_G3" name="Fraction of starch degraded to Maltotriose" value="0.13" units="dimensionless" sboTerm="SBO:0000540"/>
+    <parameter metaid="_032936" id="conv_gm_umole" name="Unit conversion factor to meet SBML standards" value="1" units="gm_per_umole" sboTerm="SBO:0000565"/>
+    <parameter metaid="_032939" id="ec_3_2_1_2_MW" name="Beta amylase molecular weight" value="0.206" units="gm_per_umole" sboTerm="SBO:0000504"/>
+    <parameter metaid="_032940" id="G00343_MW" name="Maltopentaose Mol. Wt." value="0.000828" units="gm_per_umole" sboTerm="SBO:0000504"/>
+    <parameter metaid="_032943" id="C01835_MW" name="Maltotriose Mol. Wt." value="0.000504" units="gm_per_umole" sboTerm="SBO:0000504"/>
+    <parameter metaid="_032944" id="C00208_MW" name="Maltose Mol. Wt." value="0.000342" units="gm_per_umole" sboTerm="SBO:0000504"/>
+    <parameter metaid="_032947" id="R05196CS_kcat" name="DPE1 kcat" value="50" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="DPE1_Keq" id="R05196CS_Keq" name="DPE1 Keq" value="1" units="dimensionless" sboTerm="SBO:0000281"/>
+    <parameter metaid="DPE1_KMA" id="R05196CS_G3_KM" name="DPE1 G3 KM" value="3300" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE1_KMP" id="R05196CS_Glc_KM" name="DPE1 Glc KM" value="11700" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE1_KMQ" id="R05196CS_G5_KM" name="DPE1 G5 KM" value="210" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE1_KiA" id="R05196CS_G3_Ki" name="DPE1 G3 Ki" value="746.42" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="DPE1_KiP" id="R05196CS_Glc_Ki" name="DPE1 Glc Ki" value="5571.429" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="DPE1_KiQ" id="R05196CS_G5_Ki" name="DPE1 G5 Ki" value="100" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_032973" id="AT2G40840CY_kcat" name="DPE2 kcat" value="50" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="DPE2_Keq" id="AT2G40840CY_Keq" name="DPE2 Keq" value="1" units="dimensionless" sboTerm="SBO:0000281"/>
+    <parameter metaid="DPE2_KMP" id="AT2G40840CY_Glc_KM" name="DPE2 Glc KM" value="11700" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE2_KMA" id="AT2G40840CY_G2_KM" name="DPE2 Maltose KM" value="4600" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE2_KMB" id="AT2G40840CY_AG_KM" name="DPE2 AG KM" value="1100" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE2_KMQ" id="AT2G40840CY_GlcAG_KM" name="DPE2 GlcAG KM" value="1100" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="DPE2_KiP" id="AT2G40840CY_Glc_Ki" name="DPE2 Glc Ki" value="5571.429" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="DPE2_KiA" id="AT2G40840CY_G2_Ki" name="DPE2 Maltose Ki" value="2190.476" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="DPE2_KiB" id="AT2G40840CY_AG_Ki" name="DPE2 AG Ki" value="1000" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="DPE2_KiQ" id="AT2G40840CY_GlcAG_Ki" name="DPE2 GlcAG Ki" value="1000" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033008" id="R06050CY_kcat" name="Cytosolic glucan phosphorylase kcat" value="50" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="CGP_KMA" id="R06050CY_GlcAG_KM" name="Cytosolic glucan phosphorylase Glucosyl Arabinogalactan KM" value="2100" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="CGP_KiA" id="R06050CY_GlcAG_Ki" name="Cytosolic glucan phosphorylase Glucosyl Arabinogalactan Ki" value="3800" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="CGP_KMQ" id="R06050CY_AG_KM" name="Cytosolic glucan phosphorylase Arabinogalactan KM" value="3800" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="CGP_KMB" id="R06050CY_Pi_KM" name="Cytosolic glucan phosphorylase Pi KM" value="5900" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="CGP_KMP" id="R06050CY_G1P_KM" name="Cytosolic glucan phosphorylase G1P KM" value="2000" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="CGP_KiP" id="R06050CY_G1P_Ki" name="Cytosolic glucan phosphorylase G1P Ki" value="3100" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="CGP_Keq" id="R06050CY_Keq" name="Cytosolic glucan phosphorylase Keq" value="0.000615" units="dimensionless" sboTerm="SBO:0000281"/>
+    <parameter metaid="_033034" id="TC_2_A_84_1_2_kcat" name="Maltose exporter (MEX) kcat" value="5.963" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="MEX_KM" id="TC_2_A_84_1_2_KM" name="Maltose exporter (MEX) KM" value="4000" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033039" id="TC_2_A_1_1_17_kcat" name="Glucose transporter (pGlcT) kcat" value="240.278" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="_033040" id="TC_2_A_1_1_17_KM" name="Glucose transporter (pGlcT) KM" value="19300" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033043" id="R02112CS_Gn_KM" name="Beta Amylase KM for Starch" value="0.5" units="gm_per_L" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033044" id="R02112CS_G5_KM" name="Beta Amylase KM for Maltopentaose" value="1.46" units="gm_per_L" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033047" id="R02112CS_G2C_KM" name="Beta Amylase KM for Maltose condensation" value="4.19" units="gm_per_L_2" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033048" id="R02112CS_Keq" name="Keq for Maltotetraose degradation" value="18800" units="gm_per_L" sboTerm="SBO:0000281"/>
+    <parameter metaid="_033051" id="R02112CS_Gn_kcat" name="kcat_betaamylase_Starch" value="0.073" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="_033052" id="R02112CS_G5_kcat" name="kcat_betaamylase_Maltopentaose" value="0.0913" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="_033055" id="ec_3_2_1_68_CS_kcat" name="Isoamylase kcat" value="0.0198" units="per_s" sboTerm="SBO:0000025"/>
+    <parameter metaid="_033056" id="R00299CY_kfor" name="Hexokinase kcat,forward" value="180" units="per_s" sboTerm="SBO:0000320"/>
+    <parameter metaid="_033059" id="R00299CY_krev" name="Hexokinase kcat,reverse" units="per_s" constant="false" sboTerm="SBO:0000321"/>
+    <parameter metaid="_033060" id="R00299CY_Keq" name="Hexokinase Keq" value="155" units="dimensionless" sboTerm="SBO:0000281"/>
+    <parameter metaid="_033063" id="R00299CY_MgATP_KM" name="Hexokinase KM(MgATP)" value="1000" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033064" id="R00299CY_MgATP_Ki" name="Hexokinase Ki(MgATP)" value="1000" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033067" id="R00299CY_Glc_KM" name="Hexokinase KM(glucose)" value="47" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033068" id="R00299CY_Glc_Ki" name="Hexokinase Ki(glucose)" value="47" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033071" id="R00299CY_G6P_KM" name="Hexokinase KM(G6P)" value="47" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033072" id="R00299CY_G6P_Ki" name="Hexokinase Ki(G6P)" value="47" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033075" id="R00299CY_MgADP_KM" name="Hexokinase KM(MgADP)" value="1000" units="uM" sboTerm="SBO:0000027"/>
+    <parameter metaid="_033076" id="R00299CY_MgADP_Ki" name="Hexokinase Ki(MgADP)" value="1000" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033079" id="R00299CY_G6P_Kip" name="Hexokinase Ki(G6P),2" value="10" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033082" id="R00299CY_BPG_Kip" name="Hexokinase Ki(2,3-bisphosphoglycerate)" value="4000" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033083" id="R00299CY_G16P_Kip" name="Hexokinase Ki(glucose 1,6-bisphosphate" value="30" units="uM" sboTerm="SBO:0000009"/>
+    <parameter metaid="_033086" id="R00299CY_GSH_Kip" name="Hexokinase Ki(glutathione)" value="3000" units="uM" sboTerm="SBO:0000009"/>
+  </listOfParameters>
+  <listOfInitialAssignments>
+    <initialAssignment symbol="Cytosol">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <cn> 0.447 </cn>
+          <ci> Cell </ci>
+        </apply>
+      </math>
+    </initialAssignment>
+    <initialAssignment symbol="ChloroplastIntermembraneSpace">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <cn> 0.01 </cn>
+          <ci> Chloroplast </ci>
+        </apply>
+      </math>
+    </initialAssignment>
+    <initialAssignment symbol="Chloroplast">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <cn> 0.2 </cn>
+          <ci> Cell </ci>
+        </apply>
+      </math>
+    </initialAssignment>
+    <initialAssignment symbol="ChloroplastStroma">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <cn> 0.5 </cn>
+          <ci> Chloroplast </ci>
+        </apply>
+      </math>
+    </initialAssignment>
+  </listOfInitialAssignments>
+  <listOfRules>
+    <assignmentRule metaid="_032925" variable="R00299CY_krev">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <ci> R00299CY_kfor </ci>
+            <ci> R00299CY_MgADP_Ki </ci>
+            <ci> R00299CY_G6P_KM </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> R00299CY_Keq </ci>
+            <ci> R00299CY_Glc_Ki </ci>
+            <ci> R00299CY_MgATP_KM </ci>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_032926" variable="cpd_C00369_CS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <ci> cpd_C00369Glc_CS </ci>
+            <ci> C00369_MW </ci>
+          </apply>
+          <ci> N_Glc_Starch </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <rateRule metaid="_032927" variable="cpd_C00369db_CS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> ec_3_2_1_68_CS </ci>
+          <ci> ec_3_2_1_68_CS_kcat </ci>
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <exp/>
+                    <apply>
+                      <times/>
+                      <cn type="integer"> -100 </cn>
+                      <apply>
+                        <minus/>
+                        <apply>
+                          <divide/>
+                          <ci> cpd_C00369db_CS </ci>
+                          <apply>
+                            <times/>
+                            <ci> cpd_C00369_CS </ci>
+                            <apply>
+                              <minus/>
+                              <cn type="integer"> 1 </cn>
+                              <ci> f_bamylase </ci>
+                            </apply>
+                          </apply>
+                        </apply>
+                        <cn> 0.3 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <exp/>
+                    <apply>
+                      <times/>
+                      <cn type="integer"> -100 </cn>
+                      <apply>
+                        <minus/>
+                        <apply>
+                          <divide/>
+                          <ci> cpd_C00369db_CS </ci>
+                          <apply>
+                            <times/>
+                            <ci> cpd_C00369_CS </ci>
+                            <apply>
+                              <minus/>
+                              <cn type="integer"> 1 </cn>
+                              <ci> f_bamylase </ci>
+                            </apply>
+                          </apply>
+                        </apply>
+                        <cn> 0.3 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <cn> 1.429 </cn>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <divide/>
+                      <ci> cpd_C00369db_CS </ci>
+                      <apply>
+                        <times/>
+                        <ci> cpd_C00369_CS </ci>
+                        <apply>
+                          <minus/>
+                          <cn type="integer"> 1 </cn>
+                          <ci> f_bamylase </ci>
+                        </apply>
+                      </apply>
+                    </apply>
+                    <cn> 0.3 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </rateRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="G2_formation" id="rn_R02112CS_G2" name="Maltose formation from Starch" fast="false" sboTerm="SBO:0000393">
+      <listOfReactants>
+        <speciesReference name="Starch Glucosyl unit" species="cpd_C00369Glc_CS" stoichiometry="12345.7"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Maltose" species="cpd_C00208_CS" stoichiometry="2923.98"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="beta amylase" species="ec_3_2_1_2_CS"/>
+        <modifierSpeciesReference name="Starch" species="cpd_C00369_CS"/>
+        <modifierSpeciesReference name="Starch DB" species="cpd_C00369db_CS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> R02112CS_Gn_kcat </ci>
+              <ci> ec_3_2_1_2_CS </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> f_G2 </ci>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <ci> f_bamylase </ci>
+                      <ci> cpd_C00369_CS </ci>
+                    </apply>
+                    <ci> cpd_C00369db_CS </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <times/>
+                      <ci> cpd_C00208_CS </ci>
+                      <ci> C00208_MW </ci>
+                    </apply>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                  <ci> R02112CS_Keq </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> conv_gm_umole </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> f_G2 </ci>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <ci> f_bamylase </ci>
+                      <ci> cpd_C00369_CS </ci>
+                    </apply>
+                    <ci> cpd_C00369db_CS </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> R02112CS_Gn_KM </ci>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <times/>
+                          <ci> cpd_C00208_CS </ci>
+                          <ci> C00208_MW </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <ci> R02112CS_G2C_KM </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="G3_formation" id="rn_R02112CS_G3" name="Maltotriose formation from Starch" reversible="false" fast="false" sboTerm="SBO:0000393">
+      <listOfReactants>
+        <speciesReference name="Starch Glucosyl unit" species="cpd_C00369Glc_CS" stoichiometry="18518.5"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Maltotriose" species="cpd_C01835_CS" stoichiometry="1984.13"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="beta amylase" species="ec_3_2_1_2_CS"/>
+        <modifierSpeciesReference name="Starch" species="cpd_C00369_CS"/>
+        <modifierSpeciesReference name="Starch DB" species="cpd_C00369db_CS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> R02112CS_Gn_kcat </ci>
+              <ci> ec_3_2_1_2_CS </ci>
+              <ci> f_G3 </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> f_bamylase </ci>
+                  <ci> cpd_C00369_CS </ci>
+                </apply>
+                <ci> cpd_C00369db_CS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> conv_gm_umole </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> f_G3 </ci>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <ci> f_bamylase </ci>
+                      <ci> cpd_C00369_CS </ci>
+                    </apply>
+                    <ci> cpd_C00369db_CS </ci>
+                  </apply>
+                </apply>
+                <ci> R02112CS_Gn_KM </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="G5_degradation" id="rn_R02112CS_G5" name="Maltopentaose degradation" reversible="false" fast="false" sboTerm="SBO:0000179">
+      <listOfReactants>
+        <speciesReference name="Maltopentaose" species="cpd_G00343_CS" stoichiometry="1207.73"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Maltose" species="cpd_C00208_CS" stoichiometry="2923.98"/>
+        <speciesReference name="Maltotriose" species="cpd_C01835_CS" stoichiometry="1984.13"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="beta amylase" species="ec_3_2_1_2_CS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> R02112CS_G5_kcat </ci>
+              <ci> ec_3_2_1_2_CS </ci>
+              <ci> cpd_G00343_CS </ci>
+              <ci> G00343_MW </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> conv_gm_umole </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> cpd_G00343_CS </ci>
+                  <ci> G00343_MW </ci>
+                </apply>
+                <ci> R02112CS_G5_KM </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="G2_transport" id="tr_TC_2_A_84_1_2" name="Maltose exporter" reversible="false" fast="false" sboTerm="SBO:0000185">
+      <listOfReactants>
+        <speciesReference name="Maltose" species="cpd_C00208_CS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Maltose" species="cpd_C00208_CY"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="Maltose exporter(MEX)" species="tc_2_A_84_1_2_CIMS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> TC_2_A_84_1_2_kcat </ci>
+              <ci> tc_2_A_84_1_2_CIMS </ci>
+              <ci> cpd_C00208_CS </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> TC_2_A_84_1_2_KM </ci>
+              <ci> cpd_C00208_CS </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="G_transport" id="tr_TC_2_A_1_1_17" name="Plastidic Glucose transporter" reversible="false" fast="false" sboTerm="SBO:0000185">
+      <listOfReactants>
+        <speciesReference name="Glucose" species="cpd_C00031_CS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Glucose" species="cpd_C00031_CY"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="Glucose transporter(pGlcT)" species="tc_2_A_1_1_17_CIMS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> TC_2_A_1_1_17_kcat </ci>
+              <ci> tc_2_A_1_1_17_CIMS </ci>
+              <ci> cpd_C00031_CS </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> TC_2_A_1_1_17_KM </ci>
+              <ci> cpd_C00031_CS </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="HK_RXN" id="rn_R00299CY" name="Hexokinase" fast="false" sboTerm="SBO:0000559">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml"> Kinetics reversible random sequential bi-bi.</body>
+      </notes>
+      <listOfReactants>
+        <speciesReference name="ATP pool" species="cpd_C00002tot_CY"/>
+        <speciesReference name="Glucose" species="cpd_C00031_CY"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="G6P pool" species="cpd_C00092tot_CY"/>
+        <speciesReference name="ADP pool" species="cpd_C00008tot_CY"/>
+        <speciesReference name="H+" species="cpd_C00080_CY"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="Hexokinase (cytosolic)" species="ec_2_7_1_1_CY"/>
+        <modifierSpeciesReference name="Reduced glutathione" species="cpd_C00051_CY"/>
+        <modifierSpeciesReference name="(D)-Glucose-1,6-bisphosphate pool" species="cpd_C00660tot_CY"/>
+        <modifierSpeciesReference name="2,3-Bisphosphoglycerate pool" species="cpd_C03339tot_CY"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ec_2_7_1_1_CY </ci>
+              <ci> Cytosol </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> R00299CY_kfor </ci>
+                    <ci> cpd_C00002tot_CY </ci>
+                    <ci> cpd_C00031_CY </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R00299CY_Glc_Ki </ci>
+                    <ci> R00299CY_MgATP_KM </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> R00299CY_krev </ci>
+                    <ci> cpd_C00092tot_CY </ci>
+                    <ci> cpd_C00008tot_CY </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R00299CY_MgADP_Ki </ci>
+                    <ci> R00299CY_G6P_KM </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> cpd_C00002tot_CY </ci>
+                <ci> R00299CY_MgATP_Ki </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <ci> cpd_C00031_CY </ci>
+                  <ci> R00299CY_Glc_Ki </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> cpd_C00092tot_CY </ci>
+                    <ci> R00299CY_G6P_Kip </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> cpd_C00660tot_CY </ci>
+                    <ci> R00299CY_G16P_Kip </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> cpd_C03339tot_CY </ci>
+                    <ci> R00299CY_BPG_Kip </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> cpd_C00051_CY </ci>
+                    <ci> R00299CY_GSH_Kip </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> cpd_C00002tot_CY </ci>
+                  <ci> cpd_C00031_CY </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> R00299CY_Glc_Ki </ci>
+                  <ci> R00299CY_MgATP_KM </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> cpd_C00092tot_CY </ci>
+                <ci> R00299CY_G6P_Ki </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> cpd_C00008tot_CY </ci>
+                <ci> R00299CY_MgADP_Ki </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> cpd_C00092tot_CY </ci>
+                  <ci> cpd_C00008tot_CY </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> R00299CY_MgADP_Ki </ci>
+                  <ci> R00299CY_G6P_KM </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="CGP_RXN" id="rn_R06050CY" name="Cytosolic glucan phosphorylase" fast="false" sboTerm="SBO:0000559">
+      <listOfReactants>
+        <speciesReference name="Glucosyl Arabinogalactan" species="cpd_C00569Glc_CY"/>
+        <speciesReference name="HPi" species="cpd_C00009tot_CY"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="G1P pool" species="cpd_C00103tot_CY"/>
+        <speciesReference name="Arabinogalactan" species="cpd_C00569_CY"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="Cytosolic glucan phosphorylase" species="ec_2_4_1_1_CY"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> Cytosol </ci>
+              <ci> R06050CY_kcat </ci>
+              <ci> ec_2_4_1_1_CY </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> cpd_C00569Glc_CY </ci>
+                  <ci> cpd_C00009tot_CY </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00103tot_CY </ci>
+                    <ci> cpd_C00569_CY </ci>
+                  </apply>
+                  <ci> R06050CY_Keq </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> R06050CY_GlcAG_Ki </ci>
+                <ci> R06050CY_Pi_KM </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> R06050CY_Pi_KM </ci>
+                <ci> cpd_C00569Glc_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> R06050CY_GlcAG_KM </ci>
+                <ci> cpd_C00009tot_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> cpd_C00569Glc_CY </ci>
+                <ci> cpd_C00009tot_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> R06050CY_GlcAG_Ki </ci>
+                    <ci> R06050CY_Pi_KM </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R06050CY_G1P_Ki </ci>
+                    <ci> R06050CY_AG_KM </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> R06050CY_AG_KM </ci>
+                    <ci> cpd_C00103tot_CY </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R06050CY_G1P_KM </ci>
+                    <ci> cpd_C00569_CY </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00103tot_CY </ci>
+                    <ci> cpd_C00569_CY </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="DPE2_RXN" id="rn_AT2G40840CY" name="DPE2" fast="false" sboTerm="SBO:0000559">
+      <listOfReactants>
+        <speciesReference name="Maltose" species="cpd_C00208_CY"/>
+        <speciesReference name="AG" species="cpd_C00569_CY"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="Glucose" species="cpd_C00031_CY"/>
+        <speciesReference name="GlcAG" species="cpd_C00569Glc_CY"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="DPE2" species="ec_2_4_1_25_CY"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> Cytosol </ci>
+              <ci> AT2G40840CY_kcat </ci>
+              <ci> ec_2_4_1_25_CY </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> cpd_C00208_CY </ci>
+                  <ci> cpd_C00569_CY </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00031_CY </ci>
+                    <ci> cpd_C00569Glc_CY </ci>
+                  </apply>
+                  <ci> AT2G40840CY_Keq </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> AT2G40840CY_AG_KM </ci>
+                <ci> cpd_C00208_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> AT2G40840CY_G2_KM </ci>
+                <ci> cpd_C00569_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> cpd_C00208_CY </ci>
+                <ci> cpd_C00569_CY </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> AT2G40840CY_G2_KM </ci>
+                    <ci> AT2G40840CY_AG_Ki </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> AT2G40840CY_Glc_KM </ci>
+                    <ci> AT2G40840CY_GlcAG_Ki </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> AT2G40840CY_GlcAG_KM </ci>
+                    <ci> cpd_C00031_CY </ci>
+                    <apply>
+                      <plus/>
+                      <cn type="integer"> 1 </cn>
+                      <apply>
+                        <divide/>
+                        <ci> cpd_C00208_CY </ci>
+                        <ci> AT2G40840CY_G2_Ki </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> AT2G40840CY_Glc_KM </ci>
+                    <ci> cpd_C00569Glc_CY </ci>
+                    <apply>
+                      <plus/>
+                      <cn type="integer"> 1 </cn>
+                      <apply>
+                        <divide/>
+                        <ci> cpd_C00569_CY </ci>
+                        <ci> AT2G40840CY_AG_Ki </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00031_CY </ci>
+                    <ci> cpd_C00569Glc_CY </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="DPE1_RXN" id="rn_R05196CS" name="DPE1" fast="false" sboTerm="SBO:0000559">
+      <listOfReactants>
+        <speciesReference name="Maltotriose" species="cpd_C01835_CS" stoichiometry="2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference name="D-Glucose" species="cpd_C00031_CS"/>
+        <speciesReference name="Maltopentaose" species="cpd_G00343_CS"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference name="DPE1" species="ec_2_4_1_25_CS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ChloroplastStroma </ci>
+              <ci> R05196CS_kcat </ci>
+              <ci> ec_2_4_1_25_CS </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <power/>
+                  <ci> cpd_C01835_CS </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00031_CS </ci>
+                    <ci> cpd_G00343_CS </ci>
+                  </apply>
+                  <ci> R05196CS_Keq </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> R05196CS_G3_KM </ci>
+                <ci> cpd_C01835_CS </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> cpd_C01835_CS </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> R05196CS_G3_KM </ci>
+                    <ci> R05196CS_G3_Ki </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R05196CS_Glc_KM </ci>
+                    <ci> R05196CS_G5_Ki </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> R05196CS_G5_KM </ci>
+                    <ci> cpd_C00031_CS </ci>
+                    <apply>
+                      <plus/>
+                      <cn type="integer"> 1 </cn>
+                      <apply>
+                        <divide/>
+                        <ci> cpd_C01835_CS </ci>
+                        <ci> R05196CS_G3_Ki </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> R05196CS_Glc_KM </ci>
+                    <ci> cpd_G00343_CS </ci>
+                    <apply>
+                      <plus/>
+                      <cn type="integer"> 1 </cn>
+                      <apply>
+                        <divide/>
+                        <ci> cpd_C01835_CS </ci>
+                        <ci> R05196CS_G3_Ki </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> cpd_C00031_CS </ci>
+                    <ci> cpd_G00343_CS </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

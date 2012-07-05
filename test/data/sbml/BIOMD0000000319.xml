@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" level="2" version="4">
+  <model metaid="metaid_decroly82" id="decroly82" name="Decroly1982_Enzymatic_Oscillator">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This is the scaled model described in the article:<br/>
+        <b>Birhythmicity, chaos, and other patterns of temporal self-organization in a multiply regulated biochemical system</b>
+        <br/>Olivier Decroly, Albert Goldbeter, <i>Proc Natl Acad Sci USA</i> 1982 79:6917-6921; PMID:<a href="http://www.ncbi.nlm.nih.gov/pubmed/6960354">6960354</a>;</p>
+        <p>
+Abstract:<br/>
+We analyze on a model biochemical system the effect of a coupling between two instability-generating mechanisms. The system considered is that of two allosteric enzymes coupled in series and activated by their respective products. In addition to simple periodic oscillations, the system can exhibit a variety of new modes of dynamic behavior; coexistence between two stable periodic regimes (birhythmicity), random oscillations (chaos), and coexistence of a stable periodic regime with a stable steady state (hard excitation) or with chaos. The relationship between these patterns of temporal self-organization is analyzed as a function of the control parameters of the model. Chaos and birhythmicity appear to be rare events in comparison with simple periodic behavior. We discuss the relevance of these results with respect to the regularity of most biological rhythms.
+</p>
+        <p>The parameters q1 = 50 and q2 = 0.02 are explicitely included as the stoichiometric coefficients of beta and gamma in the reactions r2 and r3, respectively. Parameter values and initial conditions [ks=1.99/sec, alpha(0)=29.19988, beta(0)=188.8, gamma(0)=0.3367] are for the chaotic regime presented in the upper-curve of Figure 3b.</p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_decroly82">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Smallbone</vCard:Family>
+                <vCard:Given>Kieran</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>kieran.smallbone@manchester.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>University of Manchester</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-08-11T13:53:05Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2011-03-30T11:58:00Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000319"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1102070000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:6960354"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:131567"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition id="substance">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="volume">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="per_sec" name="per sec">
+      <listOfUnits>
+        <unit kind="second" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="meta_cell" id="cell" name="cell" size="1">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#meta_cell">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005622"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="_462445" id="alpha" name="alpha" compartment="cell" initialConcentration="29.19988" sboTerm="SBO:0000247"/>
+    <species metaid="_462448" id="beta" name="beta" compartment="cell" initialConcentration="188.8" sboTerm="SBO:0000247"/>
+    <species metaid="_462451" id="gamma" name="gamma" compartment="cell" initialConcentration="0.3367" sboTerm="SBO:0000247"/>
+  </listOfSpecies>
+  <listOfReactions>
+    <reaction metaid="_462452" id="r1" reversible="false" sboTerm="SBO:0000176">
+      <listOfProducts>
+        <speciesReference species="alpha"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> v_Km1 </ci>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_462462" id="v_Km1" value="0.45" units="per_sec" sboTerm="SBO:0000048"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_462455" id="r2" reversible="false" sboTerm="SBO:0000176">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_462455">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003824"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="alpha"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="beta" stoichiometry="50"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> sigma1 </ci>
+              <ci> alpha </ci>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <ci> alpha </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <ci> beta </ci>
+                </apply>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> L1 </ci>
+              <apply>
+                <times/>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <ci> alpha </ci>
+                  </apply>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <ci> beta </ci>
+                  </apply>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_462463" id="L1" value="500000000" units="dimensionless"/>
+          <parameter metaid="_462466" id="sigma1" value="10" units="per_sec" sboTerm="SBO:0000186"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_462458" id="r3" reversible="false" sboTerm="SBO:0000176">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_462458">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003824"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="beta"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="gamma" stoichiometry="0.02"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> sigma2 </ci>
+              <ci> beta </ci>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <ci> d </ci>
+                  <ci> beta </ci>
+                </apply>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <ci> gamma </ci>
+                </apply>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> L2 </ci>
+              <apply>
+                <times/>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <times/>
+                      <ci> d </ci>
+                      <ci> beta </ci>
+                    </apply>
+                  </apply>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <ci> gamma </ci>
+                  </apply>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_462467" id="L2" value="100" units="dimensionless"/>
+          <parameter metaid="_462470" id="d" value="0" units="dimensionless"/>
+          <parameter metaid="_462473" id="sigma2" value="10" units="per_sec" sboTerm="SBO:0000186"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_462461" id="r4" reversible="false" sboTerm="SBO:0000179">
+      <listOfReactants>
+        <speciesReference species="gamma"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ks </ci>
+            <ci> gamma </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_462474" id="ks" value="1.99" units="per_sec" sboTerm="SBO:0000356"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

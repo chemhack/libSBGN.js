@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" metaid="metaid_0000001" level="2" version="1">
+  <model metaid="metaid_0000002" id="Marwan_Genetics_2003">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator rdf:parseType="Resource">
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Le Novère</vCard:Family>
+                <vCard:Given>Nicolas</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>lenov@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2005-07-07T16:16:30Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2008-09-30T17:03:43Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000037"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL6621175859"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:12750324"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0042173"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0010018"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:5791"/>
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000033" id="time" name="hour">
+      <listOfUnits>
+        <unit kind="second" multiplier="3600"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000003" id="compartment" size="1"/>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000004" id="Pfr" compartment="compartment" initialAmount="10">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000004">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A35799"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR001294"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000006" id="Pr" compartment="compartment" initialAmount="0">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000006">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A35799"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR001294"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000008" id="Xi" compartment="compartment" initialAmount="6"/>
+    <species metaid="metaid_0000009" id="Xa" compartment="compartment" initialAmount="0"/>
+    <species metaid="metaid_0000010" id="prepreS" compartment="compartment" initialAmount="200"/>
+    <species metaid="metaid_0000011" id="preS" compartment="compartment" initialAmount="0"/>
+    <species metaid="metaid_0000012" id="Ya" compartment="compartment" initialAmount="0.9"/>
+    <species metaid="metaid_0000013" id="S" compartment="compartment" initialAmount="0"/>
+    <species metaid="metaid_0000014" id="Gluc" compartment="compartment" initialAmount="0" boundaryCondition="true">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000014">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17234"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00293"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000015" id="Yi" compartment="compartment" initialAmount="0"/>
+    <species metaid="metaid_0000017" id="V" compartment="compartment" initialAmount="30"/>
+    <species metaid="metaid_0000020" id="Pi" compartment="compartment" initialAmount="0"/>
+  </listOfSpecies>
+  <listOfReactions>
+    <reaction metaid="metaid_0000021" id="Photoreceptor_activation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000021">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0031516"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="Pfr"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Pr"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> compartment </ci>
+            <ci> Pfr </ci>
+            <ci> IfrSfrPfr </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="IfrSfrPfr" value="0.1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000022" id="Photoreceptor_inactivation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000022">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0031517"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="Pr"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Pfr"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> IrSrPr </ci>
+            <ci> Pr </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="IrSrPr" value="0"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000023" id="Transducer_activation" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Xi"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Xa"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="Pr"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Xi </ci>
+            <ci> kia </ci>
+            <ci> Pr </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kia" value="0.1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000024" id="Transducer_inactivation" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Xa"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Xi"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> kai </ci>
+            <ci> Xa </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kai" value="0.8"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000025" id="preS_formation" reversible="false">
+      <listOfReactants>
+        <speciesReference species="prepreS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="preS"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="Xa"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> prepreS </ci>
+            <ci> kx </ci>
+            <ci> Xa </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kx" value="0.2"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000026" id="S_generation" reversible="false">
+      <listOfReactants>
+        <speciesReference species="preS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="Ya"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> preS </ci>
+            <ci> ky </ci>
+            <ci> Ya </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="ky" value="1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000027" id="Glucose_sensor_inactivation" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Ya"/>
+        <speciesReference species="Gluc"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Yi"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> kG </ci>
+            <ci> Ya </ci>
+            <ci> Gluc </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kG" value="0.1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000028" id="S_formation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009299"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="V"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> compartment </ci>
+            <apply>
+              <divide/>
+              <ci> alpha1 </ci>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <power/>
+                  <ci> V </ci>
+                  <cn type="integer"> 3 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="alpha1" value="30"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000029" id="V_formation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000029">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0009299"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="V"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="S"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> compartment </ci>
+            <apply>
+              <divide/>
+              <ci> alpha2 </ci>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <power/>
+                  <ci> S </ci>
+                  <cn type="integer"> 3 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="alpha2" value="50"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000030" id="S_degradation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000030">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006402"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="S"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> kd_s </ci>
+            <ci> S </ci>
+            <ci> compartment </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kd_s" value="1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000031" id="V_degradation" reversible="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000031">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006402"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="V"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> compartment </ci>
+            <ci> V </ci>
+            <ci> kd_v </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kd_v" value="1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000032" id="Photoreceptor_decay" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Pr"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Pi"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> compartment </ci>
+            <ci> kd </ci>
+            <ci> Pr </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kd" value="0.1"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

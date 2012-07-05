@@ -1,0 +1,3991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="COPASI1" id="Model_1" name="Nakakuki2010_CellFateDecision_Mechanistic">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This mechanistic model describes the activation of immediate early genes such as cFos after EGF or heregulin (HRG) stimulation of the MAPK pathway. Phosphorylated cFos is a key transcription factor triggering downstream cascades of cell fate determination. The model can explain how the switch-like response of p-cFos emerges from the spatiotemporal dynamics. This mechanistic model comprises the explicit reaction kinetics of the signal transduction pathway, the transcriptional and the posttranslational feedback and feedforward loops. In the below article, two different mechanistic models have been studied, the first one based on previously known interactions but failing to account for the experimental data and the second one including additional interactions which were discovered and confirmed by new experiments. The mechanistic model encoded here is the second one, the extended and at the time of creation most complete model of cell fate decision making in response to different doses of EGF or HRG stimulation. The encoded parameter set corresponds to 10mM HRG stimulation as shown in Fig.1 of the article. The Supplementary Methods of the article provide further parameter sets that allow simulations for different ligands and different doses. A corresponding core model is available from http://www.ebi.ac.uk/biomodels/ as MODEL1003170000. </p>
+        <p>
+          <strong>Ligand-specific c-Fos expression emerges from the spatiotemporal control of ErbB network dynamics.</strong>
+          <br/>Takashi Nakakuki(1), Marc R. Birtwistle(2,3,4), Yuko Saeki(1,5), Noriko Yumoto(1,5), Kaori Ide(1), Takeshi Nagashima(1,5), Lutz Brusch(6), Babatunde A. Ogunnaike(3), Mariko Hatakeyama(1,5), and Boris N. Kholodenko(2,4); Cell  <em>In Press, online 20 May 2010</em>, doi:<a href="http://doi.dx.org/10.1016/j.cell.2010.03.054 ">10.1016/j.cell.2010.03.054 </a>
+          <br/>
+          <small>(1) RIKEN Advanced Science Institute, Computational Systems Biology Research Group, Advanced Computational Sciences Department, 1-7-22 Tsurumi-ku, Yokohama, Kanagawa, 230-0045, Japan </small>
+          <br/>
+          <small>(2) Systems Biology Ireland, University College Dublin, Belfield, Dublin 4, Ireland  </small>
+          <br/>
+          <small>(3) University of Delaware, Department of Chemical Engineering, 150 Academy St., Newark, DE 19716, USA </small>
+          <br/>
+          <small>(4) Thomas Jefferson University, Department of Pathology, Anatomy, and Cell Biology, 1020 Locust Street, Philadelphia, PA 19107, USA </small>
+          <br/>
+          <small>(5) RIKEN Research Center for Allergy and Immunology, Laboratory for Cellular Systems Modeling, 1-7-22 Tsurumi-ku, Yokohama, 230-0045, Japan </small>
+          <br/>
+          <small>(6) Dresden University of Technology, Center for Information Services and High Performance Computing, 01062 Dresden, Germany </small>
+        </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <COPASI xmlns="http://www.copasi.org/static/sbml">
+      <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="#COPASI1">
+          <dcterms:created>
+            <rdf:Description>
+              <dcterms:W3CDTF>2010-04-30T11:41:28Z</dcterms:W3CDTF>
+            </rdf:Description>
+          </dcterms:created>
+        </rdf:Description>
+      </rdf:RDF>
+    </COPASI>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#COPASI1">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Endler</vCard:Family>
+                <vCard:Given>Lukas</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>lukas@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-04-30T11:41:28Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-05-24T16:29:59Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000250"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1004300000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:20493519"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+        <bqbiol:isPartOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:hsa04010"/>
+          </rdf:Bag>
+        </bqbiol:isPartOf>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0035559"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:reactome:REACT_634"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:reactome:REACT_9417"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.bto:BTO%3A0000093"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfFunctionDefinitions>
+    <functionDefinition metaid="_124147" id="function_4_v003" name="function_4_v003">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K3 </ci>
+          </bvar>
+          <bvar>
+            <ci> K4 </ci>
+          </bvar>
+          <bvar>
+            <ci> V3 </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V3 </ci>
+              <ci> pERK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K3 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> ppERK_c </ci>
+                    <ci> K4 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> pERK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124148" id="function_4_v004" name="function_4_v004">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K3 </ci>
+          </bvar>
+          <bvar>
+            <ci> K4 </ci>
+          </bvar>
+          <bvar>
+            <ci> V4 </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V4 </ci>
+              <ci> ppERK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K4 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> pERK_c </ci>
+                    <ci> K3 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> ppERK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124149" id="function_4_v005" name="function_4_v005">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K5 </ci>
+          </bvar>
+          <bvar>
+            <ci> K6 </ci>
+          </bvar>
+          <bvar>
+            <ci> V5 </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V5 </ci>
+              <ci> pERK_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K5 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> ppERK_n </ci>
+                    <ci> K6 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> pERK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124152" id="function_4_v006" name="function_4_v006">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K5 </ci>
+          </bvar>
+          <bvar>
+            <ci> K6 </ci>
+          </bvar>
+          <bvar>
+            <ci> V6 </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V6 </ci>
+              <ci> ppERK_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K6 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> pERK_n </ci>
+                    <ci> K5 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> ppERK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124153" id="function_4_v007" name="function_4_v007">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexERK </ci>
+          </bvar>
+          <bvar>
+            <ci> KimERK </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> ERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> ERK_n </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimERK </ci>
+              <ci> Vc </ci>
+              <ci> ERK_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexERK </ci>
+              <ci> Vn </ci>
+              <ci> ERK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124156" id="function_4_v008" name="function_4_v008">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexERKP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimERKP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_n </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimERKP </ci>
+              <ci> Vc </ci>
+              <ci> pERK_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexERKP </ci>
+              <ci> Vn </ci>
+              <ci> pERK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124157" id="function_4_v015" name="function_4_v015">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K15 </ci>
+          </bvar>
+          <bvar>
+            <ci> V15 </ci>
+          </bvar>
+          <bvar>
+            <ci> pDUSP_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V15 </ci>
+              <ci> pDUSP_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K15 </ci>
+              <ci> pDUSP_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124160" id="function_4_v018" name="function_4_v018">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexDUSP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimDUSP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> DUSP_n </ci>
+          </bvar>
+          <bvar>
+            <ci> DUSP_c </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimDUSP </ci>
+              <ci> Vc </ci>
+              <ci> DUSP_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexDUSP </ci>
+              <ci> Vn </ci>
+              <ci> DUSP_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124161" id="function_4_v019" name="function_4_v019">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexDUSPP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimDUSPP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> pDUSP_c </ci>
+          </bvar>
+          <bvar>
+            <ci> pDUSP_n </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimDUSPP </ci>
+              <ci> Vc </ci>
+              <ci> pDUSP_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexDUSPP </ci>
+              <ci> Vn </ci>
+              <ci> pDUSP_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124164" id="function_4_v020" name="function_4_v020">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K20 </ci>
+          </bvar>
+          <bvar>
+            <ci> V20 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> DUSP_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V20 </ci>
+              <ci> ppERK_n </ci>
+              <ci> DUSP_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K20 </ci>
+              <ci> DUSP_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124165" id="function_4_v021" name="function_4_v021">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K21 </ci>
+          </bvar>
+          <bvar>
+            <ci> V21 </ci>
+          </bvar>
+          <bvar>
+            <ci> pDUSP_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V21 </ci>
+              <ci> pDUSP_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K21 </ci>
+              <ci> pDUSP_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124168" id="function_4_v024" name="function_4_v024">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K24 </ci>
+          </bvar>
+          <bvar>
+            <ci> V24 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> RSK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V24 </ci>
+              <ci> ppERK_c </ci>
+              <ci> RSK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K24 </ci>
+              <ci> RSK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124169" id="function_4_v001" name="function_4_v001">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> Fct </ci>
+          </bvar>
+          <bvar>
+            <ci> K1 </ci>
+          </bvar>
+          <bvar>
+            <ci> K2 </ci>
+          </bvar>
+          <bvar>
+            <ci> V1 </ci>
+          </bvar>
+          <bvar>
+            <ci> ERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> MEKc </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V1 </ci>
+              <ci> Fct </ci>
+              <ci> MEKc </ci>
+              <ci> ERK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K1 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> pERK_c </ci>
+                    <ci> K2 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> ERK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124172" id="function_4_v009" name="function_4_v009">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexERKPP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimERKPP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimERKPP </ci>
+              <ci> Vc </ci>
+              <ci> ppERK_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexERKPP </ci>
+              <ci> Vn </ci>
+              <ci> ppERK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124173" id="function_4_v010" name="function_4_v010">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K10 </ci>
+          </bvar>
+          <bvar>
+            <ci> V10 </ci>
+          </bvar>
+          <bvar>
+            <ci> n10 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V10 </ci>
+              <apply>
+                <power/>
+                <ci> ppERK_n </ci>
+                <ci> n10 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <power/>
+                <ci> K10 </ci>
+                <ci> n10 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> ppERK_n </ci>
+                <ci> n10 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124174" id="function_4_v011" name="function_4_v011">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> p11 </ci>
+          </bvar>
+          <bvar>
+            <ci> PreDUSPmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p11 </ci>
+            <ci> Vn </ci>
+            <ci> PreDUSPmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124175" id="function_4_v013" name="function_4_v013">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> p13 </ci>
+          </bvar>
+          <bvar>
+            <ci> DUSPmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p13 </ci>
+            <ci> DUSPmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124178" id="function_4_v014" name="function_4_v014">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K14 </ci>
+          </bvar>
+          <bvar>
+            <ci> V14 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> DUSP_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V14 </ci>
+              <ci> ppERK_c </ci>
+              <ci> DUSP_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K14 </ci>
+              <ci> DUSP_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124179" id="function_4_v002" name="function_4_v002">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> Fct </ci>
+          </bvar>
+          <bvar>
+            <ci> K1 </ci>
+          </bvar>
+          <bvar>
+            <ci> K2 </ci>
+          </bvar>
+          <bvar>
+            <ci> V2 </ci>
+          </bvar>
+          <bvar>
+            <ci> ERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> pERK_c </ci>
+          </bvar>
+          <bvar>
+            <ci> MEKc </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V2 </ci>
+              <ci> Fct </ci>
+              <ci> MEKc </ci>
+              <ci> pERK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> K2 </ci>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> ERK_c </ci>
+                    <ci> K1 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> pERK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124182" id="function_4_v029" name="function_4_v029">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K29 </ci>
+          </bvar>
+          <bvar>
+            <ci> V29 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> Elk1_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V29 </ci>
+              <ci> ppERK_n </ci>
+              <ci> Elk1_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K29 </ci>
+              <ci> Elk1_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124183" id="function_4_v025" name="function_4_v025">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K25 </ci>
+          </bvar>
+          <bvar>
+            <ci> V25 </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V25 </ci>
+              <ci> pRSK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K25 </ci>
+              <ci> pRSK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124186" id="function_4_v026" name="function_4_v026">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexRSKP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimRSKP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_c </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimRSKP </ci>
+              <ci> Vc </ci>
+              <ci> pRSK_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexRSKP </ci>
+              <ci> Vn </ci>
+              <ci> pRSK_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124187" id="function_4_v032" name="function_4_v032">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> p32 </ci>
+          </bvar>
+          <bvar>
+            <ci> PreFOSmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p32 </ci>
+            <ci> Vn </ci>
+            <ci> PreFOSmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124190" id="function_4_v034" name="function_4_v034">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> p34 </ci>
+          </bvar>
+          <bvar>
+            <ci> c_FOSmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p34 </ci>
+            <ci> c_FOSmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124191" id="function_4_v035" name="function_4_v035">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K35 </ci>
+          </bvar>
+          <bvar>
+            <ci> V35 </ci>
+          </bvar>
+          <bvar>
+            <ci> c_FOS_c </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V35 </ci>
+              <ci> ppERK_c </ci>
+              <ci> c_FOS_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K35 </ci>
+              <ci> c_FOS_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124194" id="function_4_v036" name="function_4_v036">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K36 </ci>
+          </bvar>
+          <bvar>
+            <ci> V36 </ci>
+          </bvar>
+          <bvar>
+            <ci> c_FOS_c </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V36 </ci>
+              <ci> pRSK_c </ci>
+              <ci> c_FOS_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K36 </ci>
+              <ci> c_FOS_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124195" id="function_4_v037" name="function_4_v037">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K37 </ci>
+          </bvar>
+          <bvar>
+            <ci> V37 </ci>
+          </bvar>
+          <bvar>
+            <ci> pc_FOS_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V37 </ci>
+              <ci> pc_FOS_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K37 </ci>
+              <ci> pc_FOS_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124198" id="function_4_v027" name="function_4_v027">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K27 </ci>
+          </bvar>
+          <bvar>
+            <ci> V27 </ci>
+          </bvar>
+          <bvar>
+            <ci> CREB_n </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V27 </ci>
+              <ci> pRSK_n </ci>
+              <ci> CREB_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K27 </ci>
+              <ci> CREB_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124199" id="function_4_v028" name="function_4_v028">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K28 </ci>
+          </bvar>
+          <bvar>
+            <ci> V28 </ci>
+          </bvar>
+          <bvar>
+            <ci> pCREB_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V28 </ci>
+              <ci> pCREB_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K28 </ci>
+              <ci> pCREB_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124202" id="function_4_v030" name="function_4_v030">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K30 </ci>
+          </bvar>
+          <bvar>
+            <ci> V30 </ci>
+          </bvar>
+          <bvar>
+            <ci> pElk1_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V30 </ci>
+              <ci> pElk1_n </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K30 </ci>
+              <ci> pElk1_n </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124203" id="function_4_v031" name="function_4_v031">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K31 </ci>
+          </bvar>
+          <bvar>
+            <ci> KF31 </ci>
+          </bvar>
+          <bvar>
+            <ci> V31 </ci>
+          </bvar>
+          <bvar>
+            <ci> n31 </ci>
+          </bvar>
+          <bvar>
+            <ci> nF31 </ci>
+          </bvar>
+          <bvar>
+            <ci> Fn </ci>
+          </bvar>
+          <bvar>
+            <ci> pCREB_n </ci>
+          </bvar>
+          <bvar>
+            <ci> pElk1_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V31 </ci>
+              <apply>
+                <power/>
+                <apply>
+                  <times/>
+                  <ci> pCREB_n </ci>
+                  <ci> pElk1_n </ci>
+                </apply>
+                <ci> n31 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <power/>
+                <ci> K31 </ci>
+                <ci> n31 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <times/>
+                  <ci> pCREB_n </ci>
+                  <ci> pElk1_n </ci>
+                </apply>
+                <ci> n31 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <divide/>
+                  <ci> Fn </ci>
+                  <ci> KF31 </ci>
+                </apply>
+                <ci> nF31 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124206" id="function_4_v040" name="function_4_v040">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexFOS </ci>
+          </bvar>
+          <bvar>
+            <ci> KimFOS </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> c_FOS_c </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimFOS </ci>
+              <ci> Vc </ci>
+              <ci> c_FOS_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexFOS </ci>
+              <ci> Vn </ci>
+              <ci> FOSn </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124207" id="function_4_v041" name="function_4_v041">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexFOSP </ci>
+          </bvar>
+          <bvar>
+            <ci> KimFOSP </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> pc_FOS_c </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn_2 </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimFOSP </ci>
+              <ci> Vc </ci>
+              <ci> pc_FOS_c </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexFOSP </ci>
+              <ci> Vn </ci>
+              <ci> FOSn_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124210" id="function_4_v042" name="function_4_v042">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K42 </ci>
+          </bvar>
+          <bvar>
+            <ci> V42 </ci>
+          </bvar>
+          <bvar>
+            <ci> ppERK_n </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V42 </ci>
+              <ci> ppERK_n </ci>
+              <ci> FOSn </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K42 </ci>
+              <ci> FOSn </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124211" id="function_4_v043" name="function_4_v043">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K43 </ci>
+          </bvar>
+          <bvar>
+            <ci> V43 </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn </ci>
+          </bvar>
+          <bvar>
+            <ci> pRSK_n </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V43 </ci>
+              <ci> pRSK_n </ci>
+              <ci> FOSn </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K43 </ci>
+              <ci> FOSn </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124214" id="function_4_v044" name="function_4_v044">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K44 </ci>
+          </bvar>
+          <bvar>
+            <ci> V44 </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V44 </ci>
+              <ci> FOSn_2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K44 </ci>
+              <ci> FOSn_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124215" id="function_4_v057" name="function_4_v057">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K57 </ci>
+          </bvar>
+          <bvar>
+            <ci> V57 </ci>
+          </bvar>
+          <bvar>
+            <ci> n57 </ci>
+          </bvar>
+          <bvar>
+            <ci> FOSn_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V57 </ci>
+              <apply>
+                <power/>
+                <ci> FOSn_2 </ci>
+                <ci> n57 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <power/>
+                <ci> K57 </ci>
+                <ci> n57 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> FOSn_2 </ci>
+                <ci> n57 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124218" id="function_4_v058" name="function_4_v058">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> p58 </ci>
+          </bvar>
+          <bvar>
+            <ci> PreFmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p58 </ci>
+            <ci> Vn </ci>
+            <ci> PreFmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124219" id="function_4_v060" name="function_4_v060">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> p60 </ci>
+          </bvar>
+          <bvar>
+            <ci> FmRNA </ci>
+          </bvar>
+          <apply>
+            <times/>
+            <ci> p60 </ci>
+            <ci> FmRNA </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124222" id="function_4_v062" name="function_4_v062">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> KexF </ci>
+          </bvar>
+          <bvar>
+            <ci> KimF </ci>
+          </bvar>
+          <bvar>
+            <ci> Vc </ci>
+          </bvar>
+          <bvar>
+            <ci> Vn </ci>
+          </bvar>
+          <bvar>
+            <ci> F </ci>
+          </bvar>
+          <bvar>
+            <ci> Fn </ci>
+          </bvar>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> KimF </ci>
+              <ci> Vc </ci>
+              <ci> F </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> KexF </ci>
+              <ci> Vn </ci>
+              <ci> Fn </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124223" id="function_4_v063" name="function_4_v063">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> cytoplasm </ci>
+          </bvar>
+          <bvar>
+            <ci> nucleus </ci>
+          </bvar>
+          <bvar>
+            <ci> p63 </ci>
+          </bvar>
+          <bvar>
+            <ci> Fn </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> cytoplasm </ci>
+              <ci> p63 </ci>
+              <ci> Fn </ci>
+            </apply>
+            <ci> nucleus </ci>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124226" id="function_4_v101" name="function_4_v101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K101 </ci>
+          </bvar>
+          <bvar>
+            <ci> V101 </ci>
+          </bvar>
+          <bvar>
+            <ci> A1 </ci>
+          </bvar>
+          <bvar>
+            <ci> EGF </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V101 </ci>
+              <ci> EGF </ci>
+              <ci> A1 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K101 </ci>
+              <ci> A1 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124227" id="function_4_v102" name="function_4_v102">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K102 </ci>
+          </bvar>
+          <bvar>
+            <ci> V102 </ci>
+          </bvar>
+          <bvar>
+            <ci> A1_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V102 </ci>
+              <ci> A1_2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K102 </ci>
+              <ci> A1_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124230" id="function_4_v103" name="function_4_v103">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K103 </ci>
+          </bvar>
+          <bvar>
+            <ci> V103 </ci>
+          </bvar>
+          <bvar>
+            <ci> A2 </ci>
+          </bvar>
+          <bvar>
+            <ci> HRG </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V103 </ci>
+              <ci> HRG </ci>
+              <ci> A2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K103 </ci>
+              <ci> A2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124231" id="function_4_v104" name="function_4_v104">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K104 </ci>
+          </bvar>
+          <bvar>
+            <ci> V104 </ci>
+          </bvar>
+          <bvar>
+            <ci> A2_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V104 </ci>
+              <ci> A2_2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K104 </ci>
+              <ci> A2_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124234" id="function_4_v105" name="function_4_v105">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K105 </ci>
+          </bvar>
+          <bvar>
+            <ci> V105 </ci>
+          </bvar>
+          <bvar>
+            <ci> EGF </ci>
+          </bvar>
+          <bvar>
+            <ci> RsD </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V105 </ci>
+              <ci> EGF </ci>
+              <ci> RsD </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K105 </ci>
+              <ci> RsD </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124235" id="function_4_v106" name="function_4_v106">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K106 </ci>
+          </bvar>
+          <bvar>
+            <ci> V106 </ci>
+          </bvar>
+          <bvar>
+            <ci> HRG </ci>
+          </bvar>
+          <bvar>
+            <ci> RsD </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V106 </ci>
+              <ci> HRG </ci>
+              <ci> RsD </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K106 </ci>
+              <ci> RsD </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124238" id="function_4_v107" name="function_4_v107">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K107 </ci>
+          </bvar>
+          <bvar>
+            <ci> V107 </ci>
+          </bvar>
+          <bvar>
+            <ci> A1_2 </ci>
+          </bvar>
+          <bvar>
+            <ci> RsT </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V107 </ci>
+              <ci> A1_2 </ci>
+              <ci> RsT </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K107 </ci>
+              <ci> RsT </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124239" id="function_4_v108" name="function_4_v108">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K108 </ci>
+          </bvar>
+          <bvar>
+            <ci> V108 </ci>
+          </bvar>
+          <bvar>
+            <ci> A2_2 </ci>
+          </bvar>
+          <bvar>
+            <ci> RsT </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V108 </ci>
+              <ci> A2_2 </ci>
+              <ci> RsT </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K108 </ci>
+              <ci> RsT </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124242" id="function_4_v109" name="function_4_v109">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K109 </ci>
+          </bvar>
+          <bvar>
+            <ci> V109 </ci>
+          </bvar>
+          <bvar>
+            <ci> HRG </ci>
+          </bvar>
+          <bvar>
+            <ci> A3 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V109 </ci>
+              <ci> HRG </ci>
+              <ci> A3 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K109 </ci>
+              <ci> A3 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124243" id="function_4_v110" name="function_4_v110">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K110 </ci>
+          </bvar>
+          <bvar>
+            <ci> V110 </ci>
+          </bvar>
+          <bvar>
+            <ci> A3_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V110 </ci>
+              <ci> A3_2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K110 </ci>
+              <ci> A3_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124246" id="function_4_v111" name="function_4_v111">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K111 </ci>
+          </bvar>
+          <bvar>
+            <ci> V111 </ci>
+          </bvar>
+          <bvar>
+            <ci> HRG </ci>
+          </bvar>
+          <bvar>
+            <ci> Kin </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V111 </ci>
+              <ci> HRG </ci>
+              <ci> Kin </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K111 </ci>
+              <ci> Kin </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124247" id="function_4_v112" name="function_4_v112">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K112 </ci>
+          </bvar>
+          <bvar>
+            <ci> V112 </ci>
+          </bvar>
+          <bvar>
+            <ci> A3_2 </ci>
+          </bvar>
+          <bvar>
+            <ci> Kin_2 </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V112 </ci>
+              <ci> A3_2 </ci>
+              <ci> Kin_2 </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K112 </ci>
+              <ci> Kin_2 </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124250" id="function_4_v113" name="function_4_v113">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K113 </ci>
+          </bvar>
+          <bvar>
+            <ci> V113 </ci>
+          </bvar>
+          <bvar>
+            <ci> RsT </ci>
+          </bvar>
+          <bvar>
+            <ci> pMEK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V113 </ci>
+              <ci> RsT </ci>
+              <ci> pMEK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K113 </ci>
+              <ci> pMEK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124253" id="function_4_v114" name="function_4_v114">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K114 </ci>
+          </bvar>
+          <bvar>
+            <ci> V114 </ci>
+          </bvar>
+          <bvar>
+            <ci> Kin_2 </ci>
+          </bvar>
+          <bvar>
+            <ci> pMEK_c </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V114 </ci>
+              <ci> Kin_2 </ci>
+              <ci> pMEK_c </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K114 </ci>
+              <ci> pMEK_c </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+    <functionDefinition metaid="_124256" id="function_4_v115" name="function_4_v115">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <lambda>
+          <bvar>
+            <ci> K115 </ci>
+          </bvar>
+          <bvar>
+            <ci> V115 </ci>
+          </bvar>
+          <bvar>
+            <ci> MEKc </ci>
+          </bvar>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> V115 </ci>
+              <ci> MEKc </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> K115 </ci>
+              <ci> MEKc </ci>
+            </apply>
+          </apply>
+        </lambda>
+      </math>
+    </functionDefinition>
+  </listOfFunctionDefinitions>
+  <listOfUnitDefinitions>
+    <unitDefinition id="volume">
+      <listOfUnits>
+        <unit kind="litre" scale="-12"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="substance">
+      <listOfUnits>
+        <unit kind="mole" scale="-9"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="_123827" id="default" name="default" size="1" sboTerm="SBO:0000290"/>
+    <compartment metaid="_123828" id="cytoplasm" name="cytoplasm" size="940" sboTerm="SBO:0000290"/>
+    <compartment metaid="_123829" id="nucleus" name="nucleus" size="220" sboTerm="SBO:0000290"/>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="_123831" id="EGF" name="EGF" compartment="default" initialConcentration="0" boundaryCondition="true" constant="true" sboTerm="SBO:0000252"/>
+    <species metaid="_123832" id="HRG" name="HRG" compartment="default" initialConcentration="10" boundaryCondition="true" constant="true" sboTerm="SBO:0000252"/>
+    <species metaid="_123835" id="A1" name="A1" compartment="cytoplasm" initialConcentration="182.3524"/>
+    <species metaid="_123836" id="A1_2" name="A1_2" compartment="cytoplasm" initialConcentration="0"/>
+    <species metaid="_123839" id="A2" name="A2" compartment="cytoplasm" initialConcentration="25.38702"/>
+    <species metaid="_123840" id="A2_2" name="A2_2" compartment="cytoplasm" initialConcentration="0"/>
+    <species metaid="_123841" id="A3" name="A3" compartment="cytoplasm" initialConcentration="13.09262"/>
+    <species metaid="_123844" id="A3_2" name="A3_2" compartment="cytoplasm" initialConcentration="0"/>
+    <species metaid="_123845" id="DUSPmRNA" name="DUSPmRNA" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123848" id="ERK_c" name="ERK_c" compartment="cytoplasm" initialConcentration="570.4179" sboTerm="SBO:0000252"/>
+    <species metaid="_123849" id="pERK_c" name="pERK_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123852" id="ppERK_c" name="ppERK_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123853" id="F" name="F" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123856" id="c_FOS_c" name="c_FOS_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123857" id="pc_FOS_c" name="pc_FOS_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123860" id="c_FOSmRNA" name="c_FOSmRNA" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123861" id="FmRNA" name="FmRNA" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123864" id="Kin" name="Kin" compartment="cytoplasm" initialConcentration="82.66574" sboTerm="SBO:0000252"/>
+    <species metaid="_123865" id="Kin_2" name="Kin_2" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123868" id="pMEK" name="pMEK" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123869" id="MEK" name="MEK" compartment="cytoplasm" initialConcentration="637.3212" sboTerm="SBO:0000252"/>
+    <species metaid="_123872" id="DUSP_c" name="DUSP_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123873" id="pDUSP_c" name="pDUSP_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123876" id="RSK_c" name="RSK_c" compartment="cytoplasm" initialConcentration="353" sboTerm="SBO:0000252"/>
+    <species metaid="_123877" id="pRSK_c" name="pRSK_c" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123880" id="RsD" name="RsD" compartment="cytoplasm" initialConcentration="247.4035" sboTerm="SBO:0000252"/>
+    <species metaid="_123881" id="RsT" name="RsT" compartment="cytoplasm" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123884" id="CREB_n" name="CREB_n" compartment="nucleus" initialConcentration="1000" sboTerm="SBO:0000252"/>
+    <species metaid="_123885" id="pCREB_n" name="pCREB_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123886" id="ERK_n" name="ERK_n" compartment="nucleus" initialConcentration="1624.9" sboTerm="SBO:0000252"/>
+    <species metaid="_123889" id="pERK_n" name="pERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123890" id="ppERK_n" name="ppERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123893" id="Elk1_n" name="Elk1_n" compartment="nucleus" initialConcentration="1510" sboTerm="SBO:0000252"/>
+    <species metaid="_123894" id="pElk1_n" name="pElk1_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123897" id="FOSn" name="FOSn" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123898" id="FOSn_2" name="FOSn_2" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123901" id="Fn" name="Fn" compartment="nucleus" initialConcentration="0"/>
+    <species metaid="_123902" id="DUSP_n" name="DUSP_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123905" id="pDUSP_n" name="pDUSP_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+    <species metaid="_123906" id="pDUSP_n_ERK_n" name="pDUSP_n_ERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123909" id="pDUSP_n_pERK_n" name="pDUSP_n_pERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123910" id="pDUSP_n_ppERK_n" name="pDUSP_n_ppERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123913" id="DUSP_n_ERK_n" name="DUSP_n_ERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123914" id="DUSP_n_pERK_n" name="DUSP_n_pERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123917" id="DUSP_n_ppERK_n" name="DUSP_n_ppERK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000297"/>
+    <species metaid="_123918" id="PreDUSPmRNA" name="PreDUSPmRNA" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123921" id="PreFOSmRNA" name="PreFOSmRNA" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123922" id="PreFmRNA" name="PreFmRNA" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000250"/>
+    <species metaid="_123925" id="pRSK_n" name="pRSK_n" compartment="nucleus" initialConcentration="0" sboTerm="SBO:0000252"/>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="_124257" id="V2" name="V2" value="0.22"/>
+    <parameter metaid="_124258" id="V3" name="V3" value="0.72"/>
+    <parameter metaid="_124259" id="K3" name="K3" value="160"/>
+    <parameter metaid="_124260" id="V4" name="V4" value="0.648"/>
+    <parameter metaid="_124261" id="K4" name="K4" value="60"/>
+    <parameter metaid="_124262" id="V5" name="V5" value="19.49872346"/>
+    <parameter metaid="_124263" id="K5" name="K5" value="29.94073716"/>
+    <parameter metaid="_124266" id="V6" name="V6" value="19.4987234631759"/>
+    <parameter metaid="_124267" id="K6" name="K6" value="29.9407371620698"/>
+    <parameter metaid="_124270" id="KimERK" name="KimERK" value="0.012"/>
+    <parameter metaid="_124271" id="KexERK" name="KexERK" value="0.018"/>
+    <parameter metaid="_124274" id="KimERKP" name="KimERKP" value="0.012"/>
+    <parameter metaid="_124275" id="KexERKP" name="KexERKP" value="0.018"/>
+    <parameter metaid="_124278" id="KimERKPP" name="KimERKPP" value="0.011"/>
+    <parameter metaid="_124279" id="KexERKPP" name="KexERKPP" value="0.013"/>
+    <parameter metaid="_124282" id="V10" name="V10" value="29.24109258"/>
+    <parameter metaid="_124283" id="K10" name="K10" value="169.0473748"/>
+    <parameter metaid="_124286" id="n10" name="n10" value="3.970849295"/>
+    <parameter metaid="_124289" id="p11" name="p11" value="0.000126129"/>
+    <parameter metaid="_124292" id="p12" name="p12" value="0.007875765"/>
+    <parameter metaid="_124295" id="p13" name="p13" value="0.001245747"/>
+    <parameter metaid="_124298" id="V14" name="V14" value="5.636949216"/>
+    <parameter metaid="_124301" id="K14" name="K14" value="34180.48"/>
+    <parameter metaid="_124304" id="V15" name="V15" value="2.992346912"/>
+    <parameter metaid="_124307" id="K15" name="K15" value="0.001172165"/>
+    <parameter metaid="_124310" id="p16" name="p16" value="0.000257"/>
+    <parameter metaid="_124313" id="p17" name="p17" value="4.81e-05"/>
+    <parameter metaid="_124314" id="KimDUSP" name="KimDUSP" value="0.024269764"/>
+    <parameter metaid="_124317" id="KexDUSP" name="KexDUSP" value="0.070467899"/>
+    <parameter metaid="_124318" id="KimDUSPP" name="KimDUSPP" value="0.024269764"/>
+    <parameter metaid="_124321" id="KexDUSPP" name="KexDUSPP" value="0.070467899"/>
+    <parameter metaid="_124322" id="V20" name="V20" value="0.157678678"/>
+    <parameter metaid="_124325" id="K20" name="K20" value="735598.6967"/>
+    <parameter metaid="_124326" id="V21" name="V21" value="0.005648117"/>
+    <parameter metaid="_124329" id="K21" name="K21" value="387.8377182"/>
+    <parameter metaid="_124330" id="p22" name="p22" value="0.000257"/>
+    <parameter metaid="_124333" id="p23" name="p23" value="4.81e-05"/>
+    <parameter metaid="_124334" id="V24" name="V24" value="0.550346114"/>
+    <parameter metaid="_124337" id="K24" name="K24" value="29516.06587"/>
+    <parameter metaid="_124338" id="V1" name="V1" value="0.342848369838443"/>
+    <parameter metaid="_124341" id="K1" name="K1" value="307.041525298866"/>
+    <parameter metaid="_124342" id="V25" name="V25" value="10.09063736"/>
+    <parameter metaid="_124345" id="K25" name="K25" value="0.913939859"/>
+    <parameter metaid="_124346" id="KimRSKP" name="KimRSKP" value="0.025925065"/>
+    <parameter metaid="_124349" id="KexRSKP" name="KexRSKP" value="0.129803956"/>
+    <parameter metaid="_124350" id="V27" name="V27" value="19.23118154"/>
+    <parameter metaid="_124353" id="K27" name="K27" value="441.5834425"/>
+    <parameter metaid="_124354" id="V28" name="V28" value="6.574759504"/>
+    <parameter metaid="_124357" id="K28" name="K28" value="14.99180922"/>
+    <parameter metaid="_124360" id="V29" name="V29" value="0.518529841"/>
+    <parameter metaid="_124361" id="K29" name="K29" value="21312.69109"/>
+    <parameter metaid="_124364" id="V30" name="V30" value="13.79479021"/>
+    <parameter metaid="_124365" id="K30" name="K30" value="15.04396629"/>
+    <parameter metaid="_124368" id="V31" name="V31" value="0.655214248"/>
+    <parameter metaid="_124369" id="K31" name="K31" value="185.9760682"/>
+    <parameter metaid="_124372" id="n31" name="n31" value="1.988003164"/>
+    <parameter metaid="_124373" id="p32" name="p32" value="0.003284434"/>
+    <parameter metaid="_124376" id="p33" name="p33" value="0.000601234209304622"/>
+    <parameter metaid="_124377" id="p34" name="p34" value="7.64816282169636e-05"/>
+    <parameter metaid="_124380" id="V35" name="V35" value="8.907637012"/>
+    <parameter metaid="_124381" id="K35" name="K35" value="8562.744184"/>
+    <parameter metaid="_124384" id="V36" name="V36" value="0.000597315"/>
+    <parameter metaid="_124385" id="K36" name="K36" value="528.552427"/>
+    <parameter metaid="_124388" id="V37" name="V37" value="1.745848179"/>
+    <parameter metaid="_124389" id="K37" name="K37" value="0.070379236"/>
+    <parameter metaid="_124392" id="p38" name="p38" value="0.000257"/>
+    <parameter metaid="_124395" id="p39" name="p39" value="4.81e-05"/>
+    <parameter metaid="_124398" id="KimFOS" name="KimFOS" value="0.54528521"/>
+    <parameter metaid="_124401" id="KexFOS" name="KexFOS" value="0.133249762"/>
+    <parameter metaid="_124404" id="KimFOSP" name="KimFOSP" value="0.54528521"/>
+    <parameter metaid="_124407" id="KexFOSP" name="KexFOSP" value="0.133249762"/>
+    <parameter metaid="_124410" id="V42" name="V42" value="0.909968714"/>
+    <parameter metaid="_124413" id="K42" name="K42" value="3992.061328"/>
+    <parameter metaid="_124416" id="V43" name="V43" value="0.076717457"/>
+    <parameter metaid="_124419" id="K43" name="K43" value="1157.116021"/>
+    <parameter metaid="_124422" id="V44" name="V44" value="0.078344305"/>
+    <parameter metaid="_124425" id="K44" name="K44" value="0.051168202"/>
+    <parameter metaid="_124428" id="p45" name="p45" value="0.000257"/>
+    <parameter metaid="_124431" id="p46" name="p46" value="4.81e-05"/>
+    <parameter metaid="_124434" id="p47" name="p47" value="0.001670815"/>
+    <parameter metaid="_124437" id="m47" name="m47" value="15.80783969"/>
+    <parameter metaid="_124440" id="p48" name="p48" value="0.686020478"/>
+    <parameter metaid="_124443" id="p49" name="p49" value="0.314470502"/>
+    <parameter metaid="_124446" id="m49" name="m49" value="2.335459127"/>
+    <parameter metaid="_124449" id="p50" name="p50" value="26.59483436"/>
+    <parameter metaid="_124452" id="p51" name="p51" value="0.01646825"/>
+    <parameter metaid="_124455" id="m51" name="m51" value="9.544308421"/>
+    <parameter metaid="_124458" id="Fct" name="Fct" value="0.7485"/>
+    <parameter metaid="_124461" id="p52" name="p52" value="0.001670815"/>
+    <parameter metaid="_124464" id="m52" name="m52" value="15.80783969"/>
+    <parameter metaid="_124467" id="p53" name="p53" value="0.686020478"/>
+    <parameter metaid="_124470" id="p54" name="p54" value="0.314470502"/>
+    <parameter metaid="_124473" id="m54" name="m54" value="2.335459127"/>
+    <parameter metaid="_124476" id="p55" name="p55" value="26.59483436"/>
+    <parameter metaid="_124479" id="p56" name="p56" value="0.01646825"/>
+    <parameter metaid="_124482" id="m56" name="m56" value="9.544308421"/>
+    <parameter metaid="_124485" id="V57" name="V57" value="1.026834758"/>
+    <parameter metaid="_124488" id="K57" name="K57" value="0.637490056"/>
+    <parameter metaid="_124491" id="n57" name="n57" value="3.584464176"/>
+    <parameter metaid="_124494" id="p58" name="p58" value="0.000270488"/>
+    <parameter metaid="_124497" id="p59" name="p59" value="0.001443889"/>
+    <parameter metaid="_124500" id="p60" name="p60" value="0.002448164"/>
+    <parameter metaid="_124503" id="p61" name="p61" value="3.49860901414122e-05"/>
+    <parameter metaid="_124506" id="KimF" name="KimF" value="0.019898797"/>
+    <parameter metaid="_124509" id="KexF" name="KexF" value="0.396950616"/>
+    <parameter metaid="_124512" id="p63" name="p63" value="4.13466150826031e-05"/>
+    <parameter metaid="_124515" id="KF31" name="KF31" value="0.013844393"/>
+    <parameter metaid="_124518" id="nF31" name="nF31" value="2.800340453"/>
+    <parameter metaid="_124521" id="K2" name="K2" value="350"/>
+    <parameter metaid="_124524" id="Vn" name="Vn" value="220"/>
+    <parameter metaid="_124527" id="Vc" name="Vc" value="940"/>
+    <parameter metaid="_124530" id="V101" name="V101" value="0.01807448"/>
+    <parameter metaid="_124533" id="K101" name="K101" value="3475.168"/>
+    <parameter metaid="_124536" id="V102" name="V102" value="0.09858154"/>
+    <parameter metaid="_124539" id="K102" name="K102" value="237.2001"/>
+    <parameter metaid="_124542" id="V103" name="V103" value="0.3573399"/>
+    <parameter metaid="_124545" id="K103" name="K103" value="1334.132"/>
+    <parameter metaid="_124548" id="V104" name="V104" value="4.635749"/>
+    <parameter metaid="_124551" id="K104" name="K104" value="4046.71"/>
+    <parameter metaid="_124554" id="V105" name="V105" value="0.05393704"/>
+    <parameter metaid="_124557" id="K105" name="K105" value="1.027895"/>
+    <parameter metaid="_124560" id="V106" name="V106" value="0.109304"/>
+    <parameter metaid="_124563" id="K106" name="K106" value="606.871"/>
+    <parameter metaid="_124566" id="V107" name="V107" value="5.291093"/>
+    <parameter metaid="_124569" id="K107" name="K107" value="424.6884"/>
+    <parameter metaid="_124572" id="V108" name="V108" value="0.03436149"/>
+    <parameter metaid="_124575" id="K108" name="K108" value="11.5048"/>
+    <parameter metaid="_124578" id="V109" name="V109" value="0.1374307"/>
+    <parameter metaid="_124581" id="K109" name="K109" value="7424.816"/>
+    <parameter metaid="_124584" id="V110" name="V110" value="0.08258693"/>
+    <parameter metaid="_124587" id="K110" name="K110" value="425.5268"/>
+    <parameter metaid="_124590" id="V111" name="V111" value="0.02487469"/>
+    <parameter metaid="_124593" id="K111" name="K111" value="858.3423"/>
+    <parameter metaid="_124596" id="V112" name="V112" value="0.8850982"/>
+    <parameter metaid="_124599" id="K112" name="K112" value="4665.217"/>
+    <parameter metaid="_124602" id="V113" name="V113" value="0.05377297"/>
+    <parameter metaid="_124605" id="K113" name="K113" value="20.50809"/>
+    <parameter metaid="_124608" id="V114" name="V114" value="0.03957055"/>
+    <parameter metaid="_124611" id="K114" name="K114" value="7.774197"/>
+    <parameter metaid="_124614" id="V115" name="V115" value="13.74244"/>
+    <parameter metaid="_124617" id="K115" name="K115" value="2122.045"/>
+  </listOfParameters>
+  <listOfReactions>
+    <reaction metaid="_123927" id="reaction_32" name="v001" reversible="false">
+      <listOfReactants>
+        <speciesReference species="ERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pMEK"/>
+        <modifierSpeciesReference species="pERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v001 </ci>
+              <ci> Fct </ci>
+              <ci> K1 </ci>
+              <ci> K2 </ci>
+              <ci> V1 </ci>
+              <ci> ERK_c </ci>
+              <ci> pERK_c </ci>
+              <ci> pMEK </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123930" id="reaction_6" name="v002" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pMEK"/>
+        <modifierSpeciesReference species="ERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v002 </ci>
+              <ci> Fct </ci>
+              <ci> K1 </ci>
+              <ci> K2 </ci>
+              <ci> V2 </ci>
+              <ci> ERK_c </ci>
+              <ci> pERK_c </ci>
+              <ci> pMEK </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123931" id="re85" name="v003" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ERK_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v003 </ci>
+              <ci> K3 </ci>
+              <ci> K4 </ci>
+              <ci> V3 </ci>
+              <ci> pERK_c </ci>
+              <ci> ppERK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123934" id="re86" name="v004" reversible="false">
+      <listOfReactants>
+        <speciesReference species="ppERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v004 </ci>
+              <ci> K3 </ci>
+              <ci> K4 </ci>
+              <ci> V4 </ci>
+              <ci> pERK_c </ci>
+              <ci> ppERK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123935" id="re87" name="v005" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ERK_n"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v005 </ci>
+              <ci> K5 </ci>
+              <ci> K6 </ci>
+              <ci> V5 </ci>
+              <ci> pERK_n </ci>
+              <ci> ppERK_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123938" id="re88" name="v006" reversible="false">
+      <listOfReactants>
+        <speciesReference species="ppERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK_n"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v006 </ci>
+              <ci> K5 </ci>
+              <ci> K6 </ci>
+              <ci> V6 </ci>
+              <ci> pERK_n </ci>
+              <ci> ppERK_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123939" id="re106" name="v007">
+      <listOfReactants>
+        <speciesReference species="ERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v007 </ci>
+            <ci> KexERK </ci>
+            <ci> KimERK </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> ERK_c </ci>
+            <ci> ERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123942" id="re107" name="v008">
+      <listOfReactants>
+        <speciesReference species="pERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v008 </ci>
+            <ci> KexERKP </ci>
+            <ci> KimERKP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> pERK_c </ci>
+            <ci> pERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123943" id="re108" name="v009">
+      <listOfReactants>
+        <speciesReference species="ppERK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v009 </ci>
+            <ci> KexERKPP </ci>
+            <ci> KimERKPP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> ppERK_c </ci>
+            <ci> ppERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123946" id="re109" name="v010" reversible="false">
+      <listOfProducts>
+        <speciesReference species="PreDUSPmRNA"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v010 </ci>
+              <ci> K10 </ci>
+              <ci> V10 </ci>
+              <ci> n10 </ci>
+              <ci> ppERK_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123947" id="re110" name="v011" reversible="false">
+      <listOfReactants>
+        <speciesReference species="PreDUSPmRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSPmRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v011 </ci>
+            <ci> Vn </ci>
+            <ci> p11 </ci>
+            <ci> PreDUSPmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123950" id="reaction_17" name="v012" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSPmRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p12 </ci>
+            <ci> DUSPmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123951" id="re89" name="v013" reversible="false">
+      <listOfProducts>
+        <speciesReference species="DUSP_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="DUSPmRNA"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v013 </ci>
+              <ci> p13 </ci>
+              <ci> DUSPmRNA </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123954" id="reaction_33" name="v014" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v014 </ci>
+              <ci> K14 </ci>
+              <ci> V14 </ci>
+              <ci> ppERK_c </ci>
+              <ci> DUSP_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123955" id="reaction_34" name="v015" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_c"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v015 </ci>
+              <ci> K15 </ci>
+              <ci> V15 </ci>
+              <ci> pDUSP_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123958" id="reaction_35" name="v016" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_c"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p16 </ci>
+            <ci> DUSP_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123959" id="reaction_36" name="v017" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_c"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p17 </ci>
+            <ci> pDUSP_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123962" id="re111" name="v018">
+      <listOfReactants>
+        <speciesReference species="DUSP_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v018 </ci>
+            <ci> KexDUSP </ci>
+            <ci> KimDUSP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> DUSP_n </ci>
+            <ci> DUSP_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123963" id="re112" name="v019">
+      <listOfReactants>
+        <speciesReference species="pDUSP_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v019 </ci>
+            <ci> KexDUSPP </ci>
+            <ci> KimDUSPP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> pDUSP_c </ci>
+            <ci> pDUSP_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123966" id="reaction_12" name="v020" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v020 </ci>
+              <ci> K20 </ci>
+              <ci> V20 </ci>
+              <ci> ppERK_n </ci>
+              <ci> DUSP_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123967" id="reaction_13" name="v021" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v021 </ci>
+              <ci> K21 </ci>
+              <ci> V21 </ci>
+              <ci> pDUSP_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123970" id="reaction_14" name="v022" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_n"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p22 </ci>
+            <ci> DUSP_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123971" id="reaction_15" name="v023" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p23 </ci>
+            <ci> pDUSP_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123974" id="reaction_41" name="v024" reversible="false">
+      <listOfReactants>
+        <speciesReference species="RSK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pRSK_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v024 </ci>
+              <ci> K24 </ci>
+              <ci> V24 </ci>
+              <ci> ppERK_c </ci>
+              <ci> RSK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123975" id="reaction_42" name="v025" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pRSK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="RSK_c"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v025 </ci>
+              <ci> K25 </ci>
+              <ci> V25 </ci>
+              <ci> pRSK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123978" id="re113" name="v026">
+      <listOfReactants>
+        <speciesReference species="pRSK_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pRSK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v026 </ci>
+            <ci> KexRSKP </ci>
+            <ci> KimRSKP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> pRSK_n </ci>
+            <ci> pRSK_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123979" id="reaction_45" name="v027" reversible="false">
+      <listOfReactants>
+        <speciesReference species="CREB_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pCREB_n"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pRSK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v027 </ci>
+              <ci> K27 </ci>
+              <ci> V27 </ci>
+              <ci> CREB_n </ci>
+              <ci> pRSK_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123982" id="reaction_46" name="v028" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pCREB_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="CREB_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v028 </ci>
+              <ci> K28 </ci>
+              <ci> V28 </ci>
+              <ci> pCREB_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123983" id="reaction_57" name="v029" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Elk1_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pElk1_n"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v029 </ci>
+              <ci> K29 </ci>
+              <ci> V29 </ci>
+              <ci> ppERK_n </ci>
+              <ci> Elk1_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123986" id="reaction_58" name="v030" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pElk1_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Elk1_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v030 </ci>
+              <ci> K30 </ci>
+              <ci> V30 </ci>
+              <ci> pElk1_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123987" id="reaction_47" name="v031" reversible="false">
+      <listOfProducts>
+        <speciesReference species="PreFOSmRNA"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pCREB_n"/>
+        <modifierSpeciesReference species="pElk1_n"/>
+        <modifierSpeciesReference species="Fn"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v031 </ci>
+              <ci> K31 </ci>
+              <ci> KF31 </ci>
+              <ci> V31 </ci>
+              <ci> n31 </ci>
+              <ci> nF31 </ci>
+              <ci> Fn </ci>
+              <ci> pCREB_n </ci>
+              <ci> pElk1_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123990" id="re115" name="v032" reversible="false">
+      <listOfReactants>
+        <speciesReference species="PreFOSmRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="c_FOSmRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v032 </ci>
+            <ci> Vn </ci>
+            <ci> p32 </ci>
+            <ci> PreFOSmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123991" id="reaction_50" name="v033" reversible="false">
+      <listOfReactants>
+        <speciesReference species="c_FOSmRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p33 </ci>
+            <ci> c_FOSmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123994" id="re90" name="v034" reversible="false">
+      <listOfProducts>
+        <speciesReference species="c_FOS_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="c_FOSmRNA"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v034 </ci>
+              <ci> p34 </ci>
+              <ci> c_FOSmRNA </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123995" id="reaction_59" name="v035" reversible="false">
+      <listOfReactants>
+        <speciesReference species="c_FOS_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pc_FOS_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v035 </ci>
+              <ci> K35 </ci>
+              <ci> V35 </ci>
+              <ci> c_FOS_c </ci>
+              <ci> ppERK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123998" id="reaction_67" name="v036" reversible="false">
+      <listOfReactants>
+        <speciesReference species="c_FOS_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pc_FOS_c"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pRSK_c"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v036 </ci>
+              <ci> K36 </ci>
+              <ci> V36 </ci>
+              <ci> c_FOS_c </ci>
+              <ci> pRSK_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_123999" id="reaction_60" name="v037" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pc_FOS_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="c_FOS_c"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v037 </ci>
+              <ci> K37 </ci>
+              <ci> V37 </ci>
+              <ci> pc_FOS_c </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124002" id="reaction_61" name="v038" reversible="false">
+      <listOfReactants>
+        <speciesReference species="c_FOS_c"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p38 </ci>
+            <ci> c_FOS_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124003" id="reaction_62" name="v039" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pc_FOS_c"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p39 </ci>
+            <ci> pc_FOS_c </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124006" id="re116" name="v040">
+      <listOfReactants>
+        <speciesReference species="c_FOS_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FOSn"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v040 </ci>
+            <ci> KexFOS </ci>
+            <ci> KimFOS </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> c_FOS_c </ci>
+            <ci> FOSn </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124007" id="re117" name="v041">
+      <listOfReactants>
+        <speciesReference species="pc_FOS_c"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FOSn_2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v041 </ci>
+            <ci> KexFOSP </ci>
+            <ci> KimFOSP </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> pc_FOS_c </ci>
+            <ci> FOSn_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124010" id="reaction_52" name="v042" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FOSn"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FOSn_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="ppERK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v042 </ci>
+              <ci> K42 </ci>
+              <ci> V42 </ci>
+              <ci> ppERK_n </ci>
+              <ci> FOSn </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124011" id="reaction_53" name="v043" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FOSn"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FOSn_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="pRSK_n"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v043 </ci>
+              <ci> K43 </ci>
+              <ci> V43 </ci>
+              <ci> FOSn </ci>
+              <ci> pRSK_n </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124014" id="reaction_54" name="v044" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FOSn_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FOSn"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v044 </ci>
+              <ci> K44 </ci>
+              <ci> V44 </ci>
+              <ci> FOSn_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124015" id="reaction_55" name="v045" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FOSn"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p45 </ci>
+            <ci> FOSn </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124016" id="reaction_56" name="v046" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FOSn_2"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p46 </ci>
+            <ci> FOSn_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124019" id="reaction_25" name="v047">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n"/>
+        <speciesReference species="ppERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n_ppERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p52 </ci>
+                <ci> pDUSP_n </ci>
+                <ci> ppERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m52 </ci>
+                <ci> pDUSP_n_ppERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124020" id="reaction_26" name="v048" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n_ppERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n"/>
+        <speciesReference species="pERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p53 </ci>
+            <ci> pDUSP_n_ppERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124023" id="reaction_27" name="v049">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n"/>
+        <speciesReference species="pERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n_pERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p54 </ci>
+                <ci> pDUSP_n </ci>
+                <ci> pERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m54 </ci>
+                <ci> pDUSP_n_pERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124024" id="reaction_28" name="v050" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n_pERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n"/>
+        <speciesReference species="ERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p55 </ci>
+            <ci> pDUSP_n_pERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124027" id="reaction_30" name="v051">
+      <listOfReactants>
+        <speciesReference species="pDUSP_n"/>
+        <speciesReference species="ERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pDUSP_n_ERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p56 </ci>
+                <ci> pDUSP_n </ci>
+                <ci> ERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m56 </ci>
+                <ci> pDUSP_n_ERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124028" id="reaction_21" name="v052">
+      <listOfReactants>
+        <speciesReference species="DUSP_n"/>
+        <speciesReference species="ppERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n_ppERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p47 </ci>
+                <ci> DUSP_n </ci>
+                <ci> ppERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m47 </ci>
+                <ci> DUSP_n_ppERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124031" id="reaction_22" name="v053" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_n_ppERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n"/>
+        <speciesReference species="pERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p48 </ci>
+            <ci> DUSP_n_ppERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124032" id="reaction_23" name="v054">
+      <listOfReactants>
+        <speciesReference species="DUSP_n"/>
+        <speciesReference species="pERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n_pERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p49 </ci>
+                <ci> DUSP_n </ci>
+                <ci> pERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m49 </ci>
+                <ci> DUSP_n_pERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124035" id="reaction_24" name="v055" reversible="false">
+      <listOfReactants>
+        <speciesReference species="DUSP_n_pERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n"/>
+        <speciesReference species="ERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> p50 </ci>
+            <ci> DUSP_n_pERK_n </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124036" id="reaction_29" name="v056">
+      <listOfReactants>
+        <speciesReference species="DUSP_n"/>
+        <speciesReference species="ERK_n"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="DUSP_n_ERK_n"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> p51 </ci>
+                <ci> DUSP_n </ci>
+                <ci> ERK_n </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> m51 </ci>
+                <ci> DUSP_n_ERK_n </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124039" id="re92" name="v057" reversible="false">
+      <listOfProducts>
+        <speciesReference species="PreFmRNA"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="FOSn_2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v057 </ci>
+              <ci> K57 </ci>
+              <ci> V57 </ci>
+              <ci> n57 </ci>
+              <ci> FOSn_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124040" id="re118" name="v058" reversible="false">
+      <listOfReactants>
+        <speciesReference species="PreFmRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="FmRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v058 </ci>
+            <ci> Vn </ci>
+            <ci> p58 </ci>
+            <ci> PreFmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124043" id="re94" name="v059" reversible="false">
+      <listOfReactants>
+        <speciesReference species="FmRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p59 </ci>
+            <ci> FmRNA </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124044" id="re95" name="v060" reversible="false">
+      <listOfProducts>
+        <speciesReference species="F"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="FmRNA"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v060 </ci>
+              <ci> p60 </ci>
+              <ci> FmRNA </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124047" id="re96" name="v061" reversible="false">
+      <listOfReactants>
+        <speciesReference species="F"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> p61 </ci>
+            <ci> F </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124048" id="re119" name="v062">
+      <listOfReactants>
+        <speciesReference species="F"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Fn"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <ci> function_4_v062 </ci>
+            <ci> KexF </ci>
+            <ci> KimF </ci>
+            <ci> Vc </ci>
+            <ci> Vn </ci>
+            <ci> F </ci>
+            <ci> Fn </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124051" id="re99" name="v063" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Fn"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <ci> function_4_v063 </ci>
+              <ci> cytoplasm </ci>
+              <ci> nucleus </ci>
+              <ci> p63 </ci>
+              <ci> Fn </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124052" id="reaction_31" name="v101" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A1_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="EGF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v101 </ci>
+              <ci> K101 </ci>
+              <ci> V101 </ci>
+              <ci> A1 </ci>
+              <ci> EGF </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124055" id="reaction_68" name="v102" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A1_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v102 </ci>
+              <ci> K102 </ci>
+              <ci> V102 </ci>
+              <ci> A1_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124056" id="reaction_69" name="v103" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A2_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="HRG"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v103 </ci>
+              <ci> K103 </ci>
+              <ci> V103 </ci>
+              <ci> A2 </ci>
+              <ci> HRG </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124059" id="reaction_70" name="v104" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A2_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v104 </ci>
+              <ci> K104 </ci>
+              <ci> V104 </ci>
+              <ci> A2_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124060" id="reaction_71" name="v105" reversible="false">
+      <listOfReactants>
+        <speciesReference species="RsD"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="RsT"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="EGF"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v105 </ci>
+              <ci> K105 </ci>
+              <ci> V105 </ci>
+              <ci> EGF </ci>
+              <ci> RsD </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124063" id="reaction_72" name="v106" reversible="false">
+      <listOfReactants>
+        <speciesReference species="RsD"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="RsT"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="HRG"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v106 </ci>
+              <ci> K106 </ci>
+              <ci> V106 </ci>
+              <ci> HRG </ci>
+              <ci> RsD </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124064" id="reaction_73" name="v107" reversible="false">
+      <listOfReactants>
+        <speciesReference species="RsT"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="RsD"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="A1_2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v107 </ci>
+              <ci> K107 </ci>
+              <ci> V107 </ci>
+              <ci> A1_2 </ci>
+              <ci> RsT </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124067" id="reaction_74" name="v108" reversible="false">
+      <listOfReactants>
+        <speciesReference species="RsT"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="RsD"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="A2_2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v108 </ci>
+              <ci> K108 </ci>
+              <ci> V108 </ci>
+              <ci> A2_2 </ci>
+              <ci> RsT </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124068" id="reaction_75" name="v109" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A3"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A3_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="HRG"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v109 </ci>
+              <ci> K109 </ci>
+              <ci> V109 </ci>
+              <ci> HRG </ci>
+              <ci> A3 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124071" id="reaction_76" name="v110" reversible="false">
+      <listOfReactants>
+        <speciesReference species="A3_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="A3"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v110 </ci>
+              <ci> K110 </ci>
+              <ci> V110 </ci>
+              <ci> A3_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124072" id="reaction_77" name="v111" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Kin"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Kin_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="HRG"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v111 </ci>
+              <ci> K111 </ci>
+              <ci> V111 </ci>
+              <ci> HRG </ci>
+              <ci> Kin </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124075" id="reaction_78" name="v112" reversible="false">
+      <listOfReactants>
+        <speciesReference species="Kin_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Kin"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="A3_2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v112 </ci>
+              <ci> K112 </ci>
+              <ci> V112 </ci>
+              <ci> A3_2 </ci>
+              <ci> Kin_2 </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124076" id="reaction_79" name="v113" reversible="false">
+      <listOfReactants>
+        <speciesReference species="MEK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="RsT"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v113 </ci>
+              <ci> K113 </ci>
+              <ci> V113 </ci>
+              <ci> RsT </ci>
+              <ci> MEK </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124079" id="reaction_80" name="v114" reversible="false">
+      <listOfReactants>
+        <speciesReference species="MEK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="Kin_2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v114 </ci>
+              <ci> K114 </ci>
+              <ci> V114 </ci>
+              <ci> Kin_2 </ci>
+              <ci> MEK </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_124080" id="reaction_81" name="v115" reversible="false">
+      <listOfReactants>
+        <speciesReference species="pMEK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MEK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <ci> function_4_v115 </ci>
+              <ci> K115 </ci>
+              <ci> V115 </ci>
+              <ci> pMEK </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

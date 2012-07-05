@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="_800187" id="Oligator" name="Montagne2011_Oligator_optimised">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This is the model of the in vitro DNA oscillator called oligator with the optmized set of parameters described in the article:<br/>
+        <b>Programming an in vitro DNA oscillator using a molecular networking strategy.</b>
+        <br/>
+Montagne K, Plasson R, Sakai Y, Fujii T, Rondelez Y. Mol Syst Biol. 2011 Feb 1;7:466. PubmedID:<a href="http://www.ncbi.nlm.nih.gov/pubmed/21283142">21283142</a>, Doi:<a href="http://dx.doi.org/10.1038/msb.2010.120">10.1038/msb.2010.120</a>
+      </p>
+      <p>Abstract:<br/>
+Living organisms perform and control complex behaviours by using webs of chemical reactions organized in precise networks. This powerful system concept, which is at the very core of biology, has recently become a new foundation for bioengineering. Remarkably, however, it is still extremely difficult to rationally create such network architectures in artificial, non-living and well-controlled settings. We introduce here a method for such a purpose, on the basis of standard DNA biochemistry. This approach is demonstrated by assembling de novo an efficient chemical oscillator: we encode the wiring of the corresponding network in the sequence of small DNA templates and obtain the predicted dynamics. Our results show that the rational cascading of standard elements opens the possibility to implement complex behaviours in vitro. Because of the simple and well-controlled environment, the corresponding chemical network is easily amenable to quantitative mathematical analysis. These synthetic systems may thus accelerate our understanding of the underlying principles of biological dynamic modules.
+</p>
+      <p>The model reproduces the time courses in fig 2B. The parameter identifiers of the reaction constants are not the same as in the supplemental material, but are just called kXd and kXr for the forward and backwards constant of reaction X respectively. </p>
+      <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+    </p>
+  </body>
+</notes><annotation>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+    <rdf:Description rdf:about="#_800187">
+      <dc:creator>
+        <rdf:Bag/>
+      </dc:creator>
+      <dcterms:created rdf:parseType="Resource">
+        <dcterms:W3CDTF>2011-02-17T01:23:22Z</dcterms:W3CDTF>
+      </dcterms:created>
+      <dcterms:modified rdf:parseType="Resource">
+        <dcterms:W3CDTF>2011-03-16T23:29:10Z</dcterms:W3CDTF>
+      </dcterms:modified>
+      <bqmodel:is>
+        <rdf:Bag>
+          <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000315"/>
+        </rdf:Bag>
+      </bqmodel:is>
+      <bqmodel:is>
+        <rdf:Bag>
+          <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1010260000"/>
+        </rdf:Bag>
+      </bqmodel:is>
+      <bqmodel:isDescribedBy>
+        <rdf:Bag>
+          <rdf:li rdf:resource="urn:miriam:pubmed:21283142"/>
+        </rdf:Bag>
+      </bqmodel:isDescribedBy>
+    </rdf:Description>
+  </rdf:RDF>
+</annotation><listOfUnitDefinitions>
+  <unitDefinition id="time" name="min">
+    <listOfUnits>
+      <unit kind="second" multiplier="60"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition id="substance" name="nanomole">
+    <listOfUnits>
+      <unit kind="mole" scale="-9"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition id="nM" name="nM">
+    <listOfUnits>
+      <unit kind="mole" scale="-9"/>
+      <unit kind="litre" exponent="-1"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition id="per_nM_per_min" name="nM_per_min">
+    <listOfUnits>
+      <unit kind="mole" exponent="-1" scale="-9"/>
+      <unit kind="litre"/>
+      <unit kind="second" exponent="-1" multiplier="60"/>
+    </listOfUnits>
+  </unitDefinition>
+  <unitDefinition id="per_min" name="per_min">
+    <listOfUnits>
+      <unit kind="second" exponent="-1" multiplier="60"/>
+    </listOfUnits>
+  </unitDefinition>
+</listOfUnitDefinitions><listOfCompartments>
+  <compartment metaid="_800189" id="sample" size="1" sboTerm="SBO:0000290"/>
+</listOfCompartments><listOfSpecies>
+  <species metaid="_800190" id="T1" name="T1" compartment="sample" initialConcentration="38.5" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800190">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800191" id="alpha" name="alpha" compartment="sample" initialConcentration="10" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800191">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800192" id="alpha_T1" name="alpha_T1" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800192">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800193" id="alpha_T1_alpha" name="alpha_T1_alpha" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800193">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800196" id="T1_alpha" name="T1_alpha" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800196">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800197" id="alpha_alpha_T1" name="alpha_alpha_T1" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800197">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800200" id="T2" name="T2" compartment="sample" initialConcentration="3.89" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800200">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800201" id="alpha_T2" name="alpha_T2" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800201">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800204" id="alpha_T2_beta" name="alpha_T2_beta" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800204">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800205" id="beta" name="beta" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800205">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800208" id="T2_beta" name="T2_beta" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800208">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800209" id="alpha_beta_T2" name="alpha_beta_T2" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800209">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800212" id="T3" name="T3" compartment="sample" initialConcentration="38.5" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800212">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800213" id="beta_T3" name="beta_T3" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800213">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800216" id="beta_T3_Inh" name="beta_T3_Inh" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800216">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800217" id="Inh" name="Inh" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800217">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800220" id="T3_Inh" name="T3_Inh" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800220">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800221" id="beta_Inh_T3" name="beta_Inh_T3" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800221">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800224" id="Inh_T1" name="Inh_T1" compartment="sample" initialConcentration="0" sboTerm="SBO:0000250">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800224">
+          <bqbiol:hasVersion>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16991"/>
+              <rdf:li rdf:resource="urn:miriam:kegg.compound:C00039"/>
+            </rdf:Bag>
+          </bqbiol:hasVersion>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+  </species>
+  <species metaid="_800225" id="empty" compartment="sample" initialConcentration="0" boundaryCondition="true" sboTerm="SBO:0000291"/>
+</listOfSpecies><listOfParameters>
+  <parameter metaid="_800309" id="k0d" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800310" id="k0r" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800311" id="k1d" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800312" id="k1r" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800315" id="k2d" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800316" id="k2r" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800319" id="k3d" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800320" id="k3r" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800323" id="k4d" value="15.2" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800324" id="k5d" value="11.8408" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800327" id="k6d" value="3.34" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800328" id="k7d" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800331" id="k7r" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800332" id="k8d" value="0.610714285714" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800335" id="k8r" value="0.0171" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800336" id="k9d" value="0.610714285714" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800339" id="k9r" value="0.0171" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800340" id="k10d" value="3.43457943925" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800343" id="k10r" value="0.0294" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800344" id="k11d" value="11.8408" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800347" id="k12d" value="9.2239832" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800348" id="k13d" value="2.60186" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800351" id="k14d" value="0.0171" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800352" id="k14r" value="0.610714285714" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800355" id="k15d" value="0.00186296832954" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800356" id="k15r" value="0.027" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800359" id="k16d" value="0.027" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800360" id="k16r" value="0.00186296832954" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800363" id="k17d" value="0.0171" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800364" id="k17r" value="0.610714285714" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800367" id="k18d" value="17.024" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800368" id="k19d" value="5.566848" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800371" id="k20d" value="3.2064" units="per_min" sboTerm="SBO:0000035"/>
+  <parameter metaid="_800372" id="k21d" value="0.027" units="per_nM_per_min" sboTerm="SBO:0000339"/>
+  <parameter metaid="_800375" id="k21r" value="0.00608108108108" units="per_min" sboTerm="SBO:0000338"/>
+  <parameter metaid="_800376" id="k22d" value="0.021546" units="per_nM_per_min" sboTerm="SBO:0000036"/>
+  <parameter metaid="_800379" id="k22r" value="4.15391351351e-05" units="per_nM_per_min" sboTerm="SBO:0000039"/>
+  <parameter metaid="_800380" id="k23d" value="4.15391351351e-05" units="per_nM_per_min" sboTerm="SBO:0000036"/>
+  <parameter metaid="_800383" id="k23r" value="0.021546" units="per_nM_per_min" sboTerm="SBO:0000039"/>
+  <parameter metaid="_800384" id="k24d" value="0.411" units="per_min" sboTerm="SBO:0000356"/>
+  <parameter metaid="_800387" id="k25d" value="0.485802" units="per_min" sboTerm="SBO:0000356"/>
+  <parameter metaid="_800388" id="k26d" value="1.7262" units="per_min" sboTerm="SBO:0000356"/>
+  <parameter metaid="_800391" id="Bp_concentration" units="nM" constant="false" sboTerm="SBO:0000196"/>
+  <parameter metaid="_800392" id="fluorescence" constant="false" sboTerm="SBO:0000002"/>
+  <parameter metaid="_800395" id="Inh_total" units="nM" constant="false" sboTerm="SBO:0000196"/>
+  <parameter metaid="_800396" id="beta_total" units="nM" constant="false" sboTerm="SBO:0000196"/>
+  <parameter metaid="_800399" id="alpha_total" units="nM" constant="false" sboTerm="SBO:0000196"/>
+</listOfParameters><listOfRules>
+  <assignmentRule metaid="_800299" variable="Bp_concentration">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <apply>
+          <times/>
+          <cn type="integer"> 11 </cn>
+          <apply>
+            <plus/>
+            <ci> alpha_T1 </ci>
+            <ci> T1_alpha </ci>
+            <ci> alpha_T2 </ci>
+            <ci> T2_beta </ci>
+            <ci> beta_T3 </ci>
+          </apply>
+        </apply>
+        <apply>
+          <times/>
+          <cn type="integer"> 16 </cn>
+          <apply>
+            <plus/>
+            <ci> T3_Inh </ci>
+            <ci> Inh_T1 </ci>
+          </apply>
+        </apply>
+        <apply>
+          <times/>
+          <cn type="integer"> 22 </cn>
+          <apply>
+            <plus/>
+            <ci> alpha_T1_alpha </ci>
+            <ci> alpha_alpha_T1 </ci>
+            <ci> alpha_T2_beta </ci>
+            <ci> alpha_beta_T2 </ci>
+          </apply>
+        </apply>
+        <apply>
+          <times/>
+          <cn type="integer"> 27 </cn>
+          <apply>
+            <plus/>
+            <ci> beta_T3_Inh </ci>
+            <ci> beta_Inh_T3 </ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </assignmentRule>
+  <assignmentRule metaid="_800300" variable="fluorescence">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <cn> -0.38 </cn>
+        <apply>
+          <times/>
+          <cn> 0.00093 </cn>
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <cn type="integer"> 11 </cn>
+              <apply>
+                <plus/>
+                <ci> alpha_T1 </ci>
+                <ci> T1_alpha </ci>
+                <ci> alpha_T2 </ci>
+                <ci> T2_beta </ci>
+                <ci> beta_T3 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <cn type="integer"> 16 </cn>
+              <apply>
+                <plus/>
+                <ci> T3_Inh </ci>
+                <ci> Inh_T1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <cn type="integer"> 22 </cn>
+              <apply>
+                <plus/>
+                <ci> alpha_T1_alpha </ci>
+                <ci> alpha_alpha_T1 </ci>
+                <ci> alpha_T2_beta </ci>
+                <ci> alpha_beta_T2 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <cn type="integer"> 27 </cn>
+              <apply>
+                <plus/>
+                <ci> beta_T3_Inh </ci>
+                <ci> beta_Inh_T3 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </apply>
+    </math>
+  </assignmentRule>
+  <assignmentRule metaid="_800303" variable="Inh_total">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci> Inh </ci>
+        <ci> T3_Inh </ci>
+        <ci> beta_T3_Inh </ci>
+        <ci> Inh_T1 </ci>
+      </apply>
+    </math>
+  </assignmentRule>
+  <assignmentRule metaid="_800304" variable="beta_total">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci> beta </ci>
+        <ci> T2_beta </ci>
+        <ci> alpha_T2_beta </ci>
+        <ci> beta_T3 </ci>
+        <ci> beta_T3_Inh </ci>
+      </apply>
+    </math>
+  </assignmentRule>
+  <assignmentRule metaid="_800307" variable="alpha_total">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci> alpha </ci>
+        <ci> alpha_T1 </ci>
+        <ci> T1_alpha </ci>
+        <apply>
+          <times/>
+          <cn type="integer"> 2 </cn>
+          <ci> alpha_T1_alpha </ci>
+        </apply>
+        <ci> alpha_T2 </ci>
+        <ci> alpha_T2_beta </ci>
+        <ci> alpha_T2 </ci>
+      </apply>
+    </math>
+  </assignmentRule>
+</listOfRules><listOfReactions>
+  <reaction metaid="_800226" id="ass_aa_l" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800226">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T1"/>
+      <speciesReference species="alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k0d </ci>
+              <ci> T1 </ci>
+              <ci> alpha </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k0r </ci>
+              <ci> alpha_T1 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800227" id="m_ass_aa_lr" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800227">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T1_alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha"/>
+      <speciesReference species="alpha_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k1d </ci>
+              <ci> alpha_T1_alpha </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k1r </ci>
+              <ci> alpha </ci>
+              <ci> alpha_T1 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800228" id="m_ass_aa_r" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800228">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T1_alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="T1"/>
+      <speciesReference species="alpha"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k2d </ci>
+              <ci> T1_alpha </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k2r </ci>
+              <ci> T1 </ci>
+              <ci> alpha </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800229" id="m_ass_aa_rl" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800229">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T1_alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha"/>
+      <speciesReference species="T1_alpha"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k3d </ci>
+              <ci> alpha_T1_alpha </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k3r </ci>
+              <ci> alpha </ci>
+              <ci> T1_alpha </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800232" id="pol_aa" reversible="false" sboTerm="SBO:0000205">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800232">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:ec-code:2.7.7.7"/>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003887"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T1"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_alpha_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k4d </ci>
+          <ci> alpha_T1 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800233" id="dis_aa" reversible="false" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800233">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:ec-code:2.7.7.7"/>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003887"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T1_alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha"/>
+      <speciesReference species="alpha_alpha_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k5d </ci>
+          <ci> alpha_T1_alpha </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800236" id="nick_aa" reversible="false" sboTerm="SBO:0000178">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800236">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004519"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_alpha_T1"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T1_alpha"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k6d </ci>
+          <ci> alpha_alpha_T1 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800237" id="ass_ab_l" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800237">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha"/>
+      <speciesReference species="T2"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T2"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k7d </ci>
+              <ci> alpha </ci>
+              <ci> T2 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k7r </ci>
+              <ci> alpha_T2 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800240" id="m_ass_ab_lr" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800240">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T2_beta"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T2"/>
+      <speciesReference species="beta"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k8d </ci>
+              <ci> alpha_T2_beta </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k8r </ci>
+              <ci> alpha_T2 </ci>
+              <ci> beta </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800241" id="m_ass_ab_r" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800241">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T2_beta"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="T2"/>
+      <speciesReference species="beta"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k9d </ci>
+              <ci> T2_beta </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k9r </ci>
+              <ci> T2 </ci>
+              <ci> beta </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800244" id="m_ass_ab_rl" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800244">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T2_beta"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha"/>
+      <speciesReference species="T2_beta"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k10d </ci>
+              <ci> alpha_T2_beta </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k10r </ci>
+              <ci> alpha </ci>
+              <ci> T2_beta </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800245" id="pol_ab" reversible="false" sboTerm="SBO:0000205">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800245">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:ec-code:2.7.7.7"/>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003887"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T2"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_beta_T2"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k11d </ci>
+          <ci> alpha_T2 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800248" id="dis_ab" reversible="false" sboTerm="SBO:0000205">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800248">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:ec-code:2.7.7.7"/>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003887"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_T2_beta"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta"/>
+      <speciesReference species="alpha_beta_T2"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k12d </ci>
+          <ci> alpha_T2_beta </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800249" id="nick_ab" reversible="false" sboTerm="SBO:0000178">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800249">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004519"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha_beta_T2"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T2_beta"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k13d </ci>
+          <ci> alpha_beta_T2 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800252" id="ass_bc_l" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800252">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta"/>
+      <speciesReference species="T3"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta_T3"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k14d </ci>
+              <ci> beta </ci>
+              <ci> T3 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k14r </ci>
+              <ci> beta_T3 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800253" id="m_ass_bc_lr" sboTerm="SBO:0000180">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800253">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta_T3_Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta_T3"/>
+      <speciesReference species="Inh"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000083">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k15d </ci>
+              <ci> beta_T3_Inh </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k15r </ci>
+              <ci> beta_T3 </ci>
+              <ci> Inh </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800256" id="ass_bc_r" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800256">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T3"/>
+      <speciesReference species="Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="T3_Inh"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k16d </ci>
+              <ci> T3 </ci>
+              <ci> Inh </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k16r </ci>
+              <ci> T3_Inh </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800257" id="ass_bc_rl" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800257">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta"/>
+      <speciesReference species="T3_Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta_T3_Inh"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k17d </ci>
+              <ci> beta </ci>
+              <ci> T3_Inh </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k17r </ci>
+              <ci> beta_T3_Inh </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800260" id="pol_bc" reversible="false" sboTerm="SBO:0000205">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800260">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta_T3"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta_Inh_T3"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k18d </ci>
+          <ci> beta_T3 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800261" id="dis_bc" reversible="false" sboTerm="SBO:0000205">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800261">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:ec-code:2.7.7.7"/>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003887"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta_T3_Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="Inh"/>
+      <speciesReference species="beta_Inh_T3"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k19d </ci>
+          <ci> beta_T3_Inh </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800264" id="nick_bc" reversible="false" sboTerm="SBO:0000178">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800264">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004519"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta_Inh_T3"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="beta_T3_Inh"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k20d </ci>
+          <ci> beta_Inh_T3 </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800265" id="inh_ac" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800265">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T1"/>
+      <speciesReference species="Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="Inh_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000101">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k21d </ci>
+              <ci> T1 </ci>
+              <ci> Inh </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k21r </ci>
+              <ci> Inh_T1 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800268" id="inh_displ_ac" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800268">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="T1_alpha"/>
+      <speciesReference species="Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha"/>
+      <speciesReference species="Inh_T1"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000103">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k22d </ci>
+              <ci> T1_alpha </ci>
+              <ci> Inh </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k22r </ci>
+              <ci> alpha </ci>
+              <ci> Inh_T1 </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800269" id="m_inh_displ_ca" sboTerm="SBO:0000177">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800269">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0003677"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha"/>
+      <speciesReference species="Inh_T1"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="alpha_T1"/>
+      <speciesReference species="Inh"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000103">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> k23d </ci>
+              <ci> alpha </ci>
+              <ci> Inh_T1 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k23r </ci>
+              <ci> alpha_T1 </ci>
+              <ci> Inh </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800272" id="exo_a" sboTerm="SBO:0000179">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800272">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004527"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="alpha"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="empty"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k24d </ci>
+          <ci> alpha </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800273" id="exo_b" sboTerm="SBO:0000179">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800273">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004527"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="beta"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="empty"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k25d </ci>
+          <ci> beta </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+  <reaction metaid="_800276" id="exo_c" sboTerm="SBO:0000179">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#_800276">
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004527"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfReactants>
+      <speciesReference species="Inh"/>
+    </listOfReactants>
+    <listOfProducts>
+      <speciesReference species="empty"/>
+    </listOfProducts>
+    <kineticLaw sboTerm="SBO:0000049">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> sample </ci>
+          <ci> k26d </ci>
+          <ci> Inh </ci>
+        </apply>
+      </math>
+    </kineticLaw>
+  </reaction>
+</listOfReactions>
+</model>
+</sbml>

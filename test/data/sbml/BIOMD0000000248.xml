@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="metaid_0000001" level="2" version="4">
+  <model metaid="Lai2007" id="Lai2007_O2_Transport_Metabolism" name="Lai2007_O2_Transport_Metabolism">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+This file describes the SBML version of the mathematical model in the following journal article: Linking Pulmonary Oxygen Uptake, Muscle Oxygen Utilization and Cellular Metabolism during Exercise, Ann Biomed Eng. 2007 Jun;35(6):956-69. (Pubmed ID: 17380394). This mathematical model simulates oxygen transport and metabolism in skeletal muscle in response to a step change from a warm-up steady state to a higher work rate corresponding to exercise at different levels of intensity: moderate (M), heavy (H) and very heavy (VH). The model parameter values are listed in the tables of this article. The parameter values that are independent of the exercise level are reported in Table 2. The parameter values that depend on the exercise level are reported in Tables 1A, 3 and 4. 
+The model simulations (Figures 2, 3, 4 and 5) were obtained for a representative subject with a set of parameter values different from those in Table 1A, 3 and 4. In the sbml model, these model parameters are used to simulate exercise at a very heavy (VH) intensity for the representative subject. Additionally, the parameter values needed to simulate exercise at moderate (M) and heavy (H) intensity are reported in the list of parameters of the file. The model simulates dynamics of (1) the concentrations of free (F) and total (T) oxygen concentration in blood (CFcap, CTcap) and tissue (CFtis, CTtis), Adenosine Triphosphate (ATP), Adenosine Diphosphate (ADP), Phosphocreatine (PCr) and Creatine (Cr); (2) the metabolic flux of oxidative phosphorylation, creatine kinase and ATPase; (3) the oxygen uptake in blood and oxygen transport rate from blood to tissue during exercise. The simulation also computes muscle oxygen saturation (StO2m) and relative muscle oxygen saturation (RStO2m) in order to compare simulated and experimental responses of human muscle oxygenation during exercise. 
+The model was successfully tested with Roadrunner of the Systems Biology Workbench (SBW). The model simulations obtained with Roadrunner match those obtained with the mathematical model represented in Fortran and Matlab for relative and absolute tolerance smaller than 10-7.
+</p>
+        <p>
+To allow for simulations at varying levels of exercise, the parameter <b>exercise_level</b> was introduced. A value of 1 means medium, 2 heavy and 3 very heavy exercise. Setting this parameter assigns the parameters  <b>Vmax</b>, <b>KatpaseE</b>,  <b>dQMm</b> and <b>tauQm</b> with the relevant parameters. The warmup steady state is influenced by the parameter changes for this representative subject and the model has to be brought into steady state after each change of exercise level.  
+  </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br/>For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#Lai2007">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Lai</vCard:Family>
+                <vCard:Given>Nicola</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>nicola.lai@case.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>Case Western Reserve University</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Chiou</vCard:Family>
+                <vCard:Given>Justin</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>justin.chiou@case.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>Case Western Reserve University</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2009-10-16T20:26:03Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-04-26T16:15:39Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000248"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1004170000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:17380394"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000003" id="substance" name="substance">
+      <listOfUnits>
+        <unit kind="mole" scale="-3"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000004" id="perMin" name="perMin">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000005" id="mMperMin">
+      <listOfUnits>
+        <unit kind="mole" scale="-3"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+        <unit kind="litre" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000014" id="mM" name="mM">
+      <listOfUnits>
+        <unit kind="mole" scale="-3"/>
+        <unit kind="litre" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000036" id="time_min" name="min">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000045" id="LperMin" name="LperMin">
+      <listOfUnits>
+        <unit kind="litre"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000060" id="permM" name="permM">
+      <listOfUnits>
+        <unit kind="litre"/>
+        <unit kind="mole" exponent="-1" scale="-3"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000038" id="Capillary" name="Capillary" size="2.0979" units="litre" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000038">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.fma:FMA%3A63194"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="metaid_0000078" id="Tissue" name="Tissue" size="27.8721" units="litre" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000078">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.fma:FMA%3A9641"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000008" id="ATP" name="ATP" compartment="Tissue" initialConcentration="8.198857" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000008">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15422"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00002"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000009" id="PCr" name="PCr" compartment="Tissue" initialConcentration="40.98942" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000009">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17287"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C02305"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000023" id="ADP" name="ADP" compartment="Tissue" initialConcentration="0.001142" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000023">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16761"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00008"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000024" id="Cr" name="Cr" compartment="Tissue" initialConcentration="1.01056" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000024">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16919"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00300"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000028" id="Pi" name="Pi" compartment="Tissue" initialConcentration="0.5" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18367"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00009"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000064" id="CTcap" name="CTcap" compartment="Capillary" initialConcentration="5.281527" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000064">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A7861"/>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C05781"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00007"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005833"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000071" id="CTtis" name="CTtis" compartment="Tissue" initialConcentration="0.4084824" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000071">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A7044"/>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C05782"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00007"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000040" id="CFcap" name="CFcap" compartment="Capillary" initialConcentration="0.03969" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000040">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00007"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000041" id="CFtis" name="CFtis" compartment="Tissue" initialConcentration="0.0374" boundaryCondition="true" sboTerm="SBO:0000247">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000041">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00007"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000080" id="StO2m" name="StO2m" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000105" id="RStO2m" name="RStO2m" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000012" id="Katpase" name="Katpase" value="0.3207601" units="perMin" constant="false"/>
+    <parameter metaid="metaid_0000065" id="KatpaseW" name="KatpaseW" value="0.3207601" units="perMin"/>
+    <parameter metaid="metaid_0000011" id="Kadp" name="Kadp" value="0.058" units="mM"/>
+    <parameter metaid="metaid_0000013" id="Kia" name="Kia" value="0.135" units="mM"/>
+    <parameter metaid="metaid_0000015" id="Kiq" name="Kiq" value="3.5" units="mM"/>
+    <parameter metaid="metaid_0000016" id="Kib" name="Kib" value="3.9" units="mM"/>
+    <parameter metaid="metaid_0000017" id="Kp" name="Kp" value="3.8" units="mM"/>
+    <parameter metaid="metaid_0000018" id="Kb" name="Kb" value="1.11" units="mM"/>
+    <parameter metaid="metaid_0000053" id="Km" name="Km" value="0.0007" units="mM"/>
+    <parameter metaid="metaid_0000020" id="VfCK" name="VfCK" value="6000" units="mMperMin"/>
+    <parameter metaid="metaid_0000021" id="VrCK" name="VrCK" value="3008.65837589001" units="mMperMin"/>
+    <parameter metaid="metaid_0000069" id="QRm" name="QRm" value="0.688" units="LperMin"/>
+    <parameter metaid="metaid_0000042" id="QWm" name="QWm" value="3.118" units="LperMin"/>
+    <parameter metaid="metaid_0000062" id="Qm" name="Qm" value="3.118" units="LperMin" constant="false"/>
+    <parameter metaid="metaid_0000048" id="Qc" name="Qc" value="8" units="LperMin"/>
+    <parameter metaid="metaid_0000070" id="PSR" name="PSR" value="134.2828" units="LperMin"/>
+    <parameter metaid="metaid_0000046" id="PSE" name="PSE" value="20000" units="LperMin"/>
+    <parameter metaid="metaid_0000063" id="PSm" name="PSm" value="5338.8" units="LperMin" constant="false"/>
+    <parameter metaid="metaid_0000019" id="nH" name="nH" value="2.7" units="dimensionless"/>
+    <parameter metaid="metaid_0000049" id="Hct" name="Hct" value="0.45" units="dimensionless"/>
+    <parameter metaid="metaid_0000072" id="Wmc" value="0.8064" units="dimensionless"/>
+    <parameter metaid="metaid_0000073" id="CmcMb" name="CmcMb" value="0.5" units="mM"/>
+    <parameter metaid="metaid_0000083" id="CrbcHb" name="CrbcHb" value="5.18" units="mM"/>
+    <parameter metaid="metaid_0000074" id="KMb" name="KMb" value="308.642" units="permM"/>
+    <parameter metaid="metaid_0000082" id="KHb" name="KHb" value="7800.7" units="mM"/>
+    <parameter metaid="metaid_0000079" id="tE" name="tE" value="3" units="time_min"/>
+    <parameter metaid="metaid_0000077" id="CTart" name="CTart" value="9.199981" units="mM"/>
+    <parameter metaid="metaid_0000010" id="Vmax" name="Vmax" value="23.11702" units="mMperMin" constant="false"/>
+    <parameter metaid="metaid_0000090" id="VmaxM" name="VmaxM" value="53.5150933" units="mMperMin"/>
+    <parameter metaid="metaid_0000091" id="VmaxH" name="VmaxH" value="34.68714" units="mMperMin"/>
+    <parameter metaid="metaid_0000092" id="VmaxVH" name="VmaxVH" value="23.11702" units="mMperMin"/>
+    <parameter metaid="metaid_0000066" id="KatpaseE" name="KatpaseE" value="3.3423645" units="perMin" constant="false"/>
+    <parameter metaid="metaid_0000093" id="KatpaseM" name="KatpaseM" value="1.71080439028658" units="perMin"/>
+    <parameter metaid="metaid_0000094" id="KatpaseH" name="KatpaseH" value="2.2581564" units="perMin"/>
+    <parameter metaid="metaid_0000095" id="KatpaseVH" name="KatpaseVH" value="3.3423645" units="perMin"/>
+    <parameter metaid="metaid_0000043" id="dQMm" name="dQMm" value="12.74981" units="LperMin" constant="false"/>
+    <parameter metaid="metaid_0000096" id="dQMmM" name="dQMmM" value="7.9167374" units="LperMin"/>
+    <parameter metaid="metaid_0000097" id="dQMmH" name="dQMmH" value="9.42198" units="LperMin"/>
+    <parameter metaid="metaid_0000098" id="dQMmVH" name="dQMmVH" value="12.74981" units="LperMin"/>
+    <parameter metaid="metaid_0000044" id="tauQm" name="tauQm" value="0.42" units="time_min" constant="false"/>
+    <parameter metaid="metaid_0000099" id="tauQmM" name="tauQmM" value="0.32" units="time_min"/>
+    <parameter metaid="metaid_0000100" id="tauQmH" name="tauQmH" value="0.396" units="time_min"/>
+    <parameter metaid="metaid_0000101" id="tauQmVH" name="tauQmVH" value="0.42" units="time_min"/>
+    <parameter metaid="metaid_0000087" id="StO2mW" name="StO2mW" value="81.17123516" units="dimensionless"/>
+    <parameter metaid="metaid_0000088" id="exercise_level" name="exercise_level" value="3" units="dimensionless"/>
+    <parameter metaid="metaid_0000089" id="ATPase_flux_mM" name="ATPase_flux_mM" units="mMperMin" constant="false"/>
+    <parameter metaid="metaid_0000108" id="CK_flux_mM" name="CK_flux_mM" units="mMperMin" constant="false"/>
+    <parameter metaid="metaid_0000109" id="oxygen_phosph" name="oxygen_phosphorilation_rate_mM" units="mMperMin" constant="false"/>
+  </listOfParameters>
+  <listOfRules>
+    <rateRule metaid="metaid_0000075" variable="CFcap">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> Qm </ci>
+                <apply>
+                  <minus/>
+                  <ci> CTart </ci>
+                  <ci> CTcap </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> PSm </ci>
+                <apply>
+                  <minus/>
+                  <ci> CFcap </ci>
+                  <ci> CFtis </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <cn type="integer"> 1 </cn>
+              <ci> Capillary </ci>
+            </apply>
+          </apply>
+          <apply>
+            <plus/>
+            <cn type="integer"> 1 </cn>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn type="integer"> 4 </cn>
+                <ci> Hct </ci>
+                <ci> CrbcHb </ci>
+                <ci> KHb </ci>
+                <ci> nH </ci>
+                <apply>
+                  <power/>
+                  <ci> CFcap </ci>
+                  <apply>
+                    <minus/>
+                    <ci> nH </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <ci> KHb </ci>
+                    <apply>
+                      <power/>
+                      <ci> CFcap </ci>
+                      <ci> nH </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </rateRule>
+    <rateRule metaid="metaid_0000076" variable="CFtis">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <minus/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> PSm </ci>
+                <apply>
+                  <minus/>
+                  <ci> CFcap </ci>
+                  <ci> CFtis </ci>
+                </apply>
+              </apply>
+              <ci> Tissue </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Vmax </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> CFtis </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Km </ci>
+                      <ci> CFtis </ci>
+                    </apply>
+                  </apply>
+                  <ci> ADP </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> Kadp </ci>
+                  <ci> ADP </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <plus/>
+            <cn type="integer"> 1 </cn>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Wmc </ci>
+                <ci> CmcMb </ci>
+                <ci> KMb </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <ci> KMb </ci>
+                    <ci> CFtis </ci>
+                  </apply>
+                </apply>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </rateRule>
+    <assignmentRule metaid="metaid_0000068" variable="Katpase">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> KatpaseW </ci>
+            <apply>
+              <leq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <ci> tE </ci>
+            </apply>
+          </piece>
+          <otherwise>
+            <ci> KatpaseE </ci>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000085" variable="Qm">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> QWm </ci>
+            <apply>
+              <leq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <ci> tE </ci>
+            </apply>
+          </piece>
+          <otherwise>
+            <apply>
+              <plus/>
+              <ci> QWm </ci>
+              <apply>
+                <times/>
+                <ci> dQMm </ci>
+                <apply>
+                  <minus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <exp/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <minus/>
+                        <ci> tE </ci>
+                        <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                      </apply>
+                      <ci> tauQm </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000086" variable="PSm">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> PSR </ci>
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> PSE </ci>
+              <ci> PSR </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <exp/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <minus/>
+                    <ci> QRm </ci>
+                    <ci> Qm </ci>
+                  </apply>
+                  <ci> Qc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000081" variable="StO2m">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <cn type="integer"> 100 </cn>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> Hct </ci>
+                    <ci> CrbcHb </ci>
+                    <ci> KHb </ci>
+                    <apply>
+                      <power/>
+                      <ci> CFcap </ci>
+                      <ci> nH </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <times/>
+                      <ci> KHb </ci>
+                      <apply>
+                        <power/>
+                        <ci> CFcap </ci>
+                        <ci> nH </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <ci> Capillary </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> Wmc </ci>
+                    <ci> CmcMb </ci>
+                    <ci> KMb </ci>
+                    <ci> CFtis </ci>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <times/>
+                      <ci> KMb </ci>
+                      <ci> CFtis </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <ci> Tissue </ci>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> CrbcHb </ci>
+              <ci> Hct </ci>
+              <ci> Capillary </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> CmcMb </ci>
+              <ci> Wmc </ci>
+              <ci> Tissue </ci>
+            </apply>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000106" variable="RStO2m">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <minus/>
+          <apply>
+            <divide/>
+            <ci> StO2m </ci>
+            <ci> StO2mW </ci>
+          </apply>
+          <cn type="integer"> 1 </cn>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000102" variable="Vmax">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> VmaxM </ci>
+            <apply>
+              <eq/>
+              <ci> exercise_level </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </piece>
+          <otherwise>
+            <piecewise>
+              <piece>
+                <ci> VmaxH </ci>
+                <apply>
+                  <eq/>
+                  <ci> exercise_level </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> VmaxVH </ci>
+              </otherwise>
+            </piecewise>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000103" variable="KatpaseE">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> KatpaseM </ci>
+            <apply>
+              <eq/>
+              <ci> exercise_level </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </piece>
+          <otherwise>
+            <piecewise>
+              <piece>
+                <ci> KatpaseH </ci>
+                <apply>
+                  <eq/>
+                  <ci> exercise_level </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> KatpaseVH </ci>
+              </otherwise>
+            </piecewise>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000104" variable="dQMm">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> dQMmM </ci>
+            <apply>
+              <eq/>
+              <ci> exercise_level </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </piece>
+          <otherwise>
+            <piecewise>
+              <piece>
+                <ci> dQMmH </ci>
+                <apply>
+                  <eq/>
+                  <ci> exercise_level </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> dQMmVH </ci>
+              </otherwise>
+            </piecewise>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000107" variable="tauQm">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <piecewise>
+          <piece>
+            <ci> tauQmM </ci>
+            <apply>
+              <eq/>
+              <ci> exercise_level </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </piece>
+          <otherwise>
+            <piecewise>
+              <piece>
+                <ci> tauQmH </ci>
+                <apply>
+                  <eq/>
+                  <ci> exercise_level </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> tauQmVH </ci>
+              </otherwise>
+            </piecewise>
+          </otherwise>
+        </piecewise>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000110" variable="ATPase_flux_mM">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <ci> ATPase </ci>
+          <ci> Tissue </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000111" variable="CK_flux_mM">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <cn> 1 </cn>
+          <apply>
+            <divide/>
+            <ci> CreatineKinase </ci>
+            <ci> Tissue </ci>
+          </apply>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000112" variable="oxygen_phosph">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <apply>
+            <divide/>
+            <ci> OxidativePhosphorylation </ci>
+            <ci> Tissue </ci>
+          </apply>
+          <cn type="integer"> 6 </cn>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="metaid_0000022" id="ATPase" name="ATPase" sboTerm="SBO:0000376">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000022">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.6.1.3"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016887"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ATP"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ADP"/>
+      </listOfProducts>
+      <kineticLaw sboTerm="SBO:0000049">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Tissue </ci>
+            <ci> Katpase </ci>
+            <ci> ATP </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000025" id="OxidativePhosphorylation" name="OxidativePhosphorylation" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000025">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006119"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ADP" stoichiometry="6"/>
+        <speciesReference species="CTtis"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ATP" stoichiometry="6"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="Pi"/>
+        <modifierSpeciesReference species="CFtis"/>
+      </listOfModifiers>
+      <kineticLaw sboTerm="SBO:0000432">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> Tissue </ci>
+              <ci> Vmax </ci>
+              <apply>
+                <divide/>
+                <ci> CFtis </ci>
+                <apply>
+                  <plus/>
+                  <ci> Km </ci>
+                  <ci> CFtis </ci>
+                </apply>
+              </apply>
+              <ci> ADP </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> Kadp </ci>
+              <ci> ADP </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000056" id="ConvectionTransport" name="ConvectionTransport" sboTerm="SBO:0000185">
+      <listOfProducts>
+        <speciesReference species="CTcap"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Qm </ci>
+            <apply>
+              <minus/>
+              <ci> CTart </ci>
+              <ci> CTcap </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000057" id="DiffusionTransport" name="DiffusionTransport" sboTerm="SBO:0000185">
+      <listOfReactants>
+        <speciesReference species="CTcap"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="CTtis"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="CFcap"/>
+        <modifierSpeciesReference species="CFtis"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> PSm </ci>
+            <apply>
+              <minus/>
+              <ci> CFcap </ci>
+              <ci> CFtis </ci>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000084" id="CreatineKinase" name="CreatineKinase" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000084">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.3.2"/>
+                <rdf:li rdf:resource="urn:miriam:kegg.reaction:R01881"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004111"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ADP"/>
+        <speciesReference species="PCr"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ATP"/>
+        <speciesReference species="Cr"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> Tissue </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> VfCK </ci>
+                    <ci> ADP </ci>
+                    <ci> PCr </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Kb </ci>
+                    <ci> Kia </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> VrCK </ci>
+                    <ci> Cr </ci>
+                    <ci> ATP </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Kiq </ci>
+                    <ci> Kp </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> Kia </ci>
+                  <ci> ADP </ci>
+                </apply>
+                <ci> Kia </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> ATP </ci>
+                <ci> Kiq </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> PCr </ci>
+                <ci> Kib </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> ADP </ci>
+                  <ci> PCr </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Kb </ci>
+                  <ci> Kia </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Cr </ci>
+                  <ci> ATP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Kiq </ci>
+                  <ci> Kp </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

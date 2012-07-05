@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="_451617" id="Schilling2009_ERK_distributive" name="Schilling2009_ERK_distributive">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>This is the distributive model described the article:<br/>
+        <b>Theoretical and experimental analysis links isoform-specific ERK signalling to cell fate decisions.</b>
+        <br/>
+Schilling M, Maiwald T, Hengl S, Winter D, Kreutz C, Kolch W, Lehmann WD, Timmer J and Klingmueller U; Mol Syst Biol. 2009;5:334. PubmedID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20029368">20029368</a>; DOI:<a href="http://dx.doi.org/10.1038/msb.2009.91">10.1038/msb.2009.91</a>
+        <br/>
+Abstract:<br/>
+Cell fate decisions are regulated by the coordinated activation of signalling pathways such as the extracellular signal-regulated kinase (ERK) cascade, but contributions of individual kinase isoforms are mostly unknown. By combining quantitative data from erythropoietin-induced pathway activation in primary erythroid progenitor (colony-forming unit erythroid stage, CFU-E) cells with mathematical modelling, we predicted and experimentally confirmed a distributive ERK phosphorylation mechanism in CFU-E cells. Model analysis showed bow-tie-shaped signal processing and inherently transient signalling for cytokine-induced ERK signalling. Sensitivity analysis predicted that, through a feedback-mediated process, increasing one ERK isoform reduces activation of the other isoform, which was verified by protein over-expression. We calculated ERK activation for biochemically not addressable but physiologically relevant ligand concentrations showing that double-phosphorylated ERK1 attenuates proliferation beyond a certain activation level, whereas activated ERK2 enhances proliferation with saturation kinetics. Thus, we provide a quantitative link between earlier unobservable signalling dynamics and cell fate decisions.
+ </p>
+        <p>SBML model exported from PottersWheel on 2009-04-20 18:57:44.<br/>
+Below follows the source code for the model definition file in PottersWheel/Matlab:</p>
+        <pre>
+% PottersWheel model definition file
+
+function m = getModel()
+
+m             = pwGetEmptyModel();
+
+%% Meta information
+
+m.ID          = &apos;ERK_distributive_model&apos;;
+m.name        = &apos;ERK_distributive_model&apos;;
+m.description = &apos;ERK model calibrated to CFU-E as described in Schilling et al.&apos;;
+m.authors     = {&apos;Marcel Schilling&apos;,&apos;Thomas Maiwald&apos;};
+m.dates       = {&apos;2009&apos;};
+m.type        = &apos;PW-2-0&apos;;
+
+%% Dynamic variables
+% m = pwAddX(m, ID, startValue, type, minValue, maxValue, unit, compartment, name, description, typeOfStartValue)
+
+m = pwAddX(m, &apos;JAK2&apos;         ,       2, &apos;fix&apos;   ,   1, 3.7,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;EpoR&apos;         ,       1, &apos;fix&apos;   , 0.5, 1.5,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;SHP1&apos;         , 10.7991, &apos;global&apos;, 0.1, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;SOS&apos;          ,  2.5101, &apos;fix&apos;   , 0.1, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Raf&apos;          ,  3.7719, &apos;global&apos;, 0.1, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;MEK2&apos;         ,      11, &apos;fix&apos;   ,   8,  14,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;MEK1&apos;         ,      24, &apos;fix&apos;   ,  18,  30,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ERK1&apos;         ,       7, &apos;global&apos;,   6,   9,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ERK2&apos;         ,      21, &apos;fix&apos;   ,  16,  26,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pJAK2&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pEpoR&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;mSHP1&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;actSHP1&apos;      ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;mSOS&apos;         ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pRaf&apos;         ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ppMEK2&apos;       ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ppMEK1&apos;       ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ppERK1&apos;       ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;ppERK2&apos;       ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pSOS&apos;         ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pMEK2&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pMEK1&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pERK1&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;pERK2&apos;        ,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay01_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay02_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay03_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay04_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay05_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay06_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay07_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+m = pwAddX(m, &apos;Delay08_mSHP1&apos;,       0, &apos;fix&apos;   ,   0, 100,   [], &apos;cell&apos;, []  ,   [], &apos;concentration&apos;, []  );
+
+%% Reactions
+% m = pwAddR(m, reactants, products, modifiers, type, options, rateSignature, parameters, description, ID, name, fast, compartments, parameterTrunks, designerProps)
+
+m = pwAddR(m, {&apos;JAK2&apos;         }, {&apos;pJAK2&apos;        }, {&apos;Epo&apos;    }, &apos;E&apos; , [] , []  , {&apos;JAK2_phosphorylation_by_Epo&apos;         }, &apos;...&apos;, &apos;reaction0001&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;EpoR&apos;         }, {&apos;pEpoR&apos;        }, {&apos;pJAK2&apos;  }, &apos;E&apos; , [] , []  , {&apos;EpoR_phosphorylation_by_pJAK2&apos;       }, &apos;...&apos;, &apos;reaction0002&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;SHP1&apos;         }, {&apos;mSHP1&apos;        }, {&apos;pEpoR&apos;  }, &apos;E&apos; , [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0003&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;mSHP1&apos;        }, {&apos;Delay01_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0004&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay01_mSHP1&apos;}, {&apos;Delay02_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0005&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay02_mSHP1&apos;}, {&apos;Delay03_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0006&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay03_mSHP1&apos;}, {&apos;Delay04_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0007&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay04_mSHP1&apos;}, {&apos;Delay05_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0008&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay05_mSHP1&apos;}, {&apos;Delay06_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0009&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay06_mSHP1&apos;}, {&apos;Delay07_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0010&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay07_mSHP1&apos;}, {&apos;Delay08_mSHP1&apos;}, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0011&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Delay08_mSHP1&apos;}, {&apos;actSHP1&apos;      }, {         }, &apos;MA&apos;, [] , []  , {&apos;SHP1_activation_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0012&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;actSHP1&apos;      }, {&apos;SHP1&apos;         }, {         }, &apos;MA&apos;, [] , []  , {&apos;actSHP1_deactivation&apos;                }, &apos;...&apos;, &apos;reaction0005&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pEpoR&apos;        }, {&apos;EpoR&apos;         }, {&apos;actSHP1&apos;}, &apos;E&apos; , [] , []  , {&apos;pEpoR_dephosphorylation_by_actSHP1&apos;  }, &apos;...&apos;, &apos;reaction0006&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pJAK2&apos;        }, {&apos;JAK2&apos;         }, {&apos;actSHP1&apos;}, &apos;E&apos; , [] , []  , {&apos;pJAK2_dephosphorylation_by_actSHP1&apos;  }, &apos;...&apos;, &apos;reaction0007&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;SOS&apos;          }, {&apos;mSOS&apos;         }, {&apos;pEpoR&apos;  }, &apos;E&apos; , [] , []  , {&apos;SOS_recruitment_by_pEpoR&apos;            }, &apos;...&apos;, &apos;reaction0008&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;mSOS&apos;         }, {&apos;SOS&apos;          }, {         }, &apos;MA&apos;, [] , []  , {&apos;mSOS_release_from_membrane&apos;          }, &apos;...&apos;, &apos;reaction0009&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;Raf&apos;          }, {&apos;pRaf&apos;         }, {&apos;mSOS&apos;   }, &apos;E&apos; , [] , []  , {&apos;mSOS_induced_Raf_phosphorylation&apos;    }, &apos;...&apos;, &apos;reaction0010&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pRaf&apos;         }, {&apos;Raf&apos;          }, {         }, &apos;MA&apos;, [] , []  , {&apos;pRaf_dephosphorylation&apos;              }, &apos;...&apos;, &apos;reaction0011&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;MEK2&apos;         }, {&apos;pMEK2&apos;        }, {&apos;pRaf&apos;   }, &apos;E&apos; , [] , []  , {&apos;First_MEK2_phosphorylation_by_pRaf&apos;  }, &apos;...&apos;, &apos;reaction0012&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;MEK1&apos;         }, {&apos;pMEK1&apos;        }, {&apos;pRaf&apos;   }, &apos;E&apos; , [] , []  , {&apos;First_MEK1_phosphorylation_by_pRaf&apos;  }, &apos;...&apos;, &apos;reaction0013&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pMEK2&apos;        }, {&apos;ppMEK2&apos;       }, {&apos;pRaf&apos;   }, &apos;E&apos; , [] , []  , {&apos;Second_MEK2_phosphorylation_by_pRaf&apos; }, &apos;...&apos;, &apos;reaction0014&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pMEK1&apos;        }, {&apos;ppMEK1&apos;       }, {&apos;pRaf&apos;   }, &apos;E&apos; , [] , []  , {&apos;Second_MEK1_phosphorylation_by_pRaf&apos; }, &apos;...&apos;, &apos;reaction0015&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ppMEK2&apos;       }, {&apos;pMEK2&apos;        }, {         }, &apos;MA&apos;, [] , []  , {&apos;First_MEK_dephosphorylation&apos;         }, &apos;...&apos;, &apos;reaction0016&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ppMEK1&apos;       }, {&apos;pMEK1&apos;        }, {         }, &apos;MA&apos;, [] , []  , {&apos;First_MEK_dephosphorylation&apos;         }, &apos;...&apos;, &apos;reaction0017&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pMEK2&apos;        }, {&apos;MEK2&apos;         }, {         }, &apos;MA&apos;, [] , []  , {&apos;Second_MEK_dephosphorylation&apos;        }, &apos;...&apos;, &apos;reaction0018&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pMEK1&apos;        }, {&apos;MEK1&apos;         }, {         }, &apos;MA&apos;, [] , []  , {&apos;Second_MEK_dephosphorylation&apos;        }, &apos;...&apos;, &apos;reaction0019&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ERK1&apos;         }, {&apos;pERK1&apos;        }, {&apos;ppMEK2&apos; }, &apos;E&apos; , [] , []  , {&apos;First_ERK1_phosphorylation_by_ppMEK&apos; }, &apos;...&apos;, &apos;reaction0020&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ERK2&apos;         }, {&apos;pERK2&apos;        }, {&apos;ppMEK2&apos; }, &apos;E&apos; , [] , []  , {&apos;First_ERK2_phosphorylation_by_ppMEK&apos; }, &apos;...&apos;, &apos;reaction0021&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ERK1&apos;         }, {&apos;pERK1&apos;        }, {&apos;ppMEK1&apos; }, &apos;E&apos; , [] , []  , {&apos;First_ERK1_phosphorylation_by_ppMEK&apos; }, &apos;...&apos;, &apos;reaction0022&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ERK2&apos;         }, {&apos;pERK2&apos;        }, {&apos;ppMEK1&apos; }, &apos;E&apos; , [] , []  , {&apos;First_ERK2_phosphorylation_by_ppMEK&apos; }, &apos;...&apos;, &apos;reaction0023&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK1&apos;        }, {&apos;ppERK1&apos;       }, {&apos;ppMEK2&apos; }, &apos;E&apos; , [] , []  , {&apos;Second_ERK1_phosphorylation_by_ppMEK&apos;}, &apos;...&apos;, &apos;reaction0024&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK2&apos;        }, {&apos;ppERK2&apos;       }, {&apos;ppMEK2&apos; }, &apos;E&apos; , [] , []  , {&apos;Second_ERK2_phosphorylation_by_ppMEK&apos;}, &apos;...&apos;, &apos;reaction0025&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK1&apos;        }, {&apos;ppERK1&apos;       }, {&apos;ppMEK1&apos; }, &apos;E&apos; , [] , []  , {&apos;Second_ERK1_phosphorylation_by_ppMEK&apos;}, &apos;...&apos;, &apos;reaction0026&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK2&apos;        }, {&apos;ppERK2&apos;       }, {&apos;ppMEK1&apos; }, &apos;E&apos; , [] , []  , {&apos;Second_ERK2_phosphorylation_by_ppMEK&apos;}, &apos;...&apos;, &apos;reaction0027&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ppERK1&apos;       }, {&apos;pERK1&apos;        }, {         }, &apos;MA&apos;, [] , []  , {&apos;First_ERK_dephosphorylation&apos;         }, &apos;...&apos;, &apos;reaction0028&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;ppERK2&apos;       }, {&apos;pERK2&apos;        }, {         }, &apos;MA&apos;, [] , []  , {&apos;First_ERK_dephosphorylation&apos;         }, &apos;...&apos;, &apos;reaction0029&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK1&apos;        }, {&apos;ERK1&apos;         }, {         }, &apos;MA&apos;, [] , []  , {&apos;Second_ERK_dephosphorylation&apos;        }, &apos;...&apos;, &apos;reaction0030&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pERK2&apos;        }, {&apos;ERK2&apos;         }, {         }, &apos;MA&apos;, [] , []  , {&apos;Second_ERK_dephosphorylation&apos;        }, &apos;...&apos;, &apos;reaction0031&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;mSOS&apos;         }, {&apos;pSOS&apos;         }, {&apos;ppERK1&apos; }, &apos;E&apos; , [] , []  , {&apos;ppERK_neg_feedback_on_mSOS&apos;          }, &apos;...&apos;, &apos;reaction0032&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;mSOS&apos;         }, {&apos;pSOS&apos;         }, {&apos;ppERK2&apos; }, &apos;E&apos; , [] , []  , {&apos;ppERK_neg_feedback_on_mSOS&apos;          }, &apos;...&apos;, &apos;reaction0033&apos;, [], [], {}, {}, {});
+m = pwAddR(m, {&apos;pSOS&apos;         }, {&apos;SOS&apos;          }, {         }, &apos;MA&apos;, [] , []  , {&apos;pSOS_dephosphorylation&apos;              }, &apos;...&apos;, &apos;reaction0034&apos;, [], [], {}, {}, {});
+
+%% Compartments
+% m = pwAddC(m, ID, size,  outside, spatialDimensions, name, unit, constant)
+
+m = pwAddC(m, &apos;cell&apos;, 1, [], 3, &apos;cell&apos;, [], 1);
+
+%% Dynamical parameters
+% m = pwAddK(m, ID, value, type, minValue, maxValue, unit, name, description)
+
+m = pwAddK(m, &apos;JAK2_phosphorylation_by_Epo&apos;         , 0.0122149, &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;EpoR_phosphorylation_by_pJAK2&apos;       , 3.15714  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;SHP1_activation_by_pEpoR&apos;            , 0.408408 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;SHP1_delay&apos;                          , 0.408408 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;actSHP1_deactivation&apos;                , 0.0248773, &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;pEpoR_dephosphorylation_by_actSHP1&apos;  , 1.19995  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;pJAK2_dephosphorylation_by_actSHP1&apos;  , 0.368384 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;SOS_recruitment_by_pEpoR&apos;            , 0.10271  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;mSOS_release_from_membrane&apos;          , 15.5956  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;mSOS_induced_Raf_phosphorylation&apos;    , 0.144515 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;pRaf_dephosphorylation&apos;              , 0.374228 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_MEK2_phosphorylation_by_pRaf&apos;  , 3.11919  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_MEK2_phosphorylation_by_pRaf&apos; , 215.158  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_MEK1_phosphorylation_by_pRaf&apos;  , 0.687193 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_MEK1_phosphorylation_by_pRaf&apos; , 667.957  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_MEK_dephosphorylation&apos;         , 0.130937 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_MEK_dephosphorylation&apos;        , 0.0732724, &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_ERK1_phosphorylation_by_ppMEK&apos; , 2.4927   , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_ERK1_phosphorylation_by_ppMEK&apos;, 59.5251  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_ERK2_phosphorylation_by_ppMEK&apos; , 2.44361  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_ERK2_phosphorylation_by_ppMEK&apos;, 53.0816  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;First_ERK_dephosphorylation&apos;         , 39.0886  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;Second_ERK_dephosphorylation&apos;        , 3.00453  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;ppERK_neg_feedback_on_mSOS&apos;          , 5122.68  , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+m = pwAddK(m, &apos;pSOS_dephosphorylation&apos;              , 0.124944 , &apos;fix&apos;, 1e-006, 10000, [], [], []);
+
+%% Default driving input
+% m = pwAddU(m, ID, uType, uTimes, uValues, compartment, name, description, u2Values)
+
+m = pwAddU(m, &apos;Epo&apos;, &apos;steps&apos;, [-60 0]  , [0 50]  , &apos;cell&apos;, [], [], [0 0]);
+
+%% Default sampling time points
+m.t = 0:1:35;
+
+%% Observables
+% m = pwAddY(m, rhs, ID, scalingParameter, errorModel, noiseType, unit, name, description)
+
+m = pwAddY(m, &apos;pEpoR&apos;     , &apos;pEpoR_obs&apos; , &apos;scale_pEpoR_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;pJAK2&apos;     , &apos;pJAK2_obs&apos; , &apos;scale_pJAK2_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;ppMEK2&apos;    , &apos;ppMEK2_obs&apos;, &apos;scale_ppMEK_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;ppMEK1&apos;    , &apos;ppMEK1_obs&apos;, &apos;scale_ppMEK_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;ppERK1&apos;    , &apos;ppERK1_obs&apos;, &apos;scale_ppERK_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;ppERK2&apos;    , &apos;ppERK2_obs&apos;, &apos;scale_ppERK_obs&apos;, &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;pSOS&apos;      , &apos;pSOS_obs&apos;  , &apos;scale_SOS_obs&apos;  , &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+m = pwAddY(m, &apos;SOS + mSOS&apos;, &apos;SOS_obs&apos;   , &apos;scale_SOS_obs&apos;  , &apos;y * 0.05 + max(y) * 0.05&apos;, &apos;Gaussian&apos;, [], [], []);
+
+%% Scaling parameters
+% m = pwAddS(m, ID, value, type, minValue, maxValue, unit, name, description)
+
+m = pwAddS(m, &apos;scale_pEpoR_obs&apos;, 0.493312, &apos;fix&apos;, 0.01, 50, [], [], []);
+m = pwAddS(m, &apos;scale_pJAK2_obs&apos;,  0.21008, &apos;fix&apos;, 0.01, 50, [], [], []);
+m = pwAddS(m, &apos;scale_ppMEK_obs&apos;,  40.5364, &apos;fix&apos;, 0.01, 50, [], [], []);
+m = pwAddS(m, &apos;scale_ppERK_obs&apos;,  13.5981, &apos;fix&apos;, 0.01, 50, [], [], []);
+m = pwAddS(m, &apos;scale_SOS_obs&apos;  ,  1.10228, &apos;fix&apos;, 0.01, 50, [], [], []);
+
+%% Derived variables
+% m = pwAddZ(m, rhs, ID, unit, name, description)
+
+m = pwAddZ(m, &apos;ppERK1&apos;, &apos;ppERK1&apos;, [], [], []);
+m = pwAddZ(m, &apos;ppERK2&apos;, &apos;ppERK2&apos;, [], [], []);
+
+%% Derived parameters
+% m = pwAddP(m, rhs, ID, unit, name, description)
+
+%m = pwAddP(m, &apos;JAK2_phosphorylation_by_Epo&apos;);
+%m = pwAddP(m, &apos;EpoR_phosphorylation_by_pJAK2&apos;);
+%m = pwAddP(m, &apos;SHP1_activation_by_pEpoR&apos;);
+%m = pwAddP(m, &apos;SHP1_delay&apos;);
+%m = pwAddP(m, &apos;actSHP1_deactivation&apos;);
+%m = pwAddP(m, &apos;pEpoR_dephosphorylation_by_actSHP1&apos;);
+%m = pwAddP(m, &apos;pJAK2_dephosphorylation_by_actSHP1&apos;);
+%m = pwAddP(m, &apos;SOS_recruitment_by_pEpoR&apos;);
+%m = pwAddP(m, &apos;mSOS_release_from_membrane&apos;);
+%m = pwAddP(m, &apos;mSOS_induced_Raf_phosphorylation&apos;);
+%m = pwAddP(m, &apos;pRaf_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;First_MEK2_phosphorylation_by_pRaf&apos;);
+%m = pwAddP(m, &apos;Second_MEK2_phosphorylation_by_pRaf&apos;);
+%m = pwAddP(m, &apos;First_MEK1_phosphorylation_by_pRaf&apos;);
+%m = pwAddP(m, &apos;Second_MEK1_phosphorylation_by_pRaf&apos;);
+%m = pwAddP(m, &apos;First_MEK_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;Second_MEK_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;First_ERK1_phosphorylation_by_ppMEK&apos;);
+%m = pwAddP(m, &apos;Second_ERK1_phosphorylation_by_ppMEK&apos;);
+%m = pwAddP(m, &apos;First_ERK2_phosphorylation_by_ppMEK&apos;);
+%m = pwAddP(m, &apos;Second_ERK2_phosphorylation_by_ppMEK&apos;);
+%m = pwAddP(m, &apos;First_ERK_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;Second_ERK_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;ppERK_neg_feedback_on_mSOS&apos;);
+%m = pwAddP(m, &apos;pSOS_dephosphorylation&apos;);
+%m = pwAddP(m, &apos;JAK2&apos;);
+%m = pwAddP(m, &apos;EpoR&apos;);
+%m = pwAddP(m, &apos;SHP1&apos;);
+%m = pwAddP(m, &apos;SOS&apos;);
+%m = pwAddP(m, &apos;Raf&apos;);
+%m = pwAddP(m, &apos;MEK2&apos;);
+%m = pwAddP(m, &apos;MEK1&apos;);
+%m = pwAddP(m, &apos;ERK1&apos;);
+%m = pwAddP(m, &apos;ERK2&apos;);
+%m = pwAddP(m, &apos;pJAK2&apos;);
+%m = pwAddP(m, &apos;pEpoR&apos;);
+%m = pwAddP(m, &apos;mSHP1&apos;);
+%m = pwAddP(m, &apos;actSHP1&apos;);
+%m = pwAddP(m, &apos;mSOS&apos;);
+%m = pwAddP(m, &apos;pRaf&apos;);
+%m = pwAddP(m, &apos;ppMEK2&apos;);
+%m = pwAddP(m, &apos;ppMEK1&apos;);
+%m = pwAddP(m, &apos;ppERK1&apos;);
+%m = pwAddP(m, &apos;ppERK2&apos;);
+%m = pwAddP(m, &apos;pSOS&apos;);
+%m = pwAddP(m, &apos;pMEK2&apos;);
+%m = pwAddP(m, &apos;pMEK1&apos;);
+%m = pwAddP(m, &apos;pERK1&apos;);
+%m = pwAddP(m, &apos;pERK2&apos;);
+%m = pwAddP(m, &apos;Delay01_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay02_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay03_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay04_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay05_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay06_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay07_mSHP1&apos;);
+%m = pwAddP(m, &apos;Delay08_mSHP1&apos;);
+%m = pwAddP(m, &apos;scale_pEpoR_obs&apos;);
+%m = pwAddP(m, &apos;scale_pJAK2_obs&apos;);
+%m = pwAddP(m, &apos;scale_ppMEK_obs&apos;);
+%m = pwAddP(m, &apos;scale_ppERK_obs&apos;);
+%m = pwAddP(m, &apos;scale_SOS_obs&apos;);
+
+%% Rules
+% m = pwAddRule(m, lhs, reactants, parameters, ruleSignature, type, description, ID)
+
+
+%% Constraints
+% m = pwAddConstraint(m, lhs, operator, rhs, reactants, parameters, lambda)
+
+m = pwAddConstraint(m, &apos;max(r1)/max(r2)&apos;, &apos;=&apos;, &apos;0.2&apos;, {&apos;pERK1&apos;,&apos;ERK1&apos;}, {}, 200);
+m = pwAddConstraint(m, &apos;max(r1)/max(r2)&apos;, &apos;=&apos;, &apos;0.2&apos;, {&apos;pERK2&apos;,&apos;ERK2&apos;}, {}, 200);
+m = pwAddConstraint(m, &apos;max(r1)/max(r2)&apos;, &apos;=&apos;, &apos;0.1&apos;, {&apos;ppERK1&apos;,&apos;ERK1&apos;}, {}, 200);
+m = pwAddConstraint(m, &apos;max(r1)/max(r2)&apos;, &apos;=&apos;, &apos;0.1&apos;, {&apos;ppERK2&apos;,&apos;ERK2&apos;}, {}, 200);
+</pre>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#_451617">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Endler</vCard:Family>
+                <vCard:Given>Lukas</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>lukas@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Schilling</vCard:Family>
+                <vCard:Given>Marcel</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>m.schilling@dkfz.de</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>German Cancer Research Center</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-10-27T16:50:24Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-10-29T11:55:02Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000270"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1001120000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:20029368"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:10090"/>
+            <rdf:li rdf:resource="urn:miriam:obo.bto:BTO%3A0001571"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000165"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004900"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0019221"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:mmu04010"/>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:mmu04630"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition id="substance" name="10E4 molecules">
+      <listOfUnits>
+        <unit kind="item" scale="4"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="time" name="minutes">
+      <listOfUnits>
+        <unit kind="second" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="volume" name="ml">
+      <listOfUnits>
+        <unit kind="litre" scale="-3"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="U" name="U">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="U_per_ml" name="U_per_ml">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+        <unit kind="litre" exponent="-1" scale="-3"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="ml_per_min_per_U" name="per min per (Uml)">
+      <listOfUnits>
+        <unit kind="dimensionless" exponent="-1"/>
+        <unit kind="litre" scale="-3"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="au" name="arb. units">
+      <listOfUnits>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="au_per_molec" name="arb. unit. per 10000 molecules">
+      <listOfUnits>
+        <unit kind="item" exponent="-1" scale="4"/>
+        <unit kind="litre" scale="-3"/>
+        <unit kind="dimensionless"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="per_min" name="per minute">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition id="sec_ord" name="second order rate constant">
+      <listOfUnits>
+        <unit kind="item" exponent="-1" scale="4"/>
+        <unit kind="litre" scale="-3"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="_451619" id="cell" name="cell" size="1" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451619">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.fma:FMA%3A83517"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005623"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="_451620" id="JAK2" compartment="cell" initialConcentration="2" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451620">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q62120"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451622" id="EpoR" compartment="cell" initialConcentration="1" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451622">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P14753"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451624" id="SHP1" compartment="cell" initialConcentration="10.7991" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451624">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR000387"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451626" id="SOS" compartment="cell" initialConcentration="2.5101" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451626">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q62245"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451628" id="Raf" compartment="cell" initialConcentration="3.7719" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451628">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q99N57"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451630" id="MEK2" compartment="cell" initialConcentration="11" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451630">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63932"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451632" id="MEK1" compartment="cell" initialConcentration="24" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451632">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P31938"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451634" id="ERK1" compartment="cell" initialConcentration="7" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451634">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63844"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451636" id="ERK2" compartment="cell" initialConcentration="21" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451636">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P63085"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451638" id="pJAK2" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451638">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004713"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isHomologTo>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_24029"/>
+              </rdf:Bag>
+            </bqbiol:isHomologTo>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q62120"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451640" id="pEpoR" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451640">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P14753"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451642" id="mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451642">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0019897"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451645" id="actSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451645">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004725"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451647" id="mSOS" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451647">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0019897"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005085"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q62245"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451649" id="pRaf" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451649">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004709"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isHomologTo>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_3158"/>
+              </rdf:Bag>
+            </bqbiol:isHomologTo>
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00046"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q99N57"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451651" id="ppMEK2" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451651">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004710"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63932"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451653" id="ppMEK1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451653">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004710"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P31938"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451655" id="ppERK1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451655">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004707"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63844"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451657" id="ppERK2" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451657">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004707"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P63085"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451659" id="pSOS" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451659">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q62245"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451661" id="pMEK2" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451661">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63932"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451663" id="pMEK1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451663">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P31938"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451665" id="pERK1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451665">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q63844"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451667" id="pERK2" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451667">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:kegg.compound:C00562"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P63085"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451669" id="Delay01_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451669">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451671" id="Delay02_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451671">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451673" id="Delay03_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451673">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451675" id="Delay04_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451675">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451677" id="Delay05_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451677">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451679" id="Delay06_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451679">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451681" id="Delay07_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451681">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451683" id="Delay08_mSHP1" compartment="cell" initialConcentration="0" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451683">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P29351"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_451685" id="Epo" compartment="cell" initialConcentration="50" substanceUnits="U" sboTerm="SBO:0000252">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451685">
+            <bqbiol:hasProperty>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005128"/>
+              </rdf:Bag>
+            </bqbiol:hasProperty>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P07321"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="_451797" id="JAK2_phosphorylation_by_Epo" value="0.0122149" units="ml_per_min_per_U" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451799" id="EpoR_phosphorylation_by_pJAK2" value="3.15714" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451801" id="SHP1_activation_by_pEpoR" value="0.408408" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451803" id="SHP1_delay" value="0.408408" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451805" id="actSHP1_deactivation" value="0.0248773" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451807" id="pEpoR_dephosphorylation_by_actSHP1" value="1.19995" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451809" id="pJAK2_dephosphorylation_by_actSHP1" value="0.368384" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451811" id="SOS_recruitment_by_pEpoR" value="0.10271" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451813" id="mSOS_release_from_membrane" value="15.5956" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451815" id="mSOS_induced_Raf_phosphorylation" value="0.144515" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451817" id="pRaf_dephosphorylation" value="0.374228" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451819" id="First_MEK2_phosphorylation_by_pRaf" value="3.11919" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451821" id="Second_MEK2_phosphorylation_by_pRaf" value="215.158" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451823" id="First_MEK1_phosphorylation_by_pRaf" value="0.687193" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451825" id="Second_MEK1_phosphorylation_by_pRaf" value="667.957" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451827" id="First_MEK_dephosphorylation" value="0.130937" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451829" id="Second_MEK_dephosphorylation" value="0.0732724" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451831" id="First_ERK1_phosphorylation_by_ppMEK" value="2.4927" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451833" id="Second_ERK1_phosphorylation_by_ppMEK" value="59.5251" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451835" id="First_ERK2_phosphorylation_by_ppMEK" value="2.44361" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451837" id="Second_ERK2_phosphorylation_by_ppMEK" value="53.0816" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451839" id="First_ERK_dephosphorylation" value="39.0886" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451841" id="Second_ERK_dephosphorylation" value="3.00453" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_451843" id="ppERK_neg_feedback_on_mSOS" value="5122.68" units="sec_ord" sboTerm="SBO:0000036"/>
+    <parameter metaid="_451845" id="pSOS_dephosphorylation" value="0.124944" units="per_min" sboTerm="SBO:0000035"/>
+    <parameter metaid="_291512" id="scale_pEpoR" name="scale_pEpoR" value="0.493312" units="au_per_molec" sboTerm="SBO:0000381"/>
+    <parameter metaid="_291515" id="scale_pJAK2" name="scale_pJAK2" value="0.21008" units="au_per_molec" sboTerm="SBO:0000381"/>
+    <parameter metaid="_291518" id="scale_ppERK" name="scale_ppERK" value="13.5981" units="au_per_molec" sboTerm="SBO:0000381"/>
+    <parameter metaid="_291521" id="scale_SOS" name="scale_SOS" value="1.10228" units="au_per_molec" sboTerm="SBO:0000381"/>
+    <parameter metaid="_291524" id="scale_ppMEK" name="scale_ppMEK" value="40.5364" units="au_per_molec" sboTerm="SBO:0000381"/>
+    <parameter metaid="_291527" id="rescaled_pEpoR" name="rescaled_pEpoR" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291530" id="rescaled_ppMEK1" name="rescaled_ppMEK1" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291533" id="rescaled_ppMEK2" name="rescaled_ppMEK2" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291536" id="rescaled_ppERK1" name="rescaled_ppERK1" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291539" id="rescaled_ppERK2" name="rescaled_ppERK2" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291542" id="rescaled_pJAK2" name="rescaled_pJAK2" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291545" id="rescaled_pSOS" name="rescaled_pSOS" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291548" id="rescaled_SOS" name="rescaled_SOS" units="au" constant="false" sboTerm="SBO:0000196"/>
+    <parameter metaid="_291551" id="rescaled_mSOS" name="rescaled_mSOS" units="au" constant="false" sboTerm="SBO:0000196"/>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="_291478" variable="rescaled_pEpoR">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_pEpoR </ci>
+          <ci> pEpoR </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291479" variable="rescaled_pJAK2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_pJAK2 </ci>
+          <ci> pJAK2 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291480" variable="rescaled_ppERK1">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_ppERK </ci>
+          <ci> ppERK1 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291481" variable="rescaled_ppERK2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_ppERK </ci>
+          <ci> ppERK2 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291484" variable="rescaled_ppMEK1">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_ppMEK </ci>
+          <ci> ppMEK1 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291485" variable="rescaled_ppMEK2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_ppMEK </ci>
+          <ci> ppMEK2 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291488" variable="rescaled_pSOS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_SOS </ci>
+          <ci> pSOS </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291489" variable="rescaled_SOS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_SOS </ci>
+          <ci> SOS </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="_291492" variable="rescaled_mSOS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> scale_SOS </ci>
+          <ci> mSOS </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="_451686" id="reaction_1" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451686">
+            <bqbiol:isHomologTo>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_23935.1"/>
+              </rdf:Bag>
+            </bqbiol:isHomologTo>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004715"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0010535"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.10.2"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="JAK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pJAK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000461" species="Epo"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> JAK2_phosphorylation_by_Epo </ci>
+            <ci> JAK2 </ci>
+            <ci> Epo </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451689" id="reaction_2" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451689">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.10.2"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004715"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="EpoR"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pEpoR"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="pJAK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> EpoR_phosphorylation_by_pJAK2 </ci>
+            <ci> EpoR </ci>
+            <ci> pJAK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451691" id="reaction_3" reversible="false" sboTerm="SBO:0000177">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451691">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051668"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="SHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="mSHP1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000463" species="pEpoR"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_activation_by_pEpoR </ci>
+            <ci> SHP1 </ci>
+            <ci> pEpoR </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451693" id="reaction_4" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay01_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451695" id="reaction_5" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay01_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay02_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay01_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451697" id="reaction_6" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay02_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay03_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay02_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451700" id="reaction_7" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay03_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay04_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay03_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451702" id="reaction_8" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay04_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay05_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay04_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451704" id="reaction_9" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay05_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay06_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay05_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451706" id="reaction_10" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay06_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay07_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay06_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451708" id="reaction_11" reversible="false" sboTerm="SBO:0000397">
+      <listOfReactants>
+        <speciesReference species="Delay07_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Delay08_mSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay07_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451710" id="reaction_12" reversible="false" sboTerm="SBO:0000396">
+      <listOfReactants>
+        <speciesReference species="Delay08_mSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="actSHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SHP1_delay </ci>
+            <ci> Delay08_mSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451712" id="reaction_13" reversible="false" sboTerm="SBO:0000396">
+      <listOfReactants>
+        <speciesReference species="actSHP1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="SHP1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> actSHP1_deactivation </ci>
+            <ci> actSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451714" id="reaction_14" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451714">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004725"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.1.3.48"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pEpoR"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="EpoR"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="actSHP1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> pEpoR_dephosphorylation_by_actSHP1 </ci>
+            <ci> pEpoR </ci>
+            <ci> actSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451716" id="reaction_15" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451716">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:3.1.3.48"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004725"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pJAK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="JAK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="actSHP1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> pJAK2_dephosphorylation_by_actSHP1 </ci>
+            <ci> pJAK2 </ci>
+            <ci> actSHP1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451718" id="reaction_16" reversible="false" sboTerm="SBO:0000177">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451718">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="SOS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="mSOS"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000461" species="pEpoR"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> SOS_recruitment_by_pEpoR </ci>
+            <ci> SOS </ci>
+            <ci> pEpoR </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451720" id="reaction_17" reversible="false" sboTerm="SBO:0000180">
+      <listOfReactants>
+        <speciesReference species="mSOS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="SOS"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mSOS_release_from_membrane </ci>
+            <ci> mSOS </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451722" id="reaction_18" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451722">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000185"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="Raf"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pRaf"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000461" species="mSOS"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mSOS_induced_Raf_phosphorylation </ci>
+            <ci> Raf </ci>
+            <ci> mSOS </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451724" id="reaction_19" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451724">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051390"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pRaf"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="Raf"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> pRaf_dephosphorylation </ci>
+            <ci> pRaf </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451726" id="reaction_20" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451726">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004709"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.25"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_1727.5"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MEK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="pRaf"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_MEK2_phosphorylation_by_pRaf </ci>
+            <ci> MEK2 </ci>
+            <ci> pRaf </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451728" id="reaction_21" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451728">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004709"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.25"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_545.5"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="MEK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="pRaf"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_MEK1_phosphorylation_by_pRaf </ci>
+            <ci> MEK1 </ci>
+            <ci> pRaf </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451730" id="reaction_22" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451730">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000186"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.25"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_1727.5"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pMEK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppMEK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="pRaf"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_MEK2_phosphorylation_by_pRaf </ci>
+            <ci> pMEK2 </ci>
+            <ci> pRaf </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451733" id="reaction_23" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451733">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000186"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.25"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_545.5"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pMEK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppMEK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="pRaf"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_MEK1_phosphorylation_by_pRaf </ci>
+            <ci> pMEK1 </ci>
+            <ci> pRaf </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451736" id="reaction_24" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451736">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051389"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ppMEK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_MEK_dephosphorylation </ci>
+            <ci> ppMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451738" id="reaction_25" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451738">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051389"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ppMEK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pMEK1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_MEK_dephosphorylation </ci>
+            <ci> ppMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451740" id="reaction_26" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451740">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pMEK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MEK2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_MEK_dephosphorylation </ci>
+            <ci> pMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451742" id="reaction_27" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451742">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pMEK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="MEK1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_MEK_dephosphorylation </ci>
+            <ci> pMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451744" id="reaction_28" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451744">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_136.4"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK1_phosphorylation_by_ppMEK </ci>
+            <ci> ERK1 </ci>
+            <ci> ppMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451746" id="reaction_29" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451746">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK2_phosphorylation_by_ppMEK </ci>
+            <ci> ERK2 </ci>
+            <ci> ppMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451748" id="reaction_30" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451748">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_136.4"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK1_phosphorylation_by_ppMEK </ci>
+            <ci> ERK1 </ci>
+            <ci> ppMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451750" id="reaction_31" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451750">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK2_phosphorylation_by_ppMEK </ci>
+            <ci> ERK2 </ci>
+            <ci> ppMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451752" id="reaction_32" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451752">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000187"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_136.4"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK1_phosphorylation_by_ppMEK </ci>
+            <ci> pERK1 </ci>
+            <ci> ppMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451754" id="reaction_33" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451754">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000187"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK2_phosphorylation_by_ppMEK </ci>
+            <ci> pERK2 </ci>
+            <ci> ppMEK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451756" id="reaction_34" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451756">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000187"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_136.4"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK1_phosphorylation_by_ppMEK </ci>
+            <ci> pERK1 </ci>
+            <ci> ppMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451758" id="reaction_35" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451758">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.12.2"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000187"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004708"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ppERK2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppMEK1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK2_phosphorylation_by_ppMEK </ci>
+            <ci> pERK2 </ci>
+            <ci> ppMEK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451760" id="reaction_36" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451760">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000188"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0017017"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_12439.1"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ppERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK_dephosphorylation </ci>
+            <ci> ppERK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451762" id="reaction_37" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451762">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000188"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0017017"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_12439.1"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="ppERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pERK2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> First_ERK_dephosphorylation </ci>
+            <ci> ppERK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451764" id="reaction_38" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451764">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0017017"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_12439.1"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ERK1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK_dephosphorylation </ci>
+            <ci> pERK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451766" id="reaction_39" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451766">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0017017"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_12439.1"/>
+              </rdf:Bag>
+            </bqbiol:isPartOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pERK2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="ERK2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Second_ERK_dephosphorylation </ci>
+            <ci> pERK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451768" id="reaction_40" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451768">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004707"/>
+              </rdf:Bag>
+            </bqbiol:is>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.24"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isHomologTo>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_1420.5"/>
+              </rdf:Bag>
+            </bqbiol:isHomologTo>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="mSOS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pSOS"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppERK1"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ppERK_neg_feedback_on_mSOS </ci>
+            <ci> mSOS </ci>
+            <ci> ppERK1 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451770" id="reaction_41" reversible="false" sboTerm="SBO:0000216">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451770">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004707"/>
+              </rdf:Bag>
+            </bqbiol:is>
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.24"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006468"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+            <bqbiol:isHomologTo>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:reactome:REACT_1420.5"/>
+              </rdf:Bag>
+            </bqbiol:isHomologTo>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="mSOS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="pSOS"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference sboTerm="SBO:0000534" species="ppERK2"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ppERK_neg_feedback_on_mSOS </ci>
+            <ci> mSOS </ci>
+            <ci> ppERK2 </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_451772" id="reaction_42" reversible="false" sboTerm="SBO:0000330">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_451772">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006470"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="pSOS"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="SOS"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> pSOS_dephosphorylation </ci>
+            <ci> pSOS </ci>
+            <ci> cell </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

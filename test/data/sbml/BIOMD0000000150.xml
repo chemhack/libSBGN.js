@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model metaid="_366827" id="Morris2002_CellCycle_CDK2Cyclin" name="Morris2002_CellCycle_CDK2Cyclin">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>Notes from the original DOCQS curator:<br/>
+	     In this version of the CDK2/Cyclin A complex activation there is discrepancy in the first curve which plots the binding reaction of CDK2 and Cyclin A expressed in E. coli. With the published rate constants the simulation does not match the published graph (Fig.1B) in <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11959850 ">Morris MC. et al. J Biol Chem. 277(26):23847-53</a>.</p>
+        <p>Notes from BioModels DB curator:<br/>
+	     Although the parameters are those reported in the table I for CDK2/Cyclin A, the total fluorescence follows exactly the curve reported in the paper for CDK2/Cyclin H in figure 1B. Either the plot legend or the table is wrong.</p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation xmlns:doqcs="http://www.doqcs.ncbs.res.in">
+    <doqcs:timestamp>Fri Nov 10 10:46:33 2006</doqcs:timestamp>
+    <doqcs:accesstype>pathway</doqcs:accesstype>
+    <doqcs:transcriber> Sharat J. Vayttaden, NCBS</doqcs:transcriber>
+    <doqcs:developer> May C. Morris, Claire Gondeau, John A. Tainer, and Gilles Divita</doqcs:developer>
+    <doqcs:species>Human, Xenopus</doqcs:species>
+    <doqcs:tissue>Expressed in E.coli</doqcs:tissue>
+    <doqcs:cellcompartment>Cytosol</doqcs:cellcompartment>
+    <doqcs:methodology>Qualitative</doqcs:methodology>
+    <doqcs:model_implementation>Exact GENESIS implementation</doqcs:model_implementation>
+    <doqcs:model_validation>Approximates original data </doqcs:model_validation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#_366827">
+        <dc:creator rdf:parseType="Resource">
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Le Novère</vCard:Family>
+                <vCard:Given>Nicolas</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>lenov@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Vayttaden</vCard:Family>
+                <vCard:Given>Sharat</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>doqcs@ncbs.res.in</vCard:EMAIL>
+              <vCard:ORG>
+                <vCard:Orgname>DOQCS</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2007-09-12T20:36:08Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-12-01T22:10:11Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000150"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL4821491663"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:11959850"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isVersionOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:ko04110"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000278"/>
+          </rdf:Bag>
+        </bqbiol:isVersionOf>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:4932"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+        <bqbiol:isHomologTo>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:reactome:REACT_152"/>
+          </rdf:Bag>
+        </bqbiol:isHomologTo>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfCompartments>
+    <compartment metaid="_366833" id="geometry" size="1e-12"/>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="_366847" id="CDK2cycA" compartment="geometry" initialConcentration="0">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366847">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P00546"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015453"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_366867" id="CyclinA" compartment="geometry" initialConcentration="4e-07">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366867">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015453"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_366887" id="Cdk2" compartment="geometry" initialConcentration="1e-07">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366887">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P00546"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="_366907" id="CDK2cycA_star_" compartment="geometry" initialConcentration="0">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366907">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P00546"/>
+                <rdf:li rdf:resource="urn:miriam:interpro:IPR015453"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter id="basal_fluorescence" value="1.21210648148148" constant="false"/>
+    <parameter id="total_fluorescence" value="0.138886574074074" constant="false"/>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="_366927" variable="total_fluorescence">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> CDK2cycA </ci>
+              <cn> 599990 </cn>
+              <cn type="e-notation"> 1 <sep/> 6 </cn>
+            </apply>
+            <cn> 43200 </cn>
+          </apply>
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> CDK2cycA_star_ </ci>
+              <cn> 599990 </cn>
+              <cn type="e-notation"> 1 <sep/> 6 </cn>
+            </apply>
+            <cn> 43200 </cn>
+          </apply>
+          <ci> basal_fluorescence </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="_366947" id="Binding">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+	     kf = 19/sec/uM and kb = 25/sec Morris et al 2002 JBC 277(26): 23847--23853 Table pp.23849
+          </body>
+      </notes>
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366947">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006461"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0030332"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="Cdk2"/>
+        <speciesReference species="CyclinA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="CDK2cycA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+		kf*Cdk2*CyclinA-kb*CDK2cycA
+	    </body>
+        </notes>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kf </ci>
+              <ci> Cdk2 </ci>
+              <ci> CyclinA </ci>
+              <ci> geometry </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kb </ci>
+              <ci> CDK2cycA </ci>
+              <ci> geometry </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kf" value="19000000"/>
+          <parameter id="kb" value="25"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="_366967" id="Activation">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+	     Morris et al 2002 JBC 277(26): 23847--23853 kf and kb values not published kobs2 = 2.5 +- 0.1 /sec kf=0.813/sec and kb=0.557/sec used simulation
+          </body>
+      </notes>
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#_366967">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004693"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="CDK2cycA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="CDK2cycA_star_"/>
+      </listOfProducts>
+      <kineticLaw>
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+		kf*CDK2cycA-kb*CDK2cycA_star_
+	    </body>
+        </notes>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kf </ci>
+              <ci> CDK2cycA </ci>
+              <ci> geometry </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kb </ci>
+              <ci> CDK2cycA_star_ </ci>
+              <ci> geometry </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter id="kf" value="0.813"/>
+          <parameter id="kb" value="0.557"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

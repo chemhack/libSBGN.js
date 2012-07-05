@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="metaid_0000001" level="2" version="4">
+  <model metaid="_000001" id="ODea2007_IkappaB" name="ODea2007_IkappaB">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p class="p1">O&apos;Dea, E.L., Barken, D., Peralta, R.Q., Tran K.T., Werner, S.L., Kearns, J.D., Levchenko, A., Hoffmann, A. A homeostatic model of IkB metabolism to control constitutive activity. Molecular Systems Biology, 3:111, pp. 1-7. 2007<br/></p>
+        <p class="p1">Questions concerning the paper should be addressed to the corresponding author. Alexander Hoffmann (ahoffmann@ucsd.edu)</p>
+        <hr/>
+        <p class="p1">The original model was written and simulated within MathWorks MatLab 2006a using the ode15s (stiff/NDF) solver. It is highly recommended that those wanting to model this system use the MatLab version which we will freely provide upon request. As always, simulation results vary according to the numerical solver used.</p>
+        <p>Translation to SBML Level 2.1 was performed via reconstruction of the model within MathWorks SimBiology Desktop (version 2.1) followed by an Export to SBML. Please address questions about this SBML model to Jeff Kearns (jkearns@ucsd.edu).</p>
+        <p>BioModels DB curation: The model reproduces the values of diffferent species depicted in Fig 3A and 3B (wt) of the paper corresponding to Model1.1. To depict the the total IkB alpha, beta epsilon species, three additional parameters and their corresponding assignment rules have been introduced in this model by the creator. Model succesfully tested on MathSBML. </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br/>For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#_000001">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Dharuri</vCard:Family>
+                <vCard:Given>Harish</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>hdharuri@cds.caltech.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>California Institute of Technology</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Alexander</vCard:Family>
+                <vCard:Given>Hoffman</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>ahoffmann@ucsd.edu</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>UCSD</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2007-09-04T10:35:41Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-01-18T13:37:58Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000147"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL2784772048"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:17486138"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:isPartOf>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:kegg.pathway:mmu04660"/>
+          </rdf:Bag>
+        </bqbiol:isPartOf>
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:10090"/>
+            <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0007249"/>
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000003" id="substance" name="micromole">
+      <listOfUnits>
+        <unit kind="mole" scale="-6"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000004" id="uM_per_min" name="uM_per_min">
+      <listOfUnits>
+        <unit kind="mole" scale="-6"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+        <unit kind="litre" exponent="-1"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000005" id="per_min" name="per_min">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000006" id="per_uM_per_min" name="per_uM_per_min">
+      <listOfUnits>
+        <unit kind="mole" exponent="-1" scale="-6"/>
+        <unit kind="second" exponent="-1" multiplier="60"/>
+        <unit kind="litre"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000007" id="cytoplasm" name="cytoplasm" size="1">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000007">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+    <compartment metaid="metaid_0000008" id="nucleus" name="nucleus" size="1">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000008">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000009" id="IkBa_mRNA" name="IkBat" compartment="nucleus" initialConcentration="0" substanceUnits="substance"/>
+    <species metaid="metaid_0000010" id="IkBa_cytoplasm" name="IkBa" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000010">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000011" id="IkBa_nucleus" name="IkBan" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000011">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000012" id="IkBaIKK" name="IkBaIKK" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000012">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000013" id="IkBaNFkB_cytoplasm" name="IkBaNFkB" compartment="cytoplasm" initialConcentration="0.06" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000013">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000014" id="IkBaNFkB_nucleus" name="IkBaNFkBn" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000014">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000015" id="IkBaIKKNFkB" name="IkBaIKKNFkB" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000015">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q9Z1E3"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000016" id="NFkB_cytoplasm" name="NFkB" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000016">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000017" id="IKK" name="IKK" compartment="cytoplasm" initialConcentration="0.001" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000017">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000018" id="NFkB_nucleus" name="NFkBn" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000018">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000019" id="IkBbIKK" name="IkBbIKK" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000019">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000020" id="IkBbIKKNFkB" name="IkBbIKKNFkB" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000020">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000021" id="IkBbNFkB_nucleus" name="IkBbNFkBn" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000021">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000022" id="IkBbNFkB_cytoplasm" name="IkBbNFkB" compartment="cytoplasm" initialConcentration="0.03" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000022">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000023" id="IkBb_nucleus" name="IkBbn" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000023">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000024" id="IkBb_cytoplasm" name="IkBb" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000024">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60778"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000025" id="IkBb_mRNA" name="IkBbt" compartment="nucleus" initialConcentration="0" substanceUnits="substance"/>
+    <species metaid="metaid_0000026" id="IkBe_mRNA" name="IkBet" compartment="nucleus" initialConcentration="0" substanceUnits="substance"/>
+    <species metaid="metaid_0000027" id="IkBe_cytoplasm" name="IkBe" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000027">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000028" id="IkBe_nucleus" name="IkBen" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000029" id="IkBeNFkB_cytoplasm" name="IkBeNFkB" compartment="cytoplasm" initialConcentration="0.01" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000029">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000030" id="IkBeNFkB_nucleus" name="IkBeNFkBn" compartment="nucleus" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000030">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000031" id="IkBeIKKNFkB" name="IkBeIKKNFkB" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000031">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:P25799"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000032" id="IkBeIKK" name="IkBeIKK" compartment="cytoplasm" initialConcentration="0" substanceUnits="substance">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000032">
+            <bqbiol:hasPart>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O54910"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88351"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:O88522"/>
+                <rdf:li rdf:resource="urn:miriam:uniprot:Q60680"/>
+              </rdf:Bag>
+            </bqbiol:hasPart>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000084" id="Total_IkBalpha" name="Total_IkBalpha" value="0" constant="false"/>
+    <parameter metaid="metaid_0000085" id="Total_IkBbeta" name="Total_IkBbeta" value="0" constant="false"/>
+    <parameter metaid="metaid_0000086" id="Total_IkBeps" name="Total_IkBeps" value="0" constant="false"/>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="metaid_0000087" variable="Total_IkBalpha">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> IkBa_cytoplasm </ci>
+          <ci> IkBa_nucleus </ci>
+          <ci> IkBaIKK </ci>
+          <ci> IkBaIKKNFkB </ci>
+          <ci> IkBaNFkB_cytoplasm </ci>
+          <ci> IkBaNFkB_nucleus </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000088" variable="Total_IkBbeta">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> IkBb_cytoplasm </ci>
+          <ci> IkBb_nucleus </ci>
+          <ci> IkBbIKK </ci>
+          <ci> IkBbIKKNFkB </ci>
+          <ci> IkBbNFkB_cytoplasm </ci>
+          <ci> IkBbNFkB_nucleus </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000089" variable="Total_IkBeps">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <plus/>
+          <ci> IkBe_cytoplasm </ci>
+          <ci> IkBe_nucleus </ci>
+          <ci> IkBeIKK </ci>
+          <ci> IkBeIKKNFkB </ci>
+          <ci> IkBeNFkB_cytoplasm </ci>
+          <ci> IkBeNFkB_nucleus </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="metaid_0000033" id="txn_a" name="txn_a" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000033">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006350"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="IkBa_mRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr2a </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306962" id="tr2a" name="tr2a" value="0.0001848" units="uM_per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000034" id="mdeg_a" name="mdeg_a" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000034">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006402"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_mRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr3a </ci>
+            <ci> IkBa_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306963" id="tr3a" name="tr3a" value="0.0168" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000035" id="tsl_a" name="tsl_a" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000035">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_mRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBa_mRNA"/>
+        <speciesReference species="IkBa_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr1a </ci>
+            <ci> IkBa_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306964" id="tr1a" name="tr1a" value="0.2448" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000036" id="int_ai" name="int_ai" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000036">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaIKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a1 </ci>
+                <ci> IkBa_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d1_1 </ci>
+                <ci> IkBaIKK </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306966" id="a1" name="a1" value="1.35" units="per_uM_per_min"/>
+          <parameter metaid="_306969" id="d1_1" name="d1_1" value="0.075" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000037" id="int_an" name="int_an" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000037">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0032088"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_cytoplasm"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a4_1 </ci>
+                <ci> IkBa_cytoplasm </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d4_1 </ci>
+                <ci> IkBaNFkB_cytoplasm </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306970" id="a4_1" name="a4_1" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_306971" id="d4_1" name="d4_1" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000038" id="int_an_n" name="int_an_n" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000038">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_nucleus"/>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaNFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a4_2 </ci>
+                <ci> IkBa_nucleus </ci>
+                <ci> NFkB_nucleus </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d4_2 </ci>
+                <ci> IkBaNFkB_nucleus </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306972" id="a4_2" name="a4_2" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_306973" id="d4_2" name="d4_2" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000039" id="int_2ani" name="int_2ani" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000039">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaNFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a7 </ci>
+                <ci> IkBaNFkB_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d1_2 </ci>
+                <ci> IkBaIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306974" id="a7" name="a7" value="11.1" units="per_uM_per_min"/>
+          <parameter metaid="_306975" id="d1_2" name="d1_2" value="0.075" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000040" id="int_2ain" name="int_2ain" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000040">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaIKK"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a4_3 </ci>
+                <ci> IkBaIKK </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d4_3 </ci>
+                <ci> IkBaIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306977" id="a4_3" name="a4_3" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_306979" id="d4_3" name="d4_3" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000041" id="deg_a" name="deg_a" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000041">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_cytoplasm"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg1_c </ci>
+            <ci> IkBa_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306980" id="deg1_c" name="deg1_c" value="0.12" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000042" id="deg_a_n" name="deg_a_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000042">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_nucleus"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg1_n </ci>
+            <ci> IkBa_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306982" id="deg1_n" name="deg1_n" value="0.12" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000043" id="deg_an_n" name="deg_an_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000043">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg4_n </ci>
+            <ci> IkBaNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306983" id="deg4_n" name="deg4_n" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000044" id="deg_an" name="deg_an" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000044">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaNFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg4_c </ci>
+            <ci> IkBaNFkB_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306984" id="deg4_c" name="deg4_c" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000045" id="deg_ai" name="deg_ai" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000045">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaIKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r1 </ci>
+            <ci> IkBaIKK </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306986" id="r1" name="r1" value="0.072" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000046" id="deg_ain" name="deg_ain" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000046">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051092"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaIKKNFkB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r4 </ci>
+            <ci> IkBaIKKNFkB </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306987" id="r4" name="r4" value="0.36" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000047" id="loc_a" name="loc_a" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000047">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000060"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBa_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBa_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> cytoplasm </ci>
+              <ci> tp1a </ci>
+              <ci> IkBa_cytoplasm </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> nucleus </ci>
+              <ci> tp2a </ci>
+              <ci> IkBa_nucleus </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306989" id="tp1a" name="tp1a" value="0.018" units="per_min"/>
+          <parameter metaid="_306991" id="tp2a" name="tp2a" value="0.012" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000048" id="loc_an" name="loc_an" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000048">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006611"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBaNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBaNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> k2_a </ci>
+            <ci> IkBaNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306992" id="k2_a" name="k2_a" value="0.828" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000049" id="loc_bn" name="loc_bn" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000049">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006611"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> k2_b </ci>
+            <ci> IkBbNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306994" id="k2_b" name="k2_b" value="0.414" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000050" id="loc_b" name="loc_b" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000050">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000060"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBb_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> cytoplasm </ci>
+              <ci> tp1b </ci>
+              <ci> IkBb_cytoplasm </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> nucleus </ci>
+              <ci> tp2b </ci>
+              <ci> IkBb_nucleus </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306995" id="tp1b" name="tp1b" value="0.018" units="per_min"/>
+          <parameter metaid="_306996" id="tp2b" name="tp2b" value="0.012" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000051" id="deg_bin" name="deg_bin" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000051">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051092"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbIKKNFkB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r5 </ci>
+            <ci> IkBbIKKNFkB </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306997" id="r5" name="r5" value="0.12" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000052" id="deg_bi" name="deg_bi" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000052">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbIKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r2 </ci>
+            <ci> IkBbIKK </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_306999" id="r2" name="r2" value="0.024" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000053" id="deg_bn" name="deg_bn" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000053">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbNFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg5_c </ci>
+            <ci> IkBbNFkB_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307000" id="deg5_c" name="deg5_c" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000054" id="deg_bn_n" name="deg_bn_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000054">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg5_n </ci>
+            <ci> IkBbNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307001" id="deg5_n" name="deg5_n" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000055" id="deg_b_n" name="deg_b_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000055">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_nucleus"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg2_n </ci>
+            <ci> IkBb_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307003" id="deg2_n" name="deg2_n" value="0.18" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000056" id="deg_b" name="deg_b" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000056">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_cytoplasm"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg2_c </ci>
+            <ci> IkBb_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307004" id="deg2_c" name="deg2_c" value="0.18" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000057" id="int_2bin" name="int_2bin" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000057">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbIKK"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a5_3 </ci>
+                <ci> IkBbIKK </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d5_3 </ci>
+                <ci> IkBbIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307005" id="a5_3" name="a5_3" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307006" id="d5_3" name="d5_3" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000058" id="int_2bni" name="int_2bni" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000058">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBbNFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a8 </ci>
+                <ci> IkBbNFkB_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d2_2 </ci>
+                <ci> IkBbIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307007" id="a8" name="a8" value="2.88" units="per_uM_per_min"/>
+          <parameter metaid="_307008" id="d2_2" name="d2_2" value="0.105" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000059" id="int_bn_n" name="int_bn_n" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000059">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_nucleus"/>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbNFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a5_2 </ci>
+                <ci> IkBb_nucleus </ci>
+                <ci> NFkB_nucleus </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d5_2 </ci>
+                <ci> IkBbNFkB_nucleus </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307010" id="a5_2" name="a5_2" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307012" id="d5_2" name="d5_2" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000060" id="int_bn" name="int_bn" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000060">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0032088"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_cytoplasm"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a5_1 </ci>
+                <ci> IkBb_cytoplasm </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d5_1 </ci>
+                <ci> IkBbNFkB_cytoplasm </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307013" id="a5_1" name="a5_1" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307014" id="d5_1" name="d5_1" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000061" id="int_bi" name="int_bi" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000061">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBbIKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a2 </ci>
+                <ci> IkBb_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d2_1 </ci>
+                <ci> IkBbIKK </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307015" id="a2" name="a2" value="0.36" units="per_uM_per_min"/>
+          <parameter metaid="_307016" id="d2_1" name="d2_1" value="0.105" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000062" id="tsl_b" name="tsl_b" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000062">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_mRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBb_mRNA"/>
+        <speciesReference species="IkBb_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr1b </ci>
+            <ci> IkBb_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307018" id="tr1b" name="tr1b" value="0.2448" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000063" id="mdeg_b" name="mdeg_b" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000063">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006402"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBb_mRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr3b </ci>
+            <ci> IkBb_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307019" id="tr3b" name="tr3b" value="0.0168" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000064" id="txn_b" name="txn_b" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000064">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006350"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="IkBb_mRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr2b </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307020" id="tr2b" name="tr2b" value="4.272e-05" units="uM_per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000065" id="loc_n" name="loc_n" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000065">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000060"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> cytoplasm </ci>
+              <ci> k1_2 </ci>
+              <ci> NFkB_cytoplasm </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> nucleus </ci>
+              <ci> k1_1 </ci>
+              <ci> NFkB_nucleus </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307022" id="k1_2" name="k1_2" value="5.4" units="per_min"/>
+          <parameter metaid="_307024" id="k1_1" name="k1_1" value="0.0048" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000066" id="txn_e" name="txn_e" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000066">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006350"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="IkBe_mRNA"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr2e </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307025" id="tr2e" name="tr2e" value="3.048e-05" units="uM_per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000067" id="mdeg_e" name="mdeg_e" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000067">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006402"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_mRNA"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr3e </ci>
+            <ci> IkBe_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307027" id="tr3e" name="tr3e" value="0.0168" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000068" id="tsl_e" name="tsl_e" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000068">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006412"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_mRNA"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBe_mRNA"/>
+        <speciesReference species="IkBe_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr1e </ci>
+            <ci> IkBe_mRNA </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307028" id="tr1e" name="tr1e" value="0.2448" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000069" id="int_ei" name="int_ei" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000069">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeIKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a3 </ci>
+                <ci> IkBe_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d3_1 </ci>
+                <ci> IkBeIKK </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307030" id="a3" name="a3" value="0.54" units="per_uM_per_min"/>
+          <parameter metaid="_307032" id="d3_1" name="d3_1" value="0.105" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000070" id="int_en" name="int_en" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000070">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0032088"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_cytoplasm"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a6_1 </ci>
+                <ci> IkBe_cytoplasm </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d6_1 </ci>
+                <ci> IkBeNFkB_cytoplasm </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307033" id="a6_1" name="a6_1" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307034" id="d6_1" name="d6_1" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000071" id="int_en_n" name="int_en_n" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000071">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_nucleus"/>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeNFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a6_2 </ci>
+                <ci> IkBe_nucleus </ci>
+                <ci> NFkB_nucleus </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d6_2 </ci>
+                <ci> IkBeNFkB_nucleus </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307035" id="a6_2" name="a6_2" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307036" id="d6_2" name="d6_2" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000072" id="int_2eni" name="int_2eni" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000072">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeNFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a9 </ci>
+                <ci> IkBeNFkB_cytoplasm </ci>
+                <ci> IKK </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d3_2 </ci>
+                <ci> IkBeIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307038" id="a9" name="a9" value="4.2" units="per_uM_per_min"/>
+          <parameter metaid="_307040" id="d3_2" name="d3_2" value="0.105" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000073" id="int_2ein" name="int_2ein" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000073">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005515"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008134"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeIKK"/>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeIKKNFkB"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> a6_3 </ci>
+                <ci> IkBeIKK </ci>
+                <ci> NFkB_cytoplasm </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> d6_3 </ci>
+                <ci> IkBeIKKNFkB </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307041" id="a6_3" name="a6_3" value="30" units="per_uM_per_min"/>
+          <parameter metaid="_307042" id="d6_3" name="d6_3" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000074" id="deg_e" name="deg_e" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000074">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_cytoplasm"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg3_c </ci>
+            <ci> IkBe_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307043" id="deg3_c" name="deg3_c" value="0.18" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000075" id="deg_e_n" name="deg_e_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000075">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_nucleus"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg3_n </ci>
+            <ci> IkBe_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307045" id="deg3_n" name="deg3_n" value="0.18" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000076" id="deg_en_n" name="deg_en_n" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000076">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> deg6_n </ci>
+            <ci> IkBeNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307046" id="deg6_n" name="deg6_n" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000077" id="deg_en" name="deg_en" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000077">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeNFkB_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> deg6_c </ci>
+            <ci> IkBeNFkB_cytoplasm </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307048" id="deg6_c" name="deg6_c" value="6e-05" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000078" id="deg_ei" name="deg_ei" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000078">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeIKK"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r3 </ci>
+            <ci> IkBeIKK </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307049" id="r3" name="r3" value="0.036" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000079" id="deg_ein" name="deg_ein" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000079">
+            <bqbiol:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:ec-code:2.7.11.10"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0008384"/>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0051092"/>
+              </rdf:Bag>
+            </bqbiol:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeIKKNFkB"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="NFkB_cytoplasm"/>
+        <speciesReference species="IKK"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> r6 </ci>
+            <ci> IkBeIKKNFkB </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307050" id="r6" name="r6" value="0.18" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000080" id="loc_e" name="loc_e" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000080">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000060"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBe_cytoplasm"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBe_nucleus"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> cytoplasm </ci>
+              <ci> tp1e </ci>
+              <ci> IkBe_cytoplasm </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> nucleus </ci>
+              <ci> tp2e </ci>
+              <ci> IkBe_nucleus </ci>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307052" id="tp1e" name="tp1e" value="0.018" units="per_min"/>
+          <parameter metaid="_307054" id="tp2e" name="tp2e" value="0.012" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000081" id="loc_en" name="loc_en" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000081">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006611"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IkBeNFkB_nucleus"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="IkBeNFkB_cytoplasm"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> k2_e </ci>
+            <ci> IkBeNFkB_nucleus </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307055" id="k2_e" name="k2_e" value="0.414" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000082" id="IKK_deg" name="IKK_deg" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000082">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0044257"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="IKK"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> cytoplasm </ci>
+            <ci> k_IKK_deg </ci>
+            <ci> IKK </ci>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307057" id="k_IKK_deg" name="IKK_deg" value="0" units="per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000083" id="itxn_a" name="itxn_a" reversible="false" fast="false">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000083">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006350"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="IkBa_mRNA"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="NFkB_nucleus"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> nucleus </ci>
+            <ci> tr2a_i </ci>
+            <apply>
+              <power/>
+              <ci> NFkB_nucleus </ci>
+              <cn type="integer"> 2 </cn>
+            </apply>
+          </apply>
+        </math>
+        <listOfParameters>
+          <parameter metaid="_307058" id="tr2a_i" name="tr2a_i" value="1.98" units="per_uM_per_min"/>
+        </listOfParameters>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>

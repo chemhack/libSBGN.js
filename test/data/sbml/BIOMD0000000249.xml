@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="metaid_0000001" level="2" version="4">
+  <model metaid="metaid_0000002" id="restif06" name="Restif2006_Whooping_Cough">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+          This is the model described in the article:
+          <br/>
+        <strong>Integrating life history and cross-immunity into the evolutionary dynamics of pathogens.
+          </strong>
+        <br/>
+         Restif O, Grenfell BT.
+          <em>Proc Biol Sci.</em> 2006 Feb 22;273(1585):409-16.
+          PMID:<a href="http://www.ncbi.nlm.nih.gov/pubmed/16615206">16615206</a>, doi:<a href="http://dx.doi.org/10.1098/rspb.2005.3335">10.1098/rspb.2005.3335</a>;
+          <br/>
+        <strong>Abstract:</strong>
+        <br/>
+Models for the diversity and evolution of pathogens have branched into two main directions: the adaptive dynamics of quantitative life-history traits (notably virulence) and the maintenance and invasion of multiple, antigenically diverse strains that interact with the host&apos;s immune memory. In a first attempt to reconcile these two approaches, we developed a simple modelling framework where two strains of pathogens, defined by a pair of life-history traits (infectious period and infectivity), interfere through a given level of cross-immunity. We used whooping cough as a potential example, but the framework proposed here could be applied to other acute infectious diseases. Specifically, we analysed the effects of these parameters on the invasion dynamics of one strain into a population, where the second strain is endemic. Whereas the deterministic version of the model converges towards stable coexistence of the two strains in most cases, stochastic simulations showed that transient epidemic dynamics can cause the extinction of either strain. Thus ecological dynamics, modulated by the immune parameters, eventually determine the adaptive value of different pathogen genotypes. We advocate an integrative view of pathogen dynamics at the crossroads of immunology, epidemiology and evolution, as a way towards efficient control of infectious diseases.
+	</p>
+        <p>
+This version of the model can be used for both the stochastic and the deterministic simulations described in the article. For deterministic interpretations with infinite population sizes, set the population size <em>N</em> = 1. The model reproduces the deterministic time courses. Stochastic interpretation with Copasi UI gave results similar to the article, but was not extensively tested. The initial conditions for competition simulations can be derived by equilibrating the system for one pathogen and then adding a starting concentration for the other.
+  </p>
+        <p> Originally created by libAntimony v1.3 (using libSBML 4.1.0-b1) </p>
+        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br/>
+For more information see the <a href="http://www.ebi.ac.uk/biomodels/legal.html" target="_blank">terms of use</a>.<br/>
+To cite BioModels Database, please use: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20587024" target="_blank">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>
+      </p>
+    </body>
+  </notes>
+  <annotation>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+      <rdf:Description rdf:about="#metaid_0000002">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li rdf:parseType="Resource">
+              <vCard:N rdf:parseType="Resource">
+                <vCard:Family>Endler</vCard:Family>
+                <vCard:Given>Lukas</vCard:Given>
+              </vCard:N>
+              <vCard:EMAIL>lukas@ebi.ac.uk</vCard:EMAIL>
+              <vCard:ORG rdf:parseType="Resource">
+                <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+              </vCard:ORG>
+            </rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dcterms:created rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-04-20T23:54:23Z</dcterms:W3CDTF>
+        </dcterms:created>
+        <dcterms:modified rdf:parseType="Resource">
+          <dcterms:W3CDTF>2010-09-27T17:31:38Z</dcterms:W3CDTF>
+        </dcterms:modified>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:BIOMD0000000249"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:biomodels.db:MODEL1003290000"/>
+          </rdf:Bag>
+        </bqmodel:is>
+        <bqmodel:isDescribedBy>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:pubmed:16615206"/>
+          </rdf:Bag>
+        </bqmodel:isDescribedBy>
+        <bqbiol:occursIn>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+          </rdf:Bag>
+        </bqbiol:occursIn>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:taxonomy:520"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+        <bqbiol:hasVersion>
+          <rdf:Bag>
+            <rdf:li rdf:resource="urn:miriam:icd:A37"/>
+          </rdf:Bag>
+        </bqbiol:hasVersion>
+      </rdf:Description>
+    </rdf:RDF>
+  </annotation>
+  <listOfUnitDefinitions>
+    <unitDefinition metaid="metaid_0000071" id="substance" name="individuals">
+      <listOfUnits>
+        <unit kind="item"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000072" id="time" name="years">
+      <listOfUnits>
+        <unit kind="second" multiplier="31536000"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000073" id="days" name="days">
+      <listOfUnits>
+        <unit kind="second" multiplier="86400"/>
+      </listOfUnits>
+    </unitDefinition>
+    <unitDefinition metaid="metaid_0000074" id="per_year" name="per_year">
+      <listOfUnits>
+        <unit kind="second" exponent="-1" multiplier="31536000"/>
+      </listOfUnits>
+    </unitDefinition>
+  </listOfUnitDefinitions>
+  <listOfCompartments>
+    <compartment metaid="metaid_0000027" id="env" name="environment" size="1" sboTerm="SBO:0000290">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000027">
+            <bqmodel:is>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0043245"/>
+              </rdf:Bag>
+            </bqmodel:is>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </compartment>
+  </listOfCompartments>
+  <listOfSpecies>
+    <species metaid="metaid_0000028" id="N" compartment="env" initialConcentration="1" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000028">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000029" id="S" compartment="env" initialConcentration="0.0588912" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000029">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000030" id="I_1" compartment="env" initialConcentration="0.003775" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000030">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:520"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000031" id="I_2" compartment="env" initialConcentration="1e-06" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000031">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:520"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000032" id="R_1" compartment="env" initialConcentration="0.93733" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000032">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000033" id="R_2" compartment="env" initialConcentration="0" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000033">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000034" id="I_1p" compartment="env" initialConcentration="0" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000034">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:520"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000035" id="I_2p" compartment="env" initialConcentration="0" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000035">
+            <bqbiol:hasVersion>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:520"/>
+              </rdf:Bag>
+            </bqbiol:hasVersion>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+    <species metaid="metaid_0000036" id="R_p" compartment="env" initialConcentration="0" hasOnlySubstanceUnits="true" sboTerm="SBO:0000240">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000036">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:taxonomy:9606"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </species>
+  </listOfSpecies>
+  <listOfParameters>
+    <parameter metaid="metaid_0000003" id="mu" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">birth/death rate</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000004" id="l_e" name="life expectancy" value="50" units="time"/>
+    <parameter metaid="metaid_0000005" id="beta_1" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">transmission rate pathogen 1</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000006" id="R0_1" value="17" units="dimensionless">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">basic reproductive ratio (beta/gamma) pathogen 1 </p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000007" id="gamma_1" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">recovery rate from disease 1</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000008" id="beta_2" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">transmission rate pathogen 2</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000009" id="R0_2" value="17" units="dimensionless">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">basic reproductive ratio (beta/gamma) pathogen 2</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000010" id="gamma_2" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">recovery rate from disease 2</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000011" id="tInf_1" name="infectious period 1" value="21" units="days"/>
+    <parameter metaid="metaid_0000012" id="tInf_2" name="infectious period 2" value="21" units="days"/>
+    <parameter metaid="metaid_0000013" id="sigma" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">rate of immunity loss</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000014" id="tImm" name="immune period" value="20" units="time"/>
+    <parameter metaid="metaid_0000015" id="Lambda_1" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">force of infection strain 1</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000016" id="Lambda_2" units="per_year" constant="false">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">force of infection strain 1</p>
+      </notes>
+    </parameter>
+    <parameter metaid="metaid_0000017" id="I_1_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000018" id="I_2_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000019" id="S_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000020" id="R1_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000021" id="R2_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000022" id="Rp_frac" units="dimensionless" constant="false"/>
+    <parameter metaid="metaid_0000023" id="psi" value="0.2" units="dimensionless">
+      <notes>
+        <p xmlns="http://www.w3.org/1999/xhtml">cross-immunity</p>
+      </notes>
+    </parameter>
+  </listOfParameters>
+  <listOfRules>
+    <assignmentRule metaid="metaid_0000037" variable="mu">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <cn type="integer"> 1 </cn>
+          <ci> l_e </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000038" variable="beta_1">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> R0_1 </ci>
+          <ci> gamma_1 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000039" variable="gamma_1">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <cn type="integer"> 365 </cn>
+          <ci> tInf_1 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000040" variable="beta_2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <times/>
+          <ci> R0_2 </ci>
+          <ci> gamma_2 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000041" variable="gamma_2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <cn type="integer"> 365 </cn>
+          <ci> tInf_2 </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000042" variable="sigma">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <cn type="integer"> 1 </cn>
+          <ci> tImm </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000043" variable="Lambda_1">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <ci> beta_1 </ci>
+            <apply>
+              <plus/>
+              <ci> I_1 </ci>
+              <ci> I_1p </ci>
+            </apply>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000044" variable="Lambda_2">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <times/>
+            <ci> beta_2 </ci>
+            <apply>
+              <plus/>
+              <ci> I_2 </ci>
+              <ci> I_2p </ci>
+            </apply>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000045" variable="I_1_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <plus/>
+            <ci> I_1 </ci>
+            <ci> I_1p </ci>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000046" variable="I_2_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <plus/>
+            <ci> I_2 </ci>
+            <ci> I_2p </ci>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000047" variable="S_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <ci> S </ci>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000048" variable="R1_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <plus/>
+            <ci> R_1 </ci>
+            <ci> R_p </ci>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000049" variable="R2_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <apply>
+            <plus/>
+            <ci> R_2 </ci>
+            <ci> R_p </ci>
+          </apply>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+    <assignmentRule metaid="metaid_0000050" variable="Rp_frac">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <apply>
+          <divide/>
+          <ci> R_p </ci>
+          <ci> N </ci>
+        </apply>
+      </math>
+    </assignmentRule>
+  </listOfRules>
+  <listOfReactions>
+    <reaction metaid="metaid_0000051" id="r1" name="Birth" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000051">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0007567"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="N"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> N </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000052" id="r2" name="Death in S" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000052">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="S"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> S </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000053" id="r3" name="Death in I_1" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000053">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="I_1"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> I_1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000054" id="r4" name="Death in I_2" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000054">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="I_2"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> I_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000055" id="r5" name="Death in R_1" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000055">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="R_1"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> R_1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000056" id="r6" name="Death in R_2" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000056">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="R_2"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> R_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000057" id="r7" name="Death in I_1p" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000057">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="I_1p"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> I_1p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000058" id="r8" name="Death in I_2p" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000058">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="I_2p"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> I_2p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000059" id="r9" name="Death in R_p" reversible="false" sboTerm="SBO:0000375">
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+          <rdf:Description rdf:about="#metaid_0000059">
+            <bqbiol:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016265"/>
+              </rdf:Bag>
+            </bqbiol:isVersionOf>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+      <listOfReactants>
+        <speciesReference species="R_p"/>
+      </listOfReactants>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mu </ci>
+            <ci> R_p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000060" id="r10" name="Primary Infection with strain 1" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="S"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="I_1"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="I_1"/>
+        <modifierSpeciesReference species="I_1p"/>
+        <modifierSpeciesReference species="N"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> beta_1 </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <plus/>
+                <ci> I_1 </ci>
+                <ci> I_1p </ci>
+              </apply>
+              <ci> N </ci>
+            </apply>
+            <ci> S </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000061" id="r11" name="Primary Infection with strain 2" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="S"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="I_2"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="I_2"/>
+        <modifierSpeciesReference species="I_2p"/>
+        <modifierSpeciesReference species="N"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> beta_2 </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <plus/>
+                <ci> I_2 </ci>
+                <ci> I_2p </ci>
+              </apply>
+              <ci> N </ci>
+            </apply>
+            <ci> S </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000062" id="r12" name="Secondary Infection with strain 1" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="R_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="I_1p"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="I_1"/>
+        <modifierSpeciesReference species="I_1p"/>
+        <modifierSpeciesReference species="N"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <cn type="integer"> 1 </cn>
+                  <ci> psi </ci>
+                </apply>
+                <ci> beta_1 </ci>
+                <apply>
+                  <plus/>
+                  <ci> I_1 </ci>
+                  <ci> I_1p </ci>
+                </apply>
+              </apply>
+              <ci> N </ci>
+            </apply>
+            <ci> R_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000063" id="r13" name="Secondary Infection with strain 2" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="R_1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="I_2p"/>
+      </listOfProducts>
+      <listOfModifiers>
+        <modifierSpeciesReference species="I_2"/>
+        <modifierSpeciesReference species="I_2p"/>
+        <modifierSpeciesReference species="N"/>
+      </listOfModifiers>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <cn type="integer"> 1 </cn>
+                  <ci> psi </ci>
+                </apply>
+                <ci> beta_2 </ci>
+                <apply>
+                  <plus/>
+                  <ci> I_2 </ci>
+                  <ci> I_2p </ci>
+                </apply>
+              </apply>
+              <ci> N </ci>
+            </apply>
+            <ci> R_1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000064" id="r14" name="Recovery (I_1)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="I_1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="R_1"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> gamma_1 </ci>
+            <ci> I_1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000065" id="r15" name="Recovery (I_2)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="I_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="R_2"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> gamma_2 </ci>
+            <ci> I_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000066" id="r16" name="Recovery (I_1p)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="I_1p"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="R_p"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> gamma_1 </ci>
+            <ci> I_1p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000067" id="r17" name="Recovery (I_2p)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="I_2p"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="R_p"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> gamma_2 </ci>
+            <ci> I_2p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000068" id="r18" name="Loss of Immunity (R_1)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="R_1"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> sigma </ci>
+            <ci> R_1 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000069" id="r19" name="Loss of Immunity (R_2)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="R_2"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> sigma </ci>
+            <ci> R_2 </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+    <reaction metaid="metaid_0000070" id="r20" name="Loss of Immunity (R_p)" reversible="false" sboTerm="SBO:0000375">
+      <listOfReactants>
+        <speciesReference species="R_p"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="S"/>
+      </listOfProducts>
+      <kineticLaw>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> sigma </ci>
+            <ci> R_p </ci>
+          </apply>
+        </math>
+      </kineticLaw>
+    </reaction>
+  </listOfReactions>
+</model>
+</sbml>
