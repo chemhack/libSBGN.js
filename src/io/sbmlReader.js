@@ -9,6 +9,7 @@ goog.require('sb.Box');
 goog.require('sb.Point');
 goog.require('goog.asserts');
 goog.require('goog.debug.Logger');
+goog.require('sb.util.dom');
 
 /**
  * Reader of sbgn class
@@ -68,25 +69,70 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
     goog.asserts.assert(xmlDocument.documentElement);
     //this.traverse(xmlDocument.documentElement);
     //this.onElementOpen(element);
+    this.logger.finer('test ing');
+    sb.util.dom.forEachElementByName(xmlDocument.documentElement.childNodes, 'model', function (model){
+        /*sb.util.dom.forEachElementByName(model, 'listOfReactions', function(reaction){
+            console.log('reaction: 'reaction.getAttribute('id'));
+            /*sb.util.dom.forEachElementByName(reaction, 'listOfReactants', function(item){
+                console.log('reactand: '+item.getAttribute('species'));
+            });
+            sb.util.dom.forEachElementByName(reaction, 'listOfProducts', function(item){
+                console.log('prodct: '+item.getAttribute('species'));
+            });
+            sb.util.dom.forEachElementByName(reaction, 'listOfModifiers', function(item){
+                console.log('modifier: '+item.getAttribute('species'));
+            });
+        }, this);
+        */
+    }, this);
+    /*
     goog.array.forEach(xmlDocument.documentElement.childNodes, function (model) {//get model
         if (model.nodeType == goog.dom.NodeType.ELEMENT) {
             var tagName = model.tagName;
             tagName = tagName ? tagName.toLocaleLowerCase() : null;
             if (tagName == 'model'){
+
                 goog.array.forEach(model.childNodes, function (xmlElement) {
                     if (xmlElement.nodeType == goog.dom.NodeType.ELEMENT) {
                         tagName = xmlElement.tagName;
                         tagName = tagName ? tagName.toLocaleLowerCase() : null;
                         if (tagName == 'listofreactions'){
-                            goog.array.forEach(model.childNodes, function (xmlElement) {
-                                if (xmlElement.nodeType == goog.dom.NodeType.ELEMENT) {
-                                    tagName = xmlElement.tagName;
+
+                            goog.array.forEach(xmlElement.childNodes, function (xmlElement1) {
+                                if (xmlElement1.nodeType == goog.dom.NodeType.ELEMENT) {
+                                    tagName = xmlElement1.tagName;
+                                    console.log('t '+tagName+ ' id: '+ xmlElement1.getAttribute('id'));
                                     tagName = tagName ? tagName.toLocaleLowerCase() : null;
-                                    var node = this.document_.createNode(xmlElement.getAttribute('id'));
-                                    var glyph_class = xmlElement.getAttribute('class');
-                                    if (tagName == 'listofreactions'){
-                                        //foobar
-                                    }
+                                    // ********************************** 
+                                    var node = this.document_.createNode(xmlElement1.getAttribute('id'));
+                                    var glyph_class = xmlElement.getAttribute('process');
+                                    //var arc = this.document_.createArc(nodeId);
+                                    //arc.type(arc_class);
+                                    // ********************************** 
+                                    //var node = this.document_.createNode(xmlElement1.getAttribute('id'));
+                                    //var glyph_class = xmlElement1.getAttribute('class');
+
+                                    goog.array.forEach(xmlElement1.childNodes, function (xmlElement2) {
+                                        //if (xmlElement2.nodeType == goog.dom.NodeType.ELEMENT) {
+                                            //console.log('bla '+xmlElement2.nodeType);
+                                            tagName = xmlElement2.tagName;
+                                            if (tagName == 'listOfReactants'){
+                                                goog.array.forEach(xmlElement2.childNodes, function (xmlElement3) {
+                                                    if (xmlElement3.nodeType == goog.dom.NodeType.ELEMENT) console.log('reactand: '+xmlElement3.getAttribute('species'));
+                                                }, this);
+                                            }
+                                            if (tagName == 'listOfProducts'){
+                                                goog.array.forEach(xmlElement2.childNodes, function (xmlElement3) {
+                                                    if (xmlElement3.nodeType == goog.dom.NodeType.ELEMENT) console.log('product: '+xmlElement3.getAttribute('species'));
+                                                }, this);
+                                            }
+                                            if (tagName == 'listOfModifiers'){
+                                                goog.array.forEach(xmlElement2.childNodes, function (xmlElement3) {
+                                                    if (xmlElement3.nodeType == goog.dom.NodeType.ELEMENT) console.log('modifier: '+xmlElement3.getAttribute('species'));
+                                                }, this);
+                                            }
+                                        //}
+                                    }, this);
                                 }
                             }, this);
                             //foobar
@@ -96,6 +142,7 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
             }
         }
     }, this);
+    */
 
     //this.onElementClose(element);
     /*

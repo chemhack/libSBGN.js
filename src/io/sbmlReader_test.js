@@ -1,4 +1,4 @@
-goog.provide('sb.io.sbgnReaderTest');
+goog.provide('sb.io.sbmlReaderTest');
 
 goog.require('goog.testing.jsunit');
 goog.require('sb.io.SbmlReader');
@@ -18,22 +18,23 @@ function setUp() {
 
 function testRead01() {
     var reader = new sb.io.SbmlReader();
-    var doc = reader.parseText(_allData['sbml/BIOMD0000000001.xml'].content);
-    assertEquals('entity relationship', doc.attr('language'));
+    var doc = reader.parseText(_allData['sbml/BIOMD0000000007.xml'].content);
+    /*assertEquals('entity relationship', doc.attr('language'));
     assertEquals('Sense', doc.node('g1').label());
     assertEquals(sb.NodeType.UnitOfInformation, doc.node('g1_1').type());
     assertEquals(doc.node('g2'), doc.arc('a1').target());
+    */
     dumpDocument(doc);
 }
 
-function testAllFilesHasNoError() {
+/*function testAllFilesHasNoError() {
     var reader = new sb.io.SbgnReader();
     goog.object.forEach(_allData, function (value, key, object) {
         if (goog.string.startsWith(key, "sbml/")) {
             reader.parseText(value.content);
         }
     }, this);
-}
+}*/
 
 
 function dumpDocument(doc) {
