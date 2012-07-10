@@ -14,7 +14,7 @@ def add_data_files(test_files, dirname, names):
   """File names that end in "_test.html" are added to test_files.""" 
   for name in names: 
     path = os.path.join(dirname, name) 
-    if os.path.isfile(path) and name.endswith('.sbgn'):
+    if os.path.isfile(path) and (name.endswith('.sbgn') or name.endswith('.json') or name.endswith('.jsbgn') or name.endswith('.xml')):
       pathArg = path.replace('\\', '/').replace('./','')
       test_files.append(pathArg)
       
