@@ -4,6 +4,7 @@ goog.provide('sb.Language');
 goog.require('sb.Node');
 goog.require('sb.Arc');
 goog.require('sb.Port');
+goog.require('sb.ArcGroup');
 
 goog.require('goog.structs.Map');
 goog.require('goog.array');
@@ -42,6 +43,13 @@ sb.Document = function (opt_id) {
     this.portIdSeq_ = 1;
 
     /**
+     * The sequence variable used to arc group port id.
+     * @type {number}
+     * @private
+     */
+    this.arcGroupIdSeq_ = 1;
+
+    /**
      * Id-Object map of all elements.
      * @type {goog.structs.Map}
      * @private
@@ -49,21 +57,36 @@ sb.Document = function (opt_id) {
     this.elementMap_ = new goog.structs.Map();
 
     /**
-     * Node map
+     * Node array
      * @type {Array.<sb.Node>}
      * @private
      */
     this.nodes_ = [];
 
     /**
-     * Arc map
+     * Arc array
      * @type {Array.<sb.Arc>}
      * @private
      */
     this.arcs_ = [];
+
+    /**
+     * Port array
+     * @type {Array.<sb.Port>}
+     * @private
+     */
+    this.ports_ = [];
+
+    /**
+     * Arc group array
+     * @type {Array.<sb.ArcGroup>}
+     * @private
+     */
+    this.arcGroups_ = [];
+
 };
 
-goog.inherits(sb.Document,sb.model.AttributeObject);
+goog.inherits(sb.Document, sb.model.AttributeObject);
 
 /**
  * Create a new node within the document.
@@ -74,7 +97,7 @@ goog.inherits(sb.Document,sb.model.AttributeObject);
 sb.Document.prototype.createNode = function (opt_id) {
     var id = opt_id ? opt_id : this.nextNodeId_();
     var node = /** @type{sb.Node} */ new sb.Node(this).id(id);
-    goog.array.insert(this.nodes_,node);
+    goog.array.insert(this.nodes_, node);
     return node;
 };
 
@@ -115,7 +138,7 @@ sb.Document.prototype.nodes = function (opt_noSubNodes) {
  */
 sb.Document.prototype.node = function (id) {
     var element = this.element(id);
-    if(element instanceof sb.Node){
+    if (element instanceof sb.Node) {
         return element;
     }
     return null;
@@ -139,8 +162,16 @@ sb.Document.prototype.element = function (id) {
 sb.Document.prototype.createArc = function (opt_id) {
     var id = opt_id ? opt_id : this.nextArcId_();
     var arc = /** @type{sb.Arc}*/ new sb.Arc(this).id(id);
-    goog.array.insert(this.arcs_,arc);
+    goog.array.insert(this.arcs_, arc);
     return arc;
+};
+
+//TODO: write arc group
+sb.Document.prototype.createArcGroup = function (opt_id) {
+    var id = opt_id ? opt_id : this.nextArcGroupId_();
+    var arcGroup = /** @type{sb.ArcGroup}*/ new sb.ArcGroup(this).id(id);
+    goog.array.insert(this.arcGroups_, arcGroup);
+    return arcGroup;
 };
 
 /**
@@ -170,6 +201,20 @@ sb.Document.prototype.nextArcId_ = function () {
     }
 };
 
+/**
+ * Get next unused arc group id.
+ * @return {string}
+ * @private
+ */
+sb.Document.prototype.nextArcGroupId_ = function () {
+    var nextArcGroupId_ = "arcGroup" + this.arcGroupIdSeq_++;
+    if (this.element(nextArcGroupId_)) {
+        return this.nextArcGroupId_();
+    } else {
+        return nextArcGroupId_;
+    }
+};
+
 
 /**
  * Readonly. Get all arcs within the document.
@@ -188,7 +233,7 @@ sb.Document.prototype.arcs = function () {
  */
 sb.Document.prototype.arc = function (id) {
     var element = this.element(id);
-    if(element instanceof sb.Arc){
+    if (element instanceof sb.Arc) {
         return element;
     }
     return null;
@@ -234,7 +279,7 @@ sb.Document.prototype.nextPortId_ = function () {
 sb.Document.prototype.createPort = function (opt_id) {
     var id = opt_id ? opt_id : this.nextPortId_();
     var port = /** @type{sb.Port} */ new sb.Port(this).id(id);
-//    goog.array.insert(this.nodes_,node); TODO: decide if a this.ports_ is needed
+    goog.array.insert(this.ports_, port);
     return port;
 };
 
@@ -243,13 +288,13 @@ sb.Document.prototype.createPort = function (opt_id) {
  * @param {sb.Language=} opt_lang
  * @return {sb.Language|sb.Document} language type or sb.Document for chaining
  */
-sb.Document.prototype.lang=function(opt_lang){
+sb.Document.prototype.lang = function (opt_lang) {
     if (goog.isDef(opt_lang)) {
-        if (!goog.object.containsValue(sb.Language,opt_lang)) {
+        if (!goog.object.containsValue(sb.Language, opt_lang)) {
             throw new Error('Given SBGN language type ' + opt_lang + ' is not supported.');
         }
     }
-    return /** @type{sb.Language|sb.Document} */ this.attr('language',opt_lang);
+    return /** @type{sb.Language|sb.Document} */ this.attr('language', opt_lang);
 };
 
 /**
@@ -257,7 +302,7 @@ sb.Document.prototype.lang=function(opt_lang){
  * @enum {string}
  * @export
  */
-sb.Language={
+sb.Language = {
     AF:'activity flow',
     ER:'entity relationship',
     PD:'process description'

@@ -5,6 +5,7 @@ goog.require('goog.structs.Map');
 /**
  * Base class for attribute support
  * @constructor
+ * @export
  */
 sb.model.AttributeObject=function(){
 

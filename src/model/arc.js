@@ -89,9 +89,19 @@ sb.Arc.prototype.createPort = function (opt_id) {
  * @param {sb.Point=} opt_startPoint
  * @return {sb.Point|sb.Arc}
  */
-//TODO: support start(x,y)
 sb.Arc.prototype.start = function (opt_startPoint) {
     return /** @type{sb.Point|sb.Arc}*/this.attr('start', opt_startPoint);
+};
+
+
+/**
+ * Setter of arc starting point.
+ * @see {#start}
+ * @param {number} x
+ * @param {number} y
+ */
+sb.Arc.prototype.startXY=function(x,y){
+    this.start(new sb.Point(x,y));
 };
 
 /**
@@ -99,9 +109,18 @@ sb.Arc.prototype.start = function (opt_startPoint) {
  * @param {sb.Point=} opt_endPoint
  * @return {sb.Point|sb.Arc}
  */
-//TODO: support start(x,y)
 sb.Arc.prototype.end = function (opt_endPoint) {
     return /** @type{sb.Point|sb.Arc}*/this.attr('end', opt_endPoint);
 };
 
-//TODO: add middle point support
+/**
+ * Setter of arc starting point.
+ * @see {#end}
+ * @param x
+ * @param y
+ */
+sb.Arc.prototype.endXY=function(x,y){
+    this.end(new sb.Point(x,y));
+};
+
+//TODO: add middle point support, find an example?
