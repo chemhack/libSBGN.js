@@ -14,12 +14,7 @@ goog.require('sb.model.AttributeObject');
  * @export
  */
 sb.ArcGroup = function (document) {
-    goog.base(this);
-    /**
-     * @private
-     * @type {sb.Document}
-     */
-    this.document_ = document;
+    goog.base(this,document);
 };
 
 goog.inherits(sb.ArcGroup, sb.model.Element);
