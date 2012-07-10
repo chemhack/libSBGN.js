@@ -20,7 +20,6 @@ sb.util.Stack = function () {
  * @param {*} element
  */
 sb.util.Stack.prototype.push = function (element) {
-    //TODO check goog.array.insert
     this.array_.push(element);
 };
 
