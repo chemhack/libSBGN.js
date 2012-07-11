@@ -68,7 +68,8 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
     this.delayedArcArray_ = [];
     var xmlDocument = this.parseXmlText(text);
     goog.asserts.assert(xmlDocument.documentElement);
-                
+    var node2compartment = {};
+
     sb.util.dom.forEachElementByName(xmlDocument.documentElement, 'model', function (model){
         sb.util.dom.forEachElementByName(model, 'listOfCompartments', function(lo){
             sb.util.dom.forEachElement(lo, function(species){
@@ -81,17 +82,21 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
                 //FIXME add compartment
                 var species_id = species.getAttribute('id');
                 var name_and_id = species.getAttribute('id')+species.getAttribute('name');
+                var compartment = this.document_.node(species.getAttribute('compartment'));
+                compartment.addChild(node);
+                node2compartment[species_id] = compartment;
+                //console.log(goog.dom.xml.serialize(species).indexOf("urn:miriam:uniprot") );
+                //console.log(goog.dom.xml.serialize(species));
                 if ((name_and_id.toLowerCase().indexOf("sink") != -1)|| (name_and_id.toLowerCase().indexOf('emptyset') != -1)){// guess type by attribute
                     node.type('source and sink');
                 }else if ((name_and_id.toLowerCase().indexOf("dna") != -1)|| (name_and_id.toLowerCase().indexOf("rna") != -1)){
                     node.type('nucleic acid feature');
-                //}else if(species.hasChild('annotation')){ // check if the species contains an annotation
-                    //FIXME
-                    /*if 'urn:miriam:obo.chebi' in resource:
-                    if 'urn:miriam:pubchem' in resource:
-                    if 'urn:miriam:uniprot' in resource:*/
-                    //node.type('macromolecule');
-                    //node.type('simple chemical');
+                }else if(goog.dom.xml.serialize(species).indexOf("urn:miriam:obo.chebi") != -1){ //FIXME this does not seem to find anything
+                    node.type('simple chemical');
+                }else if(goog.dom.xml.serialize(species).indexOf("urn:miriam:pubchem") != -1){
+                    node.type('simple chemical');
+                }else if(goog.dom.xml.serialize(species).indexOf("urn:miriam:uniprot") != -1){
+                    node.type('macromolecule');
                 }else{
                     node.type('unspecified entity');
                 }
@@ -103,48 +108,51 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
                 var reaction_id = reaction.getAttribute('id');
                 var node = this.document_.createNode(reaction_id).type('process');
                 var reaction_compartment;
-                //FIXME add compartment
                 console.log('reaction_id '+reaction_id);
-                var has_reactands = false, has_products = false;
+                var has_reactands = false, has_products = false, compartment;
                 sb.util.dom.forEachElementByName(reaction, 'listOfReactants', function(lo){
                     sb.util.dom.forEachElement(lo, function(item){
-                        var source = item.getAttribute('species'); 
+                        var source = item.getAttribute('species');
                         var target = reaction_id;
                         var arc = this.document_.createArc(source+'_to_'+target).source(source).target(target).type('consumption');
                         has_reactands = true;
-                        //reaction_compartment = item.getAttribute('')//FIXME
-                    }, this)
+                        compartment = node2compartment[source];
+                    }, this);
                 }, this);
                 sb.util.dom.forEachElementByName(reaction, 'listOfProducts', function(lo){
                     sb.util.dom.forEachElement(lo, function(item){
                         var source = reaction_id;
-                        var target = item.getAttribute('species'); 
+                        var target = item.getAttribute('species');
                         var arc = this.document_.createArc(source+'_to_'+target).source(source).target(target).type('production');
                         has_products = true;
+                        compartment = node2compartment[target];
                     }, this);
                 }, this);
                 sb.util.dom.forEachElementByName(reaction, 'listOfModifiers', function(lo){
                     sb.util.dom.forEachElement(lo, function(item){
-                        var source = item.getAttribute('species'); 
+                        var source = item.getAttribute('species');
                         var target = reaction_id;
                         var arc = this.document_.createArc(source+'_to_'+target).source(source).target(target).type('modulation');
                         //FIXME look up SBO term for type, which element is SBO term attached to, I hope this one!
                     }, this);
                 }, this);
+                //add process node to compartment
+                compartment.addChild(node);
+                //check if sink source nodes need to be created
                 if (! has_reactands){
-                    var source = reaction_id+'_source'; 
-                    var node = this.document_.createNode(source).type('source and sink');
+                    var source = reaction_id+'_source';
+                    var node_source = this.document_.createNode(source).type('source and sink');
                     var target = reaction_id;
+                    compartment.addChild(node_source);
                     var arc = this.document_.createArc(source+'_to_'+target).source(source).target(target).type('consumption');
                 }
                 if (! has_products){
                     var target = reaction_id+'_sink';
-                    var node = this.document_.createNode(target).type('source and sink');
+                    var node_sink = this.document_.createNode(target).type('source and sink');
                     var source = reaction_id; 
+                    compartment.addChild(node_sink);
                     var arc = this.document_.createArc(source+'_to_'+target).source(source).target(target).type('production');
                 }
-
-                //compartment.addChild(node)//FIXME
             }, this);
         }, this);
         
