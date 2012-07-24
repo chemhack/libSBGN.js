@@ -3,6 +3,7 @@ goog.provide('sb.io');
 goog.require('sb.io.SbgnReader');
 goog.require('sb.io.Jsonp');
 goog.require('sb.io.JsbgnWriter');
+goog.require('sb.io.SbmlReader');
 goog.require('goog.debug.Logger');
 goog.require('goog.json');
 
