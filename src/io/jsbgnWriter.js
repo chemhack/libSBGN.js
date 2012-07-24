@@ -86,7 +86,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
     goog.array.forEach(doc.arcs(), function (arc) {
         var arcObj = {};
         arcObj['id'] = arc.id();
-        arcObj['sbo'] = 0; //TODO: do the sbo mapping
+        arcObj['sbo'] = sb.sbo.ArcTypeMapping[arc.type()]; //TODO: do the sbo mapping
         arcObj['source'] = arc.source().id();
         arcObj['target'] = arc.target().id(); //TODO: deal with state vars, etc
         var arcData = {};
