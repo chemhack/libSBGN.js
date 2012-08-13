@@ -4,11 +4,12 @@ goog.require('sb.Document');
 goog.require('sb.sbo.NodeTypeMapping');
 goog.require('goog.json');
 goog.require('goog.array');
+goog.require('goog.object');
 goog.require('goog.asserts');
 goog.require('goog.debug.Logger');
 
 /**
- * Reader of jsbgn
+ * Writer of jsbgn
  * @constructor
  * @export
  */
@@ -43,6 +44,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         if (goog.array.contains([sb.NodeType.UnitOfInformation, sb.NodeType.StateVariable], node.type())) {
             return;
         }
+
         var nodeObj = {};
         nodeObj['id'] = node.id();
         nodeObj['sbo'] = sb.sbo.NodeTypeMapping[node.type()];
@@ -81,17 +83,24 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
                 goog.array.insert(nodeData['subnodes'], subNode.id());
             }
         }, this);
+
+        if(goog.object.isEmpty(nodeData)){
+            goog.object.remove(nodeObj,'data');
+        }
+
         goog.array.insert(jsbgn['nodes'], nodeObj);
     }, this);
     goog.array.forEach(doc.arcs(), function (arc) {
         var arcObj = {};
         arcObj['id'] = arc.id();
-        arcObj['sbo'] = 0; //TODO: do the sbo mapping
+        arcObj['sbo'] = sb.sbo.ArcTypeMapping[arc.type()];
         arcObj['source'] = arc.source().id();
         arcObj['target'] = arc.target().id(); //TODO: deal with state vars, etc
         var arcData = {};
         arcObj['data'] = arcData;
-
+        if(goog.object.isEmpty(arcData)){
+            goog.object.remove(arcObj,'data');
+        }
         goog.array.insert(jsbgn['edges'], arcObj);
     }, this);
     return goog.json.serialize(jsbgn);

@@ -812,13 +812,16 @@ goog.addDependency("../../../../src/dummy/parser.js", ['sb.dummy'], ['goog.array
 goog.addDependency("../../../../src/io/io.js", ['sb.io'], ['sb.io.SbgnReader', 'sb.io.Jsonp', 'sb.io.JsbgnWriter', 'goog.debug.Logger', 'goog.json']);
 goog.addDependency("../../../../src/io/io_test.js", ['sb.io.ioTest'], ['goog.testing.jsunit', 'sb.util.log', 'sb.io']);
 goog.addDependency("../../../../src/io/jsbgnReader.js", ['sb.io.JsbgnReader'], ['sb.Document', 'goog.array', 'sb.Box', 'sb.Point', 'goog.asserts', 'goog.debug.Logger']);
-goog.addDependency("../../../../src/io/jsbgnWriter.js", ['sb.io.JsbgnWriter'], ['sb.Document', 'sb.sbo.NodeTypeMapping', 'goog.json', 'goog.array', 'goog.asserts', 'goog.debug.Logger']);
+goog.addDependency("../../../../src/io/jsbgnWriter.js", ['sb.io.JsbgnWriter'], ['sb.Document', 'sb.sbo.NodeTypeMapping', 'goog.json', 'goog.array', 'goog.object', 'goog.asserts', 'goog.debug.Logger']);
 goog.addDependency("../../../../src/io/jsbgnWriter_test.js", ['sb.io.jsbgnWriterTest'], ['goog.testing.jsunit', 'sb.io.JsbgnWriter', 'sb.io.SbgnReader']);
 goog.addDependency("../../../../src/io/jsonp.js", ['sb.io.Jsonp'], []);
 goog.addDependency("../../../../src/io/jsonp_test.js", ['sb.io.jsonpTest'], ['goog.testing.jsunit', 'sb.util.log']);
 goog.addDependency("../../../../src/io/sbgnReader.js", ['sb.io.SbgnReader'], ['sb.io.XmlReader', 'sb.Document', 'sb.util.Stack', 'goog.array', 'sb.Box', 'sb.Point', 'goog.asserts', 'goog.debug.Logger']);
 goog.addDependency("../../../../src/io/sbgnReader_test.js", ['sb.io.sbgnReaderTest'], ['goog.testing.jsunit', 'sb.io.SbgnReader', 'goog.dom', 'goog.array', 'goog.object', 'goog.string', 'goog.ui.tree.TreeControl', 'sb.util.log', 'sb.NodeType']);
-goog.addDependency("../../../../src/io/sbgnWriter.js", ['sb.io.SbgnWriter'], []);
+goog.addDependency("../../../../src/io/sbgnWriter.js", ['sb.io.SbgnWriter'], ['sb.Document', 'goog.dom.xml', 'goog.debug.Logger']);
+goog.addDependency("../../../../src/io/sbgnWriter_test.js", ['sb.io.sbgnWriterTest'], ['goog.testing.jsunit', 'sb.io', 'sb.io.SbgnWriter', 'sb.util.log']);
+goog.addDependency("../../../../src/io/sbmlReader.js", ['sb.io.SbmlReader'], ['sb.io.XmlReader', 'sb.Document', 'sb.util.Stack', 'goog.array', 'sb.Box', 'sb.Point', 'goog.asserts', 'goog.debug.Logger']);
+goog.addDependency("../../../../src/io/sbmlReader_test.js", ['sb.io.sbmlReaderTest'], ['goog.testing.jsunit', 'sb.io.SbmlReader', 'goog.dom', 'goog.array', 'goog.object', 'goog.string', 'goog.ui.tree.TreeControl', 'sb.util.log', 'sb.NodeType']);
 goog.addDependency("../../../../src/io/xmlReader.js", ['sb.io.XmlReader'], ['goog.dom.xml', 'goog.dom.NodeType', 'goog.array', 'goog.structs.Map', 'goog.debug', 'goog.debug.Logger']);
 goog.addDependency("../../../../src/model/arc.js", ['sb.Arc'], ['sb.ArcType', 'sb.ArcTypeHelper', 'sb.model.Element', 'sb.Port']);
 goog.addDependency("../../../../src/model/arc_test.js", ['sb.model.arcTest'], ['goog.testing.jsunit', 'sb.Document']);

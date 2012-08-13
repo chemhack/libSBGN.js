@@ -2,6 +2,7 @@ goog.provide('sb.io.JsbgnReader');
 
 goog.require('sb.Document');
 goog.require('goog.array');
+goog.require('goog.json');
 goog.require('sb.Box');
 goog.require('sb.Point');
 goog.require('goog.asserts');
@@ -43,6 +44,15 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     this.objStack_ = new sb.util.Stack();
     this.document_ = new sb.Document();
     this.compartments_ = [];
+    var jsonObj = goog.json.parse(text);
+    if (jsonObj && jsonObj['edges'] && jsonObj['nodes']) {
+        this.logger.fine('JSON parsed');
+        var edges=jsonObj['edges'];
+        var nodes=jsonObj['nodes'];
+
+    }else{
+        throw 'jsbgn JSON format error';
+    }
     return this.document_;
 };
 

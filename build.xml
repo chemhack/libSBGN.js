@@ -104,7 +104,7 @@
     <!-- Default Google Closure Compiler compilation levels -->
 
     <target name="compile-advanced" description="Compile with ADVANCED_OPTIMIZATIONS setting">
-        <calcdeps outputfile="compiled-advanced.js"/>
+        <calcdeps outputfile="libSBGN.js"/>
     </target>
 
     <target name="compile-simple" description="Compile with SIMPLE_OPTIMIZATIONS setting">
