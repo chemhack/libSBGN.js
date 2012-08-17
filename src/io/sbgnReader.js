@@ -65,6 +65,9 @@ sb.io.SbgnReader.prototype.parseText = function (text) {
     this.delayedArcArray_ = [];
     var xmlDocument = this.parseXmlText(text);
     goog.asserts.assert(xmlDocument.documentElement);
+    if(xmlDocument.documentElement.tagName.toLowerCase()!='sbgn'){
+        throw 'sbgn format error, root element is not <sbgn>';
+    }
     this.traverse(xmlDocument.documentElement);
     goog.asserts.assert(this.objStack_.array().length == 0);
     goog.array.forEach(this.delayedArcArray_, function (xmlElement) {
