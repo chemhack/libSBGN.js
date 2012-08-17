@@ -9,7 +9,7 @@ goog.require('sb.model.AttributeObject');
  * @constructor
  * @export
  */
-sb.model.Element=function(document){
+sb.model.Element = function (document) {
     goog.base(this);
 
     /**
@@ -29,11 +29,11 @@ sb.model.Element=function(document){
      * The parent node.
      * @type {sb.model.Element}
      */
-    this.parent = null;
+    this.parent_ = null;
 
 };
 
-goog.inherits(sb.model.Element,sb.model.AttributeObject);
+goog.inherits(sb.model.Element, sb.model.AttributeObject);
 
 /**
  * Setter/getter of arc id.
@@ -66,11 +66,11 @@ sb.model.Element.prototype.assertIdUnique_ = function (elementId) {
  * @export
  */
 sb.model.Element.prototype.addChild = function (element) {
-    if (element.parent) {
-        element.parent.removeChild(element);
+    if (element.parent_) {
+        element.parent_.removeChild(element);
     }
     goog.array.insert(this.children_, element);
-    element.parent = this;
+    element.parent_ = this;
 };
 
 /**
@@ -80,11 +80,11 @@ sb.model.Element.prototype.addChild = function (element) {
  */
 sb.model.Element.prototype.removeChild = function (element) {
     goog.array.remove(this.children_, element);
-    element.parent = null;
+    element.parent_ = null;
 };
 
 /**
- * Return array of child nodes. The array should be treated as read-only. Use sb.model.Element.prototype.addChild and sb.model.Element.prototype.removeChild to modify the child elements.
+ * Return array of child elements. The array should be treated as read-only. Use sb.model.Element.prototype.addChild and sb.model.Element.prototype.removeChild to modify the child elements.
  * @return {Array.<sb.model.Element>}
  * @export
  */
@@ -92,3 +92,11 @@ sb.model.Element.prototype.children = function () {
     return this.children_;
 };
 
+/**
+ * Return the parent element.
+ * @return {sb.model.Element}
+ * @export
+ */
+sb.model.Element.prototype.parent = function () {
+    return this.parent_;
+};

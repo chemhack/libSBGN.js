@@ -1,6 +1,9 @@
 goog.provide('sb.sbo.NodeTypeMapping');
 goog.provide('sb.sbo.ArcTypeMapping');
+goog.provide('sb.sbo.ReverseNodeTypeMapping');
+goog.provide('sb.sbo.ReverseArcTypeMapping');
 
+goog.require('goog.object');
 /**
  * Node type to sbo id mapping
  * @type {Object}
@@ -41,6 +44,13 @@ sb.sbo.NodeTypeMapping[sb.NodeType.Perturbation] = 405;
 sb.sbo.NodeTypeMapping[sb.NodeType.BiologicalActivity] = 412;
 
 /**
+ * Sbo id to node type mapping
+ * @type {Object}
+ * @export
+ */
+sb.sbo.ReverseNodeTypeMapping=goog.object.transpose(sb.sbo.NodeTypeMapping);
+
+/**
  * Arc type to sbo id mapping
  * @type {Object}
  * @export
@@ -64,4 +74,11 @@ sb.sbo.ArcTypeMapping[sb.ArcType.Catalysis] = 172;
 sb.sbo.ArcTypeMapping[sb.ArcType.Consumption] = 15;
 sb.sbo.ArcTypeMapping[sb.ArcType.Production] = 393;
 sb.sbo.ArcTypeMapping[sb.ArcType.Catalysis] = 13;
+
+/**
+ * Sbo id to arc type mapping;
+ * @type {Object}
+ * @export
+ */
+sb.sbo.ReverseArcTypeMapping=goog.object.transpose(sb.sbo.NodeTypeMapping);
 

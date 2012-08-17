@@ -124,7 +124,7 @@ sb.Document.prototype.nextNodeId_ = function () {
 sb.Document.prototype.nodes = function (opt_noSubNodes) {
     if (opt_noSubNodes) {
         return goog.array.filter(this.nodes_, function (node, idx, arr) {
-            return node.parent ? false : true;
+            return node.parent() ? false : true;
         });
     }
     return this.nodes_;

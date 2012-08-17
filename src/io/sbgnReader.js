@@ -115,8 +115,8 @@ sb.io.SbgnReader.prototype.onElementOpen = function (xmlElement) {
     } else if (tagName == 'arc') {
         this.logger.finest('arc arc_id: ' + nodeId);
         var arc = this.document_.createArc(nodeId);
-        if(!nodeId){
-            xmlElement.setAttribute('id',arc.id());
+        if (!nodeId) {
+            xmlElement.setAttribute('id', arc.id());
             this.logger.finest('no arc id, arc_id automatically set to: ' + xmlElement.getAttribute('id'));
         }
         var arc_class = xmlElement.getAttribute('class');
@@ -152,6 +152,11 @@ sb.io.SbgnReader.prototype.onElementOpen = function (xmlElement) {
         this.objStack_.push(this.document_);
     } else if (tagName == 'entity') {
         topElementInStack.attr('entity', xmlElement.getAttribute('name'));
+    } else if (tagName == 'state') {
+        topElementInStack.attr('variable', xmlElement.getAttribute('variable'));
+        topElementInStack.attr('variableValue', xmlElement.getAttribute('value'));
+    } else if (tagName == 'clone') {
+        topElementInStack.attr('clone',true);
     }
 };
 

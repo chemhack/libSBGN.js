@@ -36,9 +36,6 @@ sb.NodeType.MacromoleculeMultimer = 'macromolecule multimer';
 /**
  * @export
  */
-/**
- * @export
- */
 sb.NodeType.NucleicAcidFeatureMultimer = 'nucleic acid feature multimer';
 /**
  * @export

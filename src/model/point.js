@@ -23,11 +23,11 @@ sb.Point = function (opt_x, opt_y) {
     this.y = goog.isDef(opt_y) ? opt_y : 0;
 };
 
-///**
-// * Returns a new copy of the coordinate.
-// * @return {!sb.Point} A clone of this coordinate.
-// * @export
-// */
-//sb.Point.prototype.clone = function () {
-//    return new sb.Point(this.x, this.y);
-//};
+/**
+* Returns a new copy of the coordinate.
+* @return {!sb.Point} A clone of this coordinate.
+* @export
+*/
+sb.Point.prototype.clone = function () {
+    return new sb.Point(this.x, this.y);
+};

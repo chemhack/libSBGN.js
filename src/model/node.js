@@ -45,15 +45,15 @@ sb.Node.prototype.label = function (opt_label) {
     return /** @type{string|sb.Node}*/this.attr('label', opt_label);
 };
 
-/**
- * Setter/getter of clone marker attribute.
- * @param {boolean=} opt_clone boolean value to set
- * @return {boolean|sb.Node} current clone marker attribute value or sb.Node instance for chaining
- * @export
- */
-sb.Node.prototype.clone = function (opt_clone) {
-    return /** @type{boolean|sb.Node}*/this.attr('clone', opt_clone);
-};
+///**
+// * Setter/getter of clone marker attribute.
+// * @param {boolean=} opt_clone boolean value to set
+// * @return {boolean|sb.Node} current clone marker attribute value or sb.Node instance for chaining
+// * @export
+// */
+//sb.Node.prototype.clone = function (opt_clone) {
+//    return /** @type{boolean|sb.Node}*/this.attr('clone', opt_clone);
+//};
 
 
 /**

@@ -3,6 +3,8 @@ goog.provide('sb.io');
 goog.require('sb.io.SbgnReader');
 goog.require('sb.io.Jsonp');
 goog.require('sb.io.JsbgnWriter');
+goog.require('sb.io.SbmlReader');
+goog.require('sb.io.JsbmlReader');
 goog.require('goog.debug.Logger');
 goog.require('goog.json');
 
@@ -11,7 +13,7 @@ sb.io.logger_ = goog.debug.Logger.getLogger('sb.io');
 /**
  * Read a sb.Document from file content
  * @param {string} text File content in string.
- * @param {string} format currently only 'sbgn' is supported
+ * @param {string} format  'sbgn','jsbgn' and 'sbml' is supported
  * @return {sb.Document}
  * @export
  */
@@ -21,7 +23,12 @@ sb.io.read = function (text, format) {
     if (format == 'sbgn') {
         reader = new sb.io.SbgnReader();
         sb.io.logger_.fine("using sb.io.SbgnReader");
-    } else {
+    } else if (format == 'jsbgn') {
+        reader = new sb.io.JsbgnReader();
+    } else if (format=='sbml'){
+        reader=new sb.io.SbmlReader();
+    }
+    else {
         throw new Error("Format " + format + " not supported");
     }
     sb.io.logger_.fine('Parsing xml size:' + text.length);
@@ -54,7 +61,7 @@ sb.io.readUrl = function (url, format, callback_Success) {
  * @return {sb.Document}
  * @export
  */
-sb.io.write=function(doc,format){
+sb.io.write = function (doc, format) {
     var writer;
     if (format == 'jsbgn') {
         writer = new sb.io.JsbgnWriter();

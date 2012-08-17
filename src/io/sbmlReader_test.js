@@ -18,7 +18,7 @@ function setUp() {
 
 function testRead01() {
     var reader = new sb.io.SbmlReader();
-    var doc = reader.parseText(_allData['sbml/BIOMD0000000007.xml'].content);
+    var doc = reader.parseText(_allData['sbml/BIOMD0000000012.xml'].content);
     /*assertEquals('entity relationship', doc.attr('language'));
     assertEquals('Sense', doc.node('g1').label());
     assertEquals(sb.NodeType.UnitOfInformation, doc.node('g1_1').type());

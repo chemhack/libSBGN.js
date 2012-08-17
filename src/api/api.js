@@ -12,3 +12,4 @@ goog.require('sb.sbo.NodeTypeMapping');
 goog.require('sb.sbo.ArcTypeMapping');
 
 goog.require('sb.util.log');
+//TODO: export io classes

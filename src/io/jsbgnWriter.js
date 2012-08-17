@@ -38,7 +38,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         jsbgn['sbgnlang'] = sb.io.JsbgnWriter.sbgnlangMapping_[doc.lang()];
     }
     goog.array.forEach(doc.nodes(), function (node) {
-        if(node instanceof sb.Port){
+        if (node instanceof sb.Port) {
             return;
         }
         if (goog.array.contains([sb.NodeType.UnitOfInformation, sb.NodeType.StateVariable], node.type())) {
@@ -52,7 +52,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         var nodeData = {};
         nodeObj['data'] = nodeData;
 
-        if (node.clone()) {
+        if (node.attr('clone')) {
             nodeData['clone'] = true;
         }
         if (node.label()) {
@@ -66,7 +66,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
             nodeData['height'] = bbox.height;
         }
         goog.array.forEach(node.children(), function (subNode) {
-            if(subNode instanceof sb.Port){
+            if (subNode instanceof sb.Port) {
                 return;
             }
             if (subNode.type() == sb.NodeType.UnitOfInformation) {
@@ -75,7 +75,10 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
                 }
                 goog.array.insert(nodeData['unitofinformation'], subNode.label() ? subNode.label() : "");
             } else if (subNode.type() == sb.NodeType.StateVariable) {
-                //TODO: state variable
+                if (!nodeData['statevariable']) {
+                    nodeData['statevariable'] = [];
+                }
+                goog.array.insert(nodeData['statevariable'], subNode.attr('variable'));
             } else {
                 if (!nodeData['subnodes']) {
                     nodeData['subnodes'] = [];
@@ -84,8 +87,8 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
             }
         }, this);
 
-        if(goog.object.isEmpty(nodeData)){
-            goog.object.remove(nodeObj,'data');
+        if (goog.object.isEmpty(nodeData)) {
+            goog.object.remove(nodeObj, 'data');
         }
 
         goog.array.insert(jsbgn['nodes'], nodeObj);
@@ -95,11 +98,16 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         arcObj['id'] = arc.id();
         arcObj['sbo'] = sb.sbo.ArcTypeMapping[arc.type()];
         arcObj['source'] = arc.source().id();
-        arcObj['target'] = arc.target().id(); //TODO: deal with state vars, etc
+        var target = arc.target();
+        var targetId = target.id();
+        if (target.type() == sb.NodeType.StateVariable) { //source and targets are of the format node_id:subnode_id if the node contains a state variable
+            targetId = target.parent().id() + ":" + target.id();
+        }
+        arcObj['target'] = targetId;
         var arcData = {};
         arcObj['data'] = arcData;
-        if(goog.object.isEmpty(arcData)){
-            goog.object.remove(arcObj,'data');
+        if (goog.object.isEmpty(arcData)) {
+            goog.object.remove(arcObj, 'data');
         }
         goog.array.insert(jsbgn['edges'], arcObj);
     }, this);
