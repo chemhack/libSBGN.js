@@ -809,7 +809,7 @@ goog.addDependency("../../../../src/all_tests.js", [], []);
 goog.addDependency("../../../../src/deps.js", [], []);
 goog.addDependency("../../../../src/api/api.js", [], ['sb.Document', 'sb.Node', 'sb.NodeType', 'sb.Arc', 'sb.ArcType', 'sb.Point', 'sb.Box', 'sb.io', 'sb.sbo.NodeTypeMapping', 'sb.sbo.ArcTypeMapping', 'sb.util.log']);
 goog.addDependency("../../../../src/dummy/parser.js", ['sb.dummy'], ['goog.array', 'goog.dom.xml']);
-goog.addDependency("../../../../src/io/io.js", ['sb.io'], ['sb.io.SbgnReader', 'sb.io.Jsonp', 'sb.io.JsbgnWriter', 'sb.io.SbmlReader', 'sb.io.JsbmlReader', 'goog.debug.Logger', 'goog.json']);
+goog.addDependency("../../../../src/io/io.js", ['sb.io'], ['sb.io.SbgnReader', 'sb.io.SbgnWriter', 'sb.io.Jsonp', 'sb.io.JsbgnWriter', 'sb.io.JsbgnReader', 'sb.io.SbmlReader', 'goog.debug.Logger', 'goog.json']);
 goog.addDependency("../../../../src/io/io_test.js", ['sb.io.ioTest'], ['goog.testing.jsunit', 'sb.util.log', 'sb.io']);
 goog.addDependency("../../../../src/io/jsbgnReader.js", ['sb.io.JsbgnReader'], ['sb.Document', 'goog.array', 'goog.json', 'sb.Box', 'sb.Point', 'sb.util.Stack', 'goog.asserts', 'goog.debug.Logger', 'sb.sbo.ReverseNodeTypeMapping']);
 goog.addDependency("../../../../src/io/jsbgnReader_test.js", ['sb.io.jsbgnReaderTest'], ['goog.testing.jsunit', 'sb.io.JsbgnReader', 'goog.array', 'goog.object', 'goog.string', 'sb.util.log', 'sb.NodeType']);

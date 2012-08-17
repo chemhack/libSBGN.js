@@ -1,10 +1,11 @@
 goog.provide('sb.io');
 
 goog.require('sb.io.SbgnReader');
+goog.require('sb.io.SbgnWriter');
 goog.require('sb.io.Jsonp');
 goog.require('sb.io.JsbgnWriter');
+goog.require('sb.io.JsbgnReader');
 goog.require('sb.io.SbmlReader');
-goog.require('sb.io.JsbmlReader');
 goog.require('goog.debug.Logger');
 goog.require('goog.json');
 
@@ -66,6 +67,9 @@ sb.io.write = function (doc, format) {
     if (format == 'jsbgn') {
         writer = new sb.io.JsbgnWriter();
         sb.io.logger_.fine("using sb.io.JsbgnWriter");
+    } else if(format=='sbgn'){
+        writer=new sb.io.SbgnWriter();
+        sb.io.logger_.fine("using sb.io.SbgnWriter");
     } else {
         throw new Error("Format " + format + " not supported");
     }
