@@ -14,20 +14,22 @@ sb.io.logger_ = goog.debug.Logger.getLogger('sb.io');
 /**
  * Read a sb.Document from file content
  * @param {string} text File content in string.
- * @param {string} format  'sbgn','jsbgn' and 'sbml' is supported
+ * @param {string} format  'sbgn-ml','jsbgn' and 'sbml' is supported
  * @return {sb.Document}
  * @export
  */
 sb.io.read = function (text, format) {
     sb.io.logger_.fine("Reading format: " + format);
     var reader;
-    if (format == 'sbgn') {
+    if (format == 'sbgn-ml') {
         reader = new sb.io.SbgnReader();
         sb.io.logger_.fine("using sb.io.SbgnReader");
     } else if (format == 'jsbgn') {
         reader = new sb.io.JsbgnReader();
+        sb.io.logger_.fine("using sb.io.JsbgnReader");
     } else if (format=='sbml'){
         reader=new sb.io.SbmlReader();
+        sb.io.logger_.fine("using sb.io.SbmlReader");
     }
     else {
         throw new Error("Format " + format + " not supported");
@@ -40,7 +42,7 @@ sb.io.read = function (text, format) {
 /**
  * Load a document from a url. NOTE: The data will go through our proxy server.
  * @param {string} url URL of file to load. Only http and https is supported. Can be on any server.
- * @param {string} format currently only 'sbgn' is supported
+ * @param {string} format currently only 'sbgn-ml' is supported
  * @export
  */
 sb.io.readUrl = function (url, format, callback_Success) {
@@ -67,7 +69,7 @@ sb.io.write = function (doc, format) {
     if (format == 'jsbgn') {
         writer = new sb.io.JsbgnWriter();
         sb.io.logger_.fine("using sb.io.JsbgnWriter");
-    } else if(format=='sbgn'){
+    } else if(format=='sbgn-ml'){
         writer=new sb.io.SbgnWriter();
         sb.io.logger_.fine("using sb.io.SbgnWriter");
     } else {
