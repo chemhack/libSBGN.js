@@ -60,7 +60,7 @@ sb.io.readUrl = function (url, format, callback_Success) {
 /**
  * Write a sb.Document to text string
  * @param {sb.Document} doc document to write
- * @param {string} format currently only 'jsbgn' is supported
+ * @param {string} format currently only 'jsbgn' and 'sbgn-ml' is supported
  * @return {sb.Document}
  * @export
  */
