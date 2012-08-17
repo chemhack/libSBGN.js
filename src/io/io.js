@@ -8,17 +8,45 @@ goog.require('sb.io.JsbgnReader');
 goog.require('sb.io.SbmlReader');
 goog.require('goog.debug.Logger');
 goog.require('goog.json');
+goog.require('goog.array');
 
 sb.io.logger_ = goog.debug.Logger.getLogger('sb.io');
 
 /**
  * Read a sb.Document from file content
  * @param {string} text File content in string.
- * @param {string} format  'sbgn-ml','jsbgn' and 'sbml' is supported
+ * @param {string} format  'sbgn-ml','jsbgn' and 'sbml' is supported, if not given, will try auto-detection.
  * @return {sb.Document}
  * @export
  */
 sb.io.read = function (text, format) {
+    if (format) {
+        return sb.io.read_(text, format);
+    } else {
+        var result;
+        goog.array.find(['jsbgn', 'sbgn-ml', 'sbml'], function (formatToTest) {
+            try {
+                var doc = sb.io.read_(text, formatToTest);
+                if (doc) {
+                    result = doc;
+                    return true;
+                }
+            } catch (e) {
+            }
+            return false;
+        }, this);
+        return result;
+    }
+};
+
+/**
+ * Read a sb.Document from file content
+ * @param {string} text File content in string.
+ * @param {string} format  'sbgn-ml','jsbgn' and 'sbml' is supported
+ * @return {sb.Document}
+ * @private
+ */
+sb.io.read_ = function (text, format) {
     sb.io.logger_.fine("Reading format: " + format);
     var reader;
     if (format == 'sbgn-ml') {
@@ -27,15 +55,14 @@ sb.io.read = function (text, format) {
     } else if (format == 'jsbgn') {
         reader = new sb.io.JsbgnReader();
         sb.io.logger_.fine("using sb.io.JsbgnReader");
-    } else if (format=='sbml'){
-        reader=new sb.io.SbmlReader();
+    } else if (format == 'sbml') {
+        reader = new sb.io.SbmlReader();
         sb.io.logger_.fine("using sb.io.SbmlReader");
     }
     else {
         throw new Error("Format " + format + " not supported");
     }
     sb.io.logger_.fine('Parsing xml size:' + text.length);
-
     return reader.parseText(text);
 };
 
@@ -69,8 +96,8 @@ sb.io.write = function (doc, format) {
     if (format == 'jsbgn') {
         writer = new sb.io.JsbgnWriter();
         sb.io.logger_.fine("using sb.io.JsbgnWriter");
-    } else if(format=='sbgn-ml'){
-        writer=new sb.io.SbgnWriter();
+    } else if (format == 'sbgn-ml') {
+        writer = new sb.io.SbgnWriter();
         sb.io.logger_.fine("using sb.io.SbgnWriter");
     } else {
         throw new Error("Format " + format + " not supported");
