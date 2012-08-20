@@ -101,7 +101,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         var target = arc.target();
         var targetId = target.id();
         if (target.type() == sb.NodeType.StateVariable) { //source and targets are of the format node_id:subnode_id if the node contains a state variable
-            targetId = target.parent().id() + ":" + target.id();
+            targetId = target.parent().id() + ":" + target.attr('variable');
         }
         arcObj['target'] = targetId;
         var arcData = {};
