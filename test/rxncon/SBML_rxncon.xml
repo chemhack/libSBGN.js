@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- created with rxncon.org -->
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model id="5a562c17-faf8-4e39-be9d-2641cc9cde7e">
+    <listOfCompartments>
+      <compartment id="cell" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="S1" name="A(bd_B_bd,bd_C_bd)" compartment="cell" initialConcentration="100"/>
+      <species id="S2" name="C(bd_A_bd)" compartment="cell" initialConcentration="100"/>
+      <species id="S3" name="B(bd_A_bd)" compartment="cell" initialConcentration="100"/>
+      <species id="S4" name="A(bd_B_bd!1,bd_C_bd)__B(bd_A_bd!1)" compartment="cell" initialConcentration="0"/>
+      <species id="S5" name="A(bd_B_bd!1,bd_C_bd!2)__B(bd_A_bd!1)__C(bd_A_bd!2)" compartment="cell" initialConcentration="0"/>
+      <species id="S6" name="A(bd_B_bd,bd_C_bd!1)__C(bd_A_bd!1)" compartment="cell" initialConcentration="0"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="kf0" value="1"/>
+      <parameter id="kr0" value="1"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="R1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S1"/>
+          <speciesReference species="S3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf0 </ci>
+              <ci> S1 </ci>
+              <ci> S3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S1"/>
+          <speciesReference species="S3"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kr0 </ci>
+              <ci> S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S2"/>
+          <speciesReference species="S4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S5"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf0 </ci>
+              <ci> S2 </ci>
+              <ci> S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R4" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S3"/>
+          <speciesReference species="S6"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kr0 </ci>
+              <ci> S5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R5" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2"/>
+          <speciesReference species="S4"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kr0 </ci>
+              <ci> S5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R6" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S3"/>
+          <speciesReference species="S6"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S5"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf0 </ci>
+              <ci> S3 </ci>
+              <ci> S6 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
