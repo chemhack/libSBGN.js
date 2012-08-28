@@ -24,7 +24,7 @@ sb.io.read = function (text, format) {
         return sb.io.read_(text, format);
     } else {
         var result;
-        goog.array.find(['jsbgn', 'sbgn-ml', 'sbml'], function (formatToTest) {
+        goog.array.find(['jsbgn', 'sbgn-ml', 'rxncon', 'sbml'], function (formatToTest) {
             try {
                 var doc = sb.io.read_(text, formatToTest);
                 if (doc) {
@@ -55,6 +55,9 @@ sb.io.read_ = function (text, format) {
     } else if (format == 'jsbgn') {
         reader = new sb.io.JsbgnReader();
         sb.io.logger_.fine("using sb.io.JsbgnReader");
+    } else if (format == 'rxncon') {
+        reader = new sb.io.RxnconReader();
+        sb.io.logger_.fine("using sb.io.RxnconReader");
     } else if (format == 'sbml') {
         reader = new sb.io.SbmlReader();
         sb.io.logger_.fine("using sb.io.SbmlReader");
