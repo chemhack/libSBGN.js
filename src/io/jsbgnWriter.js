@@ -25,6 +25,21 @@ sb.io.JsbgnWriter.sbgnlangMapping_[sb.Language.ER] = 'ER';
 sb.io.JsbgnWriter.sbgnlangMapping_[sb.Language.AF] = 'AF';
 sb.io.JsbgnWriter.sbgnlangMapping_[sb.Language.PD] = 'PD';
 
+
+/**
+ * Get proper id for linking, for state variables and ports.
+ * @param {sb.Node|sb.Port} element
+ * @return {string}
+ */
+sb.io.JsbgnWriter.prototype.getProperRef = function (element) {
+    if (element instanceof sb.Port) {
+        return element.parent().id();
+    } else if (element.type() == sb.NodeType.StateVariable) { //source and targets are of the format node_id:subnode_id if the node contains a state variable
+        return element.parent().id() + ":" + element.attr('variable');
+    }
+    return element.id();
+};
+
 /**
  *
  * @param {sb.Document} doc
@@ -68,6 +83,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         }
         goog.array.forEach(node.children(), function (subNode) {
             if (subNode instanceof sb.Port) {
+                //TODO: will jsbgn support port?
                 return;
             }
             if (subNode.type() == sb.NodeType.UnitOfInformation) {
@@ -98,6 +114,7 @@ sb.io.JsbgnWriter.prototype.write = function (doc) {
         var arcObj = {};
         arcObj['id'] = arc.id();
         arcObj['sbo'] = sb.sbo.ArcTypeMapping[arc.type()];
+
         arcObj['type'] = "arc: "+arc.type();
         arcObj['source'] = arc.source().id();
         var target = arc.target();

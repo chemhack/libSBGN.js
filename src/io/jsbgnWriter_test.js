@@ -14,6 +14,11 @@ function setUp() {
 function testWriteDocument(){
     var doc=sbgnReader.parseText(_allData['sbgn/AF/activity-nodes.sbgn'].content);
     var jsbgnText=writer.write(doc);
-    document.write(jsbgnText);
+}
+
+function test_reactionVertex_7741852(){
+    var doc=sbgnReader.parseText(_allData['sbgn/bugs/React69620.sbgnml.xml'].content);
+    var jsbgnText=writer.write(doc);
+    assertTrue(jsbgnText.indexOf("reactionVertex_7741852.1")<0);
 }
 

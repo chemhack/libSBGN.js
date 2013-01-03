@@ -127,7 +127,7 @@ sb.io.JsbgnReader.prototype.parseText = function (text) {
 
         goog.array.forEach(json_edges, function (json_edge) {
             var arc = this.document_.arc(String(json_edge['id']));
-            arc.attr('jsbgn.sbo', json_edge['sbo']);
+            arc.attr('jsbgn.sbo',   json_edge['sbo']);
             arc.type(sb.sbo.ReverseArcTypeMapping[json_edge['sbo']]);
             arc.source(json_edge['source']);
             arc.target(json_edge['target']);
