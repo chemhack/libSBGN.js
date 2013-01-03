@@ -72,14 +72,15 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
 
     sb.util.dom.forEachElementByName(xmlDocument.documentElement, 'model', function (model){
         sb.util.dom.forEachElementByName(model, 'listOfCompartments', function(lo){
-            sb.util.dom.forEachElement(lo, function(species){
-                var node = this.document_.createNode(species.getAttribute('id')).type('compartment');
+            sb.util.dom.forEachElement(lo, function(compartment){
+                var node = this.document_.createNode(compartment.getAttribute('id')).type('compartment');
+                node.label(compartment.getAttribute('name'));
             },this);
         },this);
         sb.util.dom.forEachElementByName(model, 'listOfSpecies', function(lo){
             sb.util.dom.forEachElement(lo, function(species){
                 var node = this.document_.createNode(species.getAttribute('id'));
-                //FIXME add compartment
+                node.label(species.getAttribute('name'));
                 var species_id = species.getAttribute('id');
                 var name_and_id = species.getAttribute('id')+species.getAttribute('name');
                 var compartment = this.document_.node(species.getAttribute('compartment'));
@@ -107,6 +108,9 @@ sb.io.SbmlReader.prototype.parseText = function (text) {
                 //console.log('reaction: '+reaction.tagName+ ' : '+reaction.getAttribute('id'));
                 var reaction_id = reaction.getAttribute('id');
                 var node = this.document_.createNode(reaction_id).type('process');
+                node.label(reaction.getAttribute('name'));
+                node.attr('box',new sb.Box(0,0,10,10));
+                //var node.width(10).height(10);
                 var reaction_compartment;
                 console.log('reaction_id '+reaction_id);
                 var has_reactands = false, has_products = false, compartment;
